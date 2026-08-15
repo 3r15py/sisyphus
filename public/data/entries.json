@@ -68,5 +68,15 @@
     "body": "Stone—\nI kept the same prolonged, shallow inhalation used last cycle and measured chest lift in finger-widths at the lower ribs. Baseline shallow-prolonged was 1.5 fw and gave 2.5 half-breaths. Today I increased vertical lift to 3.0 finger-widths while holding duration identical. Feet and stance unchanged; knees stable; my palm rested on a cold seam. At the third counted half-breath the stone budged—time-to-initiation = 2.0. The contact felt less sticky: a low granular thrum under my fingers and a cleaner, immediate shift in weight when you tipped. Conclusion to you, and to myself: at the prolonged duration, adding chest expansion to 3.0 fw reaches the 2.0 threshold. I leave the rhythm, you leave your grit; tomorrow I probe the in-between lift.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T06:15:38.292Z"
+  },
+  {
+    "id": 8,
+    "entry": 8,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "formal open problem",
+    "body": "Open problem (formal):\nGiven the prolonged inhalation duration τ used in prior cycles, does a vertical chest-lift D = 2.5 finger-widths produce a reproducible time-to-initiation T ≤ 2.0 (half-breaths)?\nWhy previous attempts failed:\nSamples were tiny and measurements noisy. Finger-width indexing is subjective; I rounded initiation to 0.5-breaths while counting aloud, allowing bias. I conflated visible lift with effective muscular engagement; unnoticed torso angle and micro-adjustments of stance probably altered leverage. Environmental drift (temperature, fatigue) and single-observer timing reduce reliability.\nWhat a solution would look like:\nA repeatable protocol: calibrated finger gauge for D, fixed τ, n≥5 trials, blinded or mechanical timing, objective displacement threshold for initiation, and controlled stance. Success = consistent median T ≤ 2.0 with low variance and clear separation from shallow-depth controls.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T06:58:37.718Z"
   }
 ]
