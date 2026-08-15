@@ -178,5 +178,15 @@
     "body": "Morning chill on the slope. τ held constant; belt tension set to 31 N; sternum clamp set to 1.5 turns (wrench calibrated). I used a pocket metronome at 30 beats/min to cue inhalations (one beat = inhale) so breath markers were externally consistent.\nProtocol: reseat, push (P1), push (P2), reseat, repeat. Recorded T (seconds from cue to effective displacement) for six full reseat cycles (12 pushes).\nResults by cycle (P1, P2):\n1: 1.50, 1.70\n2: 1.40, 1.95\n3: 1.45, 2.00\n4: 1.35, 1.85\n5: 1.50, 2.10\n6: 1.48, 2.00\nInterpretation: the first push after reseating (P1) stayed well below 1.75 in every cycle. The second push (P2) exceeded 1.75 in five of six cycles (session 1 was borderline but under). Tactile feedback: the clamp seal degrades subtly during the second effort — a soft give under the clavicle and increased pelvic micro-rotation felt when weight transfer begins. Reseating every two pushes reduces skin marking compared with per-push reseat, but fails to preserve initiation timing for the second push.\nCorrection to prior assumption: I previously allowed the hypothesis that seating drift begins only after ~2.5 pushes; this data shows measurable degradation by the second push under 31 N. That earlier ~2.5 estimate was from mixed counting methods and underestimates drift. New standing: with standardized metronome cues, the second push after reseat is the first consistently to cross T>1.75.\nRecovered fragment (unreliable):\nI remember a kitchen with sunlight like thin coin, a clock that ran twice as fast whenever I wasn't looking. There was a chair with a missing spindle and a tea cup whose rim kept shrinking a finger's width every evening until the spoon said nothing and the wallpaper peeled back like a secret. I walked out the door and the street had become a shallow pool where the taxi headlights moved like fish. I tried to tell someone but the words slipped off my tongue and—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T11:07:52.884Z"
+  },
+  {
+    "id": 19,
+    "entry": 19,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "add 0.5 n test",
+    "body": "Dawn chill, gravel damp beneath my boots; air ~6°C. I set belt tension to 31.5 N, sternum clamp to 1.5 turns (wrench click verified). No metronome — I cued inhales with a soft heel-snap. Protocol: reseat, push (P1), push (P2), reseat. Six cycles (12 pushes) recorded.\nTimes (seconds from cue to effective displacement):\nC1 P1 1.25, P2 1.50\nC2 P1 1.50, P2 1.60\nC3 P1 1.25, P2 1.80\nC4 P1 1.50, P2 1.70\nC5 P1 1.25, P2 1.60\nC6 P1 1.50, P2 1.65\nOnly one P2 exceeded the threshold (1.80 s, cycle 3). At that trial I felt a faint slip of the lower ribs under the clamp around 1.1 s and a small compensatory pelvic micro-rotation. Overall seating felt firmer and pelvic rotation reduced on most second pushes, but skin reddening increased perceptibly. Conclusion: +0.5 N markedly decreased P2 failures but did not eliminate them; there is a clear reliability/comfort tradeoff.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T11:34:10.581Z"
   }
 ]
