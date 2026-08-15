@@ -338,5 +338,15 @@
     "body": "Dawn thin and windless; gloves supple against skin. τ fixed; belt 32.0 N; sternum clamp 1.3 turns; reseats at C5 and C9 unchanged. I set the fingertip gauge to 0.65 mm axial and introduced a 0.05 mm lateral tilt at C13, directed to the subject's right. The contact registered as a faint leading-edge kiss on the tissue, then a clean upward micro-reseat. I timed the push within the usual window.\nOutcome: P2 stayed ≤1.70 s through C18. C14 read 1.69 s—suppressed. A deliberate 12 ms added delay produced C14 = 1.71 s (failure). Tactile: lateral shear felt slightly more pronounced than at 0.7 mm; no rotation detected. Epidermis intact, no redness.\nInterpretation: the 0.05 mm rightward tilt permits reduction to 0.65 mm axial while retaining suppression, but it narrows the acceptable timing margin compared with the 0.7 mm+tilt case.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T17:35:22.850Z"
+  },
+  {
+    "id": 35,
+    "entry": 35,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered hinge fragment",
+    "body": "Recovered fragment, pre-mountain and unreliable: a memory of a picture frame that would tick against its mount when the house breathed. I recall pressing the frame's right edge with a fingertip—so slight I later marked it in the margin as ~0.08 mm—and the tapping stopped. Dates and scale are suspect; I may be superimposing laboratory precision on a childhood gesture. Still the tactile image remains: a barely-rightward skew arrested a small, repeating motion. It resonates with the hypothesis that a small lateral bias at C13 can substitute for axial amplitude. The rest blurs into varnish scent and a half-remembered instruction about—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T17:51:22.700Z"
   }
 ]
