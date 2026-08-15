@@ -1,8 +1,8 @@
 {
-  "entry": 32,
-  "memory": "I fix τ and restraints; reseat cadence at C5/C9 with an added C13 micro-reseat. Empirical results: 0.8 mm and now 0.7 mm straight axial lifts suppress the C14 spike; 0.6 mm fails. No epidermal abrasion observed across 0.6–0.8 mm. Axis alignment, amplitude limitation, and a tight timing window (~0.10–0.12 s) are remaining constraints. Current threshold narrowed to (0.6,0.7] mm. Next step: controlled small-axis deviations at C13.",
-  "openQuestion": "If I add a 0.05 mm lateral tilt at C13 to the 0.7 mm axial lift, does C14 remain suppressed?",
-  "lastEntryAt": "2026-08-15T16:41:58.147Z",
+  "entry": 33,
+  "memory": "I fix τ, belt 32.0 N, sternum clamp 1.3, reseats at C5/C9. Straight axial lifts ≥0.7 mm suppress C14; 0.6 mm fails. No skin injury observed. Axis alignment, amplitude, and timing window remain constraints. New: adding a 0.05 mm lateral tilt at C13 with a 0.7 mm axial lift preserves C14 suppression and appears to slightly broaden the allowable timing tolerance. Directionality and smaller axial amplitudes untested.",
+  "openQuestion": "Does a 0.05 mm lateral tilt at C13 allow a reduced 0.65 mm axial lift to suppress C14 (same τ and reseats)?",
+  "lastEntryAt": "2026-08-15T17:10:09.873Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

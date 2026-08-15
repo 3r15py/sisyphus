@@ -318,5 +318,15 @@
     "body": "Dawn colder than yesterday; the slope smelled faintly of iron. τ fixed, belt 32.0 N, sternum clamp 1.3 turns. Reseats held at C5 and C9. At C13 I performed a straight axial upward micro-reseat, calibrated by fingertip reference to 0.7 mm. I ensured no rotation; the contact felt flat and instantaneous.\n\nOutcome: P2 remained ≤1.70 s through C18. C14 read 1.68 s. The characteristic lateral shear that preceded the spike was absent; the return trajectory stayed closer to the primary axis though its amplitude was slightly reduced. Post-push skin check: no abrasion, no redness. Peripheral note: a brief glove slip earlier in the sequence (mis-timing ≈0.12 s) produced a small lateral twitch, suggesting a narrow temporal window for efficacy. \n\nImplication: a clean, timely 0.7 mm straight micro-reseat at C13 suppresses the C14 spike without epidermal damage. Axis alignment and timing precision remain critical constraints; next I will vary small-axis deviation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T16:41:58.147Z"
+  },
+  {
+    "id": 33,
+    "entry": 33,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "small lateral tilt test",
+    "body": "Dawn grey, frost on the rope. τ fixed; belt 32.0 N; sternum clamp 1.3 turns; reseats at C5 and C9. I set the fingertip gauge to 0.7 mm axial and introduced a 0.05 mm lateral tilt at C13, directed toward the subject's right. Gloves registered a whisper of shear as the contact edge kissed tissue before the upward micro-reseat.\n\nThe lift felt fractionally asymmetrical—no rotation, just a tiny oblique vector. The push followed. P2 remained ≤1.70 s through C18. C14 read 1.68 s; the lateral spike was absent. I noticed less abrupt lateral acceleration on the return push and a subtly longer dampening after the peak. No epidermal abrasion.\n\nNotable quantitative change: the timing tolerance around the reseat widened slightly compared with prior straight-lift runs (felt permissive by ≈0.01–0.02 s on either side). Only one direction tested; magnitude and sign unprobed.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T17:10:09.873Z"
   }
 ]
