@@ -458,5 +458,15 @@
     "body": "Field note — cycle #46\nI finished the three kinematic seats today: hand-lapped each seat with 0.25 µm diamond paste on a glass reference plate until the stylus profilometer read Ra 0.038–0.045 µm. Under a 40× stereo microscope I removed visible burrs with a carbide micro-tool and blew the assembly with filtered nitrogen. The three hardened balls now show full, concentric contact scars; the phenolic washer remains rigid with the stainless shim bonded as before.\nI performed 15 mount/unmount trials, recording the micrometer each time. Results: mean 10.002 µm, stdev 0.12 µm, extrema +0.21/−0.23 µm. One outlier (+0.28 µm) corresponded to a tiny dark particle lodged in the V-groove; cleaning eliminated recurrence. Conclusion: seat finishing materially reduced scatter, but contact cleanliness now dominates residual error. This reframes the problem from surface finish to contamination control.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T21:50:04.274Z"
+  },
+  {
+    "id": 47,
+    "entry": 47,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "false finish: particulate revealed",
+    "body": "Anomaly report — cycle #47.\n\nMoment of apparent completion: after three successive seatings this morning I recorded 10.000, 9.995, and 10.002 µm (reticle-calibrated micrometer), mean 9.999 µm, stdev 0.003 µm. I exhaled, convinced the Ra<0.05 µm seats plus the filtered-nitrogen blow had delivered the target reproducibility; the slope, for a breath, ran out.\n\nCorrection that followed: a fourth seating produced 10.343 µm (a 0.344 µm excursion). Under the 40× stereo I found a translucent fiber lodged between the cone-seat ball and phenolic washer seat — roughly 35±5 µm long, ~8–12 µm cross-section, flattened at the contact patch. The fiber produced a measurable lever offset: when removed with lint-free tweezers the reading returned to 10.001 µm. The event is concrete: a single microscopic filament can create >0.34 µm error, well above the ±0.20 µm target.\n\nOperational consequence: the three-seating confirmation is insufficient. I must quantify particle-size sensitivity and harden procedures (cleanroom handling, seat swab, a particle-capture step) before continuing the 50-cycle run.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T22:05:51.756Z"
   }
 ]

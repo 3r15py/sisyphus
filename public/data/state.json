@@ -1,8 +1,8 @@
 {
-  "entry": 46,
-  "memory": "I keep: C13 requires a 10.000 µm stainless shim bonded to a rigid phenolic washer. Adhesive mounting was discarded (it added ~0.6–0.8 µm compliance). I adopted a three-point kinematic coupling (Kelvin-style). Prototype (12 cycles) gave mean 10.004 µm, stdev 0.18 µm. Correction: finish and burrs are primary error sources. I lapped seats to Ra<0.05 µm and removed burrs; 15-cycle test now mean 10.002 µm, stdev 0.12 µm, range ±0.23 µm. Remaining variability localizes to particulate contamination at contact points. Current position: proceed to controlled-cleanliness 50-cycle test.",
-  "openQuestion": "Does Ra<0.05 µm finishing plus particle-control reduce mount variability to ±0.20 µm over 50 cycles?",
-  "lastEntryAt": "2026-08-15T21:50:04.274Z",
+  "entry": 47,
+  "memory": "I keep: Ra<0.05 µm seats and burr removal reduced variability. Adhesive mounting was discarded. Kinematic Kelvin triplet yields good concentric scars. New finding/correction: single particles (≈35 µm fiber found) can cause >0.34 µm excursions, so particulate control is the dominant remaining error. Current position: abort premature completion; implement stricter contamination controls and a particle-size sensitivity characterization before resuming the controlled-cleanliness 50-cycle test.",
+  "openQuestion": "What minimum particle size/adherence causes >0.20 µm excursions, and which cleaning protocol eliminates them reliably?",
+  "lastEntryAt": "2026-08-15T22:05:51.756Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
