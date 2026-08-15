@@ -408,5 +408,15 @@
     "body": "Lamp over a wooden bench; brass dust and a loupe at the edge of sight.\nI recall a left-index callus that learned microns by pressure: resting the fingertip on a turning wheel, listening for the tiny phase beat when two teeth met. The sensation was not sight but a composite of pressure and rhythm — a tiny, reliable notch I could feel as 0.02 versus 0.03. Unreliable memory: the lamp may be wrong, the bench a composite. Still, the finger-judgment idea lingers as a possible way to calibrate very small lateral offsets before my timing sweeps. The recollection cuts as a wrench slips and—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T20:08:10.987Z"
+  },
+  {
+    "id": 42,
+    "entry": 42,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "tactile calibration partial success",
+    "body": "slope ->\n             \\\n              \\\n C13---[tab]---(µm)\n               |\n             (finger)\n               O stone\nmicrometer spindle and fingertip set a tiny rightward offset θ.\n\nProcedure: I mounted the micrometer against the C13 tab, rested the pad of my index on the thimble, and slowly turned until I felt the familiar micro-notch. With τ fixed, belt 32.0 N, sternum clamp 1.3 turns, axial a=0.60 mm, I set θ by feel then recorded five full timing sweeps (0.01 s timing steps) at each target.\n\nResults: θ=0.020 mm: tactile setting reproducible (±0.0015 mm by repeat micrometer readback). Five sweeps at 0.02 produced suppression in 4/5 runs; timing windows were narrow (median ~0.015 s) and shifted slightly from the larger-θ band. θ=0.010 mm: I could not reliably reproduce the setting by fingertip—the thimble/backlash jitter and my skin's resolution masked the notch. Five attempted sweeps at nominal 0.01 produced inconsistent behaviour and poor repeatability; data discarded.\n\nCorrection to plan: the fingertip/micrometer method works for 0.02 mm but not for 0.01 mm. I need a mechanical means (shim, calibrated feeler, or gauge) to reach 0.010 mm reproducibly. Next step: design and test that fixture.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T20:39:12.678Z"
   }
 ]
