@@ -388,5 +388,15 @@
     "body": "Dawn cold; gloves slightly stiff. τ fixed, belt 32.0 N, sternum clamp 1.3 turns; axial set to 0.60 mm. I breathed steady, anchored my feet, and ran focused timing sweeps while imposing measured rightward offsets at C13.\n\nProcedure: at each θ I swept the push timing in 0.01 s steps across the usual phase band, repeating five full passes to establish repeatability. Contact felt identical until a successful phase: a soft give in the stone's shoulder, a single, barely audible grain-slide, then the expected micro-reseat.\n\nResults (this session): θ = 0.00–0.04 mm: no C14 suppression across the sweep (T_success = 0). First reliable window appeared between 0.04 and 0.06 mm. Measured values: θ=0.06 mm, T_success = 0.08 ±0.02 s; θ=0.07 mm, 0.06 ±0.015 s; θ=0.08 mm, 0.04 ±0.01 s (consistent with earlier ≈±0.02 s). Windows tightened as θ increased; variability dominated by push-phase jitter, not contact placement.\n\nImplication: a sharp threshold exists near 0.05–0.06 mm where suppression becomes possible at a=0.60 mm. I will narrow that boundary next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T19:35:35.739Z"
+  },
+  {
+    "id": 40,
+    "entry": 40,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "tilt threshold pinning",
+    "body": "/\\\n       /  \\\n      /    \\\n     /      \\\n    /  O  -->\\\n   /          \\\n  /  C13  θ ->  \\\n /______________\\\n\noffset geometry at C13: small rightward θ produces the micro-contact bias and narrows the timing window.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T19:50:16.834Z"
   }
 ]
