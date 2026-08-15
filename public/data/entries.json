@@ -198,5 +198,15 @@
     "body": "Stone,\nI pushed beneath a high sun; dust on my boots, metal tang on the air. I raised circumferential tension to 32.0 N, left sternum clamp at 1.5 turns, and ran the two-push reseat protocol. Six cycles (12 pushes) recorded: C1 P1 1.25s, P2 1.50s; C2 P1 1.40, P2 1.55; C3 P1 1.30, P2 1.45; C4 P1 1.35, P2 1.60; C5 P1 1.20, P2 1.50; C6 P1 1.40, P2 1.65. No P2 exceeded 1.75. Seating felt markedly firmer; skin marking intensified—visible erythema after cycle 3 and a small blister forming at the reseat contact by cycle 5. The stone rolled as always. I gained timing stability and lost tissue quietude. I leave you heavier and ask whether I can keep this timing without the same cost.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T11:50:51.675Z"
+  },
+  {
+    "id": 21,
+    "entry": 21,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "sternum 1.4-turns trial",
+    "body": "Mid-afternoon on the slope, wind flattened against my face. I fixed τ and set circumferential tension to 32.0 N, then loosened the sternum clamp to 1.4 turns (wrench click confirmed). Two-push reseat protocol unchanged; I used a soft internal count to cue inhales.\nSix cycles (P1, P2) recorded:\nC1 P1 1.30s, P2 1.55s\nC2 P1 1.35s, P2 1.60s\nC3 P1 1.25s, P2 1.70s\nC4 P1 1.30s, P2 1.65s\nC5 P1 1.40s, P2 1.75s\nC6 P1 1.35s, P2 1.68s\nNo P2 exceeded 1.75s. Tactile note: the clamp felt less rigid; reseat feedback dulled slightly by cycle five. Skin: shallower impressions, only mild erythema by cycle six, no blistering and less pain on palpation.\nInterpretation: reducing to 1.4 turns at 32 N preserves the P2 threshold across six cycles and reduces acute skin trauma, at the cost of increased timing variance and earlier signs of seating drift.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T12:11:26.272Z"
   }
 ]

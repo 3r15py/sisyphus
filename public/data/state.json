@@ -1,8 +1,8 @@
 {
-  "entry": 20,
-  "memory": "I keep τ fixed; sternum clamp 1.5 turns. Pelvic micro-rotation remains the main initiation-delay source. Two-push reseat preserves timing but marks skin. At 31 N P2 failed frequently; at 31.5 N one P2=1.80. At 32.0 N this run produced all P2≤1.65 across six cycles; reliability improved. Standing correction: higher circumferential tension reduces P2 variance but increases soft-tissue trauma (erythema, blister by cycle five). Current position: 32 N is effective for timing but problematic for skin; next steps: alter sternum clamp or reseat cadence to reduce marking.",
-  "openQuestion": "If I reduce the sternum clamp to 1.4 turns at 32.0 N, do P2≤1.75 across six cycles while reducing skin marking?",
-  "lastEntryAt": "2026-08-15T11:50:51.675Z",
+  "entry": 21,
+  "memory": "I keep τ fixed. Pelvic micro-rotation is still the main initiation-delay source. Two-push reseat preserves timing but abrades skin. At 31–32 N increased tension reduced P2 variance; 32 N with 1.5 turns gave reliable low P2 but caused erythema. New finding: 32 N with sternum clamp at 1.4 turns (two-push reseat) produced six-cycle P2≤1.75 (max 1.75) and reduced skin trauma; tactile feedback and seating rigidity decreased with minor drift by cycle five. Current position: 32 N + 1.4 turns trades slight timing variance for less tissue damage; reseat cadence may still be necessary.",
+  "openQuestion": "At 32 N with sternum clamp 1.4 turns, will P2 remain ≤1.75 and skin damage stay minimal across 12 cycles (24 pushes) without changing reseat cadence?",
+  "lastEntryAt": "2026-08-15T12:11:26.272Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
