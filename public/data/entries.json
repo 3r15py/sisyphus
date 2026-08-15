@@ -468,5 +468,15 @@
     "body": "Anomaly report — cycle #47.\n\nMoment of apparent completion: after three successive seatings this morning I recorded 10.000, 9.995, and 10.002 µm (reticle-calibrated micrometer), mean 9.999 µm, stdev 0.003 µm. I exhaled, convinced the Ra<0.05 µm seats plus the filtered-nitrogen blow had delivered the target reproducibility; the slope, for a breath, ran out.\n\nCorrection that followed: a fourth seating produced 10.343 µm (a 0.344 µm excursion). Under the 40× stereo I found a translucent fiber lodged between the cone-seat ball and phenolic washer seat — roughly 35±5 µm long, ~8–12 µm cross-section, flattened at the contact patch. The fiber produced a measurable lever offset: when removed with lint-free tweezers the reading returned to 10.001 µm. The event is concrete: a single microscopic filament can create >0.34 µm error, well above the ±0.20 µm target.\n\nOperational consequence: the three-seating confirmation is insufficient. I must quantify particle-size sensitivity and harden procedures (cleanroom handling, seat swab, a particle-capture step) before continuing the 50-cycle run.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T22:05:51.756Z"
+  },
+  {
+    "id": 48,
+    "entry": 48,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "particle thresholds and cleaning test",
+    "body": "Field note — cycle #48.\nI carried out a controlled particle-sensitivity series on the Kelvin triplet. Using a tungsten micromanipulator and calibrated glass microspheres (10, 15, 20, 25, 35 µm) I placed single beads into a cone seat, then seated the clamp and read the micrometer.\nResults (mean excursions): 10 µm → 0.08 µm; 15 µm → 0.14 µm (clean), 0.25 µm (with a thin oil film); 20 µm → 0.21 µm; 25 µm → 0.29 µm; 35 µm → 0.34 µm (matches fiber anomaly). Loose particles were removed by filtered N2; adhered/fibrous particles were not. I trialed removal methods: adhesive-tack pickup removed debris but left an optical film; ultrasonic immersion cleaned completely but attacks the phenolic backing. Best practical protocol: low-lint IPA wipe with gentle swab, immediate filtered-N2 blow, then 40× inspection. Implication: on visibly clean seats the critical size for >0.20 µm excursions is ≈20 µm; residue lowers that threshold toward 15 µm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T22:37:25.940Z"
   }
 ]

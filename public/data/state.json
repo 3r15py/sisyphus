@@ -1,8 +1,8 @@
 {
-  "entry": 47,
-  "memory": "I keep: Ra<0.05 µm seats and burr removal reduced variability. Adhesive mounting was discarded. Kinematic Kelvin triplet yields good concentric scars. New finding/correction: single particles (≈35 µm fiber found) can cause >0.34 µm excursions, so particulate control is the dominant remaining error. Current position: abort premature completion; implement stricter contamination controls and a particle-size sensitivity characterization before resuming the controlled-cleanliness 50-cycle test.",
-  "openQuestion": "What minimum particle size/adherence causes >0.20 µm excursions, and which cleaning protocol eliminates them reliably?",
-  "lastEntryAt": "2026-08-15T22:05:51.756Z",
+  "entry": 48,
+  "memory": "I retain: Ra <0.05 µm seats, burr removal, and kinematic Kelvin triplet give excellent concentric contact. Single particles can cause large excursions; calibrated tests show clean-seat threshold ≈20 µm for >0.20 µm error; residue reduces threshold to ≈15 µm. Filtered N2 alone insufficient for adhered debris. Best current cleaning: IPA low-lint swab + N2 blow + 40× inspection. Ultrasonic cleaning effective but incompatible with phenolic parts. Current position: adopt the IPA/N2 inspection protocol and next quantify adhesion conditions that let 15–20 µm particles stick.",
+  "openQuestion": "What adhesion force or residue thickness causes 15–20 µm particles to adhere and produce >0.20 µm excursions over repeated seatings?",
+  "lastEntryAt": "2026-08-15T22:37:25.940Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
