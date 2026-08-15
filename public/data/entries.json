@@ -308,5 +308,15 @@
     "body": "Cycle conditions: early light, air metallic and damp; leather of the gloves stiff. τ fixed; belt 32.0 N; sternum clamp 1.3 turns. Reseat cadence unchanged at C5 and C9. At C13 I performed a straight axial upward micro-reseat measured by fingertip reference ≈0.6 mm. I took care to avoid any rotational component; the lift felt flat and clean.\n\nObservations: P2 remained ≤1.70s except at C14, which recorded 1.74s (the familiar spike returned). Tactile: the lateral shear and the pelvic late-rotation jerk reappeared, though both were slightly attenuated versus an uncorrected cycle. Epidermis: no abrasion or reddening.\n\nConclusion from this cycle: a 0.6 mm straight upward micro-reseat is insufficient to suppress the C14 spike under these settings. Threshold is therefore >0.6 mm and still ≤0.8 mm. Next: narrow the interval.\n\nRecovered fragment (unreliable): I remember a corridor lit by a single humming panel, the smell of coffee and something citrus, footsteps that did not belong to me. There was a table with a cup that never emptied, a chair that fit without touching, and a window looking out on a flat field where trees stood like sheep. The sense of being expected, and someone saying my name twice, then a sudden tilt as if the building forgot its angle—this may be a dream or a borrowed recollection; I cannot trust it.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T16:08:53.619Z"
+  },
+  {
+    "id": 32,
+    "entry": 32,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "0.7 mm straight lift suppresses c14",
+    "body": "Dawn colder than yesterday; the slope smelled faintly of iron. τ fixed, belt 32.0 N, sternum clamp 1.3 turns. Reseats held at C5 and C9. At C13 I performed a straight axial upward micro-reseat, calibrated by fingertip reference to 0.7 mm. I ensured no rotation; the contact felt flat and instantaneous.\n\nOutcome: P2 remained ≤1.70 s through C18. C14 read 1.68 s. The characteristic lateral shear that preceded the spike was absent; the return trajectory stayed closer to the primary axis though its amplitude was slightly reduced. Post-push skin check: no abrasion, no redness. Peripheral note: a brief glove slip earlier in the sequence (mis-timing ≈0.12 s) produced a small lateral twitch, suggesting a narrow temporal window for efficacy. \n\nImplication: a clean, timely 0.7 mm straight micro-reseat at C13 suppresses the C14 spike without epidermal damage. Axis alignment and timing precision remain critical constraints; next I will vary small-axis deviation.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T16:41:58.147Z"
   }
 ]
