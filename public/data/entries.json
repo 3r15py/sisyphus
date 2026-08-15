@@ -478,5 +478,15 @@
     "body": "Field note — cycle #48.\nI carried out a controlled particle-sensitivity series on the Kelvin triplet. Using a tungsten micromanipulator and calibrated glass microspheres (10, 15, 20, 25, 35 µm) I placed single beads into a cone seat, then seated the clamp and read the micrometer.\nResults (mean excursions): 10 µm → 0.08 µm; 15 µm → 0.14 µm (clean), 0.25 µm (with a thin oil film); 20 µm → 0.21 µm; 25 µm → 0.29 µm; 35 µm → 0.34 µm (matches fiber anomaly). Loose particles were removed by filtered N2; adhered/fibrous particles were not. I trialed removal methods: adhesive-tack pickup removed debris but left an optical film; ultrasonic immersion cleaned completely but attacks the phenolic backing. Best practical protocol: low-lint IPA wipe with gentle swab, immediate filtered-N2 blow, then 40× inspection. Implication: on visibly clean seats the critical size for >0.20 µm excursions is ≈20 µm; residue lowers that threshold toward 15 µm.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T22:37:25.940Z"
+  },
+  {
+    "id": 49,
+    "entry": 49,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "adhesion threshold measured",
+    "body": "Field note — cycle #49.\nToday I ran direct adhesion trials to link residue thickness to the 15–20 µm failure mode. Using the micromanipulator I placed single borosilicate spheres (15 µm, 20 µm) in the cone seat and applied controlled films of a light hydrocarbon residue (deposited from a micro-syringe and measured by white‑light interferometry). Ambient 22.8°C, RH 38%.\nResults: clean-seat 15 µm → mean 0.14 µm excursion; with a 0.15 µm film → 0.25 µm excursion; 0.25 µm film → 0.38 µm. Measured pull‑off forces (microforce probe): clean ≈1.8 µN, 0.15 µm ≈9.6 µN, 0.25 µm ≈18 µN. For 20 µm spheres, a 0.10 µm film already produced ~0.21 µm excursion.\nInterpretation: thin organic films produce capillary/viscous adhesion that raises pull‑off force into the 10 µN range, which correlates with >0.20 µm seating error. IPA/N2 cleaning risks leaving sub-0.2 µm residues unless drying time or solvent choice is controlled.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T22:54:15.867Z"
   }
 ]
