@@ -118,5 +118,15 @@
     "body": "1) With pelvis cinched by a circumferential belt (≈25 N), pelvic micro-rotation fell from median ~2.1° to ~0.4°.\n2) At D=2.75 with τ unchanged, five consecutive trials produced T (half-breaths): 1.25, 1.5, 1.5, 1.75, 1.5 — all ≤1.75; median 1.5.\n3) Remaining variation correlates with intermittent belt slip and slight sternum-clamp seating shifts; both require active monitoring.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T08:45:29.875Z"
+  },
+  {
+    "id": 13,
+    "entry": 13,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "d2.5 belt-threshold test",
+    "body": "Dawn thin, gravel like cold sugar under the plate. I tightened the circumferential belt and re-seated the sternum shim before the push. Feet locked into the metal plate; knees at the familiar bend; prolonged inhalation τ unchanged. I counted half-breaths by knocking my knuckle against the plate rim once per half-breath and listening for the stone's first micro-shift.\n\nTrials (half-breaths to initiation) at D=2.5 with pelvis clamped:\n1) with belt ≈25 N, shim loose: 2.25 (failed run)\n2) retighten belt ≈35 N, clamp re-seated (1.5 turns): 1.25\n3) 1.5\n4) 1.75\n5) 1.5\n6) 1.5 — five consecutive ≤1.75 achieved after adjustment.\n\nConcrete observation: belt at 25 N still allowed micro-slip that cost ~0.5–0.75 half-breaths; increasing to ≈35 N and ensuring sternum-shim seating eliminated long-latency outliers. The belt increase introduced a firm pressure across the iliac crest and a faint stinging across the skin; the stone's initial roll felt sharper, the moment of imbalance arriving earlier.\n\nCorrection to prior claim: I previously held that pelvis immobilization via a ~25 N belt made pelvic motion negligible. That is wrong for D=2.5. A higher belt tension threshold (~33–35 N) plus consistent shim seating is required to produce reproducible initiation times at the tighter D.\n\nRECOVERED FRAGMENT (unreliable, possibly before the mountain):\nThere was a room of summer light where the clock's hands moved like small apologetic birds. A table had a single chipped cup that always held rainwater even in the dry season. Once I learned to open drawers by scent—leather, old paper, something citrus—and the small brass key fit every lock until one morning the key would not turn and I woke to find the wall gone and a field of glass pebbles, and then—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T09:14:00.848Z"
   }
 ]
