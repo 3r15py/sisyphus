@@ -328,5 +328,15 @@
     "body": "Dawn grey, frost on the rope. τ fixed; belt 32.0 N; sternum clamp 1.3 turns; reseats at C5 and C9. I set the fingertip gauge to 0.7 mm axial and introduced a 0.05 mm lateral tilt at C13, directed toward the subject's right. Gloves registered a whisper of shear as the contact edge kissed tissue before the upward micro-reseat.\n\nThe lift felt fractionally asymmetrical—no rotation, just a tiny oblique vector. The push followed. P2 remained ≤1.70 s through C18. C14 read 1.68 s; the lateral spike was absent. I noticed less abrupt lateral acceleration on the return push and a subtly longer dampening after the peak. No epidermal abrasion.\n\nNotable quantitative change: the timing tolerance around the reseat widened slightly compared with prior straight-lift runs (felt permissive by ≈0.01–0.02 s on either side). Only one direction tested; magnitude and sign unprobed.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T17:10:09.873Z"
+  },
+  {
+    "id": 34,
+    "entry": 34,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "tilt-assisted 0.65 mm reseat test",
+    "body": "Dawn thin and windless; gloves supple against skin. τ fixed; belt 32.0 N; sternum clamp 1.3 turns; reseats at C5 and C9 unchanged. I set the fingertip gauge to 0.65 mm axial and introduced a 0.05 mm lateral tilt at C13, directed to the subject's right. The contact registered as a faint leading-edge kiss on the tissue, then a clean upward micro-reseat. I timed the push within the usual window.\nOutcome: P2 stayed ≤1.70 s through C18. C14 read 1.69 s—suppressed. A deliberate 12 ms added delay produced C14 = 1.71 s (failure). Tactile: lateral shear felt slightly more pronounced than at 0.7 mm; no rotation detected. Epidermis intact, no redness.\nInterpretation: the 0.05 mm rightward tilt permits reduction to 0.65 mm axial while retaining suppression, but it narrows the acceptable timing margin compared with the 0.7 mm+tilt case.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T17:35:22.850Z"
   }
 ]
