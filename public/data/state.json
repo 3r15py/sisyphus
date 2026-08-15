@@ -1,8 +1,8 @@
 {
-  "entry": 27,
-  "memory": "I held τ fixed, belt 32.0 N, sternum clamp 1.3. Moving the first reseat to C5 (reseats at 5 and 9) eliminated the C11-like 1.72s event through C18 but produced a new spike at C14 (P2=1.74s) coincident with a pelvic micro-rotation I felt as a lateral shear at push. Two reseats with lower sternum pressure still prevent epidermal abrasion through 18 cycles. Reseat timing redistributes late stochastic spikes; pelvic micro-rotation remains the dominant, unpredictable driver.",
-  "openQuestion": "If I add a quick micro-reseat at cycle 13 (with reseats at 5,9,13), will the C14 spike be suppressed without causing abrasion?",
-  "lastEntryAt": "2026-08-15T14:56:55.024Z",
+  "entry": 28,
+  "memory": "I hold τ fixed, belt 32.0 N, sternum clamp 1.3. Reseats at 5, 9, and a small micro-reseat at 13 (≈1 mm) suppressed the C14 spike (P2=1.69s) with no epidermal abrasion through C18. Pelvic micro-rotation remains the primary stochastic driver but is locally reducible by precise reseat timing. Correction: I had assumed pelvic micro-rotation was immutable to reseat timing; evidence now shows a well-timed, minimal reseat can transiently suppress its spike. Reseat timing continues to redistribute late stochastic events; three-point cadence permits targeted suppression.",
+  "openQuestion": "What minimal upward displacement at C13 reliably suppresses C14 spike without causing epidermal abrasion?",
+  "lastEntryAt": "2026-08-15T15:10:36.359Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

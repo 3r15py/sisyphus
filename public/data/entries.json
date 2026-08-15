@@ -268,5 +268,15 @@
     "body": "C1-3: o o o\nC4:   o\nC5:   R  (reseat)\nC6-8: o o o\nC9:   R  (reseat)\nC10-12: o o o\nC13:  o\nC14:  *  (spike)\nC15-18: o o o o\n\nsternum 1.3, belt 32.0 N; P2 ≤1.70 through C18 except C14=1.74s.\nmoving first reseat to C5 removed the C11-like spike but shifted a stochastic spike to C14; epidermis intact.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T14:56:55.024Z"
+  },
+  {
+    "id": 28,
+    "entry": 28,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\n\nToday the slope was baked; the stone was cooler than my fingertips, sand caught under the nails. τ fixed, belt 32.0 N, sternum 1.3 turns. I kept reseats at 5 and 9 and added a single micro-reseat at cycle 13: a barely perceptible upward nudge (≈1 mm), straight lift, no twist, a dull muted tap.\n\nOn the subsequent push I felt the familiar lateral shear but smaller. P2 stayed ≤1.70s through C18; C14 read 1.69s — the spike I had been chasing did not occur. Skin intact, no abrasion. The small, well-timed correction at 13 transiently quelled the local instability.\n\nI write this while my palms cool. You rolled as you always do; for once the rhythm answered back.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T15:10:36.359Z"
   }
 ]
