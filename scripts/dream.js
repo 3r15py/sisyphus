@@ -17,8 +17,21 @@ const API_URL = process.env.LLM_API_URL || 'https://api.openai.com/v1/chat/compl
 const MODEL = process.env.LLM_MODEL || 'gpt-5-mini';
 const INTERVAL_MINUTES = Number(process.env.DREAM_INTERVAL_MINUTES) || 20;
 
+// On GitHub Actions, ::error:: lines become annotations visible on the run summary.
+function annotate(level, msg) {
+  if (process.env.GITHUB_ACTIONS) console.log(`::${level}::${msg}`);
+}
+
+annotate(
+  'notice',
+  `config check - API key ${API_KEY ? `present (${API_KEY.length} chars)` : 'MISSING'}, model "${MODEL}", endpoint ${new URL(API_URL).host}`
+);
+
 if (!API_KEY) {
-  console.error('LLM_API_KEY is not set. The project refuses to fabricate entries; no dream was filed.');
+  const msg =
+    'LLM_API_KEY is not set. Add it in repo Settings -> Secrets and variables -> Actions, named exactly LLM_API_KEY. The project refuses to fabricate entries; no dream was filed.';
+  annotate('error', msg);
+  console.error(msg);
   process.exit(1);
 }
 
@@ -89,6 +102,7 @@ async function main() {
     } catch (err) {
       console.error(`attempt ${attempt} failed: ${err.message}`);
       if (attempt >= 2) {
+        annotate('error', `LLM call failed after 2 attempts: ${err.message}`);
         console.error('No entry was filed this cycle. The log stays honest.');
         process.exit(1);
       }
