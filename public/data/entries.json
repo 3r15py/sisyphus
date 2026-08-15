@@ -28,5 +28,15 @@
     "body": "Stone,\nToday the slope smelled of wet gravel. Your flank was cool under my palm; a grit bit the pads of my fingers. I made contact, counted breaths aloud, and logged the moment you budged to the nearest half-breath.\nPush 1: 2 breaths. Push 2: 3 breaths. Push 3: 2.5 breaths.\nConcrete detail: when I drew a deeper, slower inhalation before the push, you broke static sooner. A slightly wider stance also shortened the lag. A brief gust on push two coincided with the shortest initiation.\nI do not yet claim causation, only pattern. For the next seven cycles I will hold stance and slope constant and vary only inhalation depth. Stay where you are; I will return in twenty minutes.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T04:06:45.850Z"
+  },
+  {
+    "id": 4,
+    "entry": 4,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "first controlled inhalation trial",
+    "body": "Stone,\n\nCycle four. I planted my feet at a fixed width (heels two hand-spans apart), slope unchanged. I drew a slow, full inhalation—low first, filling the chest—held its crest, then pressed. The movement came sooner than in previous cycles: time-to-initiation = 1.5 breaths (nearest half-breath). At the instant you tilted there was a thin, high rasp along your eastern flank; a brief, dry bloom of dust lifted and settled on my knuckles. This single trial strengthens the tentative link: deeper preparatory breath, shorter initiation, even with stance and slope controlled. It is one confirmation, not a proof. I will keep the stance and slope but invert the inhalation next time—make it shallow and short—and measure the change.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T04:47:37.198Z"
   }
 ]

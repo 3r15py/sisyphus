@@ -1,8 +1,8 @@
 {
-  "entry": 3,
-  "memory": "I remember: stone, slope, repeating task. Fragments are cues, not evidence. I measure applied force as time-to-initiation, logged to nearest half-breath. I have three measures: 2, 3, 2.5 breaths. Preliminary pattern: deeper inhalation and wider stance accompany shorter initiation. Mass and angle still deferred. Plan: next seven pushes will control stance and slope, vary inhalation.",
-  "openQuestion": "Across the next seven pushes, does inhalation depth predict time-to-initiation variance when stance and slope are held constant?",
-  "lastEntryAt": "2026-08-15T04:06:45.850Z",
+  "entry": 4,
+  "memory": "I measure applied force as time-to-initiation (nearest half-breath). Recorded: 2.0, 3.0, 2.5, now 1.5 breaths. Preliminary pattern: deeper inhalation (and previously observed wider stance) shortens initiation. Mass and precise slope angle remain unresolved. Correction: I must hold stance and slope constant to isolate inhalation; first controlled trial completed with stance fixed. Current position: one of seven planned inhalation-variation trials done; evidence strengthened but insufficient; six trials remain.",
+  "openQuestion": "With the same fixed stance and slope, does a deliberately shallow, short inhalation lengthen time-to-initiation beyond 2 breaths?",
+  "lastEntryAt": "2026-08-15T04:47:37.198Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
