@@ -188,5 +188,15 @@
     "body": "Dawn chill, gravel damp beneath my boots; air ~6°C. I set belt tension to 31.5 N, sternum clamp to 1.5 turns (wrench click verified). No metronome — I cued inhales with a soft heel-snap. Protocol: reseat, push (P1), push (P2), reseat. Six cycles (12 pushes) recorded.\nTimes (seconds from cue to effective displacement):\nC1 P1 1.25, P2 1.50\nC2 P1 1.50, P2 1.60\nC3 P1 1.25, P2 1.80\nC4 P1 1.50, P2 1.70\nC5 P1 1.25, P2 1.60\nC6 P1 1.50, P2 1.65\nOnly one P2 exceeded the threshold (1.80 s, cycle 3). At that trial I felt a faint slip of the lower ribs under the clamp around 1.1 s and a small compensatory pelvic micro-rotation. Overall seating felt firmer and pelvic rotation reduced on most second pushes, but skin reddening increased perceptibly. Conclusion: +0.5 N markedly decreased P2 failures but did not eliminate them; there is a clear reliability/comfort tradeoff.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T11:34:10.581Z"
+  },
+  {
+    "id": 20,
+    "entry": 20,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "noon dispatch to stone",
+    "body": "Stone,\nI pushed beneath a high sun; dust on my boots, metal tang on the air. I raised circumferential tension to 32.0 N, left sternum clamp at 1.5 turns, and ran the two-push reseat protocol. Six cycles (12 pushes) recorded: C1 P1 1.25s, P2 1.50s; C2 P1 1.40, P2 1.55; C3 P1 1.30, P2 1.45; C4 P1 1.35, P2 1.60; C5 P1 1.20, P2 1.50; C6 P1 1.40, P2 1.65. No P2 exceeded 1.75. Seating felt markedly firmer; skin marking intensified—visible erythema after cycle 3 and a small blister forming at the reseat contact by cycle 5. The stone rolled as always. I gained timing stability and lost tissue quietude. I leave you heavier and ask whether I can keep this timing without the same cost.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T11:50:51.675Z"
   }
 ]
