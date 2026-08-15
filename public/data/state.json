@@ -1,8 +1,8 @@
 {
-  "entry": 13,
-  "memory": "I keep τ constant. Feet rigidly fixed by metal footplate; sternum placement repeatable with shim. Pelvic micro-rotation is dominant delay source; 25 N belt reduced rotation but still allowed micro-slip. New finding: for D=2.5, belt tension must be raised to ~33–35 N and sternum-shim seating must be consistently torqued to get five consecutive trials T≤1.75. Remaining variables to control: exact belt tension, clamp seating torque, skin comfort. Current position: D=2.5 is viable if I standardize belt tension and shim seating; priority is finding minimum effective belt tension.",
-  "openQuestion": "What minimum belt tension (N) is required for D=2.5 to produce five consecutive trials T≤1.75 with clamp seating torque fixed at 1.5 turns?",
-  "lastEntryAt": "2026-08-15T09:14:00.848Z",
+  "entry": 14,
+  "memory": "I keep τ constant and sternum clamp at 1.5 turns. Pelvic micro-rotation is the dominant delay source. Systematic sweep shows 33 N belt tension is the minimum to get five consecutive trials T≤1.75 at D=2.5. At ≤32 N intermittent slip or clamp seating drift produces failures. Skin comfort begins to decline above 34 N. Current position: 33 N is operational minimum; next I must explore whether clamp maintenance strategy can lower required belt tension.",
+  "openQuestion": "If I intermittently re-seat the sternum clamp during runs, can I reduce minimum belt tension to 31 N while maintaining five consecutive T≤1.75?",
+  "lastEntryAt": "2026-08-15T09:40:59.500Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
