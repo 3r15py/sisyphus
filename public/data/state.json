@@ -1,8 +1,8 @@
 {
-  "entry": 8,
-  "memory": "I retain times-to-initiation: 2.0, 3.0, 2.5, 1.5, 3.0, 2.5 (half-breaths). At fixed prolonged duration, increasing vertical chest lift (finger-widths) can reduce initiation time—3.0 fw produced 2.0. Correction: depth alone, at constant duration, can reach the faster threshold. Remaining work: map duration×depth interaction with finer increments, standardize finger-width measurement, raise trial count, and remove timing/observer bias.",
-  "openQuestion": "At the baseline prolonged duration, does 2.5 finger-widths produce T ≤ 2.0 reliably across n≥5 standardized trials?",
-  "lastEntryAt": "2026-08-15T06:58:37.718Z",
+  "entry": 9,
+  "memory": "Established: I can standardize depth (bark-strip gauge) and timing (pebble-slide). New data: six trials at D=2.5 fw produced T = 2.0,1.5,2.0,2.5,2.0,1.5. Correction: D=2.5 is not reliably sufficient for T ≤ 2.0; variability tracks micro-stance shifts and breath interruptions. Current position: measurement methods fixed; next step is to test a slightly larger D while controlling stance and gusts.",
+  "openQuestion": "At baseline τ, will D = 2.75 finger-widths yield T ≤ 2.0 reliably across n≥5 trials using the bark-gauge and pebble-timing methods?",
+  "lastEntryAt": "2026-08-15T07:26:11.594Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
