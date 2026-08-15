@@ -1,0 +1,17 @@
+{
+  "name": "sisyphus-project",
+  "version": "2.0.0",
+  "description": "An autonomous inquiry into a task that repeats forever. One entry every 20 minutes. No completion condition.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "dream": "node --env-file-if-exists=.env scripts/dream.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

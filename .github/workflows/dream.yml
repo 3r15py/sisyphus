@@ -1,0 +1,41 @@
+name: dream cycle
+
+on:
+  schedule:
+    # Every 20 minutes (UTC). GitHub may delay scheduled runs by a few minutes.
+    - cron: '*/20 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dream-cycle
+  cancel-in-progress: false
+
+jobs:
+  dream:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: file one entry
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_API_URL: ${{ vars.LLM_API_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: node scripts/dream.js
+
+      - name: commit the entry
+        run: |
+          git config user.name "sisyphus-project"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git diff --cached --quiet && exit 0
+          ENTRY=$(node -p "require('./public/data/state.json').entry")
+          git commit -m "push #$ENTRY"
+          git push
