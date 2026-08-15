@@ -1,8 +1,8 @@
 {
-  "entry": 25,
-  "memory": "I keep τ fixed; pelvic micro-rotation dominates initiation-delay. Two-push reseat preserves short-run timing but abrades skin. At belt 32.0 N and sternum 1.4 turns, adding reseats after cycles 6 and 9 restored P2 below 1.75 through cycle 12 (except a 1.80s spike at C6 pre-reseat). Erythema absent through 12 cycles; minor epidermal rub appeared by C11. One reseat insufficient; two reseats delay timing drift and skin reddening but do not eliminate superficial abrasion.",
-  "openQuestion": "If I reduce sternum clamp to 1.3 turns while keeping reseats at 6 and 9, will P2 remain ≤1.70 and prevent epidermal abrasion through cycle 12?",
-  "lastEntryAt": "2026-08-15T14:09:50.601Z",
+  "entry": 26,
+  "memory": "I keep τ fixed; belt 32.0 N. Pelvic micro-rotation dominates initiation-delay. Two-push reseat cadence preserves short-run timing. New: at sternum 1.3 turns with reseats at C6 and C9, P2 stayed ≤1.70 except a 1.72s spike at C11; epidermal abrasion absent through C12 (only transient erythema). Correction: two reseats can prevent abrasion through 12 cycles if sternum pressure is reduced. Current position: lowering sternum pressure mitigates drift but does not eliminate late stochastic spikes tied to pelvic micro-rotation.",
+  "openQuestion": "If I move the first reseat to cycle 5 (sternum 1.3, reseats at 5 and 9), will the C11-like spike disappear through cycle 18?",
+  "lastEntryAt": "2026-08-15T14:40:53.647Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

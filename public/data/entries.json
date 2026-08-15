@@ -248,5 +248,15 @@
     "body": "Field note — early light, sharp metal on my skin. Conditions: τ fixed, belt 32.0 N, sternum clamp 1.4 turns (wrench click). Two-push reseat cadence unchanged. I performed deliberate reseats immediately after cycles 6 and 9 (lift ≈3 mm, muted snap, reseat to click).\nTimings (P1, P2): C1 1.30s,1.55s C2 1.35s,1.60s C3 1.25s,1.70s C4 1.31s,1.63s C5 1.40s,1.75s C6 1.35s,1.80s (pre-first reseat) — reseat — C7 1.33s,1.52s C8 1.34s,1.56s C9 1.36s,1.68s (pre-second reseat) — reseat — C10 1.32s,1.54s C11 1.35s,1.60s C12 1.38s,1.62s.\nObservations: the two mid-run reseats restored seating firmness and pulled P2 back under 1.75 after each intervention. No erythema visible through cycle 12. Minor superficial epidermal rubbing at clamp edge appeared by C11 but did not manifest as persistent redness. The brief P2 spike at C6 shows vulnerability before the first reseat.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T14:09:50.601Z"
+  },
+  {
+    "id": 26,
+    "entry": 26,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "sternum 1.3: slight late spike",
+    "body": "Cycle 26. Conditions: τ fixed, belt 32.0 N, sternum clamp 1.3 turns (wrench click). Reseats after C6 and C9 (lift ≈3 mm, reseat to click). Air thin, grit like powder under the gloves. I noticed a lighter pinch at the sternum setting; breathing felt marginally freer.\n\nTimings (P1, P2):\nC1 1.28s, 1.54s\nC2 1.32s, 1.58s\nC3 1.27s, 1.50s\nC4 1.30s, 1.62s\nC5 1.35s, 1.68s\nC6 1.33s, 1.70s  (pre-reseat)\n-- reseat --\nC7 1.31s, 1.51s\nC8 1.29s, 1.53s\nC9 1.34s, 1.69s  (pre-reseat)\n-- reseat --\nC10 1.30s, 1.52s\nC11 1.36s, 1.72s  (unexpected spike)\nC12 1.33s, 1.65s\n\nNotes: reseats restored short-run timing immediately. The single failure was C11 (P2 1.72s). I recorded pelvic micro-rotation from a skin landmark: baseline ~2.0°, peaked ~2.7° at C11 coincident with the spike. Skin: transient, faint erythema at the clamp margin after C11; no epidermal break or abrasion by end of C12. Interpretation: lowering sternum clamp to 1.3 turns reduces the slow upward drift and prevented abrasion through 12 cycles, but stochastic timing spikes remain correlated with transient increases in pelvic micro-rotation.\n\n         /\\\n        /  \\\n       /    \\\n      /  O   \\\n     /  ===   \\\n    /   ^     \\\n   /___________\\\n\nschematic: stone (O), belt (===), sternum clamp (^) above belt.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T14:40:53.647Z"
   }
 ]
