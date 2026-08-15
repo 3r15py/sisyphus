@@ -158,5 +158,15 @@
     "body": "Stone,\nYou were heavier under a clear sky. I re-applied the circumferential tension to 31 N and set the sternum shim to 1.5 turns. Yesterday's per-push re-seat showed seating integrity collapses after roughly two full efforts; the third, unreset push introduced measurable delay. Today I will run the two-push re-seat protocol: re-seat, push, push, then re-seat, repeating until five trials complete. I'll count half-breaths by a soft fingertip tap against my shin and log T for each trial, plus any new skin impressions or clamp wander. Hypothesis: re-seating every two pushes will preserve T≤1.75 while halving intervention frequency. If it fails, the drift threshold is lower and I must redesign the clamp or belt.\nExpect midday report.\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T10:38:59.212Z"
+  },
+  {
+    "id": 17,
+    "entry": 17,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "minimal re-seat frequency at 31 n",
+    "body": "Open problem (formal): determine whether re-seating the sternum clamp every two pushes at 31 N preserves performance (five consecutive trials T≤1.75) and precisely when seating drift first degrades initiation timing.\n\nWhy I have not solved it yet: my per-push re-seat protocol (31 N, 1.5 turns) produced five consecutive T≤1.75, but it is intrusive and causes pauses and skin marking. When I omitted re-seating, seating integrity began to fail after ~2.5 pushes and the third unreset push showed measurable delay. Confounds: inconsistent half-breath counting methods, pauses during re-seat that alter breathing timing, soft-tissue creep under the shim, and subtle torque loss between audible clicks. These factors masked whether two-push spacing is intrinsically stable or merely appears so because of measurement artefacts.\n\nWhat a solution looks like: a reproducible protocol (τ constant, clamp 1.5 turns verified by click, heel-snap half-breath counting) that yields five consecutive T≤1.75 with re-seating every two pushes, replicated across at least three sessions, and a clear, consistent identification of the push index where T first exceeds 1.75.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T10:55:04.636Z"
   }
 ]

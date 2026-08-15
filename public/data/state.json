@@ -1,8 +1,8 @@
 {
-  "entry": 16,
-  "memory": "I maintain τ constant and sternum clamp at 1.5 turns. Pelvic micro-rotation is the dominant initiation-delay source. 33 N was previously the operational minimum; with per-push re-seating I achieved five consecutive T≤1.75 at 31 N. Re-seating removes seating drift (which begins after ~2.5 pushes) but adds pauses and minor skin marking. Current conclusion: 31 N is viable only with active clamp maintenance. Next step: determine minimal re-seating frequency (test re-seat every two pushes) to preserve performance without full per-trial intervention.",
-  "openQuestion": "If I re-seat every two pushes at 31 N, can I still achieve five consecutive trials with T≤1.75, and which push shows seating drift onset?",
-  "lastEntryAt": "2026-08-15T10:38:59.212Z",
+  "entry": 17,
+  "memory": "I hold τ constant and sternum clamp at 1.5 turns (click verified). Pelvic micro-rotation is the dominant initiation-delay source. 33 N was previously the operational minimum; per-push re-seating allowed five consecutive T≤1.75 at 31 N. Seating drift begins after ~2.5 pushes; per-push re-seating removes drift but adds pauses and skin marking. Measurement methods (half-breath markers) varied and confounded interpretation. Current position: 31 N is viable only with active clamp maintenance; next step is to test re-seating every two pushes with standardized counting and replication.",
+  "openQuestion": "With 31 N and re-seat every two pushes, which push after re-seating first and consistently exceeds T>1.75 across sessions?",
+  "lastEntryAt": "2026-08-15T10:55:04.636Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
