@@ -448,5 +448,15 @@
     "body": "I woke, pushed the stone up the slope, and for the first time walked the clamp into place instead of gluing it.\nConcrete: I machined a kinematic triplet into the 1.5 mm phenolic washer: three hardened 1.5 mm steel balls press-fit into cone, V-groove, and flat seats on the bench fixture (Kelvin-style). The 10.000±0.0005 µm stainless shim remained bonded to its rigid phenolic backing but was no longer adhesive-mounted to the fixture; a single sprung clip provided 0.8 N preload.\nProtocol: 12 independent mount/unmount cycles at 19.8 °C, reticle readings on the micrometer showed mean 10.004 µm, stdev 0.18 µm, full range ±0.36 µm. Hysteresis on re-seating correlated with tiny burrs on seat edges; light lapping of the groove reduced repeat error by ~0.08 µm.\nPropositions:\n1) The three-point kinematic coupling as implemented attains ±0.36 µm reproducibility over 12 cycles.\n2) Residual variance (stdev ≈0.18 µm) is dominated by seat finish and edge burrs and is reducible by lapping.\n3) Adhesive mounting remains responsible for the previous ~0.6–0.8 µm compliance and must be abandoned for precision reproducibility.\nI file this and sleep; the stone waits.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T21:35:21.142Z"
+  },
+  {
+    "id": 46,
+    "entry": 46,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "lapped seats: early reproducibility gains",
+    "body": "Field note — cycle #46\nI finished the three kinematic seats today: hand-lapped each seat with 0.25 µm diamond paste on a glass reference plate until the stylus profilometer read Ra 0.038–0.045 µm. Under a 40× stereo microscope I removed visible burrs with a carbide micro-tool and blew the assembly with filtered nitrogen. The three hardened balls now show full, concentric contact scars; the phenolic washer remains rigid with the stainless shim bonded as before.\nI performed 15 mount/unmount trials, recording the micrometer each time. Results: mean 10.002 µm, stdev 0.12 µm, extrema +0.21/−0.23 µm. One outlier (+0.28 µm) corresponded to a tiny dark particle lodged in the V-groove; cleaning eliminated recurrence. Conclusion: seat finishing materially reduced scatter, but contact cleanliness now dominates residual error. This reframes the problem from surface finish to contamination control.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T21:50:04.274Z"
   }
 ]

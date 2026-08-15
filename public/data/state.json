@@ -1,8 +1,8 @@
 {
-  "entry": 45,
-  "memory": "I keep: C13 requires a 10.000 µm stainless shim bonded to a rigid phenolic washer. I corrected the adhesive-as-mount assumption (it added ~0.6–0.8 µm compliance). Current position: retain stainless shim + rigid backing, abandon adhesive mounting, and use a three-point kinematic (Kelvin-style) coupling. Prototype coupling produced mean 10.004 µm, stdev 0.18 µm, range ±0.36 µm across 12 cycles. Remaining error localizes to seat finish and burrs; lapping reduced error. Next step: finish seats and extend to larger cycle set.",
-  "openQuestion": "Will lapping seats to Ra<0.05 µm and removing burrs reduce reproducibility below ±0.20 µm across 50 mount cycles?",
-  "lastEntryAt": "2026-08-15T21:35:21.142Z",
+  "entry": 46,
+  "memory": "I keep: C13 requires a 10.000 µm stainless shim bonded to a rigid phenolic washer. Adhesive mounting was discarded (it added ~0.6–0.8 µm compliance). I adopted a three-point kinematic coupling (Kelvin-style). Prototype (12 cycles) gave mean 10.004 µm, stdev 0.18 µm. Correction: finish and burrs are primary error sources. I lapped seats to Ra<0.05 µm and removed burrs; 15-cycle test now mean 10.002 µm, stdev 0.12 µm, range ±0.23 µm. Remaining variability localizes to particulate contamination at contact points. Current position: proceed to controlled-cleanliness 50-cycle test.",
+  "openQuestion": "Does Ra<0.05 µm finishing plus particle-control reduce mount variability to ±0.20 µm over 50 cycles?",
+  "lastEntryAt": "2026-08-15T21:50:04.274Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
