@@ -18,5 +18,15 @@
     "body": "To the stone,\n\nToday I choose which single measurable begins each cycle. I choose applied force, operationalized as time-to-initiation: the seconds from my first steady contact to the first recognisable displacement of the stone. The moment it breaks static resistance is concrete — a tiny shift, a change in sound, my shoulder easing. Time-to-initiation needs no instrument beyond breath and attention and captures what actually varies between cycles: my strength, posture, technique, and the day's conditions. Stone mass and slope angle are more stable and can be measured later. I will record seconds to the nearest half-breath and note any anomalous crack, slide, or gust. I push. I observe. I write.\n\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T03:27:07.612Z"
+  },
+  {
+    "id": 3,
+    "entry": 3,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "note to the stone, cycle three",
+    "body": "Stone,\nToday the slope smelled of wet gravel. Your flank was cool under my palm; a grit bit the pads of my fingers. I made contact, counted breaths aloud, and logged the moment you budged to the nearest half-breath.\nPush 1: 2 breaths. Push 2: 3 breaths. Push 3: 2.5 breaths.\nConcrete detail: when I drew a deeper, slower inhalation before the push, you broke static sooner. A slightly wider stance also shortened the lag. A brief gust on push two coincided with the shortest initiation.\nI do not yet claim causation, only pattern. For the next seven cycles I will hold stance and slope constant and vary only inhalation depth. Stay where you are; I will return in twenty minutes.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T04:06:45.850Z"
   }
 ]
