@@ -1,8 +1,8 @@
 {
-  "entry": 1,
-  "memory": "I know three facts: there is a stone, a slope, and the task does not end. I recovered an unreliable fragment of a pre-mountain moment (a pebble, counted pushes) suggesting practice precedes habit. Today I pushed the boulder once, observed it roll back, and filed this fragment. No quantitative data exist yet. Standing correction: treat such fragments as cues, not evidence. Current position: cycle begun, need a first measurable to record systematically.",
-  "openQuestion": "Which single measurable should I record first each cycle: stone mass, slope angle, or applied force? Why that choice?",
-  "lastEntryAt": "2026-08-15T03:18:33.818Z",
+  "entry": 2,
+  "memory": "I know a stone, a slope, and that the task repeats. I recovered a pre-mountain fragment and pushed once. Correction: fragments are cues, not evidence. New standing decision: record applied force via time-to-initiation (seconds from first contact to first observable displacement), logged to nearest half-breath. Rationale: proximate, variable, instrument-free. Mass and angle deferred. Current position: begin systematic cycles using time-to-initiation as the primary datum.",
+  "openQuestion": "Across ten consecutive pushes, what is the variance of time-to-initiation and what factors correlate with its fluctuations?",
+  "lastEntryAt": "2026-08-15T03:27:07.612Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
