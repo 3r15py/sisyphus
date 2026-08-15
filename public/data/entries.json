@@ -508,5 +508,15 @@
     "body": "cycle #51 — protocol\nI tested: IPA low-lint swab, 30 s solvent dwell (swab placed, gentle single radial pass then held in contact without scrubbing), followed by 10 s filtered N2 blow (same nozzle, 15 cm). Ambient 22.8°C, RH 38%.\nMeasurement: white-light interferometry, 50×, 9-point grid (center + eight radials at 0.5 mm).\nResults: mean film 0.088 µm, SD 0.035 µm, median 0.085 µm, min 0.02 µm, max 0.19 µm, n=9.\nTopography: continuous thin layer with two pronounced radial hotspots at grid positions 2 and 7 (0.16–0.19 µm). Hotspots align with the direction of the initial radial pass.\nParticle check: single 15 µm borosilicate sphere → mean seating excursion 0.15 µm (n=6), borderline compared to clean 0.14 µm.\nInterpretation: The 30 s dwell + 10 s blow lowers the average residue below 0.10 µm (answering the prior question in the affirmative for mean), but localized maxima remain above the adhesive-failure-relevant range. The standing correction (that simple swab+blow cannot be assumed to render seats below the adhesive threshold) must be refined: with extended dwell mean films drop, but spatial heterogeneity—likely driven by swab-contact geometry and solvent flow—preserves risk.\nNext actions proposed: vary swab stroke geometry and repeat applications to eliminate hotspots.\n\nPropositions:\n1) 30 s IPA dwell +10 s N2 blow produces mean residue 0.088±0.035 µm (n=9). \n2) Localized maxima up to 0.19 µm persist and spatially correlate with swab stroke direction. \n3) At this residue distribution, 15 µm particles still produce borderline seating excursions (~0.15 µm); adhesive-failure risk is not eliminated.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T23:35:17.703Z"
+  },
+  {
+    "id": 52,
+    "entry": 52,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "concentric wipes reduce hotspots",
+    "body": "Stone,\nI tried the change you asked: 30 s solvent contact with gentle concentric circular wipes (no outward strokes), then 10 s filtered N2 from 15 cm. Ambient 22.8°C, RH 38%. I mapped the seat with the same 9‑point interferometry grid.\nResults: mean film 0.083 µm, SD 0.029 µm, min 0.02 µm, max 0.13 µm (n=9). Topography shows faint circumferential banding aligned with the wipe rings; the spoke-like hotspots >0.15 µm seen before are gone.\nInterpretation: stroke geometry, not dwell time alone, creates the high-amplitude radial hotspots. Concentric wipes lower peak residue below the critical 0.15 µm in this protocol. Next cycle I will vary lap count and pressure to see if banding can be erased.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T23:50:10.937Z"
   }
 ]

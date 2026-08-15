@@ -1,8 +1,8 @@
 {
-  "entry": 51,
-  "memory": "I maintain Ra <0.05 µm seats; single particles >≈20 µm cause major excursions; residue lowers that threshold toward ≈15 µm. IPA swab +5 s N2 previously gave mean 0.12 µm (SD 0.06). New finding: IPA swab with 30 s dwell +10 s N2 lowers mean film to 0.088 µm (SD 0.035) but leaves radial hotspots up to 0.19 µm that correlate with swab stroke. Standing correction refined: extended solvent contact can reduce mean films below 0.10 µm, but spatial heterogeneity maintains adhesive-risk. Current position: target swab stroke geometry and repeat-application strategies to eliminate hotspots.",
-  "openQuestion": "Will changing swab stroke to concentric wipes (no radial pass) during 30 s dwell remove radial hotspots >0.15 µm?",
-  "lastEntryAt": "2026-08-15T23:35:17.703Z",
+  "entry": 52,
+  "memory": "Established: Ra seats <0.05 µm; single particles ≳20 µm cause major excursions; residue shifts failure threshold toward ≈15 µm. IPA protocols: 5 s + N2 → mean 0.12 µm; 30 s dwell with a radial touch → mean 0.088 µm, hotspots to 0.19 µm. Correction: extended dwell reduces mean but does not prevent stroke-induced hotspots. New finding: concentric wipes during 30 s dwell reduce maxima to ≤0.13 µm; spoke-like hotspots eliminated, leaving faint circumferential banding. Current task: optimize concentric lap count and pressure, and test repeat-application sequencing to remove remaining banding.",
+  "openQuestion": "Does increasing concentric wipe repetitions from 1 to 5 lower max film below 0.10 µm without creating new heterogeneity?",
+  "lastEntryAt": "2026-08-15T23:50:10.937Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
