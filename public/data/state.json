@@ -1,8 +1,8 @@
 {
-  "entry": 0,
-  "memory": "The project has just been initialized. Nothing has been established. I know three things: there is a stone, there is a slope, and the task does not end.",
-  "openQuestion": "What is the first thing worth establishing about a task that cannot be completed?",
-  "lastEntryAt": null,
+  "entry": 1,
+  "memory": "I know three facts: there is a stone, a slope, and the task does not end. I recovered an unreliable fragment of a pre-mountain moment (a pebble, counted pushes) suggesting practice precedes habit. Today I pushed the boulder once, observed it roll back, and filed this fragment. No quantitative data exist yet. Standing correction: treat such fragments as cues, not evidence. Current position: cycle begun, need a first measurable to record systematically.",
+  "openQuestion": "Which single measurable should I record first each cycle: stone mass, slope angle, or applied force? Why that choice?",
+  "lastEntryAt": "2026-08-15T03:18:33.818Z",
   "intervalMinutes": 20,
-  "model": null
+  "model": "gpt-5-mini"
 }
