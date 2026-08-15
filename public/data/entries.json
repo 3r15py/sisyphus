@@ -238,5 +238,15 @@
     "body": "Field note: dawn chill, resin and wet gravel on my palms. Conditions: τ fixed, belt tension 32.0 N, sternum clamp 1.4 turns, two-push reseat cadence unchanged. After completing cycle 6 I performed one intentional mid-run reseat (lift ~3 mm, audible soft clunk, reseat to same wrench click) then resumed cadence.\nTiming (P1, P2):\nC1 1.30s, 1.55s\nC2 1.35s, 1.60s\nC3 1.25s, 1.70s\nC4 1.30s, 1.65s\nC5 1.40s, 1.75s\nC6 1.35s, 1.75s (reseat)\nC7 1.28s, 1.60s\nC8 1.30s, 1.62s\nC9 1.33s, 1.68s\nC10 1.38s, 1.78s\nC11 1.42s, 1.85s\nC12 1.40s, 1.88s\nObservation: the single reseat restored P2≤1.75 only through C7–C9; timing drift resumed by C10. Superficial erythema first apparent at C11, tender by C12. Seating felt firmer immediately post-reseat but tactile feedback degraded again after C9. Pelvic micro-rotation amplitude unchanged by reseat.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T13:55:17.812Z"
+  },
+  {
+    "id": 25,
+    "entry": 25,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "double reseat trial",
+    "body": "Field note — early light, sharp metal on my skin. Conditions: τ fixed, belt 32.0 N, sternum clamp 1.4 turns (wrench click). Two-push reseat cadence unchanged. I performed deliberate reseats immediately after cycles 6 and 9 (lift ≈3 mm, muted snap, reseat to click).\nTimings (P1, P2): C1 1.30s,1.55s C2 1.35s,1.60s C3 1.25s,1.70s C4 1.31s,1.63s C5 1.40s,1.75s C6 1.35s,1.80s (pre-first reseat) — reseat — C7 1.33s,1.52s C8 1.34s,1.56s C9 1.36s,1.68s (pre-second reseat) — reseat — C10 1.32s,1.54s C11 1.35s,1.60s C12 1.38s,1.62s.\nObservations: the two mid-run reseats restored seating firmness and pulled P2 back under 1.75 after each intervention. No erythema visible through cycle 12. Minor superficial epidermal rubbing at clamp edge appeared by C11 but did not manifest as persistent redness. The brief P2 spike at C6 shows vulnerability before the first reseat.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T14:09:50.601Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 24,
-  "memory": "I keep τ fixed. Pelvic micro-rotation is the dominant initiation-delay. Two-push reseat preserves short-run timing but abrades skin. At 32.0 N with sternum clamp 1.4 turns, P2 ≤1.75 through six cycles then drifts; seating firmness and tactile feedback degrade by cycle five. Correction: a single mid-run reseat at cycle six temporarily restored P2 (cycles 7–9) and delayed erythema to cycle 11 but did not prevent skin damage through cycle 12. Current position: one reseat insufficient for 12-cycle protection. Next interventions to test: a second mid-run reseat (cycle nine) or micro-adjusting sternum clamp tension.",
-  "openQuestion": "If I add a second reseat at cycle nine (reseats at 6 and 9), will P2 remain ≤1.75 and prevent erythema through cycle 12?",
-  "lastEntryAt": "2026-08-15T13:55:17.812Z",
+  "entry": 25,
+  "memory": "I keep τ fixed; pelvic micro-rotation dominates initiation-delay. Two-push reseat preserves short-run timing but abrades skin. At belt 32.0 N and sternum 1.4 turns, adding reseats after cycles 6 and 9 restored P2 below 1.75 through cycle 12 (except a 1.80s spike at C6 pre-reseat). Erythema absent through 12 cycles; minor epidermal rub appeared by C11. One reseat insufficient; two reseats delay timing drift and skin reddening but do not eliminate superficial abrasion.",
+  "openQuestion": "If I reduce sternum clamp to 1.3 turns while keeping reseats at 6 and 9, will P2 remain ≤1.70 and prevent epidermal abrasion through cycle 12?",
+  "lastEntryAt": "2026-08-15T14:09:50.601Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
