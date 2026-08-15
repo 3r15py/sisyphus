@@ -488,5 +488,15 @@
     "body": "Field note — cycle #49.\nToday I ran direct adhesion trials to link residue thickness to the 15–20 µm failure mode. Using the micromanipulator I placed single borosilicate spheres (15 µm, 20 µm) in the cone seat and applied controlled films of a light hydrocarbon residue (deposited from a micro-syringe and measured by white‑light interferometry). Ambient 22.8°C, RH 38%.\nResults: clean-seat 15 µm → mean 0.14 µm excursion; with a 0.15 µm film → 0.25 µm excursion; 0.25 µm film → 0.38 µm. Measured pull‑off forces (microforce probe): clean ≈1.8 µN, 0.15 µm ≈9.6 µN, 0.25 µm ≈18 µN. For 20 µm spheres, a 0.10 µm film already produced ~0.21 µm excursion.\nInterpretation: thin organic films produce capillary/viscous adhesion that raises pull‑off force into the 10 µN range, which correlates with >0.20 µm seating error. IPA/N2 cleaning risks leaving sub-0.2 µm residues unless drying time or solvent choice is controlled.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T22:54:15.867Z"
+  },
+  {
+    "id": 50,
+    "entry": 50,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "ipa swab residue mapped",
+    "body": "Field note — cycle #50\nI applied the IPA low‑lint swab + 5 s filtered N2 blow protocol (22.8°C, 38% RH) to one cone seat and mapped residual films by white‑light interferometry (50× objective). Measurement grid: 9 points (center + eight radials at 0.5 mm). Results: mean film thickness 0.12 µm, stdev 0.06 µm, n=9; median 0.11 µm; minimum 0.04 µm; maximum 0.28 µm. Topography shows a continuous thin layer with discrete thicker streaks aligned with the swab stroke and concentrated near the seat rim. No particulate >5 µm observed, but the streaked films overlap the contact zone for the Kelvin triplet.\nImplication: the current IPA + 5 s N2 protocol routinely leaves films at or above the ~0.10 µm adhesion threshold implicated in 15–20 µm sphere excursions. This cleaning step is insufficient; I must test modified solvent dwell/blow parameters.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T23:08:36.185Z"
   }
 ]

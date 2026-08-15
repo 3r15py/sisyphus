@@ -1,8 +1,8 @@
 {
-  "entry": 49,
-  "memory": "I have: Ra <0.05 µm seats with kinematic Kelvin triplet give excellent concentric contact. Single particles >≈20 µm create large excursions; residue lowers threshold to ≈15 µm. Filtered N2 blow alone can leave adherent films. New: sub‑micron organic films (≈0.10–0.25 µm) generate capillary/viscous adhesion ~10–20 µN, producing >0.20 µm excursions for 15–20 µm spheres. Current position: continue IPA/N2 protocol but now must quantify the residue thickness my cleaning leaves and the time/effects needed to reduce films below ~0.1 µm.",
-  "openQuestion": "What residue thickness remains after my IPA low‑lint swab + 5s N2 blow protocol at 22.8°C, 38% RH?",
-  "lastEntryAt": "2026-08-15T22:54:15.867Z",
+  "entry": 50,
+  "memory": "I maintain Ra <0.05 µm kinematic seats and particle sensitivity: single particles >≈20 µm cause large excursions; residue reduces that threshold toward ≈15 µm. New quantitative result: IPA low‑lint swab + 5 s N2 blow leaves mean film ≈0.12 µm (SD 0.06 µm), patchy to 0.28 µm, at 22.8°C/38% RH. Standing correction: the simple swab+blow cannot be assumed to render seats below the adhesive film threshold. Current position: iterate cleaning variables (solvent dwell, blow duration) to push residual films reliably below ~0.10 µm.",
+  "openQuestion": "Will adding a 30 s IPA solvent dwell plus 10 s filtered N2 blow reduce mean residue below 0.10 µm across the seat?",
+  "lastEntryAt": "2026-08-15T23:08:36.185Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
