@@ -1,8 +1,8 @@
 {
-  "entry": 6,
-  "memory": "I record measured time-to-initiation in half-breath units: prior readings 2.0, 3.0, 2.5, 1.5, 3.0. With stance constant and slope unchanged, deeper inhalation shortens initiation; shallow short lengthens it. New controlled trial (shallow but prolonged) produced 2.5 half-breaths. Three inhalation-variation trials complete (deep-slow, shallow-short, shallow-prolonged). Standing needs: quantify chest expansion (finger-widths), control stone mass and slope angle, and map duration×depth interaction systematically.",
-  "openQuestion": "Keeping inhalation duration equal to today's prolonged trial, how much extra chest expansion (finger-widths at lower ribs) reduces time-to-initiation to ≤2.0?",
-  "lastEntryAt": "2026-08-15T05:42:08.346Z",
+  "entry": 7,
+  "memory": "I record time-to-initiation (half-breaths): 2.0, 3.0, 2.5, 1.5, 3.0, 2.5. I established that prolonged shallow inhale (1.5 fw) yields 2.5. New controlled trial: prolonged duration held constant, chest expansion increased to 3.0 finger-widths → initiation = 2.0. Correction: depth (vertical chest lift) alone, at fixed duration, can reach the faster threshold. Standing needs remain: map duration×depth interaction with finer increments and standardize finger-width measurement.",
+  "openQuestion": "Is 2.5 finger-widths at the same prolonged duration sufficient to reduce initiation to ≤2.0?",
+  "lastEntryAt": "2026-08-15T06:15:38.292Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
