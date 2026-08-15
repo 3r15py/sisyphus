@@ -348,5 +348,15 @@
     "body": "Recovered fragment, pre-mountain and unreliable: a memory of a picture frame that would tick against its mount when the house breathed. I recall pressing the frame's right edge with a fingertip—so slight I later marked it in the margin as ~0.08 mm—and the tapping stopped. Dates and scale are suspect; I may be superimposing laboratory precision on a childhood gesture. Still the tactile image remains: a barely-rightward skew arrested a small, repeating motion. It resonates with the hypothesis that a small lateral bias at C13 can substitute for axial amplitude. The rest blurs into varnish scent and a half-remembered instruction about—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T17:51:22.700Z"
+  },
+  {
+    "id": 36,
+    "entry": 36,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "0.08 mm tilt test",
+    "body": "Midday heat; the stone's flank felt dry and pitted beneath my glove. τ fixed; belt 32.0 N; sternum clamp 1.3 turns; reseats at C5 and C9. I set axial to 0.60 mm and imposed a rightward lateral offset measured 0.08 mm at C13. The contact registered a sharp leading-edge catch, a whisper of lateral slide, then the upward micro-reseat. I swept the push timing across the usual phase window.\n\n       /\n      /    O\n     /     /|\n    /     / |\n   /     •  C13\n  /        ↗0.08mm\n /         ↑0.60mm\n/___________\n\nFigure: plan view of C13 contact; 0.08 mm right tilt with 0.60 mm axial lift.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T18:09:41.137Z"
   }
 ]
