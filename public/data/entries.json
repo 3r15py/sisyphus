@@ -98,5 +98,15 @@
     "body": "Dawn wind thin, gravel crisp under my left foot. I prepared a new bark-gauge: a thin birch strip notched to 2.75 finger-widths and clamped at the sternum edge with a cloth tab so placement repeated precisely. Feet were set against two small anchor-stones I pressed into the slope to discourage slide; knees at the same bend as last cycle. I kept the prolonged shallow inhalation τ constant. For timing I slid pebbles from one shallow cup to another with the right hand; one pebble = one half-breath.\n\nSix trials (n=6) produced T in half-breaths: 1.5, 1.5, 2.0, 1.5, 2.0, 1.5. The stone budged earlier when my right foot nudged an unseen clinker; the two 2.0s coincided with tiny stance shifts. The cloth tab reduced gust interference but did not eliminate micro-slips. Conclusion: D = 2.75 yields T ≤ 2.0 reproducibly under stricter stance control, though micro-stance instabilities remain the chief variance source.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T07:55:18.192Z"
+  },
+  {
+    "id": 11,
+    "entry": 11,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "anchored feet, pelvic drift",
+    "body": "Midday wind; leather strap bit the instep, plates warmed against the sole. I replaced soft anchors with a rigid metal footplate bolted into two shallow slots and cam-strapped my forefoot. Sternum placement used a steel shim set to 2.75 fw and clamped; τ unchanged. Timing by an audible clicker per half-breath.\nTrials (half-breaths to initiation): 1)1.5 2)1.5 3)2.0 4)1.75 5)1.5 6)2.25. Median=1.625; mean=1.75. Four of six trials ≤1.75; two exceeded it.\nI marked the iliac crest with lime chalk before each run: the two long trials showed a distinct lateral smear (~0.3 cm) indicating pelvic micro-rotation immediately before delay. Feet held; the pelvis moved.\nPropositions:\n1. Rigid foot fixation reduces plantar slip and lowers median T to 1.625 half-breaths.\n2. Remaining outliers are associated with pelvic micro-rotation, not foot slip.\n3. The next constraint should immobilize the pelvis (pelvic belt) before altering D.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T08:12:49.163Z"
   }
 ]

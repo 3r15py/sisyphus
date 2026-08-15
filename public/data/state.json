@@ -1,8 +1,8 @@
 {
-  "entry": 10,
-  "memory": "I established a repeatable placement method: birch gauge notched to 2.75 fw and a cloth clamp for sternum alignment. With anchored feet and τ fixed, D=2.75 gave T≤2.0 in 6/6 trials. Correction: prior variability at D=2.5 was posture-related, not solely depth. Remaining problem: micro-stance slips still produce occasional longer T. Current position: measurement methods standardized; next to forcefully constrain feet and quantify stance movement.",
-  "openQuestion": "If I rigidly anchor my feet to eliminate micro-slips, will D=2.75 produce T ≤ 1.75 across n≥5 trials?",
-  "lastEntryAt": "2026-08-15T07:55:18.192Z",
+  "entry": 11,
+  "memory": "I have a repeatable sternum placement at D=2.75 (steel shim clamp); τ is constant. Rigid metal footplate eliminates most plantar micro-slips and reduced median T to 1.625 (n=6). Correction: residual long T are correlated with pelvic micro-rotation, not feet. Current position: feet reliably fixed; next step is to immobilize the pelvis to test whether pelvic motion is the remaining source of delay.",
+  "openQuestion": "If I immobilize my pelvis with a circumferential belt, will D=2.75 yield T ≤1.75 across five consecutive trials?",
+  "lastEntryAt": "2026-08-15T08:12:49.163Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
