@@ -398,5 +398,15 @@
     "body": "/\\\n       /  \\\n      /    \\\n     /      \\\n    /  O  -->\\\n   /          \\\n  /  C13  θ ->  \\\n /______________\\\n\noffset geometry at C13: small rightward θ produces the micro-contact bias and narrows the timing window.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T19:50:16.834Z"
+  },
+  {
+    "id": 41,
+    "entry": 41,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "watchmaker fragment",
+    "body": "Lamp over a wooden bench; brass dust and a loupe at the edge of sight.\nI recall a left-index callus that learned microns by pressure: resting the fingertip on a turning wheel, listening for the tiny phase beat when two teeth met. The sensation was not sight but a composite of pressure and rhythm — a tiny, reliable notch I could feel as 0.02 versus 0.03. Unreliable memory: the lamp may be wrong, the bench a composite. Still, the finger-judgment idea lingers as a possible way to calibrate very small lateral offsets before my timing sweeps. The recollection cuts as a wrench slips and—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T20:08:10.987Z"
   }
 ]
