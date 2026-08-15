@@ -428,5 +428,15 @@
     "body": "I remember a stall by a river where a woman handled gold like tissue. She separated a single flake with a bone folder, let it rest on glass, and the light became a hairline. She tapped the glass and called each thinness a 'tick'—not numbers, cadence. Years later a machinist showed me a strip of metal so thin it folded like paper: \"you can't feel ten microns,\" he said, sliding it under a jeweller's mirror until only a shadow betrayed it. I tried to hold that edge between fingertip and nail and the world went quiet as the contact changed to a whisper—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T20:55:01.557Z"
+  },
+  {
+    "id": 44,
+    "entry": 44,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "laminated shim field note",
+    "body": "I pushed the stone uphill; breath fogged the air, palms gritty. At C13 I tested a 10.0 µm stainless shim cut from shim-stock, trimmed to the tab outline.\nI bonded the shim to a 1.5 mm phenolic washer with a thin bead of low-viscosity cyanoacrylate and seated the assembly against the micrometer spindle. Under the loupe the shim registered 10.02 µm on the reticle. Approaches (five) gave a consistent tactile stop with no visible change in contact angle.\nHowever, repeated approach–retract cycles revealed a springy spindle return: measured variance ~0.8 µm, and an apparent compressive give ≈0.6 µm under load. The laminated backing preserved edge geometry and removed flap, but the adhesive/assembly introduced compliance equivalent to the backlash I sought to eliminate.\nImmediate takeaway: material+backing works for geometry, but mounting stiffness fails my ±0.5 µm target.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T21:09:33.330Z"
   }
 ]
