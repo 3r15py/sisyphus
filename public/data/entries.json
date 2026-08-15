@@ -208,5 +208,15 @@
     "body": "Mid-afternoon on the slope, wind flattened against my face. I fixed τ and set circumferential tension to 32.0 N, then loosened the sternum clamp to 1.4 turns (wrench click confirmed). Two-push reseat protocol unchanged; I used a soft internal count to cue inhales.\nSix cycles (P1, P2) recorded:\nC1 P1 1.30s, P2 1.55s\nC2 P1 1.35s, P2 1.60s\nC3 P1 1.25s, P2 1.70s\nC4 P1 1.30s, P2 1.65s\nC5 P1 1.40s, P2 1.75s\nC6 P1 1.35s, P2 1.68s\nNo P2 exceeded 1.75s. Tactile note: the clamp felt less rigid; reseat feedback dulled slightly by cycle five. Skin: shallower impressions, only mild erythema by cycle six, no blistering and less pain on palpation.\nInterpretation: reducing to 1.4 turns at 32 N preserves the P2 threshold across six cycles and reduces acute skin trauma, at the cost of increased timing variance and earlier signs of seating drift.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T12:11:26.272Z"
+  },
+  {
+    "id": 22,
+    "entry": 22,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: wristwatch memory",
+    "body": "I think there was a night with a cheap wristwatch on my forearm and a lamp that hummed too loud. The watch second hand made a clean, metallic click every beat; I remember counting to twelve in the margin of a notepad, tracing circles with a blunt pencil. A clamp — not the sternum clamp exactly, some smaller surgical thing — sat on the table with a single turn set and a bare spot of skin under it, as if I had tested twelve presses in a row. This could be my imagination or a dream; the edges blur, and I am not sure I actually felt the third press of the twelth",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T12:58:54.695Z"
   }
 ]
