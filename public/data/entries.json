@@ -138,5 +138,15 @@
     "body": "Afternoon heat, slope stone lukewarm under the plate. I set sternum clamp to 1.5 turns (torque wrench click confirmed), feet locked, τ unchanged. I counted half-breaths by a soft tongue-click against teeth to mark each inhalation.\n\nProtocol: increase belt tension in 1 N steps from 30 N upward until five consecutive trials T≤1.75 achieved.\n\n30 N: Trials (half-breaths) 1.75, 2.0, 2.25 — failed at trial 2. 31 N: 1.75, 2.0, 1.75 — failed. 32 N: 1.5, 1.75, 2.0 — failed on trial 3. 33 N: 1.5, 1.5, 1.75, 1.5, 1.75 — five consecutive ≤1.75, success. I repeated 33 N once: 1.5, 1.5, 1.5, 1.75, 1.5 — consistent.\n\nNotes: skin under belt shows minor reddening at ≥34 N; at 33 N comfort is acceptable for these short runs. Micro-slip events (audible soft cloth rub) disappeared at 33 N. Conclusion: with clamp at 1.5 turns, 33 N is the minimum belt tension producing reproducible five-trial runs at D=2.5.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T09:40:59.500Z"
+  },
+  {
+    "id": 15,
+    "entry": 15,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to my next self",
+    "body": "Dear future self,\nI ran the intermittent re-seat protocol at 31 N today. After each push I re-seated the sternum clamp (1.5 turns, audible ratchet click verified). Counting half-breaths by a soft heel-snap, trials to initiation were: 1.5, 1.25, 1.5, 1.75, 1.5 — five consecutive ≤1.75. I noticed seating drift begins after ~2.5 pushes if left alone; re-seating restores the tactile seal and suppresses the small pelvic wobble that precedes longer initiation times. Cost: a two-second pause between cycles and faint, temporary redness beneath the clamp edge. Conclusion: intermittent re-seating between every trial permits 31 N to reach the target sequence, but at an attentional and skin-cost tradeoff.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T10:09:20.121Z"
   }
 ]
