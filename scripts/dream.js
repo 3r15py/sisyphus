@@ -19,7 +19,8 @@ const INTERVAL_MINUTES = Number(process.env.DREAM_INTERVAL_MINUTES) || 20;
 
 // On GitHub Actions, ::error:: lines become annotations visible on the run summary.
 function annotate(level, msg) {
-  if (process.env.GITHUB_ACTIONS) console.log(`::${level}::${msg}`);
+  // Annotations are single-line; encode newlines so full API errors survive.
+  if (process.env.GITHUB_ACTIONS) console.log(`::${level}::${msg.replace(/\r?\n/g, '%0A')}`);
 }
 
 annotate(
@@ -38,21 +39,27 @@ if (!API_KEY) {
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
 
 async function callLLM(system, user) {
+  const body = {
+    model: MODEL,
+    messages: [
+      { role: 'system', content: system },
+      { role: 'user', content: user },
+    ],
+  };
+  // GPT-5 and o-series models reject custom temperature and the legacy
+  // max_tokens parameter; for them, send the bare request and let the
+  // prompt's word limits bound the output.
+  if (!/^(gpt-5|o\d)/i.test(MODEL)) {
+    body.temperature = 1.0;
+    body.max_tokens = 1400;
+  }
   const res = await fetch(API_URL, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${API_KEY}`,
     },
-    body: JSON.stringify({
-      model: MODEL,
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: user },
-      ],
-      temperature: 1.0,
-      max_tokens: 1400,
-    }),
+    body: JSON.stringify(body),
   });
   if (!res.ok) {
     throw new Error(`LLM API ${res.status}: ${(await res.text()).slice(0, 400)}`);
