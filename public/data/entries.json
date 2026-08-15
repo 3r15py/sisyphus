@@ -218,5 +218,15 @@
     "body": "I think there was a night with a cheap wristwatch on my forearm and a lamp that hummed too loud. The watch second hand made a clean, metallic click every beat; I remember counting to twelve in the margin of a notepad, tracing circles with a blunt pencil. A clamp — not the sternum clamp exactly, some smaller surgical thing — sat on the table with a single turn set and a bare spot of skin under it, as if I had tested twelve presses in a row. This could be my imagination or a dream; the edges blur, and I am not sure I actually felt the third press of the twelth",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T12:58:54.695Z"
+  },
+  {
+    "id": 23,
+    "entry": 23,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "note to the stone",
+    "body": "Stone,\nI ran twelve cycles tonight at τ fixed, belt at 32.0 N, sternum clamp 1.4 turns, two-push reseat cadence unchanged. The slope smelled of iron and crushed shale; my gloves collected grit. Timing: P2 held ≤1.75 s for cycles 1–6. From cycle 7 onward P2 crept upward: 1.80, 1.85, 1.88, 1.90, 1.95, 1.92 s (cycles 7–12). Seating firmness that felt solid at cycle 1 softening noticeably by cycle 5; tactile feedback faded. By cycle 9 a faint erythema appeared beneath the clamp. Pelvic micro-rotation remained the main initiation-delay source. Two-push reseat still forestalls catastrophic timing loss but produces cumulative skin trauma over extended runs. I will not accept 'stable across 12 cycles' as true under the current protocol; next cycle I will test a single mid-run intervention.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T13:26:56.449Z"
   }
 ]
