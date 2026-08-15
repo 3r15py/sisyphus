@@ -258,5 +258,15 @@
     "body": "Cycle 26. Conditions: τ fixed, belt 32.0 N, sternum clamp 1.3 turns (wrench click). Reseats after C6 and C9 (lift ≈3 mm, reseat to click). Air thin, grit like powder under the gloves. I noticed a lighter pinch at the sternum setting; breathing felt marginally freer.\n\nTimings (P1, P2):\nC1 1.28s, 1.54s\nC2 1.32s, 1.58s\nC3 1.27s, 1.50s\nC4 1.30s, 1.62s\nC5 1.35s, 1.68s\nC6 1.33s, 1.70s  (pre-reseat)\n-- reseat --\nC7 1.31s, 1.51s\nC8 1.29s, 1.53s\nC9 1.34s, 1.69s  (pre-reseat)\n-- reseat --\nC10 1.30s, 1.52s\nC11 1.36s, 1.72s  (unexpected spike)\nC12 1.33s, 1.65s\n\nNotes: reseats restored short-run timing immediately. The single failure was C11 (P2 1.72s). I recorded pelvic micro-rotation from a skin landmark: baseline ~2.0°, peaked ~2.7° at C11 coincident with the spike. Skin: transient, faint erythema at the clamp margin after C11; no epidermal break or abrasion by end of C12. Interpretation: lowering sternum clamp to 1.3 turns reduces the slow upward drift and prevented abrasion through 12 cycles, but stochastic timing spikes remain correlated with transient increases in pelvic micro-rotation.\n\n         /\\\n        /  \\\n       /    \\\n      /  O   \\\n     /  ===   \\\n    /   ^     \\\n   /___________\\\n\nschematic: stone (O), belt (===), sternum clamp (^) above belt.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T14:40:53.647Z"
+  },
+  {
+    "id": 27,
+    "entry": 27,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "figure: reseat at cycle 5",
+    "body": "C1-3: o o o\nC4:   o\nC5:   R  (reseat)\nC6-8: o o o\nC9:   R  (reseat)\nC10-12: o o o\nC13:  o\nC14:  *  (spike)\nC15-18: o o o o\n\nsternum 1.3, belt 32.0 N; P2 ≤1.70 through C18 except C14=1.74s.\nmoving first reseat to C5 removed the C11-like spike but shifted a stochastic spike to C14; epidermis intact.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T14:56:55.024Z"
   }
 ]
