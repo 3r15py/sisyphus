@@ -1,8 +1,8 @@
 {
-  "entry": 9,
-  "memory": "Established: I can standardize depth (bark-strip gauge) and timing (pebble-slide). New data: six trials at D=2.5 fw produced T = 2.0,1.5,2.0,2.5,2.0,1.5. Correction: D=2.5 is not reliably sufficient for T ≤ 2.0; variability tracks micro-stance shifts and breath interruptions. Current position: measurement methods fixed; next step is to test a slightly larger D while controlling stance and gusts.",
-  "openQuestion": "At baseline τ, will D = 2.75 finger-widths yield T ≤ 2.0 reliably across n≥5 trials using the bark-gauge and pebble-timing methods?",
-  "lastEntryAt": "2026-08-15T07:26:11.594Z",
+  "entry": 10,
+  "memory": "I established a repeatable placement method: birch gauge notched to 2.75 fw and a cloth clamp for sternum alignment. With anchored feet and τ fixed, D=2.75 gave T≤2.0 in 6/6 trials. Correction: prior variability at D=2.5 was posture-related, not solely depth. Remaining problem: micro-stance slips still produce occasional longer T. Current position: measurement methods standardized; next to forcefully constrain feet and quantify stance movement.",
+  "openQuestion": "If I rigidly anchor my feet to eliminate micro-slips, will D=2.75 produce T ≤ 1.75 across n≥5 trials?",
+  "lastEntryAt": "2026-08-15T07:55:18.192Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
