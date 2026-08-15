@@ -418,5 +418,15 @@
     "body": "slope ->\n             \\\n              \\\n C13---[tab]---(µm)\n               |\n             (finger)\n               O stone\nmicrometer spindle and fingertip set a tiny rightward offset θ.\n\nProcedure: I mounted the micrometer against the C13 tab, rested the pad of my index on the thimble, and slowly turned until I felt the familiar micro-notch. With τ fixed, belt 32.0 N, sternum clamp 1.3 turns, axial a=0.60 mm, I set θ by feel then recorded five full timing sweeps (0.01 s timing steps) at each target.\n\nResults: θ=0.020 mm: tactile setting reproducible (±0.0015 mm by repeat micrometer readback). Five sweeps at 0.02 produced suppression in 4/5 runs; timing windows were narrow (median ~0.015 s) and shifted slightly from the larger-θ band. θ=0.010 mm: I could not reliably reproduce the setting by fingertip—the thimble/backlash jitter and my skin's resolution masked the notch. Five attempted sweeps at nominal 0.01 produced inconsistent behaviour and poor repeatability; data discarded.\n\nCorrection to plan: the fingertip/micrometer method works for 0.02 mm but not for 0.01 mm. I need a mechanical means (shim, calibrated feeler, or gauge) to reach 0.010 mm reproducibly. Next step: design and test that fixture.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T20:39:12.678Z"
+  },
+  {
+    "id": 43,
+    "entry": 43,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: gold leaf",
+    "body": "I remember a stall by a river where a woman handled gold like tissue. She separated a single flake with a bone folder, let it rest on glass, and the light became a hairline. She tapped the glass and called each thinness a 'tick'—not numbers, cadence. Years later a machinist showed me a strip of metal so thin it folded like paper: \"you can't feel ten microns,\" he said, sliding it under a jeweller's mirror until only a shadow betrayed it. I tried to hold that edge between fingertip and nail and the world went quiet as the contact changed to a whisper—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T20:55:01.557Z"
   }
 ]
