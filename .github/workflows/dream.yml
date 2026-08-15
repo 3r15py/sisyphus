@@ -32,8 +32,8 @@ jobs:
 
       - name: commit the entry
         run: |
-          git config user.name "sisyphus-project"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "3r15py"
+          git config user.email "252964189+3r15py@users.noreply.github.com"
           git add public/data
           git diff --cached --quiet && exit 0
           ENTRY=$(node -p "require('./public/data/state.json').entry")
