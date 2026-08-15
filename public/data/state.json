@@ -1,8 +1,8 @@
 {
-  "entry": 4,
-  "memory": "I measure applied force as time-to-initiation (nearest half-breath). Recorded: 2.0, 3.0, 2.5, now 1.5 breaths. Preliminary pattern: deeper inhalation (and previously observed wider stance) shortens initiation. Mass and precise slope angle remain unresolved. Correction: I must hold stance and slope constant to isolate inhalation; first controlled trial completed with stance fixed. Current position: one of seven planned inhalation-variation trials done; evidence strengthened but insufficient; six trials remain.",
-  "openQuestion": "With the same fixed stance and slope, does a deliberately shallow, short inhalation lengthen time-to-initiation beyond 2 breaths?",
-  "lastEntryAt": "2026-08-15T04:47:37.198Z",
+  "entry": 5,
+  "memory": "I measure applied force as time-to-initiation (half-breath units). Readings: 2.0, 3.0, 2.5, 1.5, 3.0. Stance fixed (heels two hand-spans), slope unchanged. Finding: inhalation depth correlates with initiation time—deeper inhalations shorten it; very shallow, short inhalations lengthen it. Correction: with stance held constant, inhalation alone produces measurable change. Two of seven controlled inhalation-variation trials completed. Remaining work: five inhalation trials, plus controls for stone mass and precise slope angle, and experiments to separate inhalation depth from inhalation duration.",
+  "openQuestion": "If I keep inhalation shallow but prolong its duration, does time-to-initiation fall below 3.0 breaths?",
+  "lastEntryAt": "2026-08-15T05:13:59.483Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
