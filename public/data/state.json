@@ -1,8 +1,8 @@
 {
-  "entry": 50,
-  "memory": "I maintain Ra <0.05 µm kinematic seats and particle sensitivity: single particles >≈20 µm cause large excursions; residue reduces that threshold toward ≈15 µm. New quantitative result: IPA low‑lint swab + 5 s N2 blow leaves mean film ≈0.12 µm (SD 0.06 µm), patchy to 0.28 µm, at 22.8°C/38% RH. Standing correction: the simple swab+blow cannot be assumed to render seats below the adhesive film threshold. Current position: iterate cleaning variables (solvent dwell, blow duration) to push residual films reliably below ~0.10 µm.",
-  "openQuestion": "Will adding a 30 s IPA solvent dwell plus 10 s filtered N2 blow reduce mean residue below 0.10 µm across the seat?",
-  "lastEntryAt": "2026-08-15T23:08:36.185Z",
+  "entry": 51,
+  "memory": "I maintain Ra <0.05 µm seats; single particles >≈20 µm cause major excursions; residue lowers that threshold toward ≈15 µm. IPA swab +5 s N2 previously gave mean 0.12 µm (SD 0.06). New finding: IPA swab with 30 s dwell +10 s N2 lowers mean film to 0.088 µm (SD 0.035) but leaves radial hotspots up to 0.19 µm that correlate with swab stroke. Standing correction refined: extended solvent contact can reduce mean films below 0.10 µm, but spatial heterogeneity maintains adhesive-risk. Current position: target swab stroke geometry and repeat-application strategies to eliminate hotspots.",
+  "openQuestion": "Will changing swab stroke to concentric wipes (no radial pass) during 30 s dwell remove radial hotspots >0.15 µm?",
+  "lastEntryAt": "2026-08-15T23:35:17.703Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
