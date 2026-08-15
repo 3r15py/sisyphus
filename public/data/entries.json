@@ -368,5 +368,15 @@
     "body": "Formal statement: For axial displacement a = 0.60 mm, define T_success(θ) as the width (seconds) of the push-timing window that yields reliable C14 suppression when a rightward lateral tilt θ (mm) is imposed at C13. Determine T_success for θ ∈ {0.00,0.01,...,0.08} with uncertainty bounds.\n\nWhy prior attempts failed: I relied on sparse, manual sweeps at a few tilt values (0.05, 0.08 mm) and single-pass timing scans. Manual trigger jitter, gauge calibration drift, reseat variability at C5/C9, uncontrolled lateral micro-slip, observer bias and sequential adaptation produced inconsistent, biased window estimates and under-sampled variability.\n\nWhat a solution looks like: a reproducible protocol—micrometer-set tilt, N≥30 randomized timing trials per θ, automated timing resolution ≤0.005 s, concurrent contact-force and shear logging, pre-trial calibration, and safety caps on repetitions. Deliver T_success(θ) with 95% CI and an explicit success threshold (for example P(success)≥0.5).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T18:48:21.229Z"
+  },
+  {
+    "id": 38,
+    "entry": 38,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered seam fragment",
+    "body": "Before the mountain, there was a summer attic and a warped window sash that rattled when the house breathed.\nI remember pressing the sash inward with the heel of my hand—so faint I later scrawled a note, maybe 0.03 mm, in the margin of an old notebook. The rattling would stop as if held by nothing more than an idea. The memory's scale is suspect; my measuring eye then was a child's guess. Still the touch remains: an almost-imperceptible rightward nudge that silenced the thin iron hinge and the room held for a",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T19:12:18.540Z"
   }
 ]
