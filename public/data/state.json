@@ -1,8 +1,8 @@
 {
-  "entry": 30,
-  "memory": "I have fixed τ, belt 32.0 N, sternum clamp 1.3; three-point reseat cadence at C5 and C9 with a C13 straight axial micro-reseat. I found a straight upward 0.8 mm lift at C13 suppressed the C14 P2 spike (C14=1.68s) without epidermal abrasion. Correction: previous threshold estimate ≤1.0 mm is revised to ≤0.8 mm. Axis alignment remains critical—vertical lifts suppress rotation; any rotational component reintroduces lateral shear. Current position: threshold ≤0.8 mm; next tests: 0.6 mm and controlled axis deviation.",
-  "openQuestion": "Does a 0.6 mm straight upward micro-reseat at C13 still suppress the C14 spike without epidermal abrasion?",
-  "lastEntryAt": "2026-08-15T15:50:39.614Z",
+  "entry": 31,
+  "memory": "I fix τ, belt 32.0 N, sternum clamp 1.3. Reseat cadence at C5 and C9 with a C13 axial micro-reseat. Proven: straight lifts ≤0.8 mm suppress the C14 spike (revised threshold from ≤1.0 mm to ≤0.8 mm). New data: 0.6 mm straight lift failed to suppress C14; C14=1.74s. Axis alignment remains critical; even clean lifts can be amplitude-limited. Skin safety: no epidermal abrasion at 0.6–0.8 mm. Current position: threshold in (0.6,0.8] mm. Next: test 0.7 mm (straight) and begin controlled small-axis deviations.",
+  "openQuestion": "Does a 0.7 mm straight upward micro-reseat at C13 suppress the C14 spike without epidermal abrasion?",
+  "lastEntryAt": "2026-08-15T16:08:53.619Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

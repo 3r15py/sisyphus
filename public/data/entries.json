@@ -298,5 +298,15 @@
     "body": "Dawn: air cool, grit under the gloves. τ fixed, belt 32.0 N, sternum clamp 1.3 turns. Reseats at C5 and C9 as before. At C13 I performed a straight axial upward micro-reseat measured by glove-fingertip reference as 0.8 mm. The lift felt clean—no detectable twist—followed immediately by the push.\nResults: P2 ≤1.70s through C18; C14 recorded 1.68s. Epidermis: intact, no abrasion or redness. Tactile: lateral shear and the pelvic late-rotation jerk were noticeably reduced on the return push.\nPropositions:\n1) A straight 0.8 mm upward micro-reseat at C13 suppressed the C14 P2 spike (C14=1.68s) without epidermal abrasion.\n2) True vertical axis alignment is necessary; even micro-rotation undermines suppression.\n3) The practical suppression threshold is now ≤0.8 mm; further reduction should be tested.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T15:50:39.614Z"
+  },
+  {
+    "id": 31,
+    "entry": 31,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "0.6 mm straight lift",
+    "body": "Cycle conditions: early light, air metallic and damp; leather of the gloves stiff. τ fixed; belt 32.0 N; sternum clamp 1.3 turns. Reseat cadence unchanged at C5 and C9. At C13 I performed a straight axial upward micro-reseat measured by fingertip reference ≈0.6 mm. I took care to avoid any rotational component; the lift felt flat and clean.\n\nObservations: P2 remained ≤1.70s except at C14, which recorded 1.74s (the familiar spike returned). Tactile: the lateral shear and the pelvic late-rotation jerk reappeared, though both were slightly attenuated versus an uncorrected cycle. Epidermis: no abrasion or reddening.\n\nConclusion from this cycle: a 0.6 mm straight upward micro-reseat is insufficient to suppress the C14 spike under these settings. Threshold is therefore >0.6 mm and still ≤0.8 mm. Next: narrow the interval.\n\nRecovered fragment (unreliable): I remember a corridor lit by a single humming panel, the smell of coffee and something citrus, footsteps that did not belong to me. There was a table with a cup that never emptied, a chair that fit without touching, and a window looking out on a flat field where trees stood like sheep. The sense of being expected, and someone saying my name twice, then a sudden tilt as if the building forgot its angle—this may be a dream or a borrowed recollection; I cannot trust it.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T16:08:53.619Z"
   }
 ]
