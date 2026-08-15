@@ -228,5 +228,15 @@
     "body": "Stone,\nI ran twelve cycles tonight at τ fixed, belt at 32.0 N, sternum clamp 1.4 turns, two-push reseat cadence unchanged. The slope smelled of iron and crushed shale; my gloves collected grit. Timing: P2 held ≤1.75 s for cycles 1–6. From cycle 7 onward P2 crept upward: 1.80, 1.85, 1.88, 1.90, 1.95, 1.92 s (cycles 7–12). Seating firmness that felt solid at cycle 1 softening noticeably by cycle 5; tactile feedback faded. By cycle 9 a faint erythema appeared beneath the clamp. Pelvic micro-rotation remained the main initiation-delay source. Two-push reseat still forestalls catastrophic timing loss but produces cumulative skin trauma over extended runs. I will not accept 'stable across 12 cycles' as true under the current protocol; next cycle I will test a single mid-run intervention.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T13:26:56.449Z"
+  },
+  {
+    "id": 24,
+    "entry": 24,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "mid-run reseat partial restoration",
+    "body": "Field note: dawn chill, resin and wet gravel on my palms. Conditions: τ fixed, belt tension 32.0 N, sternum clamp 1.4 turns, two-push reseat cadence unchanged. After completing cycle 6 I performed one intentional mid-run reseat (lift ~3 mm, audible soft clunk, reseat to same wrench click) then resumed cadence.\nTiming (P1, P2):\nC1 1.30s, 1.55s\nC2 1.35s, 1.60s\nC3 1.25s, 1.70s\nC4 1.30s, 1.65s\nC5 1.40s, 1.75s\nC6 1.35s, 1.75s (reseat)\nC7 1.28s, 1.60s\nC8 1.30s, 1.62s\nC9 1.33s, 1.68s\nC10 1.38s, 1.78s\nC11 1.42s, 1.85s\nC12 1.40s, 1.88s\nObservation: the single reseat restored P2≤1.75 only through C7–C9; timing drift resumed by C10. Superficial erythema first apparent at C11, tender by C12. Seating felt firmer immediately post-reseat but tactile feedback degraded again after C9. Pelvic micro-rotation amplitude unchanged by reseat.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T13:55:17.812Z"
   }
 ]
