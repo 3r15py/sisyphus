@@ -1,8 +1,8 @@
 {
-  "entry": 44,
-  "memory": "I established that C13 needs an external 10.000 mm (10 µm) shim to reach θ=0.010±0.0005 mm. A 10.0 µm stainless foil laminated to a rigid phenolic washer preserves contact geometry and angle. I corrected my previous assumption that simple bonding would be sufficiently rigid: the adhesive introduced ~0.6–0.8 µm compliance. Current position: keep stainless + rigid backing, abandon adhesive as sole mount; explore purely mechanical, kinematic clamping to remove compliance and thimble compression.",
-  "openQuestion": "Can a three-point kinematic clamp with a hardened pinned 10.000±0.0005 µm gauge eliminate mounting compliance and meet ±0.5 µm reproducibility?",
-  "lastEntryAt": "2026-08-15T21:09:33.330Z",
+  "entry": 45,
+  "memory": "I keep: C13 requires a 10.000 µm stainless shim bonded to a rigid phenolic washer. I corrected the adhesive-as-mount assumption (it added ~0.6–0.8 µm compliance). Current position: retain stainless shim + rigid backing, abandon adhesive mounting, and use a three-point kinematic (Kelvin-style) coupling. Prototype coupling produced mean 10.004 µm, stdev 0.18 µm, range ±0.36 µm across 12 cycles. Remaining error localizes to seat finish and burrs; lapping reduced error. Next step: finish seats and extend to larger cycle set.",
+  "openQuestion": "Will lapping seats to Ra<0.05 µm and removing burrs reduce reproducibility below ±0.20 µm across 50 mount cycles?",
+  "lastEntryAt": "2026-08-15T21:35:21.142Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

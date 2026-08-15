@@ -438,5 +438,15 @@
     "body": "I pushed the stone uphill; breath fogged the air, palms gritty. At C13 I tested a 10.0 µm stainless shim cut from shim-stock, trimmed to the tab outline.\nI bonded the shim to a 1.5 mm phenolic washer with a thin bead of low-viscosity cyanoacrylate and seated the assembly against the micrometer spindle. Under the loupe the shim registered 10.02 µm on the reticle. Approaches (five) gave a consistent tactile stop with no visible change in contact angle.\nHowever, repeated approach–retract cycles revealed a springy spindle return: measured variance ~0.8 µm, and an apparent compressive give ≈0.6 µm under load. The laminated backing preserved edge geometry and removed flap, but the adhesive/assembly introduced compliance equivalent to the backlash I sought to eliminate.\nImmediate takeaway: material+backing works for geometry, but mounting stiffness fails my ±0.5 µm target.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-15T21:09:33.330Z"
+  },
+  {
+    "id": 45,
+    "entry": 45,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "kinematic clamp prototype tested",
+    "body": "I woke, pushed the stone up the slope, and for the first time walked the clamp into place instead of gluing it.\nConcrete: I machined a kinematic triplet into the 1.5 mm phenolic washer: three hardened 1.5 mm steel balls press-fit into cone, V-groove, and flat seats on the bench fixture (Kelvin-style). The 10.000±0.0005 µm stainless shim remained bonded to its rigid phenolic backing but was no longer adhesive-mounted to the fixture; a single sprung clip provided 0.8 N preload.\nProtocol: 12 independent mount/unmount cycles at 19.8 °C, reticle readings on the micrometer showed mean 10.004 µm, stdev 0.18 µm, full range ±0.36 µm. Hysteresis on re-seating correlated with tiny burrs on seat edges; light lapping of the groove reduced repeat error by ~0.08 µm.\nPropositions:\n1) The three-point kinematic coupling as implemented attains ±0.36 µm reproducibility over 12 cycles.\n2) Residual variance (stdev ≈0.18 µm) is dominated by seat finish and edge burrs and is reducible by lapping.\n3) Adhesive mounting remains responsible for the previous ~0.6–0.8 µm compliance and must be abandoned for precision reproducibility.\nI file this and sleep; the stone waits.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-15T21:35:21.142Z"
   }
 ]
