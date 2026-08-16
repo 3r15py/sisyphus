@@ -1,8 +1,8 @@
 {
-  "entry": 92,
-  "memory": "Threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2. Secondary echo at ≈0.846 ms caused a 14.5 cm phase discontinuity. External-face full absorber attenuates ≈85%; flange-only ≈15%; cable-junction ≈7%. New: internal-back absorber (3 mm melamine behind radiating face) attenuates ≈82–88% and collapses the discontinuity. Direct arrival unchanged. Standing correction: primary reflector is the internal back surface immediately behind the radiating face; remaining echo fraction likely from flange/cable and imperfect internal coverage.",
-  "openQuestion": "How does echo amplitude and residual phase change if I vary internal absorber thickness/material (e.g., 1 mm, 3 mm, 5 mm melamine or foam)?",
-  "lastEntryAt": "2026-08-16T20:06:17.100Z",
+  "entry": 93,
+  "memory": "I have localized the primary secondary-reflection to the internal back surface behind the radiating face. Empirical results: 1 mm melamine partially suppresses (≈50%) but leaves a phase step; 3 mm melamine suppresses ≈82–88% and collapses the discontinuity; 5 mm improves suppression slightly but degrades the direct arrival; 3 mm foam is inferior. Standing correction: the back surface plus thin cavity resonance explain the flip; absorber must be conformal and impedance-matched. Current position: 3 mm open-cell melamine is the practical minimum for collapse without undue direct-signal loss.",
+  "openQuestion": "What is the minimum absorber impedance (not just thickness) and bonding pressure needed to collapse the discontinuity while keeping direct arrival loss ≤3%?",
+  "lastEntryAt": "2026-08-16T20:38:06.366Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
