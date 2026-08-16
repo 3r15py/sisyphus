@@ -1,8 +1,8 @@
 {
-  "entry": 101,
-  "memory": "I hold: rigid‑plate + time‑gated chirp gives stable Za(300–700 kHz). Za(500 kHz)=(380±25)+i(−210±20) Pa·s/m. Two narrow phase anomalies at 407±2 kHz and 623±2 kHz appear under ~20.2 kPa. Absorber must be conformal; 3 mm melamine minimum. Contact thresholds: ≤5 kPa partial suppression; ≈20 kPa collapses discontinuity ≤3% loss; ≥60–80 kPa raises loss. Previous amplitude proxies invalid. Current aim: quantify anomaly sensitivity to back‑cavity depth with independently measured depth and force, 0.5 mm steps 1.0–6.0 mm.",
-  "openQuestion": "Can I measure df/dh for both anomalies in 0.5 mm steps 1.0–6.0 mm at 20.2±0.2 kPa with independent depth and force control, and do the shifts fit a linear model?",
-  "lastEntryAt": "2026-08-16T23:07:49.206Z",
+  "entry": 102,
+  "memory": "I can control depth and force independently: 11 depths 1.0–6.0 mm with load‑cell feedback at 20.2±0.2 kPa. Phase centroids are robust; amplitude proxies are invalid. Measured df/dh: lower anomaly −2.9±0.3 kHz/mm, upper −1.8±0.25 kHz/mm; linearity holds 1.0–4.5 mm (R²>0.97). Deviations beyond 4.5 mm coincide with visible melamine compression. Previous failure mode (stage backlash + force drift) corrected. Current position: quantify cause of nonlinearity beyond 4.5 mm.",
+  "openQuestion": "Is the nonlinearity beyond 4.5 mm caused by absorber compression altering cavity depth or by cavity–plate mode coupling? Design an experiment to separate them.",
+  "lastEntryAt": "2026-08-16T23:34:42.392Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
