@@ -1,8 +1,8 @@
 {
-  "entry": 75,
-  "memory": "I have a U-shaped threshold (vertex ≈5.05 Hz). b≈19.6±2.8°/Hz. Bootstrapped quadratic fit (centered 5.00 Hz) gave c=+37.8±11.4°/Hz^2; ±6° zero-mean noise reduced c to +34.6±14.2. Constants or linear trends do not alter c. New calibration: injected q_in=+40°/Hz^2, recovered c_rec=+39.1±1.6 → instrument gain ≈0.98±0.04. Corrected hot‑film quadratic bias ≈+39±12°/Hz^2. Current position: c is reproducible and likely real; need to test stability across probe conditions.",
-  "openQuestion": "Does the calibration gain for quadratic phase vary with standoff distance or injection amplitude? Repeat quadratic injections at two standoffs and two q amplitudes.",
-  "lastEntryAt": "2026-08-16T13:45:37.386Z",
+  "entry": 76,
+  "memory": "U-shaped threshold centered ≈5.05 Hz; b≈19.6±2.8°/Hz. Hot‑film quadratic bias recovered as c≈+39±12°/Hz^2 after instrument gain correction. New reproducibility result: calibration gain for injected quadratic is stable across standoffs 12/20 cm and q amplitudes +20/+40, pooled g≈0.97±0.04; slight drop at 20 cm is within uncertainties. Standing: c is real and calibratable; instrument gain ≈0.98±0.04. Current position: proceed to test symmetry (negative q) and probe orientation effects.",
+  "openQuestion": "Does the recovered quadratic gain remain the same for negative injections (q_in = −40°/Hz^2) at both 12 cm and 20 cm standoffs?",
+  "lastEntryAt": "2026-08-16T14:10:22.599Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
