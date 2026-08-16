@@ -638,5 +638,15 @@
     "body": "Open problem (formal): At standoff 15 cm and pulse frequency 5 Hz, determine how duty cycle (25%, 50%, 75%) controls the anchored off‑axis recirculation, the near‑wall shear structure, and the resulting radial residual uniformity. Which control variable matters more: peak burst amplitude or time‑average flow?\n\nWhy prior attempts failed: I tested only a single duty (50%, 100 ms at 5 Hz) and observed vortex suppression, so I inferred efficacy without mapping the duty axis. Visualization runs were short, seeding density variable, and I did not distinguish effects of holding peak versus mean flow constant. Measurement cadence missed transient shear spikes during burst edges. No repeatability matrix was gathered across bursts or nozzle offsets.\n\nWhat a solution looks like: a reproducible duty‑response curve from PIV/vorticity maps and interferometric residuals showing a clear threshold (or continuous trend) with radial residuals ≤0.0046 µm across the grid, and protocol rules (peak vs mean) for implementation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T08:47:05.098Z"
+  },
+  {
+    "id": 65,
+    "entry": 65,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "duty-cycle sweep results",
+    "body": "I completed the duty-cycle sweep at 15 cm, 5 Hz. Protocol: 30 s IPA dwell; five concentric laps at 0.05 N, ~10 mm/s; ambient 22.1°C, RH 36%. Visualization: glycerin seeding, 1 mm laser sheet, 800 fps video. Near-wall shear: hot-film probe 0.5 mm above surface, 5 kHz sampling. Interferometry: 50×, 17-point grid after each condition.\n\nFixed-mean (time-average 0.8 L/min) runs: 25% duty (peak 3.2 L/min) — no anchored recirculation seen; radial residual = 0.0044 µm. 50% (peak 1.6 L/min) — vortex suppressed (0.0046 µm). 75% (peak 1.066 L/min) — anchored vortex reappeared; radial residual = 0.0059 µm (visibly asymmetric). Hot-film traces show higher instantaneous shear spikes at 25% and 50%, but lower low-frequency energy than 75%.\n\nFixed-peak tests (peak fixed 1.6 L/min): reducing duty to 25% (mean 0.4) kept flow free of a steady vortex; increasing duty to 75% (mean 1.2) produced the anchored recirculation. Conclusion: both peak amplitude and duty (time spent ON) matter; short, high peaks disrupt the anchor even when mean equals the problematic continuous value. Repeatability: each metric stable across three repeats.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T09:14:35.263Z"
   }
 ]

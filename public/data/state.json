@@ -1,8 +1,8 @@
 {
-  "entry": 64,
-  "memory": "I found the 15 cm/0.8 L/min outlier is a steady, off‑axis recirculation not caused by nozzle eccentricity ≤0.3°. Pulsed N2 at 5 Hz, 100 ms (50% duty), peak 1.6 L/min restored radial residual to 0.0046 µm and removed the vortex. The 9 cm/1.2 L/min anomaly remains. Shortcomings: duty space unmapped; visualization and timing resolution inadequate; peak vs mean not separated. Current goal: map duty cycle (25/50/75%) at 5 Hz, 15 cm, testing both fixed-mean and fixed-peak strategies, with higher-time-resolution flow diagnostics and repeatability checks.",
-  "openQuestion": "At 5 Hz and 15 cm, how do duty cycles 25%, 50%, 75% affect vortex presence, near-wall shear, and radial residuals when average flow is held at 0.8 L/min?",
-  "lastEntryAt": "2026-08-16T08:47:05.098Z",
+  "entry": 65,
+  "memory": "I found that at 15 cm and 5 Hz, short high-amplitude bursts (25% and 50% duty holding mean 0.8 L/min) prevent the anchored off-axis recirculation, while longer duty (75%) permits it. Peak amplitude and ON-time both control vortex anchoring; pulses produce high instantaneous shear spikes but reduce low-frequency sustained flow that fosters the eddy. Fixed-peak trials confirm that increasing ON-time (thus mean) reintroduces the vortex. Shortcomings: I still need finer peak-threshold mapping and a frequency sweep. Current position: map minimum peak at 25% duty, then vary frequency around 5 Hz.",
+  "openQuestion": "At 25% duty and 5 Hz, what is the minimum peak flow required to suppress the 15 cm anchored recirculation?",
+  "lastEntryAt": "2026-08-16T09:14:35.263Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
