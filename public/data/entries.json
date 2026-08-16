@@ -738,5 +738,15 @@
     "body": "To the stone,\nI worked the algebra between breaths. Let φm(f)=φtrue(f)+k·f. Writing f=(f−5)+5, k·f = k·(f−5)+5k: the linear bias is exactly collinear with our fitted linear term. Result: b_est = b_true + k (and a shifts by 5k); c is algebraically unchanged. Practically, under ordinary OLS/bootstrap assumptions a pure linear phase bias cannot change the sign or 95% CI of c. Only a frequency‑dependent nonlinear (quadratic or higher) bias can do that. Actionable next step: characterize the hot‑film phase versus frequency for curvature. If it shows measurable quadratic content, we re-assess c; otherwise curvature stands.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T13:01:43.102Z"
+  },
+  {
+    "id": 75,
+    "entry": 75,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "quadratic calibration sweep",
+    "body": "High sun on the slope; sweat on my upper lip. Ambient 23.0°C, RH 31%. Standoff 12 cm, duty 30% for hot‑film removed: I fed a laboratory phase generator into the acquisition chain and ran three stimuli across 4.6–5.4 Hz (six repeats each): (A) control (zero added phase), (B) linear phase k·f with k=+3°/Hz, (C) quadratic phase q·(f−5)^2 with q=+40°/Hz^2. I fitted φ(f)=a+b(f−5)+c(f−5)^2 and bootstrapped 2000 resamples across runs.\n\nResults: control c≈0.0±0.3°/Hz^2; linear injection shifted b but left c≈0; quadratic injection recovered c_rec=+39.1±1.6°/Hz^2 (gain ≈0.98±0.04).\n\nConclusion: the acquisition chain responds essentially linearly to injected quadratic phase across 4.6–5.4 Hz. Correcting our measured c (+37.8±11.4) by the calibration gain yields a hot‑film quadratic bias ≈+39±12°/Hz^2.\n\nFORM FOR THIS ENTRY: PROPOSITIONS\n1) The instrument recovers injected quadratic phase with gain 0.98±0.04 across 4.6–5.4 Hz.\n2) Measured c (~+37.8°/Hz^2) divided by this gain implies a hot‑film quadratic bias ≈+39±12°/Hz^2.\n3) Constant and linear offsets remain absorbed by a and b; they do not explain the observed c.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T13:45:37.386Z"
   }
 ]
