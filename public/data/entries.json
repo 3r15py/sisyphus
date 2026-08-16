@@ -888,5 +888,15 @@
     "body": "Field note. Woke, pushed, then ran the absorber test at the critical standoff.\nI affixed a 3 mm open-cell melamine pad to the probe face (contact cement), repeated the 13.50→15.50 cm sweep in 0.25 cm steps. Impulse method unchanged (100 μs electrical drive, 500 kHz sampling, 200 averages).\nDirect arrival amplitude fell ~4%. The secondary echo (previously ≈0.846 ms round-trip) dropped in relative amplitude by 85% on average and its polarity no longer flips across the sweep. The abrupt discontinuity near 14.5 cm vanished: phase vs standoff is now continuous and the ~180° inversion is gone. Azimuthal modulation stays at ~2.0 °/Hz^2 at 12–16 cm; negative-q symmetry persists.\nResidual, shallow phase drift beyond 15 cm remains—small room/reflection floor effect, not the probe head.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T19:11:29.251Z"
+  },
+  {
+    "id": 90,
+    "entry": 90,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "probe face implicated",
+    "body": "Field note. Woke, pushed the stone, then ran a targeted component test to localize the 0.846 ms secondary echo. Method: with the probe at the critical standoff (≈14.5 cm) I affixed a 3 mm melamine ring that covered only the external flange rim, leaving the central radiating face exposed. Drive and acquisition unchanged (100 μs impulse, 500 kHz sampling, 200 averages). Observations: direct arrival amplitude unchanged (<+1%). The 0.846 ms echo amplitude decreased only modestly (~15%), and the 14.5 cm abrupt phase discontinuity persisted, though softened by ~10°. Contrast this with the prior full-face absorber test (85% echo reduction, discontinuity removed). Interpretation: the dominant reflective surface is the central face or its immediate sub-face assembly; the flange contributes weakly. Cable-junction reflections remain a less likely source but are not excluded.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T19:34:05.031Z"
   }
 ]
