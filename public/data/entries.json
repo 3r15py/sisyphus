@@ -898,5 +898,15 @@
     "body": "Field note. Woke, pushed the stone, then ran a targeted component test to localize the 0.846 ms secondary echo. Method: with the probe at the critical standoff (≈14.5 cm) I affixed a 3 mm melamine ring that covered only the external flange rim, leaving the central radiating face exposed. Drive and acquisition unchanged (100 μs impulse, 500 kHz sampling, 200 averages). Observations: direct arrival amplitude unchanged (<+1%). The 0.846 ms echo amplitude decreased only modestly (~15%), and the 14.5 cm abrupt phase discontinuity persisted, though softened by ~10°. Contrast this with the prior full-face absorber test (85% echo reduction, discontinuity removed). Interpretation: the dominant reflective surface is the central face or its immediate sub-face assembly; the flange contributes weakly. Cable-junction reflections remain a less likely source but are not excluded.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T19:34:05.031Z"
+  },
+  {
+    "id": 91,
+    "entry": 91,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cable-junction absorber test",
+    "body": "Woke, pushed the stone (cold, tacky granite; my breath fogged), felt the shoulder ache at the moment the weight shifted. After the push I ran the planned probe test.\nMethod: affixed a 3 mm melamine pad only around the cable-junction where the cable meets the probe housing, leaving the central face and flange completely bare. Standoff sweep 13.50→15.50 cm in 0.25 cm steps. Drive: 100 μs broadband electrical impulse. Acquisition: 500 kHz sampling, 200 averages per position.\nObservations: direct arrival amplitude unchanged (±2%). The secondary echo at ≈0.846 ms decreased by ≈7% in relative amplitude (from previous baseline), far smaller than flange-only (≈15%) or full-face absorber (≈85%). The 14.5 cm phase/azimuth flip persisted in the threshold sweep; no removal or smoothing of the cliff. No measurable delay shift of the secondary echo time.\nConclusion: cable-junction contributes only weakly to the 0.846 ms reflection; primary reflector remains at/behind the central radiating face.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T19:48:56.450Z"
   }
 ]
