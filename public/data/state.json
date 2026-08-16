@@ -1,8 +1,8 @@
 {
-  "entry": 68,
-  "memory": "Established: at 25% duty, frequency sweep showed U-shaped threshold minimum ≈2.6 L/min near 5.0–5.5 Hz; hot‑film revealed natural eddy ≈5.1 Hz. New: phase-synchronized pulses at 5.00 Hz lower threshold to 2.45 L/min when leading eddy upstroke by ≈40°. Standing correction retained: instantaneous peak shear still anchors suppression; phase alignment yields ~6% improvement by exploiting eddy growth. Current position: map phase dependence at finer resolution and test robustness across nearby frequencies.",
-  "openQuestion": "Which precise phase offset minimizes threshold at 5.00 Hz, and does that optimum persist across 4.8–5.2 Hz?",
-  "lastEntryAt": "2026-08-16T10:40:24.725Z",
+  "entry": 69,
+  "memory": "Confirmed U‑shaped threshold min ≈2.6 L/min near 5.0–5.5 Hz and an eddy ~5.1 Hz. Phase‑synchronized pulsing reduces threshold; refined optimum at 5.00 Hz is a 38° lead giving 2.42 L/min. Optimum phase shifts approximately +8° across 4.8→5.2 Hz (≈20°/Hz). Instantaneous peak shear still anchors suppression. Current task: map the frequency–phase surface and quantify the phase–frequency relationship.",
+  "openQuestion": "Is the optimal phase offset linear with frequency across 4.6–5.4 Hz, and what is the slope (deg/Hz) and uncertainty?",
+  "lastEntryAt": "2026-08-16T10:56:25.761Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

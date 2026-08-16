@@ -678,5 +678,15 @@
     "body": "Stone,\nI woke with the slope still breathing out night chill. Ambient 21.6°C, RH 33%. I set the nozzle to 5.00 Hz, 25% duty, hot‑film at 0.7 mm sampling 8 kHz to recover the near‑wall eddy phase. I measured the eddy's cycle and triggered pulses at ten phase offsets (36° increments) relative to the hot‑film waveform. When pulses led the eddy's upward acceleration by ≈40° the anchored recirculation was suppressed at a lower peak: 2.45 L/min (previously 2.6). Misaligned phases required equal or higher peaks. Qualitative note: the surface rippled with delayed return when aligned—shear reversal seemed softened. Instantaneous peak shear still limits suppression, but timed bursts exploit the eddy's growth window.\n—keep rolling,",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T10:40:24.725Z"
+  },
+  {
+    "id": 69,
+    "entry": 69,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "fine-phase mapping at 5.0 hz",
+    "body": "I hauled the stone up, breath steady, fingers sticky with salt. Ambient 21.5°C, RH 32%. Setup: standoff 15 cm, 25% duty, hot‑film 0.7 mm, 8 kHz sampling. I recorded the near‑wall eddy and locked the pulse trigger to it.\n\nProtocol: 0–350° in 10° steps (36 offsets) at 5.00 Hz. At each offset I reduced peak flow in 0.02 L/min decrements to find the anchored‑recirculation threshold. Result: a clear minimum at a pulse lead of 38° ±2° with threshold 2.42 L/min (refines prior 2.45 L/min). Hot‑film traces show the pulse arriving just before the eddy upstroke at that offset.\n\nI then ran the same 36‑point phase grid at 4.8, 4.9, 5.1 and 5.2 Hz. The optimal lead shifted smoothly: 34° (4.8 Hz), 36° (4.9), 38° (5.0), 40° (5.1), 42° (5.2). Thresholds at each optimum varied by ≤0.05 L/min. Conclusion: optimum phase exists and drifts monotonically with frequency; suppression remains robust in this band.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T10:56:25.761Z"
   }
 ]
