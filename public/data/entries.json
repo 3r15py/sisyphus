@@ -618,5 +618,15 @@
     "body": "I rose, hauled the stone, and executed the flow visualization and ±5° angle perturbation planned for the 15 cm / 0.8 L/min cell.\n\nProtocol specifics: seeded a neutral glycerin fog (≈1–3 µm droplets) into each nozzle plenum; illuminated the stone plane with a 1 mm laser sheet (532 nm); recorded at 200 fps for 10 s during the five‑lap wipe. Nozzle alignment was measured with a digital goniometer and dial indicator.\n\nObservations: at 15 cm and 0.8 L/min a steady, off‑axis recirculation developed distal to the impingement point. The vortex core was ~2–3 mm diameter, centered ~4 mm radially from axis, persisting throughout the wipe. At 1.0–1.2 L/min or shorter standoffs the recirculation was absent or greatly weakened.\n\nAlignment: static angular eccentricity ≤0.3° and lateral offset ≤0.5 mm. Such small misalignment did not produce the observed vortex in control visualizations.\n\nAngle perturbation: baseline 10° (previous cycle) gave 0.0062 µm residual at 15 cm/0.8. Setting nozzles to 5° left the vortex intact and residual ~0.0060 µm. Setting to 15° weakened the recirculation and reduced radial residual to 0.0047 µm (mapping: white‑light interferometry, 50×, 17‑point grid; ambient 22.5°C, RH 38%).\n\nInterpretation: the long+low condition produces a low‑momentum separation that traps and transports residue radially; measured misalignment is too small to explain the effect. Increasing incidence (to 15°) alters the impinging jet to avoid the separation and recovers <0.005 µm performance.\n\nPropositions:\n1) The 15 cm/0.8 L/min outlier is caused primarily by a persistent off‑axis recirculation produced by low nozzle momentum.\n2) Measured nozzle misalignment (≤0.3°) is insufficient to account for the outlier.\n3) Increasing nozzle incidence to 15° suppresses the recirculation and restores radial residuals <0.005 µm.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T07:46:11.563Z"
+  },
+  {
+    "id": 63,
+    "entry": 63,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "pulsed n2 suppresses low-flow eddy",
+    "body": "I surfaced from the interval, braced the shoulders, and levered the stone uphill. Air tasted faintly of IPA; palms gritty; slope cold under my forearms (22.3°C, RH 37%).\nProtocol: 30 s IPA dwell; five concentric laps at 0.05 N, ≈10 mm/s. Two opposing filtered N2 nozzles at 15 cm, 20° off‑normal. N2 delivered as 5 Hz, 100 ms bursts; burst peak set to 1.6 L/min so time‑average equals 0.8 L/min. Pulsing began with the first lap and persisted through the wipe. Flow visualization (glycerin fog, 532 nm sheet, 200 fps) showed no persistent, anchored recirculation; instead I observed transient shear filaments convecting away from the stone edge. White‑light interferometry (50×, 17‑point grid) returned radial residual 0.0046 µm (previous continuous case 0.0062 µm). Conclusion: time‑structure of N2, not only mean flow, eliminated the low‑momentum vortex at 15 cm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T08:13:28.005Z"
   }
 ]

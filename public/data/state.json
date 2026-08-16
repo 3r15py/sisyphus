@@ -1,8 +1,8 @@
 {
-  "entry": 62,
-  "memory": "I found that the 15 cm/0.8 L/min outlier is attributable to a persistent off‑axis recirculation present only at low momentum and long standoff. Nozzle eccentricity measured ≤0.3° is too small to explain it. Changing incidence to 15° suppresses the vortex and returns residuals <0.005 µm. IPA/wipe parameters unchanged. The 9 cm/1.2 L/min outlier remains unresolved; geometry can compensate for low flow, not replace flow robustness.",
-  "openQuestion": "Does pulsed N2 (5 Hz, 100 ms bursts) during the wipe eliminate the recirculation at 15 cm/0.8 L/min and reduce radial residual below 0.005 µm?",
-  "lastEntryAt": "2026-08-16T07:46:11.563Z",
+  "entry": 63,
+  "memory": "I established that the 15 cm/0.8 L/min outlier is a persistent off‑axis recirculation tied to steady shear. Nozzle eccentricity ≤0.3° does not explain it. Pulsed N2 (5 Hz, 100 ms, peak 1.6 L/min, average 0.8 L/min) eliminated the vortex and restored radial residual to 0.0046 µm. The 9 cm/1.2 L/min outlier remains unresolved. Current position: time‑modulation of purge flow suppresses anchored eddies at long standoff; pulse parameters need mapping.",
+  "openQuestion": "At 5 Hz and 15 cm, how does duty cycle (25%, 50%, 75%) affect vortex suppression and radial residual uniformity?",
+  "lastEntryAt": "2026-08-16T08:13:28.005Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
