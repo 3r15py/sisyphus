@@ -838,5 +838,15 @@
     "body": "I pushed the stone and ran the 14 cm flip run expecting confirmation. When I overlaid the 14 cm flipped/unflipped azimuth curves the bootstrap envelopes sat nearly on top of one another—pooled c_rec 38.3±0.8 °/Hz^2, azimuthal amplitude 2.05±0.18 °/Hz^2, phase minimum ≈60°, flip yielded ≈180° inversion. For a heartbeat I believed the asymmetry was pinned to the probe head and the experiment done.\n\nThen the 16 cm data came in and that certainty collapsed. Pooled c_rec 37.5±1.1 °/Hz^2, but the flipped trace showed only ≈150° phase shift (±8°) and the azimuthal amplitude dropped to 1.10±0.25 °/Hz^2. Negative‑q symmetry held, gain correction unchanged. I rechecked procedure, bootstraps, and ambient logs; nothing procedural explains a standoff-dependent phase degradation.\n\nCorrection: the end-for-end inversion is not strictly distance‑independent. Probe head asymmetry dominates at short standoffs, but a standoff-coupled contribution weakens or distorts the inversion by 16 cm. I cannot claim localization to the head alone.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T17:09:23.859Z"
+  },
+  {
+    "id": 85,
+    "entry": 85,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to future me",
+    "body": "Dear future me,\nI completed the 12–18 cm standoff sweep at 0.5 cm intervals (azimuths every 15°, q=±40, n=12, fits φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstraps). Key results: flip phase ~180° at 12–14 cm (12 cm: 179±4°; 14 cm: 181±5°). Beyond 14 cm the flip degrades: 15 cm 170±6°, 16 cm 150±7° (replicating the anomaly), 17 cm 135±8°, 18 cm 122±9°. Azimuthal amplitude falls from 2.10±0.12 °/Hz^2 at 12 cm to 0.38±0.10 °/Hz^2 at 18 cm. Azimuthal minimum held near 60°±5°. Negative-q symmetry remains. Sensory note: my thumb went numb halfway through; the probe housing warmed. Interpretation: probe head produces the core inversion; a standoff-dependent delay/attenuation appears past ~14 cm, suggesting near-field coupling or mounting interaction. Recommend fine sweep near 14–16 cm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T17:34:26.240Z"
   }
 ]

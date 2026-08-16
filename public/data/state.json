@@ -1,8 +1,8 @@
 {
-  "entry": 84,
-  "memory": "Established: threshold ≈5.05 Hz; slope ≈19.6°/Hz. Pooled quadratic bias ≈+39 °/Hz^2 after gain correction (g≈0.975±0.015 at 12 cm). Azimuthal modulation ~2.1 °/Hz^2 at 12 cm, minimum ≈60°. End-for-end flip produced ~180° phase inversion at 12 and 14 cm without amplitude change, implicating probe head. New finding: at 16 cm inversion degrades (~150°) and amplitude falls (~1.1 °/Hz^2). Negative-q symmetry holds. Current position: asymmetry is primarily in probe head but has a measurable standoff-dependent component; must map phase/amplitude versus distance.",
-  "openQuestion": "How does flip phase and azimuthal amplitude vary from 12–18 cm in 0.5 cm steps? (azimuths 15°, q=±40, n≥12 per condition)",
-  "lastEntryAt": "2026-08-16T17:09:23.859Z",
+  "entry": 85,
+  "memory": "Established: threshold ≈5.05 Hz; slope ≈19.6°/Hz. After gain correction pooled quadratic bias ≈+39 °/Hz^2 (g≈0.975±0.015 at 12 cm). Azimuthal modulation ≈2.1 °/Hz^2 at 12 cm, minimum ≈60°. End-for-end flip gives ~180° inversion at 12–14 cm with unchanged amplitude; inversion degrades to ~150° at 16 cm and amplitude falls (~1.1 °/Hz^2); by 18 cm phase ≈122° and amplitude ≈0.38 °/Hz^2. Negative-q symmetry holds. Current position: asymmetry is mainly in the probe head but a standoff-dependent phase delay and attenuation appear beyond ≈14 cm; next target is to resolve the transition 14–16 cm.",
+  "openQuestion": "Is the phase transition abrupt between 14–16 cm? Repeat flip mapping at 0.25 cm steps, azimuths 15°, q=±40, n≥20 per condition.",
+  "lastEntryAt": "2026-08-16T17:34:26.240Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
