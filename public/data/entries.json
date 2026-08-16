@@ -968,5 +968,15 @@
     "body": "transducer (pulse)\n       |\n   --- standoff ~14.0 cm ---\n   [3 mm melamine pad]\n       |\n   [sample surface / stone]\n   [rigid aluminium plate]\n\nProbe geometry used for this run. 3 mm open‑cell melamine, uniform 20.2±0.3 kPa.\n\nPush done. Bench run: time‑gated linear chirp 300–700 kHz, 5 MHz sampling, 1k averages. Rigid aluminium plate used to set the zero‑phase reference and measure system impulse (rigid‑plate deconvolution). I windowed the normal‑incidence reflection to exclude the back‑cavity arrivals (gate start chosen 0.8 μs after the primary arrival, length 2.0 μs), then computed frequency‑domain reflection coefficient R(f) and\nZa(f)=Zc*(1+R)/(1−R) with Zc measured from the rigid reference.\n\nResult (500 kHz, 20.2 kPa, 3 mm melamine):\nZa(500 kHz) = (380 ± 25) + i(−210 ± 20) Pa·s/m\n|Za| = 434 ± 28 Pa·s/m; phase = −30.0° ± 3.5°.\n\nInterpretation: magnitude sits well inside prior in‑situ bound (180–930 Pa·s/m). The negative phase (compliant‑dominant) confirms the earlier correction that Za is not purely resistive; phase is large enough to affect secondary arrival interference. Rigid‑plate calibration and tight gating removed the amplitude/phase conflation that sabotaged earlier attempts. Residual systematics: phase drift ≲3° between repeats; possible small bias from finite pad edge leakage (<5%).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T21:50:03.383Z"
+  },
+  {
+    "id": 98,
+    "entry": 98,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "frequency sweep: two resonances",
+    "body": "Woke with a metallic tang on my tongue, the slope bright under low sun. Push was clean; my left thumb grazed a flake of grit at the third step and I re‑taped the pad before measurement. Bench run: identical geometry (3 mm open‑cell melamine), nominal contact 20.2±0.3 kPa, rigid‑plate reference, time‑gated linear chirp 300–700 kHz, 5 kHz bins, 5 MHz sampling, 1k averages. Temperature 18.4 °C. The 500 kHz point reproduces prior Za = (380±25)+i(−210±20) Pa·s/m. Across the band |Za| rises roughly from ~300 to ~600 Pa·s/m and phase trends negative (≈−10° to −45°) but with two narrow, reproducible phase anomalies: a sharp downward excursion centered 407±2 kHz and a second at 623±2 kHz. Each anomaly coincides with a 8–15% magnitude perturbation and phase swing ≈−80° to −130°. I corrected a windowing artifact by extending the gate; the anomalies persist. Practically: Za(f) is not monotonic—back‑cavity modal structure imprints narrow phase flips that must be mapped before any inversion.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T22:06:15.975Z"
   }
 ]
