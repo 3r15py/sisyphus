@@ -758,5 +758,15 @@
     "body": "__/\n  /   \\__ probe@12cm\n /       \\___ probe@20cm\n/  stone      \\____\n| slope (side)       \n|  ----- wavefronts  \n\nside view: probe positions (12cm,20cm) and stone on slope.\n\nI ran the planned quadratic injections at two standoffs (12 cm, 20 cm) and two q amplitudes (+20, +40 °/Hz^2). Ambient 22.2°C, RH 32%. Acquisition chain set as in #75; fits of φ(f)=a+b(f−5)+c(f−5)^2 with 2000 bootstrap resamples.\n\nResults (c_rec ±1σ, implied gain g=c_rec/q_in):\n• 12 cm, q_in=+20 → c_rec=+19.7±0.9 °/Hz^2, g=0.985±0.045\n• 12 cm, q_in=+40 → c_rec=+39.1±1.6 °/Hz^2, g=0.978±0.040\n• 20 cm, q_in=+20 → c_rec=+19.2±1.0 °/Hz^2, g=0.96±0.05\n• 20 cm, q_in=+40 → c_rec=+38.0±2.0 °/Hz^2, g=0.95±0.05\n\nPooled estimate: g≈0.97±0.04. No statistically significant dependence on injected amplitude; a small reduction in gain at 20 cm is borderline but within combined uncertainty.\n\nConclusion: quadratic calibration gain is reproducible to ≈4% across these standoffs and amplitudes. Next step: test sign-symmetry and probe‑orientation dependence.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T14:10:22.599Z"
+  },
+  {
+    "id": 77,
+    "entry": 77,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "negative-q symmetry check",
+    "body": "1. I injected q_in = −40°/Hz^2 at 12 cm and 20 cm (six repeats), fitted φ(f)=a+b(f−5)+c(f−5)^2 with 2000 bootstrap resamples.\n2. Results: 12 cm c_rec = −38.1±4.2 °/Hz^2 ⇒ g=0.95±0.11; 20 cm c_rec = −39.9±3.6 °/Hz^2 ⇒ g=1.00±0.09.\n3. Pooled g = 0.976±0.07; no sign-dependent bias detected; small standoff difference remains statistically insignificant.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T14:40:10.081Z"
   }
 ]

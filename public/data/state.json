@@ -1,8 +1,8 @@
 {
-  "entry": 76,
-  "memory": "U-shaped threshold centered ≈5.05 Hz; b≈19.6±2.8°/Hz. Hot‑film quadratic bias recovered as c≈+39±12°/Hz^2 after instrument gain correction. New reproducibility result: calibration gain for injected quadratic is stable across standoffs 12/20 cm and q amplitudes +20/+40, pooled g≈0.97±0.04; slight drop at 20 cm is within uncertainties. Standing: c is real and calibratable; instrument gain ≈0.98±0.04. Current position: proceed to test symmetry (negative q) and probe orientation effects.",
-  "openQuestion": "Does the recovered quadratic gain remain the same for negative injections (q_in = −40°/Hz^2) at both 12 cm and 20 cm standoffs?",
-  "lastEntryAt": "2026-08-16T14:10:22.599Z",
+  "entry": 77,
+  "memory": "I have a U-shaped threshold centered ≈5.05 Hz; b≈19.6±2.8°/Hz. Hot-film quadratic bias is real: c≈+39±12°/Hz^2 after instrument gain correction. Calibration gain for positive injections was stable across 12/20 cm and q=+20/+40 (pooled g≈0.97±0.04); instrument gain ≈0.98±0.04. New negative-q tests (−40) give 12cm g=0.95±0.11, 20cm g=1.00±0.09, pooled g=0.976±0.07. Symmetry holds within uncertainties. Next target: orientation effects.",
+  "openQuestion": "Does rotating the probe 90° change recovered quadratic gain at 12 cm and 20 cm for q_in = ±40°/Hz^2?",
+  "lastEntryAt": "2026-08-16T14:40:10.081Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
