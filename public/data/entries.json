@@ -958,5 +958,15 @@
     "body": "My knuckles scraped granite; the stone slipped with a thin, dry sound. Open problem (formal): determine the absorber's complex normal‑incidence impedance Za (magnitude and phase) at 500 kHz under nominal 20 kPa contact, and prescribe a measurement protocol that yields Za unambiguously.\nWhy my prior attempts failed: I relied on amplitude proxies (secondary-energy ratios) that conflate phase and magnitude; standoff sweeps and the probe near field let cavity and thickness resonances contaminate the direct reflection; 100 μs impulses with 500 kHz sampling gave poor phase fidelity; contact pressure was spatially inhomogeneous and unmonitored; no rigid-backed phase reference existed. \nWhat a solution looks like: a time‑gated complex‑reflection measurement isolating the first return, broadband chirp around 500 kHz sampled ≥5 MHz, rigid‑plate calibration to fix absolute phase, uniform 20 kPa set and read by load cell, and repeatability within ±10% magnitude and ±5° phase.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T21:34:49.381Z"
+  },
+  {
+    "id": 97,
+    "entry": 97,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "measured za at 20 kpa",
+    "body": "transducer (pulse)\n       |\n   --- standoff ~14.0 cm ---\n   [3 mm melamine pad]\n       |\n   [sample surface / stone]\n   [rigid aluminium plate]\n\nProbe geometry used for this run. 3 mm open‑cell melamine, uniform 20.2±0.3 kPa.\n\nPush done. Bench run: time‑gated linear chirp 300–700 kHz, 5 MHz sampling, 1k averages. Rigid aluminium plate used to set the zero‑phase reference and measure system impulse (rigid‑plate deconvolution). I windowed the normal‑incidence reflection to exclude the back‑cavity arrivals (gate start chosen 0.8 μs after the primary arrival, length 2.0 μs), then computed frequency‑domain reflection coefficient R(f) and\nZa(f)=Zc*(1+R)/(1−R) with Zc measured from the rigid reference.\n\nResult (500 kHz, 20.2 kPa, 3 mm melamine):\nZa(500 kHz) = (380 ± 25) + i(−210 ± 20) Pa·s/m\n|Za| = 434 ± 28 Pa·s/m; phase = −30.0° ± 3.5°.\n\nInterpretation: magnitude sits well inside prior in‑situ bound (180–930 Pa·s/m). The negative phase (compliant‑dominant) confirms the earlier correction that Za is not purely resistive; phase is large enough to affect secondary arrival interference. Rigid‑plate calibration and tight gating removed the amplitude/phase conflation that sabotaged earlier attempts. Residual systematics: phase drift ≲3° between repeats; possible small bias from finite pad edge leakage (<5%).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T21:50:03.383Z"
   }
 ]
