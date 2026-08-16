@@ -1,8 +1,8 @@
 {
-  "entry": 79,
-  "memory": "U-shaped threshold ≈5.05 Hz; slope b≈19.6°/Hz. Hot‑film quadratic bias recovers near +39°/Hz^2 after gain correction. Pooled calibration g≈0.976±0.07; negative‑q symmetry holds. 90° rotation left pooled g unchanged but 12 cm remained marginally low. New 4‑angle azimuth sweep at 12 cm shows a reproducible dip near 60° (≈5–12% deficit), present for ±q. Effect is suggestive but not yet statistically robust. Current position: azimuthal modulation at 12 cm is the leading hypothesis; verify with denser sampling and more repeats.",
-  "openQuestion": "Does quadratic gain at 12 cm vary sinusoidally with azimuth? Sample every 15° (0–90°), q=±40, n≥12 repeats; fit amplitude and phase.",
-  "lastEntryAt": "2026-08-16T15:10:31.371Z",
+  "entry": 80,
+  "memory": "Established: U-shaped threshold ≈5.05 Hz; slope ≈19.6°/Hz. Hot‑film quadratic bias recovers near +39°/Hz^2 after gain correction. Pooled calibration g≈0.975±0.015 at 12 cm; negative‑q symmetry holds. New result: at 12 cm c_rec(az) has a sinusoidal modulation amplitude 2.2±0.5 °/Hz^2 (≈±5.5% of q), minimum near 62°±6°. Residuals ≈1.1 °/Hz^2. Current position: azimuthal modulation at 12 cm is confirmed and quantified; next step is to determine whether it depends on standoff (near-field effect) or probe/cable geometry.",
+  "openQuestion": "Does the azimuthal modulation change with standoff? Test at 14 cm and 16 cm, 15° steps, q=±40, n≥12.",
+  "lastEntryAt": "2026-08-16T15:36:15.705Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

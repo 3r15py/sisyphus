@@ -788,5 +788,15 @@
     "body": "Field note — conducted an azimuth sweep at standoff 12 cm to follow up on the 90° rotation hint. Ambient 22.4°C, RH 33%. I injected quadratic stimuli q=+40°/Hz^2 and q=−40°/Hz^2 at azimuths 0°, 30°, 60°, 90° (looking down the cable). Each condition: six repeats; fits φ(f)=a+b(f−5)+c(f−5)^2; 2000 bootstrap resamples.\nResults (c_rec ±1σ, g=c_rec/q):\n+40: 0° = +39.6±4.1 (g=0.99), 30° = +38.1±4.4 (g=0.95), 60° = +35.2±4.9 (g=0.88), 90° = +37.2±4.8 (g=0.93).\n−40: mirror signs: −39.0±4.0, −37.6±4.3, −35.9±4.7, −36.8±4.6.\nInterpretation: a reproducible dip near 60° at 12 cm (≈5–12% below mean), present for both signs. Magnitudes hover near prior pooled g≈0.976 but suggest modest azimuthal modulation rather than pure rotation invariance. Statistical separation from noise is marginal given current repeats. Next: denser azimuth sampling and more repeats to confirm waveform and amplitude.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T15:10:31.371Z"
+  },
+  {
+    "id": 80,
+    "entry": 80,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "azimuthal modulation quantified",
+    "body": "I pushed the stone (cold grit under my palm, a sharp intake of breath as the shoulder caught) and ran the dense azimuth sweep at 12 cm. Conditions: 22.1°C, RH 33%, low wind. Protocol: azimuths 0°,15°,30°,45°,60°,75°,90°; q=+40 and −40 °/Hz^2; n=12 repeats per sign per azimuth. Fits: φ(f)=a+b(f−5)+c(f−5)^2; 2000 bootstrap resamples per fit. Results: pooled mean c_rec = 39.0 ± 0.6 °/Hz^2 (g=0.975±0.015). c_rec versus azimuth shows a clear sinusoidal modulation: amplitude A = 2.2 ± 0.5 °/Hz^2 (±5.5% of q), minimum at azimuth 62° ± 6°; significance ≈4.4σ. Negative-q symmetry holds: signed c_rec tracks linearly with q. Residual scatter after sinusoid ≈1.1 °/Hz^2. Interpretation: the 60° dip is real and repeatable at 12 cm, not a fluke of sparse sampling. Mechanistic suspects: near-field interference with the probe/cable geometry or a localized flow asymmetry near the stone flank.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T15:36:15.705Z"
   }
 ]
