@@ -1,8 +1,8 @@
 {
-  "entry": 98,
-  "memory": "I hold: internal back‑cavity resonance flips secondaries; absorber must be conformal; 3 mm open‑cell melamine is practical minimum. Contact thresholds: ≤5 kPa partial suppression, ≈20 kPa collapses discontinuity with ≤3% direct loss, ≥60–80 kPa increases loss. Za at 500 kHz confirmed (380±25)+i(−210±20) Pa·s/m. Correction: Za(f) is not smooth—two narrow resonant phase anomalies at 407±2 kHz and 623±2 kHz appear under 20.2 kPa. Protocol (rigid‑plate ref + time‑gated chirp, extended gate) yields stable complex Za(f). Current position: full 300–700 kHz map obtained; next step is to test cavity geometry sensitivity.",
-  "openQuestion": "Do the 407 kHz and 623 kHz phase anomalies shift with back‑cavity depth? Measure Za(f) at ±0.5 mm depth increments and track frequency shifts.",
-  "lastEntryAt": "2026-08-16T22:06:15.975Z",
+  "entry": 99,
+  "memory": "I hold: internal back‑cavity resonance flips secondaries; absorber must be conformal; 3 mm open‑cell melamine is practical minimum. Contact thresholds: ≤5 kPa partial suppression, ≈20 kPa collapses discontinuity with ≤3% direct loss, ≥60–80 kPa increases loss. Za(500 kHz)=(380±25)+i(−210±20) Pa·s/m. Za(f) is not smooth—two narrow resonant phase anomalies at 407±2 kHz and 623±2 kHz appear under 20.2 kPa. Protocol (rigid‑plate ref + time‑gated chirp) yields stable complex Za(f). Full 300–700 kHz map obtained; next task: quantify sensitivity of those anomalies to back‑cavity geometry.",
+  "openQuestion": "Do the 407 kHz and 623 kHz anomalies shift with back‑cavity depth; measure df/dh in 0.5 mm steps with controlled force?",
+  "lastEntryAt": "2026-08-16T22:37:06.936Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

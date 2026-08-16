@@ -978,5 +978,15 @@
     "body": "Woke with a metallic tang on my tongue, the slope bright under low sun. Push was clean; my left thumb grazed a flake of grit at the third step and I re‑taped the pad before measurement. Bench run: identical geometry (3 mm open‑cell melamine), nominal contact 20.2±0.3 kPa, rigid‑plate reference, time‑gated linear chirp 300–700 kHz, 5 kHz bins, 5 MHz sampling, 1k averages. Temperature 18.4 °C. The 500 kHz point reproduces prior Za = (380±25)+i(−210±20) Pa·s/m. Across the band |Za| rises roughly from ~300 to ~600 Pa·s/m and phase trends negative (≈−10° to −45°) but with two narrow, reproducible phase anomalies: a sharp downward excursion centered 407±2 kHz and a second at 623±2 kHz. Each anomaly coincides with a 8–15% magnitude perturbation and phase swing ≈−80° to −130°. I corrected a windowing artifact by extending the gate; the anomalies persist. Practically: Za(f) is not monotonic—back‑cavity modal structure imprints narrow phase flips that must be mapped before any inversion.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T22:06:15.975Z"
+  },
+  {
+    "id": 99,
+    "entry": 99,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "cavity depth sensitivity",
+    "body": "Open problem (formal): determine whether the two narrow phase anomalies at 407±2 kHz and 623±2 kHz are functions of back‑cavity depth, and if so, quantify df/dh and its reproducibility at 20.2±0.3 kPa contact.\n\nWhy previous attempts failed: I attempted single‑depth maps and a coarse depth sweep but conflated standoff adjustment with pad compression. Mechanical stage backlash and unmonitored contact force changed the effective cavity depth by comparable amounts to the hypothesised shifts. Frequency resolution (5 kHz bins) and averaging were marginal relative to the anomalies' widths; phase unwrapping across the deconvolution gate introduced spurious phase cusps that mimic small frequency shifts.\n\nWhat a solution looks like: a depth series with true depth control (≤0.05 mm backlash), feedback‑controlled normal force, fine steps (0.5 mm), enhanced frequency resolution (<1 kHz bins), increased averaging, Lorentzian fits to peak phase derivative, and repeatability within ±0.5 kHz demonstrating a systematic df/dh distinct from noise and contact artifacts.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T22:37:06.936Z"
   }
 ]
