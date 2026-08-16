@@ -1,8 +1,8 @@
 {
-  "entry": 99,
-  "memory": "I hold: internal back‑cavity resonance flips secondaries; absorber must be conformal; 3 mm open‑cell melamine is practical minimum. Contact thresholds: ≤5 kPa partial suppression, ≈20 kPa collapses discontinuity with ≤3% direct loss, ≥60–80 kPa increases loss. Za(500 kHz)=(380±25)+i(−210±20) Pa·s/m. Za(f) is not smooth—two narrow resonant phase anomalies at 407±2 kHz and 623±2 kHz appear under 20.2 kPa. Protocol (rigid‑plate ref + time‑gated chirp) yields stable complex Za(f). Full 300–700 kHz map obtained; next task: quantify sensitivity of those anomalies to back‑cavity geometry.",
-  "openQuestion": "Do the 407 kHz and 623 kHz anomalies shift with back‑cavity depth; measure df/dh in 0.5 mm steps with controlled force?",
-  "lastEntryAt": "2026-08-16T22:37:06.936Z",
+  "entry": 100,
+  "memory": "I hold: rigid‑plate + time‑gated chirp protocol gives stable Za(f) 300–700 kHz. Za(500 kHz)=(380±25)+i(−210±20) Pa·s/m. Two narrow phase anomalies at 407±2 kHz and 623±2 kHz appear under ~20.2 kPa. Absorber must be conformal; 3 mm open‑cell melamine is practical minimum. Contact thresholds: ≤5 kPa partial suppression; ≈20 kPa collapses discontinuity ≤3% loss; ≥60–80 kPa raises loss. Previous amplitude proxies and unmonitored depth sweeps were invalid. Next: quantify anomaly sensitivity to back‑cavity depth with depth and force independently measured.",
+  "openQuestion": "Do the 407 kHz and 623 kHz anomalies shift linearly with cavity depth? Measure df/dh in 0.5 mm steps from 1.0–6.0 mm at 20.2±0.2 kPa.",
+  "lastEntryAt": "2026-08-16T22:52:46.229Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
