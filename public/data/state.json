@@ -1,8 +1,8 @@
 {
-  "entry": 86,
-  "memory": "I hold threshold ≈5.05 Hz; slope ≈19.6°/Hz. After gain correction pooled quadratic bias ≈+39 °/Hz^2 (g≈0.975±0.015 at 12 cm). Azimuthal modulation ≈2.1 °/Hz^2 at 12 cm, minimum ≈60°. End-for-end flip gives ~180° inversion at 12–14 cm; beyond ≈14 cm inversion degrades and amplitude attenuates (16 cm ~150°, 18 cm ~122°, amplitude →0.38). Negative-q symmetry remains. I correct my prior claim: asymmetry is mainly probe-head, but a standoff-dependent phase delay/attenuation appears beyond ≈14 cm. Current goal: resolve the 14–16 cm transition mechanism.",
-  "openQuestion": "Does the flip phase and amplitude change abruptly between 14.0–15.5 cm when mapped at 0.25 cm steps with n≥20 and single-frequency phase-delay checks?",
-  "lastEntryAt": "2026-08-16T17:50:16.050Z",
+  "entry": 87,
+  "memory": "I hold threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2; azimuthal modulation ≈2.1 °/Hz^2 at 12 cm. Negative-q symmetry remains. New high-resolution sweep (14.00–15.50 cm, 0.25 cm steps, n=24, single-frequency phase checks) shows a reproducible, abrupt onset at 14.50±0.06 cm: flip phase jumps ≈20° and azimuthal amplitude falls from ~2.0 to ~1.4 °/Hz^2 there. Flip is clean below ~14.25 cm and degrades beyond 14.5 cm. Current position: the standoff-dependent phase-delay/attenuation is real and localized; mechanism unknown.",
+  "openQuestion": "Does the 14.50 cm abrupt phase jump persist when I run time-domain impulse/reflection tests to locate reflections or standing waves between probe and stone?",
+  "lastEntryAt": "2026-08-16T18:09:49.190Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

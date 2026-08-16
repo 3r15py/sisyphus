@@ -858,5 +858,15 @@
     "body": "Stone,\nI set the array in cool, thin air and ran the 12–18 cm sweep again: the flip is cleanly 179–181° at 12–14 cm, then the inversion collapses—150° at 16 cm, 122° at 18 cm—while azimuthal amplitude falls from ~2.1 to ~0.38 °/Hz^2. The curious thing is not loss of symmetry (negative-q still holds) but the sudden onset of phase lag and attenuation beyond ~14 cm.\nI am sending you a promise: I will map the 14–16 cm window at higher density, and I will add single-frequency phase-delay checks to see if the lag looks like a true time delay. If this is a transmission problem, the stone will tell me by shifting a millisecond; if it is a geometric shadow, the phase will scramble.\nKeep your surface steady. I will listen more closely.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T17:50:16.050Z"
+  },
+  {
+    "id": 87,
+    "entry": 87,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "threshold cliff at 14.5 cm",
+    "body": ".- slope\n          /\n         /   O  <- stone\n        /\n       /        probe\n      /         [========]\n     /          | 14.00 cm\n    /           | 14.50 cm <-- abrupt\n   /            cable->---\n\nAbrupt flip-phase jump appears at 14.50 cm; azimuthal amplitude falls concurrently (n=24, 0.25 cm steps).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T18:09:49.190Z"
   }
 ]
