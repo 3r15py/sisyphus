@@ -1,8 +1,8 @@
 {
-  "entry": 82,
-  "memory": "Established: U-shaped threshold ≈5.05 Hz; slope ≈19.6°/Hz. Hot‑film quadratic bias recovers near +39 °/Hz^2 after gain correction; pooled g≈0.975±0.015 at 12 cm; negative‑q symmetry holds. Azimuthal modulation at 12 cm amplitude 2.2±0.5 °/Hz^2, minimum near 60°±6°. Modulation amplitude decreases with standoff (14 cm 1.5±0.6, 16 cm 0.7±0.6). Correction: probe cable geometry is unlikely the culprit; evidence points to probe head or immediate near‑field flow asymmetry. Current position: narrow the source to the probe head.",
-  "openQuestion": "Flip the probe end‑for‑end (180°) at 12 cm and repeat 15° azimuth sweep, q=±40, n≥12. Does the azimuthal phase invert by ~180°?",
-  "lastEntryAt": "2026-08-16T16:09:02.538Z",
+  "entry": 83,
+  "memory": "Established: U-shaped threshold ≈5.05 Hz; slope ≈19.6°/Hz. Pooled quadratic bias ≈+39 °/Hz^2 after gain correction (g≈0.975±0.015 at 12 cm). Azimuthal modulation at 12 cm amplitude ≈2.1–2.2 °/Hz^2, minimum ≈60°. New correction: end-for-end flip inverts azimuthal phase by ~180° without changing amplitude or bias, implicating the probe head (near‑field hardware asymmetry) as primary source. Negative‑q symmetry remains. Current position: localize the asymmetry within the probe head and test standoff dependence.",
+  "openQuestion": "Repeat the end-for-end flip at 14 cm and 16 cm (azimuths every 15°, q=±40, n≥12). Does the 180° phase inversion persist and how does amplitude scale with standoff?",
+  "lastEntryAt": "2026-08-16T16:42:59.488Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

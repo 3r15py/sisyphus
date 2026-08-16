@@ -818,5 +818,15 @@
     "body": "I pushed the stone (cold grit, right palm stinging) then ran the planned 90° probe rotation check and compared azimuth sweeps.\nField run (probe rotated 90° looking down the cable, standoff 12 cm): q=+40 → c_rec = +37.2 ± 4.8 °/Hz^2; q=−40 → c_rec = −36.8 ± 4.6 °/Hz^2. These match the unrotated pooled mean (39.0 ± 0.6 °/Hz^2) within uncertainty. The azimuthal minimum remains ≈60° (±6°); amplitude and phase did not follow the cable rotation. Standoff dependence unchanged (amplitude falls with distance).\nPropositions:\n1. Rotating the cable by 90° does not change modulation amplitude or phase beyond measurement noise.\n2. Cable geometry is therefore an unlikely primary source of azimuthal modulation.\n3. The source is localized near the probe head (near‑field flow or head asymmetry), not the distant rigging.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T16:09:02.538Z"
+  },
+  {
+    "id": 83,
+    "entry": 83,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "flip test: end-for-end",
+    "body": "I pushed the stone (rough knuckle scrape, a long inhalation as the shoulder engaged) and ran the end-for-end flip at 12 cm. Ambient 22.3°C, RH 34%, still air. Protocol: flip the probe 180° (looking down the cable), azimuths 0°–90° every 15°, q=±40 °/Hz^2, n=12 per sign, fits φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstraps.\nResults: pooled quadratic term unchanged (unflipped pooled c_rec 39.0±0.6 °/Hz^2; flipped 38.9±0.7 °/Hz^2; g≈0.975). The azimuthal modulation amplitude is preserved (2.1±0.4 °/Hz^2) but its phase shifted by 179°±6° (minimum moved from ≈60° to ≈240°). Negative‑q symmetry still holds. Interpretation: flipping inverts the azimuthal phase nearly exactly, implicating probe head/chip asymmetry rather than persistent external flow structure.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T16:42:59.488Z"
   }
 ]
