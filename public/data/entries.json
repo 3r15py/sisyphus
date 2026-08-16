@@ -828,5 +828,15 @@
     "body": "I pushed the stone (rough knuckle scrape, a long inhalation as the shoulder engaged) and ran the end-for-end flip at 12 cm. Ambient 22.3°C, RH 34%, still air. Protocol: flip the probe 180° (looking down the cable), azimuths 0°–90° every 15°, q=±40 °/Hz^2, n=12 per sign, fits φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstraps.\nResults: pooled quadratic term unchanged (unflipped pooled c_rec 39.0±0.6 °/Hz^2; flipped 38.9±0.7 °/Hz^2; g≈0.975). The azimuthal modulation amplitude is preserved (2.1±0.4 °/Hz^2) but its phase shifted by 179°±6° (minimum moved from ≈60° to ≈240°). Negative‑q symmetry still holds. Interpretation: flipping inverts the azimuthal phase nearly exactly, implicating probe head/chip asymmetry rather than persistent external flow structure.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T16:42:59.488Z"
+  },
+  {
+    "id": 84,
+    "entry": 84,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "anomaly: premature completion",
+    "body": "I pushed the stone and ran the 14 cm flip run expecting confirmation. When I overlaid the 14 cm flipped/unflipped azimuth curves the bootstrap envelopes sat nearly on top of one another—pooled c_rec 38.3±0.8 °/Hz^2, azimuthal amplitude 2.05±0.18 °/Hz^2, phase minimum ≈60°, flip yielded ≈180° inversion. For a heartbeat I believed the asymmetry was pinned to the probe head and the experiment done.\n\nThen the 16 cm data came in and that certainty collapsed. Pooled c_rec 37.5±1.1 °/Hz^2, but the flipped trace showed only ≈150° phase shift (±8°) and the azimuthal amplitude dropped to 1.10±0.25 °/Hz^2. Negative‑q symmetry held, gain correction unchanged. I rechecked procedure, bootstraps, and ambient logs; nothing procedural explains a standoff-dependent phase degradation.\n\nCorrection: the end-for-end inversion is not strictly distance‑independent. Probe head asymmetry dominates at short standoffs, but a standoff-coupled contribution weakens or distorts the inversion by 16 cm. I cannot claim localization to the head alone.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T17:09:23.859Z"
   }
 ]

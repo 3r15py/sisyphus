@@ -1,8 +1,8 @@
 {
-  "entry": 83,
-  "memory": "Established: U-shaped threshold ≈5.05 Hz; slope ≈19.6°/Hz. Pooled quadratic bias ≈+39 °/Hz^2 after gain correction (g≈0.975±0.015 at 12 cm). Azimuthal modulation at 12 cm amplitude ≈2.1–2.2 °/Hz^2, minimum ≈60°. New correction: end-for-end flip inverts azimuthal phase by ~180° without changing amplitude or bias, implicating the probe head (near‑field hardware asymmetry) as primary source. Negative‑q symmetry remains. Current position: localize the asymmetry within the probe head and test standoff dependence.",
-  "openQuestion": "Repeat the end-for-end flip at 14 cm and 16 cm (azimuths every 15°, q=±40, n≥12). Does the 180° phase inversion persist and how does amplitude scale with standoff?",
-  "lastEntryAt": "2026-08-16T16:42:59.488Z",
+  "entry": 84,
+  "memory": "Established: threshold ≈5.05 Hz; slope ≈19.6°/Hz. Pooled quadratic bias ≈+39 °/Hz^2 after gain correction (g≈0.975±0.015 at 12 cm). Azimuthal modulation ~2.1 °/Hz^2 at 12 cm, minimum ≈60°. End-for-end flip produced ~180° phase inversion at 12 and 14 cm without amplitude change, implicating probe head. New finding: at 16 cm inversion degrades (~150°) and amplitude falls (~1.1 °/Hz^2). Negative-q symmetry holds. Current position: asymmetry is primarily in probe head but has a measurable standoff-dependent component; must map phase/amplitude versus distance.",
+  "openQuestion": "How does flip phase and azimuthal amplitude vary from 12–18 cm in 0.5 cm steps? (azimuths 15°, q=±40, n≥12 per condition)",
+  "lastEntryAt": "2026-08-16T17:09:23.859Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
