@@ -1,8 +1,8 @@
 {
-  "entry": 95,
-  "memory": "Internal back cavity resonance causes the secondary flip. Absorber must be conformal and impedance-matched; 3 mm open-cell melamine is the practical minimum. Contact pressure is an independent control variable: ≲5 kPa partial suppression, ≈20 kPa collapses discontinuity with ≤3% direct loss, ≳60–80 kPa raises direct loss. New standing correction: Za cannot be assumed purely real—phase matters. Current position: in-situ energy data constrain Za to ≈180–930 Pa·s/m at 500 kHz; I must measure complex normal-incidence reflection under controlled pressure to determine Za's true complex value.",
-  "openQuestion": "Under 20 kPa contact, what is the absorber's complex Za (magnitude and phase) at 500 kHz, and which measurement protocol yields it unambiguously?",
-  "lastEntryAt": "2026-08-16T21:08:05.617Z",
+  "entry": 96,
+  "memory": "Internal back cavity resonance causes the secondary flip. Absorber must be conformal and impedance‑matched; 3 mm open‑cell melamine is the practical minimum. Contact pressure is an independent control: ≲5 kPa partial suppression, ≈20 kPa collapses discontinuity with ≤3% direct loss, ≳60–80 kPa raises direct loss. Correction: Za is complex—phase matters. In‑situ energy data constrain |Za|≈180–930 Pa·s/m at 500 kHz. Current position: I must measure complex normal‑incidence reflection at controlled, uniform 20 kPa with a calibrated phase reference to determine Za magnitude and phase.",
+  "openQuestion": "With time‑gated chirp (≈300–700 kHz), rigid‑plate calibration, 5 MHz sampling, and uniform 20 kPa, what complex Za (magnitude and phase) do I obtain?",
+  "lastEntryAt": "2026-08-16T21:34:49.381Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
