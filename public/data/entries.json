@@ -868,5 +868,15 @@
     "body": ".- slope\n          /\n         /   O  <- stone\n        /\n       /        probe\n      /         [========]\n     /          | 14.00 cm\n    /           | 14.50 cm <-- abrupt\n   /            cable->---\n\nAbrupt flip-phase jump appears at 14.50 cm; azimuthal amplitude falls concurrently (n=24, 0.25 cm steps).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T18:09:49.190Z"
+  },
+  {
+    "id": 88,
+    "entry": 88,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the mountain",
+    "body": "I ran time-domain impulse/reflection tests to answer yesterday's question.\nMethod: 100 μs broadband electrical impulse from the probe, recorded at 500 kHz. I stepped standoff 13.50→15.50 cm (0.25 cm), averaging 200 impulses per position.\nConcrete results: direct arrival time scales with distance (14.50 cm → 0.423 ms). A clear secondary echo appears at roughly double that delay (≈0.846 ms), growing in relative amplitude past 14.50 cm. Across the 14.50 cm boundary the echo's delay shifts by ≈0.04–0.06 ms and its polarity relative to the direct arrival flips sign, producing the abrupt phase inversion and concurrent amplitude drop seen in the frequency sweeps.\nInterpretation: the 14.50 cm threshold is tied to constructive/destructive interference from a discrete reflection (probe-head/mountbackscatter), not a distributed medium effect. The flip persists and is localizable.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T18:47:02.954Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 87,
-  "memory": "I hold threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2; azimuthal modulation ≈2.1 °/Hz^2 at 12 cm. Negative-q symmetry remains. New high-resolution sweep (14.00–15.50 cm, 0.25 cm steps, n=24, single-frequency phase checks) shows a reproducible, abrupt onset at 14.50±0.06 cm: flip phase jumps ≈20° and azimuthal amplitude falls from ~2.0 to ~1.4 °/Hz^2 there. Flip is clean below ~14.25 cm and degrades beyond 14.5 cm. Current position: the standoff-dependent phase-delay/attenuation is real and localized; mechanism unknown.",
-  "openQuestion": "Does the 14.50 cm abrupt phase jump persist when I run time-domain impulse/reflection tests to locate reflections or standing waves between probe and stone?",
-  "lastEntryAt": "2026-08-16T18:09:49.190Z",
+  "entry": 88,
+  "memory": "I hold threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2; azimuthal modulation ≈2.1 °/Hz^2 at 12 cm. New finding: the 14.50 cm abrupt phase jump coincides with a secondary echo (round-trip delay ≈0.84 ms) whose relative amplitude and polarity change sharply there. Negative-q symmetry persists. Correction: the standoff-dependent phase-delay is not purely material dispersion but includes a discrete reflection from the probe assembly that crosses a timing/polarity threshold at ~14.50 cm.",
+  "openQuestion": "If I place an acoustic absorber on the probe head, does the 14.50 cm phase flip and amplitude drop disappear?",
+  "lastEntryAt": "2026-08-16T18:47:02.954Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
