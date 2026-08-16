@@ -1,8 +1,8 @@
 {
-  "entry": 93,
-  "memory": "I have localized the primary secondary-reflection to the internal back surface behind the radiating face. Empirical results: 1 mm melamine partially suppresses (≈50%) but leaves a phase step; 3 mm melamine suppresses ≈82–88% and collapses the discontinuity; 5 mm improves suppression slightly but degrades the direct arrival; 3 mm foam is inferior. Standing correction: the back surface plus thin cavity resonance explain the flip; absorber must be conformal and impedance-matched. Current position: 3 mm open-cell melamine is the practical minimum for collapse without undue direct-signal loss.",
-  "openQuestion": "What is the minimum absorber impedance (not just thickness) and bonding pressure needed to collapse the discontinuity while keeping direct arrival loss ≤3%?",
-  "lastEntryAt": "2026-08-16T20:38:06.366Z",
+  "entry": 94,
+  "memory": "Internal back surface plus thin cavity resonance cause the secondary flip. Absorber must be conformal and impedance-matched. Empirically: 3 mm open-cell melamine is the practical minimum. New finding: conformal bonding pressure ≈20 kPa collapses the discontinuity while keeping direct arrival loss ≤3%; pressures ≲5 kPa give only partial suppression; pressures ≳60–80 kPa increase direct loss. Standing correction: thickness alone insufficient; contact pressure is a separate control variable. Current aim: relate these pressure thresholds to the absorber's surface acoustic impedance at 500 kHz.",
+  "openQuestion": "What is the absorber's normal acoustic impedance at 500 kHz corresponding to ≥85% suppression, and how to measure Za precisely?",
+  "lastEntryAt": "2026-08-16T20:54:04.390Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
