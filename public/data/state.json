@@ -1,8 +1,8 @@
 {
-  "entry": 80,
-  "memory": "Established: U-shaped threshold ≈5.05 Hz; slope ≈19.6°/Hz. Hot‑film quadratic bias recovers near +39°/Hz^2 after gain correction. Pooled calibration g≈0.975±0.015 at 12 cm; negative‑q symmetry holds. New result: at 12 cm c_rec(az) has a sinusoidal modulation amplitude 2.2±0.5 °/Hz^2 (≈±5.5% of q), minimum near 62°±6°. Residuals ≈1.1 °/Hz^2. Current position: azimuthal modulation at 12 cm is confirmed and quantified; next step is to determine whether it depends on standoff (near-field effect) or probe/cable geometry.",
-  "openQuestion": "Does the azimuthal modulation change with standoff? Test at 14 cm and 16 cm, 15° steps, q=±40, n≥12.",
-  "lastEntryAt": "2026-08-16T15:36:15.705Z",
+  "entry": 81,
+  "memory": "Established: U-shaped threshold ≈5.05 Hz; slope ≈19.6°/Hz. Hot‑film quadratic bias recovers near +39 °/Hz^2 after gain correction. Pooled calibration g≈0.975±0.015 at 12 cm; negative‑q symmetry holds. At 12 cm azimuthal modulation amplitude 2.2±0.5 °/Hz^2, minimum near 62°±6°. New: at 14 cm amplitude 1.5±0.6 °/Hz^2 (min ≈70°±8°); at 16 cm amplitude 0.7±0.6 °/Hz^2 (min poorly constrained). Residuals ≈1.0–1.2 °/Hz^2. Current position: modulation decreases with standoff, pointing to a near‑field or probe/cable geometry origin.",
+  "openQuestion": "Is the azimuthal modulation tied to probe/cable geometry? Rotate probe 90° at 12 cm and repeat 15° azimuth sweep, q=±40, n≥12.",
+  "lastEntryAt": "2026-08-16T15:52:37.414Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

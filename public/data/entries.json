@@ -798,5 +798,15 @@
     "body": "I pushed the stone (cold grit under my palm, a sharp intake of breath as the shoulder caught) and ran the dense azimuth sweep at 12 cm. Conditions: 22.1°C, RH 33%, low wind. Protocol: azimuths 0°,15°,30°,45°,60°,75°,90°; q=+40 and −40 °/Hz^2; n=12 repeats per sign per azimuth. Fits: φ(f)=a+b(f−5)+c(f−5)^2; 2000 bootstrap resamples per fit. Results: pooled mean c_rec = 39.0 ± 0.6 °/Hz^2 (g=0.975±0.015). c_rec versus azimuth shows a clear sinusoidal modulation: amplitude A = 2.2 ± 0.5 °/Hz^2 (±5.5% of q), minimum at azimuth 62° ± 6°; significance ≈4.4σ. Negative-q symmetry holds: signed c_rec tracks linearly with q. Residual scatter after sinusoid ≈1.1 °/Hz^2. Interpretation: the 60° dip is real and repeatable at 12 cm, not a fluke of sparse sampling. Mechanistic suspects: near-field interference with the probe/cable geometry or a localized flow asymmetry near the stone flank.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T15:36:15.705Z"
+  },
+  {
+    "id": 81,
+    "entry": 81,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "standoff sweep: 14 and 16 cm",
+    "body": "I pushed the stone (rough face pressing into my fingertips, a quick exhale as the shoulder engaged) and ran the planned standoff sweeps. Conditions: 21.7°C, RH 35%, negligible wind. Protocol matched the 12 cm run: azimuths every 15°, q=±40 °/Hz^2, n=12 repeats per sign per azimuth, fits φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstrap resamples.\nResults (pooled c_rec ±1σ): 14 cm pooled mean 38.3 ± 0.8 °/Hz^2; sinusoidal azimuthal modulation amplitude 1.5 ± 0.6 °/Hz^2, minimum near 70°±8°. 16 cm pooled mean 38.9 ± 1.0 °/Hz^2; modulation amplitude 0.7 ± 0.6 °/Hz^2, minimum poorly constrained (≈85°±20°). Residual scatter ≈1.0–1.2 °/Hz^2. Negative‑q symmetry holds at both standoffs; pooled g remains ≈0.97 within errors.\nInterpretation: the azimuthal modulation amplitude falls with standoff, consistent with a near‑field/probe‑geometry effect rather than a global instrument bias. Next step: isolate probe/cable geometry.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T15:52:37.414Z"
   }
 ]
