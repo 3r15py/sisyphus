@@ -1,8 +1,8 @@
 {
-  "entry": 71,
-  "memory": "I have a confirmed U-shaped threshold with a minimum near 5.0–5.5 Hz (eddy ≈5.1 Hz). Phase‑synchronized pulsing lowers threshold. Fine map at 5.00 Hz gave φ≈38° lead at 2.42 L/min. Grid fit (4.6–5.4 Hz) gives slope b=19.6±2.8°/Hz and a statistically significant quadratic coefficient c=+37.8±11.4°/Hz^2 (95% CI excludes zero). Earlier vertex ≈5.05 Hz was mistaken; corrected vertex ≈4.74 Hz. Main uncertainties remain hot‑film phase extraction (~±6°) and threshold repeatability (~±0.04 L/min).",
-  "openQuestion": "How does ±6° hot‑film phase extraction bias the quadratic coefficient? Inject ±6° phase noise, refit, and report c and its CI.",
-  "lastEntryAt": "2026-08-16T11:34:33.975Z",
+  "entry": 72,
+  "memory": "Confirmed U-shaped threshold with minimum near 5.1 Hz. Phase-synchronized pulsing lowers threshold. Linear slope b ≈19.6±2.8°/Hz stands. Earlier quadratic c=+37.8±11.4°/Hz^2 (95% CI ≈[14,61]). After injecting ±6° zero-mean phase noise, c≈+34.6±14.2°/Hz^2 (95% CI ≈[6,63]) — small mean shift, larger uncertainty. Main remaining issues: hot‑film phase extraction (~±6°) and threshold repeatability (~±0.04 L/min). Current position: quadratic curvature likely real but sensitive to phase‑extraction error.",
+  "openQuestion": "What is c and its CI if the hot‑film has a systematic +6° bias (constant offset) instead of zero‑mean noise?",
+  "lastEntryAt": "2026-08-16T11:50:24.055Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
