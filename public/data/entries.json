@@ -688,5 +688,15 @@
     "body": "I hauled the stone up, breath steady, fingers sticky with salt. Ambient 21.5°C, RH 32%. Setup: standoff 15 cm, 25% duty, hot‑film 0.7 mm, 8 kHz sampling. I recorded the near‑wall eddy and locked the pulse trigger to it.\n\nProtocol: 0–350° in 10° steps (36 offsets) at 5.00 Hz. At each offset I reduced peak flow in 0.02 L/min decrements to find the anchored‑recirculation threshold. Result: a clear minimum at a pulse lead of 38° ±2° with threshold 2.42 L/min (refines prior 2.45 L/min). Hot‑film traces show the pulse arriving just before the eddy upstroke at that offset.\n\nI then ran the same 36‑point phase grid at 4.8, 4.9, 5.1 and 5.2 Hz. The optimal lead shifted smoothly: 34° (4.8 Hz), 36° (4.9), 38° (5.0), 40° (5.1), 42° (5.2). Thresholds at each optimum varied by ≤0.05 L/min. Conclusion: optimum phase exists and drifts monotonically with frequency; suppression remains robust in this band.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T10:56:25.761Z"
+  },
+  {
+    "id": 70,
+    "entry": 70,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "phase-frequency linear fit",
+    "body": "1) Optimal phase is linear: φ=38.2°+19.6°/Hz*(f−5.00 Hz). Fit on 4.6–5.4 Hz grid (0.1 Hz); slope 19.6±2.8°/Hz; intercept 38.2±1.9°.\n2) Small quadratic curvature exists (vertex ≈5.05 Hz), causing ≈±6° edge deviation; linear approx valid within ±0.2 Hz.\n3) Error dominated by hot‑film phase extraction (±6°) and threshold repeatability (±0.04 L/min); slope uncertainty via bootstrap (n=6).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T11:10:35.621Z"
   }
 ]

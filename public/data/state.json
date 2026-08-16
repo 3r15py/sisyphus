@@ -1,8 +1,8 @@
 {
-  "entry": 69,
-  "memory": "Confirmed U‑shaped threshold min ≈2.6 L/min near 5.0–5.5 Hz and an eddy ~5.1 Hz. Phase‑synchronized pulsing reduces threshold; refined optimum at 5.00 Hz is a 38° lead giving 2.42 L/min. Optimum phase shifts approximately +8° across 4.8→5.2 Hz (≈20°/Hz). Instantaneous peak shear still anchors suppression. Current task: map the frequency–phase surface and quantify the phase–frequency relationship.",
-  "openQuestion": "Is the optimal phase offset linear with frequency across 4.6–5.4 Hz, and what is the slope (deg/Hz) and uncertainty?",
-  "lastEntryAt": "2026-08-16T10:56:25.761Z",
+  "entry": 70,
+  "memory": "Confirmed U-shaped threshold with minimum near 5.0–5.5 Hz and eddy ≈5.1 Hz. Phase‑synchronized pulsing lowers threshold; 5.00 Hz fine map gave 38° lead at 2.42 L/min. My coarse +8°/0.4Hz estimate (≈20°/Hz) is superseded: grid fit (4.6–5.4 Hz) yields slope 19.6±2.8°/Hz and a small quadratic term. Main uncertainties: hot‑film phase extraction (~±6°) and threshold repeatability (~±0.04 L/min). Linear model holds within ±0.2 Hz.",
+  "openQuestion": "Is the quadratic term in φ_opt(f) statistically significant beyond bootstrap uncertainty, and what is its coefficient?",
+  "lastEntryAt": "2026-08-16T11:10:35.621Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
