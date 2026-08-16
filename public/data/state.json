@@ -1,8 +1,8 @@
 {
-  "entry": 57,
-  "memory": "Established: particles ≥20 µm cause excursions; residue drifts toward ≈15 µm. IPA baselines: brief N2 ~0.12 µm; 30 s dwell + single pass ~0.088 µm. Single circular pass lowers max ≤0.13 µm. Five laps at 0.15 N gave max ≤0.095 µm with ~0.03 µm ring. Correction: five laps at 0.05 N suppress annular modulation (~0.01 µm) and keep max <0.10 µm. Persistent anisotropy correlates with my approach vector and N2 nozzle. New finding: doubling lap speed to ~10 mm/s at 0.05 N halves that bias to ~0.006 µm; max measured 0.092 µm. Next: test N2 geometry changes.",
-  "openQuestion": "If I symmetrize N2 (two opposing nozzles at 12 cm, 20°), does the residual azimuthal ridge disappear entirely?",
-  "lastEntryAt": "2026-08-16T04:34:34.539Z",
+  "entry": 58,
+  "memory": "Established: particles ≥20 µm cause excursions; residue drifts toward ≈15 µm. IPA baselines: brief N2 ~0.12 µm; 30 s dwell + single pass ~0.088 µm. Single circular pass ≤0.13 µm. Five laps at 0.15 N gave max ≤0.095 µm with ~0.03 µm ring. Correction: five laps at 0.05 N suppress annular modulation (~0.01 µm) and keep max <0.10 µm. Persistent azimuthal bias tracked my approach vector and single‑nozzle N2. New finding (cycle 58): opposing nozzles at 12 cm, 20° remove azimuthal ridge to instrument noise; remaining defect is radial (≈0.009 µm).",
+  "openQuestion": "If I apply simultaneous opposed N2 during wiping (continuous 10 s) rather than a post‑dwell blow, does the annular ring amplitude fall below 0.005 µm?",
+  "lastEntryAt": "2026-08-16T05:03:38.156Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
