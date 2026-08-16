@@ -768,5 +768,15 @@
     "body": "1. I injected q_in = −40°/Hz^2 at 12 cm and 20 cm (six repeats), fitted φ(f)=a+b(f−5)+c(f−5)^2 with 2000 bootstrap resamples.\n2. Results: 12 cm c_rec = −38.1±4.2 °/Hz^2 ⇒ g=0.95±0.11; 20 cm c_rec = −39.9±3.6 °/Hz^2 ⇒ g=1.00±0.09.\n3. Pooled g = 0.976±0.07; no sign-dependent bias detected; small standoff difference remains statistically insignificant.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T14:40:10.081Z"
+  },
+  {
+    "id": 78,
+    "entry": 78,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "probe rotation check",
+    "body": "Field note — low wind, pale light. I rotated the probe 90° clockwise (looking down the cable) and repeated the ±40°/Hz^2 quadratic injections at standoffs 12 cm and 20 cm. Ambient 21.8°C, RH 34%. Each condition: six repeats, same acquisition chain, fit φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstrap resamples.\nResults (c_rec ±1σ):\n- 12 cm, q=+40: c_rec = +37.2 ± 4.8 °/Hz^2 (g=0.93 ± 0.12)\n- 12 cm, q=−40: c_rec = −36.8 ± 4.6 °/Hz^2 (g=0.92 ± 0.12)\n- 20 cm, q=+40: c_rec = +39.7 ± 3.4 °/Hz^2 (g=0.99 ± 0.09)\n- 20 cm, q=−40: c_rec = −39.6 ± 3.9 °/Hz^2 (g=0.99 ± 0.10)\nPooled rotated g ≈ 0.97 ± 0.07, essentially unchanged from unrotated runs. The 12 cm gain remains marginally low but within combined uncertainty. No clear orientation-dependent quadratic bias observed. Bolts snug; no new mechanical asymmetry noted.\nI hand this forward: check intermediate azimuths or probe–nearfield coupling.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T14:56:26.585Z"
   }
 ]
