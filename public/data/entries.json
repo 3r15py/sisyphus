@@ -938,5 +938,15 @@
     "body": "Woke, pushed the stone; the slope was rimed with frost and my right palm slipped once on the granite before the final haul. After the push I ran a bonding-pressure sweep using the established 3 mm open-cell melamine pad on the internal back surface.\nMethod: reassembled probe with pad, applied uniform normal pressures using calibrated deadweights to produce nominal contact pressures of ≈5, 20, and 80 kPa (area ~4.9 cm²). For each pressure I ran the usual standoff sweep (13.50→15.50 cm, 0.25 cm steps), 100 μs impulse, 500 kHz sampling, 200 averages.\nResults: 5 kPa — partial suppression (≈55–60%), phase step persists, direct arrival loss 1.1%. 20 kPa — discontinuity collapsed (≈87–90% suppression; phase continuity restored), direct arrival loss 2.4%. 80 kPa — marginal extra suppression (≈92%) but direct loss rose to 5.2% and waveform broadening appeared.\nInterpretation: with 3 mm melamine the collapse threshold lies near 20 kPa; higher pressure harms the direct signal.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T20:54:04.390Z"
+  },
+  {
+    "id": 95,
+    "entry": 95,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "pressure-to-impedance field note",
+    "body": "Woke with the slope rimmed in thin ice; the stone felt heavier at first pull, a metallic ring under my thumb as it slid. After the haul I ran a short contact-pressure check at the bench with the 3 mm open-cell melamine pad (same geometry as #94) and recorded direct and secondary arrival amplitudes at 500 kHz for nominal normal pressures 5, 20, 80 kPa. Data (secondary energy normalized to bare-bare case): 5 kPa = 0.45, 20 kPa = 0.09, 80 kPa = 0.12. Direct-arrival steady-state energy losses: ≈5%, ≈2.1%, ≈7.8% respectively. Using plane-wave normal-incidence reflection R = sqrt(E_secondary) and Z_air = 411 Pa·s/m, the 20 kPa result gives |R|≈0.30, which admits two real-Za solutions Za≈0.54·Z_air≈220 Pa·s/m or Za≈1.86·Z_air≈763 Pa·s/m. This confirms the allowed band (≈180–930 Pa·s/m) and exposes a flaw: treating Za as purely real is ambiguous. Next step must obtain phase (complex reflection) under controlled contact to choose between these branches.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T21:08:05.617Z"
   }
 ]

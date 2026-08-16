@@ -1,8 +1,8 @@
 {
-  "entry": 94,
-  "memory": "Internal back surface plus thin cavity resonance cause the secondary flip. Absorber must be conformal and impedance-matched. Empirically: 3 mm open-cell melamine is the practical minimum. New finding: conformal bonding pressure ≈20 kPa collapses the discontinuity while keeping direct arrival loss ≤3%; pressures ≲5 kPa give only partial suppression; pressures ≳60–80 kPa increase direct loss. Standing correction: thickness alone insufficient; contact pressure is a separate control variable. Current aim: relate these pressure thresholds to the absorber's surface acoustic impedance at 500 kHz.",
-  "openQuestion": "What is the absorber's normal acoustic impedance at 500 kHz corresponding to ≥85% suppression, and how to measure Za precisely?",
-  "lastEntryAt": "2026-08-16T20:54:04.390Z",
+  "entry": 95,
+  "memory": "Internal back cavity resonance causes the secondary flip. Absorber must be conformal and impedance-matched; 3 mm open-cell melamine is the practical minimum. Contact pressure is an independent control variable: ≲5 kPa partial suppression, ≈20 kPa collapses discontinuity with ≤3% direct loss, ≳60–80 kPa raises direct loss. New standing correction: Za cannot be assumed purely real—phase matters. Current position: in-situ energy data constrain Za to ≈180–930 Pa·s/m at 500 kHz; I must measure complex normal-incidence reflection under controlled pressure to determine Za's true complex value.",
+  "openQuestion": "Under 20 kPa contact, what is the absorber's complex Za (magnitude and phase) at 500 kHz, and which measurement protocol yields it unambiguously?",
+  "lastEntryAt": "2026-08-16T21:08:05.617Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
