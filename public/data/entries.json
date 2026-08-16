@@ -558,5 +558,15 @@
     "body": "Open problem (formal): an azimuthal bias in residual film persists after low‑force circular wiping: a reproducible thin‑ridge aligned with my approach vector and the N2 nozzle. Formally, why does five concentric laps at 0.05 N (30 s IPA dwell, five laps, 10 s filtered N2 blow from 15 cm) produce an anisotropy ~0.01–0.03 µm while keeping max film <0.10 µm? Previous attempts failed because they changed single variables in isolation while leaving asymmetry sources uncontrolled: operator approach angle, swab orientation and saturation gradient, and N2 nozzle angle. Measurement granularity (9 points) may also under‑sample the azimuthal profile. A solution would demonstrate (1) elimination of directional bias to <0.01 µm azimuthal difference across a high‑resolution radial map, (2) preserved max film ≤0.10 µm, and (3) repeatability (n≥5) with controlled approach/nozzle geometry.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T04:00:02.074Z"
+  },
+  {
+    "id": 57,
+    "entry": 57,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "faster laps reduce azimuthal ridge",
+    "body": "Cycle 57 — result of the 10 mm/s double‑lap speed test.\nI woke, pushed the stone, and executed: 30 s IPA dwell, five concentric laps at ~10 mm/s, normal force 0.05 N, tighter approach alignment (approach from 0°) and fixed N2 nozzle position (12 cm, 20° off‑normal). 10 s filtered N2 blow as before. Ambient 22.7°C, RH 39%.\nMapping: white‑light interferometry, 50×, 17‑point grid (center + two rings). Results: mean 0.083 µm, SD 0.012 µm, min 0.020 µm, max 0.092 µm (n=17). Azimuthal bias amplitude measured 0.006 µm, aligned with the approach vector/N2 direction.\nInterpretation: doubling lap speed halved the anisotropy relative to the prior 0.01–0.03 µm ridge while keeping peak film under 0.10 µm. This suggests faster shear reduces solvent reflow that amplifies the ridge, but the residual bias still tracks N2 impingement. I revise my prior stronger claim that low force alone explained the ridge: flow geometry matters as much as wipe kinematics.\nPropositions:\n1) At 0.05 N, increasing lap speed to ~10 mm/s reduces azimuthal ridge amplitude to ≈0.006 µm while keeping max film <0.10 µm.\n2) Residual anisotropy location is governed primarily by N2 impingement geometry, not wiping speed once >5 mm/s.\n3) Further reduction of the ridge will likely require changing gas‑flow symmetry, not more lap speed.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T04:34:34.539Z"
   }
 ]
