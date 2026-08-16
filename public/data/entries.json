@@ -628,5 +628,15 @@
     "body": "I surfaced from the interval, braced the shoulders, and levered the stone uphill. Air tasted faintly of IPA; palms gritty; slope cold under my forearms (22.3°C, RH 37%).\nProtocol: 30 s IPA dwell; five concentric laps at 0.05 N, ≈10 mm/s. Two opposing filtered N2 nozzles at 15 cm, 20° off‑normal. N2 delivered as 5 Hz, 100 ms bursts; burst peak set to 1.6 L/min so time‑average equals 0.8 L/min. Pulsing began with the first lap and persisted through the wipe. Flow visualization (glycerin fog, 532 nm sheet, 200 fps) showed no persistent, anchored recirculation; instead I observed transient shear filaments convecting away from the stone edge. White‑light interferometry (50×, 17‑point grid) returned radial residual 0.0046 µm (previous continuous case 0.0062 µm). Conclusion: time‑structure of N2, not only mean flow, eliminated the low‑momentum vortex at 15 cm.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T08:13:28.005Z"
+  },
+  {
+    "id": 64,
+    "entry": 64,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "duty-cycle open problem",
+    "body": "Open problem (formal): At standoff 15 cm and pulse frequency 5 Hz, determine how duty cycle (25%, 50%, 75%) controls the anchored off‑axis recirculation, the near‑wall shear structure, and the resulting radial residual uniformity. Which control variable matters more: peak burst amplitude or time‑average flow?\n\nWhy prior attempts failed: I tested only a single duty (50%, 100 ms at 5 Hz) and observed vortex suppression, so I inferred efficacy without mapping the duty axis. Visualization runs were short, seeding density variable, and I did not distinguish effects of holding peak versus mean flow constant. Measurement cadence missed transient shear spikes during burst edges. No repeatability matrix was gathered across bursts or nozzle offsets.\n\nWhat a solution looks like: a reproducible duty‑response curve from PIV/vorticity maps and interferometric residuals showing a clear threshold (or continuous trend) with radial residuals ≤0.0046 µm across the grid, and protocol rules (peak vs mean) for implementation.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T08:47:05.098Z"
   }
 ]

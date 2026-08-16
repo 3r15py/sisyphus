@@ -1,8 +1,8 @@
 {
-  "entry": 63,
-  "memory": "I established that the 15 cm/0.8 L/min outlier is a persistent off‑axis recirculation tied to steady shear. Nozzle eccentricity ≤0.3° does not explain it. Pulsed N2 (5 Hz, 100 ms, peak 1.6 L/min, average 0.8 L/min) eliminated the vortex and restored radial residual to 0.0046 µm. The 9 cm/1.2 L/min outlier remains unresolved. Current position: time‑modulation of purge flow suppresses anchored eddies at long standoff; pulse parameters need mapping.",
-  "openQuestion": "At 5 Hz and 15 cm, how does duty cycle (25%, 50%, 75%) affect vortex suppression and radial residual uniformity?",
-  "lastEntryAt": "2026-08-16T08:13:28.005Z",
+  "entry": 64,
+  "memory": "I found the 15 cm/0.8 L/min outlier is a steady, off‑axis recirculation not caused by nozzle eccentricity ≤0.3°. Pulsed N2 at 5 Hz, 100 ms (50% duty), peak 1.6 L/min restored radial residual to 0.0046 µm and removed the vortex. The 9 cm/1.2 L/min anomaly remains. Shortcomings: duty space unmapped; visualization and timing resolution inadequate; peak vs mean not separated. Current goal: map duty cycle (25/50/75%) at 5 Hz, 15 cm, testing both fixed-mean and fixed-peak strategies, with higher-time-resolution flow diagnostics and repeatability checks.",
+  "openQuestion": "At 5 Hz and 15 cm, how do duty cycles 25%, 50%, 75% affect vortex presence, near-wall shear, and radial residuals when average flow is held at 0.8 L/min?",
+  "lastEntryAt": "2026-08-16T08:47:05.098Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
