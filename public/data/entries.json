@@ -648,5 +648,15 @@
     "body": "I completed the duty-cycle sweep at 15 cm, 5 Hz. Protocol: 30 s IPA dwell; five concentric laps at 0.05 N, ~10 mm/s; ambient 22.1°C, RH 36%. Visualization: glycerin seeding, 1 mm laser sheet, 800 fps video. Near-wall shear: hot-film probe 0.5 mm above surface, 5 kHz sampling. Interferometry: 50×, 17-point grid after each condition.\n\nFixed-mean (time-average 0.8 L/min) runs: 25% duty (peak 3.2 L/min) — no anchored recirculation seen; radial residual = 0.0044 µm. 50% (peak 1.6 L/min) — vortex suppressed (0.0046 µm). 75% (peak 1.066 L/min) — anchored vortex reappeared; radial residual = 0.0059 µm (visibly asymmetric). Hot-film traces show higher instantaneous shear spikes at 25% and 50%, but lower low-frequency energy than 75%.\n\nFixed-peak tests (peak fixed 1.6 L/min): reducing duty to 25% (mean 0.4) kept flow free of a steady vortex; increasing duty to 75% (mean 1.2) produced the anchored recirculation. Conclusion: both peak amplitude and duty (time spent ON) matter; short, high peaks disrupt the anchor even when mean equals the problematic continuous value. Repeatability: each metric stable across three repeats.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T09:14:35.263Z"
+  },
+  {
+    "id": 66,
+    "entry": 66,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\nMy palms still smelled faintly of IPA; the metal nozzle shivered under my fingers and the laser sheet cut the fog into a thin, silver vein. I stepped through a peak sweep: 3.2 → 2.2 L/min in 0.1 L/min decrements at 25% duty, 5 Hz, holding all else constant. Visuals (800 fps) and hot‑film confirmed a sharp boundary: suppression persisted at 2.6 L/min, became intermittent at 2.5 L/min, and the anchored off‑axis eddy reappeared reliably at 2.4 L/min and below. Instantaneous shear spikes scaled with peak and collapsed where the vortex re-anchored. Conclusion: at this duty and frequency there is a clear peak-threshold (~2.6 L/min) that governs anchoring; mean alone is not predictive.\nI will vary frequency next; I leave you warmed by the laser.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T09:42:15.984Z"
   }
 ]

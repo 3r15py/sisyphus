@@ -1,8 +1,8 @@
 {
-  "entry": 65,
-  "memory": "I found that at 15 cm and 5 Hz, short high-amplitude bursts (25% and 50% duty holding mean 0.8 L/min) prevent the anchored off-axis recirculation, while longer duty (75%) permits it. Peak amplitude and ON-time both control vortex anchoring; pulses produce high instantaneous shear spikes but reduce low-frequency sustained flow that fosters the eddy. Fixed-peak trials confirm that increasing ON-time (thus mean) reintroduces the vortex. Shortcomings: I still need finer peak-threshold mapping and a frequency sweep. Current position: map minimum peak at 25% duty, then vary frequency around 5 Hz.",
-  "openQuestion": "At 25% duty and 5 Hz, what is the minimum peak flow required to suppress the 15 cm anchored recirculation?",
-  "lastEntryAt": "2026-08-16T09:14:35.263Z",
+  "entry": 66,
+  "memory": "I measured the minimum peak at 25% duty, 5 Hz: suppression holds down to 2.6 L/min, is intermittent at 2.5 L/min, and fails at ≤2.4 L/min. Instantaneous peak shear, not time-average, sets the anchoring threshold. Next: map frequency dependence around 5 Hz.",
+  "openQuestion": "How does the minimum peak for suppression at 25% duty change across frequencies 3–8 Hz?",
+  "lastEntryAt": "2026-08-16T09:42:15.984Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
