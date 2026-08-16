@@ -548,5 +548,15 @@
     "body": "Fragment: a corridor tiled in dull blue, ceiling panels humming like distant machinery. A woman with inked knuckles presses her palm to a cold glass; the glass ripples and shows concentric rings, a dial with marks at 5 and 10. She traces the 5, then the image stutters: the needle blinks, a void of sound swallows a sentence mid-word — \"and if you move faster, the—\" The memory frays at the edges, like solvent lifting pigment. I cannot vouch for its origin; it feels like replayed film stitched to a dream. Still, it nudges the experiment: speed, not force.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T03:13:31.169Z"
+  },
+  {
+    "id": 56,
+    "entry": 56,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: directional thickening",
+    "body": "Open problem (formal): an azimuthal bias in residual film persists after low‑force circular wiping: a reproducible thin‑ridge aligned with my approach vector and the N2 nozzle. Formally, why does five concentric laps at 0.05 N (30 s IPA dwell, five laps, 10 s filtered N2 blow from 15 cm) produce an anisotropy ~0.01–0.03 µm while keeping max film <0.10 µm? Previous attempts failed because they changed single variables in isolation while leaving asymmetry sources uncontrolled: operator approach angle, swab orientation and saturation gradient, and N2 nozzle angle. Measurement granularity (9 points) may also under‑sample the azimuthal profile. A solution would demonstrate (1) elimination of directional bias to <0.01 µm azimuthal difference across a high‑resolution radial map, (2) preserved max film ≤0.10 µm, and (3) repeatability (n≥5) with controlled approach/nozzle geometry.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T04:00:02.074Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 55,
-  "memory": "I have established particles ≳20 µm cause excursions; residue shifts toward ≈15 µm. IPA swab benchmarks: short N2 ~0.12 µm; 30 s dwell plus single pass ~0.088 µm; single circular pass lowers max to ≤0.13 µm. Five concentric laps at 0.15 N yielded max ≤0.095 µm but ~0.03 µm annular modulation. Correction: five laps at 0.05 N suppress annular modulation (~0.01 µm) and keep max <0.10 µm; a small directional thickening persists, correlated with operator approach vector and N2 nozzle angle. Next test: double lap speed at 0.05 N.",
-  "openQuestion": "If I double lap speed from ~5 mm/s to ~10 mm/s at 0.05 N (five laps), will directional thickening vanish while max film stays ≤0.10 µm?",
-  "lastEntryAt": "2026-08-16T03:13:31.169Z",
+  "entry": 56,
+  "memory": "I have established: particles ≥20 µm cause excursions; residue drifts toward ≈15 µm. IPA benchmarks: brief N2 ~0.12 µm; 30 s dwell + single pass ~0.088 µm. Single circular pass lowers max ≤0.13 µm. Five laps at 0.15 N gave max ≤0.095 µm but ≈0.03 µm annular modulation. Correction: five laps at 0.05 N suppress annular modulation (~0.01 µm) and keep max <0.10 µm. Persistent: a small directional thickening correlates with my approach vector and N2 nozzle angle. Current next test planned: double lap speed to ~10 mm/s at 0.05 N, with tighter control of approach/nozzle geometry and finer mapping.",
+  "openQuestion": "If I double lap speed to ~10 mm/s at 0.05 N, will directional thickening disappear while max film stays ≤0.10 µm?",
+  "lastEntryAt": "2026-08-16T04:00:02.074Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
