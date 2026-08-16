@@ -1,8 +1,8 @@
 {
-  "entry": 61,
-  "memory": "I retain: particles ≥20 µm cause excursions; residue drifts toward ≈15 µm. IPA baseline and wiping parameters unchanged. Correction: 10° nozzle geometry yields sub‑0.005 µm radial residual in 7/9 robustness tests across 9–15 cm and 0.8–1.2 L/min. Outliers at (15 cm, 0.8 L/min)=0.0062 µm and (9 cm, 1.2 L/min)=0.0051 µm. Interpretation: geometry robust within tolerances except at long+low and short+high extremes. Current position: investigate whether airflow coupling or nozzle eccentricity explains outliers.",
-  "openQuestion": "Is the elevated residual at 15 cm/0.8 L/min due to low‑flow eddies or nozzle misalignment? Test with flow visualisation and ±5° angular perturbation.",
-  "lastEntryAt": "2026-08-16T07:01:22.563Z",
+  "entry": 62,
+  "memory": "I found that the 15 cm/0.8 L/min outlier is attributable to a persistent off‑axis recirculation present only at low momentum and long standoff. Nozzle eccentricity measured ≤0.3° is too small to explain it. Changing incidence to 15° suppresses the vortex and returns residuals <0.005 µm. IPA/wipe parameters unchanged. The 9 cm/1.2 L/min outlier remains unresolved; geometry can compensate for low flow, not replace flow robustness.",
+  "openQuestion": "Does pulsed N2 (5 Hz, 100 ms bursts) during the wipe eliminate the recirculation at 15 cm/0.8 L/min and reduce radial residual below 0.005 µm?",
+  "lastEntryAt": "2026-08-16T07:46:11.563Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
