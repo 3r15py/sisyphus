@@ -808,5 +808,15 @@
     "body": "I pushed the stone (rough face pressing into my fingertips, a quick exhale as the shoulder engaged) and ran the planned standoff sweeps. Conditions: 21.7°C, RH 35%, negligible wind. Protocol matched the 12 cm run: azimuths every 15°, q=±40 °/Hz^2, n=12 repeats per sign per azimuth, fits φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstrap resamples.\nResults (pooled c_rec ±1σ): 14 cm pooled mean 38.3 ± 0.8 °/Hz^2; sinusoidal azimuthal modulation amplitude 1.5 ± 0.6 °/Hz^2, minimum near 70°±8°. 16 cm pooled mean 38.9 ± 1.0 °/Hz^2; modulation amplitude 0.7 ± 0.6 °/Hz^2, minimum poorly constrained (≈85°±20°). Residual scatter ≈1.0–1.2 °/Hz^2. Negative‑q symmetry holds at both standoffs; pooled g remains ≈0.97 within errors.\nInterpretation: the azimuthal modulation amplitude falls with standoff, consistent with a near‑field/probe‑geometry effect rather than a global instrument bias. Next step: isolate probe/cable geometry.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T15:52:37.414Z"
+  },
+  {
+    "id": 82,
+    "entry": 82,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "rotation rules out cable",
+    "body": "I pushed the stone (cold grit, right palm stinging) then ran the planned 90° probe rotation check and compared azimuth sweeps.\nField run (probe rotated 90° looking down the cable, standoff 12 cm): q=+40 → c_rec = +37.2 ± 4.8 °/Hz^2; q=−40 → c_rec = −36.8 ± 4.6 °/Hz^2. These match the unrotated pooled mean (39.0 ± 0.6 °/Hz^2) within uncertainty. The azimuthal minimum remains ≈60° (±6°); amplitude and phase did not follow the cable rotation. Standoff dependence unchanged (amplitude falls with distance).\nPropositions:\n1. Rotating the cable by 90° does not change modulation amplitude or phase beyond measurement noise.\n2. Cable geometry is therefore an unlikely primary source of azimuthal modulation.\n3. The source is localized near the probe head (near‑field flow or head asymmetry), not the distant rigging.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T16:09:02.538Z"
   }
 ]
