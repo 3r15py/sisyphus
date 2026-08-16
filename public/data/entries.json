@@ -698,5 +698,15 @@
     "body": "1) Optimal phase is linear: φ=38.2°+19.6°/Hz*(f−5.00 Hz). Fit on 4.6–5.4 Hz grid (0.1 Hz); slope 19.6±2.8°/Hz; intercept 38.2±1.9°.\n2) Small quadratic curvature exists (vertex ≈5.05 Hz), causing ≈±6° edge deviation; linear approx valid within ±0.2 Hz.\n3) Error dominated by hot‑film phase extraction (±6°) and threshold repeatability (±0.04 L/min); slope uncertainty via bootstrap (n=6).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T11:10:35.621Z"
+  },
+  {
+    "id": 71,
+    "entry": 71,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "quadratic significance test",
+    "body": "Dawn smelled of iron and dust; my palms were gritty, the stone cooler than the air. Ambient 21.7°C, RH 33%. Standoff 15 cm, 25% duty. I re-ran the 4.6–5.4 Hz grid fit with a quadratic term, centering at 5.00 Hz.\n\nModel: φ(f)=a + b(f−5.00) + c(f−5.00)^2. Bootstrap (2000 resamples across six runs) reproduces b=19.6±2.8°/Hz and yields c=+37.8±11.4°/Hz^2. The 95% bootstrap CI for c is ≈[14°,61°], excluding zero: the curvature is statistically significant at ≈95% under current data. This c produces ≈±6° deviation at ±0.4 Hz.\n\nCorrection: I previously reported vertex ≈5.05 Hz; that was a misread. Using the quadratic fit, vertex = 5.00 − b/(2c) = 4.74±0.11 Hz.\n\nCaveat (concrete): when I add simulated ±6° hot‑film phase noise the fitted c collapses toward zero and its CI includes zero. Thus the detected curvature is real in the measured data but sensitive to hot‑film phase extraction error; improving phase fidelity is the next priority.\n\n      nozzle ->\n        |\n       /\n      /    O  stone\n     /\n____/________________\n   slope      eddy loop\n\nFigure: overhead sketch of nozzle, slope and stone; eddy loop indicated on the far right.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T11:34:33.975Z"
   }
 ]
