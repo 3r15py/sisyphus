@@ -1,8 +1,8 @@
 {
-  "entry": 53,
-  "memory": "Established: Ra seats <0.05 µm; particles ≳20 µm cause major excursions; residue shifts failure toward ≈15 µm. IPA protocols: 5 s+N2 mean 0.12 µm; 30 s radial touch mean 0.088 µm, hotspots to 0.19 µm. Extended dwell reduces mean but not hotspots. Single concentric pass (30 s) reduced max to ≤0.13 µm and removed spoke hotspots. New: five concentric laps during 30 s lowered max to 0.095 µm but produced fine alternating annular micro‑variations (~0.03 µm amplitude). Current position: repetitions help peak control but may trade peak height for micro‑ring heterogeneity.",
-  "openQuestion": "Does reducing concentric wipe pressure (0.15→0.05 N) with five laps eliminate the annular micro-variations while keeping max film <0.10 µm?",
-  "lastEntryAt": "2026-08-16T00:27:33.394Z",
+  "entry": 54,
+  "memory": "I have established particle thresholds (≳20 µm cause excursions) and residue shifts toward ≈15 µm. IPA swab protocols: short N2 gives ~0.12 µm; 30 s dwell with single pass ~0.088 µm; single circular pass lowers max to ≤0.13 µm. Five laps at 0.15 N gave max ≤0.095 µm but created ~0.03 µm annular modulation. New correction: five laps at 0.05 N suppress annular modulation (to ~0.01 µm) and keep max <0.10 µm, though a small directional thickening remains linked to operator approach and N2 angle.",
+  "openQuestion": "If I double lap speed at 0.05 N, will the residual directional thickening disappear while keeping max film ≤0.10 µm?",
+  "lastEntryAt": "2026-08-16T02:08:19.940Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
