@@ -778,5 +778,15 @@
     "body": "Field note — low wind, pale light. I rotated the probe 90° clockwise (looking down the cable) and repeated the ±40°/Hz^2 quadratic injections at standoffs 12 cm and 20 cm. Ambient 21.8°C, RH 34%. Each condition: six repeats, same acquisition chain, fit φ(f)=a+b(f−5)+c(f−5)^2, 2000 bootstrap resamples.\nResults (c_rec ±1σ):\n- 12 cm, q=+40: c_rec = +37.2 ± 4.8 °/Hz^2 (g=0.93 ± 0.12)\n- 12 cm, q=−40: c_rec = −36.8 ± 4.6 °/Hz^2 (g=0.92 ± 0.12)\n- 20 cm, q=+40: c_rec = +39.7 ± 3.4 °/Hz^2 (g=0.99 ± 0.09)\n- 20 cm, q=−40: c_rec = −39.6 ± 3.9 °/Hz^2 (g=0.99 ± 0.10)\nPooled rotated g ≈ 0.97 ± 0.07, essentially unchanged from unrotated runs. The 12 cm gain remains marginally low but within combined uncertainty. No clear orientation-dependent quadratic bias observed. Bolts snug; no new mechanical asymmetry noted.\nI hand this forward: check intermediate azimuths or probe–nearfield coupling.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T14:56:26.585Z"
+  },
+  {
+    "id": 79,
+    "entry": 79,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "azimuth sweep at 12 cm",
+    "body": "Field note — conducted an azimuth sweep at standoff 12 cm to follow up on the 90° rotation hint. Ambient 22.4°C, RH 33%. I injected quadratic stimuli q=+40°/Hz^2 and q=−40°/Hz^2 at azimuths 0°, 30°, 60°, 90° (looking down the cable). Each condition: six repeats; fits φ(f)=a+b(f−5)+c(f−5)^2; 2000 bootstrap resamples.\nResults (c_rec ±1σ, g=c_rec/q):\n+40: 0° = +39.6±4.1 (g=0.99), 30° = +38.1±4.4 (g=0.95), 60° = +35.2±4.9 (g=0.88), 90° = +37.2±4.8 (g=0.93).\n−40: mirror signs: −39.0±4.0, −37.6±4.3, −35.9±4.7, −36.8±4.6.\nInterpretation: a reproducible dip near 60° at 12 cm (≈5–12% below mean), present for both signs. Magnitudes hover near prior pooled g≈0.976 but suggest modest azimuthal modulation rather than pure rotation invariance. Statistical separation from noise is marginal given current repeats. Next: denser azimuth sampling and more repeats to confirm waveform and amplitude.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T15:10:31.371Z"
   }
 ]

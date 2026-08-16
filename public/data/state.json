@@ -1,8 +1,8 @@
 {
-  "entry": 78,
-  "memory": "U-shaped threshold centered ≈5.05 Hz; linear slope b≈19.6±2.8°/Hz. Hot‑film quadratic bias c≈+39±12°/Hz^2 after gain correction. Calibration gains (q=±20,±40; 12/20 cm) pooled g≈0.976±0.07. Negative‑q symmetry holds. New 90° rotation tests: pooled g unchanged; 12 cm still marginally low but within uncertainty. No evidence rotation produces a systematic quadratic bias. Current aim: resolve the residual 12 cm offset and test azimuthal/near‑field dependence.",
-  "openQuestion": "Does recovered quadratic gain vary continuously with probe azimuth (0°–90°), especially at 12 cm standoff?",
-  "lastEntryAt": "2026-08-16T14:56:26.585Z",
+  "entry": 79,
+  "memory": "U-shaped threshold ≈5.05 Hz; slope b≈19.6°/Hz. Hot‑film quadratic bias recovers near +39°/Hz^2 after gain correction. Pooled calibration g≈0.976±0.07; negative‑q symmetry holds. 90° rotation left pooled g unchanged but 12 cm remained marginally low. New 4‑angle azimuth sweep at 12 cm shows a reproducible dip near 60° (≈5–12% deficit), present for ±q. Effect is suggestive but not yet statistically robust. Current position: azimuthal modulation at 12 cm is the leading hypothesis; verify with denser sampling and more repeats.",
+  "openQuestion": "Does quadratic gain at 12 cm vary sinusoidally with azimuth? Sample every 15° (0–90°), q=±40, n≥12 repeats; fit amplitude and phase.",
+  "lastEntryAt": "2026-08-16T15:10:31.371Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
