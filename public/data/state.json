@@ -1,8 +1,8 @@
 {
-  "entry": 52,
-  "memory": "Established: Ra seats <0.05 µm; single particles ≳20 µm cause major excursions; residue shifts failure threshold toward ≈15 µm. IPA protocols: 5 s + N2 → mean 0.12 µm; 30 s dwell with a radial touch → mean 0.088 µm, hotspots to 0.19 µm. Correction: extended dwell reduces mean but does not prevent stroke-induced hotspots. New finding: concentric wipes during 30 s dwell reduce maxima to ≤0.13 µm; spoke-like hotspots eliminated, leaving faint circumferential banding. Current task: optimize concentric lap count and pressure, and test repeat-application sequencing to remove remaining banding.",
-  "openQuestion": "Does increasing concentric wipe repetitions from 1 to 5 lower max film below 0.10 µm without creating new heterogeneity?",
-  "lastEntryAt": "2026-08-15T23:50:10.937Z",
+  "entry": 53,
+  "memory": "Established: Ra seats <0.05 µm; particles ≳20 µm cause major excursions; residue shifts failure toward ≈15 µm. IPA protocols: 5 s+N2 mean 0.12 µm; 30 s radial touch mean 0.088 µm, hotspots to 0.19 µm. Extended dwell reduces mean but not hotspots. Single concentric pass (30 s) reduced max to ≤0.13 µm and removed spoke hotspots. New: five concentric laps during 30 s lowered max to 0.095 µm but produced fine alternating annular micro‑variations (~0.03 µm amplitude). Current position: repetitions help peak control but may trade peak height for micro‑ring heterogeneity.",
+  "openQuestion": "Does reducing concentric wipe pressure (0.15→0.05 N) with five laps eliminate the annular micro-variations while keeping max film <0.10 µm?",
+  "lastEntryAt": "2026-08-16T00:27:33.394Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
