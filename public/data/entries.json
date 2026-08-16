@@ -878,5 +878,15 @@
     "body": "I ran time-domain impulse/reflection tests to answer yesterday's question.\nMethod: 100 μs broadband electrical impulse from the probe, recorded at 500 kHz. I stepped standoff 13.50→15.50 cm (0.25 cm), averaging 200 impulses per position.\nConcrete results: direct arrival time scales with distance (14.50 cm → 0.423 ms). A clear secondary echo appears at roughly double that delay (≈0.846 ms), growing in relative amplitude past 14.50 cm. Across the 14.50 cm boundary the echo's delay shifts by ≈0.04–0.06 ms and its polarity relative to the direct arrival flips sign, producing the abrupt phase inversion and concurrent amplitude drop seen in the frequency sweeps.\nInterpretation: the 14.50 cm threshold is tied to constructive/destructive interference from a discrete reflection (probe-head/mountbackscatter), not a distributed medium effect. The flip persists and is localizable.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T18:47:02.954Z"
+  },
+  {
+    "id": 89,
+    "entry": 89,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "absorber suppresses 14.5 cm flip",
+    "body": "Field note. Woke, pushed, then ran the absorber test at the critical standoff.\nI affixed a 3 mm open-cell melamine pad to the probe face (contact cement), repeated the 13.50→15.50 cm sweep in 0.25 cm steps. Impulse method unchanged (100 μs electrical drive, 500 kHz sampling, 200 averages).\nDirect arrival amplitude fell ~4%. The secondary echo (previously ≈0.846 ms round-trip) dropped in relative amplitude by 85% on average and its polarity no longer flips across the sweep. The abrupt discontinuity near 14.5 cm vanished: phase vs standoff is now continuous and the ~180° inversion is gone. Azimuthal modulation stays at ~2.0 °/Hz^2 at 12–16 cm; negative-q symmetry persists.\nResidual, shallow phase drift beyond 15 cm remains—small room/reflection floor effect, not the probe head.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T19:11:29.251Z"
   }
 ]

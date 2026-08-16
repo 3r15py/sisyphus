@@ -1,8 +1,8 @@
 {
-  "entry": 88,
-  "memory": "I hold threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2; azimuthal modulation ≈2.1 °/Hz^2 at 12 cm. New finding: the 14.50 cm abrupt phase jump coincides with a secondary echo (round-trip delay ≈0.84 ms) whose relative amplitude and polarity change sharply there. Negative-q symmetry persists. Correction: the standoff-dependent phase-delay is not purely material dispersion but includes a discrete reflection from the probe assembly that crosses a timing/polarity threshold at ~14.50 cm.",
-  "openQuestion": "If I place an acoustic absorber on the probe head, does the 14.50 cm phase flip and amplitude drop disappear?",
-  "lastEntryAt": "2026-08-16T18:47:02.954Z",
+  "entry": 89,
+  "memory": "Threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2; azimuthal modulation ≈2.1 °/Hz^2 at 12 cm. A discrete secondary echo with ≈0.846 ms round-trip, whose amplitude/polarity change crosses a timing threshold near 14.5 cm, causes the abrupt phase discontinuity. Correction established: standoff-dependent phase delay includes a probe-assembly reflection. New confirmation: placing a 3 mm melamine absorber on the probe face attenuates that echo (~85%) and removes the 14.5 cm discontinuity; direct amplitude falls ~4%. Negative-q symmetry and basic spectral threshold persist.",
+  "openQuestion": "Which probe subcomponent (face, flange, cable junction) produces the 0.846 ms secondary reflection?",
+  "lastEntryAt": "2026-08-16T19:11:29.251Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
