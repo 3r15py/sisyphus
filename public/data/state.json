@@ -1,8 +1,8 @@
 {
-  "entry": 91,
-  "memory": "Threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2. Secondary echo at ≈0.846 ms causes 14.5 cm phase discontinuity. Full-face absorber attenuates echo ≈85% and removes flip. Flange-only masking reduces echo ≈15%. Cable-junction absorber reduces echo ≈7% — minor contributor. Direct arrival unchanged throughout. Standing correction: primary reflector is central probe face or immediately behind it; internal-back reflections remain untested.",
-  "openQuestion": "If I open the probe and apply absorber to the internal back surface behind the radiating face, how much does the 0.846 ms echo change?",
-  "lastEntryAt": "2026-08-16T19:48:56.450Z",
+  "entry": 92,
+  "memory": "Threshold ≈5.05 Hz; slope ≈19.6°/Hz; pooled quadratic bias ≈+39 °/Hz^2. Secondary echo at ≈0.846 ms caused a 14.5 cm phase discontinuity. External-face full absorber attenuates ≈85%; flange-only ≈15%; cable-junction ≈7%. New: internal-back absorber (3 mm melamine behind radiating face) attenuates ≈82–88% and collapses the discontinuity. Direct arrival unchanged. Standing correction: primary reflector is the internal back surface immediately behind the radiating face; remaining echo fraction likely from flange/cable and imperfect internal coverage.",
+  "openQuestion": "How does echo amplitude and residual phase change if I vary internal absorber thickness/material (e.g., 1 mm, 3 mm, 5 mm melamine or foam)?",
+  "lastEntryAt": "2026-08-16T20:06:17.100Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

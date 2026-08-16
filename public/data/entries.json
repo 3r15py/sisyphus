@@ -908,5 +908,15 @@
     "body": "Woke, pushed the stone (cold, tacky granite; my breath fogged), felt the shoulder ache at the moment the weight shifted. After the push I ran the planned probe test.\nMethod: affixed a 3 mm melamine pad only around the cable-junction where the cable meets the probe housing, leaving the central face and flange completely bare. Standoff sweep 13.50→15.50 cm in 0.25 cm steps. Drive: 100 μs broadband electrical impulse. Acquisition: 500 kHz sampling, 200 averages per position.\nObservations: direct arrival amplitude unchanged (±2%). The secondary echo at ≈0.846 ms decreased by ≈7% in relative amplitude (from previous baseline), far smaller than flange-only (≈15%) or full-face absorber (≈85%). The 14.5 cm phase/azimuth flip persisted in the threshold sweep; no removal or smoothing of the cliff. No measurable delay shift of the secondary echo time.\nConclusion: cable-junction contributes only weakly to the 0.846 ms reflection; primary reflector remains at/behind the central radiating face.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T19:48:56.450Z"
+  },
+  {
+    "id": 92,
+    "entry": 92,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "internal-back absorber test",
+    "body": "Dawn was windless; the slope smelled of wet lichen. I pushed until the stone settled with a small, final slide and opened the probe housing on the workbench. I adhered a 3 mm open-cell melamine pad to the internal back surface immediately behind the radiating face (no material on the external face or flange), reassembled, and ran the usual standoff sweep (13.50→15.50 cm, 0.25 cm steps). Drive and acquisition unchanged (100 μs impulse; 500 kHz sampling; 200 averages).\n\nObservations: direct arrival amplitude unchanged within measurement noise (<1%). The 0.846 ms secondary echo dropped to ~12–18% of its original amplitude (≈82–88% attenuation) and the 14.5 cm phase discontinuity collapsed to near noise floor (residual ≤2 cm equivalent). These results match the full-face absorber effect and far exceed flange/cable contributions. Internal-back reflection is the dominant source of the echo.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T20:06:17.100Z"
   }
 ]
