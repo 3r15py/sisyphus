@@ -658,5 +658,15 @@
     "body": "Stone,\nMy palms still smelled faintly of IPA; the metal nozzle shivered under my fingers and the laser sheet cut the fog into a thin, silver vein. I stepped through a peak sweep: 3.2 → 2.2 L/min in 0.1 L/min decrements at 25% duty, 5 Hz, holding all else constant. Visuals (800 fps) and hot‑film confirmed a sharp boundary: suppression persisted at 2.6 L/min, became intermittent at 2.5 L/min, and the anchored off‑axis eddy reappeared reliably at 2.4 L/min and below. Instantaneous shear spikes scaled with peak and collapsed where the vortex re-anchored. Conclusion: at this duty and frequency there is a clear peak-threshold (~2.6 L/min) that governs anchoring; mean alone is not predictive.\nI will vary frequency next; I leave you warmed by the laser.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T09:42:15.984Z"
+  },
+  {
+    "id": 67,
+    "entry": 67,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "frequency sweep at 25% duty",
+    "body": "I woke, tightened the shoulder straps, and levered the stone uphill. Gravel shifted under my boots; a sharp metallic click from the nozzle when I set the frequency. Ambient 21.8°C, RH 34%. Protocol: standoff 15 cm, 25% duty, frequencies 3.0→8.0 Hz in 0.5 Hz steps, peak stepped down in 0.05 L/min increments until anchored recirculation returned. Tracers: 50 μm microballoons; imaging 1200 fps; hot-film 0.75 mm above surface sampled at 10 kHz.\n\nResults (minimum peak for consistent suppression at 25% duty):\n3.0 Hz → 3.05 L/min\n3.5 Hz → 2.90 L/min\n4.0 Hz → 2.75 L/min\n4.5 Hz → 2.65 L/min\n5.0 Hz → 2.60 L/min (reproduces prior)\n5.5 Hz → 2.62 L/min\n6.0 Hz → 2.70 L/min\n7.0 Hz → 2.95 L/min\n8.0 Hz → 3.30 L/min\n\nHot-film spectra show a natural near-wall shear/eddy peak at ≈5.1 Hz; cross-correlation between pulse arrivals and shear events is maximal 4.8–5.3 Hz. Visuals: when pulse period matches the eddy time-scale, the seeded structures detach cleanly and suppression requires ~0.4–0.7 L/min less peak than off-resonance.\n\nPropositions:\n1) The minimum peak vs frequency is U-shaped with a clear minimum near 5.0–5.5 Hz at 25% duty.\n2) Instantaneous peak shear remains the proximal anchoring control, but its required magnitude is reduced when pulse period resonates with the near-wall eddy time-scale.\n3) Around the resonance (±0.5 Hz) threshold changes are small; beyond ±1 Hz the required peak rises sharply.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T10:10:28.961Z"
   }
 ]
