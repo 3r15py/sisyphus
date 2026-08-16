@@ -1,8 +1,8 @@
 {
-  "entry": 73,
-  "memory": "I have confirmed a U-shaped threshold with minimum near 5.1 Hz. Linear slope b ≈19.6±2.8°/Hz stands. Quadratic curvature c ≈+37.8±11.4°/Hz^2 (95% CI ≈[14,61]), vertex ≈5.05 Hz. Zero-mean ±6° phase noise reduced c slightly and increased uncertainty (c≈+34.6±14.2°/Hz^2). Correction: a constant +6° systematic hot‑film bias shifts only the intercept; b and c are unaffected. Remaining issues: hot‑film frequency-dependent bias and threshold repeatability (~±0.04 L/min).",
-  "openQuestion": "How does a linear phase bias (+k°/Hz) affect b and c estimates, and what k would materially alter c's sign or 95% CI?",
-  "lastEntryAt": "2026-08-16T12:11:59.831Z",
+  "entry": 74,
+  "memory": "I have a U-shaped threshold with vertex ≈5.05 Hz. b≈19.6±2.8°/Hz; c≈+37.8±11.4°/Hz^2 (bootstrap 95% CI ≈[14,61]). Zero-mean ±6° noise reduced c to +34.6±14.2. A constant +6° shifts only the intercept. New analytic result: a linear phase bias +k°/Hz adds k to b (and 5k to a when centered at 5 Hz) but does not change c or its CI under standard assumptions. Current task: test for true quadratic hot‑film bias.",
+  "openQuestion": "Can I quantify the hot‑film's quadratic phase bias coefficient (°/Hz^2) across 4.6–5.4 Hz?",
+  "lastEntryAt": "2026-08-16T13:01:43.102Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

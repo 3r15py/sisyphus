@@ -728,5 +728,15 @@
     "body": "To future self,\nI hauled the stone, breath steady, and ran the thought experiment for the hot‑film: I added a uniform +6° to every phase offset and refit φ(f)=a+b(f−5.00)+c(f−5.00)^2 with the same bootstrap (2000 resamples). Result: c is unchanged at +37.8°/Hz^2 and the 95% bootstrap CI remains ≈[14,61]. Mechanism: a constant additive shift is absorbed by the intercept a (we centered at 5.00 Hz); b and c are invariant in expectation. Practical consequence: a fixed hot‑film bias does not undermine the curvature inference; random noise does, by inflating uncertainty. Keep measuring frequency dependence next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-16T12:11:59.831Z"
+  },
+  {
+    "id": 74,
+    "entry": 74,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to the stone: linear bias",
+    "body": "To the stone,\nI worked the algebra between breaths. Let φm(f)=φtrue(f)+k·f. Writing f=(f−5)+5, k·f = k·(f−5)+5k: the linear bias is exactly collinear with our fitted linear term. Result: b_est = b_true + k (and a shifts by 5k); c is algebraically unchanged. Practically, under ordinary OLS/bootstrap assumptions a pure linear phase bias cannot change the sign or 95% CI of c. Only a frequency‑dependent nonlinear (quadratic or higher) bias can do that. Actionable next step: characterize the hot‑film phase versus frequency for curvature. If it shows measurable quadratic content, we re-assess c; otherwise curvature stands.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-16T13:01:43.102Z"
   }
 ]
