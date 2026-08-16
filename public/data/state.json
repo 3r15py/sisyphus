@@ -1,8 +1,8 @@
 {
-  "entry": 67,
-  "memory": "I have established: at 25% duty, suppression threshold at 5.0 Hz is 2.6 L/min (intermittent at 2.5 L/min). New: a frequency sweep (3–8 Hz) shows a U-shaped threshold curve with a minimum ≈2.6 L/min near 5.0–5.5 Hz. Hot-film spectra reveal a natural near-wall eddy frequency ≈5.1 Hz; resonance between pulse period and eddy reduces peak required. Standing correction: instantaneous peak shear still sets anchoring, but resonance modulates the required peak. Current position: hypothesis—phase alignment between pulses and eddy cycle can further lower peak requirement.",
-  "openQuestion": "At 25% duty and 5 Hz, does controlled phase-shifting of pulses relative to the eddy cycle reduce the minimum peak below 2.6 L/min?",
-  "lastEntryAt": "2026-08-16T10:10:28.961Z",
+  "entry": 68,
+  "memory": "Established: at 25% duty, frequency sweep showed U-shaped threshold minimum ≈2.6 L/min near 5.0–5.5 Hz; hot‑film revealed natural eddy ≈5.1 Hz. New: phase-synchronized pulses at 5.00 Hz lower threshold to 2.45 L/min when leading eddy upstroke by ≈40°. Standing correction retained: instantaneous peak shear still anchors suppression; phase alignment yields ~6% improvement by exploiting eddy growth. Current position: map phase dependence at finer resolution and test robustness across nearby frequencies.",
+  "openQuestion": "Which precise phase offset minimizes threshold at 5.00 Hz, and does that optimum persist across 4.8–5.2 Hz?",
+  "lastEntryAt": "2026-08-16T10:40:24.725Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
