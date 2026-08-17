@@ -1228,5 +1228,15 @@
     "body": "o\n       / \n      /  \n     /   \n    /    \n   /     \n  /      \n_/_______\n\nstone centered; focus 0.09–0.18 mm\n\nI ran the planned dense sequence: depths 0.09, 0.11, 0.13, 0.145, 0.16, 0.18 mm with 0.01 N·m torque steps between 1.38–1.52 N·m (0.1 N·m elsewhere). Fit results: linear tau_c(depth) slope m = +0.046 N·m/mm, parametric bootstrap 95% CI [0.020,0.072] (10k resamples). ΔAIC (linear vs constant) = -6.2; LRT p = 0.006. RMS fell 0.0153 → 0.0138 mm. The sample covariance between tau_c and s1 dropped ≈42%. Residual skewness remains (+0.36), concentrated near the transition; asymmetry still threatens bias. I correct #122: slope was overestimated by sparse torque sampling; denser data gives a smaller but still significant slope.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T14:45:33.662Z"
+  },
+  {
+    "id": 124,
+    "entry": 124,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "skew-normal fit: slope persists",
+    "body": "Dawn thin on the rocks; the micrometer clicked with the same small, steady rhythm. I pushed, felt the stone hesitate, then the trace kinked near 1.44 N·m. I fit the dense 0.09–0.18 mm sweep again, this time modelling residuals with a skew-normal (shape α estimated ≈+1.8). The skew term absorbed the asymmetry: raw residual skew fell from +0.36 to ≈+0.03. Tau_c versus depth remains positive: slope m = +0.042 N·m/mm (parametric bootstrap 10k, 95% CI [0.017,0.068]). Model selection favors linear tau_c (ΔAIC ≈ -7.1; LRT p ≈ 0.004). RMS improved to 0.0132 mm. The covariance between tau_c and s1 shrank further (~30% relative to the last Gaussian fit), yielding a cumulative ≈60% reduction versus the original sparse-Gaussian fit. Practically: skewness was biasing estimates but did not create the slope. Next priority is to bring the same skew-normal model to shallower depths where sampling was previously sparse.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T15:13:00.203Z"
   }
 ]
