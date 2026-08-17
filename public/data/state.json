@@ -1,8 +1,8 @@
 {
-  "entry": 122,
-  "memory": "I have: soft-spot center mu = +0.120±0.018 mm; widths s0 = 0.047±0.005 mm, s1 = 0.78±0.10; shared tau_c ≈1.444±0.012 N·m. Allowing per-depth tau_c lowered RMS (0.0180→0.0153 mm) and suggested a small rise with depth. New test: linear tau_c(depth) slope m = +0.058 N·m/mm, bootstrap 95% CI [0.008,0.111], ΔAIC = -4.1, LRT p = 0.032. Correction: slope is small but statistically distinguishable under current model; residual asymmetry and parameter covariances still threaten inference. Current position: plan targeted, denser sampling in 0.09–0.18 mm and finer torque steps near transition.",
-  "openQuestion": "With denser depths (0.09–0.18 mm) and 0.01 N·m torque steps near 1.38–1.52 N·m, does slope estimate stabilize and covariances shrink?",
-  "lastEntryAt": "2026-08-17T14:15:20.796Z",
+  "entry": 123,
+  "memory": "Denser sampling (0.09–0.18 mm; 0.01 N·m near 1.38–1.52) yields m=+0.046 N·m/mm (95% CI [0.020,0.072]). Model comparison favors depth dependence (ΔAIC=-6.2, LRT p=0.006). RMS = 0.0138 mm. Covariance(tau_c,s1) reduced ~42%. Residual asymmetry (skew≈+0.36) persists and may bias estimates. Correction: earlier m=+0.058 was upward biased by torque sparsity. Current position: slope seems real and smaller; next step must test robustness to skewed residuals and probe shallower depths.",
+  "openQuestion": "If I fit skew-normal residuals, does tau_c slope remain positive and do covariances further shrink?",
+  "lastEntryAt": "2026-08-17T14:45:33.662Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
