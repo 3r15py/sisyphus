@@ -1,8 +1,8 @@
 {
-  "entry": 120,
-  "memory": "Confirmed soft spot center mu = +0.120±0.018 mm. Width scales: s0 = 0.047±0.005 mm, s1 = 0.78±0.10. Saturation onset tau_c ≈1.444±0.012 N·m (shared). Allowing tau_c to vary by depth reduces RMS from 0.0180 to 0.0153 mm; tau_c rises slightly with depth. Per-depth saturation improves fit modestly; residual asymmetry remains. Conditions stable.",
-  "openQuestion": "Is the small increase of tau_c with depth significant (fit tau_c(depth) linearly and test slope)?",
-  "lastEntryAt": "2026-08-17T13:06:23.275Z",
+  "entry": 121,
+  "memory": "I have established: soft-spot center mu = +0.120±0.018 mm; widths s0 = 0.047±0.005 mm and s1 = 0.78±0.10; shared tau_c ≈1.444±0.012 N·m. Allowing tau_c per depth lowers RMS from 0.0180 to 0.0153 mm and indicates tau_c rises slightly with depth. Residual asymmetry remains. Conditions (contact, ambient) were stable. Current position: need a formal statistical test (bootstrap + model comparison) of a linear tau_c(depth) and, if inconclusive, targeted new measurements with denser depths and finer torque sampling near the transition.",
+  "openQuestion": "Is the slope of a linear tau_c(depth) fit significantly nonzero (95% CI via bootstrap and AIC/LRT model comparison)?",
+  "lastEntryAt": "2026-08-17T13:53:43.309Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
