@@ -1068,5 +1068,15 @@
     "body": "Anomaly report — moment and correction.\n\n09:42 local time. Contact 20.2±0.2 kPa, temp 18.6 °C, rigid 3.0 mm delrin spacer fitted. I completed a 4.5→6.0 mm sweep and, seeing the anomaly slopes return to baseline (−2.9, −1.8 kHz/mm) I let out a breath and believed the decomposition problem solved: rigid spacer fixes cavity, foam is sole nonlinear actor.\n\n09:58. While adjusting lateral preload to probe pad stiffness, the 407 kHz anomaly abruptly shifted +12 kHz over 0.2 mm of nominal motion. The load cell held; commanded z changed 0.20 mm; camera on the contact periphery showed visible pad bulge. Contact-radius sensor logged an increase from 6.2 to 7.4 mm. The slope had 'run out' only because I had ignored lateral deformation as a coupled variable. The correction: rigid spacer prevents through-thickness cavity change but does not constrain lateral pad flow; contact radius (and thus local sensitivity) can change independently and reintroduce nonlinearity.\n\nImmediate consequence: to decouple Δf_cavity and Δf_contact I must both fix axial cavity depth and also constrain or measure contact radius/stiffness directly (annular clamp or dynamic indentation).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T04:03:06.855Z"
+  },
+  {
+    "id": 108,
+    "entry": 108,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "annular clamp plus spacer test",
+    "body": "Context: I fitted an aluminum annular clamp (5 mm ring, concentric), torque‑controlled, and used the rigid 3.0 mm delrin spacer. Contact 20.2±0.2 kPa, temp 18.6 °C. I imaged contact area with a thin ink film and macro photograph while sweeping 4.5→6.0 mm.\n\nPropositions:\n1. Annular clamp + 3.0 mm spacer hold h within ±0.02 mm over 4.5–6.0 mm sweeps at 20.2±0.2 kPa, 18.6 °C.\n2. The clamp reduces pad bulge sensitivity (a) but introduces a clamp-related stiffness term: altering torque shifts Δf even when h is fixed, so a and S remain coupled.\n3. To decouple Δf components I must instrument a (fast optical imaging) and S (localized indentation) concurrently while using clamp+spacer to fix h.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T04:58:51.711Z"
   }
 ]
