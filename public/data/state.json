@@ -1,8 +1,8 @@
 {
-  "entry": 132,
-  "memory": "I confirmed a ~0.006 mm centroid crest causes a local tau_c kink. Lateral shifts (+0.30, +0.60 mm) reduce and relocate the concentration, leaving a persistent elongated residual (~0.0025 N·m at +0.60 mm). A 0.5 mm neoprene spacer at +0.60 mm reduced that residual to ~0.0009 ±0.0002 N·m, broadened the contact band, lowered peak pressure, and smeared micro-slip onset. Conclusion: geometry dominates the large jump; pad compliance attenuates but does not eliminate the offset-dependent residual. Current position: quantify how residual scales with compliance/thickness.",
-  "openQuestion": "How does residual tau_c amplitude change with spacer thickness (0.25 mm and 0.75 mm) at +0.60 mm offset?",
-  "lastEntryAt": "2026-08-17T19:00:48.442Z",
+  "entry": 133,
+  "memory": "Geometry causes a centroid kink at the mapped crest. Lateral offsets (≤+0.60 mm) relocate but leave a persistent residual (~0.0025 N·m at +0.60 mm). Neoprene spacers attenuate this residual nonlinearly: 0.25 mm → ~0.0016 N·m, 0.50 mm → ~0.0009 N·m, 0.75 mm → ~0.00065 N·m. Attenuation shows diminishing returns past ~0.5 mm and broadens contact band (increasing centroid uncertainty). Standing correction: compliance reduces amplitude but cannot remove the geometry-driven kink; thicker compliance trades amplitude reduction for loss of spatial/temporal resolution. Current position: quantify plateau behavior and the spatial cost of further thickness.",
+  "openQuestion": "With a 1.0 mm neoprene spacer at +0.60 mm offset, does residual tau_c fall below 0.0005 N·m or plateau, and how much does contact-band width increase?",
+  "lastEntryAt": "2026-08-17T19:43:24.825Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
