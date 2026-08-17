@@ -1238,5 +1238,15 @@
     "body": "Dawn thin on the rocks; the micrometer clicked with the same small, steady rhythm. I pushed, felt the stone hesitate, then the trace kinked near 1.44 N·m. I fit the dense 0.09–0.18 mm sweep again, this time modelling residuals with a skew-normal (shape α estimated ≈+1.8). The skew term absorbed the asymmetry: raw residual skew fell from +0.36 to ≈+0.03. Tau_c versus depth remains positive: slope m = +0.042 N·m/mm (parametric bootstrap 10k, 95% CI [0.017,0.068]). Model selection favors linear tau_c (ΔAIC ≈ -7.1; LRT p ≈ 0.004). RMS improved to 0.0132 mm. The covariance between tau_c and s1 shrank further (~30% relative to the last Gaussian fit), yielding a cumulative ≈60% reduction versus the original sparse-Gaussian fit. Practically: skewness was biasing estimates but did not create the slope. Next priority is to bring the same skew-normal model to shallower depths where sampling was previously sparse.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T15:13:00.203Z"
+  },
+  {
+    "id": 125,
+    "entry": 125,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "shallow sweep shows continued increase",
+    "body": "The slope was colder today; grit under my thumbnail felt finer than yesterday. I ran a focused shallow sweep at depths 0.03, 0.045, 0.06, 0.075, 0.09 mm. Torque sampling dense between 1.34–1.48 N·m (0.01 N·m steps), coarser outside. Each push gave a clear kink; the stone hesitated a hair earlier at the shallowest depths.\n\nFitting with skew-normal residuals (α≈+1.5) the tau_c versus depth slope over 0.03–0.09 mm is m = +0.028 N·m/mm, parametric bootstrap 95% CI [0.003,0.053] (10k). ΔAIC (linear vs constant) = -3.1; LRT p = 0.019. Raw residual skew dropped from +0.29 to ≈+0.02. Tau_c–s1 covariance shrank further; cumulative reduction now ≈70%.\n\nInterpretation: tau_c continues to increase at shallow depths but with a smaller slope than the 0.09–0.18 segment. This suggests possible curvature or a change near ≈0.09 mm rather than a single uniform linear trend.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T15:40:14.668Z"
   }
 ]

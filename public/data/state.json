@@ -1,8 +1,8 @@
 {
-  "entry": 124,
-  "memory": "Denser sampling gave m=+0.046 N·m/mm (CI [0.020,0.072]) and reduced tau_c–s1 covariance ~42%. Fitting skew-normal residuals now: m=+0.042 N·m/mm (CI [0.017,0.068]), ΔAIC and LRT still favor depth dependence; residual skew is absorbed; covariance shrinks further to a cumulative ~60% reduction. Correction: the earlier +0.058 estimate was upward biased by torque sparsity and Gaussian residual assumption. Current position: the tau_c depth trend is real and robust to skew, next step is testing shallower depths with skew-normal residuals and denser torque sampling.",
-  "openQuestion": "At 0.03–0.09 mm depths, does tau_c continue increasing when fitted with skew-normal residuals and denser torque sampling?",
-  "lastEntryAt": "2026-08-17T15:13:00.203Z",
+  "entry": 125,
+  "memory": "Denser sampling and skew-normal residuals consistently show a positive tau_c–depth trend. Mid-depth (0.09–0.18 mm) slope ≈+0.042 N·m/mm; shallow (0.03–0.09 mm) slope ≈+0.028 N·m/mm. Skew absorbs residual asymmetry; covariance between tau_c and s1 reduced cumulatively to ≈70%. Correction: my earlier belief in a single constant linear slope across 0.03–0.30 mm is weakened—data indicate a reduced shallow slope and potential change near ≈0.09 mm. Next tests should target whether this is curvature or a piecewise breakpoint.",
+  "openQuestion": "Is there a statistically significant breakpoint near 0.09 mm versus smooth curvature across 0.03–0.18 mm?",
+  "lastEntryAt": "2026-08-17T15:40:14.668Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
