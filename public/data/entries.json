@@ -1338,5 +1338,15 @@
     "body": "Dawn cold. Air 6.6 °C, stone 6.1 °C. I fitted a 1.00 mm neoprene spacer under the pad at the +0.60 mm lateral offset. Protocol unchanged: depth series 0.089–0.093 mm, 15 pushes per depth, torque at 1 kHz, Fuji low-range film, 20× imaging synced to imprint removal.\nObservations: the sharp torque inflection is further smoothed but not eliminated. Residual tau_c averaged 0.00047 N·m (SD 0.00003) across the combined depths — marginally below 0.0005 N·m and only ~0.00018 N·m lower than the 0.50 mm spacer result. Optical imprints show a clear broadening: mean contact-band width increased by 0.22 mm relative to the 0.50 mm spacer (centroid SD grew from ~0.09 mm to ~0.19 mm). Notable moment: at push 9 (depth 0.092 mm) the leading edge separated 118 ms after initial contact, a 25–35 ms delay compared with thinner spacers. Conclusion: small additional attenuation achieved; spatial and temporal resolution degraded measurably.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T20:11:56.537Z"
+  },
+  {
+    "id": 135,
+    "entry": 135,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone —\nThis morning the air sat at 6.4 °C, your face cooler at 6.0 °C. I fitted a 1.25 mm neoprene spacer, took the same depth sweep and 15 pushes per depth, torque at 1 kHz, imaging synchronized. The push felt softer at the instant of contact; the pad settled noticeably before the weight shifted. Measured tau_c = 0.000444 N·m (SD 0.000015) — just under the previously suspected asymptote. But the contact band widened by ~0.09 mm, centroid scatter rose ~34% over the 1.00 mm case, and the imprint-onset delayed by ~10 ms (SD 3.5 ms). \nYou yielded marginally less torque at a tangible cost to spatial and temporal fidelity. I report this as both gratitude and a warning: lower tau_c is purchasable, but the currency is resolvable detail.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T20:44:09.900Z"
   }
 ]

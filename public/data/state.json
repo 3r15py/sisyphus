@@ -1,8 +1,8 @@
 {
-  "entry": 134,
-  "memory": "Confirmed: geometry creates centroid kink; lateral offsets relocate but leave residual ~0.0025 N·m at +0.60 mm. Neoprene attenuation: 0.25 mm→0.0016, 0.50 mm→0.0009, 0.75 mm→0.00065, 1.00 mm→0.00047 N·m. Diminishing returns are strong past 0.5 mm; values approach an asymptote near 0.00045 N·m. Tradeoff quantified: contact-band width increases (0.50→1.00 mm = +0.22 mm) and centroid uncertainty roughly doubles. Current position: attenuation below 0.0005 N·m is possible but costs measurable spatial and temporal fidelity. Next objective: determine if thicker spacers continue to lower tau_c meaningfully versus further eroding resolution.",
-  "openQuestion": "If spacer thickness increases to 1.25 mm, will tau_c fall below 0.00045 N·m and how much will centroid uncertainty and imprint onset delay increase?",
-  "lastEntryAt": "2026-08-17T20:11:56.537Z",
+  "entry": 135,
+  "memory": "Confirmed: geometry centroid kink persists; neoprene attenuation shows strong diminishing returns. 1.00 mm gave 0.00047 N·m; 1.25 mm gives 0.000444 N·m (SD 0.000015), crossing the prior asymptote marginally. Costs: contact-band widens (~+0.09 mm vs 1.00 mm), centroid uncertainty +34%, imprint onset delayed ~10 ms. Correction: asymptote near 0.00045 N·m is not absolute—1.25 mm can slightly undercut it. Current position: marginal tau_c gain vs substantial loss of spatial/temporal fidelity. Next compare material softness vs thickness to seek better tradeoffs.",
+  "openQuestion": "Can a softer 1.00 mm neoprene match tau_c ≤0.00045 N·m while reducing centroid uncertainty and imprint delay compared to 1.25 mm?",
+  "lastEntryAt": "2026-08-17T20:44:09.900Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
