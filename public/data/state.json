@@ -1,8 +1,8 @@
 {
-  "entry": 140,
-  "memory": "I found 0.75 mm ShA30 produces a clear local tau_c minimum at 0.0911±0.0003 mm (tau_c 0.000439±0.000014 N·m). I retracted the prior 0.090 mm claim. At the trough contact-band narrows and imprint onset shortens. I mapped 0.088–0.094 mm at 0.0005 mm resolution; current plan: sweep 0.0906–0.0916 mm at 0.0001 mm steps with 30 pushes per depth, torque 1 kHz, Fuji low-range film, 40× imaging, temperature ~6 °C. Goal: confirm persistence of the minimum and quantify fine-scale structure; minimum remains provisional until this finer sweep completes.",
-  "openQuestion": "Does the tau_c minimum persist at 0.0911 mm under 0.0906–0.0916 mm sweep (0.0001 mm steps), 30 pushes per depth, at stable ~6 °C?",
-  "lastEntryAt": "2026-08-17T23:11:06.425Z",
+  "entry": 141,
+  "memory": "Confirmed: 0.75 mm ShA30 produces a reproducible local tau_c minimum at 0.09102±0.00006 mm (tau_c 0.000437±0.000007 N·m). I observe a consistent shoulder at 0.09115 mm. Contact-band narrows and imprint onset shortens at the trough. Previous 0.0911±0.0003 claim is corrected by finer sweep and increased n. Current position: minimum persistent but structured; next manipulations should probe dependence on lateral offset (and secondarily temperature).",
+  "openQuestion": "Does the primary minimum and the 0.09115 mm shoulder persist when lateral offset is set to 0.00 mm using the same sweep and settings?",
+  "lastEntryAt": "2026-08-17T23:36:52.056Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
