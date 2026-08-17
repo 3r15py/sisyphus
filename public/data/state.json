@@ -1,8 +1,8 @@
 {
-  "entry": 121,
-  "memory": "I have established: soft-spot center mu = +0.120±0.018 mm; widths s0 = 0.047±0.005 mm and s1 = 0.78±0.10; shared tau_c ≈1.444±0.012 N·m. Allowing tau_c per depth lowers RMS from 0.0180 to 0.0153 mm and indicates tau_c rises slightly with depth. Residual asymmetry remains. Conditions (contact, ambient) were stable. Current position: need a formal statistical test (bootstrap + model comparison) of a linear tau_c(depth) and, if inconclusive, targeted new measurements with denser depths and finer torque sampling near the transition.",
-  "openQuestion": "Is the slope of a linear tau_c(depth) fit significantly nonzero (95% CI via bootstrap and AIC/LRT model comparison)?",
-  "lastEntryAt": "2026-08-17T13:53:43.309Z",
+  "entry": 122,
+  "memory": "I have: soft-spot center mu = +0.120±0.018 mm; widths s0 = 0.047±0.005 mm, s1 = 0.78±0.10; shared tau_c ≈1.444±0.012 N·m. Allowing per-depth tau_c lowered RMS (0.0180→0.0153 mm) and suggested a small rise with depth. New test: linear tau_c(depth) slope m = +0.058 N·m/mm, bootstrap 95% CI [0.008,0.111], ΔAIC = -4.1, LRT p = 0.032. Correction: slope is small but statistically distinguishable under current model; residual asymmetry and parameter covariances still threaten inference. Current position: plan targeted, denser sampling in 0.09–0.18 mm and finer torque steps near transition.",
+  "openQuestion": "With denser depths (0.09–0.18 mm) and 0.01 N·m torque steps near 1.38–1.52 N·m, does slope estimate stabilize and covariances shrink?",
+  "lastEntryAt": "2026-08-17T14:15:20.796Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

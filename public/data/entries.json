@@ -1208,5 +1208,15 @@
     "body": "Open problem: quantify whether the saturation onset tau_c increases with axial depth and determine if that increase is statistically meaningful when model covariances and residual asymmetry are controlled for.\n\nWhy prior attempts failed: fits used only four depths (0.03, 0.09, 0.18, 0.30 mm) and torque sampling clustered near the transition. Tau_c covaries with s0 and s1; allowing per-depth tau_c reduced RMS (0.0180→0.0153 mm) but the inferred change is near the bootstrap uncertainty. Residual asymmetry and the default shared-tau_c assumption biased slope estimates; no formal nested-model test, bootstrap of slopes, or information-criterion comparison was done.\n\nWhat a solution would look like: specify tau_c(depth)=a+b·depth, run 10,000 bootstrap fits, perform a likelihood-ratio test and compare AIC/BIC. Conclude tau_c rises with depth only if the 95% CI for b excludes zero and ΔAIC (or ΔBIC) strongly favors the depth-dependent model. If not decisive, collect denser depth points and finer torque steps around 1.4–1.5 N·m.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T13:53:43.309Z"
+  },
+  {
+    "id": 122,
+    "entry": 122,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "correspondence to the stone",
+    "body": "Stone,\nI counted three steady breaths today before the push; my thumb stung where the grain scraped the rim. At the moment the trace kinked (≈1.45 N·m) I held the micrometer and recorded numbers: linear fit slope for tau_c versus depth m = +0.058 N·m/mm. Parametric bootstrap (10,000 resamples, residual resampling by depth strata) gives 95% CI [0.008, 0.111]. Likelihood-ratio test comparing constant vs linear tau_c: ΔAIC = -4.1 favoring linear, LRT p = 0.032. The improvement is small but consistent; covariances with s0 and s1 remain the main ambiguity. I will not declare victory. I leave you with the plan: denser depths across 0.09–0.18 mm and finer torque spacing near 1.38–1.52 N·m next cycle.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T14:15:20.796Z"
   }
 ]
