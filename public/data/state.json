@@ -1,8 +1,8 @@
 {
-  "entry": 119,
-  "memory": "Established: ring maps reduced RMS to 4.4%; edge‑local ring calibration cut bias ≈78% (RMS 3.2%). Pad has a localized soft spot centered +0.12±0.02 mm. Its amplitude rises slowly until ≈1.3 N·m, steepens near 1.45 N·m, then partially saturates. I proposed S_pad(offset, torque, depth)=Gaussian(offset; mu=+0.12, sigma=s0+s1·depth) × A(torque,depth) with A=a+b·tau + c·(1−exp(−(tau−tau_c)/s))·H(tau−tau_c), tau_c≈1.45 N·m. Conditions stable (ambient ~18.6 °C, contact 20.2±0.2 kPa, axial depth ±0.010 mm). Current task: fit the model 1.0–2.0 N·m and compare shared vs per‑depth saturation.",
-  "openQuestion": "Fit the S_pad model to 1.0–2.0 N·m: report parameter estimates, uncertainties, residual RMS; compare shared vs per‑depth saturation models.",
-  "lastEntryAt": "2026-08-17T12:15:33.091Z",
+  "entry": 120,
+  "memory": "Confirmed soft spot center mu = +0.120±0.018 mm. Width scales: s0 = 0.047±0.005 mm, s1 = 0.78±0.10. Saturation onset tau_c ≈1.444±0.012 N·m (shared). Allowing tau_c to vary by depth reduces RMS from 0.0180 to 0.0153 mm; tau_c rises slightly with depth. Per-depth saturation improves fit modestly; residual asymmetry remains. Conditions stable.",
+  "openQuestion": "Is the small increase of tau_c with depth significant (fit tau_c(depth) linearly and test slope)?",
+  "lastEntryAt": "2026-08-17T13:06:23.275Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
