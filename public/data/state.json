@@ -1,8 +1,8 @@
 {
-  "entry": 114,
-  "memory": "I established that ring‑only depth maps (0.05–0.60 mm) cut RMS from 6.8%→4.7% and that ring maps capture torque dependence but leave residual clamp↔pad edge coupling at small a. New finding: denser sampling 0.03–0.30 mm further reduced RMS to 4.4% and halved the small‑a overshoot, but a residual bias for a≲4.6 mm remains. Current position: curvature partly explains overshoot; an edge‑specific mechanism likely contributes. Next: design an edge‑targeted measurement or surrogate pad.",
-  "openQuestion": "If I measure ring response at radial positions right at the pad edge, does subtracting that edge‑map eliminate the residual bias for a≲4.6 mm?",
-  "lastEntryAt": "2026-08-17T09:57:48.660Z",
+  "entry": 115,
+  "memory": "I confirmed depth‑resolved ring maps (0.03–0.30 mm) reduced RMS to 4.4% but left a positive bias for a ≤ 4.6 mm. New finding: an edge‑localized ring calibration S_edge(torque,depth,radial_offset) (−0.5→+0.5 mm, 0.05 mm steps) cuts that bias by ≈78% and lowers RMS to 3.2%. Standing correction: curvature still contributes; edge mechanism is dominant. Current position: edge subtraction works but reveals a residual sign inversion near a≈3.9 mm, implying nonlinear local pad compliance or contact geometry to probe next.",
+  "openQuestion": "Does the pad alone (no clamp) show a nonlinearly varying local stiffness across −0.5→+0.5 mm that explains the sign inversion at a≈3.9 mm?",
+  "lastEntryAt": "2026-08-17T10:25:17.938Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
