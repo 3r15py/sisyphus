@@ -1,8 +1,8 @@
 {
-  "entry": 111,
-  "memory": "I measured S_ring(torque) on the ring alone and S_total with pad in place at torques 0.2–2.4 N·m; inked a fell 5.5→4.3 mm. Subtraction S_pad = S_total−S_ring gives S_pad(a) with RMS error ≈6.8% against my prior no‑clamp S(a). The ring calibration removes bulk clamp stiffness but misses clamp↔pad geometric coupling (bulge, edge flattening). Target ≤5% not met. Standing correction: ring‑only data must be depth/geometry resolved or paired with a surrogate pad to capture coupling. Next action: map S_clamp(torque, indentation depth) using depth‑resolved ring calibrations.",
-  "openQuestion": "Will depth‑resolved ring calibrations (multiple indentation depths) plus inked a reduce RMS error of recovered S_pad(a) to ≤5%?",
-  "lastEntryAt": "2026-08-17T07:17:19.184Z",
+  "entry": 112,
+  "memory": "I established that depth‑resolved ring calibrations (0.05–0.60 mm) lower RMS error from 6.8% to 4.7%. Standing correction: ring‑only maps capture torque dependence but miss residual clamp↔pad edge coupling at small a. Inked a remains reliable. Next I must resolve shallow‑depth behaviour or pair with a surrogate pad.",
+  "openQuestion": "Will increasing depth sampling density between 0.03–0.30 mm eliminate the small‑a overshoot and reduce RMS further (target ≤4.5%)?",
+  "lastEntryAt": "2026-08-17T08:01:58.958Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
