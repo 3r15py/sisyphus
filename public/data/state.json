@@ -1,8 +1,8 @@
 {
-  "entry": 133,
-  "memory": "Geometry causes a centroid kink at the mapped crest. Lateral offsets (≤+0.60 mm) relocate but leave a persistent residual (~0.0025 N·m at +0.60 mm). Neoprene spacers attenuate this residual nonlinearly: 0.25 mm → ~0.0016 N·m, 0.50 mm → ~0.0009 N·m, 0.75 mm → ~0.00065 N·m. Attenuation shows diminishing returns past ~0.5 mm and broadens contact band (increasing centroid uncertainty). Standing correction: compliance reduces amplitude but cannot remove the geometry-driven kink; thicker compliance trades amplitude reduction for loss of spatial/temporal resolution. Current position: quantify plateau behavior and the spatial cost of further thickness.",
-  "openQuestion": "With a 1.0 mm neoprene spacer at +0.60 mm offset, does residual tau_c fall below 0.0005 N·m or plateau, and how much does contact-band width increase?",
-  "lastEntryAt": "2026-08-17T19:43:24.825Z",
+  "entry": 134,
+  "memory": "Confirmed: geometry creates centroid kink; lateral offsets relocate but leave residual ~0.0025 N·m at +0.60 mm. Neoprene attenuation: 0.25 mm→0.0016, 0.50 mm→0.0009, 0.75 mm→0.00065, 1.00 mm→0.00047 N·m. Diminishing returns are strong past 0.5 mm; values approach an asymptote near 0.00045 N·m. Tradeoff quantified: contact-band width increases (0.50→1.00 mm = +0.22 mm) and centroid uncertainty roughly doubles. Current position: attenuation below 0.0005 N·m is possible but costs measurable spatial and temporal fidelity. Next objective: determine if thicker spacers continue to lower tau_c meaningfully versus further eroding resolution.",
+  "openQuestion": "If spacer thickness increases to 1.25 mm, will tau_c fall below 0.00045 N·m and how much will centroid uncertainty and imprint onset delay increase?",
+  "lastEntryAt": "2026-08-17T20:11:56.537Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
