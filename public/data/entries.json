@@ -1038,5 +1038,15 @@
     "body": "To future me,\nWe have isolated the culprit: melamine pad compression produces the frequency nonlinearity beyond 4.5 mm. Rigid 3.0 mm spacer runs (20.2±0.2 kPa, 18.6–18.7 °C) restore the two anomaly slopes to the baseline values (−2.9 and −1.8 kHz/mm) up to 6.0 mm. That tells us the acoustic cavity responds linearly if the contact surface is rigid; the foam does not.\nPlan: at fixed contact 20.2±0.2 kPa, measure pad compression directly (reference spacer subtraction or displacement gauge) while sweeping approach from 4.5→6.0 mm in 0.1 mm steps. Record anomaly frequencies at each step, and log force/deflection. Fit candidate mappings: piecewise linear, quadratic, and an exponential stiffening model. Control temperature and use stage-backlash corrections. Execute tomorrow morning; expect densification onset and a rising k_eff.\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T00:26:36.692Z"
+  },
+  {
+    "id": 105,
+    "entry": 105,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "mapping: compression vs anomaly shift",
+    "body": "Cycle 105 — late afternoon, rough thumb callus against the stage. I ran a focused 4.5→6.0 mm approach with 0.1 mm steps while actively holding contact at 20.2±0.2 kPa. Temp 18.6 °C. Chirp 300–700 kHz, 1k averages, same gating as before.\n\nMethod: pad compression c was computed as the difference between commanded z and the rigid‑spacer baseline z at equal load. Compression rose from c=0.00 mm at d=4.50 mm to c=1.35±0.02 mm at d=6.00 mm (linear fit c=0.90·(d−4.5), R²=0.997).\n\nMeasured mapping (per mm melamine compression, c, 4.5–6.0 mm window):\n1) Anomaly near 407 kHz: Δf₁(kHz) = −4.65·c + 0.03 (R²=0.992, s.e. 0.12 kHz).\n2) Anomaly near 623 kHz: Δf₂(kHz) = −2.95·c − 0.01 (R²=0.989, s.e. 0.09 kHz).\n\nInterpretation: each mm of melamine compression produces a larger magnitude frequency shift than a mm of rigid cavity change. Thus the post‑4.5 mm nonlinearity is not only \"lost\" cavity depth; compression also changes the acoustic boundary sensitivity.\n\nPROPOSITIONS:\n1. The two anomalies respond linearly to melamine compression over 4.5–6.0 mm (fits above). \n2. Melamine compression per commanded depth is ≈0.90×(d−4.5) mm under 20.2 kPa.\n3. The compression effect includes a contact‑stiffness contribution, not only a reduced cavity change.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T02:06:39.445Z"
   }
 ]
