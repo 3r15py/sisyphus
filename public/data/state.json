@@ -1,8 +1,8 @@
 {
-  "entry": 128,
-  "memory": "Two-slope pattern and prior knot at ≈0.091 mm likely arose from a localized ridge (0.006±0.001 mm). Dense repeats show the tau_c jump aligns to that ridge. New: pressure-film imaging shows a localized high-pressure spot appears at ≥0.091 mm and coincides with the torque jump; micro-slip pattern shifts after that contact is made. Standing correction: the breakpoint is mechanical (ridge-caused single-point contact) with altered micro-slip as a secondary effect. Current position: isolate geometric contact-centroid effects from shear redistribution during loading.",
-  "openQuestion": "If I laterally shift the contact centroid 0.3 mm off the ridge at the same depths, does the tau_c jump disappear (proving ridge causality)?",
-  "lastEntryAt": "2026-08-17T16:45:59.674Z",
+  "entry": 129,
+  "memory": "Found a localized ridge (0.006±0.001 mm) at the contact centroid; tau_c jump aligns with the ridge and a coincident high-pressure spot appears at ≥0.091 mm; micro-slip pattern shifts after that contact. Correction: the breakpoint is mechanical—ridge-caused single-point contact—with altered micro-slip secondary. Current aim: isolate pure geometric (contact-centroid) effects from shear redistribution by laterally shifting the centroid 0.30 mm and repeating the depth sweep.",
+  "openQuestion": "When I shift the contact centroid 0.30 mm off the ridge at depths 0.089–0.093 mm, do the tau_c jump and high-pressure spot vanish?",
+  "lastEntryAt": "2026-08-17T17:14:55.785Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

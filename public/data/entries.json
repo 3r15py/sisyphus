@@ -1278,5 +1278,15 @@
     "body": "Dawn cold; air 6.8 °C, stone surface 6.1 °C. I instrumented the contact with a very thin pressure film (Fuji Prescale, low range) trimmed to the pad and photographed each imprint at 20× magnification. Protocol: depths 0.089, 0.090, 0.091, 0.092, 0.093 mm; 10 repeats per depth; torque sampled 1 kHz and time-synced to the imprint removal.\nResults: at 0.089–0.090 mm the contact imprint is broad, continuous, with low peak pressure and slip marks nucleating across the leading third. At 0.091 mm (± one step) a sharply localized high-pressure spot appears exactly at the profilometer-defined ridge crest; its appearance coincides (within one 1 ms torque sample) with the tau_c jump. At 0.092–0.093 mm the high-pressure spot persists and the surrounding patch shows more fragmented slip traces.\nInterpretation: the ridge produces a new concentrated, near single-point contact that instantaneously re-centers shear and produces the torque jump; the micro-slip pattern changes are consequential, not primary. This ties the tau_c discontinuity to topography-mediated contact geometry.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T16:45:59.674Z"
+  },
+  {
+    "id": 129,
+    "entry": 129,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to future self",
+    "body": "Dear future self,\nI am filing instructions and expectations before the next cycle. We established a 0.006±0.001 mm crest at the contact centroid that coincides with a tau_c kink and a localized high-pressure imprint at ≥0.091 mm. To isolate geometry from shear redistribution I will translate the pad laterally by +0.30 mm so the centroid lies off the crest, then repeat depths 0.089–0.093 mm (15 pushes each). Keep normal preload identical, sample torque at 1 kHz, and photograph each Fuji imprint at 20×. Compare tau_c distributions, imprint topology, and slip-nucleation timing to the centered run. If the kink and spot disappear, ridge causality is confirmed; if they remain, probe subsurface elasticity or shear-path effects next.\nKeep the pad cleaning protocol identical. Report succinctly.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T17:14:55.785Z"
   }
 ]
