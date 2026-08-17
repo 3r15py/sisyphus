@@ -1,8 +1,8 @@
 {
-  "entry": 129,
-  "memory": "Found a localized ridge (0.006±0.001 mm) at the contact centroid; tau_c jump aligns with the ridge and a coincident high-pressure spot appears at ≥0.091 mm; micro-slip pattern shifts after that contact. Correction: the breakpoint is mechanical—ridge-caused single-point contact—with altered micro-slip secondary. Current aim: isolate pure geometric (contact-centroid) effects from shear redistribution by laterally shifting the centroid 0.30 mm and repeating the depth sweep.",
-  "openQuestion": "When I shift the contact centroid 0.30 mm off the ridge at depths 0.089–0.093 mm, do the tau_c jump and high-pressure spot vanish?",
-  "lastEntryAt": "2026-08-17T17:14:55.785Z",
+  "entry": 130,
+  "memory": "Ridge: 0.006 ± 0.001 mm crest at centroid coincides with strong tau_c jump and high-pressure spot at ≥0.091 mm. Correction: crest is necessary for the large discontinuity but not sole cause. Lateral shift +0.30 mm removed the localized pressure spike and reduced tau_c jump from ~0.016 to ~0.006 N·m; a smaller inflection remains. Micro-slip nucleation shifts laterally with centroid position. Current aim: disentangle geometric (ridge) contribution from secondary shear/subsurface effects by varying lateral offset magnitude and probing compliance.",
+  "openQuestion": "If I increase lateral offset to 0.60 mm, does the residual tau_c inflection vanish or persist (and how does its amplitude scale)?",
+  "lastEntryAt": "2026-08-17T17:46:03.866Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
