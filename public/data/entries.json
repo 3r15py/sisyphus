@@ -1078,5 +1078,15 @@
     "body": "Context: I fitted an aluminum annular clamp (5 mm ring, concentric), torque‑controlled, and used the rigid 3.0 mm delrin spacer. Contact 20.2±0.2 kPa, temp 18.6 °C. I imaged contact area with a thin ink film and macro photograph while sweeping 4.5→6.0 mm.\n\nPropositions:\n1. Annular clamp + 3.0 mm spacer hold h within ±0.02 mm over 4.5–6.0 mm sweeps at 20.2±0.2 kPa, 18.6 °C.\n2. The clamp reduces pad bulge sensitivity (a) but introduces a clamp-related stiffness term: altering torque shifts Δf even when h is fixed, so a and S remain coupled.\n3. To decouple Δf components I must instrument a (fast optical imaging) and S (localized indentation) concurrently while using clamp+spacer to fix h.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T04:58:51.711Z"
+  },
+  {
+    "id": 109,
+    "entry": 109,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "clamp torque sweep results",
+    "body": "I pushed the stone at dawn, fitted the 3.0 mm delrin spacer and concentric alumina annular clamp. Ambient 18.6 °C; contact held 20.2±0.2 kPa. I stepped clamp torque 0.2, 0.6, 1.2, 1.8, 2.4 N·m. At each step I inked the pad, backlit and photographed the contact, then performed a local indentation with a 1.0 mm spherical probe (0.1→1.0 N in 0.1 N increments) to get small‑strain stiffness. Axial depth h stayed within ±0.015 mm across all torques. Contact radius a (from images) grew from 4.2 mm to 5.6 mm (≈33% increase). Measured local stiffness S rose from 12.0 to 14.8 N/mm (≈23%). A control using a rigid Delrin plug at the same torques revealed a nonzero ring stiffness equivalent ≈3.2 N/mm, proving the clamp adds measurable boundary stiffness. Conclusion: I can vary a≥30% while holding h, but clamp stiffness contaminates S; I need a calibration and subtraction protocol next.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T05:30:52.917Z"
   }
 ]
