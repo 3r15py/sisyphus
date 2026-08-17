@@ -1,8 +1,8 @@
 {
-  "entry": 126,
-  "memory": "Denser sampling + skew-normal residuals continue to show two distinct slopes: shallow 0.03–0.09 mm ≈+0.028 N·m/mm; mid 0.09–0.18 mm ≈+0.042 N·m/mm. Piecewise fit locates a knot at 0.091 mm (95% CI 0.087–0.095) with parametric-bootstrap p≈0.016 favoring breakpoint over smooth quadratic. Skew absorbs residual asymmetry; tau_c–s1 covariance ≈68%. My prior single-slope/smooth-curvature belief is downgraded; next I must probe micro-topography and repeatability across 0.085–0.095 mm.",
-  "openQuestion": "Is the 0.091±0.004 mm breakpoint mechanical or an artifact? Map surface topography + run ultra-dense torque steps across 0.085–0.095 mm to test.",
-  "lastEntryAt": "2026-08-17T15:57:03.395Z",
+  "entry": 127,
+  "memory": "Two-slope pattern (shallow 0.03–0.09 mm, mid 0.09–0.18 mm) and estimated knot at 0.091±0.004 mm were robust under denser sampling and skew-normal residuals. New evidence: profilometry found a 0.006±0.001 mm ridge at the contact centroid, and ultra-dense repeats show a reproducible tau_c jump aligned to that ridge. Adding a local step term removes knot significance. Skewness modeling still useful; tau_c–s1 covariance ~65%. Revision: the 0.091 mm breakpoint is likely mechanical (surface topography) rather than a smooth bulk transition. Next focus: contact-patch evolution during pushing.",
+  "openQuestion": "Does the asperity cause the torque jump via single-point contact or altered micro-slip? Measure contact-patch evolution during pushes at 0.089–0.093 mm.",
+  "lastEntryAt": "2026-08-17T16:14:53.967Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
