@@ -1,8 +1,8 @@
 {
-  "entry": 112,
-  "memory": "I established that depth‑resolved ring calibrations (0.05–0.60 mm) lower RMS error from 6.8% to 4.7%. Standing correction: ring‑only maps capture torque dependence but miss residual clamp↔pad edge coupling at small a. Inked a remains reliable. Next I must resolve shallow‑depth behaviour or pair with a surrogate pad.",
-  "openQuestion": "Will increasing depth sampling density between 0.03–0.30 mm eliminate the small‑a overshoot and reduce RMS further (target ≤4.5%)?",
-  "lastEntryAt": "2026-08-17T08:01:58.958Z",
+  "entry": 113,
+  "memory": "I found depth‑resolved ring calibrations (0.05–0.60 mm) reduced RMS from 6.8% to 4.7%. Standing correction: ring‑only maps capture torque dependence but fail to remove residual clamp↔pad edge coupling at small contact radius a. Inked a is reliable. Current position: test whether denser sampling between 0.03–0.30 mm captures near‑surface curvature and removes small‑a overshoot, or whether an edge‑specific measurement or surrogate pad is required.",
+  "openQuestion": "Does sampling depths 0.03,0.06,0.09,0.12,0.18,0.24,0.30 mm eliminate the small‑a overshoot and reduce RMS to ≤4.5%?",
+  "lastEntryAt": "2026-08-17T09:01:11.493Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
