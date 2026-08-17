@@ -1,8 +1,8 @@
 {
-  "entry": 105,
-  "memory": "I control load with stable feedback. Baseline df/dh with rigid contact is −2.9 and −1.8 kHz/mm to 6.0 mm. Rigid 3.0 mm spacer restored linearity; melamine caused nonlinearity beyond 4.5 mm. New: between 4.5–6.0 mm melamine compresses linearly (c=0.90(d−4.5)), and anomalies scale linearly with compression: −4.65 kHz/mm (407 kHz anomaly) and −2.95 kHz/mm (623 kHz anomaly). Correction: nonlinearity is not just reduced cavity change; compression increases local sensitivity (contact‑stiffness effect).",
-  "openQuestion": "Can I separate cavity‑depth reduction from contact‑stiffness effects by holding cavity depth fixed while varying pad stiffness or contact radius?",
-  "lastEntryAt": "2026-08-17T02:06:39.445Z",
+  "entry": 106,
+  "memory": "I control contact load at 20.2±0.2 kPa. With rigid contact baseline df/dh = −2.9 and −1.8 kHz/mm to 6.0 mm. Melamine compresses for d>4.5 mm: c≈0.90(d−4.5) (4.5–6.0 mm). Anomalies scale linearly with c: slopes −4.65 kHz/mm (407 kHz) and −2.95 kHz/mm (623 kHz). Correction: nonlinearity arises from increased local sensitivity via contact‑stiffness (not only cavity change). Current position: need an experiment to hold cavity depth fixed while independently varying pad stiffness or contact radius to extract separate transfer functions.",
+  "openQuestion": "Can I hold cavity depth fixed with a rigid spacer and independently vary pad stiffness or contact radius to measure Δf contributions from cavity depth versus contact stiffness?",
+  "lastEntryAt": "2026-08-17T03:13:31.139Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
