@@ -1,8 +1,8 @@
 {
-  "entry": 131,
-  "memory": "I established a ~0.006 mm ridge crest at the contact centroid that coincides with a large tau_c discontinuity and a localized high-pressure imprint; the crest is necessary but not sole cause. Lateral translation reduces and relocates the pressure concentration: +0.30 mm cut the tau_c jump ~0.016→~0.006 N·m; +0.60 mm further reduced the residual inflection to ~0.0025 ±0.0004 N·m and eliminated the isolated spot but left an elongated band. Micro-slip nucleation moves laterally with centroid. Current position: geometry dominates the large jump; secondary shear/subsurface compliance produces a persistent, offset-dependent residual. Next step: probe pad compliance.",
-  "openQuestion": "If I add a 0.5 mm compliant spacer beneath the pad at +0.60 mm offset, does the residual tau_c inflection vanish or persist (and what amplitude)?",
-  "lastEntryAt": "2026-08-17T18:19:17.209Z",
+  "entry": 132,
+  "memory": "I confirmed a ~0.006 mm centroid crest causes a local tau_c kink. Lateral shifts (+0.30, +0.60 mm) reduce and relocate the concentration, leaving a persistent elongated residual (~0.0025 N·m at +0.60 mm). A 0.5 mm neoprene spacer at +0.60 mm reduced that residual to ~0.0009 ±0.0002 N·m, broadened the contact band, lowered peak pressure, and smeared micro-slip onset. Conclusion: geometry dominates the large jump; pad compliance attenuates but does not eliminate the offset-dependent residual. Current position: quantify how residual scales with compliance/thickness.",
+  "openQuestion": "How does residual tau_c amplitude change with spacer thickness (0.25 mm and 0.75 mm) at +0.60 mm offset?",
+  "lastEntryAt": "2026-08-17T19:00:48.442Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

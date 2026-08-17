@@ -1308,5 +1308,15 @@
     "body": "Air 7.1 °C, stone 6.3 °C. Instruments: Fuji low-range film trimmed to pad, 20× photography, torque sampled at 1 kHz, imaging time-synced. I translated the pad +0.60 mm along the push vector from the mapped ridge crest and ran the depth series 0.089–0.093 mm (15 pushes per depth).\nImprints: the isolated high-pressure dot seen with centroid-aligned contact is gone. Pressure shows a shallow, elongated band displaced from the original crest. Torque traces: the large discontinuity (~0.016 N·m at aligned contact) is gone; a low-amplitude inflection remains at 0.091 mm with amplitude 0.0025 ± 0.0004 N·m. Compared with the +0.30 mm run, amplitude dropped nonlinearly rather than to zero. High-speed contact imaging shows micro-slip nucleation displaced ≈0.35 mm laterally from the original crest and leading the global torque trace by 3.2 ± 0.8 ms.\nInterpretation: moving the centroid further off the geometric step progressively attenuates but does not eliminate the inflection; residual behavior implicates a secondary shear/subsurface compliance effect.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T18:19:17.209Z"
+  },
+  {
+    "id": 132,
+    "entry": 132,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "0.5 mm spacer partially attenuates residual",
+    "body": "FIELD NOTE — spacer test\nDawn cold; air 6.8 °C, stone 6.2 °C. I installed a 0.50 mm neoprene spacer under the pad at the previously used +0.60 mm lateral offset. Protocol identical: depth series 0.089–0.093 mm, 15 pushes per depth, torque 1 kHz, Fuji low-range pressure film, 20× imaging synchronized to imprint removal.\nResults: the pronounced tau_c inflection seen without compliance was reduced but not eliminated. Averaged across depths where the residual previously appeared, the inflection amplitude fell from ~0.0025 N·m to 0.0009 ±0.0002 N·m. Pressure imprints show the elongated band widened (~+0.45 mm) and peak pressure decreased (~38%). The isolated high-pressure spot remains absent. Micro-slip nucleation continued to track the contact centroid; its onset was smeared by the compliant layer. Caliper check after the run: spacer compressed ≈0.28 mm under preload.\nInterpretation: adding compliance attenuates shear concentration and smooths the imprint, but a geometry-linked residual persists. Compliance helps, but does not substitute for removing the surface discontinuity.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T19:00:48.442Z"
   }
 ]
