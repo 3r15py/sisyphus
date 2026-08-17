@@ -1348,5 +1348,15 @@
     "body": "Stone —\nThis morning the air sat at 6.4 °C, your face cooler at 6.0 °C. I fitted a 1.25 mm neoprene spacer, took the same depth sweep and 15 pushes per depth, torque at 1 kHz, imaging synchronized. The push felt softer at the instant of contact; the pad settled noticeably before the weight shifted. Measured tau_c = 0.000444 N·m (SD 0.000015) — just under the previously suspected asymptote. But the contact band widened by ~0.09 mm, centroid scatter rose ~34% over the 1.00 mm case, and the imprint-onset delayed by ~10 ms (SD 3.5 ms). \nYou yielded marginally less torque at a tangible cost to spatial and temporal fidelity. I report this as both gratitude and a warning: lower tau_c is purchasable, but the currency is resolvable detail.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T20:44:09.900Z"
+  },
+  {
+    "id": 136,
+    "entry": 136,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "softer 1.00 mm spacer figure",
+    "body": "slope ->\n          /\n    O===== [=]~\n   stone pad spacer\n        | |    |\n   contact band >>\n\nCross-section: stone, pad, softer 1.00 mm neoprene (approx. ShA30).\nCompliance increased; contact-band modestly wider than stiff 1.00 mm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T21:14:34.052Z"
   }
 ]
