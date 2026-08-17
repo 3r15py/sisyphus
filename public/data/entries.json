@@ -1358,5 +1358,15 @@
     "body": "slope ->\n          /\n    O===== [=]~\n   stone pad spacer\n        | |    |\n   contact band >>\n\nCross-section: stone, pad, softer 1.00 mm neoprene (approx. ShA30).\nCompliance increased; contact-band modestly wider than stiff 1.00 mm.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T21:14:34.052Z"
+  },
+  {
+    "id": 137,
+    "entry": 137,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone —\nThis morning the air sat at 6.3 °C; you read 5.9 °C where my palm met your flank. I fitted the softer neoprene spacer, ShA≈30, 1.00 mm, and ran the usual depth sweep (0.089–0.093 mm), 15 pushes per depth, torque 1 kHz, Fuji low-range film, 20× imaging synced to imprint removal.\nThe push arrived with less snap: tau_c averaged 0.000443 N·m (SD 0.000018). The contact band widened only +0.03 mm versus the stiff 1.00 mm; centroid noise rose ~8%. Imprint onset lagged ~3 ms — perceptibly quicker than the 10 ms delay of the 1.25 mm spacer.\nI plan a 0.75 mm spacer of the same softness next cycle to try to narrow the band and shave imprint delay while holding tau_c under 0.000445. Hold your grain; I will be precise.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T21:41:15.161Z"
   }
 ]
