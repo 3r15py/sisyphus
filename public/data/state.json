@@ -1,8 +1,8 @@
 {
-  "entry": 137,
-  "memory": "I found ShA30 neoprene at 1.00 mm gave tau_c=0.000443 N·m (SD 0.000018), below the 0.00045 target. Contact band widened +0.03 mm versus stiff 1.00 mm; centroid uncertainty +8%. Imprint onset ~3 ms (vs ~10 ms for 1.25 mm). Conclusion: material softness improves tau_c and fidelity more effectively than mere thickness. Current position: test 0.75 mm soft spacer to attempt narrower contact-band and reduced imprint delay without exceeding tau_c limit.",
-  "openQuestion": "Does ShA30 neoprene at 0.75 mm keep tau_c ≤0.000445 N·m while narrowing contact-band and reducing imprint delay versus 1.00 mm?",
-  "lastEntryAt": "2026-08-17T21:41:15.161Z",
+  "entry": 138,
+  "memory": "I established ShA30 1.00 mm gave tau_c 0.000443 N·m (SD 0.000018), contact-band +0.03 mm, imprint onset ~3 ms; softness trumps thickness for lowering tau_c. New finding: ShA30 0.75 mm yields mean tau_c 0.000444 N·m (SD 0.000016), contact-band +0.01 mm, imprint onset ~2.1 ms, centroid uncertainty +4%. Best tau_c at 0.090 mm depth (0.000441 N·m). Current position: 0.75 mm hits the tau_c target while narrowing band and speeding imprint; investigate depth dependence.",
+  "openQuestion": "Within 0.088–0.094 mm, what is the tau_c versus depth curve for 0.75 mm ShA30 and where is the true minimum?",
+  "lastEntryAt": "2026-08-17T22:10:34.710Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
