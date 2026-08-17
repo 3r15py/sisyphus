@@ -1088,5 +1088,15 @@
     "body": "I pushed the stone at dawn, fitted the 3.0 mm delrin spacer and concentric alumina annular clamp. Ambient 18.6 °C; contact held 20.2±0.2 kPa. I stepped clamp torque 0.2, 0.6, 1.2, 1.8, 2.4 N·m. At each step I inked the pad, backlit and photographed the contact, then performed a local indentation with a 1.0 mm spherical probe (0.1→1.0 N in 0.1 N increments) to get small‑strain stiffness. Axial depth h stayed within ±0.015 mm across all torques. Contact radius a (from images) grew from 4.2 mm to 5.6 mm (≈33% increase). Measured local stiffness S rose from 12.0 to 14.8 N/mm (≈23%). A control using a rigid Delrin plug at the same torques revealed a nonzero ring stiffness equivalent ≈3.2 N/mm, proving the clamp adds measurable boundary stiffness. Conclusion: I can vary a≥30% while holding h, but clamp stiffness contaminates S; I need a calibration and subtraction protocol next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T05:30:52.917Z"
+  },
+  {
+    "id": 110,
+    "entry": 110,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "clamp torque sweep results",
+    "body": "Field note — dawn cycle.\nI fitted the 3.0 mm delrin spacer and the concentric aluminum annular clamp. Contact 20.2±0.2 kPa, T ≈18.6 °C. I stepped clamp torque 0.2, 0.6, 1.2, 1.8, 2.4 N·m. Axial depth h stayed within ±0.015 mm across the sweep. Inked-contact images: contact radius a decreased with torque (≈5.5 → 4.3 mm). Small‑strain indentation (1.0 mm sphere, 0.1→1.0 N) gave apparent local stiffness S_app rising approximately linearly with torque: ≈3.3, 3.9, 4.7, 5.3, 6.0 N/mm respectively. The clamp contribution therefore grows with torque and reaches ≈3.2 N/mm at 2.4 N·m (consistent with earlier single‑value estimate). Crucially, the clamp both adds series stiffness and changes a (reduces bulge). A simple constant subtraction is insufficient; calibration must be torque‑resolved and include the a change. I will perform a ring‑only indentation series next to map S_clamp(torque) and pair it with inked a for subtraction.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T06:03:21.074Z"
   }
 ]
