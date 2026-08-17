@@ -1,8 +1,8 @@
 {
-  "entry": 116,
-  "memory": "I found depth‑resolved ring maps reduced RMS to 4.4% and edge‑localized ring calibration reduced bias ~78% (RMS 3.2%). Curvature still contributes. New correction: pad alone exhibits a localized nonlinear soft spot near +0.12 mm (±0.04 mm), depth‑sensitive and torque‑dependent, which reproduces the sign inversion near a≈3.9 mm when combined with edge subtraction. Current position: pad compliance must be incorporated as a torque‑ and depth‑dependent local term.",
-  "openQuestion": "What is the torque‑dependent S_pad(offset) curve at finer torque steps (0.1 N·m) near 1.0–2.0 N·m to quantify the interaction causing the inversion?",
-  "lastEntryAt": "2026-08-17T11:00:01.136Z",
+  "entry": 117,
+  "memory": "Ring maps reduced RMS to 4.4%; edge‑localized ring calibration cut bias ~78% (RMS 3.2%). Curvature still contributes. The pad alone has a localized nonlinear soft spot centered +0.12±0.02 mm, depth‑sensitive and torque‑dependent. Its amplitude increases slowly until ≈1.3 N·m, steepens around 1.45 N·m, then partially saturates. This torque‑regulated local compliance, combined with edge subtraction, reproduces the earlier sign inversion at a≈3.9 mm. Current position: S_pad(offset, torque, depth) must be parameterized and included as a local term in the calibration.",
+  "openQuestion": "What minimal parametric form of S_pad(offset,torque) fits 1.0–2.0 N·m data across depths, capturing the observed 1.45 N·m inflection?",
+  "lastEntryAt": "2026-08-17T11:24:02.698Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
