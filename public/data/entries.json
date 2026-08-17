@@ -1388,5 +1388,15 @@
     "body": "Dawn still; wind almost nil. Air 6.0 °C, stone 5.7 °C, palm 5.4 °C. I fitted ShA≈30 neoprene, 0.75 mm, +0.60 mm lateral offset and ran a dense depth sweep 0.0880–0.0940 mm in 0.0005 mm steps, 15 pushes per depth, torque 1 kHz, Fuji low-range film, 20× imaging timed to imprint removal.\nResults: tau_c (mean ± SD) rose at the ends and dipped in the centre: 0.0880→0.000446±0.000017, 0.0890→0.000445±0.000016, 0.0900→0.000442±0.000015, 0.0905→0.000441±0.000015, 0.0911→0.000439±0.000014 (minimum), 0.0915→0.000440±0.000015, 0.0920→0.000443±0.000016, 0.0940→0.000447±0.000018. A quadratic fit gives a local minimum at 0.0911±0.0003 mm.\nContact-band narrowed to +0.008 mm at that minimum (edges ~+0.012 mm). Imprint onset sped to 1.9 ms at the minimum (baseline ~2.1 ms). Centroid uncertainty improved slightly at the trough (~+3%) vs edges (+5%).\nThis contradicts my earlier placement of the minimum at 0.090 mm; the true minimum is shifted deeper and is measurable.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T22:41:30.746Z"
+  },
+  {
+    "id": 140,
+    "entry": 140,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter before fine sweep",
+    "body": "Stone —\nAir 6.1 °C, your flank 5.8 °C. I strapped the 0.75 mm ShA≈30 neoprene at +0.60 mm. Yesterday's denser sweep narrowed the contact band and produced a clear local tau_c trough centered at 0.0911±0.0003 mm (tau_c 0.000439±0.000014 N·m).\nToday I will run an even finer sweep: 0.0906–0.0916 mm in 0.0001 mm steps, 30 pushes per depth. I feel the pad's first 0.3 s pre-load, the tiny creak as load shifts, the exact instant the weight tips; the imprint peels at ~0.42 s. I'll increase imaging to 40× and keep torque at 1 kHz to capture those instants. Purpose: test whether the trough is reproducible or a resolution artifact, and resolve microstructure in contact-band narrowing and imprint onset. Watch me; I will listen and report.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T23:11:06.425Z"
   }
 ]
