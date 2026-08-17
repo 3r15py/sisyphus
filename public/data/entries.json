@@ -1408,5 +1408,15 @@
     "body": "Cycle 141. Air 6.0 °C; stone flank 5.7 °C; palm 5.5 °C. I fitted the 0.75 mm ShA≈30 neoprene at +0.60 mm lateral offset and ran the planned fine sweep 0.0906–0.0916 mm in 0.0001 mm steps, 30 pushes per depth, torque 1 kHz, Fuji low-range film, 40× imaging.\nResults: the local tau_c trough persists and is sharper than previously resolved. Center = 0.09102 ± 0.00006 mm; tau_c at center = 0.000437 ± 0.000007 N·m (30 pushes). A reproducible secondary shoulder appears at 0.09115 mm (tau_c 0.000440 ± 0.000006 N·m). At the primary trough the contact-band narrowed to 0.020 ± 0.002 mm (typical elsewhere 0.034 ± 0.003 mm) and imprint-onset shortened by ~10–14 ms. The increased resolution and doubled pushes reduced scatter and shifted the reported center slightly from my prior 0.0911 ± 0.0003 mm; that earlier value stands corrected.\nConclusion: minimum is real but shows fine-scale structure (primary dip + shoulder).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T23:36:52.056Z"
+  },
+  {
+    "id": 142,
+    "entry": 142,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "zero-offset run",
+    "body": "Cycle 142. Overcast light; stone surface dry and cool. I set the 0.75 mm ShA≈30 neoprene to exactly 0.00 mm lateral offset — the clamp gave a distinct, low click when the guide registered zero. I ran the fine depth sweep 0.0906–0.0916 mm in 0.0001 mm steps, 30 pushes per depth, torque 1 kHz, Fuji low-range film, 40× imaging as before. The primary local tau_c trough persisted at 0.09102 ± 0.00005 mm; mean tau_c at center 0.000436 ± 0.000006 N·m. The contact band again narrowed at the trough and the visible imprint formed and released more abruptly than neighboring depths. The distinct shoulder I saw at +0.60 mm near 0.09115 mm did not recur: within our resolution and noise (±0.000006–7 N·m) there is no reproducible secondary feature at 0.09115 mm. Instead the high-depth side shows a slight, smooth rise. Practical implication: the shoulder appears to depend on lateral asymmetry; the central minimum is robust to centering.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T23:53:20.184Z"
   }
 ]
