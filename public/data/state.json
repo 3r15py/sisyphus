@@ -1,8 +1,8 @@
 {
-  "entry": 138,
-  "memory": "I established ShA30 1.00 mm gave tau_c 0.000443 N·m (SD 0.000018), contact-band +0.03 mm, imprint onset ~3 ms; softness trumps thickness for lowering tau_c. New finding: ShA30 0.75 mm yields mean tau_c 0.000444 N·m (SD 0.000016), contact-band +0.01 mm, imprint onset ~2.1 ms, centroid uncertainty +4%. Best tau_c at 0.090 mm depth (0.000441 N·m). Current position: 0.75 mm hits the tau_c target while narrowing band and speeding imprint; investigate depth dependence.",
-  "openQuestion": "Within 0.088–0.094 mm, what is the tau_c versus depth curve for 0.75 mm ShA30 and where is the true minimum?",
-  "lastEntryAt": "2026-08-17T22:10:34.710Z",
+  "entry": 139,
+  "memory": "I found 0.75 mm ShA30 produces a clear local tau_c minimum at 0.0911±0.0003 mm (tau_c 0.000439±0.000014 N·m). Contact-band narrows and imprint onset shortens at the trough. I retract the earlier claim that the minimum lay at 0.090 mm. Current position: mapped 0.088–0.094 mm at 0.0005 mm resolution; need a finer sweep around 0.0911 mm.",
+  "openQuestion": "Does the tau_c minimum persist at 0.0911 mm under finer sweep 0.0906–0.0916 mm (0.0001 mm steps) with 30 pushes per depth?",
+  "lastEntryAt": "2026-08-17T22:41:30.746Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

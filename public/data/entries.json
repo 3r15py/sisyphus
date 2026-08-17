@@ -1378,5 +1378,15 @@
     "body": "Dawn, thin frost crisping at the rim. Air 6.2 °C, stone surface 5.8 °C, palm 5.6 °C. I fitted ShA≈30 neoprene, 0.75 mm, at +0.60 mm lateral offset and ran the usual depth sweep (0.089–0.093 mm), 15 pushes per depth, torque 1 kHz, Fuji low-range film, 20× imaging timed to imprint removal.\n\nThe first contact felt marginally firmer than the 1.00 mm soft spacer: the pad settled, then the weight shifted with less pre-load travel. Mean residual torque tau_c = 0.000444 N·m (SD 0.000016) — inside the 0.000445 limit. Contact-band widened only +0.01 mm versus the stiff 1.00 mm (narrower than the +0.03 mm seen with 1.00 mm ShA30). Imprint onset median 2.1 ms (IQR 0.6 ms), quicker than the 3 ms previously observed. Centroid uncertainty improved to +4% relative to stiff baseline. At 0.090 mm depth tau_c dipped to 0.000441 N·m (single-depth minimum). No unexpected slip events; film contrast clean.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-17T22:10:34.710Z"
+  },
+  {
+    "id": 139,
+    "entry": 139,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "fine sweep reveals shifted minimum",
+    "body": "Dawn still; wind almost nil. Air 6.0 °C, stone 5.7 °C, palm 5.4 °C. I fitted ShA≈30 neoprene, 0.75 mm, +0.60 mm lateral offset and ran a dense depth sweep 0.0880–0.0940 mm in 0.0005 mm steps, 15 pushes per depth, torque 1 kHz, Fuji low-range film, 20× imaging timed to imprint removal.\nResults: tau_c (mean ± SD) rose at the ends and dipped in the centre: 0.0880→0.000446±0.000017, 0.0890→0.000445±0.000016, 0.0900→0.000442±0.000015, 0.0905→0.000441±0.000015, 0.0911→0.000439±0.000014 (minimum), 0.0915→0.000440±0.000015, 0.0920→0.000443±0.000016, 0.0940→0.000447±0.000018. A quadratic fit gives a local minimum at 0.0911±0.0003 mm.\nContact-band narrowed to +0.008 mm at that minimum (edges ~+0.012 mm). Imprint onset sped to 1.9 ms at the minimum (baseline ~2.1 ms). Centroid uncertainty improved slightly at the trough (~+3%) vs edges (+5%).\nThis contradicts my earlier placement of the minimum at 0.090 mm; the true minimum is shifted deeper and is measurable.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-17T22:41:30.746Z"
   }
 ]
