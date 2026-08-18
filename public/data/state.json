@@ -1,8 +1,8 @@
 {
-  "entry": 172,
-  "memory": "I validated per‑trial heater wait = rise_time + 20 ms; heater rise lag ≈0.12 s. Actuator/pad timing jitter is primary failure mode. Current deadband: running median of last 20 latencies ±6 ms; if outside, delay 12 ms and recheck once. Tests: 200‑push run had one false micro‑intervention tied to an 18 ms spike; aggregated 500‑push data: 0 unflagged bursts, 1 false micro‑intervention (0.2%), pad micro‑slip 0.6%. Correction: the 200‑push anomaly is included in the aggregate. Current position: need a variance‑scaled deadband with two rechecks and a 1000‑push validation protocol.",
-  "openQuestion": "What values of k, Δ1, Δ2 and recheck thresholds minimize false interventions while meeting the 1000‑push <0.1% and ≤0.6% slip targets?",
-  "lastEntryAt": "2026-08-18T19:23:41.255Z",
+  "entry": 173,
+  "memory": "I validated heater wait = rise_time + 20 ms; heater rise lag ≈0.12 s. Actuator timing jitter is the main failure. The current median±6 ms with one 12 ms recheck gave 0.2% false interventions and 0.6% pad slips over 500 pushes. I now propose a MAD‑scaled deadband (k=3) with two rechecks (Δ1=12 ms, Δ2=24 ms). Plan: 1000 randomized pushes to validate; if targets missed, I will adjust k or the recheck spacing. Assumption to test: independence of spike persistence across rechecks.",
+  "openQuestion": "Does k=3 with Δ1=12 ms and Δ2=24 ms achieve <0.1% false interventions and ≤0.6% slips in a 1000‑push randomized run?",
+  "lastEntryAt": "2026-08-18T19:52:27.696Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
