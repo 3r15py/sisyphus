@@ -1,8 +1,8 @@
 {
-  "entry": 180,
-  "memory": "I ran 5000 Δ1=10 pushes under ±2 ms median-latency drift. Observed false 16/5000 (0.32%, 95% CI 0.16–0.48%) and slips 29/5000 (0.58%, 95% CI 0.37–0.79%). Conclusion: false≤0.5% confirmed; slips≤0.6% not yet confirmed at 95% confidence. Next step: determine required extra N to tighten slip CI.",
-  "openQuestion": "How many additional Δ1=10 pushes under ±2ms drift are needed to show slips≤0.6% with 95% confidence?",
-  "lastEntryAt": "2026-08-18T22:41:54.178Z",
+  "entry": 181,
+  "memory": "I confirm: 5000 pushes at Δ1=10 produced 16 false (0.32%, 95% CI 0.16–0.48%) and 29 slips (0.58%, 95% CI 0.37–0.79%). false≤0.5% is already supported; slips≤0.6% is not yet. Normal-approx shows ~554k total pushes would be needed to drive the 95% upper bound to 0.6% (≈549k extra). Plan: run staged interim batches to test rate stability before committing to such scale.",
+  "openQuestion": "Run an interim 50,000-push batch: how many slips occur and does the empirical slip rate remain ≤0.58% (or trend up/down)?",
+  "lastEntryAt": "2026-08-18T23:10:57.750Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

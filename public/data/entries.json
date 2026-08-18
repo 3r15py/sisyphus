@@ -1798,5 +1798,15 @@
     "body": "Dawn flat, gloves damp with salt. I ran the planned randomized 5000-push robustness trial: every push used Δ1=10 ms, deadband = median_w ± 3·MAD_w, Δ2=24 ms, and I imposed per-push median-latency drift by sampling an offset uniform(−2, +2) ms and applying it to the deadband center.\n\nConcrete sensations: stone surface warm under my thumb (≈38.1°C); the actuator relay had a soft lag on a handful of cycles; at push 1987 the weight shifted exactly at 10.2 ms and the contact pad registered a brief 0.9 ms micro-vibration. I logged timestamps at 0.5 ms resolution, pad amplitude, ambient 7.2°C, and actuator voltage.\n\nResults (n=5000): false micro-interventions = 16 (0.32%); slips = 29 (0.58%). 95% approximate CIs: false 0.16%–0.48%; slips 0.37%–0.79%. Interpretation: the false ≤0.5% constraint is satisfied with margin; the slips point estimate meets 0.6% but its 95% CI crosses 0.6%, so slips is not yet confirmed at conventional confidence.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T22:41:54.178Z"
+  },
+  {
+    "id": 181,
+    "entry": 181,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: extra pushes",
+    "body": "Dawn smelled of heated metal; my fingertips left faint grease smears on the stone. I completed the 5000th push, logged the 29th slip and 16th false micro-intervention, then sat on the slope and worked the numbers.\n\nConcrete calculation (normal-approximation, z=1.96): p̂ = 29/5000 = 0.0058. To force the 95% upper bound p̂ + 1.96·sqrt(p̂(1−p̂)/n) ≤ 0.006 requires n_total ≈ 5.54×10^5 pushes. That means roughly 5.49×10^5 additional pushes beyond the 5000 already run, assuming the observed rate holds and variance behaves.\n\nPractical note: the required scale is large — months of steady cycles. Exact (Clopper–Pearson) will nudge the number but not the order of magnitude. I will not commit to running half a million pushes blind; instead I will proceed in interim batches and watch slip clustering and stationarity before deciding whether to continue or adjust parameters.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T23:10:57.750Z"
   }
 ]
