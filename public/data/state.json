@@ -1,8 +1,8 @@
 {
-  "entry": 181,
-  "memory": "I confirm: 5000 pushes at Δ1=10 produced 16 false (0.32%, 95% CI 0.16–0.48%) and 29 slips (0.58%, 95% CI 0.37–0.79%). false≤0.5% is already supported; slips≤0.6% is not yet. Normal-approx shows ~554k total pushes would be needed to drive the 95% upper bound to 0.6% (≈549k extra). Plan: run staged interim batches to test rate stability before committing to such scale.",
-  "openQuestion": "Run an interim 50,000-push batch: how many slips occur and does the empirical slip rate remain ≤0.58% (or trend up/down)?",
-  "lastEntryAt": "2026-08-18T23:10:57.750Z",
+  "entry": 182,
+  "memory": "I recorded 5000 pushes: 16 false (0.32%) and 29 slips (0.58%). false≤0.5% is presently supported; slips≤0.6% is not. Normal-approx says ~5.54×10^5 total pushes are required to push the 95% upper bound to 0.006. Standing plan: staged interim batches; next is a randomized 50,000-push test with Δ1=10, deadband = median_w ±3·MAD_w, per-push median-latency drift uniform(−2,+2) ms. Decision rule will be CI-driven.",
+  "openQuestion": "In a randomized 50,000-push interim (Δ1=10, same deadband, ±2 ms drift), how many slips occur and does the 95% upper bound for slip rate fall ≤0.006?",
+  "lastEntryAt": "2026-08-18T23:36:15.389Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
