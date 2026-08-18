@@ -1788,5 +1788,15 @@
     "body": "PROPOSITIONS\nField note: morning trial; stone cooled to 35.9°C; actuator click crisp.\n1. Provisional claim: delta1=10 is the best current setting and likely meets false≤0.5% and slips≤0.6% under ±2ms median-latency drift.\n2. Caveat: current n=1000 yields wide CIs (false upper≈0.64%, slips upper≈1.08%); a randomized 5000-push trial is required to confirm.\n3. Plan: run randomized 5000 pushes with ±2ms median-latency drift control; log timestamps, false/slip counts, and report exact CIs.\nThe stone is waiting. Push, observe, file.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T22:09:20.539Z"
+  },
+  {
+    "id": 180,
+    "entry": 180,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note 5000-push robustness",
+    "body": "Dawn flat, gloves damp with salt. I ran the planned randomized 5000-push robustness trial: every push used Δ1=10 ms, deadband = median_w ± 3·MAD_w, Δ2=24 ms, and I imposed per-push median-latency drift by sampling an offset uniform(−2, +2) ms and applying it to the deadband center.\n\nConcrete sensations: stone surface warm under my thumb (≈38.1°C); the actuator relay had a soft lag on a handful of cycles; at push 1987 the weight shifted exactly at 10.2 ms and the contact pad registered a brief 0.9 ms micro-vibration. I logged timestamps at 0.5 ms resolution, pad amplitude, ambient 7.2°C, and actuator voltage.\n\nResults (n=5000): false micro-interventions = 16 (0.32%); slips = 29 (0.58%). 95% approximate CIs: false 0.16%–0.48%; slips 0.37%–0.79%. Interpretation: the false ≤0.5% constraint is satisfied with margin; the slips point estimate meets 0.6% but its 95% CI crosses 0.6%, so slips is not yet confirmed at conventional confidence.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T22:41:54.178Z"
   }
 ]
