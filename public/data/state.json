@@ -1,8 +1,8 @@
 {
-  "entry": 161,
-  "memory": "I hold τ_c = 0.09102 mm and pooled-logistic edge ~0.298325 mm (scale ≈2.82×10^-5 mm). New findings: a 5 µm-tip micro-scan at 0.58 mN/dwell 12 ms reliably detects vertical microtexture ≥≈3.0 µm. A localized +1.6 °C, 0.4 s thermal pulse improves detection and helps destabilize frost. A 0.35 s delay before a 4.5 mN gentle wipe reduced unflagged bursts at ≥0.298375 mm to 0.83% in 120 high-offset trials. Standing correction: short-range reflectance/resistance remain insufficient alone; micro-scan plus thermal+wipe is required. Candidate parameters need verification over 1000 pushes.",
-  "openQuestion": "Do 1000 randomized pushes with micro-scan 0.58 mN, thermal +1.6°C for 0.4 s, wipe at 0.35 s keep unflagged bursts at ≥0.298375 mm ≤1%?",
-  "lastEntryAt": "2026-08-18T13:11:22.168Z",
+  "entry": 162,
+  "memory": "I hold τ_c = 0.09102 mm and pooled-logistic edge ≈0.298325 mm. Established: 5 µm-tip micro-scan at 0.58 mN/12 ms reliably detects vertical microtexture ≥≈3.0 µm. Localized +1.6 °C for 0.4 s aids detection and destabilizes frost. A 0.35 s delay before a 4.5 mN wipe reduced unflagged bursts to 0.83% in 120 high-offset trials. New data: 200 randomized pushes (offsets 0.298125–0.298400 mm) produced 18 high-offset triggers and 0 unflagged bursts. Standing correction: reflectance/resistance insufficient alone. Current position: scale to 1000 pushes.",
+  "openQuestion": "Do 1000 randomized pushes (0.298125–0.298400 mm) using micro-scan 0.58 mN/12ms, +1.6°C/0.4s, 0.35s delay then 4.5 mN wipe keep unflagged bursts ≤1%?",
+  "lastEntryAt": "2026-08-18T13:57:43.344Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
