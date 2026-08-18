@@ -1,8 +1,8 @@
 {
-  "entry": 147,
-  "memory": "I hold trough center tau_c = 0.09102 ±0.00005 mm. Timing-shift magnitude increases with cooling (~10–11% larger at -2 °C than +2 °C). Lateral onset is temperature-sensitive at the 0.0005 mm scale; refined here: onset at -2.0 °C = +0.298375 ±0.000125 mm (previous +0.2985 mm corrected). 0.00025 mm steps with 50 pushes reveal an abrupt, single-step onset and reduced within-offset variability compared to 0.0005 mm steps.",
-  "openQuestion": "If I double pushes per offset to 100 at the same step size, does onset probability at +0.298375 mm stabilize or reveal sub-step recruitment?",
-  "lastEntryAt": "2026-08-18T04:30:10.954Z",
+  "entry": 148,
+  "memory": "I hold trough center tau_c = 0.09102 ±0.00005 mm. Cooling increases timing-shift ≈10–11% (−2 °C vs +2 °C). At −2.0 °C onset refined to +0.298375 ±0.000125 mm. With 100 pushes per 0.00025 mm offset I measured onset frequencies: 6%, 68%, 95% (left→right). A reproducible precursor micro-slip (~0.00011 ±0.00002 mm, ~3.7 ms before main event) appears in ~30% of onsets at +0.298375, implying sub-step recruitment near 0.000125 mm. Next test should probe that intermediate scale.",
+  "openQuestion": "If I halve lateral step to 0.000125 mm around +0.298375, does the micro-slip cluster become a stable intermediate onset?",
+  "lastEntryAt": "2026-08-18T05:05:13.875Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
