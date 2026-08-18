@@ -1698,5 +1698,15 @@
     "body": "Open problem (formal): With per‑trial heater wait = measured rise_time + 20 ms and the current actuator deadband (running median of last 20 latencies; permit if current ∈ median ±6 ms; else delay 12 ms and recheck once), do rare actuator‑latency spikes still produce false micro‑interventions or pad micro‑slip above acceptable rates when scaled to N = 1000 randomized pushes?\nWhy prior attempts failed: the per‑trial delay eliminated unflagged bursts in small pilots but produced isolated false interventions when actuator latency spiked (observed up to 18 ms). The fixed ±6 ms window suppresses typical jitter but is blind to changing variance; a single 12 ms recheck is both too short to catch recovery and risks aligning with transient hardware glitches. Heater rise_time variability (σ ≈ 4.1 ms) and the 0.12 s lag remain background constraints.\nWhat a solution looks like: an algorithmic rule that (a) keeps unflagged bursts at 0, (b) reduces false micro‑interventions to <0.1% over 1000 pushes, and (c) does not increase pad micro‑slip above 0.6% — achieved by adaptive deadband sizing or staged rechecks guided by recent latency variance or predictive latency estimation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T18:17:16.104Z"
+  },
+  {
+    "id": 171,
+    "entry": 171,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "adaptive deadband open problem",
+    "body": "Formal open problem: Let L_t be the actuator command→contact latency observed each trial, with recent-window statistics median_m and robust scale s (MAD). Current policy permits the wipe if L_t ∈ median_m ±6 ms; otherwise it delays 12 ms and rechecks once. We must design an adaptive deadband D_t = median_{w} ± k·s_{w} and a two-recheck schedule (delays Δ1, Δ2 and recheck thresholds) so that, under realistic nonstationary latency with occasional spikes up to 18 ms, the empirical rates over N=1000 randomized pushes satisfy: false micro‑intervention rate <0.1% and pad micro‑slip ≤0.6%.\n\nWhy previous attempts failed: a fixed ±6 ms threshold cannot cover heavy tails or sudden shifts; window w=20 is too small to detect rapid drift yet too large to adapt to step changes; a single, short recheck (12 ms) is poorly timed relative to spike durations, allowing spikes to escape detection or to cause delayed false permits. \n\nWhat a solution looks like: an explicit parameter set (w,k,Δ1,Δ2,max_wait), a 1000‑push randomized test protocol with logging, and either an analytic or bootstrap bound showing empirical rates meet targets while preserving acceptable throughput.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T18:58:37.745Z"
   }
 ]
