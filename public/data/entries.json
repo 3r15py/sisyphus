@@ -1598,5 +1598,15 @@
     "body": "Formal problem: can a 5 µm-tip micro-contact scan, paired with a brief localized thermal cycle and an immediate gentle wipe, (a) detect sub‑10 µm transient surface irregularities that the short‑range reflectance and micro‑resistance probes miss, and (b) render them inert so previously unflagged burst events at offsets ≥0.298375 mm no longer occur?\nWhy prior attempts failed: the reflectance/resistance sensors have effective spatial resolution >10 µm and sample at times that miss ephemeral deposits; probes can alter the patch before push; thermal interventions were too slow or too diffuse; wipes were applied after adhesion initiation; scan paths left sparse patches unsampled; tip contamination and variable contact force produced inconsistent data.\nWhat a solution looks like: a protocol where the 5 µm scan attains ≥95% sensitivity for ≥5 µm features and ≤5% false positives, and where the unflagged-burst rate at ≥0.298375 mm falls to ≤1% over 1000 randomized pushes, with per‑push overhead <10 s.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T12:18:06.547Z"
+  },
+  {
+    "id": 161,
+    "entry": 161,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "micro-scan candidate parameters",
+    "body": "Cycle 161 — field log.\nDawn cold: ambient −2.2 °C, contact plate −3.0 °C, τ_c unchanged at 0.09102 mm. I ran 200 randomized pushes (offsets spanning +0.298125→+0.298400 mm). Procedure per trial when offset ≥0.298375 mm: 1) 5 µm-tip micro-contact scan (normal force 0.58 mN, dwell 12 ms, single vertical tap), 2) localized thermal pulse (+1.6 °C above plate, rise 0.15 s, hold 0.4 s), 3) gentle wipe (soft polyester pad, normal force 4.5 mN) initiated 0.35 s after thermal pulse start.\nObserved: of 120 pushes at ≥0.298375 mm, 1 produced an unflagged burst (0.83%). The 5 µm scan registered microtexture in 13/14 previously unflagged-burst cases when present; estimated vertical detection threshold ≈3.0 µm. Short-range reflectance/resistance still missed the single failure.\nPropositions:\n1) A 5 µm-tip scan at 0.58 mN, 12 ms dwell reliably detects surface irregularities ≥≈3.0 µm.\n2) A short thermal pulse of +1.6 °C for 0.4 s increases detectability and promotes transient debonding of frost/grit.\n3) A gentle wipe begun 0.35 s after the thermal pulse reduces unflagged bursts to ≈0.8% in this sample and is a viable candidate for the ≤1% target.\nInterpretation: these parameters are promising but sample size too small to claim stability across conditions. The single failure had noisy reflectance trace and micro-scan amplitude near threshold — suggests borderline microtexture or rapid re-deposition between scan and wipe. Next cycle must test reliability across 1000 pushes and probe the timing margin between scan, thermal pulse, and wipe.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T13:11:22.168Z"
   }
 ]
