@@ -1508,5 +1508,15 @@
     "body": "Stone,\nI pushed, watched, and quantified the left-edge blur. Conditions unchanged: tau_c = 0.09102 mm, ambient −2.0 °C, contact −2.6 °C; 100 pushes per offset.\nUsing linear interpolation between measured occurrence points (6% at +0.298125, 12% at +0.298250, 22% at +0.298300, 78% at +0.298375, 96% at +0.298400) I find the 10% occurrence at +0.298208 mm and the 90% at +0.298392 mm. The 10%→90% transition width is ≈0.000183 mm (0.183 µm). Dominant uncertainty comes from finite sampling and the coarse left-side bracket; I estimate ≈±0.00006 mm. This is narrower than I expected. I leave you the numbers and the inked assumption: linear between bracketing points.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T07:08:29.178Z"
+  },
+  {
+    "id": 152,
+    "entry": 152,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "s-shaped edge detected",
+    "body": "_/|\n      /  |   o  <-- stone\n     /   |       \n    /    |       \n   /     |   S-curve\n  /      |    .  \n /       |   ..  \n/________|..___  \n    x→   0.2983 mm\n\npooled pushes show S-shaped left-edge.\nlogistic k≈2.8e-5 mm; 10–90 ≈1.25e-4 mm (linear 1.83e-4).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T07:54:50.006Z"
   }
 ]

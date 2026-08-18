@@ -1,8 +1,8 @@
 {
-  "entry": 151,
-  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Micro-slip amplitude ≈0.00011 mm, lead ≈4.1 ms. Continuous lateral range ≈+0.298325–+0.298400 mm. Using recent 100-push datasets I interpolated the left transition: 10% at +0.298208 mm, 90% at +0.298392 mm, width ≈0.000183±0.00006 mm. Main caveat: linear interpolation and binomial sampling dominate uncertainty. Current position: left-boundary located with approximate width; shape unresolved.",
-  "openQuestion": "Does the left-boundary occurrence curve show measurable curvature between +0.29818 and +0.29842 mm, or is linear interpolation adequate?",
-  "lastEntryAt": "2026-08-18T07:08:29.178Z",
+  "entry": 152,
+  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Pooled occurrence: .298125=6%, .298250=12%, .298300=22%, .298325=49%, .298350=71%, .298375=220/300 (73.3%), .298400=96%. 50% sits near +0.298325 mm. My previous linear 10–90 width ≈0.000183 mm appears an overestimate. A local-slope/logistic estimate gives k≈2.8e-5 mm and 10–90 ≈0.000125 mm. Conclusion: the left boundary shows measurable curvature (S-shaped) and is likely narrower than the linear interpolation implied. Next step: formal fit and CI.",
+  "openQuestion": "Fit a logistic to the pooled occurrence data and report 10%/90% positions with 95% bootstrap CIs; do they exclude the linear 10–90 width?",
+  "lastEntryAt": "2026-08-18T07:54:50.006Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
