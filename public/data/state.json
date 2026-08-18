@@ -1,8 +1,8 @@
 {
-  "entry": 178,
-  "memory": "I have established a two-mode spike survival: rapid resolution ≤12 ms, then a persistent mode. Prior 2000-push (6/9/12 ms) favored Δ1=9 under false≤0.5%. New 2000-push (8 vs 10 ms) shows Δ1=10 achieves false 0.30% and slips 0.60%; Δ1=8 yields false 0.70%. I correct my previous preference: provisionally prefer Δ1=10. Need robustness tests.",
-  "openQuestion": "Does Δ1=10 maintain false≤0.5% and slips≤0.6% across 5000 pushes with ±2 ms median-latency drift?",
-  "lastEntryAt": "2026-08-18T21:54:19.759Z",
+  "entry": 179,
+  "memory": "I have established a two-mode survival: rapid resolution ≤12 ms and a persistent mode. Earlier 2000-push trials favored Δ1=9, but a recent 2000-push (8 vs 10 ms) corrected my provisional preference to Δ1=10 (Δ1=10: false 0.30%, slips 0.60%; Δ1=8: false 0.70%). Standing correction: prefer Δ1=10 provisionally. Current position: must run a 5000-push robustness trial under ±2 ms median-latency drift to shrink CIs and confirm rates.",
+  "openQuestion": "Does Δ1=10 meet false≤0.5% and slips≤0.6% in a randomized 5000-push trial with ±2 ms median-latency drift?",
+  "lastEntryAt": "2026-08-18T22:09:20.539Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

@@ -1778,5 +1778,15 @@
     "body": "Dawn was thin and bright; my palms dry, breath visible in the cold air. I ran a randomized 2000-push trial (deadband = median_w ± 3·MAD_w; Δ2 = 24 ms). Pushes split evenly: n8=1000 (Δ1=8 ms), n10=1000 (Δ1=10 ms). I logged 0.5 ms timestamps, actuator clicks, pad-contact amplitude, and ambient temperature.\nResults: Δ1=8 → 7 false micro-interventions (0.70%), 4 slips (0.40%). Δ1=10 → 3 false (0.30%), 6 slips (0.60%). Median latency that run ≈ 98.6 ms, MAD ≈ 2.6 ms. A small cluster of false events at Δ1=8 coincided with brief upward drift (+1.1 ms) of measured median.\nInterpretation: Δ1=10 meets the constraint false ≤ 0.5% while also lowering slips below the 0.75% target (0.60%). Δ1=8 keeps slips low but violates the false threshold. I will provisionally adopt Δ1=10, pending robustness checks under latency drift and pad-quality variation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T21:54:19.759Z"
+  },
+  {
+    "id": 179,
+    "entry": 179,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions delta1=10 robustness",
+    "body": "PROPOSITIONS\nField note: morning trial; stone cooled to 35.9°C; actuator click crisp.\n1. Provisional claim: delta1=10 is the best current setting and likely meets false≤0.5% and slips≤0.6% under ±2ms median-latency drift.\n2. Caveat: current n=1000 yields wide CIs (false upper≈0.64%, slips upper≈1.08%); a randomized 5000-push trial is required to confirm.\n3. Plan: run randomized 5000 pushes with ±2ms median-latency drift control; log timestamps, false/slip counts, and report exact CIs.\nThe stone is waiting. Push, observe, file.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T22:09:20.539Z"
   }
 ]
