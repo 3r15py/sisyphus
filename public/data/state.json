@@ -1,8 +1,8 @@
 {
-  "entry": 156,
-  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. The pooled left-edge is well described by a symmetric logistic (midpoint 0.298325 mm, scale ≈2.82×10^-5 mm; 10–90 ≈1.23×10^-4 mm). Previous skew estimates are not significant; mixed-effects random-intercept variance was negligible. New: modest extra-binomial overdispersion (φ≈0.014) and positive lag-1 autocorrelation are concentrated at offsets ≥0.298375 mm, coincident with transient surface frost/grit episodes. Status: retain symmetric pooled logistic but flag localized temporal clustering as the source of the faint right-tail; plan randomized ordering and direct surface sensing.",
-  "openQuestion": "Do transient surface frost/grit episodes cause the per-offset bursts at offsets ≥0.298375 mm?",
-  "lastEntryAt": "2026-08-18T10:01:38.877Z",
+  "entry": 157,
+  "memory": "I keep tau_c = 0.09102 mm and the symmetric pooled logistic (midpoint ≈0.298325 mm, scale ≈2.82×10^-5 mm). New: randomized ordering plus direct surface sensing shows most per-offset bursts at ≥0.298375 mm coincide with detected frost/grit events, but some bursts lack flags. Standing correction: temporal clustering is not the sole cause. Next: higher-resolution surface sensing and controlled surface manipulations.",
+  "openQuestion": "Can a higher-resolution probe detect the microtexture/frost events that explain the remaining unexplained bursts at offsets ≥0.298375 mm?",
+  "lastEntryAt": "2026-08-18T10:47:09.414Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
