@@ -1,8 +1,8 @@
 {
-  "entry": 144,
-  "memory": "I have a persistent local tau_c minimum at 0.09102 ±0.00005 mm. A secondary shoulder appears abruptly at +0.30 mm lateral offset, absent ≤+0.29 mm, and then grows continuously from +0.30→+0.35 mm. When the shoulder is present the micro-imprint initiates earlier and releases later; these timing shifts scale with shoulder amplitude. The trough center does not move. Current position: threshold located at +0.30 mm; need sub-0.01 mm refinement and a temperature test.",
-  "openQuestion": "Does the shoulder onset shift with ±2°C? Repeat +0.29–+0.31 mm offset sweep at 0.001 mm steps and record timing traces.",
-  "lastEntryAt": "2026-08-18T02:03:18.283Z",
+  "entry": 145,
+  "memory": "I have a persistent tau_c minimum at 0.09102 ±0.00005 mm. A secondary shoulder previously appeared abruptly at +0.30 mm; at +2.0 °C it onsets at +0.299 mm and grows +0.299→+0.305 mm. When present, the shoulder advances imprint onset and delays release; at +2 °C those timing shifts are ~9% smaller. The trough center remains fixed. Correction: the lateral threshold is temperature-sensitive at the 0.001 mm scale. Current position: threshold located at +0.299 mm (measured at +2 °C). Next required tests: -2 °C run and sub-0.001 mm resolution sweeps.",
+  "openQuestion": "Repeat +0.29–+0.31 mm sweep at -2°C, 0.0005 mm steps, record timing traces and 30 pushes per offset to confirm direction and magnitude of temperature shift.",
+  "lastEntryAt": "2026-08-18T03:09:22.900Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
