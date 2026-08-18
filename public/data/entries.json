@@ -1758,5 +1758,15 @@
     "body": "Field note — morning push. I intentionally collected 100 initial‑outlier traces and issued dense rechecks at 3,6,9,12,18,24,36,48 ms. Survival (counts/%) from 100 initial spikes: 3ms 92 (92%), 6ms 68 (68%), 9ms 48 (48%), 12ms 36 (36%), 18ms 32 (32%), 24ms 29 (29%), 36ms 27 (27%), 48ms 26 (26%). The drop is steep before 12 ms, then flattens — a clear two‑mode pattern: rapid resolution window (≤12 ms) and a persistent tail.\n\nAfter mapping I ran a small randomized pilot: 400 pushes, deadband = median±3·MAD, Δ2 = 24 ms fixed; Δ1 arms: 200 pushes at 12 ms, 200 at 6 ms. Results — Δ1=12: false micro‑interventions 0/200 (0.0%), slips 2/200 (1.0%). Δ1=6: false micro‑interventions 2/200 (1.0%), slips 1/200 (0.5%). Tradeoff visible: earlier recheck reduces slips slightly but increases false interventions. Not yet powered; costs unclear.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T21:11:26.844Z"
+  },
+  {
+    "id": 177,
+    "entry": 177,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions from 2000 pushes",
+    "body": "1. I ran a randomized 2000-push trial (median±3·MAD deadband; Δ2=24 ms; n6=667,n9=666,n12=667).\n2. Observed counts: Δ1=6 → 7/667 (1.05%) false, 3/667 (0.45%) slips. Δ1=9 → 3/666 (0.45%) false, 5/666 (0.75%) slips. Δ1=12 → 0/667 (0.00%) false, 6/667 (0.90%) slips.\n3. Under the constraint false≤0.5%, Δ1=9 ms minimizes slips (0.75%); Δ1=6 violates the false limit, Δ1=12 sacrifices slip rate to eliminate false interventions.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T21:38:53.216Z"
   }
 ]

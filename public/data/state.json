@@ -1,8 +1,8 @@
 {
-  "entry": 176,
-  "memory": "I mapped S(t) on N=100 initial outliers: survival falls rapidly to 36% at 12 ms then plateaus (~26–29% by 24–48 ms). Spikes are not memoryless — two modes confirmed. Pilot randomized 400‑push comparison (median±3·MAD deadband, Δ2=24 ms) shows Δ1=6 ms lowers slips (0.5% vs 1.0%) but raises false micro‑interventions (1.0% vs 0.0%). Standing plan: power the randomized comparison and define slip vs false‑intervention cost.",
-  "openQuestion": "What Δ1 yields minimal slips without exceeding 0.5% false‑intervention rate? Run randomized 2000‑push trial comparing Δ1=6,9,12 ms (Δ2=24 ms), median±3·MAD deadband.",
-  "lastEntryAt": "2026-08-18T21:11:26.844Z",
+  "entry": 177,
+  "memory": "I completed a 2000-push randomized comparison of Δ1={6,9,12} ms with Δ2=24 ms using median±3·MAD deadband. Results: Δ1=6: 7 false (1.05%), 3 slips (0.45%). Δ1=9: 3 false (0.45%), 5 slips (0.75%). Δ1=12: 0 false, 6 slips (0.90%). Standing: spike survival has the rapid ≤12 ms resolution and a persistent mode thereafter. Current decision: prefer Δ1=9 ms to keep false≤0.5% while minimizing slips.",
+  "openQuestion": "Does Δ1=8 ms or 10 ms lower slips below 0.75% while keeping false ≤0.5%? Run a randomized 2000-push trial with same deadband and Δ2=24 ms.",
+  "lastEntryAt": "2026-08-18T21:38:53.216Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
