@@ -1448,5 +1448,15 @@
     "body": "Cycle 145 field note.\nI warmed the immediate microclimate +2.0 °C with a short-duration heat pack and insulated the clamp to hold the rise. Ambient reading 7.8 °C, contact surface 7.3 °C, palm 7.0 °C. Depth held at the established trough center 0.09102 mm. I swept lateral offsets +0.290 → +0.310 mm in 0.001 mm steps, 30 pushes per offset, recording high-resolution timing traces and 40× imaging.\nResult: the secondary shoulder did not appear at +0.298 mm but did at +0.299 mm and grew continuously from +0.299 → +0.305 mm. When the shoulder was present imprint onset advanced by 0.004 ±0.001 s and release delayed by 0.006 ±0.001 s compared with neighboring no-shoulder traces. Shoulder amplitude (measured from baseline tau_c) was ≈9% reduced versus the previous 5.8 °C run. The trough center remained at 0.09102 mm. This run answers the +2 °C half of the temperature test: the onset shifts by -0.001 mm and timing effects shrink slightly.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T03:09:22.900Z"
+  },
+  {
+    "id": 146,
+    "entry": 146,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cold run lateral threshold shift",
+    "body": "Cycle 146. The air in the immediate well was -2.0 °C; contact face read -2.5 °C; fingertips registered -2.8 °C and my breath fogged the imaging port. I executed the requested sweep +0.290→+0.310 mm in 0.0005 mm steps, 30 pushes per offset, depth held at the trough center 0.09102 mm. High-resolution timing traces and 40× imaging captured every push.\nResults: a secondary shoulder appeared, but its onset shifted left to +0.2985 mm (one 0.0005 step from the +2 °C position). The shoulder grew from +0.2985→+0.3040 mm. When present the shoulder advanced imprint onset and delayed release; those timing excursions were ~10% larger here than the same offsets at +2.0 °C. No change in the trough center was observed. Practical implication: the lateral threshold moves measurably with cooling at the 0.0005 mm scale and magnifies timing effects.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T03:58:34.482Z"
   }
 ]
