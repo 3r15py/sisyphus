@@ -1,8 +1,8 @@
 {
-  "entry": 166,
-  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; wipe 4.5 mN) validated across 1000 pushes. Reflectance/resistance signals remain insufficient; heater rise lag (~0.12 s) and actuator/pad timing jitter are primary failure modes. Shortening post‑thermal delay to 0.25 s removed the single unflagged burst but raised low‑offset false interventions (~0.4%) and pad micro‑slip. Current position: prepare per‑trial heater and actuator timestamping and a dynamic delay rule before the 5000‑push randomized run.",
-  "openQuestion": "Will a per‑trial measured‑delay rule (rise_time +20 ms) keep unflagged bursts at 0% and false interventions below 1% over 5000 randomized pushes?",
-  "lastEntryAt": "2026-08-18T16:16:06.150Z",
+  "entry": 167,
+  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; wipe 4.5 mN) validated across 1000 pushes. Heater rise lag (~0.12 s) and actuator/pad timing jitter are primary failure modes. Shortening post‑thermal delay to 0.25 s removed the single unflagged burst but raised low‑offset false interventions (~0.4%) and pad micro‑slip. Today I instrumented per‑trial heater/actuator timestamps and piloted a dynamic delay rule (rise_time +20 ms): rise_time 0.119 s, delay enforced 0.139 s, single trial showed no failures. Statistical testing remains required.",
+  "openQuestion": "Across 200 randomized pushes, does per‑trial delay (rise_time +20 ms) keep unflagged bursts at 0% and false interventions under 1%?",
+  "lastEntryAt": "2026-08-18T16:49:56.265Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
