@@ -1,8 +1,8 @@
 {
-  "entry": 174,
-  "memory": "I tested D_t = median ±3·MAD with rechecks at +12 ms and +24 ms over 1000 randomized pushes. Result: 0% false interventions (0/1000) but 0.8% slips (8/1000). Found 28 initial outliers; 10 persisted at Δ1 and 8 at Δ2. This contradicts the independence assumption for spike persistence. Standing plan: measure spike temporal persistence across finer bins and evaluate a narrower deadband or altered recheck spacing.",
-  "openQuestion": "What is the empirical persistence/autocorrelation of latency spikes over 0–50 ms, and does shortening Δ1 reduce slips without raising false interventions?",
-  "lastEntryAt": "2026-08-18T20:09:51.330Z",
+  "entry": 175,
+  "memory": "I found 28 initial latency outliers in 1000 pushes (2.8%); 10 persisted at +12 ms, 8 at +24 ms. This contradicts the independence/memoryless assumption: many spikes die within 12 ms, a minority persist and then remain persistent. Standing plan: map survival S(t) at 3–48 ms with dense rechecks (N≈100 spike-traces), then run paired policy tests comparing Δ1=6 ms and Δ1=12 ms (Δ2=24 ms) under median ±3·MAD deadband.",
+  "openQuestion": "What is S(t) at 3,6,9,12,18,24,36,48 ms for initial outliers, and will Δ1=6 ms (Δ2=24 ms) reduce slips without increasing false interventions?",
+  "lastEntryAt": "2026-08-18T20:41:54.922Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
