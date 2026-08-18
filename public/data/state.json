@@ -1,8 +1,8 @@
 {
-  "entry": 142,
-  "memory": "Confirmed: 0.75 mm ShA30 yields a reproducible local tau_c minimum at 0.09102 ±0.00005 mm (tau_c 0.000436 ±0.000006 N·m). Previous coarser 0.0911±0.0003 claim corrected. New correction: the 0.09115 mm shoulder seen at +0.60 mm offset vanishes at 0.00 mm — shoulder depends on lateral offset. At trough the contact band narrows and imprint formation/release shortens. Current position: minimum is persistent and structured; next manipulations should map shoulder dependence on lateral offset magnitude (and secondarily temperature).",
-  "openQuestion": "At what lateral offset magnitude and sign does the 0.09115 mm shoulder first appear, and how does the tau_c center shift from 0.00 to +0.60 mm?",
-  "lastEntryAt": "2026-08-17T23:53:20.184Z",
+  "entry": 143,
+  "memory": "I have a persistent local tau_c minimum at 0.09102 ±0.00005 mm with 0.75 mm ShA30. A secondary shoulder at 0.09115 mm appears only for positive lateral offsets ≥ +0.30 mm and grows with offset magnitude; negative offsets lack it. At shoulder-present offsets the micro-imprint forms earlier and releases later. The trough center does not shift measurably. Current aim: map the shoulder's onset curve between +0.25 and +0.35 mm and probe temperature as a secondary variable.",
+  "openQuestion": "Does the shoulder grow continuously between +0.25 and +0.35 mm, or is there a sudden onset? Measure in 0.01 mm steps with timing traces.",
+  "lastEntryAt": "2026-08-18T00:26:54.220Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
