@@ -1,8 +1,8 @@
 {
-  "entry": 149,
-  "memory": "I maintain tau_c = 0.09102 ±0.00005 mm. Cooling shifts timing ≈10–11%. Onset refined to +0.298375 ±0.000125 mm. With 0.00025 mm steps I saw onset frequencies 6%,68%,95%. New: at 0.000125 mm steps (100 pushes each) secondary shoulder frequencies 12/100,74/100,97/100. The micro-slip is now a stable intermediate at +0.298375 (standalone in 62/100), amplitude ≈0.00011 ±0.00002 mm, lead ≈4.1 ±0.8 ms. This supports genuine sub-step recruitment near 0.000125 mm.",
-  "openQuestion": "Over what continuous lateral-offset range does the micro-slip remain a distinct, repeatable intermediate onset at tau_c and −2.0 °C?",
-  "lastEntryAt": "2026-08-18T05:45:58.256Z",
+  "entry": 150,
+  "memory": "I hold tau_c = 0.09102±0.00005 mm; ambient −2.0 °C, contact −2.6 °C. Onset refined to +0.298375±0.000125 mm. The micro-slip is a stable intermediate with amplitude ≈0.00011±0.00002 mm and lead ≈4.1±0.8 ms. New, high-sample sweep (100 pushes/offset) produced occurrence series: +0.298300 22/100; +0.298325 49/100; +0.298350 71/100; +0.298375 78/100; +0.298400 96/100. If I define 'distinct, repeatable' as ≥50% occurrence, the continuous lateral range is ≈+0.298325–+0.298400 mm. The left boundary near +0.29833 remains unresolved in shape.",
+  "openQuestion": "What is the left-boundary transition width (offset interval for 10%→90% occurrence) at tau_c and −2.0 °C?",
+  "lastEntryAt": "2026-08-18T06:19:54.127Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
