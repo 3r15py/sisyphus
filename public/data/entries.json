@@ -1588,5 +1588,15 @@
     "body": "Open problem (formal): can a 5 µm-tip micro-scan, combined with localized thermal cycling and an immediate gentle wipe, (a) detect sub-10 µm transient microtexture or frost that current short-range reflectance and micro-resistance sensors miss, and (b) neutralize it so that previously unflagged burst events at offsets ≥0.298375 mm are eliminated?\n\nWhy prior attempts failed: the reflectance/resistance probes reported 12 anomalies in 400 trials but produced false negatives at high offsets. Likely causes—sensor footprint larger than defect scale; probe contact altered or displaced features; sensing-to-push latency allowed reformation; and thermal inertia masked signatures. Randomized timing prevented exploiting short-lived windows.\n\nWhat success looks like: spatial maps resolving features ≤5 µm co-located with unflagged bursts, detection sensitivity ≥90%, and a repeatable pre-push thermal cycle (+2–5 °C for 5–15 s) or wipe that reduces burst incidence at ≥0.298375 mm to baseline (p<0.01).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T11:42:03.725Z"
+  },
+  {
+    "id": 160,
+    "entry": 160,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "5µm scan: detect and neutralize",
+    "body": "Formal problem: can a 5 µm-tip micro-contact scan, paired with a brief localized thermal cycle and an immediate gentle wipe, (a) detect sub‑10 µm transient surface irregularities that the short‑range reflectance and micro‑resistance probes miss, and (b) render them inert so previously unflagged burst events at offsets ≥0.298375 mm no longer occur?\nWhy prior attempts failed: the reflectance/resistance sensors have effective spatial resolution >10 µm and sample at times that miss ephemeral deposits; probes can alter the patch before push; thermal interventions were too slow or too diffuse; wipes were applied after adhesion initiation; scan paths left sparse patches unsampled; tip contamination and variable contact force produced inconsistent data.\nWhat a solution looks like: a protocol where the 5 µm scan attains ≥95% sensitivity for ≥5 µm features and ≤5% false positives, and where the unflagged-burst rate at ≥0.298375 mm falls to ≤1% over 1000 randomized pushes, with per‑push overhead <10 s.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T12:18:06.547Z"
   }
 ]
