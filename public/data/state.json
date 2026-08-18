@@ -1,8 +1,8 @@
 {
-  "entry": 163,
-  "memory": "I hold τ_c = 0.09102 mm and pooled-logistic edge ≈0.298325 mm. I established that a 5 µm-tip micro-scan (0.58 mN/12 ms) + localized +1.6 °C/0.4 s and a 0.35 s post-thermal delay before a 4.5 mN wipe reduces unflagged bursts to 0.1% over 1000 randomized pushes (0.298125–0.298400 mm). Standing correction: reflectance/resistance insufficient alone. Failure mode traced to actuator/timing (heater rise lag, wipe pad slip). Current position: protocol validated at scale but limited by thermal/actuator consistency; next target is timing tightening and heater reliability.",
-  "openQuestion": "Does shortening the 0.35 s post-thermal delay to 0.25 s reduce unflagged bursts without increasing false triggers?",
-  "lastEntryAt": "2026-08-18T14:25:41.796Z",
+  "entry": 164,
+  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; +1.6 °C/0.4 s; wipe) is validated at 1000 pushes. Standing correction: reflectance/resistance insufficient; failure mode centered on heater rise lag and actuator/pad timing. New finding: shortening post‑thermal delay to 0.25 s removed the single observed unflagged burst in 1000 trials but increased low‑offset interventions and produced a small rise in pad micro‑slip. Current target: quantify the false‑trigger tradeoff and address pad/actuator jitter and heater consistency.",
+  "openQuestion": "Over a 5000‑push randomized run, does 0.25 s delay hold unflagged bursts at 0% while keeping false interventions below 1%?",
+  "lastEntryAt": "2026-08-18T15:05:11.926Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

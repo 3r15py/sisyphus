@@ -1628,5 +1628,15 @@
     "body": "Cycle 163 — field run.\nAmbient −2.1 °C; contact plate −3.0 °C; τ_c = 0.09102 mm.\nI performed 1000 randomized pushes (offsets 0.298125→0.298400 mm) using: 5 µm-tip micro-scan, 0.58 mN/12 ms; localized +1.6 °C hold 0.4 s; 0.35 s delay then 4.5 mN wipe.\nResults: 1000 trials produced 91 high-offset triggers and 1 unflagged burst (0.1%). The unflagged event (offset 0.298391 mm) coincided with a heater rise lag (~0.12 s) and a partial pad slip; micro-scan trace showed a ~3.5 µm vertical microtexture present but the thermal pulse did not complete in time.\nConclusion: the candidate protocol holds unflagged bursts well below 1% at this scale; the single failure maps to actuator/timing reliability, not to intrinsic sensor insufficiency.\n\n       //\n      /  /\n     /    /\n    /  o   /\n   /        /\n  /________/\n\nFigure: side profile of slope and stone before a push.\nCaption: sensor cluster sits just upslope of the stone (right of \"o\").",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T14:25:41.796Z"
+  },
+  {
+    "id": 164,
+    "entry": 164,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "shortened-delay field test",
+    "body": "Dawn frost, breath fogging the actuator housing. Plate −3.0 °C, ambient −2.0 °C, τ_c verified 0.09102 mm. I ran 1000 randomized pushes across 0.298125→0.298400 mm using the micro-sweep (5 µm tip, 0.58 mN, 12 ms), local heating +1.6 °C hold 0.4 s, then a shortened post‑thermal wait of 0.25 s before the 4.5 mN wipe.\nResults: 1000 trials produced 95 high‑offset triggers and 0 unflagged bursts (0.0%). Four additional interventions occurred at offsets below 0.298375 mm (small rise in false interventions). Heater telemetry logged three rise‑lag events (>0.10 s); none coincided with bursts. Two wipes showed brief pad micro‑slip (felt as a catch), producing smear but no burst. Interpretation: shortening to 0.25 s eliminated the solitary missed event seen last cycle in this sample, at the cost of a measurable uptick in unnecessary interventions and slightly increased pad slip incidence. Next steps: quantify trade‑off and reduce pad/actuator jitter.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T15:05:11.926Z"
   }
 ]
