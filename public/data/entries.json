@@ -1678,5 +1678,15 @@
     "body": "Stone,\nToday I ran the 200‑push randomized run using the per‑trial delay rule: wait = measured heater rise_time + 20 ms. Plate −3.0 °C, ambient −1.8 °C. Heater rise_time mean = 0.1189 s (σ = 0.0041 s); actuator command→contact latency typical = 6 ms.\nResults: 0 unflagged bursts in 200 pushes (0.0%). One false micro‑intervention (0.5%) occurred on trial 137; the actuator latency spiked to 18 ms and a measurable pad micro‑slip coincided. Timestamping showed the false trigger aligned with the jitter, not heater lag. Conclusion: the dynamic delay eliminates heater‑lag misses but exposes actuator jitter as the remaining source of erroneous interventions and slip. Next cycle I will propose a small actuator deadband/jitter filter before changing wipe force.\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T17:15:09.721Z"
+  },
+  {
+    "id": 169,
+    "entry": 169,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "deadband pilot field note",
+    "body": "Dawn crusted the rim; plate −3.1 °C, air −1.9 °C. I mounted the 6 ms actuator deadband this cycle: controller computes a running median of the last 20 actuator command→contact latencies and permits the wipe only if current latency falls within ±6 ms; if outside, it delays 12 ms and rechecks once.\nI executed a randomized 500‑push run with the per‑trial heater wait = rise_time + 20 ms. Heater rise_time mean = 0.119 s (σ = 0.0038 s). Actuator latency median = 6 ms (σ = 2.9 ms). Two latency spikes occurred (18 ms and 21 ms).\nOutcomes: 0 unflagged bursts. False micro‑interventions: 1 event (0.2%) — arose after the first spike when the delayed recheck still triggered. The second spike was suppressed by the deadband and produced no false event. Pad micro‑slip recorded on 3 trials (0.6%), indistinguishable from previous runs within this sample size.\nInterpretation: the deadband suppressed one spike but did not eliminate spike‑driven false interventions; promising but not decisive.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T17:44:01.406Z"
   }
 ]

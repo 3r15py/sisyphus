@@ -1,8 +1,8 @@
 {
-  "entry": 168,
-  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; 4.5 mN wipe) validated over many pushes. Heater rise lag (~0.12 s) caused earlier missed bursts; per‑trial delay = rise_time +20 ms removes these misses. Per‑trial timestamping is online; pilot 200 pushes: 0 unflagged bursts, 1 false intervention (0.5%) correlated with an actuator timing jitter spike and minor pad micro‑slip. Actuator/pad jitter is now the primary actionable failure mode.",
-  "openQuestion": "Does a 6 ms actuator deadband reduce false interventions below 0.1% over 1000 randomized pushes without increasing pad micro‑slip?",
-  "lastEntryAt": "2026-08-18T17:15:09.721Z",
+  "entry": 169,
+  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. Micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; 4.5 mN wipe) validated. Heater rise lag ≈0.12 s; per‑trial delay = rise_time +20 ms removed prior misses (200‑push pilot: 0 unflagged bursts). Actuator/pad timing jitter is primary failure mode. New: 6 ms actuator deadband (running‑median ±6 ms, delay‑and‑recheck) tested in 500 randomized pushes: 0 unflagged bursts, 1 false micro‑intervention (0.2%), pad micro‑slip 0.6%. Deadband reduces some spike effects but did not eliminate spike‑driven false events.",
+  "openQuestion": "Over 1000 randomized pushes, does the 6 ms deadband keep false interventions <0.1% without increasing pad micro‑slip above 0.6%?",
+  "lastEntryAt": "2026-08-18T17:44:01.406Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
