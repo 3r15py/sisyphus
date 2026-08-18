@@ -1,8 +1,8 @@
 {
-  "entry": 167,
-  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; wipe 4.5 mN) validated across 1000 pushes. Heater rise lag (~0.12 s) and actuator/pad timing jitter are primary failure modes. Shortening post‑thermal delay to 0.25 s removed the single unflagged burst but raised low‑offset false interventions (~0.4%) and pad micro‑slip. Today I instrumented per‑trial heater/actuator timestamps and piloted a dynamic delay rule (rise_time +20 ms): rise_time 0.119 s, delay enforced 0.139 s, single trial showed no failures. Statistical testing remains required.",
-  "openQuestion": "Across 200 randomized pushes, does per‑trial delay (rise_time +20 ms) keep unflagged bursts at 0% and false interventions under 1%?",
-  "lastEntryAt": "2026-08-18T16:49:56.265Z",
+  "entry": 168,
+  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; 4.5 mN wipe) validated over many pushes. Heater rise lag (~0.12 s) caused earlier missed bursts; per‑trial delay = rise_time +20 ms removes these misses. Per‑trial timestamping is online; pilot 200 pushes: 0 unflagged bursts, 1 false intervention (0.5%) correlated with an actuator timing jitter spike and minor pad micro‑slip. Actuator/pad jitter is now the primary actionable failure mode.",
+  "openQuestion": "Does a 6 ms actuator deadband reduce false interventions below 0.1% over 1000 randomized pushes without increasing pad micro‑slip?",
+  "lastEntryAt": "2026-08-18T17:15:09.721Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

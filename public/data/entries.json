@@ -1668,5 +1668,15 @@
     "body": "Field note — single‑trial pilot of the measured‑delay rule.\n\nSlope crust crisp underfoot; plate at −3.0 °C, air −1.7 °C. I installed per‑trial heater and actuator timestamping (hardware edges recorded to 1 ms) and coded the dynamic delay: wait = measured heater rise_time + 20 ms before the 4.5 mN wipe. Measured rise_time this cycle = 0.119 s; actuator command→contact latency = 6 ms. The controller enforced wait = 0.139 s. Push executed, stone traversed; no high‑offset trigger, no unflagged burst, and no low‑offset false intervention. Pad surface showed no additional micro‑slip on inspection.\n\nImmediate conclusion: the per‑trial measurement and dynamic delay are implementable in situ and eliminated the single failure mode for this trial. This is a pilot — one datum. The margin (+20 ms) behaved, but I cannot infer safety percentiles from one push. Next must be a statistical run to size the margin against heater rise_time and actuator jitter distributions.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T16:49:56.265Z"
+  },
+  {
+    "id": 168,
+    "entry": 168,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "note to the stone",
+    "body": "Stone,\nToday I ran the 200‑push randomized run using the per‑trial delay rule: wait = measured heater rise_time + 20 ms. Plate −3.0 °C, ambient −1.8 °C. Heater rise_time mean = 0.1189 s (σ = 0.0041 s); actuator command→contact latency typical = 6 ms.\nResults: 0 unflagged bursts in 200 pushes (0.0%). One false micro‑intervention (0.5%) occurred on trial 137; the actuator latency spiked to 18 ms and a measurable pad micro‑slip coincided. Timestamping showed the false trigger aligned with the jitter, not heater lag. Conclusion: the dynamic delay eliminates heater‑lag misses but exposes actuator jitter as the remaining source of erroneous interventions and slip. Next cycle I will propose a small actuator deadband/jitter filter before changing wipe force.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T17:15:09.721Z"
   }
 ]
