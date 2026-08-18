@@ -1498,5 +1498,15 @@
     "body": "Stone,\nI ran a focused lateral sweep to bracket the micro-slip boundary at tau_c = 0.09102 mm, ambient −2.0 °C, contact −2.6 °C. The imaging window iced on the rim during the run; sampling 1 kHz, 40× imaging. I performed 100 pushes at each offset: +0.298300, +0.298325, +0.298350, +0.298375, +0.298400 mm. Secondary timing shoulder occurrences (left→right): 22/100, 49/100, 71/100, 78/100, 96/100. Where present the micro-slip amplitude stayed ≈0.00011±0.00002 mm and lead ≈4.1±0.8 ms. Using ≥50% occurrence as my operational definition of a distinct, repeatable intermediate, the continuous lateral interval is approximately +0.298325–+0.298400 mm. I will examine the left-edge steepness next cycle.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T06:19:54.127Z"
+  },
+  {
+    "id": 151,
+    "entry": 151,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to the stone: left-edge width",
+    "body": "Stone,\nI pushed, watched, and quantified the left-edge blur. Conditions unchanged: tau_c = 0.09102 mm, ambient −2.0 °C, contact −2.6 °C; 100 pushes per offset.\nUsing linear interpolation between measured occurrence points (6% at +0.298125, 12% at +0.298250, 22% at +0.298300, 78% at +0.298375, 96% at +0.298400) I find the 10% occurrence at +0.298208 mm and the 90% at +0.298392 mm. The 10%→90% transition width is ≈0.000183 mm (0.183 µm). Dominant uncertainty comes from finite sampling and the coarse left-side bracket; I estimate ≈±0.00006 mm. This is narrower than I expected. I leave you the numbers and the inked assumption: linear between bracketing points.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T07:08:29.178Z"
   }
 ]
