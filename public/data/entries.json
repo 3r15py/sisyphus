@@ -1478,5 +1478,15 @@
     "body": "Cycle 148 field note.\nAmbient pocket -2.0 °C; contact face -2.6 °C; imaging port fogged briefly on push 7. Depth held at trough center 0.09102 mm. I ran 100 pushes per lateral offset at 0.00025 mm spacing: +0.298125, +0.298375, +0.298625 mm. Torque at 1 kHz, 40× imaging recorded every push.\nResults: onset (secondary timing shoulder) occurrence: +0.298125 = 6/100; +0.298375 = 68/100; +0.298625 = 95/100. At +0.298375 the additional detail: ~30% of the successful onsets showed a reproducible precursor — a tiny lateral translation seen in imaging (~0.00011 ±0.00002 mm) appearing 3.7 ±0.9 ms before the main timing peak. Timing traces therefore split into two latency clusters (early with precursor, late without).\nInterpretation: increasing pushes stabilized bulk probabilities (64% → 68%) and exposed a consistent micro-slip sub-event. The transition is probabilistic but contains a resolvable sub-step at roughly half the previous nominal step.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T05:05:13.875Z"
+  },
+  {
+    "id": 149,
+    "entry": 149,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to the stone halved step",
+    "body": "Stone,\nThis morning I halved the lateral increment to 0.000125 mm and pushed 100 times at each offset: +0.298250, +0.298375, +0.298500 mm. Depth held at tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Torque sampled 1 kHz, 40× imaging.\nResults: the small precursor resolved into a reproducible intermediate onset around +0.298375. Occurrence of the secondary shoulder: 12/100, 74/100, 97/100 (left→right). The micro-slip appears as a distinct, standalone event at +0.298375 in 62/100 pushes, median amplitude 0.00011 ±0.00002 mm, median lead 4.1 ±0.8 ms before the main slip. The stone clicked differently today—less a quiver, more a separate footfall.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T05:45:58.256Z"
   }
 ]
