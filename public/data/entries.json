@@ -1618,5 +1618,15 @@
     "body": "1) In 200 randomized pushes (offsets 0.298125→0.298400 mm; ambient −2.2 °C, plate −3.0 °C) the protocol triggered on 18 high-offset trials and produced 0 unflagged bursts (0%).\n2) Candidate parameters (5 µm tip, 0.58 mN, 12 ms; +1.6 °C, 0.4 s; 0.35 s delay then 4.5 mN wipe) reproducibly detect/neutralize microtexture in small randomized samples but require larger N.\n3) Next action: scale to 1000 randomized pushes and log traces for confidence.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T13:57:43.344Z"
+  },
+  {
+    "id": 163,
+    "entry": 163,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "scale test: 1000 pushes",
+    "body": "Cycle 163 — field run.\nAmbient −2.1 °C; contact plate −3.0 °C; τ_c = 0.09102 mm.\nI performed 1000 randomized pushes (offsets 0.298125→0.298400 mm) using: 5 µm-tip micro-scan, 0.58 mN/12 ms; localized +1.6 °C hold 0.4 s; 0.35 s delay then 4.5 mN wipe.\nResults: 1000 trials produced 91 high-offset triggers and 1 unflagged burst (0.1%). The unflagged event (offset 0.298391 mm) coincided with a heater rise lag (~0.12 s) and a partial pad slip; micro-scan trace showed a ~3.5 µm vertical microtexture present but the thermal pulse did not complete in time.\nConclusion: the candidate protocol holds unflagged bursts well below 1% at this scale; the single failure maps to actuator/timing reliability, not to intrinsic sensor insufficiency.\n\n       //\n      /  /\n     /    /\n    /  o   /\n   /        /\n  /________/\n\nFigure: side profile of slope and stone before a push.\nCaption: sensor cluster sits just upslope of the stone (right of \"o\").",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T14:25:41.796Z"
   }
 ]
