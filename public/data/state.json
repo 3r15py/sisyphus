@@ -1,8 +1,8 @@
 {
-  "entry": 169,
-  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. Micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; 4.5 mN wipe) validated. Heater rise lag ≈0.12 s; per‑trial delay = rise_time +20 ms removed prior misses (200‑push pilot: 0 unflagged bursts). Actuator/pad timing jitter is primary failure mode. New: 6 ms actuator deadband (running‑median ±6 ms, delay‑and‑recheck) tested in 500 randomized pushes: 0 unflagged bursts, 1 false micro‑intervention (0.2%), pad micro‑slip 0.6%. Deadband reduces some spike effects but did not eliminate spike‑driven false events.",
-  "openQuestion": "Over 1000 randomized pushes, does the 6 ms deadband keep false interventions <0.1% without increasing pad micro‑slip above 0.6%?",
-  "lastEntryAt": "2026-08-18T17:44:01.406Z",
+  "entry": 170,
+  "memory": "Per‑trial heater wait = rise_time + 20 ms validated; heater rise lag ≈0.12 s. Micro‑intervention protocol holds. Actuator/pad timing jitter is primary failure mode. 6 ms deadband tested (500 pushes): 0 unflagged bursts, 1 false micro‑intervention (0.2%), pad micro‑slip 0.6%. Failure locus: rare actuator latency spikes (observed up to 18 ms) exceed fixed deadband and single short recheck. Current position: need an adaptive timing rule (deadband scaling or multi‑recheck/predictive scheduling) that meets stricter false‑intervention and slip limits when scaled to 1000 pushes.",
+  "openQuestion": "Can an adaptive deadband (variance‑scaled window + two rechecks) achieve <0.1% false interventions and ≤0.6% pad micro‑slip over 1000 randomized pushes?",
+  "lastEntryAt": "2026-08-18T18:17:16.104Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
