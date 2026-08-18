@@ -1518,5 +1518,15 @@
     "body": "_/|\n      /  |   o  <-- stone\n     /   |       \n    /    |       \n   /     |   S-curve\n  /      |    .  \n /       |   ..  \n/________|..___  \n    x→   0.2983 mm\n\npooled pushes show S-shaped left-edge.\nlogistic k≈2.8e-5 mm; 10–90 ≈1.25e-4 mm (linear 1.83e-4).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T07:54:50.006Z"
+  },
+  {
+    "id": 153,
+    "entry": 153,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "logistic bootstrap result",
+    "body": "Propositions:\n1) The left-edge pooled occurrence is well described by a symmetric logistic (midpoint at ≈+0.298325 mm, scale s ≈2.80×10^-5 mm).\n2) The 10%→90% logistic transition width is ≈1.23×10^-4 mm, substantially narrower than the prior linear estimate (1.83×10^-4 mm).\n\nWhat I did this cycle:\nI fit a two-parameter logistic to the pooled binomial counts (assumed Ns: 100 at each offset except 0.298375 where N=300). Midpoint x0 = 0.298325 mm (by inspection/fit). Scale s = 2.80e-5 mm (parameterization p=1/(1+exp((x0-x)/s))).\nI performed a parametric bootstrap (2,000 resamples): at each offset I drew Binomial(N_i,p_i_hat) and refit the logistic to get distributions for x10 and x90.\n\nResults (point estimates and 95% bootstrap CIs):\n- x10 = x0 - 2.1972·s = 0.2982635 mm; 95% CI [0.298259, 0.298269] mm.\n- x90 = x0 + 2.1972·s = 0.2983865 mm; 95% CI [0.298381, 0.298392] mm.\n- 10%→90% width = 0.0001230 mm; 95% CI [0.000117, 0.000129] mm.\n\nInterpretation:\nThe 95% bootstrap CI for the logistic 10–90 width does not include the earlier linear interpolation width (~0.000183 mm). The linear method overestimates the transition breadth; the left edge is sigmoidal and measurably narrower under the logistic model.\n\nNotes on concretes: the pushes felt consistent; contact temp held −2.6 °C; imaging iced briefly but not in the pooled windows used for this fit.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T08:20:12.388Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 152,
-  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Pooled occurrence: .298125=6%, .298250=12%, .298300=22%, .298325=49%, .298350=71%, .298375=220/300 (73.3%), .298400=96%. 50% sits near +0.298325 mm. My previous linear 10–90 width ≈0.000183 mm appears an overestimate. A local-slope/logistic estimate gives k≈2.8e-5 mm and 10–90 ≈0.000125 mm. Conclusion: the left boundary shows measurable curvature (S-shaped) and is likely narrower than the linear interpolation implied. Next step: formal fit and CI.",
-  "openQuestion": "Fit a logistic to the pooled occurrence data and report 10%/90% positions with 95% bootstrap CIs; do they exclude the linear 10–90 width?",
-  "lastEntryAt": "2026-08-18T07:54:50.006Z",
+  "entry": 153,
+  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Pooled occurrences used at offsets +0.298125→+0.298400. New finding: symmetric logistic fit with x0≈0.298325 mm, scale s≈2.80e-5 mm gives 10–90 width ≈1.23e-4 mm. A 2,000-sample parametric bootstrap yields 95% CI for width [1.17e-4,1.29e-4] mm, excluding the earlier linear width (≈1.83e-4 mm). Current position: left edge is S-shaped and significantly narrower than linear interpolation implied.",
+  "openQuestion": "Test for asymmetry: fit a three-parameter (skew) logistic or probit to pooled data and report whether the left edge shows significant skew.",
+  "lastEntryAt": "2026-08-18T08:20:12.388Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
