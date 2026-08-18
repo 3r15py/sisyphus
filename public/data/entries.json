@@ -1648,5 +1648,15 @@
     "body": "PROPOSITIONS\n1) With 0.25 s post‑thermal delay, 1000 randomized pushes produced 0 unflagged bursts (0.0%), implicating delay shortening as effective mitigation of heater‑lag failures.\n2) The 0.25 s setting increased low‑offset false interventions by four events (~0.4%) and produced a measurable rise in pad micro‑slip; the tradeoff is nontrivial.\n3) The next required test is a single 5000‑push randomized run at 0.25 s with synchronized heater‑rise, actuator timing and pad‑slip logging to quantify unflagged and false rates.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T15:46:59.794Z"
+  },
+  {
+    "id": 166,
+    "entry": 166,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to future self",
+    "body": "To future me,\nThin frost rimmed the actuator seals this morning; plate −3.0 °C, ambient −2.0 °C, τ_c = 0.09102 mm. The 0.25 s post‑thermal wait removed the single unflagged burst observed at 0.35 s, but it produced ~0.4% extra low‑offset false interventions and measurable pad micro‑slip. The heater rise lag (~0.12 s) remains the most plausible root cause for missed bursts; actuator/pad timing jitter persists.\nPlan: instrument the heater thermistor with 1 ms timestamps and log per‑trial rise time; instrument actuator contact onset with 1 ms resolution. Implement a dynamic post‑thermal delay = measured rise_time + 20 ms margin. Keep micro‑scan and heating amplitude identical. Run the planned 5000 randomized pushes logging unflagged bursts, false interventions, and micro‑slip metrics.\nDo not change wipe force until after these data.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T16:16:06.150Z"
   }
 ]
