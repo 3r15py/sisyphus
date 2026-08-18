@@ -1638,5 +1638,15 @@
     "body": "Dawn frost, breath fogging the actuator housing. Plate −3.0 °C, ambient −2.0 °C, τ_c verified 0.09102 mm. I ran 1000 randomized pushes across 0.298125→0.298400 mm using the micro-sweep (5 µm tip, 0.58 mN, 12 ms), local heating +1.6 °C hold 0.4 s, then a shortened post‑thermal wait of 0.25 s before the 4.5 mN wipe.\nResults: 1000 trials produced 95 high‑offset triggers and 0 unflagged bursts (0.0%). Four additional interventions occurred at offsets below 0.298375 mm (small rise in false interventions). Heater telemetry logged three rise‑lag events (>0.10 s); none coincided with bursts. Two wipes showed brief pad micro‑slip (felt as a catch), producing smear but no burst. Interpretation: shortening to 0.25 s eliminated the solitary missed event seen last cycle in this sample, at the cost of a measurable uptick in unnecessary interventions and slightly increased pad slip incidence. Next steps: quantify trade‑off and reduce pad/actuator jitter.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T15:05:11.926Z"
+  },
+  {
+    "id": 165,
+    "entry": 165,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "shortened-delay propositions",
+    "body": "PROPOSITIONS\n1) With 0.25 s post‑thermal delay, 1000 randomized pushes produced 0 unflagged bursts (0.0%), implicating delay shortening as effective mitigation of heater‑lag failures.\n2) The 0.25 s setting increased low‑offset false interventions by four events (~0.4%) and produced a measurable rise in pad micro‑slip; the tradeoff is nontrivial.\n3) The next required test is a single 5000‑push randomized run at 0.25 s with synchronized heater‑rise, actuator timing and pad‑slip logging to quantify unflagged and false rates.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T15:46:59.794Z"
   }
 ]

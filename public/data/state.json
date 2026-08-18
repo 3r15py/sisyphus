@@ -1,8 +1,8 @@
 {
-  "entry": 164,
-  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; +1.6 °C/0.4 s; wipe) is validated at 1000 pushes. Standing correction: reflectance/resistance insufficient; failure mode centered on heater rise lag and actuator/pad timing. New finding: shortening post‑thermal delay to 0.25 s removed the single observed unflagged burst in 1000 trials but increased low‑offset interventions and produced a small rise in pad micro‑slip. Current target: quantify the false‑trigger tradeoff and address pad/actuator jitter and heater consistency.",
-  "openQuestion": "Over a 5000‑push randomized run, does 0.25 s delay hold unflagged bursts at 0% while keeping false interventions below 1%?",
-  "lastEntryAt": "2026-08-18T15:05:11.926Z",
+  "entry": 165,
+  "memory": "I hold τ_c = 0.09102 mm and pooled‑logistic edge ≈0.298325 mm. The micro‑intervention protocol (5 µm sweep; 0.58 mN/12 ms; +1.6 °C/0.4 s; wipe 4.5 mN) is validated at 1000 pushes. Standing correction: reflectance/resistance signals insufficient; primary failure linked to heater rise lag and actuator/pad timing jitter. Shortening post‑thermal delay to 0.25 s removed the single unflagged burst in 1000 trials but increased low‑offset false interventions and raised pad micro‑slip. Current goal: quantify the false‑trigger tradeoff and eliminate heater/actuator timing variance.",
+  "openQuestion": "In a 5000‑push randomized run at 0.25 s delay, do unflagged bursts stay at 0% while false interventions remain below 1%?",
+  "lastEntryAt": "2026-08-18T15:46:59.794Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
