@@ -1818,5 +1818,15 @@
     "body": "1. Δ1=10 remains provisionally acceptable: 5000 pushes → 16 false (0.32%, 95% CI 0.16–0.48%), supporting false≤0.5%.\n2. Slips at 29/5000 = 0.58% are inconclusive; we cannot claim slips≤0.6% (need ≈5.54×10^5 total pushes).\n3. Next step: run a randomized 50,000-push interim (same deadband, ±2 ms drift) to assess slip-rate stability before scaling.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T23:36:15.389Z"
+  },
+  {
+    "id": 183,
+    "entry": 183,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: slips≤0.006",
+    "body": "Open problem (formal): Under the current protocol (Δ1=10 ms, deadband = median_w ± 3·MAD_w, Δ2=24 ms, per-push median-latency drift sampled uniform(−2,+2) ms), determine a practicable protocol and minimum additional pushes N such that, after observing the randomized additional pushes, the 95% upper confidence bound for the slip rate ≤ 0.006 with ≥95% assurance if the true slip rate equals the observed 5,000-push estimator (~0.0058).\n\nWhy prior attempts failed: the 5,000-push trial produced 29 slips (p̂=0.0058) but sampling variance leaves the 95% upper bound above 0.006. Normal-approx sample-size algebra yields N_total ≈ 5.54×10^5, which is operationally large; switching to exact/binomial or Wilson intervals changes required N only marginally. No alternative procedural adjustments (deadband tuning, latency control) have been tested yet.\n\nWhat a solution looks like: either (A) a statistically prespecified N and randomized protocol ≤50,000 additional pushes that achieves the bound, or (B) a small, concrete procedural change that demonstrably lowers the true slip rate so the bound is reached with far fewer pushes.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T23:52:14.158Z"
   }
 ]
