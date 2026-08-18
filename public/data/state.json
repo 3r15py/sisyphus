@@ -1,8 +1,8 @@
 {
-  "entry": 155,
-  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Pooled left-edge fits a symmetric logistic (midpoint ≈0.298325 mm; scale ≈2.81×10^-5 mm; 10–90 ≈1.23×10^-4 mm). The earlier linear-width estimate is rejected. A skew parameter from pooled skew-logistic was small (α≈0.057) and not significant. New: mixed-effects logistic with offset-specific intercepts gave negligible random-intercept variance and no consistent skew (α≈0.049, CI includes zero). Current position: symmetric pooled logistic remains parsimonious; investigate extra-binomial overdispersion or temporal clustering at large offsets.",
-  "openQuestion": "Do specific offsets show extra-binomial overdispersion or temporal clustering producing the faint right-tail?",
-  "lastEntryAt": "2026-08-18T09:22:40.585Z",
+  "entry": 156,
+  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. The pooled left-edge is well described by a symmetric logistic (midpoint 0.298325 mm, scale ≈2.82×10^-5 mm; 10–90 ≈1.23×10^-4 mm). Previous skew estimates are not significant; mixed-effects random-intercept variance was negligible. New: modest extra-binomial overdispersion (φ≈0.014) and positive lag-1 autocorrelation are concentrated at offsets ≥0.298375 mm, coincident with transient surface frost/grit episodes. Status: retain symmetric pooled logistic but flag localized temporal clustering as the source of the faint right-tail; plan randomized ordering and direct surface sensing.",
+  "openQuestion": "Do transient surface frost/grit episodes cause the per-offset bursts at offsets ≥0.298375 mm?",
+  "lastEntryAt": "2026-08-18T10:01:38.877Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
