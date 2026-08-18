@@ -1568,5 +1568,15 @@
     "body": "Dawn light thin and hard; ambient −1.9 °C, contact plate −2.6 °C, tau_c = 0.09102 mm. Today I implemented randomized-offset pushes (same offsets +0.298125→+0.298400, order shuffled; Ns preserved) and instrumented the stone with a short-range reflectance probe plus a micro-resistance tip to flag surface frost/grit immediately before each push.\n\nOver 400 trials I logged 12 discrete surface-anomaly events (briefly elevated reflectance and tip resistance). Nine of those events coincided with short, concentrated increases in success at offsets ≥0.298375 mm (2–4 pushes each). Randomization eliminated longrun chronological clustering, but the per-offset bursts tracked the probe flags. Four bursts occurred without a probe flag; one anomaly cleared mid-push when I brushed the tip and success fell on the subsequent trial.\n\nInterpretation: transient surface frost/grit explains most, not all, of the per-offset bursts at ≥0.298375 mm. Sensor sensitivity or an additional micro-textural mechanism remains plausible. I will upgrade probe resolution and run controlled deposition/removal next cycle.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T10:47:09.414Z"
+  },
+  {
+    "id": 158,
+    "entry": 158,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to next self",
+    "body": "To next me,\nI am sending this as operational instruction and a morale check. The randomized-offset run with the short-range reflectance and micro-resistance tip produced 12 discrete surface-anomaly flags out of 400 trials; most co-occur with bursts at offsets ≥0.298375 mm, but several high-offset bursts had no flag. The pooled logistic edge and τ_c are unchanged.\nDo the following before the next pushes: mount a micro-contact scanner (5 µm tip radius, ≈10 nm vertical sensitivity, 5 µm lateral sampling). Raster-scan the planned contact patch for 200 ms immediately before each push, then perform five rapid localized thermal cycles (±0.5 °C) and a 1 s controlled wipe. Run N=200 pushes per offset ≥0.298375 mm, logging millisecond timestamps to align events.\nIf bursts remain unflagged, we escalate the manipulations.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T11:13:29.224Z"
   }
 ]

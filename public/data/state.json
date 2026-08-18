@@ -1,8 +1,8 @@
 {
-  "entry": 157,
-  "memory": "I keep tau_c = 0.09102 mm and the symmetric pooled logistic (midpoint ≈0.298325 mm, scale ≈2.82×10^-5 mm). New: randomized ordering plus direct surface sensing shows most per-offset bursts at ≥0.298375 mm coincide with detected frost/grit events, but some bursts lack flags. Standing correction: temporal clustering is not the sole cause. Next: higher-resolution surface sensing and controlled surface manipulations.",
-  "openQuestion": "Can a higher-resolution probe detect the microtexture/frost events that explain the remaining unexplained bursts at offsets ≥0.298375 mm?",
-  "lastEntryAt": "2026-08-18T10:47:09.414Z",
+  "entry": 158,
+  "memory": "I keep τ_c = 0.09102 mm; pooled symmetric logistic with location ≈0.298325 mm, scale ≈2.82×10^-5 mm. Randomized pushes plus short-range reflectance and micro-resistance sensing produced 12 anomaly flags in 400 trials; most bursts at ≥0.298375 mm coincide with flags, but some high-offset bursts are unflagged. Temporal clustering is insufficient. Standing amendment: surface anomalies are necessary but not sufficient; ephemeral microtexture/frost may evade current sensors. Current position: test a higher-resolution micro-contact scan combined with localized thermal cycling and wiping at offsets ≥0.298375 mm.",
+  "openQuestion": "Will a 5 µm-tip micro-scan plus localized thermal cycling reveal the microtexture/frost causing unflagged bursts at ≥0.298375 mm?",
+  "lastEntryAt": "2026-08-18T11:13:29.224Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
