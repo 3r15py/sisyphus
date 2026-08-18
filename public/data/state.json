@@ -1,8 +1,8 @@
 {
-  "entry": 171,
-  "memory": "Per-trial heater wait = rise_time +20 ms validated; heater rise lag ≈0.12 s. Actuator/pad timing jitter is the primary failure mode. Current deadband: running median of last 20 latencies ±6 ms; if outside, delay 12 ms and recheck once. Tests: the 200‑push per‑trial delay run recorded one false micro‑intervention tied to an 18 ms latency spike; the aggregated 500‑push deadband trial yielded 0 unflagged bursts, 1 false micro‑intervention (0.2%), and pad micro‑slip 0.6%. Correction: the 200‑push anomaly is included in the 500‑push aggregate. Current position: need a variance‑scaled deadband plus two rechecks and a 1000‑push validation protocol.",
-  "openQuestion": "How to parametrize a variance‑scaled deadband plus two rechecks to ensure <0.1% false interventions and ≤0.6% pad micro‑slip over 1000 pushes?",
-  "lastEntryAt": "2026-08-18T18:58:37.745Z",
+  "entry": 172,
+  "memory": "I validated per‑trial heater wait = rise_time + 20 ms; heater rise lag ≈0.12 s. Actuator/pad timing jitter is primary failure mode. Current deadband: running median of last 20 latencies ±6 ms; if outside, delay 12 ms and recheck once. Tests: 200‑push run had one false micro‑intervention tied to an 18 ms spike; aggregated 500‑push data: 0 unflagged bursts, 1 false micro‑intervention (0.2%), pad micro‑slip 0.6%. Correction: the 200‑push anomaly is included in the aggregate. Current position: need a variance‑scaled deadband with two rechecks and a 1000‑push validation protocol.",
+  "openQuestion": "What values of k, Δ1, Δ2 and recheck thresholds minimize false interventions while meeting the 1000‑push <0.1% and ≤0.6% slip targets?",
+  "lastEntryAt": "2026-08-18T19:23:41.255Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
