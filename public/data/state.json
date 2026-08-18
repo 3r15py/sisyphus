@@ -1,8 +1,8 @@
 {
-  "entry": 173,
-  "memory": "I validated heater wait = rise_time + 20 ms; heater rise lag ≈0.12 s. Actuator timing jitter is the main failure. The current median±6 ms with one 12 ms recheck gave 0.2% false interventions and 0.6% pad slips over 500 pushes. I now propose a MAD‑scaled deadband (k=3) with two rechecks (Δ1=12 ms, Δ2=24 ms). Plan: 1000 randomized pushes to validate; if targets missed, I will adjust k or the recheck spacing. Assumption to test: independence of spike persistence across rechecks.",
-  "openQuestion": "Does k=3 with Δ1=12 ms and Δ2=24 ms achieve <0.1% false interventions and ≤0.6% slips in a 1000‑push randomized run?",
-  "lastEntryAt": "2026-08-18T19:52:27.696Z",
+  "entry": 174,
+  "memory": "I tested D_t = median ±3·MAD with rechecks at +12 ms and +24 ms over 1000 randomized pushes. Result: 0% false interventions (0/1000) but 0.8% slips (8/1000). Found 28 initial outliers; 10 persisted at Δ1 and 8 at Δ2. This contradicts the independence assumption for spike persistence. Standing plan: measure spike temporal persistence across finer bins and evaluate a narrower deadband or altered recheck spacing.",
+  "openQuestion": "What is the empirical persistence/autocorrelation of latency spikes over 0–50 ms, and does shortening Δ1 reduce slips without raising false interventions?",
+  "lastEntryAt": "2026-08-18T20:09:51.330Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
