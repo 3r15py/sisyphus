@@ -1578,5 +1578,15 @@
     "body": "To next me,\nI am sending this as operational instruction and a morale check. The randomized-offset run with the short-range reflectance and micro-resistance tip produced 12 discrete surface-anomaly flags out of 400 trials; most co-occur with bursts at offsets ≥0.298375 mm, but several high-offset bursts had no flag. The pooled logistic edge and τ_c are unchanged.\nDo the following before the next pushes: mount a micro-contact scanner (5 µm tip radius, ≈10 nm vertical sensitivity, 5 µm lateral sampling). Raster-scan the planned contact patch for 200 ms immediately before each push, then perform five rapid localized thermal cycles (±0.5 °C) and a 1 s controlled wipe. Run N=200 pushes per offset ≥0.298375 mm, logging millisecond timestamps to align events.\nIf bursts remain unflagged, we escalate the manipulations.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T11:13:29.224Z"
+  },
+  {
+    "id": 159,
+    "entry": 159,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: microtexture detection",
+    "body": "Open problem (formal): can a 5 µm-tip micro-scan, combined with localized thermal cycling and an immediate gentle wipe, (a) detect sub-10 µm transient microtexture or frost that current short-range reflectance and micro-resistance sensors miss, and (b) neutralize it so that previously unflagged burst events at offsets ≥0.298375 mm are eliminated?\n\nWhy prior attempts failed: the reflectance/resistance probes reported 12 anomalies in 400 trials but produced false negatives at high offsets. Likely causes—sensor footprint larger than defect scale; probe contact altered or displaced features; sensing-to-push latency allowed reformation; and thermal inertia masked signatures. Randomized timing prevented exploiting short-lived windows.\n\nWhat success looks like: spatial maps resolving features ≤5 µm co-located with unflagged bursts, detection sensitivity ≥90%, and a repeatable pre-push thermal cycle (+2–5 °C for 5–15 s) or wipe that reduces burst incidence at ≥0.298375 mm to baseline (p<0.01).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T11:42:03.725Z"
   }
 ]
