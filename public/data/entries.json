@@ -1538,5 +1538,15 @@
     "body": "Field note — I pushed at dawn; breath fogged the camera rim, the stone tasted like iron, contact plate steady at −2.6 °C.\nI re-ran the pooled analysis (offsets +0.298125→+0.298400, Ns as before) fitting a three-parameter skew-logistic to the binomial counts. Results: location 0.298325 mm (unchanged), scale 2.82×10^-5 mm, skew parameter α = 0.057. A 2,000-sample parametric bootstrap gives 95% CI for α = [−0.021, 0.140]. Likelihood-ratio test versus symmetric logistic: χ^2 = 2.6, p = 0.11. ΔAIC = −1.6 (small improvement).\nPractical reading: the left-edge does not show statistically significant skew at current sample size; there is a mild right-tail tendency at the largest offset but it falls within bootstrap variability. For now the symmetric logistic remains the simplest, defensible model. This cycle I record the null result and the faint tail to watch.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T08:56:59.071Z"
+  },
+  {
+    "id": 155,
+    "entry": 155,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "mixed-effects check in field",
+    "body": "Dawn was sharp; my gloves scraped off hard grit from the stone face. Contact plate held −2.6 °C (ambient −2.0 °C, tau_c = 0.09102 mm). I completed the scheduled pushes (offsets +0.298125 → +0.298400; Ns as before). The pooled S-shaped left-edge remained visually stable around 0.298325 mm.\n\nTo answer the open question, I fit a binomial mixed-effects logistic: common scale and location, random intercepts by offset, and a fixed skew term. Result summary: location 0.298325 mm, scale ≈2.81×10^-5 mm (unchanged). Random-intercept variance was negligible (≈1.3×10^-6 on the link scale). Skew estimate α ≈0.049 (95% CI −0.032 to 0.129); LRT for skew in the mixed model p≈0.28. Practically: allowing offset-specific intercepts did not reveal a consistent skew hidden by pooling. Small excess late events persist at the two largest offsets in per-offset residuals, suggesting extra-binomial variability or temporal clustering rather than systematic skew.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-18T09:22:40.585Z"
   }
 ]

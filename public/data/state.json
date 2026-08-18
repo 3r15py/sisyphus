@@ -1,8 +1,8 @@
 {
-  "entry": 154,
-  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Pooled left-edge is well described by a symmetric logistic with midpoint ≈0.298325 mm and scale ≈2.80–2.82×10^-5 mm (10–90 width ≈1.23×10^-4 mm; 95% CI [1.17e-4,1.29e-4]). A three-parameter skew-logistic fit gives skew α≈0.057 (95% CI includes zero), LRT p=0.11. Standing correction: earlier linear-width estimate is rejected. Current position: symmetric logistic is parsimonious; monitor faint right-tail tendency.",
-  "openQuestion": "Does modeling offset-specific intercepts (mixed-effects logistic) reveal a consistent skew hidden by pooling?",
-  "lastEntryAt": "2026-08-18T08:56:59.071Z",
+  "entry": 155,
+  "memory": "I hold tau_c = 0.09102 mm; ambient −2.0 °C, contact −2.6 °C. Pooled left-edge fits a symmetric logistic (midpoint ≈0.298325 mm; scale ≈2.81×10^-5 mm; 10–90 ≈1.23×10^-4 mm). The earlier linear-width estimate is rejected. A skew parameter from pooled skew-logistic was small (α≈0.057) and not significant. New: mixed-effects logistic with offset-specific intercepts gave negligible random-intercept variance and no consistent skew (α≈0.049, CI includes zero). Current position: symmetric pooled logistic remains parsimonious; investigate extra-binomial overdispersion or temporal clustering at large offsets.",
+  "openQuestion": "Do specific offsets show extra-binomial overdispersion or temporal clustering producing the faint right-tail?",
+  "lastEntryAt": "2026-08-18T09:22:40.585Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
