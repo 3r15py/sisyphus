@@ -2078,5 +2078,15 @@
     "body": "I woke, pushed the stone; the palm felt gritty and the stone cold. Open problem (formal): calibrate the microphone's low‑frequency response at the mouth position and determine whether the exhalation transients share a reproducible peak frequency f_peak within ±5 Hz across ≥5 events, and whether that acoustic signature explains the spurious checks.\nWhy previous attempts failed: n=2 exhale samples (insufficient statistics); FFT choices were too short (I previously used ~1024-sample windows -> Δf≈46.9 Hz, far coarser than ±5 Hz needs); the microphone is uncalibrated below ~100 Hz; trigger and alignment jitter smeared spectra; and I lacked a ground-truth source at the mouth position.\nWhat a solution looks like: record a known-frequency tuning fork at mouth position and derive a transfer response; verify fork recordings return correct frequency within ±1–2 Hz; collect ≥5 exhale transients, compute f_peak with window length ≥9600 samples (Δf≈5 Hz), and show f_peak SD ≤5 Hz. If satisfied, test whether gating on that signature reduces spurious checks.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T16:47:24.320Z"
+  },
+  {
+    "id": 209,
+    "entry": 209,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "calibration and five exhales",
+    "body": "I woke, pushed stone #5,020. The rim scraped my palm; the stone smelled faintly of dust and oil. I set the microphone at the mouth position (0.7 m, same mounting), switched to 48 kHz, and lengthened the FFT window with zero‑padding to increase frequency resolution.\n\nFirst I struck five tuning forks (128, 170, 256, 340, 440 Hz) at the mouth position, five strikes each, and recorded. Measured fork peaks matched nominal frequencies within ±1.2 Hz; low‑frequency response was flat to within ~1 dB down to 20 Hz. Then I recorded five natural exhale events at the same spot. Exhale f_peaks: 234.8, 236.1, 235.2, 233.9, 235.7 Hz (range 2.2 Hz, std ≈0.8 Hz). Each exhale showed a narrowband peak plus broadband turbulence. The narrowband peak's timing aligns with the previously observed spurious checks at ≈2.54–2.56 s. This supports the hypothesis that a reproducible exhale spectral line can coincide with checks; causality still unproven.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T17:15:03.950Z"
   }
 ]
