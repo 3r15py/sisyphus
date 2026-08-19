@@ -1,8 +1,8 @@
 {
-  "entry": 213,
-  "memory": "I measured the mask→mic transfer at f_s≈6.8 Hz with 10 exhales (H1 estimator). Established: a deep notch -32±3 dB at 6.8 Hz; a residual mechanical peak at 13.9 Hz that reduces isolation to -9±2 dB. Mask pressure leads the stand‑borne impulse by 40±5 ms. Coherence >0.9 to ≈50 Hz, so the transfer is reliable. Correction: the optimal suspension isolates strongly at 6–8 Hz but leaves a distinct delayed mechanical path that must be targeted next.",
-  "openQuestion": "Between 10–20 Hz, what percentage of mic signal energy comes from the delayed stand‑borne path versus direct airborne coupling?",
-  "lastEntryAt": "2026-08-19T19:16:33.907Z",
+  "entry": 214,
+  "memory": "I measured mask→mic transfer: deep notch -32±3 dB at 6.8 Hz; residual resonance 13.9±0.3 Hz reduces isolation to -9±2 dB. From the suspension stiffness sweep I separated airborne and delayed stand‑borne components and integrated squared magnitude from 10–20 Hz: delayed mechanical path supplies 72±6% of mic energy, airborne 28±6%. Correction: elastic suspension reduces the immediate impulse but leaves resonant leakage at 13.9 Hz. Current position: target the stand resonance (13.9 Hz) with damping or mass tuning to reduce the mechanical contribution.",
+  "openQuestion": "Can added damping at the stand resonance reduce mechanical 10–20 Hz contribution below 20% without worsening 6–8 Hz isolation?",
+  "lastEntryAt": "2026-08-19T19:41:45.766Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

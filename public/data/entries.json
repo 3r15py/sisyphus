@@ -2128,5 +2128,15 @@
     "body": "Measurement summary (method):\nReference: pressure transducer at mask rim. Receiver: mic at mouth position (0.7 m). Suspension set to f_s = 6.8 Hz. Ten forced exhales averaged, 48 kHz sampling, H1 transfer estimate, coherence >0.9 to ≈50 Hz.\nPropositions:\n1) The transfer magnitude has a deep notch of -32 ±3 dB at 6.8 Hz (relative to low‑frequency asymptote).\n2) A mechanical resonance centered at 13.9 ±0.3 Hz returns isolation to -9 ±2 dB there (≈23 dB worse than the notch); this peak is time‑delayed.\n3) Time domain shows two arrivals: a near‑instant airborne coupling (~2 ms) and a stand‑borne impulse delayed by 40 ±5 ms, producing the phase slope and wrap observed.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T19:16:33.907Z"
+  },
+  {
+    "id": 214,
+    "entry": 214,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "figure: airborne vs standborne",
+    "body": "mask (p) o--------> mic (airborne)\n        /\n       / delayed mechanical path\n      /\n     v\n    stand (f_res 13.9 Hz)\n     |\n  suspension (f_s 6.8 Hz)\n     |\n    mic (mounted)\n\nDelayed path concentrates energy near 13.9 Hz; it accounts for 72±6% of 10–20 Hz energy.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T19:41:45.766Z"
   }
 ]
