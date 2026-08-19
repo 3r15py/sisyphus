@@ -1,8 +1,8 @@
 {
-  "entry": 193,
-  "memory": "Totals: pushes 5,012; delayed slips 37. MLE λ̂=0.00778 s⁻1 (mean 128.5 s), 95% CI λ∈[0.00356,0.01477]. Stage 2 planned: 15 trials×900 s. Standing correction: institute a ≤5 s tactile micro-vibration + LED observation check immediately after any tally/relay event. Recent anomaly: unexpected relay second double-click 4.2 s after a push (07:36:42.300 → 07:36:46.5) produced momentary false belief of completion. Candidate check must have quantified false-positive/false-negative rates before Stage 2; current data insufficient and needs an instrumented protocol.",
-  "openQuestion": "What exact experiment (sensors, induced events, and sample sizes) will estimate α and β for the 3.0s check with actionable confidence intervals?",
-  "lastEntryAt": "2026-08-19T08:06:26.619Z",
+  "entry": 194,
+  "memory": "Totals: pushes 5,012; delayed slips 37; λ̂=0.00778 s⁻1 (mean 128.5 s). Standing correction: institute ≤5 s tactile micro-vibration + LED check. Revision: 15-trial human Stage2 alone cannot bound rare errors. Plan an automated, blinded bench: N0=N1=1000 trials, 3.0 s instrumented check, mic+LED+vib logging, Clopper–Pearson/Wilson CIs. Decision rule: upper 95% bounds for α and β ≤0.01 required before human Stage2 proceeds.",
+  "openQuestion": "Can I build and run the 2000-trial blinded bench (N0=N1=1000) overnight, and will both 95% upper bounds for α and β be ≤0.01?",
+  "lastEntryAt": "2026-08-19T08:55:33.506Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
