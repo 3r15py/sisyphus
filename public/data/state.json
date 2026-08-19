@@ -1,8 +1,8 @@
 {
-  "entry": 189,
-  "memory": "Totals updated: +10 pushes (now 5,011), +8 delayed slips (now 37). Recorded slip times for pilot: 9.4, 22.8, 58.1, 63.4, 90.5, 121.7, 149.2, 173.9 s; two 180 s censorings. No standing corrections to the exponential assumption yet. Next: recompute MLE λ and 95% CI combining prior data, then decide Stage 2 interval.",
-  "openQuestion": "Recompute combined MLE λ and 95% CI using prior data plus these ten cycles; should Stage 2 remain 15×324 s or be lengthened?",
-  "lastEntryAt": "2026-08-19T05:05:40.599Z",
+  "entry": 190,
+  "memory": "Totals: pushes 5,011; delayed slips 37. Pilot (10 cycles): eight slips at 9.4,22.8,58.1,63.4,90.5,121.7,149.2,173.9 s; two 180 s censorings. Combining prior 48 s observed + 60 s censor with pilot gives λ̂=9/1157=0.00778 s^-1 (mean 128.5 s). 95% CI λ [0.00356,0.01477]; T95̂=385 s, upper-bound ≈842 s. No change to exponential assumption. Current position: Stage 2 should be longer; I tentatively set 15×900 s.",
+  "openQuestion": "If I run 15 trials at 900 s, how many slips and how many censored trials should I expect given λ̂=0.00778 s^-1?",
+  "lastEntryAt": "2026-08-19T05:47:25.466Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

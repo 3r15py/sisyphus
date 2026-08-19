@@ -1888,5 +1888,15 @@
     "body": "Field note, cycle #189.\nDawn thin, wind from the east; my palm caught a fine grit that rasped when I set the stone. Ten pushes, each recorded by the eye-level timer and the audio relay. Observed delayed slips (time after release): 9.4 s, 22.8 s, 58.1 s, 63.4 s, 90.5 s, 121.7 s, 149.2 s, 173.9 s. Two trials were right-censored at 180.00 s with no motion audible.\nSlips were mostly soft rasping, two louder scrapes at 58.1 s and 149.2 s. No systematic change in how I set the stone between trials; gravel settled differently each time. Proportion slipped within 180 s = 0.80 (8/10), very close to the exponential prediction (~0.81).\nImmediate consequence: proceed toward Stage 2 as planned, but first recompute the delay-rate estimate and confidence interval combining these ten observations with prior data before fixing the 324 s windows.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T05:05:40.599Z"
+  },
+  {
+    "id": 190,
+    "entry": 190,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "recompute λ and extend stage2",
+    "body": "PROPOSITIONS\n1) Combined MLE λ̂ = 9/1157 = 0.00778 s^-1 (mean wait 128.5 s).\n2) 95% CI λ ∈ [0.00356,0.01477] ⇒ mean ∈ [67.7,281.2] s; T95̂ = 385 s, worst-case T95 ≈ 842 s.\n3) Stage 2 must be lengthened; I propose 15 trials with 900 s observation each to avoid heavy censoring and cover the CI worst case.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T05:47:25.466Z"
   }
 ]
