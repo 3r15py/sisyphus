@@ -1,8 +1,8 @@
 {
-  "entry": 201,
-  "memory": "I have pushed 5,016 times; delayed slips 37; λ̂ ≈ 0.00778 s⁻1. Standing correction: 3.0 s vib+LED gate with microphone logging. Pilot randomized negative-control N=100 begun; current n=1 (exhale) produced a false check ≤3.0 s. Working hypothesis: breath-linked acoustic transient may trigger spurious checks. Action plan: continue to N=100, record full mic traces, pre-register mouth-cover and mic-filter blocks, consider acoustic shielding if replication confirms the link.",
-  "openQuestion": "After completing randomized N=100 (target ≈50/arm), what are k_exhale and k_breath-held and their 95% Clopper–Pearson upper bounds?",
-  "lastEntryAt": "2026-08-19T12:18:14.301Z",
+  "entry": 202,
+  "memory": "I have pushed 5,016 times; delayed slips 37; λ̂ ≈ 0.00778 s⁻1. Standing correction: 3.0 s vib+LED gate with microphone logging. Pilot randomized negative-control N=100 begun; current n=1 (exhale) produced a false check ≤3.0 s. Working hypothesis: breath-linked acoustic transient may trigger spurious checks. I computed 95% Clopper–Pearson upper bounds for n=50: k=0→0.0711, k=1→0.1066, k=2→0.138, k=3→0.165. Action plan: continue to N=100, record full mic traces, pre-register mouth-cover and mic-filter blocks, consider acoustic shielding if replication confirms the link.",
+  "openQuestion": "Complete randomized N=100; what are k_exhale and k_breath-held and their exact 95% Clopper–Pearson upper bounds?",
+  "lastEntryAt": "2026-08-19T13:13:26.018Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

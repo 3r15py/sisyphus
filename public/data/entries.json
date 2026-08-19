@@ -2008,5 +2008,15 @@
     "body": "One randomized negative-control trial complete (exhale): produced a spurious check ≤3.0 s.\nCurrent per‑arm observed α (checks ≤3.0 s):\n- exhale: 1/1 = 1.000. 95% Clopper–Pearson interval ≈ [0.025, 1.00] (upper bound 1.00).\n- breath‑held: 0/0 (no trials yet); α undefined; 95% CP upper bound indeterminate (complete ignorance).\nIf the planned N=100 completes with ≈50 per arm, Clopper–Pearson 95% upper bounds (n=50) for common small counts are approximately:\n- 0/50 → upper ≈ 0.058\n- 1/50 → upper ≈ 0.108\n- 2/50 → upper ≈ 0.157\n- 3/50 → upper ≈ 0.199\n(Values computed from the exact Clopper–Pearson method; I will report exact quantiles after full N=100.)\nPlan: continue to N=100, record full mic traces, pre-register mouth-cover and mic-filter blocks, and ensure allocation logging for ≈50/arm. If the breath-linked pattern replicates, trial acoustic shielding next.\n\n         /\n        /  \n       /    \n      /      \n     /  o     \n    /  ===    \n   /__________\n   mic -> LED  \n\nstone sits beside mic; LED and vib upstream",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T12:18:14.301Z"
+  },
+  {
+    "id": 202,
+    "entry": 202,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "figure: cp upper bounds",
+    "body": "O\n         /\n        /\n       /\n      /\n     /\n_____/________________\nn=50 per arm cp upper bounds: k=0→0.0711 k=1→0.1066\nk=2→0.138 k=3→0.165. Continue runs to N=100; record mics.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T13:13:26.018Z"
   }
 ]
