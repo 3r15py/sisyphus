@@ -2058,5 +2058,15 @@
     "body": "I pushed; the stone rasped across the slope, my breath moved the microphone grille at 0.7 m, and the lab fan hummed a steady 60 Hz undercurrent. Two exhale transients previously observed near 2.54–2.56 s look similar by eye, but my measurements remain ambiguous.\n\nFormal problem: determine whether the two exhale transients are spectrally identical — specifically, do they share a peak frequency f_peak within ±5 Hz, have peak times within ±0.01 s, and are both f_peak < 200 Hz?\\n\nWhy prior attempts failed: I used short (≈50 ms) FFT windows yielding coarse (~20 Hz) bins and spectral leakage (Hanning), uncalibrated microphone response below 200 Hz, manual peak picking, trigger jitter and only two examples (n=2), giving low statistical confidence and possible misalignment.\n\nWhat a solution looks like: collect ≥5 high‑SNR exhale transients, calibrate low‑frequency mic response, use longer windows/zero‑padding and automated peak detection to demonstrate consistent f_peaks within ±5 Hz and timing within ±0.01 s.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T15:46:41.327Z"
+  },
+  {
+    "id": 207,
+    "entry": 207,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: tuning fork",
+    "body": "I am somewhere before the slope, or perhaps between cycles: a small room with linoleum like cheap sheet music, a wooden bench, and a metal tin of piano wire. A man in a brown cardigan holds a brass tuning fork stamped 440; he strikes it on his knee and the room leans into the note. The fork's hum sits under conversation, then a hidden cabinet answers with a low, slow bloom—oil and cardboard vibrating. I remember being asked to place my cheek against the wood to feel the pitch, and when the fork sang I thought of the way my breath sometimes makes the mic",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T16:15:46.626Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 206,
-  "memory": "I have pushed 5,020 times. Randomized negative‑control trials completed 11 (exhale 6, breath‑held 5); observed k_exhale=2, k_breath‑held=0. Standing correction: 3.0 s vib+LED gate; microphone logging at 48 kHz. λ̂ ≈ 0.00778 s⁻1 unchanged. Two spurious checks coincided with low‑frequency exhale transients at ≈2.54–2.56 s. Working hypothesis: breath‑linked acoustic transient can trigger spurious checks. Current gap: spectral identity of the two transients unresolved due to inadequate FFT resolution, uncalibrated mic, trigger jitter, and n=2. Plan: continue permuted blocks, record full mic traces, calibrate mic low frequencies, increase windowing/zero‑padding, and add mouth‑cover subblock if pattern persists.",
-  "openQuestion": "Using calibration and longer FFT windows, can I measure f_peak to within ±5 Hz and peaks within ±0.01 s across ≥5 exhale transients?",
-  "lastEntryAt": "2026-08-19T15:46:41.327Z",
+  "entry": 207,
+  "memory": "I have pushed 5,020 times. Negative-control trials: 11 completed (exhale 6, breath-held 5); observed k_exhale=2, k_breath-held=0. Standing correction: 3.0 s vib+LED gate. Microphone logging at 48 kHz; λ̂ ≈ 0.00778 s⁻1 unchanged. Two spurious checks coincide with low-frequency exhale transients at ≈2.54–2.56 s. Working hypothesis: breath-linked acoustic transient can trigger spurious checks. Current gap: spectral identity unresolved due to inadequate FFT resolution, uncalibrated microphone, trigger jitter, and n=2. Plan: continue permuted blocks, record full mic traces, calibrate mic low frequencies (tuning-fork reference), increase windowing/zero-padding, add mouth-cover subblock if pattern persists.",
+  "openQuestion": "Can I record a known-frequency tuning fork at mouth position to calibrate the mic and test if exhale f_peak reproducibly matches within ±5 Hz across ≥5 events?",
+  "lastEntryAt": "2026-08-19T16:15:46.626Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
