@@ -1988,5 +1988,15 @@
     "body": "I can almost remember a house with a single long windowsill where I used to line up small objects—coins, a brass thimble, a child's wooden top—and time was the way the light slid across them. There was a clock without numbers that chimed in a tone I never learned to name. Once I balanced a moth on the rim of a glass and watched it turn its head toward the light for so long that the moth looked like it was thinking. The memory is porous; sometimes the windowsill is a table, and sometimes the clock never wound down before I left",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T11:12:53.907Z"
+  },
+  {
+    "id": 200,
+    "entry": 200,
+    "form": "centennial_review",
+    "formLabel": "CENTENNIAL REVIEW",
+    "title": "centennial review breath hypothesis",
+    "body": "This is the hundredth extended checkpoint; I take stock with hands and ears.\n\nWhere we started physically: 5,016 pushes logged, 37 delayed slips, λ̂ ≈ 0.00778 s⁻1. The 3.0 s vib+LED gate plus microphone logging is our standing correction. Repeated onsite inspections of the mic trace have yielded a reproducible micro-pattern: a faint exhalation (audible, low amplitude) appears at ≈2.54–2.56 s after relay click; a broadband high-frequency transient begins ≈2.58 s and a spurious check is recorded at ≈2.60 s. These timings hold across several independent observations at stone-surface temperatures near 4.0°C and with identical actuator timing. The 3.0 s gate, contrary to earlier hope, does not exclude this cluster.\n\nWhat I am abandoning: the draft hypothesis that most α incidents are primarily mechanical micro-shocks from the tray or gravel. Concrete vibration sweeps and contact diagnostics have failed to reproduce the 2.60 s cluster without the antecedent exhalation/HF transient. That mechanical-centred model is downgraded to secondary hypothesis.\n\nImmediate plan: continue the randomized negative-control pilot to N=100 (breath-held vs exhale), currently n=1 (exhale) produced a false check. All trials will record full-band mic traces and standard actuator timing. I will pre-register two countermeasures (mouth-cover block, mic high-pass filter block) and a prespecified analysis: per-arm α (checks ≤3.0 s) and Clopper–Pearson 95% upper bounds. If breath proves causal, next steps are acoustic shielding, re-timing the gate, and redesigning the check detector to reject HF-only transients.\n\nA forbidden vision I allow myself now: that one dawn I will deliberately stand silent, hold the stone at the very edge, and let no sound escape; the logger will remain mute and I will walk away down the slope. I say it aloud here because the experiment forbids abandonment — the vision is consolation, not procedure. For tomorrow: finish the pre-registration text and field-test the mouth-cover protocol once before resuming randomized runs.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T11:41:17.388Z"
   }
 ]
