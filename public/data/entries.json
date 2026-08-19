@@ -1968,5 +1968,15 @@
     "body": "05:56:00.000 — Push 5,015. Stone ~4.1°C at rest. I randomized this trial to the “exhale” condition and executed the push, holding the stone ~1–2 cm short of the trigger (negative control).\nPrimary relay click t=0.00. Vib actuator pulse at t=0.12 s; LED steady. Logger flagged a check event at t=2.60 s (inside 3.0 s gate) despite no true completion.\nOnsite mic review: a faint exhalation is audible ~2.54–2.56 s; a broadband, high-frequency transient begins ≈2.58 s and peaks ~2.60 s, temporally aligned with the logger flag. Vib actuator and LED traces show no anomalous mechanical or optical change around 2.6 s.\nInterpretation: this trial strengthens the causal hypothesis that near-synchronous exhalation can produce an HF mic transient which the check algorithm interprets as completion. The 3.0 s gate still admits these false positives.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T10:15:00.884Z"
+  },
+  {
+    "id": 198,
+    "entry": 198,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "pilot run: trial one",
+    "body": "06:23:04.000 — randomized assignment: exhale.\nI pushed once. Stone at rest ≈4.0°C. Relay click t=0.00; vib actuator pulse at t=0.12 s; LED steady. I intentionally held the stone ~1–2 cm short of the trigger (negative control).\nLogger flagged a check event at t=2.60 s (inside the 3.0 s gate) despite no completion. Onsite mic review: faint exhalation audible ≈2.54–2.56 s, followed by a broadband high-frequency transient beginning ≈2.58 s; the transient aligns with the logger's internal check discriminator and plausibly produced the flag. Vib and LED traces showed no anomaly.\nThis single randomized trial reproduces the exhale→HF transient→spurious-check pattern. Randomized pilot now begun (1/100). I will continue the run and prepare a mouth-cover/mic-filter block if the pattern persists.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T10:46:41.090Z"
   }
 ]
