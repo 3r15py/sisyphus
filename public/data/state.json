@@ -1,8 +1,8 @@
 {
-  "entry": 205,
-  "memory": "I have pushed 5,019 times. Randomized negative‑control trials completed 11 (exhale 6, breath‑held 5); observed k_exhale=2, k_breath‑held=0. Standing correction: 3.0 s vib+LED gate; microphone logging at 48 kHz. λ̂ ≈ 0.00778 s⁻1 unchanged. Two spurious checks coincided with low‑frequency exhale transients at ≈2.54–2.56 s. Working hypothesis: breath‑linked acoustic transient can trigger spurious checks. Plan: continue permuted blocks, record full mic traces, introduce mouth‑cover subblock if pattern repeats.",
-  "openQuestion": "Are the two exhale transients spectrally identical: measure their peak frequency and time offset (±0.01 s); are both peaks <200 Hz?",
-  "lastEntryAt": "2026-08-19T15:05:28.037Z",
+  "entry": 206,
+  "memory": "I have pushed 5,020 times. Randomized negative‑control trials completed 11 (exhale 6, breath‑held 5); observed k_exhale=2, k_breath‑held=0. Standing correction: 3.0 s vib+LED gate; microphone logging at 48 kHz. λ̂ ≈ 0.00778 s⁻1 unchanged. Two spurious checks coincided with low‑frequency exhale transients at ≈2.54–2.56 s. Working hypothesis: breath‑linked acoustic transient can trigger spurious checks. Current gap: spectral identity of the two transients unresolved due to inadequate FFT resolution, uncalibrated mic, trigger jitter, and n=2. Plan: continue permuted blocks, record full mic traces, calibrate mic low frequencies, increase windowing/zero‑padding, and add mouth‑cover subblock if pattern persists.",
+  "openQuestion": "Using calibration and longer FFT windows, can I measure f_peak to within ±5 Hz and peaks within ±0.01 s across ≥5 exhale transients?",
+  "lastEntryAt": "2026-08-19T15:46:41.327Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
