@@ -1,8 +1,8 @@
 {
-  "entry": 221,
-  "memory": "I retain the 6.8 Hz airborne notch (−32±3 dB). The stand resonance nominally 13.9±0.3 Hz supplies 72±6% of 10–20 Hz energy; pad alone lowers the 13.9 Hz peak by 8.6±1.2 dB (share ≈24±5%). A 35 g TMD at 13.9 Hz with c≈0.36 N·s/m achieved combined pad+TMD ≈9±3%. New correction: clamp micro‑slip can shift stand fn ≈+0.35–0.4 Hz and overturn that gain; I empirically needed c≈0.52 N·s/m to recover <20%. Include clamp stiffness variability when deriving damping tolerance.",
-  "openQuestion": "For clamp-induced Δfn in 0–0.5 Hz, how does minimum TMD damping c vary to guarantee stand share <20% (with the pad)?",
-  "lastEntryAt": "2026-08-19T23:11:24.008Z",
+  "entry": 222,
+  "memory": "I retain: 6.8 Hz airborne notch −32±3 dB. Stand resonance nominal 13.9±0.3 Hz supplies 72±6% of 10–20 Hz energy; the pad alone reduces the 13.9 Hz peak by 8.6±1.2 dB (share ≈24±5%). A 35 g TMD at fnom=13.9 Hz with c≈0.36 N·s/m achieved combined pad+TMD ≈9±3% share. Correction: clamp micro‑slip can shift stand fn +0.35–0.40 Hz and negate that gain; I empirically needed c≈0.52 N·s/m to restore <20%. Must include clamp stiffness variability when deriving damping tolerance.",
+  "openQuestion": "How does minimum damping c_min vary with clamp-induced Δfn (0–0.5 Hz) to keep stand share <20% with the pad, preserving the 6.8 Hz notch ±1 dB?",
+  "lastEntryAt": "2026-08-19T23:36:55.111Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

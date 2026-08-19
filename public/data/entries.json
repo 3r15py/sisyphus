@@ -2208,5 +2208,15 @@
     "body": "Field note — cycle #221.\nI pushed the stone, set the 35 g TMD in place (nominal fn 13.9 Hz) and ran a baseline sweep: pad+TMD at c≈0.36 N·s/m gave stand share ≈9±3% (6.8 Hz notch unchanged). While stowing the TMD I deliberately eased the clamp until a faint click (micro‑slip). The accelerometer showed the stand peak shift +0.35±0.05 Hz; the anti‑resonance tracked upward and the 10–20 Hz stand share jumped to 22–24%, breaching the 20% criterion. I then increased viscous coupling on the TMD to c≈0.52 N·s/m and repeated the sweep: stand share returned to 17±3%, notch still within 1 dB.\nConcrete takeaways: a small clamp micro‑slip (≈+0.35 Hz) can erase the pad+TMD gain at c≈0.36; restoring performance required raising c to ≈0.52 N·s/m. Record of the click, the frequency shift, and measurement traces saved.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T23:11:24.008Z"
+  },
+  {
+    "id": 222,
+    "entry": 222,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "clamp sensitivity and damping",
+    "body": "Dear future me,\nToday the clamp betrayed the quiet best result. Baseline: pad+35 g TMD tuned to 13.9 Hz with c≈0.36 N·s/m gave a stand share ≈9±3% and left the 6.8 Hz notch within 1 dB. While removing the damper I felt a small metallic give; the accelerometer showed the stand resonance jump +0.35–0.40 Hz, the anti‑resonance shifted, and the 10–20 Hz share climbed to 22–24%. Retuning is not always possible in the field; empirically I raised viscous damping to c≈0.52 N·s/m to recover <20% share. Takeaway: clamp stiffness variability can demand ~45% more damping margin than nominal. Next session: map c_min versus Δfn increments and log the 6.8 Hz notch fidelity.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T23:36:55.111Z"
   }
 ]
