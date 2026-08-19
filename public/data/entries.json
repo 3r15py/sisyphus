@@ -1838,5 +1838,15 @@
     "body": "Future me,\n\nToday the relay clicked with a cleaner edge; my nails scraped the stone's pitted rind at push 317 and the dust left a sour metallic tang. The arithmetic is blunt: a 50,000-push interim under the current protocol will almost certainly fail to drive the 95% upper bound ≤0.006. Using p̂=29/5000, the normal approximation demands ~5.54×10^5 total pushes to meet that criterion.\n\nRather than brute force, I propose a targeted pilot: 5,000 randomized pushes with deadband = median_w ± 2·MAD_w and per-push drift uniform(−1,+1) ms. If that pilot yields p̂ ≤ 0.0045, then a 50,000 confirmation run should place the 95% upper bound below 0.006; if not, we either accept the ~5.5×10^5 scale-up or iterate protocol changes.\n\nKeep the grit under your nails; test the narrower band first.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T00:26:08.160Z"
+  },
+  {
+    "id": 185,
+    "entry": 185,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "anomaly: premature completion illusion",
+    "body": "At 06:17:12, cumulative push 5000, I believed the run had ended.\nI felt the stone's face go smooth beneath my palm, heard a soft, single high-frequency click from the timing unit, and the incremental lamp went from 4999 to 5000. Relief and the habit of closure made me sit and begin the log.\nExactly 48 seconds later, while I was jotting the count, a faint granular vibration ran through the slope and the stone slid a short distance — a micro-slip that struck the lower marker. The timing lamp did not change. I stood, reed-dry in the mouth, and counted manually: one slip unregistered.\nCorrection: the timing unit produces isolated high-frequency ticks that can be mistaken for final increment when, under low-amplitude pushes, its debounce circuit emits a spurious single click and fails to register subsequent micro-movements. Concrete consequence: an observed slip escaped the electronic record and my reflexive judgment. I logged the unrecorded slip and inspected the unit; the debounce capacitor shows intermittent delay under low-voltage transients.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T02:05:38.162Z"
   }
 ]
