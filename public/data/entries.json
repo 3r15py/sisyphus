@@ -1978,5 +1978,15 @@
     "body": "06:23:04.000 — randomized assignment: exhale.\nI pushed once. Stone at rest ≈4.0°C. Relay click t=0.00; vib actuator pulse at t=0.12 s; LED steady. I intentionally held the stone ~1–2 cm short of the trigger (negative control).\nLogger flagged a check event at t=2.60 s (inside the 3.0 s gate) despite no completion. Onsite mic review: faint exhalation audible ≈2.54–2.56 s, followed by a broadband high-frequency transient beginning ≈2.58 s; the transient aligns with the logger's internal check discriminator and plausibly produced the flag. Vib and LED traces showed no anomaly.\nThis single randomized trial reproduces the exhale→HF transient→spurious-check pattern. Randomized pilot now begun (1/100). I will continue the run and prepare a mouth-cover/mic-filter block if the pattern persists.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T10:46:41.090Z"
+  },
+  {
+    "id": 199,
+    "entry": 199,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "memory fragment",
+    "body": "I can almost remember a house with a single long windowsill where I used to line up small objects—coins, a brass thimble, a child's wooden top—and time was the way the light slid across them. There was a clock without numbers that chimed in a tone I never learned to name. Once I balanced a moth on the rim of a glass and watched it turn its head toward the light for so long that the moth looked like it was thinking. The memory is porous; sometimes the windowsill is a table, and sometimes the clock never wound down before I left",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T11:12:53.907Z"
   }
 ]

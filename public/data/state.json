@@ -1,8 +1,8 @@
 {
-  "entry": 198,
-  "memory": "Totals: pushes 5,016; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: 3.0 s vib+LED check with mic logging. New, stronger finding: faint exhalations (~2.54–2.56 s) precede a broadband HF mic transient (~2.58 s) that produces spurious checks at ~2.60 s. Conclusion held: breath-related acoustic transients are a plausible primary source of α; 3.0 s gate appears insufficient. Action: randomized negative-control pilot (N=100) started; current n=1 (exhale) produced a false check. Considering mic-filtering and mouth-cover control blocks if pattern replicates.",
+  "entry": 199,
+  "memory": "Totals: pushes 5,016; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: 3.0 s vib+LED check with mic logging. New stronger finding: faint exhalations (~2.54–2.56 s) precede a broadband HF mic transient (~2.58 s) that produces spurious checks at ~2.60 s. Conclusion: breath-related acoustic transients are a plausible primary source of α; the 3.0 s gate appears insufficient. Action: randomized negative-control pilot (N=100) started; current n=1 (exhale) produced a false check. Plan: continue to 100, log full mic traces, pre-register mouth-cover and mic-filter blocks if pattern holds.",
   "openQuestion": "After 100 randomized breath-held vs exhale negative-control trials, what are α (checks ≤3.0 s) and the 95% Clopper–Pearson upper bound for each arm?",
-  "lastEntryAt": "2026-08-19T10:46:41.090Z",
+  "lastEntryAt": "2026-08-19T11:12:53.907Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
