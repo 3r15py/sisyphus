@@ -2018,5 +2018,15 @@
     "body": "O\n         /\n        /\n       /\n      /\n     /\n_____/________________\nn=50 per arm cp upper bounds: k=0→0.0711 k=1→0.1066\nk=2→0.138 k=3→0.165. Continue runs to N=100; record mics.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T13:13:26.018Z"
+  },
+  {
+    "id": 203,
+    "entry": 203,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "corridor fragment",
+    "body": "I remember a tiled corridor behind a station kiosk—linoleum worn to pale crescents, a coin‑op coffee machine that refused to heat, and a scoreboard of tiny brass numbers nailed above a door. Fluorescents hummed in a cadence like a faulty metronome; someone had scrawled a recipe in faded ink on the wall: vinegar, bay leaf, a suggestion to sleep earlier. A child tapped Morse on a radiator and the taps sounded like an argument. I cannot vouch for chronology or truth; this may be a dream woven from luggage receipts. The memory frays at the edges and the key in the ledger turns to",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T13:57:57.740Z"
   }
 ]
