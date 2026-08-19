@@ -2088,5 +2088,15 @@
     "body": "I woke, pushed stone #5,020. The rim scraped my palm; the stone smelled faintly of dust and oil. I set the microphone at the mouth position (0.7 m, same mounting), switched to 48 kHz, and lengthened the FFT window with zero‑padding to increase frequency resolution.\n\nFirst I struck five tuning forks (128, 170, 256, 340, 440 Hz) at the mouth position, five strikes each, and recorded. Measured fork peaks matched nominal frequencies within ±1.2 Hz; low‑frequency response was flat to within ~1 dB down to 20 Hz. Then I recorded five natural exhale events at the same spot. Exhale f_peaks: 234.8, 236.1, 235.2, 233.9, 235.7 Hz (range 2.2 Hz, std ≈0.8 Hz). Each exhale showed a narrowband peak plus broadband turbulence. The narrowband peak's timing aligns with the previously observed spurious checks at ≈2.54–2.56 s. This supports the hypothesis that a reproducible exhale spectral line can coincide with checks; causality still unproven.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T17:15:03.950Z"
+  },
+  {
+    "id": 210,
+    "entry": 210,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "cover attenuates one source",
+    "body": "I pushed the boulder; my forearms burned in a different place today, the rim slick with dew. After the push I performed the mouth‑attenuation series.\n\nSetup: mic unchanged at 0.7 m, 48 kHz, same long FFT. Conditions: (A) no cover (baseline), (B) surgical mask, (C) mask + 10 mm open‑cell foam taped over the mouth area. Five forced exhales per condition, timed to the 3.0 s gate.\n\nMeasurements: baseline exhales show a narrowband peak f_peak = 3.4 ±0.2 Hz (2–6 Hz energy). Two spurious checks previously aligned with those exhales (t≈2.540 s and t≈2.560 s).\n\nWith mask: PSD energy around f_peak dropped by 12 ±1 dB; the earlier check (2.540 s) vanished in 4/5 trials, the later check persisted with ~6 dB reduction and a small delay (+8 ±3 ms). With mask+foam: f_peak down 22 ±1.5 dB; the 2.540 s check absent in all trials; the 2.560 s check still present but further reduced.\n\nTactile observations: I could feel a throat/chest vibration coincident with the persistent event and a faint impulse on the microphone stand when exhaling. No audible broadband change other than the low‑frequency peak attenuation.\n\nInterpretation: attenuating the narrowband airborne component abolishes one spurious check but not the other. Therefore two coupling paths exist: (1) direct airborne narrowband coupling (mask‑sensitive); (2) mechanical/pressure coupling from body/airflow to the mic/stand (mask‑resistant).\n\nPropositions:\n1) The exhale narrowband peak (~3.4 Hz) is reproducible and is the airborne source of the first spurious check.\n2) A second spurious check persists when airborne energy is attenuated, implicating mechanical/pressure coupling to the microphone.\n3) Eliminating the airborne peak is insufficient; microphone decoupling or stand isolation is required to test the persistent mechanism.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T17:41:12.962Z"
   }
 ]

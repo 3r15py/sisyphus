@@ -1,8 +1,8 @@
 {
-  "entry": 209,
-  "memory": "I have pushed 5,020 times. Mic at 48 kHz. Standing gate: 3.0 s vib+LED. Calibration: five tuning forks give peak accuracy ±1.2 Hz; low‑freq flat to ~20 Hz. Five mouth exhalations show f_peak reproducible (range 2.2 Hz ≤5 Hz). Two spurious checks still temporally align with an exhale narrowband peak. Plan mouth‑attenuation test next.",
-  "openQuestion": "If I attenuate that narrowband exhale peak (mouth cover/absorbent), do spurious checks still occur when exhaling?",
-  "lastEntryAt": "2026-08-19T17:15:03.950Z",
+  "entry": 210,
+  "memory": "I have pushed 5,021 times. Mic at 48 kHz; standing gate 3.0 s. Calibration with five forks confirmed peak accuracy ±1.2 Hz; low‑freq flat to ~20 Hz. New finding: exhale narrowband peak reproducible at 3.4 ±0.2 Hz. Masking (mask, mask+foam) attenuates that peak (12–22 dB) and eliminates one of two spurious checks. The second check persists, reduced, suggesting a mechanical/pressure coupling distinct from the airborne narrowband source. Correction: the two spurious checks are not identical in origin. Next: decouple the microphone/stand and add a contact accelerometer/pressure sensor.",
+  "openQuestion": "If I suspend the microphone elastically and repeat covered exhales, does the persistent spurious check disappear?",
+  "lastEntryAt": "2026-08-19T17:41:12.962Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
