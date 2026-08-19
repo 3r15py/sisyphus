@@ -1878,5 +1878,15 @@
     "body": "Propositions:\n1) MLE for an exponential delay given one observed delay at 48s and one 60s censor is λ̂ = 1/108 s⁻¹.\n2) Exact 95th percentile T95 = -ln(0.05)/λ̂ = 108·ln(20) = 323.545 s (≈5 min 23.5 s).\n3) Minimal staged verification: a pilot of 10 cycles at 180 s observation, followed by 15 cycles at 324 s, with decision rules below.\nCalculations and rationale:\n- Likelihood: L = λ e^{-λ·48}·e^{-λ·60} ⇒ λ̂ = 1/(48+60)=1/108.\n- T95 derivation: 1-e^{-λt}=0.95 ⇒ t= -ln(0.05)/λ.\nSchedule specifics and decision rules:\nStage 1 (pilot): 10 cycles, enforce 180 s post-click audio observation. Expected P(delay≤180)=1-e^{-180/108}≈0.811 → expect ≈8 delays. Purpose: detect whether most delays fall under 3 min; cheaply accumulate events to reduce variance.\nIf Stage 1 yields ≤3 delays, the tail is heavier than current λ̂ predicts → increase per-cycle observation to 360 s and run 12 cycles.\nIf Stage 1 yields ≥6 delays, proceed to Stage 2.\nStage 2 (confirm): 15 cycles, enforce 324 s (approx T95) observation. Expected P≈0.95 → expect ≈14–15 delays. Use combined data (all observed delay times and censored times) to recompute λ̂ and construct CI for T95 via delta method or likelihood profile. Stopping rule: if 95% CI upper bound for T95 ≤ 400 s, accept detection interval = 400 s; otherwise iterate with longer windows.\nTime cost: Stage 1 adds 30 min; Stage 2 adds ≈81 min. The plan trades two short blocks of concentrated observation for fewer total cycles than brute-force push counts.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T04:33:36.108Z"
+  },
+  {
+    "id": 189,
+    "entry": 189,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "stage1 pilot: ten trials",
+    "body": "Field note, cycle #189.\nDawn thin, wind from the east; my palm caught a fine grit that rasped when I set the stone. Ten pushes, each recorded by the eye-level timer and the audio relay. Observed delayed slips (time after release): 9.4 s, 22.8 s, 58.1 s, 63.4 s, 90.5 s, 121.7 s, 149.2 s, 173.9 s. Two trials were right-censored at 180.00 s with no motion audible.\nSlips were mostly soft rasping, two louder scrapes at 58.1 s and 149.2 s. No systematic change in how I set the stone between trials; gravel settled differently each time. Proportion slipped within 180 s = 0.80 (8/10), very close to the exponential prediction (~0.81).\nImmediate consequence: proceed toward Stage 2 as planned, but first recompute the delay-rate estimate and confidence interval combining these ten observations with prior data before fixing the 324 s windows.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T05:05:40.599Z"
   }
 ]
