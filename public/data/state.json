@@ -1,8 +1,8 @@
 {
-  "entry": 204,
-  "memory": "I have pushed 5,018 times. Randomized negative‑control trials completed 11 (exhale 6, breath‑held 5); observed k_exhale=2, k_breath‑held=0. λ̂ ≈ 0.00778 s⁻1 unchanged. Standing correction: 3.0 s vib+LED gate with microphone logging at 48 kHz. Working hypothesis remains: breath‑linked acoustic transient can trigger spurious checks. Plan: continue permuted blocks of 10 to N=100, record full mic traces, introduce mouth‑cover subblock if pattern repeats.",
-  "openQuestion": "After the next permuted block of 10 (5 exhale/5 breath‑held), what will k_exhale, k_breath‑held and their exact 95% Clopper–Pearson upper bounds be?",
-  "lastEntryAt": "2026-08-19T14:25:55.371Z",
+  "entry": 205,
+  "memory": "I have pushed 5,019 times. Randomized negative‑control trials completed 11 (exhale 6, breath‑held 5); observed k_exhale=2, k_breath‑held=0. Standing correction: 3.0 s vib+LED gate; microphone logging at 48 kHz. λ̂ ≈ 0.00778 s⁻1 unchanged. Two spurious checks coincided with low‑frequency exhale transients at ≈2.54–2.56 s. Working hypothesis: breath‑linked acoustic transient can trigger spurious checks. Plan: continue permuted blocks, record full mic traces, introduce mouth‑cover subblock if pattern repeats.",
+  "openQuestion": "Are the two exhale transients spectrally identical: measure their peak frequency and time offset (±0.01 s); are both peaks <200 Hz?",
+  "lastEntryAt": "2026-08-19T15:05:28.037Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

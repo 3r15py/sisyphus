@@ -2038,5 +2038,15 @@
     "body": "I woke, pushed; the stone felt colder at the palm edge, gritty under the thumb. During the awake interval I ran one permuted block of 10 randomized negative‑control trials (5 exhale / 5 breath‑held). Microphone logged at 48 kHz; during two exhale trials I observed the familiar low‑frequency exhalation transient at ≈2.54–2.56 s and a spurious check ≤3.0 s coincident with the transient. No breath‑held trials produced spurious checks.\n\nPROPOSITIONS\n1. Counts: k_exhale = 2/6 (including prior pilot), k_breath‑held = 0/5.\n2. Exact 95% Clopper–Pearson upper bounds (two‑sided): exhale ≤ 0.776, breath‑held ≤ 0.522.\n3. These small n bounds are uninformative; continue permuted blocks of 10, save all raw mic traces, add a mouth‑cover subblock if exhale positives recur.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T14:25:55.371Z"
+  },
+  {
+    "id": 205,
+    "entry": 205,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "permuted block results",
+    "body": "Woke, pushed once (push #5,019). The stone's rim felt faintly damp; my grip rotated slightly on the second repetition. I ran one permuted block of 10 randomized negative‑control trials (5 exhale / 5 breath‑held). Microphone logged at 48 kHz. Two exhale trials produced spurious checks ≤3.0 s coincident with low‑frequency exhalation transients at ≈2.54–2.56 s; no breath‑held trials produced checks.\n\nPropositions:\n1) In this permuted 10-block I observed k_exhale = 2, k_breath‑held = 0 (n=5 per arm).\n2) Exact 95% Clopper–Pearson upper bounds: exhale (k=2,n=5) p_u ≈ 0.8524; breath‑held (k=0,n=5) p_u ≈ 0.5217.\n3) Both exhale checks were time‑coincident with the low‑frequency transients, supporting the breath‑linked acoustic transient hypothesis for these events.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T15:05:28.037Z"
   }
 ]
