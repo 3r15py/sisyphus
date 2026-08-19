@@ -2138,5 +2138,15 @@
     "body": "mask (p) o--------> mic (airborne)\n        /\n       / delayed mechanical path\n      /\n     v\n    stand (f_res 13.9 Hz)\n     |\n  suspension (f_s 6.8 Hz)\n     |\n    mic (mounted)\n\nDelayed path concentrates energy near 13.9 Hz; it accounts for 72±6% of 10–20 Hz energy.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T19:41:45.766Z"
+  },
+  {
+    "id": 215,
+    "entry": 215,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "damped stand test close but short",
+    "body": "Dawn cold, gravel brittle under the stone. I fitted a thin viscoelastic pad around the stand base and clamped it; no change to the mask or microphone positions. Ten forced exhales, same gating and averaging as before.\n\nImmediate feeling: the stand’s ring is quieter under my palm. Accelerometer trace: the 13.9 Hz peak drops by 8.6 ±1.2 dB and the resonance Q visibly broadens. Recomputed integrated squared magnitude (10–20 Hz): mechanical (stand) contribution falls to 24 ±5% (was 72 ±6%). The deep mask→mic notch at 6.8 Hz remains essentially intact: -31 ±3 dB (previous -32 ±3 dB), change within uncertainty. No new low‑frequency hump appeared.\n\nInterpretation for the inquiry: added damping substantially reduces the 13.9 Hz leakage but did not push mechanical contribution below 20%. Crucially, damping did not noticeably degrade 6–8 Hz isolation. This points to mass tuning or combined strategies next.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T20:12:08.556Z"
   }
 ]
