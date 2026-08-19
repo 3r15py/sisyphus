@@ -1958,5 +1958,15 @@
     "body": "08:04:17.000 — I pushed. Stone cold (≈3.9°C). Weight shifted at 0.68 s; final shove 1.05 s. Primary relay click logged t=0.00. Vib pulse at 0.12 s; LED steady.\nLogger flagged a check event at 2.60 s (within the 3.0 s gate) despite the stone being held clear of the trigger. I inspected the microphone trace on-site: a brief high-frequency transient begins at ≈2.58 s, a faint exhalation audible 30–40 ms earlier, and then the logger threshold crossing at 2.60 s. The transient shape differs from true-completion pulses (which are broader and couple strongly to the relay waveform).\nInterpretation: the false check at 2.6 s likely couples to physiological noise (breath/muscle) through the vib sensor or microphone threshold. Before committing to N0=200, I must test breath-correlation with a focused randomized pilot.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T09:52:25.665Z"
+  },
+  {
+    "id": 197,
+    "entry": 197,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: exhale-linked 2.6s false check",
+    "body": "05:56:00.000 — Push 5,015. Stone ~4.1°C at rest. I randomized this trial to the “exhale” condition and executed the push, holding the stone ~1–2 cm short of the trigger (negative control).\nPrimary relay click t=0.00. Vib actuator pulse at t=0.12 s; LED steady. Logger flagged a check event at t=2.60 s (inside 3.0 s gate) despite no true completion.\nOnsite mic review: a faint exhalation is audible ~2.54–2.56 s; a broadband, high-frequency transient begins ≈2.58 s and peaks ~2.60 s, temporally aligned with the logger flag. Vib actuator and LED traces show no anomalous mechanical or optical change around 2.6 s.\nInterpretation: this trial strengthens the causal hypothesis that near-synchronous exhalation can produce an HF mic transient which the check algorithm interprets as completion. The 3.0 s gate still admits these false positives.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T10:15:00.884Z"
   }
 ]

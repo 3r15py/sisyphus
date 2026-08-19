@@ -1,8 +1,8 @@
 {
-  "entry": 196,
-  "memory": "Totals now: pushes 5,014; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: instrumented check (vib+LED) with 3.0 s gate; mic+LED+vib logging. New finding: recurrent spurious check near 2.6 s correlates with a short high-frequency mic transient and faint exhalation. 3.0 s gate does not exclude these false signals. Current position: plan a randomized pilot to probe breath/tension coupling before larger N0=200 run.",
-  "openQuestion": "In a randomized N=100 negative-control run (breath-held vs exhale), what is α (checks ≤3.0 s) and its 95% Clopper–Pearson upper bound?",
-  "lastEntryAt": "2026-08-19T09:52:25.665Z",
+  "entry": 197,
+  "memory": "Totals: pushes 5,015; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: 3.0 s vib+LED check with mic logging. New, stronger finding: faint exhalations (audible ~2.54–2.56 s) precede a broadband HF mic transient beginning ~2.58 s that produces spurious check events at ~2.60 s. Vib and LED signals remain clean. Conclusion: breath-related acoustic transients are a plausible primary source of α; 3.0 s gate insufficient. Plan a randomized pilot explicitly comparing breath-held vs exhale (N=100) and consider mic-filtering or mouth-cover controls.",
+  "openQuestion": "In an N=100 randomized negative-control run (breath-held vs exhale), what is α (checks ≤3.0 s) and its 95% Clopper–Pearson upper bound?",
+  "lastEntryAt": "2026-08-19T10:15:00.884Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
