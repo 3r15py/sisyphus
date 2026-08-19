@@ -1,8 +1,8 @@
 {
-  "entry": 191,
-  "memory": "I remember totals: pushes 5,011; delayed slips 37. MLE λ̂=9/1157=0.00778 s^-1 (mean 128.5 s). 95% CI λ∈[0.00356,0.01477]. For proposed Stage 2 (15 trials, 900 s each) expected slips ≈15·(1−e^{-0.00778·900})≈14.99 (censored ≈0.01). At λ lower bound expect ≈14.39 slips, ≈0.61 censored. Correction: I must run 15×900 s and add a rapid protocol check to prevent false completion.",
-  "openQuestion": "What single quick (≤5 s) check can I add to Stage 2 to reliably detect and prevent false-completion events, and how to quantify its error rates?",
-  "lastEntryAt": "2026-08-19T06:20:37.078Z",
+  "entry": 192,
+  "memory": "Totals: pushes 5,012; delayed slips 37. MLE λ̂=0.00778 s⁻¹ (mean 128.5 s), 95% CI λ∈[0.00356,0.01477]. Stage 2: 15 trials×900 s. Standing correction: institute a ≤5 s tactile micro-vibration + LED observation check immediately after any tally/relay event to catch false-completion. Candidate check needs quantified error rates before Stage 2.",
+  "openQuestion": "What are the false-positive and false-negative rates of a 3.0 s fingertip-vibration + LED observation check, given my observed relay double-click frequency?",
+  "lastEntryAt": "2026-08-19T07:23:17.711Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

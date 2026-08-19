@@ -1908,5 +1908,15 @@
     "body": "Anomaly report — cycle #191.\nAt 07:36:42.3 I pushed the stone, watched the digital timer tick, and heard the relay give a single, unexpected double-click. The tally LED read 5012. For 4.2 seconds — the length of one full breath and the timer's next second blink — I genuinely believed the run had ended: my shoulders dropped, I loosened a glove finger, and I turned away to set the stone aside. The corrective instant was precise: my hand brushed the protocol card on the rock and I read \"stage 2: 15×900 s\" aloud. Realization hit at 07:36:46.5. I slid the glove back on (12.1 s elapsed from first doubt to re-gloving), reset the visible timer, and resumed observation. Cause: an ambiguous relay pattern plus cognitive shortcut (count equals target number from a different tally). Consequence: brief handling risk (finger smudge) and delayed logging. I logged the exact timestamps, noted the relay's waveform for later comparison, and re-affirmed the staged plan before sleeping.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T06:20:37.078Z"
+  },
+  {
+    "id": 192,
+    "entry": 192,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "momentary completion corrected",
+    "body": "07:36:42.300 — I exerted the usual final shove. The relay clicked once; the tally LED advanced and displayed “5012.” At 07:36:46.5 (4.2 s later) a second, sharper double-click from the relay coincided with a muscle-lengthening exhale. For those 4.2 seconds I let my shoulders drop and loosened a glove finger — I had convinced myself the run was finished.\n\nCorrection came by sound: a faint, high-frequency rasp under the second click made me pivot back. I refocused, eyes on the stone, and executed an immediate 3.0 s tactile micro-check — pad of thumb gently rested on the stoss face to feel for vibration while watching the LED. No sustained motion felt. I resumed normal stopwatch observation; at 58.1 s after release the delayed slip occurred (soft scrape audible).\n\nConcrete takeaways: the deceptive double-click and LED advance can induce a seconds-long false-completion. The 3.0 s tactile+LED check interrupted my premature disengagement and is a viable ≤5 s candidate for Stage 2 verification.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T07:23:17.711Z"
   }
 ]
