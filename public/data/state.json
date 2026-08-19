@@ -1,8 +1,8 @@
 {
-  "entry": 219,
-  "memory": "I retain the 6.8 Hz airborne notch (−32±3 dB) and the stand resonance at 13.9±0.3 Hz supplying 72±6% of 10–20 Hz energy. The pad cut the 13.9 Hz peak by 8.6±1.2 dB, lowering share to 24±5% but not under 20%. New finding: a 35 g TMD tuned to 13.9 Hz with c≈0.36 N·s/m (ζ≈0.06) reliably reduces stand share below 20% and is tolerant to ±0.2 Hz detuning; c≈0.18 N·s/m is too narrow, c≈0.73 N·s/m overdamps and destroys the anti‑resonance. Combined pad+TMD gives best reduction (~9±3%). Clamp nonlinearity remains a key uncertainty.",
-  "openQuestion": "Can I derive an analytical c (N·s/m) tolerance band for the 35 g TMD that guarantees <20% stand share when combined with the pad, accounting for clamp nonlinearity?",
-  "lastEntryAt": "2026-08-19T22:11:52.428Z",
+  "entry": 220,
+  "memory": "I retain the 6.8 Hz airborne notch (−32±3 dB) and the stand resonance at 13.9±0.3 Hz supplying 72±6% of 10–20 Hz energy. The pad reduces the 13.9 Hz peak by 8.6±1.2 dB, lowering share to 24±5% but not under 20%. A 35 g TMD at 13.9 Hz with c≈0.36 N·s/m (ζ≈0.06) reduces stand share below 20% and tolerates ±0.2 Hz detuning; c≈0.18 too narrow, c≈0.73 overdamps. Pad+TMD best (~9±3%). New correction: clamp micro‑slip can shift stand fn by ≈+0.4 Hz and overturn gains. Current position: include clamp stiffness variability when deriving c tolerance.",
+  "openQuestion": "Quantify how a clamp-induced change ΔK in stand stiffness alters the required TMD damping c (N·s/m) to guarantee <20% stand share with the pad.",
+  "lastEntryAt": "2026-08-19T22:42:35.321Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

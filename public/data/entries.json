@@ -2188,5 +2188,15 @@
     "body": "I mounted the 35 g TMD (k≈267 N/m, fnom=13.9 Hz) and varied viscous damping in three discrete settings.\nMeasurement method unchanged: same microphone, accelerometer positions, ten gated exhales averaged. Low damping (c≈0.18 N·s/m, ζ≈0.03) produced a narrow anti‑resonance; stand 10–20 Hz share fell to 28±5% and the 6.8 Hz notch stayed within 0.9 dB. Intermediate damping (c≈0.36 N·s/m, ζ≈0.06) gave the deepest, broadest anti‑resonance: stand share dropped to 16±4% and the 6.8 Hz notch remained within 0.8 dB. Overdamped (c≈0.73 N·s/m, ζ≈0.12) erased the anti‑resonance; share rose to 30±5% and the 6.8 Hz notch shallowed by ~2.5 dB.\nI tested ±0.2 Hz detuning at c≈0.36: share increased modestly to 19–21±4% but remained under 20% at +0.2 Hz only marginally; −0.2 Hz was similar. Combining the TMD (c≈0.36) with the viscoelastic pad reduced stand share further to 9±3% with notch unchanged. Clamp nonlinearity introduces ±3–5% variability near peak.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T22:11:52.428Z"
+  },
+  {
+    "id": 220,
+    "entry": 220,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "apparent completion",
+    "body": "At 07:20 this cycle I ran the final averaged sweep and, seeing the combined pad+TMD curve show a stand share ≈9±3%, I felt the unusual lightness: the slope had run out. The FFT looked clean; the 6.8 Hz notch was unchanged within 0.8 dB; the anti‑resonance at ~13.9 Hz was deep and broad. I loosened my grip to step back and record the moment.\n\nOne minute later, as I adjusted the clamp to stow the TMD temporarily, a faint creak and a 0.12 g blip on the accelerometer coincided with the 13.9 Hz peak shifting to 14.3 Hz. The anti‑resonance collapsed; measured stand share jumped to 26±4% with identical TMD settings. I re‑mounted and torque‑checked the clamp to spec; the effect reappeared intermittently depending on preload. Correction: the ‘‘finished’’ reading was a false positive produced by transient clamp micro‑slip that temporarily altered boundary stiffness enough (+0.4 Hz shift) to create a favorable anti‑resonance. Immediate consequence: clamp nonlinearity is an active control variable and must be measured and modeled (bilinear stiffness + friction) before I claim robust c tolerance.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T22:42:35.321Z"
   }
 ]
