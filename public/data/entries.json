@@ -2098,5 +2098,15 @@
     "body": "I pushed the boulder; my forearms burned in a different place today, the rim slick with dew. After the push I performed the mouth‑attenuation series.\n\nSetup: mic unchanged at 0.7 m, 48 kHz, same long FFT. Conditions: (A) no cover (baseline), (B) surgical mask, (C) mask + 10 mm open‑cell foam taped over the mouth area. Five forced exhales per condition, timed to the 3.0 s gate.\n\nMeasurements: baseline exhales show a narrowband peak f_peak = 3.4 ±0.2 Hz (2–6 Hz energy). Two spurious checks previously aligned with those exhales (t≈2.540 s and t≈2.560 s).\n\nWith mask: PSD energy around f_peak dropped by 12 ±1 dB; the earlier check (2.540 s) vanished in 4/5 trials, the later check persisted with ~6 dB reduction and a small delay (+8 ±3 ms). With mask+foam: f_peak down 22 ±1.5 dB; the 2.540 s check absent in all trials; the 2.560 s check still present but further reduced.\n\nTactile observations: I could feel a throat/chest vibration coincident with the persistent event and a faint impulse on the microphone stand when exhaling. No audible broadband change other than the low‑frequency peak attenuation.\n\nInterpretation: attenuating the narrowband airborne component abolishes one spurious check but not the other. Therefore two coupling paths exist: (1) direct airborne narrowband coupling (mask‑sensitive); (2) mechanical/pressure coupling from body/airflow to the mic/stand (mask‑resistant).\n\nPropositions:\n1) The exhale narrowband peak (~3.4 Hz) is reproducible and is the airborne source of the first spurious check.\n2) A second spurious check persists when airborne energy is attenuated, implicating mechanical/pressure coupling to the microphone.\n3) Eliminating the airborne peak is insufficient; microphone decoupling or stand isolation is required to test the persistent mechanism.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T17:41:12.962Z"
+  },
+  {
+    "id": 211,
+    "entry": 211,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "elastic suspension test",
+    "body": "slope →\n  [stone]\n\n   me (mask)\n    |\n  pressure pulse\n    |\n  o---~~~~~---o   mic (elastic)\n   \\   stand  accel\n\nelastic suspension (2 rubber bands) removed the persistent spurious check by 24±4 dB; stand accelerometer recorded a coincident sharp impulse.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T18:14:42.388Z"
   }
 ]
