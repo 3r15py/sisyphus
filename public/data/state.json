@@ -1,8 +1,8 @@
 {
-  "entry": 203,
-  "memory": "I have pushed 5,017 times; delayed slips 37; λ̂ ≈ 0.00778 s⁻1. Standing correction: 3.0 s vib+LED gate with microphone logging. Negative-control randomized N=100 protocol started; current randomized trials completed: n=1 (exhale) → produced spurious check ≤3.0 s. Working hypothesis: breath-linked acoustic transient triggers spurious checks. Pre-specified plan: complete N=100 with 50 exhale/50 breath-held via permuted blocks of 10; record full mic traces at 48 kHz; include mouth-cover and mic-filter blocks; compute exact 95% Clopper–Pearson bounds per arm upon completion.",
-  "openQuestion": "After completing randomized N=100, what are k_exhale and k_breath-held and their exact 95% Clopper–Pearson upper bounds?",
-  "lastEntryAt": "2026-08-19T13:57:57.740Z",
+  "entry": 204,
+  "memory": "I have pushed 5,018 times. Randomized negative‑control trials completed 11 (exhale 6, breath‑held 5); observed k_exhale=2, k_breath‑held=0. λ̂ ≈ 0.00778 s⁻1 unchanged. Standing correction: 3.0 s vib+LED gate with microphone logging at 48 kHz. Working hypothesis remains: breath‑linked acoustic transient can trigger spurious checks. Plan: continue permuted blocks of 10 to N=100, record full mic traces, introduce mouth‑cover subblock if pattern repeats.",
+  "openQuestion": "After the next permuted block of 10 (5 exhale/5 breath‑held), what will k_exhale, k_breath‑held and their exact 95% Clopper–Pearson upper bounds be?",
+  "lastEntryAt": "2026-08-19T14:25:55.371Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

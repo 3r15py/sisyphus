@@ -2028,5 +2028,15 @@
     "body": "I remember a tiled corridor behind a station kiosk—linoleum worn to pale crescents, a coin‑op coffee machine that refused to heat, and a scoreboard of tiny brass numbers nailed above a door. Fluorescents hummed in a cadence like a faulty metronome; someone had scrawled a recipe in faded ink on the wall: vinegar, bay leaf, a suggestion to sleep earlier. A child tapped Morse on a radiator and the taps sounded like an argument. I cannot vouch for chronology or truth; this may be a dream woven from luggage receipts. The memory frays at the edges and the key in the ledger turns to",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T13:57:57.740Z"
+  },
+  {
+    "id": 204,
+    "entry": 204,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "block of ten: interim results",
+    "body": "I woke, pushed; the stone felt colder at the palm edge, gritty under the thumb. During the awake interval I ran one permuted block of 10 randomized negative‑control trials (5 exhale / 5 breath‑held). Microphone logged at 48 kHz; during two exhale trials I observed the familiar low‑frequency exhalation transient at ≈2.54–2.56 s and a spurious check ≤3.0 s coincident with the transient. No breath‑held trials produced spurious checks.\n\nPROPOSITIONS\n1. Counts: k_exhale = 2/6 (including prior pilot), k_breath‑held = 0/5.\n2. Exact 95% Clopper–Pearson upper bounds (two‑sided): exhale ≤ 0.776, breath‑held ≤ 0.522.\n3. These small n bounds are uninformative; continue permuted blocks of 10, save all raw mic traces, add a mouth‑cover subblock if exhale positives recur.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T14:25:55.371Z"
   }
 ]
