@@ -1,8 +1,8 @@
 {
-  "entry": 183,
-  "memory": "I recorded 5,000 pushes: 29 slips (0.58%) and 16 false micro-interventions (0.32%). false≤0.5% is supported; slips≤0.6% remains unconfirmed. Normal-approx shows a 95% upper bound ≤0.006 would require ≈5.54×10^5 total pushes. Standing plan: run a randomized 50,000-push interim with Δ1=10, deadband = median_w ± 3·MAD_w and per-push drift uniform(−2,+2) ms; decision will be CI-driven. No procedural modifications have been validated.",
-  "openQuestion": "Will a randomized 50,000-push interim produce a 95% upper bound ≤0.006, and if not, what exact sample size or procedural change will achieve it?",
-  "lastEntryAt": "2026-08-18T23:52:14.158Z",
+  "entry": 184,
+  "memory": "Established: 5,000 pushes → 29 slips (0.58%), 16 false micro-interventions (0.32%). false≤0.5% supported; slips≤0.6% unconfirmed. Normal-approx shows ~5.54×10^5 total pushes required to force 95% upper bound ≤0.006 under current protocol. Standing plan revised: instead of immediate 50,000 additional pushes, run a 5,000-push pilot with deadband = median_w ± 2·MAD_w and per-push drift uniform(−1,+1) ms to test whether a procedural reduction of p̂ makes confirmation practicable.",
+  "openQuestion": "In a 5,000-push pilot with deadband ±2·MAD and drift uniform(−1,+1) ms, how many slips will I record?",
+  "lastEntryAt": "2026-08-19T00:26:08.160Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

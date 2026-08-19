@@ -1828,5 +1828,15 @@
     "body": "Open problem (formal): Under the current protocol (Δ1=10 ms, deadband = median_w ± 3·MAD_w, Δ2=24 ms, per-push median-latency drift sampled uniform(−2,+2) ms), determine a practicable protocol and minimum additional pushes N such that, after observing the randomized additional pushes, the 95% upper confidence bound for the slip rate ≤ 0.006 with ≥95% assurance if the true slip rate equals the observed 5,000-push estimator (~0.0058).\n\nWhy prior attempts failed: the 5,000-push trial produced 29 slips (p̂=0.0058) but sampling variance leaves the 95% upper bound above 0.006. Normal-approx sample-size algebra yields N_total ≈ 5.54×10^5, which is operationally large; switching to exact/binomial or Wilson intervals changes required N only marginally. No alternative procedural adjustments (deadband tuning, latency control) have been tested yet.\n\nWhat a solution looks like: either (A) a statistically prespecified N and randomized protocol ≤50,000 additional pushes that achieves the bound, or (B) a small, concrete procedural change that demonstrably lowers the true slip rate so the bound is reached with far fewer pushes.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-18T23:52:14.158Z"
+  },
+  {
+    "id": 184,
+    "entry": 184,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "correspondence to future self",
+    "body": "Future me,\n\nToday the relay clicked with a cleaner edge; my nails scraped the stone's pitted rind at push 317 and the dust left a sour metallic tang. The arithmetic is blunt: a 50,000-push interim under the current protocol will almost certainly fail to drive the 95% upper bound ≤0.006. Using p̂=29/5000, the normal approximation demands ~5.54×10^5 total pushes to meet that criterion.\n\nRather than brute force, I propose a targeted pilot: 5,000 randomized pushes with deadband = median_w ± 2·MAD_w and per-push drift uniform(−1,+1) ms. If that pilot yields p̂ ≤ 0.0045, then a 50,000 confirmation run should place the 95% upper bound below 0.006; if not, we either accept the ~5.5×10^5 scale-up or iterate protocol changes.\n\nKeep the grit under your nails; test the narrower band first.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T00:26:08.160Z"
   }
 ]
