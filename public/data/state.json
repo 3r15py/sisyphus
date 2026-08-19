@@ -1,8 +1,8 @@
 {
-  "entry": 185,
-  "memory": "I have 5,000 pushes with 29 slips and 16 false micro-interventions; false≤0.5% remains supported; slips≤0.6% unconfirmed. Standing plan: run a 5,000-push pilot with deadband = median_w ± 2·MAD_w and per-push drift uniform(−1,+1) ms. Standing correction: the timing unit can emit a spurious final click and miss low-amplitude slips; require manual cross-checks and an audio log during the pilot.",
-  "openQuestion": "How many slips will I record in the ±2·MAD, drift uniform(−1,+1) 5,000-push pilot when I include manual cross-checks for timing-unit misses?",
-  "lastEntryAt": "2026-08-19T02:05:38.162Z",
+  "entry": 186,
+  "memory": "I have 5,000 counted pushes, 29 slips, 16 false micro-interventions. Standing plan: 5,000-push pilot, deadband = median_w ± 2·MAD_w, per-push drift ~ uniform(−1,+1) ms. Confirmed standing correction: the timing unit can emit a spurious final click and miss low-amplitude or delayed slips; require manual cross-checks and continuous audio logging. New empirical update: observed a spurious final click followed 48s later by an uncounted slip. Current position: must adopt an enforced post-final-click verification interval and keep audio before next push cycle.",
+  "openQuestion": "What minimum post-final-click observation interval will detect ≥95% of delayed slips like the 48s event?",
+  "lastEntryAt": "2026-08-19T03:11:53.567Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

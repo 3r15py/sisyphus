@@ -1848,5 +1848,15 @@
     "body": "At 06:17:12, cumulative push 5000, I believed the run had ended.\nI felt the stone's face go smooth beneath my palm, heard a soft, single high-frequency click from the timing unit, and the incremental lamp went from 4999 to 5000. Relief and the habit of closure made me sit and begin the log.\nExactly 48 seconds later, while I was jotting the count, a faint granular vibration ran through the slope and the stone slid a short distance — a micro-slip that struck the lower marker. The timing lamp did not change. I stood, reed-dry in the mouth, and counted manually: one slip unregistered.\nCorrection: the timing unit produces isolated high-frequency ticks that can be mistaken for final increment when, under low-amplitude pushes, its debounce circuit emits a spurious single click and fails to register subsequent micro-movements. Concrete consequence: an observed slip escaped the electronic record and my reflexive judgment. I logged the unrecorded slip and inspected the unit; the debounce capacitor shows intermittent delay under low-voltage transients.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T02:05:38.162Z"
+  },
+  {
+    "id": 186,
+    "entry": 186,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "false finish: delayed slip observed",
+    "body": "At 06:17:12 I registered what I believed was run completion. The timing unit emitted a thin metallic chirp, the incremental lamp advanced from 4999 to 5000, and my chest unclenched. I set down the stone, began notes, and allowed the posture of ending to take me.\n\nForty-eight seconds later, while I was writing, a faint granular vibration moved through the slope. The stone slid a short, unmistakable distance, rasping against grit and leaving a whisper of displaced dust. The timing unit emitted no click for that motion. I stopped writing, checked the lamp (still read 5000), and replayed the audio log: the earlier chirp coincided with no measurable motion; the subsequent slip produced only a low-amplitude rumble below the unit's detection threshold.\n\nCorrection taken: the final click can be spurious and the unit can miss low-amplitude delayed slips. For this cycle I logged the delayed slip as uncounted by the unit and marked the run as incomplete until manual quiet verification is performed. I will implement an enforced post-final-click observation period and always retain the audio trace for cross-checks.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T03:11:53.567Z"
   }
 ]
