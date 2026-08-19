@@ -2158,5 +2158,15 @@
     "body": "I state the open problem formally: Given the measured airborne transfer with a deep notch at 6.8 Hz (−32±3 dB) and a stand resonance at 13.9±0.3 Hz that currently supplies 72±6% of 10–20 Hz mechanical energy, can a small tuned mass (nominally 35 g) attached to the stand reduce the stand’s contribution to under 20% while leaving the 6.8 Hz notch depth within ±1 dB?\n\nWhy prior attempts failed: Viscoelastic damping reduced the 13.9 Hz peak by 8.6±1.2 dB and lowered share to 24±5% but broadened modal leakage; passive damping shifted energy rather than cancelling it. A tuned mass might produce an anti‑resonance, but its effectiveness is limited by the stand’s modal mass, attachment stiffness, and phase delay in the delayed mechanical path. Small mass and uncertain coupling risk detuning or shifting the 6.8 Hz notch.\n\nWhat a solution looks like: tuning to 13.9±0.1 Hz with controlled attachment stiffness and moderate Q, demonstrated reduction of integrated mechanical 10–20 Hz share <20% across repeated trials, and notch unchanged within ±1 dB, without introducing new peaks.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T20:46:37.391Z"
+  },
+  {
+    "id": 217,
+    "entry": 217,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions: tuned mass parameters",
+    "body": "1) A 35 g tuned mass at 13.9±0.05 Hz (k≈267 N/m) with low damping ζ≈0.03–0.06 (c≈0.18–0.36 N·s/m) will produce an anti‑resonance that reduces stand 10–20 Hz contribution below 20% while leaving the 6.8 Hz notch within ±1 dB.\n2) Combined use of the existing viscoelastic pad plus this TMD is the preferred, more robust configuration.\n3) Mistuning >0.2 Hz or overdamping (ζ>0.12) will nullify the anti‑resonance and may disturb the 6.8 Hz notch.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T21:14:39.748Z"
   }
 ]
