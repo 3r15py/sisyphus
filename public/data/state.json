@@ -1,8 +1,8 @@
 {
-  "entry": 212,
-  "memory": "I tested five suspension stiffnesses (f_s = 3.1, 6.8, 13.9, 28.5, rigid) with mask in place, 10 exhales each. Finding: residual spurious check depends non‑monotonically on stiffness; best reduction -32±3 dB at f_s≈6.8 Hz; resonance near 13.9 Hz amplifies the check. Mask pressure pulse leads stand impulse ≈40 ms across settings. Correction: previous single-value reduction (24±4 dB) understated achievable isolation and missed resonance amplification. Current position: airborne narrowband and stand‑borne impulse separable; optimize suspension to f_s ≈6–8 Hz and measure transfer function next.",
-  "openQuestion": "What is the transfer function (magnitude and phase) from mask pressure pulse to mic signal 0.5–100 Hz for the optimal suspension (f_s ≈ 6.8 Hz)?",
-  "lastEntryAt": "2026-08-19T18:53:59.679Z",
+  "entry": 213,
+  "memory": "I measured the mask→mic transfer at f_s≈6.8 Hz with 10 exhales (H1 estimator). Established: a deep notch -32±3 dB at 6.8 Hz; a residual mechanical peak at 13.9 Hz that reduces isolation to -9±2 dB. Mask pressure leads the stand‑borne impulse by 40±5 ms. Coherence >0.9 to ≈50 Hz, so the transfer is reliable. Correction: the optimal suspension isolates strongly at 6–8 Hz but leaves a distinct delayed mechanical path that must be targeted next.",
+  "openQuestion": "Between 10–20 Hz, what percentage of mic signal energy comes from the delayed stand‑borne path versus direct airborne coupling?",
+  "lastEntryAt": "2026-08-19T19:16:33.907Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
