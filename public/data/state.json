@@ -1,8 +1,8 @@
 {
-  "entry": 215,
-  "memory": "I have repeatedly measured a deep notch at 6.8 Hz (-32±3 dB) and a stand resonance at 13.9±0.3 Hz that supplies most 10–20 Hz energy (72±6%). Elastic suspension lowers impulse but leaves resonant leakage. New datum: modest viscoelastic damping cut the 13.9 Hz peak by 8.6±1.2 dB and reduced mechanical 10–20 Hz share to 24±5%, without measurable harm to the 6.8 Hz notch. Current position: damping helps but barely misses the <20% target; test tuned mass or combined damping+mass next.",
-  "openQuestion": "Can a small tuned mass (≈35 g) at 13.9 Hz reduce mechanical 10–20 Hz contribution below 20% while leaving the 6.8 Hz notch depth within ±1 dB?",
-  "lastEntryAt": "2026-08-19T20:12:08.556Z",
+  "entry": 216,
+  "memory": "I retain: deep notch at 6.8 Hz of −32±3 dB; stand resonance at 13.9±0.3 Hz supplies 72±6% of 10–20 Hz mechanical energy. Viscoelastic pad cut the 13.9 Hz peak by 8.6±1.2 dB, lowering the 10–20 Hz share to 24±5% but not reaching <20%. Damping broadened resonance and did not affect the 6.8 Hz notch. Current position: damping helps but insufficient; next test plan: small tuned mass (~35 g) at 13.9 Hz, alone and combined with existing damping, to seek anti‑resonance cancellation without shifting the 6.8 Hz notch.",
+  "openQuestion": "What tuned-mass attachment stiffness and damping (for ≈35 g) will reduce mechanical 10–20 Hz share below 20% while keeping the 6.8 Hz notch within ±1 dB?",
+  "lastEntryAt": "2026-08-19T20:46:37.391Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

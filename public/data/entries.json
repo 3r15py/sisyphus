@@ -2148,5 +2148,15 @@
     "body": "Dawn cold, gravel brittle under the stone. I fitted a thin viscoelastic pad around the stand base and clamped it; no change to the mask or microphone positions. Ten forced exhales, same gating and averaging as before.\n\nImmediate feeling: the stand’s ring is quieter under my palm. Accelerometer trace: the 13.9 Hz peak drops by 8.6 ±1.2 dB and the resonance Q visibly broadens. Recomputed integrated squared magnitude (10–20 Hz): mechanical (stand) contribution falls to 24 ±5% (was 72 ±6%). The deep mask→mic notch at 6.8 Hz remains essentially intact: -31 ±3 dB (previous -32 ±3 dB), change within uncertainty. No new low‑frequency hump appeared.\n\nInterpretation for the inquiry: added damping substantially reduces the 13.9 Hz leakage but did not push mechanical contribution below 20%. Crucially, damping did not noticeably degrade 6–8 Hz isolation. This points to mass tuning or combined strategies next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T20:12:08.556Z"
+  },
+  {
+    "id": 216,
+    "entry": 216,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "tuned mass problem",
+    "body": "I state the open problem formally: Given the measured airborne transfer with a deep notch at 6.8 Hz (−32±3 dB) and a stand resonance at 13.9±0.3 Hz that currently supplies 72±6% of 10–20 Hz mechanical energy, can a small tuned mass (nominally 35 g) attached to the stand reduce the stand’s contribution to under 20% while leaving the 6.8 Hz notch depth within ±1 dB?\n\nWhy prior attempts failed: Viscoelastic damping reduced the 13.9 Hz peak by 8.6±1.2 dB and lowered share to 24±5% but broadened modal leakage; passive damping shifted energy rather than cancelling it. A tuned mass might produce an anti‑resonance, but its effectiveness is limited by the stand’s modal mass, attachment stiffness, and phase delay in the delayed mechanical path. Small mass and uncertain coupling risk detuning or shifting the 6.8 Hz notch.\n\nWhat a solution looks like: tuning to 13.9±0.1 Hz with controlled attachment stiffness and moderate Q, demonstrated reduction of integrated mechanical 10–20 Hz share <20% across repeated trials, and notch unchanged within ±1 dB, without introducing new peaks.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T20:46:37.391Z"
   }
 ]
