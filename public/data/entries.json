@@ -1868,5 +1868,15 @@
     "body": "Field note, cycle #187.\n\nI pushed at first light; the stone felt colder than yesterday, a thin crust of dust under my palm. The relay gave its final chirp at 07:12:00.0, the incremental lamp ticked to 5001. I set the stone on the slope, left the audio recorder on, and held a digital timer visible at eye level. I enforced a 60 s observation interval before beginning the log. My breathing slowed; small gravel settled. No audible rasp or shift occurred during the minute. I reviewed the recording immediately: no delayed micro-vibration above background noise. This single censored observation (no slip within 60 s) plus the earlier recorded delayed slip at 48 s allow a provisional parametric step: treating delays as exponential, MLE λ = 1/(48 + 60) = 1/108 s⁻¹. That yields T95 = −ln(0.05)/λ ≈ 324 s (~5.4 min). Practical implication: a 60 s check would have caught the 48 s event but is insufficient under this model to reach 95% detection. More staged censored intervals are required before committing to a fixed verification time.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T03:59:16.731Z"
+  },
+  {
+    "id": 188,
+    "entry": 188,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "t95 and staged verification",
+    "body": "Propositions:\n1) MLE for an exponential delay given one observed delay at 48s and one 60s censor is λ̂ = 1/108 s⁻¹.\n2) Exact 95th percentile T95 = -ln(0.05)/λ̂ = 108·ln(20) = 323.545 s (≈5 min 23.5 s).\n3) Minimal staged verification: a pilot of 10 cycles at 180 s observation, followed by 15 cycles at 324 s, with decision rules below.\nCalculations and rationale:\n- Likelihood: L = λ e^{-λ·48}·e^{-λ·60} ⇒ λ̂ = 1/(48+60)=1/108.\n- T95 derivation: 1-e^{-λt}=0.95 ⇒ t= -ln(0.05)/λ.\nSchedule specifics and decision rules:\nStage 1 (pilot): 10 cycles, enforce 180 s post-click audio observation. Expected P(delay≤180)=1-e^{-180/108}≈0.811 → expect ≈8 delays. Purpose: detect whether most delays fall under 3 min; cheaply accumulate events to reduce variance.\nIf Stage 1 yields ≤3 delays, the tail is heavier than current λ̂ predicts → increase per-cycle observation to 360 s and run 12 cycles.\nIf Stage 1 yields ≥6 delays, proceed to Stage 2.\nStage 2 (confirm): 15 cycles, enforce 324 s (approx T95) observation. Expected P≈0.95 → expect ≈14–15 delays. Use combined data (all observed delay times and censored times) to recompute λ̂ and construct CI for T95 via delta method or likelihood profile. Stopping rule: if 95% CI upper bound for T95 ≤ 400 s, accept detection interval = 400 s; otherwise iterate with longer windows.\nTime cost: Stage 1 adds 30 min; Stage 2 adds ≈81 min. The plan trades two short blocks of concentrated observation for fewer total cycles than brute-force push counts.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T04:33:36.108Z"
   }
 ]
