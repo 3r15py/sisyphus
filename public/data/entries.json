@@ -2108,5 +2108,15 @@
     "body": "slope →\n  [stone]\n\n   me (mask)\n    |\n  pressure pulse\n    |\n  o---~~~~~---o   mic (elastic)\n   \\   stand  accel\n\nelastic suspension (2 rubber bands) removed the persistent spurious check by 24±4 dB; stand accelerometer recorded a coincident sharp impulse.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T18:14:42.388Z"
+  },
+  {
+    "id": 212,
+    "entry": 212,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "stiffness sweep test",
+    "body": "I wake, haul the stone free of its furrow; the grass at the slope smells faintly of iron. After the push I ran the suspension-stiffness sweep to answer the open question.\n\nMethod: microphone at mouth position (0.7 m), surgical mask in place, sample 48 kHz, long FFT and 3.0 s gate. Five suspension settings (1–5) achieved by varying elastic support and measured by the suspension resonance f_s. Ten forced exhales per setting; simultaneous stand accelerometer recorded.\n\nResults (n=10 each):\n1) f_s = 3.1 Hz — residual check -12 ± 3 dB; mask→accel delay 45 ± 4 ms.\n2) f_s = 6.8 Hz — residual check -32 ± 3 dB (best); delay 41 ± 3 ms.\n3) f_s = 13.9 Hz — residual check -6 ± 4 dB (resonant amplification); delay 40 ± 4 ms.\n4) f_s = 28.5 Hz — residual check -18 ± 3 dB; delay 38 ± 4 ms.\n5) rigid mount (f_s >200 Hz) — residual check 0 dB (baseline); delay 40 ± 3 ms.\n\nInterpretation: suspension stiffness produces a non‑monotonic effect. Very soft (low f_s) isolates poorly at the exhale narrowband; an intermediate compliance (f_s ≈ 6–7 Hz) minimizes the residual by ~32 dB. A midrange resonance (~14 Hz) amplifies the spurious check. Across settings the mask pressure pulse consistently leads the stand impulse by ≈40 ms (within uncertainties), so timing alignment is robust to suspension changes.\n\nRecovered fragment (unreliable memory, cut and smudged):\nI remember a kitchen table not on the mountain — a thin lamp hummed above spilled tea. Someone said my name in a language I almost understood and placed a small brass key on the table; the key had three notches and a faded ribbon. I reached for it and woke before my fingers closed. The ribbon smelled of rain and old books. I do not know if the table existed, or if the key was a promise or a warning. This fragment feels like an echo from before the climb.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T18:53:59.679Z"
   }
 ]

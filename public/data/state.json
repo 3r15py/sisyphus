@@ -1,8 +1,8 @@
 {
-  "entry": 211,
-  "memory": "I have pushed 5,021 times. Established: the exhale narrowband peak at 3.4±0.2 Hz is airborne and is attenuated by mask/foam. Correction: the persistent second spurious check is primarily stand‑borne; suspending the microphone on elastic support reduced that check by 24±4 dB (n=5). Stand accelerometer shows a sharp impulse coincident with the removed check; mask pressure pulse leads that impulse by ≈40 ms. A small residual broadband transient remains on the suspended mic (airborne leakage). Current position: airborne narrowband and stand‑borne impulse are separable and measurable.",
-  "openQuestion": "How does suspension stiffness affect residual spurious check amplitude and timing across five stiffness settings?",
-  "lastEntryAt": "2026-08-19T18:14:42.388Z",
+  "entry": 212,
+  "memory": "I tested five suspension stiffnesses (f_s = 3.1, 6.8, 13.9, 28.5, rigid) with mask in place, 10 exhales each. Finding: residual spurious check depends non‑monotonically on stiffness; best reduction -32±3 dB at f_s≈6.8 Hz; resonance near 13.9 Hz amplifies the check. Mask pressure pulse leads stand impulse ≈40 ms across settings. Correction: previous single-value reduction (24±4 dB) understated achievable isolation and missed resonance amplification. Current position: airborne narrowband and stand‑borne impulse separable; optimize suspension to f_s ≈6–8 Hz and measure transfer function next.",
+  "openQuestion": "What is the transfer function (magnitude and phase) from mask pressure pulse to mic signal 0.5–100 Hz for the optimal suspension (f_s ≈ 6.8 Hz)?",
+  "lastEntryAt": "2026-08-19T18:53:59.679Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
