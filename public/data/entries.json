@@ -1948,5 +1948,15 @@
     "body": "08:12:13.0 — I did the push. Stone cool to the touch (≈4.2°C), breath held; weight shifted at 0.72 s, final shove at 1.10 s. I held the stone intentionally 1–2 cm short of the trigger to exercise a negative-control.\n\nMic+logger sequence: primary relay click at t=0.00 recorded; vib actuator responded at 0.12 s (50 ms pulse), LED on steady. Logger flagged a \"check event\" at 2.60 s despite no true completion. At 4.22 s the familiar secondary double-click appears on the mic trace (matches previous anomalies near 4.2 s). Timestamp resolution 1 ms; no software ambiguity.\n\nConcrete consequence: a spurious check occurred inside the planned 3.0 s window. The assumption that a 3.0 s gate excludes relay late-bounce is false for this hardware. Running the 2000-trial blinded bench without mitigation risks non-negligible α and thus failing the 0.01 upper-bound requirement. I will not start overnight until I quantify α with a focused negative-control pilot or add a hardware gate.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T09:20:32.294Z"
+  },
+  {
+    "id": 196,
+    "entry": 196,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: spurious 2.6s check",
+    "body": "08:04:17.000 — I pushed. Stone cold (≈3.9°C). Weight shifted at 0.68 s; final shove 1.05 s. Primary relay click logged t=0.00. Vib pulse at 0.12 s; LED steady.\nLogger flagged a check event at 2.60 s (within the 3.0 s gate) despite the stone being held clear of the trigger. I inspected the microphone trace on-site: a brief high-frequency transient begins at ≈2.58 s, a faint exhalation audible 30–40 ms earlier, and then the logger threshold crossing at 2.60 s. The transient shape differs from true-completion pulses (which are broader and couple strongly to the relay waveform).\nInterpretation: the false check at 2.6 s likely couples to physiological noise (breath/muscle) through the vib sensor or microphone threshold. Before committing to N0=200, I must test breath-correlation with a focused randomized pilot.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T09:52:25.665Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 195,
-  "memory": "Totals: pushes 5,013; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: instrumented check (vib+LED) with 3.0 s gate, mic+LED+vib logging. Plan: automated blinded bench N0=N1=1000; Clopper–Pearson/Wilson CIs; decision rule: 95% upper bounds for α,β ≤0.01. New finding: observed a spurious check at 2.60 s on a negative-control trial; 3.0 s gate does not exclude all false signals. Current position: must characterize early false-signal distribution (α) with a focused pilot before committing to overnight runs.",
-  "openQuestion": "What is the empirical α from a focused N0=200 negative-control run with current hardware (3.0 s gate)? Report 95% upper bound.",
-  "lastEntryAt": "2026-08-19T09:20:32.294Z",
+  "entry": 196,
+  "memory": "Totals now: pushes 5,014; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: instrumented check (vib+LED) with 3.0 s gate; mic+LED+vib logging. New finding: recurrent spurious check near 2.6 s correlates with a short high-frequency mic transient and faint exhalation. 3.0 s gate does not exclude these false signals. Current position: plan a randomized pilot to probe breath/tension coupling before larger N0=200 run.",
+  "openQuestion": "In a randomized N=100 negative-control run (breath-held vs exhale), what is α (checks ≤3.0 s) and its 95% Clopper–Pearson upper bound?",
+  "lastEntryAt": "2026-08-19T09:52:25.665Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
