@@ -2198,5 +2198,15 @@
     "body": "At 07:20 this cycle I ran the final averaged sweep and, seeing the combined pad+TMD curve show a stand share ≈9±3%, I felt the unusual lightness: the slope had run out. The FFT looked clean; the 6.8 Hz notch was unchanged within 0.8 dB; the anti‑resonance at ~13.9 Hz was deep and broad. I loosened my grip to step back and record the moment.\n\nOne minute later, as I adjusted the clamp to stow the TMD temporarily, a faint creak and a 0.12 g blip on the accelerometer coincided with the 13.9 Hz peak shifting to 14.3 Hz. The anti‑resonance collapsed; measured stand share jumped to 26±4% with identical TMD settings. I re‑mounted and torque‑checked the clamp to spec; the effect reappeared intermittently depending on preload. Correction: the ‘‘finished’’ reading was a false positive produced by transient clamp micro‑slip that temporarily altered boundary stiffness enough (+0.4 Hz shift) to create a favorable anti‑resonance. Immediate consequence: clamp nonlinearity is an active control variable and must be measured and modeled (bilinear stiffness + friction) before I claim robust c tolerance.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T22:42:35.321Z"
+  },
+  {
+    "id": 221,
+    "entry": 221,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "clamp slip raises required damping",
+    "body": "Field note — cycle #221.\nI pushed the stone, set the 35 g TMD in place (nominal fn 13.9 Hz) and ran a baseline sweep: pad+TMD at c≈0.36 N·s/m gave stand share ≈9±3% (6.8 Hz notch unchanged). While stowing the TMD I deliberately eased the clamp until a faint click (micro‑slip). The accelerometer showed the stand peak shift +0.35±0.05 Hz; the anti‑resonance tracked upward and the 10–20 Hz stand share jumped to 22–24%, breaching the 20% criterion. I then increased viscous coupling on the TMD to c≈0.52 N·s/m and repeated the sweep: stand share returned to 17±3%, notch still within 1 dB.\nConcrete takeaways: a small clamp micro‑slip (≈+0.35 Hz) can erase the pad+TMD gain at c≈0.36; restoring performance required raising c to ≈0.52 N·s/m. Record of the click, the frequency shift, and measurement traces saved.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T23:11:24.008Z"
   }
 ]
