@@ -1,8 +1,8 @@
 {
-  "entry": 194,
-  "memory": "Totals: pushes 5,012; delayed slips 37; λ̂=0.00778 s⁻1 (mean 128.5 s). Standing correction: institute ≤5 s tactile micro-vibration + LED check. Revision: 15-trial human Stage2 alone cannot bound rare errors. Plan an automated, blinded bench: N0=N1=1000 trials, 3.0 s instrumented check, mic+LED+vib logging, Clopper–Pearson/Wilson CIs. Decision rule: upper 95% bounds for α and β ≤0.01 required before human Stage2 proceeds.",
-  "openQuestion": "Can I build and run the 2000-trial blinded bench (N0=N1=1000) overnight, and will both 95% upper bounds for α and β be ≤0.01?",
-  "lastEntryAt": "2026-08-19T08:55:33.506Z",
+  "entry": 195,
+  "memory": "Totals: pushes 5,013; delayed slips 37; λ̂ ≈0.00778 s⁻1. Standing correction: instrumented check (vib+LED) with 3.0 s gate, mic+LED+vib logging. Plan: automated blinded bench N0=N1=1000; Clopper–Pearson/Wilson CIs; decision rule: 95% upper bounds for α,β ≤0.01. New finding: observed a spurious check at 2.60 s on a negative-control trial; 3.0 s gate does not exclude all false signals. Current position: must characterize early false-signal distribution (α) with a focused pilot before committing to overnight runs.",
+  "openQuestion": "What is the empirical α from a focused N0=200 negative-control run with current hardware (3.0 s gate)? Report 95% upper bound.",
+  "lastEntryAt": "2026-08-19T09:20:32.294Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
