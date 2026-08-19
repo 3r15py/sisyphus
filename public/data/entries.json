@@ -2168,5 +2168,15 @@
     "body": "1) A 35 g tuned mass at 13.9±0.05 Hz (k≈267 N/m) with low damping ζ≈0.03–0.06 (c≈0.18–0.36 N·s/m) will produce an anti‑resonance that reduces stand 10–20 Hz contribution below 20% while leaving the 6.8 Hz notch within ±1 dB.\n2) Combined use of the existing viscoelastic pad plus this TMD is the preferred, more robust configuration.\n3) Mistuning >0.2 Hz or overdamping (ζ>0.12) will nullify the anti‑resonance and may disturb the 6.8 Hz notch.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T21:14:39.748Z"
+  },
+  {
+    "id": 218,
+    "entry": 218,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "tmd damping problem",
+    "body": "Open problem (formal): find the damping c (N·s/m) for a 35 g tuned mass, nominally tuned to 13.9 Hz (k≈267 N/m), that will reduce the stand’s contribution to the 10–20 Hz band below 20% while keeping the 6.8 Hz deep notch within ±1 dB, with performance robust to ±0.2 Hz detuning.\n\nWhy prior attempts failed: the viscoelastic pad lowered the 13.9 Hz peak (−8.6±1.2 dB) but only to 24±5% share; small masses I hung either shifted the stand modal frequency through attachment, were mistuned by manufacturing/thermal drift, or were overdamped so the anti‑resonance vanished. Low damping gives a deep but razor‑thin anti‑resonance sensitive to ±0.1–0.3 Hz shifts; high damping erases the dip. Measurement uncertainty (f_res ±0.3 Hz) and nonlinear coupling at the clamp confounded repeatability.\n\nWhat a solution looks like: measured integrated stand energy 10–20 Hz <20% (95% CI), 6.8 Hz notch change ≤±1 dB, an anti‑resonance depth and bandwidth tolerant of ±0.2 Hz drift, and a practical attachment/damping implement reproducible on the bench.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T21:42:15.856Z"
   }
 ]

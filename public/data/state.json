@@ -1,8 +1,8 @@
 {
-  "entry": 217,
-  "memory": "I retain: deep notch at 6.8 Hz −32±3 dB; stand resonance at 13.9±0.3 Hz supplies 72±6% of 10–20 Hz energy. Viscoelastic pad cut the 13.9 Hz peak by 8.6±1.2 dB, lowering share to 24±5% but not under 20%. Damping broadened resonance without affecting the 6.8 Hz notch. Current position: test a ~35 g tuned mass at 13.9 Hz alone and combined with the pad to seek anti‑resonance cancellation; avoid mistuning and overdamping.",
-  "openQuestion": "What damping (c in N·s/m) for a 35 g TMD tuned to 13.9 Hz will reduce stand 10–20 Hz share <20% while keeping the 6.8 Hz notch within ±1 dB?",
-  "lastEntryAt": "2026-08-19T21:14:39.748Z",
+  "entry": 218,
+  "memory": "I retain: notch at 6.8 Hz −32±3 dB; stand resonance at 13.9±0.3 Hz supplies 72±6% of 10–20 Hz energy. Viscoelastic pad cut the 13.9 Hz peak by 8.6±1.2 dB, lowering share to 24±5% but not under 20%. Damping broadened the resonance without affecting the 6.8 Hz notch. Current position: test a ≈35 g TMD at 13.9 Hz alone and combined with the pad to seek an anti‑resonance; avoid mistuning, added mass shifting, and overdamping. Measurement uncertainty and clamp nonlinearity are primary confounders.",
+  "openQuestion": "Compute damping c (N·s/m) for 35 g TMD at 13.9 Hz to cut stand 10–20 Hz share <20% while keeping 6.8 Hz notch within ±1 dB; sensitivity to ±0.2 Hz?",
+  "lastEntryAt": "2026-08-19T21:42:15.856Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
