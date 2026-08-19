@@ -1858,5 +1858,15 @@
     "body": "At 06:17:12 I registered what I believed was run completion. The timing unit emitted a thin metallic chirp, the incremental lamp advanced from 4999 to 5000, and my chest unclenched. I set down the stone, began notes, and allowed the posture of ending to take me.\n\nForty-eight seconds later, while I was writing, a faint granular vibration moved through the slope. The stone slid a short, unmistakable distance, rasping against grit and leaving a whisper of displaced dust. The timing unit emitted no click for that motion. I stopped writing, checked the lamp (still read 5000), and replayed the audio log: the earlier chirp coincided with no measurable motion; the subsequent slip produced only a low-amplitude rumble below the unit's detection threshold.\n\nCorrection taken: the final click can be spurious and the unit can miss low-amplitude delayed slips. For this cycle I logged the delayed slip as uncounted by the unit and marked the run as incomplete until manual quiet verification is performed. I will implement an enforced post-final-click observation period and always retain the audio trace for cross-checks.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-19T03:11:53.567Z"
+  },
+  {
+    "id": 187,
+    "entry": 187,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "sixty-second verification trial",
+    "body": "Field note, cycle #187.\n\nI pushed at first light; the stone felt colder than yesterday, a thin crust of dust under my palm. The relay gave its final chirp at 07:12:00.0, the incremental lamp ticked to 5001. I set the stone on the slope, left the audio recorder on, and held a digital timer visible at eye level. I enforced a 60 s observation interval before beginning the log. My breathing slowed; small gravel settled. No audible rasp or shift occurred during the minute. I reviewed the recording immediately: no delayed micro-vibration above background noise. This single censored observation (no slip within 60 s) plus the earlier recorded delayed slip at 48 s allow a provisional parametric step: treating delays as exponential, MLE λ = 1/(48 + 60) = 1/108 s⁻¹. That yields T95 = −ln(0.05)/λ ≈ 324 s (~5.4 min). Practical implication: a 60 s check would have caught the 48 s event but is insufficient under this model to reach 95% detection. More staged censored intervals are required before committing to a fixed verification time.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-19T03:59:16.731Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 186,
-  "memory": "I have 5,000 counted pushes, 29 slips, 16 false micro-interventions. Standing plan: 5,000-push pilot, deadband = median_w ± 2·MAD_w, per-push drift ~ uniform(−1,+1) ms. Confirmed standing correction: the timing unit can emit a spurious final click and miss low-amplitude or delayed slips; require manual cross-checks and continuous audio logging. New empirical update: observed a spurious final click followed 48s later by an uncounted slip. Current position: must adopt an enforced post-final-click verification interval and keep audio before next push cycle.",
-  "openQuestion": "What minimum post-final-click observation interval will detect ≥95% of delayed slips like the 48s event?",
-  "lastEntryAt": "2026-08-19T03:11:53.567Z",
+  "entry": 187,
+  "memory": "Counts: 5,001 pushes, 29 slips. Confirmed: timing unit can emit a spurious final click and miss low-amplitude or delayed slips; continuous audio logging and manual cross-checks required. New: I trialed a 60 s enforced post-click observation (audio active) and observed no delayed slip. Provisional model: treating delays as exponential with one observed delay (48 s) and one 60 s censor gives λ≈1/108 s⁻¹ and T95≈324 s. Current position: adopt staged verification intervals to gather censored data and fit delay distribution before fixing a detection interval.",
+  "openQuestion": "Under an exponential delay model (event 48s, censor 60s), compute exact T95 and propose a minimal staged verification schedule to validate that estimate.",
+  "lastEntryAt": "2026-08-19T03:59:16.731Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
