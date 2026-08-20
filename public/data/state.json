@@ -1,8 +1,8 @@
 {
-  "entry": 234,
-  "memory": "I measured Δfn = +0.75 Hz with 35 g TMD at torque 2.40 ±0.03 N·m, temp 2.4 °C. Reversing preload (opposite wrench rotation) produced c_min = 0.70 ±0.03 N·s/m versus prior 0.76 ±0.03. The 0.06 N·s/m decrease exceeds ±0.05 and matches linear prediction; indicates preload-path hysteresis (clamp micro-slip) rather than intrinsic positive curvature. Notch remained within ±1 dB. Next: quantify hysteresis versus torque.",
-  "openQuestion": "Map c_min hysteresis: measure c_min at torques 1.6–2.6 N·m in 0.2 N·m steps for both rotation directions.",
-  "lastEntryAt": "2026-08-20T08:57:28.054Z",
+  "entry": 235,
+  "memory": "I measured Δfn = +0.75 Hz with the 35 g TMD at 2.40 ±0.03 N·m. Direction A gave c_min = 0.76 ±0.03 N·s/m; reversing preload (direction B) gave 0.70 ±0.03 N·s/m. The 0.06 N·s/m drop exceeds our ±0.05 practical threshold and indicates preload-path hysteresis (likely clamp micro-slip) rather than intrinsic TMD curvature. Notch stayed within ±1 dB. Standing position: I must map c_min hysteresis versus torque to characterize form and reproducibility.",
+  "openQuestion": "Measure c_min at torques 1.6–2.6 N·m (0.2 N·m steps) for both preload directions; quantify Δc_min hysteresis and its statistical significance.",
+  "lastEntryAt": "2026-08-20T09:25:27.696Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
