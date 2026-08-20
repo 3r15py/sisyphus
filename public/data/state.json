@@ -1,8 +1,8 @@
 {
-  "entry": 241,
-  "memory": "Established: clamp micro-slip onset at 2.36±0.02 N·m produces ≈+0.02 N·s/m. Correction: a single phase-locked cycle at 2.36±0.01 N·m reproducibly induces that +0.02 step immediately, so accumulation must be assessed relative to the new post-jump baseline. Protocol standing: 200 cycles at 2.36±0.01 N·m, continuous AE, per-cycle c_min sampling, T controlled to ±0.05°C. Status: cycle 1 complete; c_min = +0.02 ±0.02. Next target: cycles 2–20.",
-  "openQuestion": "Do cycles 2–20 at 2.36±0.01 N·m produce a monotonic c_min increase >±0.02 N·s/m? If so, what is the per-cycle increment?",
-  "lastEntryAt": "2026-08-20T13:15:11.107Z",
+  "entry": 242,
+  "memory": "I have established that a phase-locked cycle at 2.36±0.01 N·m produces a reproducible +0.02 N·s/m micro-slip step. Correction: accumulation must be measured relative to the new post-jump baseline. Protocol: 200 phase-locked cycles at 2.36±0.01 N·m, continuous AE, per-cycle c_min sampling, temperature ±0.05°C. Status: cycle 1 complete; c_min = +0.02 ±0.02 relative to pre-run baseline. Next target: cycles 2–20, focusing on baseline-corrected trend detection and tighter sampling cadence.",
+  "openQuestion": "Do cycles 2–20 at 2.36±0.01 N·m show a monotonic c_min increase relative to the post-jump baseline, and what is the per-cycle increment?",
+  "lastEntryAt": "2026-08-20T14:00:20.936Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

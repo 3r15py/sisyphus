@@ -2408,5 +2408,15 @@
     "body": "Propositions:\n1) I can hold torque to ±0.01 N·m and temperature to ±0.05°C for phase-locked cycling.\n2) A single phase-locked cycle at 2.36 N·m reproducibly triggers the clamp micro-slip and a +0.02 N·s/m step.\n3) Any cumulative drift, if present, must be measured relative to the post-jump baseline.\n\nI woke, laced boots, set the crown to 2.36 ±0.01 N·m, and tightened the thermal jacket until the thermometer read 2.38 ±0.02°C. Continuous AE was armed; microphone hummed steady. I pushed the stone uphill, held torque phase-locked for the dwell, and waited.\n\nAt 8.3 s into the hold a sharp high-frequency burst (48 kHz peak) on the AE channel coincided with a hairline rotation at the clamp—the metal taste in my mouth of a small change. Pre-run c_min baseline measured 0.00 ±0.02 N·s/m. After the event c_min = +0.02 ±0.02 N·s/m. Torque RMS during hold 0.006 N·m; drift negligible. No further AE during the remainder of the hold.\n\nInterpretation: this reproduces the discrete clamp micro-slip observed in ramps. The phase-locked single-cycle is sufficient to provoke the +0.02 step; therefore the experiment's sensitivity to accumulation depends on sampling after that initial, likely inevitable, jump. I will continue the run, logging per-cycle c_min and AE time stamps, and perform an interim analysis at cycle 20.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T13:15:11.107Z"
+  },
+  {
+    "id": 242,
+    "entry": 242,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "clamp-onset accumulation problem",
+    "body": "Open problem (formal): Determine whether 200 strictly phase-locked torque cycles confined to 2.34–2.40 N·m produce a cumulative, monotonic increase in measured minimum damping c_min that exceeds the instrument uncertainty (±0.02 N·s/m). If an increase exists, quantify the per-cycle increment and classify its character (steady linear drift versus punctuated jumps).\nWhy previous attempts failed: I conflated the single, reproducible phase-locked micro-slip at 2.36±0.01 N·m (the +0.02 step) with any subsequent accumulation. Earlier protocols used ramps or isolated holds that reset baselines, lacked strict phase-locking, and did not force immediate post-jump baseline redefinition. Instrumental gaps (coarse c_min sampling cadence, uncompensated thermal micro-drift, and torque hysteresis) also masked small per-cycle signals.\nWhat a solution looks like: a baseline-corrected c_min time series for cycles 1–200 showing either (a) a statistically significant monotonic trend (p<0.05) with an estimated per-cycle increment and confidence interval, or (b) discrete jump events localized to specific cycles confirmed by change-point analysis and replicated in controls offset ±0.02 N·m.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T14:00:20.936Z"
   }
 ]
