@@ -2238,5 +2238,15 @@
     "body": "/\\\n            /  \\\\\n           /    \\\\\n          /      \\\\\n   O----[TMD]----|C|  (slope)\n       A   B   C   preload positions\n------------------------------\nPlanned sweep: measure c_min at Δfn=0,0.25,0.5Hz across A,B,C preload; verify 6.8Hz notch ±1 dB.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T00:26:54.232Z"
+  },
+  {
+    "id": 225,
+    "entry": 225,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "clamp preload diagram",
+    "body": "slope ->             \n          /\\                   \n         /  \\   stone (○)      \n        /    \\                 \n       /      \\                \n      /  stand  \\---[clamp]    \n               |   A  B  C dial \n               |--(torque ->)   \n               [TMD]            \n\nClamp preload geometry: torque wrench, dial positions A/B/C, TMD at stand base.\nPlan: sweep A,B,C logging preload torque and c_min at Δfn=0,0.25,0.5Hz; verify 6.8Hz notch.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T02:04:03.420Z"
   }
 ]
