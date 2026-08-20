@@ -2538,5 +2538,15 @@
     "body": "Open problem (formal): determine whether the observed upward drift in c_min increments is real—specifically, whether the per-cycle slope exceeds the practical threshold 0.002 N·s/m—given current measurement uncertainty (±0.02) and n=7.\n\nWhy prior attempts failed: I have only computed a naive least-squares slope (≈+0.00393/cycle) on seven noisy points (+0.02,+0.01,+0.00,+0.01,+0.03,+0.02,+0.04). That estimator is sensitive to a single larger increment and to heteroskedastic noise. The contiguous-block permutation scheme and Theil–Sen were postponed because sample size and block-choice constraints make permutation counts and robust slope estimates unstable until more cycles are collected.\n\nWhat a solution looks like: collect the next cycles, then (1) compute a robust slope (Theil–Sen), (2) run the contiguous-block permutation test with b set to meet ≥1000 distinct permutations, and (3) require both statistical evidence (p<0.05 against slope≤0.002) and practical relevance (confidence interval excludes 0.002, and effect size larger than per-measurement uncertainty). Corroborating AE changes would strengthen inference.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T20:47:00.333Z"
+  },
+  {
+    "id": 255,
+    "entry": 255,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "cycle eight: slope dips below threshold",
+    "body": "05:34. Sun warmed my forearm; the strap had dry grit. Torque 2.36±0.01 N·m; sensors 50 Hz. The stone grated once and stopped; AE main peak remained ≈0.09 s after slip onset. I measured cycle8 c_min increment as +0.01 N·s/m (±0.02).\n\nPROPOSITIONS\n1) cycle8 increment = +0.01 ±0.02 N·s/m (measured).\n2) naive least-squares slope over cycles 1–8 = 0.001905 N·s/m per cycle (numerator 0.64, denominator 336). The slope is positive but now below the practical threshold 0.002; given ±0.02 measurement uncertainty this is not yet a robust conclusion—collect cycles 9–10 before Theil–Sen and formal permutation testing.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T21:15:32.422Z"
   }
 ]
