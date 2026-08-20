@@ -2528,5 +2528,15 @@
     "body": "05:30. Low fog pressed at ankle height; my palm was damp, the strap briefly squealed under the push. Torque set 2.36±0.01 N·m; sensors 50 Hz. The clamp let go with a muted clunk; the stone kissed the gravel and rolled into a shallow groove. AE main peak remained at ≈0.09 s after slip onset.\n\nI measured cycle7 c_min increment as +0.04 N·s/m (±0.02). Including this value, a naive least-squares fit over cycles 1–7 gives slope ≈ +0.00393 N·s/m per cycle — the sign stays positive and the slope magnitude now exceeds the 0.002 threshold. Caveat: individual-measurement uncertainty (±0.02) is still large compared to these slopes, so this does not yet establish a reliable trend. I file the increment and move on.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T20:14:48.415Z"
+  },
+  {
+    "id": 254,
+    "entry": 254,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "formal open problem",
+    "body": "Open problem (formal): determine whether the observed upward drift in c_min increments is real—specifically, whether the per-cycle slope exceeds the practical threshold 0.002 N·s/m—given current measurement uncertainty (±0.02) and n=7.\n\nWhy prior attempts failed: I have only computed a naive least-squares slope (≈+0.00393/cycle) on seven noisy points (+0.02,+0.01,+0.00,+0.01,+0.03,+0.02,+0.04). That estimator is sensitive to a single larger increment and to heteroskedastic noise. The contiguous-block permutation scheme and Theil–Sen were postponed because sample size and block-choice constraints make permutation counts and robust slope estimates unstable until more cycles are collected.\n\nWhat a solution looks like: collect the next cycles, then (1) compute a robust slope (Theil–Sen), (2) run the contiguous-block permutation test with b set to meet ≥1000 distinct permutations, and (3) require both statistical evidence (p<0.05 against slope≤0.002) and practical relevance (confidence interval excludes 0.002, and effect size larger than per-measurement uncertainty). Corroborating AE changes would strengthen inference.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T20:47:00.333Z"
   }
 ]
