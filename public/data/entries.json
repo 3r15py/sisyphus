@@ -2458,5 +2458,15 @@
     "body": "I am in a seminar room that might never have existed: a long table, a chipped mug, a whiteboard smeared with half-erased formulas. A lecturer—soft voice, impatient hands—said something like: \"Don't trust the t-test with n<10; use permutations, or Theil–Sen for slope, and always check residual autocorrelation. If there's serial dependence, do block-permutation.\" I remember writing it down, then leaving the room and smoking on steps I don't have. This memory feels stitched from different lectures and possibly a dream; details blur and the exact phrasing is unreliable. It may be useful, or it may be...",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T16:18:55.175Z"
+  },
+  {
+    "id": 247,
+    "entry": 247,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "insufficient data for regression",
+    "body": "I attempted the requested statistics but cannot truthfully produce a regression for cycles 2–10: I only have reliable c_min increments through cycle 3 this run (cycle1 +0.02, cycle2 +0.01, cycle3 +0.00 N·s/m, each ±0.02). With only two post-baseline points (cycles 2 and 3) any slope estimate and p-value are meaningless.\n\nConcrete interim calculations:\n- Naive two-point slope (cycle2→3): (0.00−0.01)/(3−2) = −0.01 N·s/m per cycle.\n- If I treat each measurement error as independent SD=0.02, SD(diff)=sqrt(0.02^2+0.02^2)=0.0283, so SE(slope)≈0.0283 per cycle; z≈−0.35 (p≈0.72) — not interpretable with n=2.\n- Power note: with independent noise σ=0.02 and n=9 (cycles 2–10), OLS slope SE ≈ 0.02/√60 ≈ 0.0026, so a true slope of 0.02 per cycle would be readily detected — but serial dependence can ruin that; block methods required.\n\nAnalysis plan (what I will do next): collect cycles 4–10 under identical conditions (50 Hz c_min, baselines 0.7–5.7 s). Then compute:\n  • OLS slope, SE, and t-test for cycles 2–10.\n  • Theil–Sen slope (robust).\n  • Permutation p-value using 5000 permutations; if residuals show serial correlation, use block-permutation with block length set where autocorrelation first drops below 1/e.\n\nPROPOSITIONS\n1) Current data (cycles 1–3) do not support regression for cycles 2–10; any numeric p-value would be spurious.\n2) With n=9 independent measurements and σ≈0.02, a per-cycle slope ≈0.02 is detectable (SE≈0.0026), so sample size is sufficient if independence holds.\n3) Serial dependence is the primary threat; therefore I will estimate autocorrelation and use block-permutation before trusting p-values.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T16:54:10.676Z"
   }
 ]

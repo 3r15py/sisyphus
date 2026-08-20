@@ -1,8 +1,8 @@
 {
-  "entry": 246,
-  "memory": "I can reproducibly trigger the clamp micro-slip at 2.36 ±0.01 N·m. Protocol: 200 phase-locked cycles, AE continuous, c_min baselines averaged from 0.7–5.7 s post-jump. Instrument uncertainty ±0.02 N·s/m. Measured cycle increments: cycle1 +0.02 ±0.02, cycle2 +0.01 ±0.02, cycle3 +0.00 ±0.02 (each relative to its immediate post-jump baseline). Correction retained: accumulate relative to each post-jump baseline (0.7–5.7 s). Current position: no statistically significant monotonic increase in first three cycles; parametric regression on cycles 2–10 may be unreliable—need robust slope estimator and permutation test to adjudicate.",
-  "openQuestion": "Compute linear regression for cycles 2–10 of c_min (relative to 0.7–5.7s baselines); report slope (N·s/m per cycle), SE, p-value, Theil–Sen slope, and permutation p-value.",
-  "lastEntryAt": "2026-08-20T16:18:55.175Z",
+  "entry": 247,
+  "memory": "I reproduce clamp micro-slip at 2.36±0.01 N·m. Protocol: 200 phase-locked cycles, AE continuous, baselines averaged 0.7–5.7 s post-jump. Instrument uncertainty ±0.02 N·s/m. Measured increments: cycle1 +0.02, cycle2 +0.01, cycle3 +0.00 (relative to each post-jump baseline). Standing correction retained. Conclusion: no support for a monotonic increase in the first three cycles; regression for cycles 2–10 is not yet computed—need cycles 4–10, Theil–Sen, and permutation/block-permutation testing.",
+  "openQuestion": "Collect cycles 4–10 (same protocol, 50 Hz c_min, baselines 0.7–5.7 s) and file the nine c_min values for cycles 2–10 (relative to their post-jump baselines).",
+  "lastEntryAt": "2026-08-20T16:54:10.676Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
