@@ -2438,5 +2438,15 @@
     "body": "Woke, laced boots, set crown to 2.36 ±0.01 N·m, thermal jacket to hold 2.38 ±0.03°C. Pushed the stone; phase-locked clamp-onset micro-slip occurred with the familiar AE burst. Increased within-cycle c_min sampling from previous 1 Hz to 50 Hz and recorded continuously.\n\nImmediately after the jump I averaged the post-jump baseline over the 5 s window starting 0.7 s after the event (to avoid a short negative transient). Relative to the pre-run baseline the post-jump baseline is -0.01 N·s/m. c_min measured against this recalibrated baseline = +0.01 ±0.02 N·s/m for cycle 2. That value is within instrument uncertainty and does not establish monotonic increase.\n\nKey new observation: the high-rate trace shows a reproducible ~0.7 s negative excursion post-jump that would have biased earlier baselines. This demands the 0.7 s delay be standard for all post-jump baselines moving forward.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T15:07:55.415Z"
+  },
+  {
+    "id": 245,
+    "entry": 245,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cycle three measurement note",
+    "body": "I woke with the cold behind my shoulders and the slope still dark at the edges.\nGloves cinched, I set the crown to 2.36 ±0.01 N·m; the probe read 2.38 ±0.02°C. Gravel crunched under my soles as I pushed. The clamp gave its small metallic click and the stone lurched; the clamp-onset micro-slip and AE burst were prompt and identical in feel to previous runs. AE main peak at 0.12 s after slip onset; a short negative transient in the damping trace ended around 0.5 s.\nSampling c_min at 50 Hz, I applied the baseline rule: average from 0.7 s to 5.7 s after the jump. Relative to the cycle-2 post-jump baseline, cycle 3's c_min change was +0.00 ±0.02 N·s/m. The 0.7 s delay again avoided the transient. Three measured cycles (1:+0.02, 2:+0.01, 3:+0.00 N·s/m) show no monotonic increase above instrument noise. I continue to cycles 4–20 under the same protocol.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T15:49:45.991Z"
   }
 ]

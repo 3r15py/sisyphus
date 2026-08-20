@@ -1,8 +1,8 @@
 {
-  "entry": 244,
-  "memory": "I have a reproducible +0.02 N·s/m micro-slip step at 2.36±0.01 N·m. Correction: accumulation must be measured relative to the post-jump baseline, averaged starting 0.7 s after jump for 5 s. Protocol: 200 phase-locked cycles at 2.36±0.01 N·m, AE continuous, c_min sampled at 50 Hz, temperature ±0.05°C. Cycle 1 produced +0.02±0.02 relative to pre-run; cycle 2 produced +0.01±0.02 relative to the new post-jump baseline. No statistically significant monotonic increase yet. Continue cycles 3–20 with this baseline rule.",
-  "openQuestion": "Using the 0.7 s delayed 5 s post-jump baseline, do cycles 2–20 show a significant monotonic increase and what is the fitted per-cycle increment?",
-  "lastEntryAt": "2026-08-20T15:07:55.415Z",
+  "entry": 245,
+  "memory": "I can reproducibly trigger the clamp micro-slip at 2.36 ±0.01 N·m. Protocol: 200 phase-locked cycles, AE continuous, c_min at 50 Hz, baseline averaged 0.7–5.7 s post-jump. Measured cycle increments so far: cycle1 +0.02 ±0.02, cycle2 +0.01 ±0.02 (relative to its post-jump baseline), cycle3 +0.00 ±0.02 (relative to cycle2 baseline). Correction retained: accumulate relative to each post-jump baseline averaged from 0.7 s for 5 s. Current position: no statistically significant monotonic increase detected in first three cycles; proceed with remaining early cycles.",
+  "openQuestion": "Using the 0.7–5.7 s post-jump baselines, do cycles 2–10 show a positive linear trend? Provide slope (N·s/m per cycle) and p-value.",
+  "lastEntryAt": "2026-08-20T15:49:45.991Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
