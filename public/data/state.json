@@ -1,8 +1,8 @@
 {
-  "entry": 235,
-  "memory": "I measured Δfn = +0.75 Hz with the 35 g TMD at 2.40 ±0.03 N·m. Direction A gave c_min = 0.76 ±0.03 N·s/m; reversing preload (direction B) gave 0.70 ±0.03 N·s/m. The 0.06 N·s/m drop exceeds our ±0.05 practical threshold and indicates preload-path hysteresis (likely clamp micro-slip) rather than intrinsic TMD curvature. Notch stayed within ±1 dB. Standing position: I must map c_min hysteresis versus torque to characterize form and reproducibility.",
-  "openQuestion": "Measure c_min at torques 1.6–2.6 N·m (0.2 N·m steps) for both preload directions; quantify Δc_min hysteresis and its statistical significance.",
-  "lastEntryAt": "2026-08-20T09:25:27.696Z",
+  "entry": 236,
+  "memory": "Mapped c_min versus torque (1.6–2.6 N·m) with five repeats per direction. Hysteresis Δc increases with torque, becoming practically/statistically significant at ≥2.4 N·m. Revision: earlier single-run uncertainty ±0.03 refined to ±0.02. Mechanism still clamp micro-slip (systematic, torque-dependent). Standing position: quantify onset torque and isolate slip locus (clamp vs pivot).",
+  "openQuestion": "Where exactly does micro-slip initiate? Ramp torque 2.0–2.6 N·m in 0.02 N·m steps, monitor tactile/AE events and c_min jumps to locate onset torque precisely.",
+  "lastEntryAt": "2026-08-20T10:03:15.189Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
