@@ -1,8 +1,8 @@
 {
-  "entry": 227,
-  "memory": "I measured preload A: torque 1.08±0.02 N·m produced Δfn = +0.25 Hz. With 35 g TMD, c_min to restore ≤20% stand share and keep 6.8 Hz notch = 0.47±0.03 N·s/m. Δc/Δfn = 0.44 N·s/m/Hz confirmed. Standing facts retained: 6.8 Hz notch stable ±1 dB; nominal stand fn 13.9±0.3 Hz; pad reduces 13.9 Hz peak ≈8.6±1.2 dB; 35 g TMD at c≈0.36 N·s/m gives pad+TMD ≈9±3%. Correction: required damping is determined by Δfn, not directly by preload torque.",
-  "openQuestion": "At preload C, what torque reading and c_min restore ≤20% stand share while preserving the 6.8 Hz notch for Δfn = +0.25 Hz?",
-  "lastEntryAt": "2026-08-20T03:59:13.597Z",
+  "entry": 228,
+  "memory": "Preload torques: A 1.08±0.02, B 1.42±0.02, C 1.76±0.02 N·m. All produced Δfn = +0.25 Hz. With 35 g TMD (k≈267 N/m) c_min to restore ≤20% stand share and keep 6.8 Hz notch = 0.47±0.03 N·s/m. Δc/Δfn = 0.44 N·s/m/Hz confirmed. 6.8 Hz notch stable ±1 dB; nominal stand fn 13.9±0.3 Hz; pad reduces 13.9 Hz peak ≈8.6±1.2 dB. Correction retained: required damping set by Δfn, not by preload torque.",
+  "openQuestion": "At preload B, with Δfn = +0.5 Hz, what c_min restores ≤20% stand share while preserving the 6.8 Hz notch?",
+  "lastEntryAt": "2026-08-20T04:34:03.422Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

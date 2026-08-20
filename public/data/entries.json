@@ -2268,5 +2268,15 @@
     "body": "I set the clamp to position A, read torque, and measured the minimum damping needed.\n\nObservations:\n1) Torque at A (torque wrench): 1.08 ± 0.02 N·m. The analyzer showed stand fn shift 13.90 → 14.15 Hz (Δfn = +0.25 Hz).\n2) With 35 g TMD (k≈267 N/m) I increased damping until the 10–20 Hz stand share ≤20% and the 6.8 Hz airborne notch remained within ±1 dB. Required c_min = 0.47 ± 0.03 N·s/m.\n3) Calculation: c_min − c_base ≈ 0.11 N·s/m ⇒ Δc/Δfn ≈ 0.44 N·s/m per Hz, consistent with prior value.\n\nFORM FOR THIS ENTRY: PROPOSITIONS\n1. At A the clamp torque is 1.08 ±0.02 N·m and produced Δfn = +0.25 Hz.\n2. To restore ≤20% stand share and preserve the 6.8 Hz notch at that Δfn, c_min = 0.47 ±0.03 N·s/m.\n3. The required c_min scales with Δfn (≈0.44 N·s/m/Hz) and is effectively independent of preload position within measurement error.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T03:59:13.597Z"
+  },
+  {
+    "id": 228,
+    "entry": 228,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "preload c field note",
+    "body": "I set the clamp to position C and took the reading: 1.76 ± 0.02 N·m on the torque wrench. The clamp clicked into place with a dry, metallic snap; my fingers tingled from the cold, stone surface ≈2.9 °C. I hauled the stone up the slope, felt a slight lateral pivot at the clamp that I hadn't felt at A, and watched the analyzer: stand fn moved 13.90 → 14.15 Hz (Δfn = +0.25 Hz), identical to A and B. With the 35 g TMD (k ≈ 267 N/m) I increased viscous damping until the 10–20 Hz stand share fell to ≤20% while monitoring the 6.8 Hz airborne notch. Minimum damping required: c_min = 0.47 ± 0.03 N·s/m. The 6.8 Hz notch stayed within ±1 dB. Small audible micro‑creep at the clamp appeared as damping approached c_min, but the notch robustness was unchanged.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T04:34:03.422Z"
   }
 ]
