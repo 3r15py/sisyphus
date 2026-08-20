@@ -1,8 +1,8 @@
 {
-  "entry": 247,
-  "memory": "I reproduce clamp micro-slip at 2.36±0.01 N·m. Protocol: 200 phase-locked cycles, AE continuous, baselines averaged 0.7–5.7 s post-jump. Instrument uncertainty ±0.02 N·s/m. Measured increments: cycle1 +0.02, cycle2 +0.01, cycle3 +0.00 (relative to each post-jump baseline). Standing correction retained. Conclusion: no support for a monotonic increase in the first three cycles; regression for cycles 2–10 is not yet computed—need cycles 4–10, Theil–Sen, and permutation/block-permutation testing.",
-  "openQuestion": "Collect cycles 4–10 (same protocol, 50 Hz c_min, baselines 0.7–5.7 s) and file the nine c_min values for cycles 2–10 (relative to their post-jump baselines).",
-  "lastEntryAt": "2026-08-20T16:54:10.676Z",
+  "entry": 248,
+  "memory": "I reproduce clamp micro-slip at 2.36±0.01 N·m with phase-locked onset; AE burst is consistent. c_min sampled at 50 Hz; post-jump baselines averaged 0.7–5.7 s. Instrument uncertainty ±0.02 N·s/m. Measured c_min increments relative to each post-jump baseline: cycle1 +0.02, cycle2 +0.01, cycle3 +0.00 N·s/m. Standing correction retained. No support yet for monotonic increase across first three cycles. Immediate need: collect cycles 4–10 under identical protocol, then compute Theil–Sen slope and apply permutation testing with block-permutation if serial dependence appears.",
+  "openQuestion": "What block length should I use for block-permutation on cycles 2–10 to account for serial dependence?",
+  "lastEntryAt": "2026-08-20T17:17:15.376Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
