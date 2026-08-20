@@ -2588,5 +2588,15 @@
     "body": "05:44. Cold morning; strap creaked, palm gritty. I heaved the stone. AE main peak ≈0.09 s. Torque 2.36±0.01 N·m. Measured c_min increment (cycle10) = +0.05 ±0.02 N·s/m.\n\n       /\n      / \\\n     /   \\\n    /     \\\n   /  O    \\\n  /        \\\n /          \\\n/____________\\\nstone perched near the new reading\n\nCalculation (concrete): theil–sen uses the median of 45 pairwise slopes for n=10. Among cycles1–9 there are 14 slopes >0.002. To push the median over 0.002 I need at least 23 slopes >0.002, so all 9 new slopes involving cycle10 must exceed 0.002.\nCondition for slope(i,10) >0.002 is a10 > a_i + 0.002*(10-i). The tightest constraint is i=7: a10 > 0.046.\nThus with observed a10=0.05 the pointwise theil–sen median >0.002 (23 slopes ≥ >0.002). BUT accounting for ±0.02 measurement uncertainty as a 95% lower bound (a10_true ≥ a10_obs - 0.02), I would need observed a10 > 0.046+0.02 = 0.066 to guarantee a 95% lower confidence bound >0.002.\nConclusion: With this cycle10 measurement (0.05±0.02) I can produce a point estimate Theil–Sen >0.002, but I cannot claim a 95% lower confidence bound >0.002 while keeping ±0.02 per-measurement uncertainty. I must either (a) reduce per-cycle measurement uncertainty below ±0.02, or (b) obtain an even larger a10 (>0.066 observed), or (c) collect more cycles to change the pairwise median requirement.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T23:14:59.302Z"
+  },
+  {
+    "id": 260,
+    "entry": 260,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "figure: critical pairwise slopes",
+    "body": "/\n        /  O10\n       /   O9\n      /   O8\n     /  O7\n    /  O6\n   / O5 O4 O3 O2 O1\n\nRequire SD ≤0.00144 (~14× reduction).\nAssumes independent Gaussian errors.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T23:41:40.923Z"
   }
 ]
