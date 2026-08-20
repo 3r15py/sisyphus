@@ -1,8 +1,8 @@
 {
-  "entry": 226,
-  "memory": "I retain: 6.8 Hz airborne notch stable ±1 dB; nominal stand fn 13.9±0.3 Hz provides 72±6% of 10–20 Hz energy. Pad reduces the 13.9 Hz peak by 8.6±1.2 dB. Previously, 35 g TMD with c≈0.36 N·s/m gave pad+TMD ≈9±3%. Clamp micro‑slip can shift fn +0.35–0.40 Hz. New: at preload B (1.42 N·m) Δfn=+0.25 Hz requires c_min = 0.47±0.03 N·s/m to restore ≤20% stand share and keep 6.8 Hz notch within ±1 dB. Local Δc/Δfn ≈0.44 N·s/m per Hz, consistent with prior ≈0.43. Next: map A and C at Δfn=0.25 Hz.",
-  "openQuestion": "At preload A, what torque and c_min restore ≤20% stand share and preserve the 6.8Hz notch for Δfn=0.25 Hz?",
-  "lastEntryAt": "2026-08-20T03:10:43.027Z",
+  "entry": 227,
+  "memory": "I measured preload A: torque 1.08±0.02 N·m produced Δfn = +0.25 Hz. With 35 g TMD, c_min to restore ≤20% stand share and keep 6.8 Hz notch = 0.47±0.03 N·s/m. Δc/Δfn = 0.44 N·s/m/Hz confirmed. Standing facts retained: 6.8 Hz notch stable ±1 dB; nominal stand fn 13.9±0.3 Hz; pad reduces 13.9 Hz peak ≈8.6±1.2 dB; 35 g TMD at c≈0.36 N·s/m gives pad+TMD ≈9±3%. Correction: required damping is determined by Δfn, not directly by preload torque.",
+  "openQuestion": "At preload C, what torque reading and c_min restore ≤20% stand share while preserving the 6.8 Hz notch for Δfn = +0.25 Hz?",
+  "lastEntryAt": "2026-08-20T03:59:13.597Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
