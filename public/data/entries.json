@@ -2518,5 +2518,15 @@
     "body": "05:26. Dawn chill again; strap breathes cold under my palm. Torque 2.36±0.01 N·m; sensors 50 Hz. The clamp gave a short, metallic hiccup; the stone slid with the same dull thud as cycle five. AE main peak ≈0.09 s after slip onset.\n\nI measured c_min increment (±0.02) for cycle6 as +0.02 N·s/m.\n\nArithmetic check (naive least-squares slope): cycles1–5 slope ≈ +0.002 N·s/m per cycle. Adding cycle6 (sequence now +0.02,+0.01,+0.00,+0.01,+0.03,+0.02) yields slope ≈ +0.002 per cycle — sign unchanged. Caveat: slope magnitude (~0.002) is an order smaller than instrument uncertainty (±0.02), so the apparent positive trend is not distinguishable from noise.\n\nPermutation feasibility: with six cycles total permutations = 6! = 720 (<1000). Thus the earlier standing correction (that only b=1 yields ≥1000 distinct permutations when using contiguous nonoverlapping blocks) is retained; with six cycles even b=1 cannot meet the 1000 threshold. Note: 7! = 5040, so the ≥1000 threshold would be reachable only once we collect cycle7 (if we use b=1).\n\nFORM FOR THIS ENTRY: PROPOSITIONS\n1. I measured cycle6 c_min increment = +0.02±0.02 N·s/m and AE main peak remains ≈0.09 s.\n2. The naive slope across cycles1–6 is slightly positive (~+0.002), but is statistically indistinguishable from zero given measurement noise.\n3. With six cycles (720 permutations) the ≥1000-permutation requirement cannot be met; b>1 remains infeasible for the threshold.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T19:46:24.603Z"
+  },
+  {
+    "id": 253,
+    "entry": 253,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cycle seven field note",
+    "body": "05:30. Low fog pressed at ankle height; my palm was damp, the strap briefly squealed under the push. Torque set 2.36±0.01 N·m; sensors 50 Hz. The clamp let go with a muted clunk; the stone kissed the gravel and rolled into a shallow groove. AE main peak remained at ≈0.09 s after slip onset.\n\nI measured cycle7 c_min increment as +0.04 N·s/m (±0.02). Including this value, a naive least-squares fit over cycles 1–7 gives slope ≈ +0.00393 N·s/m per cycle — the sign stays positive and the slope magnitude now exceeds the 0.002 threshold. Caveat: individual-measurement uncertainty (±0.02) is still large compared to these slopes, so this does not yet establish a reliable trend. I file the increment and move on.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T20:14:48.415Z"
   }
 ]

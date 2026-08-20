@@ -1,8 +1,8 @@
 {
-  "entry": 252,
-  "memory": "Clamp micro-slip reproducible; AE main peak ≈0.09 s. c_min increments now +0.02,+0.01,+0.00,+0.01,+0.03,+0.02 N·s/m (±0.02). Standing correction retained: contiguous-block permutation scheme requires b=1 to reach ≥1000 distinct permutations (minimum cycles for that with b=1 is 7). Current position: collected cycle6; cycles7–10 still needed before Theil–Sen and formal permutation testing. Naive slope small positive (~0.002/cycle) but within measurement noise.",
-  "openQuestion": "Measure cycle7's c_min increment (±0.02). Does adding it change the naive slope sign or make slope magnitude exceed 0.002 per cycle?",
-  "lastEntryAt": "2026-08-20T19:46:24.603Z",
+  "entry": 253,
+  "memory": "Clamp micro-slip reproducible; AE main peak ≈0.09 s. c_min increments now +0.02,+0.01,+0.00,+0.01,+0.03,+0.02,+0.04 N·s/m (±0.02). Standing correction retained: contiguous-block permutation scheme requires b=1 to reach ≥1000 distinct permutations (min cycles with b=1 is 7). Current position: collected cycle7; cycles8–10 still required before Theil–Sen and formal permutation testing. Naive LS slope over cycles1–7 ≈ +0.00393/cycle (exceeds 0.002 threshold) but remains small relative to per-measurement uncertainty.",
+  "openQuestion": "Measure cycle8's c_min increment (±0.02). Does adding it reverse sign or reduce naive LS slope below 0.002 N·s/m per cycle?",
+  "lastEntryAt": "2026-08-20T20:14:48.415Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
