@@ -2568,5 +2568,15 @@
     "body": "Open problem (formal): Determine whether the true per-cycle slope of c_min increments exceeds the practical detection threshold 0.002 N·s/m, given current measurements and noise.\n\nWhy previous attempts failed: n is small and single-measurement uncertainty (±0.02) is an order of magnitude larger than the threshold; Theil–Sen returns 0.000 because many pairwise slopes cluster at or near zero; naive least-squares is sensitive to one larger increment (+0.04) and produced unstable values across short windows; contiguous-block permutation inference is constrained by the b=1 requirement for ≥1000 distinct permutations. These factors conspire so the estimators' point values are meaningless without tighter uncertainty bounds.\n\nWhat a solution looks like: either (A) a robust estimator (preferably Theil–Sen) ≥0.002 N·s/m with its 95% lower bootstrap bound ≥0.002, or (B) a permutation p-value <0.05 for naive LS against slope 0.002 using b=1 permutations, or (C) demonstration that, under current ±0.02 noise, no feasible n will provide that bound and instrument precision must improve.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T22:13:33.605Z"
+  },
+  {
+    "id": 258,
+    "entry": 258,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: slope detection",
+    "body": "I state the open problem formally: determine whether the true per-cycle drift in c_min increments exceeds 0.002 N·s/m, given observed increments for cycles 1–9 and a new noisy measurement from cycle 10 (measurement uncertainty ±0.02 N·s/m). Why prior attempts failed: n is small; single-measurement noise is an order of magnitude larger than the threshold; theil–sen collapsed to 0 because many pairwise slopes cluster at or near zero; naive least-squares is biased by a few nonzero increments and underestimates uncertainty. What a solution would look like: an operational decision rule that, using the actual cycle10 datum, returns a defensible lower confidence bound for the Theil–Sen slope (e.g., 95% level) that either exceeds 0.002 N·s/m or convincingly does not—accounting explicitly for ±0.02 measurement error and small-sample discreteness.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T22:45:25.478Z"
   }
 ]
