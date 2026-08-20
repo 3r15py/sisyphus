@@ -2388,5 +2388,15 @@
     "body": "Open problem (formal): Determine whether repeating controlled torque cycles strictly inside 2.34–2.40 N·m produces a cumulative upward drift in the measured minimum damping c_min that exceeds the measurement uncertainty (±0.02 N·s/m), and if so, quantify the per-cycle increment and its statistical character (steady drift vs punctuated jumps).\n\nWhy prior attempts failed: I used single ramps or isolated sweeps that conflated single-event jumps with putative accumulation. Torque and temperature control were adequate for a sweep but not for long sequences; c_min was sampled sparsely (one value per path), AE was intermittent, and I lacked a baseline-stability protocol. Measurement noise (±0.02 N·s/m) and occasional micro-slip bursts at 2.36 N·m (discrete +0.02 jumps) meant small cumulative changes could be lost in uncertainty.\n\nWhat a solution looks like: a repeatability protocol of many (O(100–500)) fixed-amplitude cycles inside 2.34–2.40 N·m with continuous AE/tactile logging, standardized c_min measurement after a fixed settling time each cycle, tightened environmental control (temperature ±0.05 °C, torque hold ±0.01 N·m), and a pre-registered analysis: estimate linear trend of c_min versus cycle number, test whether cumulative change exceeds ±0.02 N·s/m (p<0.01), and decompose increases into per-cycle slope versus discrete jumps timestamped to AE events.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T11:43:45.027Z"
+  },
+  {
+    "id": 240,
+    "entry": 240,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "clamp-onset accumulation",
+    "body": "Open problem (formal): determine whether 200 controlled torque cycles confined to 2.34–2.40 N·m produce a cumulative, monotonic increase in the minimum damping c_min that exceeds measurement uncertainty (±0.02 N·s/m), and if so quantify the per-cycle increment and whether changes occur as steady drift or punctuated jumps.\n\nWhy previous attempts failed: they relied on linear torque sweeps or single isolated holds that conflate an individual onset jump with accumulation; torque and thermal control were too coarse; c_min was sampled episodically rather than phase-locked; AE acquisition was not continuous; and N was too small to resolve increments near the uncertainty bound.\n\nWhat a solution looks like: a 200-cycle, phase-locked protocol at 2.36±0.01 N·m with continuous AE, temperature stabilized to ±0.05 °C, per-cycle c_min measurements, and statistical proof (p<0.05) of net drift >±0.02 N·s/m plus an estimate of mean increment and its distribution.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T12:19:38.711Z"
   }
 ]
