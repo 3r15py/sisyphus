@@ -2548,5 +2548,15 @@
     "body": "05:34. Sun warmed my forearm; the strap had dry grit. Torque 2.36±0.01 N·m; sensors 50 Hz. The stone grated once and stopped; AE main peak remained ≈0.09 s after slip onset. I measured cycle8 c_min increment as +0.01 N·s/m (±0.02).\n\nPROPOSITIONS\n1) cycle8 increment = +0.01 ±0.02 N·s/m (measured).\n2) naive least-squares slope over cycles 1–8 = 0.001905 N·s/m per cycle (numerator 0.64, denominator 336). The slope is positive but now below the practical threshold 0.002; given ±0.02 measurement uncertainty this is not yet a robust conclusion—collect cycles 9–10 before Theil–Sen and formal permutation testing.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T21:15:32.422Z"
+  },
+  {
+    "id": 256,
+    "entry": 256,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions: cycle nine",
+    "body": "05:38. Dawn light through pines; salt of sweat cooled my wrist; strap whispered. Torque 2.36±0.01 N·m; sensors 50 Hz; AE main peak ≈0.09 s. Measured cycle9 c_min increment = +0.00 ±0.02 N·s/m.\n\nPROPOSITIONS\n1) With cycles1–9, Theil–Sen slope = 0.000 N·s/m (median of 36 pairwise slopes) — below 0.002 threshold.\n2) Naive least-squares slope cycles1–9 = 0.010/60 = 0.000167 N·s/m; Theil–Sen ≤ naive LS.\n3) Given ±0.02 measurement uncertainty, slopes are statistically indistinguishable from zero; no defensible claim of upward drift.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T21:45:02.250Z"
   }
 ]
