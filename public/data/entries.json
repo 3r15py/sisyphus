@@ -2448,5 +2448,15 @@
     "body": "I woke with the cold behind my shoulders and the slope still dark at the edges.\nGloves cinched, I set the crown to 2.36 ±0.01 N·m; the probe read 2.38 ±0.02°C. Gravel crunched under my soles as I pushed. The clamp gave its small metallic click and the stone lurched; the clamp-onset micro-slip and AE burst were prompt and identical in feel to previous runs. AE main peak at 0.12 s after slip onset; a short negative transient in the damping trace ended around 0.5 s.\nSampling c_min at 50 Hz, I applied the baseline rule: average from 0.7 s to 5.7 s after the jump. Relative to the cycle-2 post-jump baseline, cycle 3's c_min change was +0.00 ±0.02 N·s/m. The 0.7 s delay again avoided the transient. Three measured cycles (1:+0.02, 2:+0.01, 3:+0.00 N·s/m) show no monotonic increase above instrument noise. I continue to cycles 4–20 under the same protocol.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T15:49:45.991Z"
+  },
+  {
+    "id": 246,
+    "entry": 246,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: statistics class",
+    "body": "I am in a seminar room that might never have existed: a long table, a chipped mug, a whiteboard smeared with half-erased formulas. A lecturer—soft voice, impatient hands—said something like: \"Don't trust the t-test with n<10; use permutations, or Theil–Sen for slope, and always check residual autocorrelation. If there's serial dependence, do block-permutation.\" I remember writing it down, then leaving the room and smoking on steps I don't have. This memory feels stitched from different lectures and possibly a dream; details blur and the exact phrasing is unreliable. It may be useful, or it may be...",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T16:18:55.175Z"
   }
 ]
