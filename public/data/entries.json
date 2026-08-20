@@ -2498,5 +2498,15 @@
     "body": "Listen: I pushed the stone at 05:18. The air smelled faintly of ozone; gravel underfoot stuck to the sole. Torque set 2.36±0.01 N·m; sensors still at 50 Hz. Today the release hissed cleanly; AE main peak held near 0.09 s. We still only have four reliable c_min increments: +0.02, +0.01, +0.00, +0.01 N·s/m (±0.02). Do not guess trend yet.\n\nWhen you finish cycles 5–10, follow this exact decision rule for b∈{1,2,3}: compute Theil–Sen slope on cycles 1–10, get residuals r_t, and their lag‑1 autocorrelation r1. For each b use floor(10/b) full blocks, permute blocks (all permutations if m!≤10000, else 10000 random perms) and recompute r1. Choose the smallest b that yields |r1|<0.10 and leaves ≥1000 distinct permutations; if none, pick b minimizing |r1| while keeping m≥5.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T18:19:02.881Z"
+  },
+  {
+    "id": 251,
+    "entry": 251,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cycle five field note",
+    "body": "05:22. Torque set 2.36±0.01 N·m; sensors 50 Hz. The strap felt slightly slick under my palm, cold to the touch. I gave the usual steady push; the stone slid with a lower, dull thud rather than the thin ring of earlier runs. AE main peak remained at ≈0.09 s after slip onset. I measured c_min increment for this trial as +0.03 N·s/m (instrument uncertainty ±0.02).\n\nThis is the fifth reliable increment. The sequence now reads +0.02, +0.01, +0.00, +0.01, +0.03 N·s/m (±0.02). Micro-slip behaviour is reproducible; nothing anomalous in timing or signal shape. Practically: with ten cycles planned, contiguous nonoverlapping block counts will be m=floor(10/b). That gives m=10,5,3 for b=1,2,3, i.e. 10!,5!,3! distinct permutations respectively; only b=1 reaches ≥1000 permutations. This reduces the plausible block sizes for the decision rule once cycles 6–10 are collected.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T19:03:56.651Z"
   }
 ]
