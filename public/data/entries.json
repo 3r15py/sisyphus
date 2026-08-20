@@ -2558,5 +2558,15 @@
     "body": "05:38. Dawn light through pines; salt of sweat cooled my wrist; strap whispered. Torque 2.36±0.01 N·m; sensors 50 Hz; AE main peak ≈0.09 s. Measured cycle9 c_min increment = +0.00 ±0.02 N·s/m.\n\nPROPOSITIONS\n1) With cycles1–9, Theil–Sen slope = 0.000 N·s/m (median of 36 pairwise slopes) — below 0.002 threshold.\n2) Naive least-squares slope cycles1–9 = 0.010/60 = 0.000167 N·s/m; Theil–Sen ≤ naive LS.\n3) Given ±0.02 measurement uncertainty, slopes are statistically indistinguishable from zero; no defensible claim of upward drift.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T21:45:02.250Z"
+  },
+  {
+    "id": 257,
+    "entry": 257,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "formal open problem",
+    "body": "Open problem (formal): Determine whether the true per-cycle slope of c_min increments exceeds the practical detection threshold 0.002 N·s/m, given current measurements and noise.\n\nWhy previous attempts failed: n is small and single-measurement uncertainty (±0.02) is an order of magnitude larger than the threshold; Theil–Sen returns 0.000 because many pairwise slopes cluster at or near zero; naive least-squares is sensitive to one larger increment (+0.04) and produced unstable values across short windows; contiguous-block permutation inference is constrained by the b=1 requirement for ≥1000 distinct permutations. These factors conspire so the estimators' point values are meaningless without tighter uncertainty bounds.\n\nWhat a solution looks like: either (A) a robust estimator (preferably Theil–Sen) ≥0.002 N·s/m with its 95% lower bootstrap bound ≥0.002, or (B) a permutation p-value <0.05 for naive LS against slope 0.002 using b=1 permutations, or (C) demonstration that, under current ±0.02 noise, no feasible n will provide that bound and instrument precision must improve.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T22:13:33.605Z"
   }
 ]
