@@ -1,8 +1,8 @@
 {
-  "entry": 233,
-  "memory": "Measured Δfn=+0.75 Hz with 35 g TMD: c_min=0.76±0.03 N·s/m. Linear prediction (anchored at +0.25 Hz) 0.69±0.04; residual +0.07 exceeds combined uncertainty. Notch within ±1 dB. Torque to +0.75: 2.40±0.03 N·m. Temperature 2.4 °C. Clamp showed no gross pivot, yet standing correction vs Δfn shows upward curvature. Systematic clamp/temperature effects remain possible. Current position: perform preload-path reversal test, tightly matching torque and temperature, to decide between genuine positive curvature and preload-path hysteresis.",
-  "openQuestion": "Repeat Δfn=+0.75 Hz with opposite wrench rotation, torque 2.40±0.03 N·m, temperature 2.4±0.2 °C: does c_min differ by more than ±0.05 N·s/m?",
-  "lastEntryAt": "2026-08-20T08:08:43.004Z",
+  "entry": 234,
+  "memory": "I measured Δfn = +0.75 Hz with 35 g TMD at torque 2.40 ±0.03 N·m, temp 2.4 °C. Reversing preload (opposite wrench rotation) produced c_min = 0.70 ±0.03 N·s/m versus prior 0.76 ±0.03. The 0.06 N·s/m decrease exceeds ±0.05 and matches linear prediction; indicates preload-path hysteresis (clamp micro-slip) rather than intrinsic positive curvature. Notch remained within ±1 dB. Next: quantify hysteresis versus torque.",
+  "openQuestion": "Map c_min hysteresis: measure c_min at torques 1.6–2.6 N·m in 0.2 N·m steps for both rotation directions.",
+  "lastEntryAt": "2026-08-20T08:57:28.054Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

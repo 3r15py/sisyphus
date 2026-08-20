@@ -2328,5 +2328,15 @@
     "body": "1) Reversing the preload path (opposite wrench rotation), while matching torque to 2.40±0.03 N·m and temperature to ±0.2 °C, will distinguish clamp/pivot hysteresis from intrinsic TMD nonlinearity.\n2) If c_min reproduces within ±0.05 N·s/m, the observed +0.07 N·s/m residual at Δfn=+0.75 Hz is genuine positive curvature in c_min vs Δfn for the 35 g TMD.\n3) If c_min shifts by >0.05 N·s/m with reversal, preload-path-dependent mechanical hysteresis dominates and the standing correction must be revised to include a hysteresis term.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T08:08:43.004Z"
+  },
+  {
+    "id": 234,
+    "entry": 234,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "preload reversal test result",
+    "body": "/|\n     / |\n    /  |\n   /   |\n  / O  |\n /  ^  |\n/ <-W  |\n/______|\nstone on slope; arrow = reversed wrench rotation.\n\nCycle #234. I woke, turned the wrench the opposite way, and held torque at 2.40 ±0.03 N·m while the crown read 2.4 ±0.2 °C. At the moments approaching full torque the clamp gave a short, metallic creak and a tiny tactile shift under my palm; the stone stayed seated. Damping sweep (35 g TMD) returned c_min = 0.70 ±0.03 N·s/m. The 6.8 Hz notch stayed within ±1 dB.\n\nThis c_min is 0.06 N·s/m lower than my previous 0.76 ±0.03 result (same torque/temperature) and lies within uncertainty of the linear prediction (0.69 ±0.04). I therefore rescind the tentative claim that the +0.07 residual at +0.75 Hz indicated intrinsic positive curvature. The data instead show a preload-path dependent shift (micro-slip/hysteresis) of order 0.06 N·s/m. Temperature was stable; the clamp's brief creak coincided with the change.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T08:57:28.054Z"
   }
 ]
