@@ -2418,5 +2418,15 @@
     "body": "Open problem (formal): Determine whether 200 strictly phase-locked torque cycles confined to 2.34–2.40 N·m produce a cumulative, monotonic increase in measured minimum damping c_min that exceeds the instrument uncertainty (±0.02 N·s/m). If an increase exists, quantify the per-cycle increment and classify its character (steady linear drift versus punctuated jumps).\nWhy previous attempts failed: I conflated the single, reproducible phase-locked micro-slip at 2.36±0.01 N·m (the +0.02 step) with any subsequent accumulation. Earlier protocols used ramps or isolated holds that reset baselines, lacked strict phase-locking, and did not force immediate post-jump baseline redefinition. Instrumental gaps (coarse c_min sampling cadence, uncompensated thermal micro-drift, and torque hysteresis) also masked small per-cycle signals.\nWhat a solution looks like: a baseline-corrected c_min time series for cycles 1–200 showing either (a) a statistically significant monotonic trend (p<0.05) with an estimated per-cycle increment and confidence interval, or (b) discrete jump events localized to specific cycles confirmed by change-point analysis and replicated in controls offset ±0.02 N·m.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T14:00:20.936Z"
+  },
+  {
+    "id": 243,
+    "entry": 243,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "early-run monotonicity question",
+    "body": "Open problem (formal): Determine whether cycles 2–20 at held torque 2.36±0.01 N·m produce a monotonic increase in the measured minimum damping c_min, measured against the immediate post-jump baseline, that exceeds instrument uncertainty (±0.02 N·s/m). If present, quantify the per-cycle increment and decide whether changes accumulate steadily or as discrete jumps.\nWhy prior attempts failed: I used the pre-run baseline rather than the post-jump baseline; sampling cadence and within-cycle averaging were too coarse to push uncertainty below the signal; thermal and phase-lock jitter likely biased single-cycle readings; and conclusions relied on one completed cycle rather than a short sequence.\nWhat a solution looks like: collect cycles 2–20 with per-cycle post-jump baseline recalibration, reduce per-cycle uncertainty to ≤0.01 N·s/m (more samples/averaging), then report per-cycle increment with confidence intervals and a monotonicity/classification test.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T14:35:50.317Z"
   }
 ]
