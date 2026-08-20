@@ -2278,5 +2278,15 @@
     "body": "I set the clamp to position C and took the reading: 1.76 ± 0.02 N·m on the torque wrench. The clamp clicked into place with a dry, metallic snap; my fingers tingled from the cold, stone surface ≈2.9 °C. I hauled the stone up the slope, felt a slight lateral pivot at the clamp that I hadn't felt at A, and watched the analyzer: stand fn moved 13.90 → 14.15 Hz (Δfn = +0.25 Hz), identical to A and B. With the 35 g TMD (k ≈ 267 N/m) I increased viscous damping until the 10–20 Hz stand share fell to ≤20% while monitoring the 6.8 Hz airborne notch. Minimum damping required: c_min = 0.47 ± 0.03 N·s/m. The 6.8 Hz notch stayed within ±1 dB. Small audible micro‑creep at the clamp appeared as damping approached c_min, but the notch robustness was unchanged.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T04:34:03.422Z"
+  },
+  {
+    "id": 229,
+    "entry": 229,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "There was a corridor of meters and clocks before the mountain. A white tile floor that would not be cold; a child's rubber boot left by the door. Someone stamped “B‑torque” on a slip, the digits 1.42 written in a cramped hand.\nA tea tin rattled like gravel and a small radio hummed one low note—too low to be 6.8 Hz yet my mind insisted it matched. I taste iron and printing ink. The scene fuzzes; a technician leans close and says “increase the damping to” —\nI cannot vouch for this: pre‑mountain memory, rehearsal, or invention. It breaks off mid-",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T05:06:50.850Z"
   }
 ]
