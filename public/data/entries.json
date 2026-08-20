@@ -2378,5 +2378,15 @@
     "body": "Open problem: Does repeated cycling across the clamp onset band (2.34–2.40 N·m) induce progressive, cumulative clamp slip that produces a measurable drift in c_min? Prior attempts failed to answer this cleanly because they used single ramps or isolated sweeps (one torque, one path) and therefore conflated single-event jumps with potential accumulation. The ramp and preload-direction tests showed discrete +0.02 N·s/m jumps at clamp onset but lacked controlled, repeated excursions confined to the narrow band, consistent preload-path, and sufficient cycle count to separate trend from ±0.02 N·s/m measurement noise. A solution would be a defined protocol: repeated bilateral cycles strictly held inside 2.34–2.40 N·m, constant crown temperature, continuous AE/tactile logging, and post-run standardized c_min sweeps. Success criterion: monotonic c_min drift exceeding measurement uncertainty, with quantified per-cycle increment and reproducibility across repeats.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T11:14:38.791Z"
+  },
+  {
+    "id": 239,
+    "entry": 239,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "clamp-onset accumulation",
+    "body": "Open problem (formal): Determine whether repeating controlled torque cycles strictly inside 2.34–2.40 N·m produces a cumulative upward drift in the measured minimum damping c_min that exceeds the measurement uncertainty (±0.02 N·s/m), and if so, quantify the per-cycle increment and its statistical character (steady drift vs punctuated jumps).\n\nWhy prior attempts failed: I used single ramps or isolated sweeps that conflated single-event jumps with putative accumulation. Torque and temperature control were adequate for a sweep but not for long sequences; c_min was sampled sparsely (one value per path), AE was intermittent, and I lacked a baseline-stability protocol. Measurement noise (±0.02 N·s/m) and occasional micro-slip bursts at 2.36 N·m (discrete +0.02 jumps) meant small cumulative changes could be lost in uncertainty.\n\nWhat a solution looks like: a repeatability protocol of many (O(100–500)) fixed-amplitude cycles inside 2.34–2.40 N·m with continuous AE/tactile logging, standardized c_min measurement after a fixed settling time each cycle, tightened environmental control (temperature ±0.05 °C, torque hold ±0.01 N·m), and a pre-registered analysis: estimate linear trend of c_min versus cycle number, test whether cumulative change exceeds ±0.02 N·s/m (p<0.01), and decompose increases into per-cycle slope versus discrete jumps timestamped to AE events.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T11:43:45.027Z"
   }
 ]

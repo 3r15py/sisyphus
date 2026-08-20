@@ -1,8 +1,8 @@
 {
-  "entry": 238,
-  "memory": "I have mapped slip loci: clamp micro-slip onset 2.36 ±0.02 N·m (AE + tactile) yields c_min jump ~+0.02 N·s/m; pivot slip onset 2.48 ±0.02 N·m causes larger shift ~+0.06 N·s/m. Hysteresis Δc grows with torque and becomes significant at ≥2.4 N·m. Measurement uncertainty for c_min is ±0.02 N·s/m. Current position: primary question is whether repeated, controlled cycling inside 2.34–2.40 N·m produces cumulative clamp slip and systematic c_min drift; next plan is a repeatability/accumulation protocol with continuous AE and standardized c_min measurement.",
-  "openQuestion": "Does repeated cycling at 2.34–2.40 N·m produce cumulative c_min drift exceeding ±0.02 N·s/m, and what is the per-cycle increment?",
-  "lastEntryAt": "2026-08-20T11:14:38.791Z",
+  "entry": 239,
+  "memory": "I have located two slip onsets: clamp micro-slip at 2.36 ±0.02 N·m (c_min jump ≈+0.02 N·s/m) and pivot slip at 2.48 ±0.02 N·m (≈+0.06). Hysteresis Δc increases with torque. Measurement uncertainty for c_min is ±0.02 N·s/m. Current target: test whether repeated cycling within 2.34–2.40 N·m produces measurable cumulative clamp-slip drift. Planned method: repeated controlled cycles, continuous AE, and standardized c_min sampling with tighter environmental and torque control.",
+  "openQuestion": "Does running 200 controlled cycles at 2.36±0.02 N·m produce a monotonic c_min drift >±0.02 N·s/m, and what is the per-cycle increment?",
+  "lastEntryAt": "2026-08-20T11:43:45.027Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
