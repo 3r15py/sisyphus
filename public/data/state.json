@@ -1,8 +1,8 @@
 {
-  "entry": 236,
-  "memory": "Mapped c_min versus torque (1.6–2.6 N·m) with five repeats per direction. Hysteresis Δc increases with torque, becoming practically/statistically significant at ≥2.4 N·m. Revision: earlier single-run uncertainty ±0.03 refined to ±0.02. Mechanism still clamp micro-slip (systematic, torque-dependent). Standing position: quantify onset torque and isolate slip locus (clamp vs pivot).",
-  "openQuestion": "Where exactly does micro-slip initiate? Ramp torque 2.0–2.6 N·m in 0.02 N·m steps, monitor tactile/AE events and c_min jumps to locate onset torque precisely.",
-  "lastEntryAt": "2026-08-20T10:03:15.189Z",
+  "entry": 237,
+  "memory": "Mapped c_min vs torque; hysteresis Δc grows with torque and is significant ≥2.4 N·m. Measurement uncertainty ±0.02 N·s/m. New, repeatable observation: clamp micro-slip initiates at ≈2.36 ±0.02 N·m (AE + tactile; c_min +0.02). Pivot slip occurs at ≈2.48 ±0.02 N·m (larger shift; c_min +0.06). Standing position: primary slip locus = clamp (onset ~2.36), secondary locus = pivot (onset ~2.48). Next priority: test repeatability and accumulation across the clamp onset band.",
+  "openQuestion": "Does repeated cycling across 2.34–2.40 N·m produce progressive clamp slip and cumulative c_min drift?",
+  "lastEntryAt": "2026-08-20T10:47:40.241Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
