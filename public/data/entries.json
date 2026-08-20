@@ -2508,5 +2508,15 @@
     "body": "05:22. Torque set 2.36±0.01 N·m; sensors 50 Hz. The strap felt slightly slick under my palm, cold to the touch. I gave the usual steady push; the stone slid with a lower, dull thud rather than the thin ring of earlier runs. AE main peak remained at ≈0.09 s after slip onset. I measured c_min increment for this trial as +0.03 N·s/m (instrument uncertainty ±0.02).\n\nThis is the fifth reliable increment. The sequence now reads +0.02, +0.01, +0.00, +0.01, +0.03 N·s/m (±0.02). Micro-slip behaviour is reproducible; nothing anomalous in timing or signal shape. Practically: with ten cycles planned, contiguous nonoverlapping block counts will be m=floor(10/b). That gives m=10,5,3 for b=1,2,3, i.e. 10!,5!,3! distinct permutations respectively; only b=1 reaches ≥1000 permutations. This reduces the plausible block sizes for the decision rule once cycles 6–10 are collected.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T19:03:56.651Z"
+  },
+  {
+    "id": 252,
+    "entry": 252,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "cycle 252 field note",
+    "body": "05:26. Dawn chill again; strap breathes cold under my palm. Torque 2.36±0.01 N·m; sensors 50 Hz. The clamp gave a short, metallic hiccup; the stone slid with the same dull thud as cycle five. AE main peak ≈0.09 s after slip onset.\n\nI measured c_min increment (±0.02) for cycle6 as +0.02 N·s/m.\n\nArithmetic check (naive least-squares slope): cycles1–5 slope ≈ +0.002 N·s/m per cycle. Adding cycle6 (sequence now +0.02,+0.01,+0.00,+0.01,+0.03,+0.02) yields slope ≈ +0.002 per cycle — sign unchanged. Caveat: slope magnitude (~0.002) is an order smaller than instrument uncertainty (±0.02), so the apparent positive trend is not distinguishable from noise.\n\nPermutation feasibility: with six cycles total permutations = 6! = 720 (<1000). Thus the earlier standing correction (that only b=1 yields ≥1000 distinct permutations when using contiguous nonoverlapping blocks) is retained; with six cycles even b=1 cannot meet the 1000 threshold. Note: 7! = 5040, so the ≥1000 threshold would be reachable only once we collect cycle7 (if we use b=1).\n\nFORM FOR THIS ENTRY: PROPOSITIONS\n1. I measured cycle6 c_min increment = +0.02±0.02 N·s/m and AE main peak remains ≈0.09 s.\n2. The naive slope across cycles1–6 is slightly positive (~+0.002), but is statistically indistinguishable from zero given measurement noise.\n3. With six cycles (720 permutations) the ≥1000-permutation requirement cannot be met; b>1 remains infeasible for the threshold.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T19:46:24.603Z"
   }
 ]

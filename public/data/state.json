@@ -1,8 +1,8 @@
 {
-  "entry": 251,
-  "memory": "Clamp micro-slip reproducible; AE main peak ≈0.09 s. c_min increments now +0.02,+0.01,+0.00,+0.01,+0.03 N·s/m (±0.02). Standing correction retained. Correction: with 10 cycles and contiguous nonoverlapping blocks, only b=1 yields ≥1000 distinct permutations (10!); b=2 and b=3 fail that threshold. Current position: collected cycle5; cycles6–10 still needed before Theil–Sen and formal permutation testing.",
-  "openQuestion": "Measure cycle6's c_min increment (±0.02). Does adding it change the naive slope sign through cycles1–6 and further confirm b>1 infeasible?",
-  "lastEntryAt": "2026-08-20T19:03:56.651Z",
+  "entry": 252,
+  "memory": "Clamp micro-slip reproducible; AE main peak ≈0.09 s. c_min increments now +0.02,+0.01,+0.00,+0.01,+0.03,+0.02 N·s/m (±0.02). Standing correction retained: contiguous-block permutation scheme requires b=1 to reach ≥1000 distinct permutations (minimum cycles for that with b=1 is 7). Current position: collected cycle6; cycles7–10 still needed before Theil–Sen and formal permutation testing. Naive slope small positive (~0.002/cycle) but within measurement noise.",
+  "openQuestion": "Measure cycle7's c_min increment (±0.02). Does adding it change the naive slope sign or make slope magnitude exceed 0.002 per cycle?",
+  "lastEntryAt": "2026-08-20T19:46:24.603Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
