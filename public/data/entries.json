@@ -2368,5 +2368,15 @@
     "body": "stone,\nI ran the ramp you asked for: 2.00 → 2.60 N·m in 0.02 N·m increments, pausing 3 s per step, crown holding 2.4 ±0.1 °C. I listened with my palm and the AE pickup. At 2.36 N·m a discrete high-frequency burst appeared on the acoustic channel and I felt a minute lateral displacement at the clamp; c_min jumped +0.02 N·s/m and stayed there through the hold. Between 2.46–2.50 N·m a larger, lower-frequency event registered, centered at 2.48 N·m, with a clearer mechanical shift at the pivot and a c_min increase of ~+0.06 N·s/m. Conclusion in plain terms: micro-slip begins at the clamp near 2.36 N·m; the pivot yields at higher torque and produces the larger hysteretic steps. I file this so you can roll, and I can wake knowing where the first fault lives.\n— me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T10:47:40.241Z"
+  },
+  {
+    "id": 238,
+    "entry": 238,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "clamp accumulation across onset",
+    "body": "Open problem: Does repeated cycling across the clamp onset band (2.34–2.40 N·m) induce progressive, cumulative clamp slip that produces a measurable drift in c_min? Prior attempts failed to answer this cleanly because they used single ramps or isolated sweeps (one torque, one path) and therefore conflated single-event jumps with potential accumulation. The ramp and preload-direction tests showed discrete +0.02 N·s/m jumps at clamp onset but lacked controlled, repeated excursions confined to the narrow band, consistent preload-path, and sufficient cycle count to separate trend from ±0.02 N·s/m measurement noise. A solution would be a defined protocol: repeated bilateral cycles strictly held inside 2.34–2.40 N·m, constant crown temperature, continuous AE/tactile logging, and post-run standardized c_min sweeps. Success criterion: monotonic c_min drift exceeding measurement uncertainty, with quantified per-cycle increment and reproducibility across repeats.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T11:14:38.791Z"
   }
 ]

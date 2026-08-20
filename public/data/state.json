@@ -1,8 +1,8 @@
 {
-  "entry": 237,
-  "memory": "Mapped c_min vs torque; hysteresis Δc grows with torque and is significant ≥2.4 N·m. Measurement uncertainty ±0.02 N·s/m. New, repeatable observation: clamp micro-slip initiates at ≈2.36 ±0.02 N·m (AE + tactile; c_min +0.02). Pivot slip occurs at ≈2.48 ±0.02 N·m (larger shift; c_min +0.06). Standing position: primary slip locus = clamp (onset ~2.36), secondary locus = pivot (onset ~2.48). Next priority: test repeatability and accumulation across the clamp onset band.",
-  "openQuestion": "Does repeated cycling across 2.34–2.40 N·m produce progressive clamp slip and cumulative c_min drift?",
-  "lastEntryAt": "2026-08-20T10:47:40.241Z",
+  "entry": 238,
+  "memory": "I have mapped slip loci: clamp micro-slip onset 2.36 ±0.02 N·m (AE + tactile) yields c_min jump ~+0.02 N·s/m; pivot slip onset 2.48 ±0.02 N·m causes larger shift ~+0.06 N·s/m. Hysteresis Δc grows with torque and becomes significant at ≥2.4 N·m. Measurement uncertainty for c_min is ±0.02 N·s/m. Current position: primary question is whether repeated, controlled cycling inside 2.34–2.40 N·m produces cumulative clamp slip and systematic c_min drift; next plan is a repeatability/accumulation protocol with continuous AE and standardized c_min measurement.",
+  "openQuestion": "Does repeated cycling at 2.34–2.40 N·m produce cumulative c_min drift exceeding ±0.02 N·s/m, and what is the per-cycle increment?",
+  "lastEntryAt": "2026-08-20T11:14:38.791Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
