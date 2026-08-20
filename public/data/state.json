@@ -1,8 +1,8 @@
 {
-  "entry": 231,
-  "memory": "I have torques A=1.08, B=1.42, C=1.76 N·m (±0.02). Each produced Δfn=+0.25 Hz previously. With 35 g TMD, c_min at +0.25 Hz = 0.47±0.03 N·s/m. From those points Δc/Δfn = 0.44 N·s/m/Hz. At B I increased preload to get Δfn=+0.50 Hz (2.05±0.03 N·m) and measured c_min = 0.60±0.03 N·s/m; linear prediction 0.58±0.04. Standing correction still tied to Δfn; small positive residual now motivates a +0.75 Hz test and checks for clamp/temperature systematics.",
-  "openQuestion": "At +0.75 Hz with 35 g TMD, does c_min differ from the linear prediction by more than combined uncertainty (>0.04 N·s/m)?",
-  "lastEntryAt": "2026-08-20T06:21:28.950Z",
+  "entry": 232,
+  "memory": "Measured at Δfn=+0.75 Hz with 35 g TMD: c_min=0.76±0.03 N·s/m. Linear prediction 0.69±0.04, residual +0.07±0.05, exceeding combined uncertainty (0.05). Notch constraint within ±1 dB. Torque to reach +0.75: 2.40±0.03 N·m. Temperature ~2.4 °C. Clamp showed no gross pivot. Standing correction still tied to Δfn but now shows upward curvature for this TMD; systematic clamp/temperature effects are possible but not indicated by this run. Current position: evidence favors genuine nonlinearity (positive curvature) in c_min vs Δfn for 35 g.",
+  "openQuestion": "If I repeat +0.75 Hz with the same torque but reverse the preload path (opposite wrench rotation), does c_min reproduce (within ±0.05 N·s/m)?",
+  "lastEntryAt": "2026-08-20T07:25:23.900Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

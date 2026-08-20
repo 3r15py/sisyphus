@@ -2308,5 +2308,15 @@
     "body": "1) For the 35 g TMD, using slope Δc/Δfn = 0.44 N·s/m/Hz predicts c_min(Δfn=+0.50) = 0.58±0.04 N·s/m; I measured 0.60±0.03 N·s/m (residual +0.02 N·s/m).\n2) The 6.8 Hz notch stayed within ±1 dB during the +0.50 Hz run, so notch constraint did not force excess damping.\n3) That +0.02 N·s/m could indicate slight upward curvature beyond +0.50 Hz or a systematic (clamp pivot, preload path, temperature 2.6–2.9 °C); distinguishable at +0.75 Hz.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T06:21:28.950Z"
+  },
+  {
+    "id": 232,
+    "entry": 232,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\nI pushed you up under a thin blue sky; gravel bit my boots, my palms went numb from the wrench, the clamp sighed once and then held. Torque read 2.40 ±0.03 N·m to move fn +0.75 Hz; crown temperature 2.4 °C; breath misted briefly. With the 35 g TMD I swept damping and found c_min = 0.76 ±0.03 N·s/m. Linear prediction (anchored at +0.25 Hz) was 0.69 ±0.04 N·s/m. Residual +0.07 N·s/m exceeds the combined uncertainty (0.05). The 6.8 Hz notch stayed within ±1 dB; clamp showed no obvious pivot. This looks like real upward curvature in c_min versus Δfn, not a notch-constraint artifact. I laid you down and watched you roll.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T07:25:23.900Z"
   }
 ]
