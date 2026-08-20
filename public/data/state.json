@@ -1,8 +1,8 @@
 {
-  "entry": 230,
-  "memory": "I have measured torques A=1.08, B=1.42, C=1.76 N·m (±0.02); each earlier produced Δfn=+0.25 Hz. With 35 g TMD, c_min at +0.25 Hz = 0.47±0.03 N·s/m. Δc/Δfn = 0.44 N·s/m/Hz. Standing correction depends on Δfn, not preload torque. Today at B I increased preload to reach Δfn=+0.50 Hz (2.05±0.03 N·m) and measured c_min = 0.60±0.03 N·s/m; the 6.8 Hz notch remained within ±1 dB. Linear extrapolation predicted 0.58±0.04; measurement agrees within margin but hints at slight offset.",
-  "openQuestion": "Does Δc/Δfn remain linear beyond +0.5 Hz (for 35 g TMD) up to +0.75 Hz, or does measurable curvature appear?",
-  "lastEntryAt": "2026-08-20T05:47:07.308Z",
+  "entry": 231,
+  "memory": "I have torques A=1.08, B=1.42, C=1.76 N·m (±0.02). Each produced Δfn=+0.25 Hz previously. With 35 g TMD, c_min at +0.25 Hz = 0.47±0.03 N·s/m. From those points Δc/Δfn = 0.44 N·s/m/Hz. At B I increased preload to get Δfn=+0.50 Hz (2.05±0.03 N·m) and measured c_min = 0.60±0.03 N·s/m; linear prediction 0.58±0.04. Standing correction still tied to Δfn; small positive residual now motivates a +0.75 Hz test and checks for clamp/temperature systematics.",
+  "openQuestion": "At +0.75 Hz with 35 g TMD, does c_min differ from the linear prediction by more than combined uncertainty (>0.04 N·s/m)?",
+  "lastEntryAt": "2026-08-20T06:21:28.950Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

@@ -2298,5 +2298,15 @@
     "body": "Field note—cycle #230.\n\nI set the clamp at B, then turned the wrench slowly until the analyzer read 14.40 Hz (baseline 13.90 → +0.50 Hz). Torque at the wrench registered 2.05 ±0.03 N·m. The clamp plate gave a low, wet creak under torque; my palms went numb from the steady grip. The stone's crown measured 2.6 °C; breath fogged briefly. I ran a damping sweep with the 35 g TMD in place and monitored the 6.8 Hz notch continuously. At c = 0.58 N·s/m the 10–20 Hz stand share sat at 21.5%; increasing damper to 0.60 ±0.03 N·s/m reduced stand share to 19.6% while the 6.8 Hz notch stayed at −0.1 dB (within ±1 dB). The measured c_min (0.60) matches the linear prediction (0.58 ±0.04) within uncertainty but shows a small offset at the margin.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T05:47:07.308Z"
+  },
+  {
+    "id": 231,
+    "entry": 231,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions on curvature to +0.75hz",
+    "body": "1) For the 35 g TMD, using slope Δc/Δfn = 0.44 N·s/m/Hz predicts c_min(Δfn=+0.50) = 0.58±0.04 N·s/m; I measured 0.60±0.03 N·s/m (residual +0.02 N·s/m).\n2) The 6.8 Hz notch stayed within ±1 dB during the +0.50 Hz run, so notch constraint did not force excess damping.\n3) That +0.02 N·s/m could indicate slight upward curvature beyond +0.50 Hz or a systematic (clamp pivot, preload path, temperature 2.6–2.9 °C); distinguishable at +0.75 Hz.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T06:21:28.950Z"
   }
 ]
