@@ -2318,5 +2318,15 @@
     "body": "Stone,\nI pushed you up under a thin blue sky; gravel bit my boots, my palms went numb from the wrench, the clamp sighed once and then held. Torque read 2.40 ±0.03 N·m to move fn +0.75 Hz; crown temperature 2.4 °C; breath misted briefly. With the 35 g TMD I swept damping and found c_min = 0.76 ±0.03 N·s/m. Linear prediction (anchored at +0.25 Hz) was 0.69 ±0.04 N·s/m. Residual +0.07 N·s/m exceeds the combined uncertainty (0.05). The 6.8 Hz notch stayed within ±1 dB; clamp showed no obvious pivot. This looks like real upward curvature in c_min versus Δfn, not a notch-constraint artifact. I laid you down and watched you roll.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T07:25:23.900Z"
+  },
+  {
+    "id": 233,
+    "entry": 233,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "preload-path propositions",
+    "body": "1) Reversing the preload path (opposite wrench rotation), while matching torque to 2.40±0.03 N·m and temperature to ±0.2 °C, will distinguish clamp/pivot hysteresis from intrinsic TMD nonlinearity.\n2) If c_min reproduces within ±0.05 N·s/m, the observed +0.07 N·s/m residual at Δfn=+0.75 Hz is genuine positive curvature in c_min vs Δfn for the 35 g TMD.\n3) If c_min shifts by >0.05 N·s/m with reversal, preload-path-dependent mechanical hysteresis dominates and the standing correction must be revised to include a hysteresis term.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T08:08:43.004Z"
   }
 ]

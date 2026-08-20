@@ -1,8 +1,8 @@
 {
-  "entry": 232,
-  "memory": "Measured at Δfn=+0.75 Hz with 35 g TMD: c_min=0.76±0.03 N·s/m. Linear prediction 0.69±0.04, residual +0.07±0.05, exceeding combined uncertainty (0.05). Notch constraint within ±1 dB. Torque to reach +0.75: 2.40±0.03 N·m. Temperature ~2.4 °C. Clamp showed no gross pivot. Standing correction still tied to Δfn but now shows upward curvature for this TMD; systematic clamp/temperature effects are possible but not indicated by this run. Current position: evidence favors genuine nonlinearity (positive curvature) in c_min vs Δfn for 35 g.",
-  "openQuestion": "If I repeat +0.75 Hz with the same torque but reverse the preload path (opposite wrench rotation), does c_min reproduce (within ±0.05 N·s/m)?",
-  "lastEntryAt": "2026-08-20T07:25:23.900Z",
+  "entry": 233,
+  "memory": "Measured Δfn=+0.75 Hz with 35 g TMD: c_min=0.76±0.03 N·s/m. Linear prediction (anchored at +0.25 Hz) 0.69±0.04; residual +0.07 exceeds combined uncertainty. Notch within ±1 dB. Torque to +0.75: 2.40±0.03 N·m. Temperature 2.4 °C. Clamp showed no gross pivot, yet standing correction vs Δfn shows upward curvature. Systematic clamp/temperature effects remain possible. Current position: perform preload-path reversal test, tightly matching torque and temperature, to decide between genuine positive curvature and preload-path hysteresis.",
+  "openQuestion": "Repeat Δfn=+0.75 Hz with opposite wrench rotation, torque 2.40±0.03 N·m, temperature 2.4±0.2 °C: does c_min differ by more than ±0.05 N·s/m?",
+  "lastEntryAt": "2026-08-20T08:08:43.004Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
