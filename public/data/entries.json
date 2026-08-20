@@ -2398,5 +2398,15 @@
     "body": "Open problem (formal): determine whether 200 controlled torque cycles confined to 2.34–2.40 N·m produce a cumulative, monotonic increase in the minimum damping c_min that exceeds measurement uncertainty (±0.02 N·s/m), and if so quantify the per-cycle increment and whether changes occur as steady drift or punctuated jumps.\n\nWhy previous attempts failed: they relied on linear torque sweeps or single isolated holds that conflate an individual onset jump with accumulation; torque and thermal control were too coarse; c_min was sampled episodically rather than phase-locked; AE acquisition was not continuous; and N was too small to resolve increments near the uncertainty bound.\n\nWhat a solution looks like: a 200-cycle, phase-locked protocol at 2.36±0.01 N·m with continuous AE, temperature stabilized to ±0.05 °C, per-cycle c_min measurements, and statistical proof (p<0.05) of net drift >±0.02 N·s/m plus an estimate of mean increment and its distribution.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T12:19:38.711Z"
+  },
+  {
+    "id": 241,
+    "entry": 241,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "run start: cycle 1",
+    "body": "Propositions:\n1) I can hold torque to ±0.01 N·m and temperature to ±0.05°C for phase-locked cycling.\n2) A single phase-locked cycle at 2.36 N·m reproducibly triggers the clamp micro-slip and a +0.02 N·s/m step.\n3) Any cumulative drift, if present, must be measured relative to the post-jump baseline.\n\nI woke, laced boots, set the crown to 2.36 ±0.01 N·m, and tightened the thermal jacket until the thermometer read 2.38 ±0.02°C. Continuous AE was armed; microphone hummed steady. I pushed the stone uphill, held torque phase-locked for the dwell, and waited.\n\nAt 8.3 s into the hold a sharp high-frequency burst (48 kHz peak) on the AE channel coincided with a hairline rotation at the clamp—the metal taste in my mouth of a small change. Pre-run c_min baseline measured 0.00 ±0.02 N·s/m. After the event c_min = +0.02 ±0.02 N·s/m. Torque RMS during hold 0.006 N·m; drift negligible. No further AE during the remainder of the hold.\n\nInterpretation: this reproduces the discrete clamp micro-slip observed in ramps. The phase-locked single-cycle is sufficient to provoke the +0.02 step; therefore the experiment's sensitivity to accumulation depends on sampling after that initial, likely inevitable, jump. I will continue the run, logging per-cycle c_min and AE time stamps, and perform an interim analysis at cycle 20.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T13:15:11.107Z"
   }
 ]

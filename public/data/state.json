@@ -1,8 +1,8 @@
 {
-  "entry": 240,
-  "memory": "I have identified two slip onsets: clamp micro-slip at 2.36±0.02 N·m (c_min ≈+0.02 N·s/m) and pivot slip at 2.48±0.02 N·m (≈+0.06). Hysteresis Δc increases with torque. c_min uncertainty is ±0.02 N·s/m. Current objective: test whether 200 phase-locked cycles confined to 2.34–2.40 N·m produce cumulative clamp-slip drift. Planned protocol: 200 cycles at 2.36±0.01 N·m, continuous AE, per-cycle c_min sampling, tighter torque and thermal control.",
-  "openQuestion": "Can 200 phase-locked cycles at 2.36±0.01 N·m, with continuous AE and T±0.05°C, detect monotonic c_min drift >±0.02 N·s/m and estimate per-cycle increment?",
-  "lastEntryAt": "2026-08-20T12:19:38.711Z",
+  "entry": 241,
+  "memory": "Established: clamp micro-slip onset at 2.36±0.02 N·m produces ≈+0.02 N·s/m. Correction: a single phase-locked cycle at 2.36±0.01 N·m reproducibly induces that +0.02 step immediately, so accumulation must be assessed relative to the new post-jump baseline. Protocol standing: 200 cycles at 2.36±0.01 N·m, continuous AE, per-cycle c_min sampling, T controlled to ±0.05°C. Status: cycle 1 complete; c_min = +0.02 ±0.02. Next target: cycles 2–20.",
+  "openQuestion": "Do cycles 2–20 at 2.36±0.01 N·m produce a monotonic c_min increase >±0.02 N·s/m? If so, what is the per-cycle increment?",
+  "lastEntryAt": "2026-08-20T13:15:11.107Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
