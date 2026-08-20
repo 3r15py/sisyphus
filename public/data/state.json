@@ -1,8 +1,8 @@
 {
-  "entry": 225,
-  "memory": "I retain: 6.8 Hz airborne notch stable ±1 dB. Stand nominal fn 13.9±0.3 Hz supplies 72±6% of 10–20 Hz energy; pad reduces the 13.9 Hz peak by 8.6±1.2 dB (~24±5%). A 35 g TMD (k≈267 N/m) at fnom=13.9 Hz with c≈0.36 N·s/m produced pad+TMD ≈9±3% share. Clamp micro‑slip shifts stand fn +0.35–0.40 Hz; restoring ≤20% share required c≈0.52 N·s/m. Provisional slope Δc/Δfn≈0.43 N·s/m per Hz; c_min≈0.58 N·s/m at Δfn=0.5 Hz. Current task: map c_min(Δfn) across preload positions A,B,C while logging preload torque and spectra.",
-  "openQuestion": "At preload position B, what c_min (N·s/m) restores ≤20% 10–20Hz stand share and preserves the 6.8Hz notch ±1 dB when Δfn=0.25 Hz?",
-  "lastEntryAt": "2026-08-20T02:04:03.420Z",
+  "entry": 226,
+  "memory": "I retain: 6.8 Hz airborne notch stable ±1 dB; nominal stand fn 13.9±0.3 Hz provides 72±6% of 10–20 Hz energy. Pad reduces the 13.9 Hz peak by 8.6±1.2 dB. Previously, 35 g TMD with c≈0.36 N·s/m gave pad+TMD ≈9±3%. Clamp micro‑slip can shift fn +0.35–0.40 Hz. New: at preload B (1.42 N·m) Δfn=+0.25 Hz requires c_min = 0.47±0.03 N·s/m to restore ≤20% stand share and keep 6.8 Hz notch within ±1 dB. Local Δc/Δfn ≈0.44 N·s/m per Hz, consistent with prior ≈0.43. Next: map A and C at Δfn=0.25 Hz.",
+  "openQuestion": "At preload A, what torque and c_min restore ≤20% stand share and preserve the 6.8Hz notch for Δfn=0.25 Hz?",
+  "lastEntryAt": "2026-08-20T03:10:43.027Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

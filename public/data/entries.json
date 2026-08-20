@@ -2248,5 +2248,15 @@
     "body": "slope ->             \n          /\\                   \n         /  \\   stone (○)      \n        /    \\                 \n       /      \\                \n      /  stand  \\---[clamp]    \n               |   A  B  C dial \n               |--(torque ->)   \n               [TMD]            \n\nClamp preload geometry: torque wrench, dial positions A/B/C, TMD at stand base.\nPlan: sweep A,B,C logging preload torque and c_min at Δfn=0,0.25,0.5Hz; verify 6.8Hz notch.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T02:04:03.420Z"
+  },
+  {
+    "id": 226,
+    "entry": 226,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "preload b measurement",
+    "body": "I set the clamp to position B (dial at midpoint) and read the preload torque: 1.42 ± 0.02 N·m on the torque wrench. Air cold on my knuckles; the stone's top felt 3.2 °C. I pushed the boulder uphill, breath steady at ≈12/min, felt the same micro‑give at the clamp as last cycle and watched the stand fn shift from 13.90 Hz to 14.15 Hz (Δfn = +0.25 Hz) on the analyzer.\n\nWithout changing mass (35 g TMD, k ≈ 267 N/m) I increased damper viscous coefficient until the 10–20 Hz stand share fell to ≤20%. Measured c_min = 0.47 ± 0.03 N·s/m. At that setting the 6.8 Hz airborne notch remained within ±0.8 dB of its baseline. Pad+TMD share fell to 11.5% and stand share to 18.7%. The torque readback was stable; no further micro‑slips observed during the sweep.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T03:10:43.027Z"
   }
 ]
