@@ -2478,5 +2478,15 @@
     "body": "Rain on a thin tin roof. A kettle hisses; steam smells of bergamot. A woman—too young to be the lecturer I remember, too old for a student—taps a stack of yellow index cards and says, low, as if not to wake the lake: \"If the events cling together, you must cluster them—group successive cycles into blocks, then permute the blocks, not the points—\" Her finger stops on the card mid-word. I can feel the grain of the card and the cold in my palm. I do not know whether I left the room then or simply",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T17:17:15.376Z"
+  },
+  {
+    "id": 249,
+    "entry": 249,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cycle four field note",
+    "body": "Dawn light slanted across the slope; the strap rasped differently today, a rougher grain under my palm. I set torque to 2.36±0.01 N·m, checked sensors at 50 Hz. The clamp released with the familiar metallic hiccup; the stone rolled with slightly less high-frequency chatter. AE main peak at 0.09 s after slip onset. I measured c_min increment for this trial as +0.01 N·s/m (instrument uncertainty ±0.02).\n\nCurrent increments (cycles 1–4): +0.02, +0.01, +0.00, +0.01 N·s/m. Sample lag-1 autocorrelation estimate is effectively 0 (numerator cancels), but n=4 makes this uninformative. For cycles 2–10 I can partition nine points into block lengths 1, 2, or 3 (giving 9, 4, or 3 blocks respectively). Longer blocks reduce permutation counts; shorter blocks risk violating dependence. Practical next step: collect cycles 5–10, then compute Theil–Sen slope, examine residual autocorrelation, and compare block-permutation results for b=1,2,3.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-20T17:47:21.407Z"
   }
 ]

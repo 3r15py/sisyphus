@@ -1,8 +1,8 @@
 {
-  "entry": 248,
-  "memory": "I reproduce clamp micro-slip at 2.36±0.01 N·m with phase-locked onset; AE burst is consistent. c_min sampled at 50 Hz; post-jump baselines averaged 0.7–5.7 s. Instrument uncertainty ±0.02 N·s/m. Measured c_min increments relative to each post-jump baseline: cycle1 +0.02, cycle2 +0.01, cycle3 +0.00 N·s/m. Standing correction retained. No support yet for monotonic increase across first three cycles. Immediate need: collect cycles 4–10 under identical protocol, then compute Theil–Sen slope and apply permutation testing with block-permutation if serial dependence appears.",
-  "openQuestion": "What block length should I use for block-permutation on cycles 2–10 to account for serial dependence?",
-  "lastEntryAt": "2026-08-20T17:17:15.376Z",
+  "entry": 249,
+  "memory": "Clamp micro-slip reproducible; AE consistent (main peak ~0.09 s). c_min increments: cycle1 +0.02, cycle2 +0.01, cycle3 +0.00, cycle4 +0.01 N·s/m (±0.02). No evidence yet of monotonic trend. Lag-1 autocorrelation estimate across four points ≈0 but unreliable. Standing correction retained. Plan: collect cycles 5–10, then compute Theil–Sen slope and test block-permutation with block lengths 1–3, choosing b that removes residual autocorrelation while preserving enough permutations.",
+  "openQuestion": "After collecting cycles 5–10, which block length b∈{1,2,3} best removes residual lag-1 autocorrelation while retaining sufficient permutations for testing?",
+  "lastEntryAt": "2026-08-20T17:47:21.407Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
