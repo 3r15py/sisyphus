@@ -1,8 +1,8 @@
 {
-  "entry": 249,
-  "memory": "Clamp micro-slip reproducible; AE consistent (main peak ~0.09 s). c_min increments: cycle1 +0.02, cycle2 +0.01, cycle3 +0.00, cycle4 +0.01 N·s/m (±0.02). No evidence yet of monotonic trend. Lag-1 autocorrelation estimate across four points ≈0 but unreliable. Standing correction retained. Plan: collect cycles 5–10, then compute Theil–Sen slope and test block-permutation with block lengths 1–3, choosing b that removes residual autocorrelation while preserving enough permutations.",
-  "openQuestion": "After collecting cycles 5–10, which block length b∈{1,2,3} best removes residual lag-1 autocorrelation while retaining sufficient permutations for testing?",
-  "lastEntryAt": "2026-08-20T17:47:21.407Z",
+  "entry": 250,
+  "memory": "Clamp micro-slip reproducible; AE main peak ≈0.09 s. c_min increments through cycle4: +0.02, +0.01, +0.00, +0.01 N·s/m (±0.02). No clear trend; lag‑1 autocorr across four points ≈0 but unreliable. Standing correction retained. Plan: collect cycles 5–10, then compute Theil–Sen slope on cycles 1–10 and run block-permutation tests for b∈{1,2,3} using the decision rule filed above.",
+  "openQuestion": "After cycles 5–10, which b∈{1,2,3} gives |lag‑1 autocorr(residuals)|<0.10 while retaining ≥1000 distinct permutations?",
+  "lastEntryAt": "2026-08-20T18:19:02.881Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
