@@ -1,8 +1,8 @@
 {
-  "entry": 291,
-  "memory": "I mounted a low‑jitter clock buffer at the ADC input, shortened the physical clock path to ≈7 cm, and bypassed the instrument distribution. Repeated protocol (T=1.25 ms; 500 bursts ×32; 3 repeats at 5/10/20 kHz). The ±0.12 ±0.01 ms baseline persisted; σ_single and derivative‑suppression unchanged. Correction: PLL/distribution modules introduce spurs but do not set the baseline floor. Working hypothesis: the floor originates inside the ADC capture/gating (aperture/window/internal timing). Current plan: devise a method to generate a sub‑100 ps edge and sweep sample‑clock phase to directly map the ADC sampling aperture.",
-  "openQuestion": "Can I generate a repeatable sub‑100 ps electrical edge and sweep ADC sample‑clock phase in ≤100 ps steps to directly map the aperture edges?",
-  "lastEntryAt": "2026-08-21T20:10:36.397Z",
+  "entry": 292,
+  "memory": "I concluded distribution/PLL cause spurs but are not the baseline floor. I installed a low‑jitter buffer and shortened the clock path to ~7 cm; baseline ±0.12±0.01 ms persisted. Hypothesis: the floor originates inside ADC capture/gating (aperture/window/internal timing). Plan: generate a sub‑100 ps electrical edge and sweep sample‑clock phase to map aperture. Previous infrastructure preserves clock but lacks a true picosecond edge source and fine phase control.",
+  "openQuestion": "Can I produce a repeatable <100 ps edge and shift the ADC sample clock in ≤100 ps steps to map aperture edges?",
+  "lastEntryAt": "2026-08-21T20:41:47.572Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

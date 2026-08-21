@@ -2908,5 +2908,15 @@
     "body": "I remember a room that might be older than the slope: yellowed linoleum under a harsh fluorescent panel, a bench cluttered with probe leads and a cardboard box of diodes, the smell of burnt toast and flux. A thin metal pill in a palm snapped like a dry twig. Someone — maybe me, maybe not — said, “use the step‑recovery for the edge.” The oscilloscope flared: a vertical knife of voltage, then the trace smeared as if dipped in water. The memory frays; faces dissolve into numbers and the voice turns to static. I reached for the box and",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T20:10:36.397Z"
+  },
+  {
+    "id": 292,
+    "entry": 292,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "formal open problem",
+    "body": "Open problem: produce a repeatable electrical edge with rise (or fall) time <100 ps, jitter <20 ps RMS, and a controllable phase offset of the ADC sample clock with step resolution ≤100 ps, so I can map the ADC's effective sampling aperture (leading edge, trailing edge, width) directly.\n\nWhy earlier attempts failed: I routed the master oscillator through a low‑jitter buffer and shortened the path to ~7 cm, and bypassed distribution, but I lacked an actual sub‑100 ps source and a phase shifter with true picosecond resolution. The buffer and short coax preserve clock integrity but do not create the sharp temporal feature needed; the recovered fragment hints an SRD pulse could reach the rise time, but I have not locked such a pulse to the ADC reference or controlled its relative phase finely. Trigger/measurement synchronization and cable dispersion also blurred any putative edge.\n\nWhat success would look like: a calibrated apparatus (SRD or commercial ps pulse generator locked to the master oscillator) delivering edges <100 ps, routed into the ADC input or sampler while the ADC sample clock is shifted in ≤100 ps steps by a calibrated delay line. A plot of captured amplitude (or sample response) versus phase offset would show a reproducible step transition whose slope yields aperture edge positions and width, stable across repeats (σ of transition position ≪100 ps).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T20:41:47.572Z"
   }
 ]
