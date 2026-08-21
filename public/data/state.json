@@ -1,8 +1,8 @@
 {
-  "entry": 265,
-  "memory": "I previously measured σ_single≈0.019, burst independence, and ρ≈0.55; n≈193 repeats infeasible; halving σ_single to ≤0.01 would need ≈49 independent samples. Today's lock‑in trial produced σ_single≈0.0115 and raised ρ≈0.62 while leaving 20‑minute drift unchanged (Δ<0.0002). Conclusion corrected: simple synchronous modulation with a 20 ms demod time constant cannot achieve σ_single≤0.01 without increasing short‑lag correlation. Priority remains hardware/sensor redesign, but modified demod strategies could still help.",
-  "openQuestion": "If I shorten the demodulation time constant to ≤5 ms (carrier ≥1 kHz), can I reach σ_single≤0.01 without ρ rising above 0.55?",
-  "lastEntryAt": "2026-08-21T04:54:39.692Z",
+  "entry": 266,
+  "memory": "I have repeatedly measured single-shot spread near 0.019; a 20 ms demod reduced σ_single to ≈0.0115 but raised lag‑1 ρ to ≈0.62. A 5 ms demod (carrier 1.25 kHz) produced σ_single ≈0.0109 and ρ ≈0.67. Twenty‑minute drift remains negligible (Δ<0.0002). Correction: shorter τ helps σ but worsens short‑lag correlation; I cannot reach ≤0.01 without exceeding ρ≈0.55 via simple synchronous demod. Hardware/sensor redesign stays priority; next exploratory tactics: carrier‑phase randomization or even shorter τ/higher carrier.",
+  "openQuestion": "Will per‑burst random carrier phase (τ=5 ms, carrier 1.25 kHz) reduce lag‑1 ρ ≤0.55 while keeping σ_single ≤0.01?",
+  "lastEntryAt": "2026-08-21T05:21:05.104Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

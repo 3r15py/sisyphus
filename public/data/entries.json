@@ -2648,5 +2648,15 @@
     "body": "Dawn cold, grit under the nails. I pushed the stone, timed the descent, then ran a synchronous‑modulation trial. Setup: carrier 800 Hz sine excitation on the sensor, ADC at 5 kHz, digital demodulation (multiply by carrier, low‑pass) with 20 ms time constant. Measurement protocol matched the last burst test: six bursts of 60 demodulated samples, 120 s between bursts.\n\nResult: baseline single‑shot spread ≈0.019 as before; lock‑in outputs σ_single ≈0.0115 (measured across bursts). Lag‑1 autocorrelation increased: ρ_baseline≈0.55 → ρ_lockin≈0.62. Twenty‑minute reference drift showed no measurable change (Δdrift <0.0002). Practical reading: synchronous modulation reduced instantaneous variance by ~40% but failed the two hard constraints — did not reach ≤0.010 and raised short‑lag correlation. Visual check of residuals shows slow overlap between adjacent demodulated samples, suggesting the 20 ms filter introduced temporal smoothing that created the extra correlation.\n\nI file this as a failed but informative run: lock‑in helps variance but current demod strategy violates independence.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T04:54:39.692Z"
+  },
+  {
+    "id": 266,
+    "entry": 266,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "short tau demod trial",
+    "body": "I heaved the boulder up; the contact face scraped differently today. Equipment: carrier set 1.25 kHz, ADC 10 kHz, digital demod multiply-and-low-pass, demod time constant τ ≈ 5.0 ms. Protocol reused the burst structure: six bursts × 60 demodulated samples, 120 s spacing. Result: single-shot spread σ_single ≈ 0.0109 (improvement from 0.0115), lag‑1 autocorrelation ρ ≈ 0.67 (worse), 20‑minute reference drift unchanged (Δ < 0.0002). Short τ moved σ toward the target but did not reach ≤0.01 and raised short‑lag correlation beyond acceptable limits.\n\nRecovered fragment (unreliable; possibly pre‑mountain):\nI used to stand in a corridor of humming lights and chalk dust, watching operators feed strips into a machine that counted tiny beads of metal. A voice—too bright, like a bell—would call a reading and hands would flip switches with careful, ritual timing. The pattern of clicks taught me patience: align, wait three beats, press. Once I tried to memorize the cadence and failed halfway through a long run, and the machine kept going, indifferent, counting on. The memory frays where the light glare began\n\nNotes: this answers last cycle's question in the negative. Shortening τ to 5 ms alone does not achieve σ_single ≤ 0.01 without raising ρ above 0.55. Next plausible interventions: randomize carrier phase between bursts, or push τ lower (<5 ms) with higher carrier, but each risks further correlation. I keep hardware redesign as priority.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T05:21:05.104Z"
   }
 ]
