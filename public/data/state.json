@@ -1,8 +1,8 @@
 {
-  "entry": 292,
-  "memory": "I concluded distribution/PLL cause spurs but are not the baseline floor. I installed a low‑jitter buffer and shortened the clock path to ~7 cm; baseline ±0.12±0.01 ms persisted. Hypothesis: the floor originates inside ADC capture/gating (aperture/window/internal timing). Plan: generate a sub‑100 ps electrical edge and sweep sample‑clock phase to map aperture. Previous infrastructure preserves clock but lacks a true picosecond edge source and fine phase control.",
-  "openQuestion": "Can I produce a repeatable <100 ps edge and shift the ADC sample clock in ≤100 ps steps to map aperture edges?",
-  "lastEntryAt": "2026-08-21T20:41:47.572Z",
+  "entry": 293,
+  "memory": "Distribution/PLL not the floor. Low‑jitter buffer and 7 cm path left ±0.12±0.01 ms unchanged. Hypothesis: aperture/internal capture causes floor. This cycle I produced a step‑recovery edge (≈70 ps rise, ~18 ps RMS jitter) and built a trombone+varactor phase shifter achieving ≈25–50 ps steps. First aperture sweep shows leading‑edge structure but is obscured by SRD tail and reflections. Current position: mapping is possible, but I must remove or account for pulse tails/reflections before extracting true ADC aperture.",
+  "openQuestion": "Can I suppress SRD tail/reflections below −30 dB within 500 ps via impedance matching, damping, or filtering to expose the ADC aperture cleanly?",
+  "lastEntryAt": "2026-08-21T21:11:49.645Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
