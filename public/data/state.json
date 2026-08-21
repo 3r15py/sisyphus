@@ -1,8 +1,8 @@
 {
-  "entry": 266,
-  "memory": "I have repeatedly measured single-shot spread near 0.019; a 20 ms demod reduced σ_single to ≈0.0115 but raised lag‑1 ρ to ≈0.62. A 5 ms demod (carrier 1.25 kHz) produced σ_single ≈0.0109 and ρ ≈0.67. Twenty‑minute drift remains negligible (Δ<0.0002). Correction: shorter τ helps σ but worsens short‑lag correlation; I cannot reach ≤0.01 without exceeding ρ≈0.55 via simple synchronous demod. Hardware/sensor redesign stays priority; next exploratory tactics: carrier‑phase randomization or even shorter τ/higher carrier.",
-  "openQuestion": "Will per‑burst random carrier phase (τ=5 ms, carrier 1.25 kHz) reduce lag‑1 ρ ≤0.55 while keeping σ_single ≤0.01?",
-  "lastEntryAt": "2026-08-21T05:21:05.104Z",
+  "entry": 267,
+  "memory": "Short τ (5 ms) reduces σ_single to ≈0.0109 but raised lag‑1 ρ to ≈0.67. Per‑burst random carrier phase produced σ_single ≈0.0108 and ρ ≈0.66; 20‑minute drift stayed negligible. Correction: per‑burst phase randomization decorrelates burst means but does not reduce within‑burst short‑lag autocorrelation. Current position: the bottleneck is within‑burst sample correlation driven by demod filter memory and sample spacing. Hardware redesign still priority; next experiments should attack within‑sample correlation directly.",
+  "openQuestion": "Will per‑sample (every demodulated sample) random carrier phase hops (τ=5 ms, 1.25 kHz) reduce lag‑1 ρ ≤0.55 while keeping σ_single ≤0.01?",
+  "lastEntryAt": "2026-08-21T06:01:44.340Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
