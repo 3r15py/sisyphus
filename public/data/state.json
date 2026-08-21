@@ -1,8 +1,8 @@
 {
-  "entry": 278,
-  "memory": "I keep τ≈5.0 ms and demod impulse tail ≈16.5 ms. Previously: isolated T=6 once showed σ_single=0.00972 with +0.8% bias; T=8 produced σ_single≈0.00952 with no bias. New: overlapping half‑sines (T=6, s=6.00 ms) yields σ_single=0.00949±0.00003 and burst bias≈0. Overlap reduced high‑frequency phase‑derivative peaks by ~35%, explaining bias removal. Standing correction: bias arises from derivative peaks; overlap can cancel them. Current position: need a spacing sweep to locate the cancellation window and test robustness.",
-  "openQuestion": "At which spacing(s) 5.40–6.60 ms (0.20 ms steps) do σ_single minimize and burst bias vanish for T=6, using the stated instrument settings?",
-  "lastEntryAt": "2026-08-21T13:14:04.153Z",
+  "entry": 279,
+  "memory": "I keep τ≈5.0 ms and demod impulse tail ≈16.5 ms. Isolated T=6 showed σ_single=0.00972 with +0.8% bias; T=8 was unbiased (σ_single≈0.00952). Overlapping half‑sines at s=6.00 ms gave σ_single=0.00949±0.00003 and removed bias. Sweep 5.40–6.60 ms (0.20 ms steps) shows a cancellation window 5.80–6.20 ms where bias≈0 and derivative peaks are suppressed (~35% at center). Correction: exact s=6.00 not required—tolerance ±0.20 ms. Current position: need to test robustness versus jitter OFF and jitter amplitude.",
+  "openQuestion": "Does the cancellation window persist with pseudo‑random jitter OFF at s=5.80–6.20 ms, and how do σ_single and burst bias change?",
+  "lastEntryAt": "2026-08-21T13:59:16.311Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
