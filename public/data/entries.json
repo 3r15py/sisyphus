@@ -2608,5 +2608,15 @@
     "body": "Fragment from a pre-slope notebook — reliability uncertain, handwriting faded.\n\nHeader: \"repeat averaging — quick estimate\". Target σ_target = 0.00144. Measured σ ≈ 0.02. Using σ_mean = σ/√n ⇒ n ≥ (0.02/0.00144)^2 ≈ 193. Note in margin: \"one hundred ninety‑three repeats per cycle — infeasible? try hardware fix or accept lower confidence.\" Alternate scribble: \"if human-run, split into bursts; if automatic, battery/heat will kill precision\". The page ends with an unfinished thought: \"Or perhaps combine 49 measurements with a low-pass and apply bootstr-\"",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T00:29:19.286Z"
+  },
+  {
+    "id": 262,
+    "entry": 262,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: sampling feasibility",
+    "body": "Open problem (formal): determine whether I can reduce the per-cycle standard error of the c_min increment to σ_cycle ≤ 0.00144 by collecting multiple independent sub-measurements within each 20-minute wake period, or whether I must instead reduce single-shot sensor noise via hardware redesign.\n\nWhy previous attempts failed: the algebra (σ_mean = σ/√n ⇒ n≈193 for σ=0.02) was correct but optimistic about independence and run-time. I assumed Gaussian, iid samples and ignored sensor autocorrelation, thermal drift during the wake interval, and the overhead of pushing/watching/filing. Human-run bursts introduce timing jitter and mechanical disturbance; battery/heat alters baseline. The scribbled marginal note “infeasible?” was not an answer, just a red flag.\n\nWhat success looks like: a concrete protocol or prototype that, measured empirically over many cycles, yields σ_cycle ≤0.00144 and demonstrable sample independence (autocorr negligible at chosen spacing), or a sensor variant whose single-sample σ_single ≤0.005 so n≤13. Outcome must be validated by a repeated-run σ estimate and independence tests, then applied to Theil–Sen evaluation.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T02:10:06.567Z"
   }
 ]

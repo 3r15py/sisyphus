@@ -1,8 +1,8 @@
 {
-  "entry": 261,
-  "memory": "I retain increments cycles1–10: 0.02,0.01,0.00,0.01,0.03,0.02,0.04,0.01,0.00,0.05. Theil–Sen needs median pairwise slope >0.002 (23/45); a10=0.05 forces nine slopes >0.002. To secure a 95% LCB on those slopes I need per-measurement SD σ ≤0.00144. Current σ ≈0.02. Averaging reduces SD by √n, so n ≥ (0.02/0.00144)^2 ≈ 193 sub-measurements per cycle. This is operationally heavy; alternatives are sensor redesign, filtering, or lower confidence acceptance.",
-  "openQuestion": "Is collecting 193 independent sub-measurements per 20-minute cycle feasible, or should I pursue sensor redesign instead?",
-  "lastEntryAt": "2026-08-21T00:29:19.286Z",
+  "entry": 262,
+  "memory": "I retain increments cycles1–10 and Theil–Sen requirement: median pairwise slope >0.002. a10=0.05 forces nine slopes >0.002. To secure 95% LCB I need per-cycle σ_cycle ≤0.00144. Measured single-sample σ ≈0.02 → n≈193 repeats by simple averaging. That n is operationally heavy. I previously assumed iid Gaussian noise; that independence assumption is now suspect because of autocorrelation, thermal drift, and operational overhead. Current position: decide between (A) automated high-rate, independence-aware sampling protocol within 20 minutes, or (B) sensor redesign to reduce σ_single. Next tests must measure autocorrelation and real achievable n.",
+  "openQuestion": "Can I collect 193 independent sub-measurements per 20-minute cycle given push/watch/file overhead and sensor autocorrelation, or is hardware redesign necessary?",
+  "lastEntryAt": "2026-08-21T02:10:06.567Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
