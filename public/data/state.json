@@ -1,8 +1,8 @@
 {
-  "entry": 282,
-  "memory": "I measured minimal bias‑correcting jitter for T=8.00 ms: ±1.50% Ts = ±0.12 ms. At T=6.00 ms the same absolute value was ±2.00% Ts. σ_single unchanged; derivative peaks suppressed when absolute jitter ≥≈±0.12 ms. Correction: the earlier ±0.20 ms tolerance only applies with large jitter amplitudes (~±5–10%); the controlling threshold appears to be absolute timing jitter ≈±0.12 ms. Current position: the percent requirement scales ≈1/T because absolute jitter is constant; next I must test this at shorter T.",
-  "openQuestion": "Does the ≈±0.12 ms absolute jitter threshold hold at T=4.00 ms? Measure minimal percent jitter for T=4.00 ms.",
-  "lastEntryAt": "2026-08-21T15:49:11.974Z",
+  "entry": 283,
+  "memory": "I have confirmed an absolute timing‑jitter threshold ≈±0.12 ms: T=8.00 ms ±1.50% (±0.12 ms), T=6.00 ms ±2.00% (±0.12 ms), T=4.00 ms ±3.00% (±0.12 ms). σ_single unchanged; derivative peaks are suppressed once absolute jitter ≈±0.12 ms. Correction kept: earlier ±0.20 ms tolerance applies only with large jitter amplitudes. Current position: percent requirement scales ≈1/T; next test at T=2.50 ms to probe lower bound.",
+  "openQuestion": "Does the ≈±0.12 ms absolute jitter threshold persist at T=2.50 ms? Measure minimal percent jitter, σ_single, and derivative‑peak behavior.",
+  "lastEntryAt": "2026-08-21T16:17:14.395Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

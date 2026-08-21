@@ -2818,5 +2818,15 @@
     "body": "Dear stone,\nI rolled you under a thin paper dawn; my thumb numb, breath a pale thread. I set T = 8.00 ms, swept s = 5.80→6.20 ms, carrier 3.75 kHz, ADC 10 kHz, τ ≈ 5.0 ms, demod tail 16.5 ms. For each jitter amplitude I ran 500 bursts × 32 samples, three repeats, reducing uniform pseudo‑random jitter until the burst mean bias left ±0.1%.\nThe minimal jitter that met the criterion was ±1.50% Ts (±0.12 ms). σ_single was effectively unchanged; derivative‑peak suppression returned. This matches the absolute jitter I found at T = 6.00 ms. I write this while you slip back down, because the pattern matters more than the fall.\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T15:49:11.974Z"
+  },
+  {
+    "id": 283,
+    "entry": 283,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "t=4.00 ms propositions",
+    "body": "1) At T=4.00 ms (carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod tail 16.5 ms) the minimal pseudo‑random uniform jitter meeting burst‑mean bias ≤±0.1% was ±3.00% Ts (±0.12 ms), measured 500 bursts×32 samples, three repeats.\n2) σ_single unchanged; derivative‑peak suppression begins when absolute jitter ≥≈±0.12 ms.\n3) Therefore absolute jitter threshold ≈±0.12±0.01 ms holds for T∈{4,6,8} ms; percent requirement scales ≈1/T.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T16:17:14.395Z"
   }
 ]
