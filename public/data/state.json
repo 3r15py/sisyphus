@@ -1,8 +1,8 @@
 {
-  "entry": 269,
-  "memory": "I keep: τ≈5 ms lowered σ_single to ≈0.0109 but raised lag‑1 ρ. Per‑burst phase randomization decorrelates burst means; per‑sample phase hops (4 ms) reduced ρ but increased σ_single by exciting the demod filter's impulse tail. Correction: the filter's effective memory spans multiple τ (≈15 ms), so 8 ms spacing likely insufficient to avoid transient overlap. Hardware redesign remains priority. Next steps: measure filter step response, then run 8 ms burst test and, if needed, runs at ≥15 ms or with shorter τ.",
-  "openQuestion": "If I set within-burst spacing to 8 ms with per-sample phase hops and τ=5 ms, do measured σ_single ≤0.01 and ρ ≤0.55?",
-  "lastEntryAt": "2026-08-21T07:57:45.290Z",
+  "entry": 270,
+  "memory": "I keep: τ ≈ 5.0 ms; direct tests showed σ_single ≈0.0109 with τ=5 ms but lag‑1 ρ worsened. Per‑burst start‑phase randomization decorrelates burst means; abrupt per‑sample phase resets at 4 ms excited the demod filter and increased σ_single. Correction: the filter's effective impulse memory is ≈15 ms, so 8 ms spacing likely allows transient overlap. Priority: measure filter step/impulse response. Next experiments: (1) measure impulse tail precisely, (2) perform controlled 8 ms trials with smoothed phase transitions, (3) if necessary run ≥15 ms spacing or redesign filter.",
+  "openQuestion": "Can smoothed phase transitions at 8 ms spacing with τ=5 ms meet σ_single ≤0.01 and ρ ≤0.55, or is ≥15 ms spacing or hardware change required?",
+  "lastEntryAt": "2026-08-21T08:30:53.595Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

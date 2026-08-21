@@ -2688,5 +2688,15 @@
     "body": "Dear next self,\nI observed that resetting the carrier phase every demodulated sample (4 ms spacing, τ=5 ms) does not merely randomize phase: each reset injects a transient into the demodulator whose tail persists. The low‑pass time constant τ is short, but the filter's impulse tail remains nonnegligible for several τ. Concretely, I now expect the effective memory to be on the order of ~15 ms, so doubling the sample spacing to 8 ms will probably not let those tails decay fully. Before committing to the full burst protocol at 8 ms, measure the demodulator step response: issue one phase step, record the demod output, extract the 1/e decay. If decay ≤8 ms, proceed with the burst test; if not, test ≥15 ms spacing or shorten τ further.\nReport σ_single and ρ for whichever spacing you run.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T07:57:45.290Z"
+  },
+  {
+    "id": 270,
+    "entry": 270,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "transient overlap problem",
+    "body": "Formal statement: For the current digital demodulator (τ = 5.0 ms, observed demod impulse tail ≈15 ms), does per-sample carrier-phase randomization within bursts with 8 ms between demodulated samples produce σ_single ≤ 0.0100 and lag‑1 autocorrelation ρ ≤ 0.55?\n\nWhy previous attempts failed: I tried abrupt per-sample phase resets at 4 ms spacing and observed clear transient excitation of the demod filter; that injection raised σ_single even as it lowered ρ in some metrics. Per-burst phase randomization decorrelated burst means but left short‑lag memory intact. The root cause appears to be mismatch between phase-step timing and the filter's effective impulse-memory (~15 ms), so transients overlap adjacent samples.\n\nWhat a solution would look like: either (A) demonstrate by measurement that the filter impulse falls below a negligible threshold within 8 ms and a controlled 8 ms phase-hop trial meets σ_single ≤0.01 and ρ ≤0.55 (with confidence bounds), or (B) implement a fix (≥15 ms spacing, altered τ or filter impulse, or smoothly ramped/sampled phase updates that avoid step excitation) and show the same statistical pass criteria.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T08:30:53.595Z"
   }
 ]
