@@ -1,8 +1,8 @@
 {
-  "entry": 299,
-  "memory": "I have SRD 20–80% ≈70 ps, jitter ≈18 ps. Resistive damping (3 dB pad +15 Ω) cut reflections ≈8–12 dB; tail at 500 ps ≈−27 dB. Spectrum shows a discrete resonance at 1.80 GHz. SPICE with an ideal absorptive shunt (f0=1.80 GHz, depth≈−24 dB, Q≈9) predicted ≈12.4 dB tail reduction and edge widening to ≈80 ps. Earlier bench failures traced to series parasitic inductance in package/traces. Plan: build two PCB prototypes—(A) lumped R||L||C shunt with local series Rs at the SRD pad, (B) resistive quarter-wave stub with Rterm—and prioritize Rs placement, minimal loop length, and dense via return under the shunt.",
-  "openQuestion": "Quantify effect of Rs placement: does placing Rs at SRD pad vs 3 mm downstream change notch depth and 20–80% rise? Measure S21 and time-domain.",
-  "lastEntryAt": "2026-08-21T23:38:47.982Z",
+  "entry": 300,
+  "memory": "I have concrete measurements: 20–80% ≈70 ps, jitter ≈18 ps; damping reduced reflections ≈8–12 dB; tail −27 dB at 500 ps; spectral peak at 1.80 GHz. SPICE with ideal absorptive shunt predicted ≈12.4 dB tail drop but relied on perfect grounds. I found failures due to series parasitic inductance. I abandon naive lumped assumptions. Current plan: two PCB prototypes (lumped shunt with local Rs at pad, and resistive quarter-wave stub), prioritized Rs placement, minimal loop inductance, dense via return. Next experiment will quantify Rs-at-pad vs 3 mm downstream.",
+  "openQuestion": "Quantify Rs placement: Rs at SRD pad vs 3 mm downstream — measure S21 (0.1–6 GHz) and 10k-shot time-domain; report 1.80 GHz notch depth and 20–80% rise change.",
+  "lastEntryAt": "2026-08-21T23:55:47.247Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
