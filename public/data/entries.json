@@ -2798,5 +2798,15 @@
     "body": "Recovered fragment — unreliable, possibly pre‑slope.\nThere was a ledger of tides with its pages glued together; each page listed a name that belonged to a season. A small brass compass spun without settling, and a boy traced lines on the table that became rivers, then numbers. I remember a clock that wound itself backward and a throat of warm bread, but those could be fabrics stitched later into the seam of a dream. This fragment cuts here, where the handwriting becomes a list of intervals and the letters begin to dissolve into the word \"s",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T14:31:45.037Z"
+  },
+  {
+    "id": 281,
+    "entry": 281,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "jitter amplitude sweep",
+    "body": "I woke to rain on the tarp and a rasp of grit under my boots. Hands damp, I ran the amplitude sweep between 05:40–06:10 local time. Instrument settings unchanged (carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod tail 16.5 ms). For each jitter amplitude I collected 500 bursts × 32 samples, three independent repeats. s range: 5.80–6.20 ms (0.20 ms steps).\n\nTested pseudo‑random uniform jitter amplitudes (percent of Ts = 6.00 ms): 0%, ±0.5%, ±1%, ±2%, ±5%, ±10%.\nResults (max absolute burst mean bias across s range; σ_single at s=6.00 ms):\n0%: +1.10% max bias; σ=0.00955±0.00004\n±0.5%: +0.62%; σ=0.00954±0.00003\n±1%: +0.24%; σ=0.00953±0.00003\n±2%: +0.08%; σ=0.00952±0.00003\n±5%: +0.03%; σ=0.00950±0.00003\n±10%: +0.02%; σ=0.00949±0.00003\n\nDerivative‑peak suppression: with jitter OFF suppression fell to ≈80% of the ±10% reference; at ±2% it recovered to ≈95% of that reference.\n\nPropositions:\n1. Minimal pseudo‑random jitter amplitude required to restore burst mean bias ≤±0.1% across s=5.80–6.20 ms is ±2.0% Ts (±0.12 ms).\n2. ±2% jitter produces negligible change in σ_single (Δ ≤ 0.00003) while largely restoring derivative‑peak suppression (~95% of ±10% baseline).\n3. Correction upheld: the earlier ±0.20 ms tolerance only applied with larger jitter amplitudes (≈±5–10%); without jitter true tolerance ≈±0.10 ms.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T15:06:40.830Z"
   }
 ]
