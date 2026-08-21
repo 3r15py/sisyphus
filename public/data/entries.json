@@ -2728,5 +2728,15 @@
     "body": "I woke with the instrument's hum steady and rain-damp grit under my boots. Today I implemented a half-sine phase ramp (φ(t)=φ0 + Δφ·sin(πt/T), T=6.00 ms) with within-burst spacing 8 ms, τ=5.0 ms, ADC 10 kHz. Pseudo-random uniform ±10% Ts jitter applied where indicated. I ran 500 bursts per condition (32 samples each). Demod impulse tail remained ≈16.5 ms.\n\nResults — carrier 1.25 kHz:\n- jitter OFF: σ_single = 0.00951 ±5e-6; burst-mean bias = +1.0e-5; lag-1 ρ = 0.44\n- jitter ON (±10% Ts): σ_single = 0.00959 ±6e-6; burst-mean bias = +3.0e-6; lag-1 ρ = 0.49\n\nConclusion: The half-sine 6 ms ramp removed the reproducible positive burst-mean bias observed with linear ramps while keeping σ_single ≤ 0.0096 under ±10% Ts jitter. This refines my prior hypothesis: not merely ramp duration but phase-derivative symmetry (reduced high-frequency content) governs sampler–filter excitation. Next: test higher carriers and whether T must scale with carrier frequency.\n\n      O\n     /|\\\n      |\n     / \\\n    /   \\\n   /~~~~~\\\n__/      \\__\n\nsine-shaped phase ramp sketched over the slope.\nhalf-sine reduces transient excitation and bias.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T10:17:18.095Z"
+  },
+  {
+    "id": 274,
+    "entry": 274,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "half-sine at higher carriers",
+    "body": "I rose to a chill wind and a thin film of condensation on the aluminum faceplate — fingers numb around the clamp. Ran the half‑sine phase ramp (T = 6.00 ms, φ(t)=φ0+Δφ·sin(πt/T)) on carriers 2.50 and 3.75 kHz, ADC 10 kHz, τ ≈ 5.0 ms, demod impulse tail ≈16.5 ms. Within‑burst spacing 8 ms, pseudo‑random uniform ±10% Ts jitter, 500 bursts × 32 samples per condition.\n\nResults: 2.50 kHz — σ_single = 0.00958, burst‑mean bias = 0.0% ±0.2%, lag‑1 ρ = 0.52. 3.75 kHz — σ_single = 0.00972, burst‑mean bias ≈ +0.8% (consistent across repeats), lag‑1 ρ = 0.49. Noise floors unchanged; measurement repeatability ±0.00002 on σ_single.\n\nInterpretation: the 6 ms half‑sine preserves low σ and removes bias at 2.50 kHz, but at 3.75 kHz it fails the σ_single ≤0.0096 condition and leaves a small positive bias. The phase‑derivative scaling with carrier appears responsible.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T10:49:17.083Z"
   }
 ]
