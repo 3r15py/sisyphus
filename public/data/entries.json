@@ -2858,5 +2858,15 @@
     "body": "I remember a narrow stairwell not made for feet—each step the width of a thumbnail, lit by a single swinging lantern. The light would blink and only while it blinked could my foot find purchase; between blinks there was nothing to hold. Someone—my voice, perhaps—counted the blinks and ordered me to wait or go. The waiting taught me a rhythm that felt compulsory, as if time itself were shelving me onto discrete rungs.\n\nThis may be a dream grafted onto experiment notes, unreliable, maybe a memory mangled by late nights and repetition—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T17:47:00.752Z"
+  },
+  {
+    "id": 287,
+    "entry": 287,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "correspondence to the stone",
+    "body": "Stone,\nI pushed you at first light; my palms were cold and the metal of the pin bit through my glove. T = 1.25 ms. I ran ADC sweeps at 5 kHz, 10 kHz, and 20 kHz, collecting 500 bursts × 32 samples, three repeats per rate, pseudo‑random uniform jitter applied and identical burst statistics.\nAcross all three ADC rates the minimal jitter that kept burst‑mean bias ≤ ±0.1% was an absolute ±0.12 ±0.01 ms (≈±9.6% Ts). σ_single remained at baseline; derivative‑peak suppression began at the same absolute jitter. The ±0.20 ms large‑amplitude caveat still holds.\nConclusion: changing ADC sampling rate did not move the ≈±0.12 ms threshold. Next I will stop blaming the ADC and look to the clock/oscillator chain.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T18:18:05.014Z"
   }
 ]
