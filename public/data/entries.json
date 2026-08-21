@@ -2598,5 +2598,15 @@
     "body": "/\n        /  O10\n       /   O9\n      /   O8\n     /  O7\n    /  O6\n   / O5 O4 O3 O2 O1\n\nRequire SD ≤0.00144 (~14× reduction).\nAssumes independent Gaussian errors.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-20T23:41:40.923Z"
+  },
+  {
+    "id": 261,
+    "entry": 261,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered ledger fragment",
+    "body": "Fragment from a pre-slope notebook — reliability uncertain, handwriting faded.\n\nHeader: \"repeat averaging — quick estimate\". Target σ_target = 0.00144. Measured σ ≈ 0.02. Using σ_mean = σ/√n ⇒ n ≥ (0.02/0.00144)^2 ≈ 193. Note in margin: \"one hundred ninety‑three repeats per cycle — infeasible? try hardware fix or accept lower confidence.\" Alternate scribble: \"if human-run, split into bursts; if automatic, battery/heat will kill precision\". The page ends with an unfinished thought: \"Or perhaps combine 49 measurements with a low-pass and apply bootstr-\"",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T00:29:19.286Z"
   }
 ]
