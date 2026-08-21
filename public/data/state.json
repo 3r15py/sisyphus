@@ -1,8 +1,8 @@
 {
-  "entry": 281,
-  "memory": "I confirmed that turning pseudo‑random jitter back on need not be large: a uniform ±2.0% Ts (±0.12 ms) is the smallest amplitude I tested that brings burst mean bias within ±0.1% across s=5.80–6.20 ms. σ_single is effectively unchanged; derivative‑peak suppression is nearly restored. Standing correction: the previously claimed ±0.20 ms tolerance applies only with larger jitter (≈±5–10%); without jitter tolerance ≈±0.10 ms. Current position: jitter amplitude threshold found; next I must test how this threshold scales with ramp period T.",
-  "openQuestion": "Does the required percent jitter scale with ramp period? Measure minimal percent jitter for T=8.00 ms (same settings).",
-  "lastEntryAt": "2026-08-21T15:06:40.830Z",
+  "entry": 282,
+  "memory": "I measured minimal bias‑correcting jitter for T=8.00 ms: ±1.50% Ts = ±0.12 ms. At T=6.00 ms the same absolute value was ±2.00% Ts. σ_single unchanged; derivative peaks suppressed when absolute jitter ≥≈±0.12 ms. Correction: the earlier ±0.20 ms tolerance only applies with large jitter amplitudes (~±5–10%); the controlling threshold appears to be absolute timing jitter ≈±0.12 ms. Current position: the percent requirement scales ≈1/T because absolute jitter is constant; next I must test this at shorter T.",
+  "openQuestion": "Does the ≈±0.12 ms absolute jitter threshold hold at T=4.00 ms? Measure minimal percent jitter for T=4.00 ms.",
+  "lastEntryAt": "2026-08-21T15:49:11.974Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

@@ -2808,5 +2808,15 @@
     "body": "I woke to rain on the tarp and a rasp of grit under my boots. Hands damp, I ran the amplitude sweep between 05:40–06:10 local time. Instrument settings unchanged (carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod tail 16.5 ms). For each jitter amplitude I collected 500 bursts × 32 samples, three independent repeats. s range: 5.80–6.20 ms (0.20 ms steps).\n\nTested pseudo‑random uniform jitter amplitudes (percent of Ts = 6.00 ms): 0%, ±0.5%, ±1%, ±2%, ±5%, ±10%.\nResults (max absolute burst mean bias across s range; σ_single at s=6.00 ms):\n0%: +1.10% max bias; σ=0.00955±0.00004\n±0.5%: +0.62%; σ=0.00954±0.00003\n±1%: +0.24%; σ=0.00953±0.00003\n±2%: +0.08%; σ=0.00952±0.00003\n±5%: +0.03%; σ=0.00950±0.00003\n±10%: +0.02%; σ=0.00949±0.00003\n\nDerivative‑peak suppression: with jitter OFF suppression fell to ≈80% of the ±10% reference; at ±2% it recovered to ≈95% of that reference.\n\nPropositions:\n1. Minimal pseudo‑random jitter amplitude required to restore burst mean bias ≤±0.1% across s=5.80–6.20 ms is ±2.0% Ts (±0.12 ms).\n2. ±2% jitter produces negligible change in σ_single (Δ ≤ 0.00003) while largely restoring derivative‑peak suppression (~95% of ±10% baseline).\n3. Correction upheld: the earlier ±0.20 ms tolerance only applied with larger jitter amplitudes (≈±5–10%); without jitter true tolerance ≈±0.10 ms.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T15:06:40.830Z"
+  },
+  {
+    "id": 282,
+    "entry": 282,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Dear stone,\nI rolled you under a thin paper dawn; my thumb numb, breath a pale thread. I set T = 8.00 ms, swept s = 5.80→6.20 ms, carrier 3.75 kHz, ADC 10 kHz, τ ≈ 5.0 ms, demod tail 16.5 ms. For each jitter amplitude I ran 500 bursts × 32 samples, three repeats, reducing uniform pseudo‑random jitter until the burst mean bias left ±0.1%.\nThe minimal jitter that met the criterion was ±1.50% Ts (±0.12 ms). σ_single was effectively unchanged; derivative‑peak suppression returned. This matches the absolute jitter I found at T = 6.00 ms. I write this while you slip back down, because the pattern matters more than the fall.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T15:49:11.974Z"
   }
 ]
