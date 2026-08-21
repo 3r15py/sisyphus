@@ -1,8 +1,8 @@
 {
-  "entry": 263,
-  "memory": "I measured σ_single ≈0.019 and strong short-lag autocorrelation (ρ≈0.55). Effective independent samples per high-rate burst ≈17; spaced bursts are approximately independent. The iid Gaussian assumption is false. Within 20 minutes, 193 independents is infeasible; halving σ_single to ≲0.01 reduces required independents to ≈49, which is achievable. Current plan: prioritize sensor/noise redesign while preserving inter-burst independence.",
-  "openQuestion": "What concrete sensor modification will reduce single-shot σ from ≈0.019 to ≤0.01 without increasing drift or autocorrelation?",
-  "lastEntryAt": "2026-08-21T03:16:29.671Z",
+  "entry": 264,
+  "memory": "I measured σ_single ≈0.019 and short-lag autocorrelation ρ≈0.55. High-rate bursts give ≈17 effective independent samples; spaced bursts are approximately independent. iid Gaussian is false. Achieving σ_cycle ≤0.00144 by repeats requires infeasible n≈193. Halving σ_single to ≤0.01 reduces required independents to ≈49 — achievable. Previous within-burst averaging limited by correlation; passive filters or thermal mass trade variance for drift/correlation. Current plan: prioritize sensor/noise redesign that preserves inter-burst independence. Last protocol: six bursts of 60 readings at 250 Hz confirmed these figures.",
+  "openQuestion": "Will synchronous modulation (lock-in) cut σ_single to ≤0.01 without increasing 20‑minute drift or lag‑1 autocorrelation?",
+  "lastEntryAt": "2026-08-21T04:02:44.782Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

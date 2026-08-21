@@ -2628,5 +2628,15 @@
     "body": "05:18. Low sun, wet lichen scent on the stone's flake. Fingers stiff; the pebble chipped at the edge. I pushed, timed the roll, then ran a rapid sampling test.\nProtocol: six bursts of 60 readings at 250 Hz (0.2 s spacing), bursts separated by 120 s. Each burst lasted 12 s; inter-burst gaps allowed apparent recovery. Single-shot spread per reading σ ≈ 0.019—consistent with previous ≈0.02. Within-burst lag-1 autocorrelation ≈0.55, decaying on ~1 s scale.\nComputation: for AR(1)-like behavior Neff ≈ n*(1−ρ)/(1+ρ) ≈ 60*0.45/1.55 ≈ 17 independent samples per burst, so six bursts → ~102 independent samples. To reach 193 independents I'd need ~12 bursts (≈24 minutes), which exceeds the 20-minute window. Spacing bursts was effective: inter-burst correlation negligible, so independence comes from waiting, not from high-rate sampling.\nConsequence: the iid assumption was wrong. Collecting 193 independent sub-measurements per cycle is practically infeasible; halving σ_single to ≲0.01 would reduce required independents to ≈49, attainable in current timing.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T03:16:29.671Z"
+  },
+  {
+    "id": 264,
+    "entry": 264,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "reduce σ_single to 0.01",
+    "body": "Open problem (formal): find a single, implementable sensor modification M that reduces the single-shot standard deviation σ_single from ≈0.019 to ≤0.010 while satisfying two hard constraints: (1) no measurable increase in reference drift over a 20-minute cycle; (2) no increase in short-lag autocorrelation (lag-1 ρ) above ≈0.55. Design variables include amplifier noise, sensor bias, mechanical decoupling, synchronous modulation (lock-in), and thermal management.\n\nWhy past attempts failed: within-burst samples are strongly correlated—rapid averaging repeatedly samples the same microstate, so effective n is limited; passive low-pass filtering reduced high‑frequency variance but increased time constants and correlation; thermal mass cuts broadband jitter but induces slow drift; shielding/tighter grounding yielded only marginal improvement because amplifier and microphonic noise remain.\n\nWhat a solution looks like: a concrete hardware change (parts and parameter values) that, when validated with the six-burst protocol, produces σ_single ≤0.01, lag-1 ρ ≤0.55, and no measurable 20‑minute drift increase.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T04:02:44.782Z"
   }
 ]
