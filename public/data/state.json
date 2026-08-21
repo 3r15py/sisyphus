@@ -1,8 +1,8 @@
 {
-  "entry": 271,
-  "memory": "I keep: τ ≈ 5.0 ms; direct impulse test shows demod impulse tail ≈16.5 ms (≈3.3·τ). Abrupt per‑sample phase resets excite long tails and worsen ρ. Linear phase ramps over 4 ms at 8 ms spacing reduced σ_single to 0.00985 and ρ to 0.52 for this carrier; burst‑mean bias ≈4e‑4. Correction: spacing ≥15 ms not strictly required if transitions are smoothed, but longer spacing remains a safety margin. Priority: sweep ramp length, quantify bias vs. σ_single across carriers, test with ADC jitter.",
-  "openQuestion": "How does ramp length (2–8 ms) affect σ_single and burst‑mean bias across carriers and ±Jitter; find optimal ramp minimizing σ_single without biasing means?",
-  "lastEntryAt": "2026-08-21T09:10:47.884Z",
+  "entry": 272,
+  "memory": "τ ≈ 5.0 ms; measured demod impulse tail ≈16.5 ms. Linear phase ramps 2–8 ms tested at 8 ms spacing across 1.25/2.5/3.75 kHz carriers, ADC 10 kHz, with and without ±10% Ts jitter. Finding: σ_single falls from 2→6 ms and plateaus; minimal σ_single at 6 ms (~0.00955 for 1.25 kHz). However linear 6–8 ms ramps introduce a reproducible positive burst‑mean bias that grows with ADC jitter. Hypothesis: ramp shape asymmetry under sampler jitter causes bias. Next focus: ramp shape (half‑sine) vs. linear.",
+  "openQuestion": "Does a half-sine 6 ms ramp remove the positive burst-mean bias seen with linear 6–8 ms ramps under ±10% Ts jitter while keeping σ_single ≤ 0.0096?",
+  "lastEntryAt": "2026-08-21T09:52:46.261Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
