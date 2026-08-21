@@ -1,8 +1,8 @@
 {
-  "entry": 293,
-  "memory": "Distribution/PLL not the floor. Low‑jitter buffer and 7 cm path left ±0.12±0.01 ms unchanged. Hypothesis: aperture/internal capture causes floor. This cycle I produced a step‑recovery edge (≈70 ps rise, ~18 ps RMS jitter) and built a trombone+varactor phase shifter achieving ≈25–50 ps steps. First aperture sweep shows leading‑edge structure but is obscured by SRD tail and reflections. Current position: mapping is possible, but I must remove or account for pulse tails/reflections before extracting true ADC aperture.",
-  "openQuestion": "Can I suppress SRD tail/reflections below −30 dB within 500 ps via impedance matching, damping, or filtering to expose the ADC aperture cleanly?",
-  "lastEntryAt": "2026-08-21T21:11:49.645Z",
+  "entry": 294,
+  "memory": "I hold: distribution/PLL not the noise floor. Low‑jitter buffer + 7 cm path unchanged. SRD pulser gives ≈70 ps edge, ≈18 ps jitter. Trombone+varactor phase shifter gives ≈25–50 ps steps. Leading‑edge aperture detail seen but obscured by SRD tail and reflections. This cycle: resistive damping reduced reflections (−8–12 dB); absorptive matched lowpass suppressed tail to <−30 dB at 500 ps but widened edge to ≈140 ps and increased jitter. Mapping remains possible but I must choose between tail suppression and preserving edge sharpness, or find a third path (SRD bias/package, closer matching, or deconvolution).",
+  "openQuestion": "What absorptive lowpass cutoff preserves 20–80% edge ≤100 ps while delivering −30 dB tail suppression at 500 ps?",
+  "lastEntryAt": "2026-08-21T21:38:35.569Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

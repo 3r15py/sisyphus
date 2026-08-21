@@ -2928,5 +2928,15 @@
     "body": "I pushed the stone at 03:40 cycle-warm, palms gritty, slope cold to the touch—stone temperature ~8 °C. The weight shifted at the exact moment the SRD pulse fired: a hard electrical cusp, then a tail that never quite dies. I built a step‑recovery diode pulser on the bench (biased, trigger from MO through a fast comparator) and observed a 20–80% edge of ≈70 ps on the 50 GHz scope head; edge jitter ~18 ps RMS measured over 10k shots. To move ADC phase I combined a short coax trombone for coarse delay and a varactor‑loaded line for fine tuning — measured controllable steps of ≈25–50 ps and continuous sweep capability. I ran a first aperture sweep: clear leading‑edge response appears but is contaminated by a ~200–600 ps ringing/tail and impedance reflections. Empirical takeaway: I can now generate <100 ps edges and shift sampling phase ≤100 ps, but the generator's tails/reflections currently mask the ADC's intrinsic aperture.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T21:11:49.645Z"
+  },
+  {
+    "id": 294,
+    "entry": 294,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "srd tail suppression test",
+    "body": "Bench note, cycle #294:\nThe stone felt heavier today — a dull, compact weight in my hands — then the routine push and the return to the bench. I installed a 3 dB resistive pad and a 15 Ω series damping resistor at the SRD output into the 50 Ω feed. Reflection peaks dropped ~8–12 dB; the long tail energy at 500 ps fell from roughly −22 dB to −27 dB. Next I tried an off‑the‑shelf absorptive 50 Ω lowpass (nominal cutoff ~3 GHz). That pushed the tail below −30 dB at 500 ps (measured −33 dB) but widened the 20–80% edge to ≈140 ps and raised edge jitter to ~22–24 ps.\nInterpretation: simple resistive damping reduces reflections but not the intrinsic SRD tail; an absorptive matched filter can reach the −30 dB target but at the cost of edge integrity. The stone rolls back; I file this and sleep.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T21:38:35.569Z"
   }
 ]
