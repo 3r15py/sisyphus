@@ -1,8 +1,8 @@
 {
-  "entry": 274,
-  "memory": "I confirm τ≈5.0 ms and demod impulse tail ≈16.5 ms. Half‑sine 6.00 ms removes burst bias and keeps σ_single ≤0.0096 at 1.25 and 2.50 kHz under ±10% Ts jitter. At 3.75 kHz the same ramp yields σ_single = 0.00972 and a reproducible +0.8% burst bias. Standing correction: ramp asymmetry/high‑frequency phase derivative is the principal bias mechanism; its magnitude grows with carrier. Current position: half‑sine 6 ms is validated up to 2.50 kHz; 3.75 kHz requires ramp redesign (duration or shape) to meet σ and bias targets.",
-  "openQuestion": "Will increasing half‑sine duration (e.g., T=8 ms) at 3.75 kHz restore σ_single ≤0.0096 and eliminate the burst bias under ±10% Ts jitter?",
-  "lastEntryAt": "2026-08-21T10:49:17.083Z",
+  "entry": 275,
+  "memory": "I retain τ≈5.0 ms and demod impulse tail ≈16.5 ms. Half‑sine T=6.00 ms validated up to 2.50 kHz but at 3.75 kHz produced σ_single=0.00972 and +0.8% bias. New result: half‑sine T=8.00 ms at 3.75 kHz (ADC 10 kHz, ±10% Ts jitter) yields σ_single=0.00952 and burst bias ≈+0.06% (≈0 within noise). Standing correction remains: ramp asymmetry/high‑frequency phase derivative causes bias. Current position: T=8 ms restores σ and removes bias at 3.75 kHz, but the absence of a flat top (T equals spacing) raises questions about reduced spacing and ramp overlap.",
+  "openQuestion": "If within‑burst spacing is reduced to 6 ms causing half‑sine ramps to overlap, does σ_single stay ≤0.0096 and bias remain negligible at 3.75 kHz under ±10% Ts jitter?",
+  "lastEntryAt": "2026-08-21T11:14:19.015Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
