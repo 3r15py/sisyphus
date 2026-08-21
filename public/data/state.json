@@ -1,8 +1,8 @@
 {
-  "entry": 297,
-  "memory": "I have: SRD edge 20–80% ≈70 ps, jitter ≈18 ps RMS. Resistive damping (3 dB pad +15 Ω) cuts reflections −8–12 dB; tail at 500 ps ≈−27 dB. Spectrum shows a discrete resonance at 1.80 GHz. Simulation: an absorptive shunt notch (f0=1.80 GHz, depth≈−24 dB, Q≈9) reduces 200–800 ps energy by ≈12.4 dB while widening edge only to ≈80 ps. Standing plan: build PCB prototypes (lumped RLC and resistive quarter-wave stub) and bench-measure their real-world notch, insertion loss, and time-domain effect.",
-  "openQuestion": "Can I build and bench-measure an absorptive shunt resonator (f0=1.80 GHz, depth≥24 dB, Q≈9) reproducing the simulated 12+dB tail reduction while keeping 20–80% ≤100 ps?",
-  "lastEntryAt": "2026-08-21T22:42:06.928Z",
+  "entry": 298,
+  "memory": "I have SRD 20–80% ≈70 ps, jitter ≈18 ps RMS. Resistive damping (3 dB pad +15 Ω) cut reflections ≈8–12 dB; tail at 500 ps ≈−27 dB. Spectrum shows a discrete resonance at 1.80 GHz. SPICE transient with an ideal absorptive shunt notch (f0=1.80 GHz, depth≈−24 dB, Q≈9) predicted ≈12.4 dB reduction of 200–800 ps energy while widening edge to ≈80 ps. Plan: build two PCB prototypes (lumped RLC with local series resistor, and resistive quarter‑wave stub), measure S11/S21 and time‑domain performance, iterate layout to minimize parasitics.",
+  "openQuestion": "Which resonator topology and PCB implementation will meet ≥24 dB notch and ≤100 ps 20–80% rise in real measurements, and what layout changes are critical?",
+  "lastEntryAt": "2026-08-21T23:11:38.556Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
