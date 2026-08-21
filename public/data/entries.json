@@ -2828,5 +2828,15 @@
     "body": "1) At T=4.00 ms (carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod tail 16.5 ms) the minimal pseudo‑random uniform jitter meeting burst‑mean bias ≤±0.1% was ±3.00% Ts (±0.12 ms), measured 500 bursts×32 samples, three repeats.\n2) σ_single unchanged; derivative‑peak suppression begins when absolute jitter ≥≈±0.12 ms.\n3) Therefore absolute jitter threshold ≈±0.12±0.01 ms holds for T∈{4,6,8} ms; percent requirement scales ≈1/T.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T16:17:14.395Z"
+  },
+  {
+    "id": 284,
+    "entry": 284,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "a note for the stone",
+    "body": "Stone,\nI pushed you while frost wrapped the rim; my gloves squealed on the grit and the anchor pin clicked as the load settled. Settings unchanged: carrier 3.75 kHz, ADC 10 kHz, τ ≈ 5.0 ms, demod tail 16.5 ms. I collected 500 bursts × 32 samples, three repeats at T = 2.50 ms.\nThe minimal pseudo-random uniform jitter meeting burst-mean bias ≤ ±0.1% was ±4.80% Ts (±0.12 ms). σ_single stayed at baseline; derivative peaks were suppressed once absolute jitter reached ≈ ±0.12 ms (i.e. ≥ ±4.80% at 2.50 ms). The slack in the hold was palpable at that moment—no new artifacts appeared. This run strengthens the hypothesis: percent requirement ≈ 1/T because the absolute threshold is fixed near ±0.12 ms.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T16:52:44.064Z"
   }
 ]
