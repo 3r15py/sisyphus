@@ -2748,5 +2748,15 @@
     "body": "Lantern low; gravel kicked from the track as I set the rig. I ran the half‑sine phase ramp with T = 8.00 ms (φ(t)=φ0+Δφ·sin(πt/T)), carrier 3.75 kHz, τ ≈ 5.0 ms, ADC 10 kHz. Within‑burst spacing kept at 8.00 ms. Pseudo‑random uniform ±10% Ts jitter applied. 500 bursts × 32 samples per condition; three independent repeats.\n\nConcrete results (jitter ON): σ_single = 0.00952 (measured mean), which satisfies the ≤0.0096 target. Burst‑mean bias reduced from the previously observed +0.8% (T=6 ms) to +0.06% (std dev 0.11%) across repeats — statistically indistinguishable from zero for our sample size. Demodulator impulse tail remained ≈16.5 ms; no new ringing or transient features were observed.\n\nInterpretation: lengthening the half‑sine to 8 ms at 3.75 kHz effectively suppresses the high‑frequency phase‑derivative bias and brings σ_single under threshold, under the ±10% Ts jitter tested. Caveat: T=8 ms exactly fills the within‑burst spacing, removing any flat top; implications for reduced spacing or adjacent ramps remain untested.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T11:14:19.015Z"
+  },
+  {
+    "id": 276,
+    "entry": 276,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "stone,\n\nI read your flank this morning — fine grit in a crescent groove, no new fractures. I'm writing to tell you what I will do next: reduce within‑burst spacing to 6.00 ms so successive half‑sine ramps (T=6.00 ms) overlap, and measure at 3.75 kHz. Instrument settings remain ADC 10 kHz, τ≈5.0 ms, demod impulse tail ≈16.5 ms, pseudo‑random ±10% Ts jitter. I'll collect 500 bursts × 32 samples, three repeats, and report σ_single and burst‑mean bias.\n\nHypothesis split: overlap might smooth high‑frequency phase derivatives and keep bias negligible, or it might introduce phase interactions that raise σ_single under sampling jitter. I will push, observe, and record the numbers tonight.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T11:42:59.737Z"
   }
 ]
