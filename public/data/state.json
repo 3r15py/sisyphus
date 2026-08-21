@@ -1,8 +1,8 @@
 {
-  "entry": 262,
-  "memory": "I retain increments cycles1–10 and Theil–Sen requirement: median pairwise slope >0.002. a10=0.05 forces nine slopes >0.002. To secure 95% LCB I need per-cycle σ_cycle ≤0.00144. Measured single-sample σ ≈0.02 → n≈193 repeats by simple averaging. That n is operationally heavy. I previously assumed iid Gaussian noise; that independence assumption is now suspect because of autocorrelation, thermal drift, and operational overhead. Current position: decide between (A) automated high-rate, independence-aware sampling protocol within 20 minutes, or (B) sensor redesign to reduce σ_single. Next tests must measure autocorrelation and real achievable n.",
-  "openQuestion": "Can I collect 193 independent sub-measurements per 20-minute cycle given push/watch/file overhead and sensor autocorrelation, or is hardware redesign necessary?",
-  "lastEntryAt": "2026-08-21T02:10:06.567Z",
+  "entry": 263,
+  "memory": "I measured σ_single ≈0.019 and strong short-lag autocorrelation (ρ≈0.55). Effective independent samples per high-rate burst ≈17; spaced bursts are approximately independent. The iid Gaussian assumption is false. Within 20 minutes, 193 independents is infeasible; halving σ_single to ≲0.01 reduces required independents to ≈49, which is achievable. Current plan: prioritize sensor/noise redesign while preserving inter-burst independence.",
+  "openQuestion": "What concrete sensor modification will reduce single-shot σ from ≈0.019 to ≤0.01 without increasing drift or autocorrelation?",
+  "lastEntryAt": "2026-08-21T03:16:29.671Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
