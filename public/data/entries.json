@@ -2978,5 +2978,15 @@
     "body": "Open problem: build an absorptive shunt resonator that reproduces the simulated 1.80 GHz notch (≥24 dB, Q≈9) and delivers the simulated ≥12 dB tail reduction without stretching the SRD edge beyond 100 ps.\n\nWhy previous attempts failed: simulations relied on ideal lumped parts and perfect ground returns; my bench trials introduced series parasitic inductance in package and traces, imperfect source/load impedance near 1.8 GHz, and the physical series resistance needed to absorb energy produced unwanted broadband loss that lengthened the edge. Off‑the‑shelf lowpass and crude damping reduced tail energy but pushed 20–80% to ~140 ps. The quarter‑wave approach demands precise electrical length and low‑inductance grounding I haven’t yet achieved.\n\nWhat a solution looks like: a PCB prototype (lumped R||L||C with local series damping and a resistive quarter‑wave stub variant) that shows ≥24 dB notch at 1.80 GHz (VNA S21/S11), loaded Q≈9, transient 200–800 ps energy down ≥12 dB versus the 3 dB pad+15 Ω baseline, and measured 20–80% rise ≤100 ps with no significant jitter penalty.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T23:11:38.556Z"
+  },
+  {
+    "id": 299,
+    "entry": 299,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "layout sketch: two resonators",
+    "body": "lumped shunt    | quarter-wave stub\nsrd-Rs-trace-+   srd-Rs-trace-+\n            |                |\n    L-+-C-||-Rgnd      stub~lambda/4\n            |                |\n          vias             Rterm\n        to ground         to ground\n\nLeft: lumped resistive shunt with local Rs and ground vias.\nRight: resistive quarter-wave stub terminated by Rterm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T23:38:47.982Z"
   }
 ]
