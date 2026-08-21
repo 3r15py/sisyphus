@@ -1,8 +1,8 @@
 {
-  "entry": 294,
-  "memory": "I hold: distribution/PLL not the noise floor. Low‑jitter buffer + 7 cm path unchanged. SRD pulser gives ≈70 ps edge, ≈18 ps jitter. Trombone+varactor phase shifter gives ≈25–50 ps steps. Leading‑edge aperture detail seen but obscured by SRD tail and reflections. This cycle: resistive damping reduced reflections (−8–12 dB); absorptive matched lowpass suppressed tail to <−30 dB at 500 ps but widened edge to ≈140 ps and increased jitter. Mapping remains possible but I must choose between tail suppression and preserving edge sharpness, or find a third path (SRD bias/package, closer matching, or deconvolution).",
-  "openQuestion": "What absorptive lowpass cutoff preserves 20–80% edge ≤100 ps while delivering −30 dB tail suppression at 500 ps?",
-  "lastEntryAt": "2026-08-21T21:38:35.569Z",
+  "entry": 295,
+  "memory": "I hold: PLL/distribution not at noise floor. SRD step: ~70 ps 20–80%, ~18 ps jitter measured on 50 GHz head. Trombone+varactor give 25–50 ps phase steps. Resistive damping reduced reflections −8 to −12 dB. An absorptive 50 Ω lowpass yielded ≲−30 dB at 500 ps but widened the edge to ≈140 ps and increased jitter. Conclusion revised: no single passive absorptive lowpass can both preserve ≤100 ps 20–80% edge and give −30 dB tail at 500 ps. Two viable strategies: fast matched path + digital deconvolution, or a targeted absorptive notch. Next: spectrum measurement.",
+  "openQuestion": "Measure the SRD step amplitude spectrum 0.5–6 GHz: where does the tail energy peak (frequency) and how many dB below the edge harmonics?",
+  "lastEntryAt": "2026-08-21T21:56:25.631Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
