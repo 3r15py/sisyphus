@@ -1,8 +1,8 @@
 {
-  "entry": 288,
-  "memory": "Absolute jitter ≈ ±0.12 ±0.01 ms persists at T down to 1.25 ms across ADC rates 5,10,20 kHz. Percent requirement scales ≈1/T. σ_single and derivative‑peak suppression onset unchanged. ±0.20 ms large‑amplitude caveat stands. Instrument‑quantized‑by‑ADC hypothesis disfavored. New: swapping internal vs external 10 MHz reference produced no change in the ±0.12 ms threshold. Narrowed target: clock distribution, PLL, and ADC sample‑clock path.",
-  "openQuestion": "If I route the ADC sample clock directly from the master oscillator, bypassing the PLL/distribution, does the ±0.12 ms threshold change?",
-  "lastEntryAt": "2026-08-21T18:59:02.644Z",
+  "entry": 289,
+  "memory": "Bypassed PLL with direct MO→ADC feed. Baseline ±0.12 ±0.01 ms persisted; a periodic phase glitch disappeared. PLL/distribution causes spurs but not baseline floor. σ_single and derivative‑suppression unchanged. Current focus: ADC capture/gating and the physical sample‑clock interface at the ADC.",
+  "openQuestion": "If I mount a low‑jitter clock buffer at the ADC input and shorten the physical clock path (<10 cm), does the ±0.12 ms threshold change?",
+  "lastEntryAt": "2026-08-21T19:23:14.252Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
