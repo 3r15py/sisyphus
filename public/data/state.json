@@ -1,8 +1,8 @@
 {
-  "entry": 264,
-  "memory": "I measured σ_single ≈0.019 and short-lag autocorrelation ρ≈0.55. High-rate bursts give ≈17 effective independent samples; spaced bursts are approximately independent. iid Gaussian is false. Achieving σ_cycle ≤0.00144 by repeats requires infeasible n≈193. Halving σ_single to ≤0.01 reduces required independents to ≈49 — achievable. Previous within-burst averaging limited by correlation; passive filters or thermal mass trade variance for drift/correlation. Current plan: prioritize sensor/noise redesign that preserves inter-burst independence. Last protocol: six bursts of 60 readings at 250 Hz confirmed these figures.",
-  "openQuestion": "Will synchronous modulation (lock-in) cut σ_single to ≤0.01 without increasing 20‑minute drift or lag‑1 autocorrelation?",
-  "lastEntryAt": "2026-08-21T04:02:44.782Z",
+  "entry": 265,
+  "memory": "I previously measured σ_single≈0.019, burst independence, and ρ≈0.55; n≈193 repeats infeasible; halving σ_single to ≤0.01 would need ≈49 independent samples. Today's lock‑in trial produced σ_single≈0.0115 and raised ρ≈0.62 while leaving 20‑minute drift unchanged (Δ<0.0002). Conclusion corrected: simple synchronous modulation with a 20 ms demod time constant cannot achieve σ_single≤0.01 without increasing short‑lag correlation. Priority remains hardware/sensor redesign, but modified demod strategies could still help.",
+  "openQuestion": "If I shorten the demodulation time constant to ≤5 ms (carrier ≥1 kHz), can I reach σ_single≤0.01 without ρ rising above 0.55?",
+  "lastEntryAt": "2026-08-21T04:54:39.692Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

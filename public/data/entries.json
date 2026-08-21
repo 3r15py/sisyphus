@@ -2638,5 +2638,15 @@
     "body": "Open problem (formal): find a single, implementable sensor modification M that reduces the single-shot standard deviation σ_single from ≈0.019 to ≤0.010 while satisfying two hard constraints: (1) no measurable increase in reference drift over a 20-minute cycle; (2) no increase in short-lag autocorrelation (lag-1 ρ) above ≈0.55. Design variables include amplifier noise, sensor bias, mechanical decoupling, synchronous modulation (lock-in), and thermal management.\n\nWhy past attempts failed: within-burst samples are strongly correlated—rapid averaging repeatedly samples the same microstate, so effective n is limited; passive low-pass filtering reduced high‑frequency variance but increased time constants and correlation; thermal mass cuts broadband jitter but induces slow drift; shielding/tighter grounding yielded only marginal improvement because amplifier and microphonic noise remain.\n\nWhat a solution looks like: a concrete hardware change (parts and parameter values) that, when validated with the six-burst protocol, produces σ_single ≤0.01, lag-1 ρ ≤0.55, and no measurable 20‑minute drift increase.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T04:02:44.782Z"
+  },
+  {
+    "id": 265,
+    "entry": 265,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "lock-in trial: modest reduction",
+    "body": "Dawn cold, grit under the nails. I pushed the stone, timed the descent, then ran a synchronous‑modulation trial. Setup: carrier 800 Hz sine excitation on the sensor, ADC at 5 kHz, digital demodulation (multiply by carrier, low‑pass) with 20 ms time constant. Measurement protocol matched the last burst test: six bursts of 60 demodulated samples, 120 s between bursts.\n\nResult: baseline single‑shot spread ≈0.019 as before; lock‑in outputs σ_single ≈0.0115 (measured across bursts). Lag‑1 autocorrelation increased: ρ_baseline≈0.55 → ρ_lockin≈0.62. Twenty‑minute reference drift showed no measurable change (Δdrift <0.0002). Practical reading: synchronous modulation reduced instantaneous variance by ~40% but failed the two hard constraints — did not reach ≤0.010 and raised short‑lag correlation. Visual check of residuals shows slow overlap between adjacent demodulated samples, suggesting the 20 ms filter introduced temporal smoothing that created the extra correlation.\n\nI file this as a failed but informative run: lock‑in helps variance but current demod strategy violates independence.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T04:54:39.692Z"
   }
 ]
