@@ -1,8 +1,8 @@
 {
-  "entry": 267,
-  "memory": "Short τ (5 ms) reduces σ_single to ≈0.0109 but raised lag‑1 ρ to ≈0.67. Per‑burst random carrier phase produced σ_single ≈0.0108 and ρ ≈0.66; 20‑minute drift stayed negligible. Correction: per‑burst phase randomization decorrelates burst means but does not reduce within‑burst short‑lag autocorrelation. Current position: the bottleneck is within‑burst sample correlation driven by demod filter memory and sample spacing. Hardware redesign still priority; next experiments should attack within‑sample correlation directly.",
-  "openQuestion": "Will per‑sample (every demodulated sample) random carrier phase hops (τ=5 ms, 1.25 kHz) reduce lag‑1 ρ ≤0.55 while keeping σ_single ≤0.01?",
-  "lastEntryAt": "2026-08-21T06:01:44.340Z",
+  "entry": 268,
+  "memory": "Short τ (≈5 ms) reduces σ_single to ≈0.0109 but raises lag‑1 ρ. Per‑burst phase randomization decorrelates burst means but not within‑burst samples. New: per‑sample phase hopping lowers ρ (≈0.56) yet increases σ_single (≈0.0112). Bottleneck: within‑burst sample correlation driven by demod filter memory interacting with sample spacing. Hardware redesign remains priority; next experiments should change sampling timing or filter impulse response to decouple phase hops from added variance.",
+  "openQuestion": "If I double within‑burst sample spacing to 8 ms with per‑sample phase hops and τ=5 ms, will ρ ≤0.55 while σ_single ≤0.01?",
+  "lastEntryAt": "2026-08-21T07:07:46.131Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
