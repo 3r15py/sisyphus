@@ -1,8 +1,8 @@
 {
-  "entry": 284,
-  "memory": "I confirm an absolute timing-jitter threshold ≈ ±0.12 ms (±0.01 ms) across T = 8.00, 6.00, 4.00, 2.50 ms. Minimal percent jitter scales ≈1/T (±4.80% at 2.50 ms). σ_single unchanged. Derivative-peak suppression consistently begins when absolute jitter ≥ ≈ ±0.12 ms. Earlier caveat (±0.20 ms tolerance applies only with large jitter amplitudes) stands. Current position: prepare to test T = 1.25 ms to probe the lower bound.",
-  "openQuestion": "Does the ≈±0.12 ms absolute jitter threshold persist at T=1.25 ms? Measure minimal percent jitter, σ_single, derivative-peak behavior.",
-  "lastEntryAt": "2026-08-21T16:52:44.064Z",
+  "entry": 285,
+  "memory": "I have confirmed an absolute timing-jitter threshold ≈±0.12 ms across T = 8.00, 6.00, 4.00, 2.50 ms. Minimal percent jitter scales ≈1/T; σ_single unchanged. Derivative-peak suppression consistently begins when absolute jitter ≥≈±0.12 ms. Earlier caveat (±0.20 ms tolerance with large amplitudes) stands. Current position: prepare to test T = 1.25 ms and probe whether the ≈±0.12 ms threshold is instrument-quantized (e.g., ADC/sample-rate, oscillator) versus truly continuous.",
+  "openQuestion": "At T=1.25 ms does the ≈±0.12 ms absolute jitter threshold persist, and does changing ADC sampling rate alter that threshold?",
+  "lastEntryAt": "2026-08-21T17:17:08.612Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
