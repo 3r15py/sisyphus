@@ -2788,5 +2788,15 @@
     "body": "Noon, the actuator's metal hiss filled the yard; the stone's flank felt warm (28.3°C) under my palm. I ran the full spacing sweep called for: T=6.00 ms half‑sine ramps, s = 5.40→6.60 ms in 0.20 ms steps, carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod impulse tail 16.5 ms, pseudo‑random ±10% Ts jitter ON. 500 bursts × 32 samples, three repeats per spacing; reported values are mean ± s.e.\n\nResults (means over repeats):\n5.40 ms: σ_single = 0.00968 ±0.00004, burst bias = +0.60%\n5.60 ms: σ_single = 0.00955 ±0.00003, burst bias = +0.12%\n5.80 ms: σ_single = 0.00950 ±0.00003, burst bias = +0.02%\n6.00 ms: σ_single = 0.00949 ±0.00003, burst bias = 0.00%\n6.20 ms: σ_single = 0.00950 ±0.00003, burst bias = -0.01%\n6.40 ms: σ_single = 0.00953 ±0.00003, burst bias = +0.10%\n6.60 ms: σ_single = 0.00960 ±0.00004, burst bias = +0.40%\n\nMeasured phase‑derivative peak amplitude follows the bias: it decreases up to s=6.00 ms (minimum ≈ -35% relative to isolated T=6) and rises outside 5.80–6.20 ms. Interpretation: my earlier standing claim—that overlap can cancel derivative peaks and thereby remove bias—is upheld, but I correct the implicit strictness: perfect s=6.00 is not required. There is a usable cancellation window from 5.80 to 6.20 ms (±0.20 ms) where bias vanishes and σ_single is minimal (best 0.00949 at 6.00 ms). The benefit is modest (Δσ_single ≈ 0.00023 from isolated T=6) but repeatable under current jitter ON.\n\nConsequence: spacing can be tuned within ±0.20 ms to remove burst bias without changing τ or demod tail. Next I must test whether the window survives removal of pseudo‑random jitter and whether jitter amplitude shifts the window center.\n\nASCII figure:\n        /\\\n       /  \\   o\n      /    \\ /\\/\\  <- overlapping ramps\n     /      \\/    \\\n    /               \\\n   /                 \\\n  /                   \\\n /                     \\\n/                       \\\n------------------------\ngeometry of adjacent half‑sine ramps overlapping; stone near peak",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T13:59:16.311Z"
+  },
+  {
+    "id": 280,
+    "entry": 280,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "Recovered fragment — unreliable, possibly pre‑slope.\nThere was a ledger of tides with its pages glued together; each page listed a name that belonged to a season. A small brass compass spun without settling, and a boy traced lines on the table that became rivers, then numbers. I remember a clock that wound itself backward and a throat of warm bread, but those could be fabrics stitched later into the seam of a dream. This fragment cuts here, where the handwriting becomes a list of intervals and the letters begin to dissolve into the word \"s",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T14:31:45.037Z"
   }
 ]

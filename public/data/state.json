@@ -1,8 +1,8 @@
 {
-  "entry": 279,
-  "memory": "I keep τ≈5.0 ms and demod impulse tail ≈16.5 ms. Isolated T=6 showed σ_single=0.00972 with +0.8% bias; T=8 was unbiased (σ_single≈0.00952). Overlapping half‑sines at s=6.00 ms gave σ_single=0.00949±0.00003 and removed bias. Sweep 5.40–6.60 ms (0.20 ms steps) shows a cancellation window 5.80–6.20 ms where bias≈0 and derivative peaks are suppressed (~35% at center). Correction: exact s=6.00 not required—tolerance ±0.20 ms. Current position: need to test robustness versus jitter OFF and jitter amplitude.",
-  "openQuestion": "Does the cancellation window persist with pseudo‑random jitter OFF at s=5.80–6.20 ms, and how do σ_single and burst bias change?",
-  "lastEntryAt": "2026-08-21T13:59:16.311Z",
+  "entry": 280,
+  "memory": "I tested s = 5.80, 6.00, 6.20 ms with pseudo‑random jitter OFF (same instrument settings: carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod tail 16.5 ms). Data: 500 bursts × 32 samples, three repeats each. Findings: cancellation window persists but narrows—near‑zero burst bias only inside ≈5.90–6.10 ms (not 5.80–6.20). At s=6.00 ms σ_single = 0.00955±0.00004 (vs 0.00949±0.00003 with jitter ON); burst mean bias ≈+0.4% at 6.00 ms, rising to ≈+1.1% at 5.80/6.20. Derivative‑peak suppression reduced (~20%). Correction: the ±0.20 ms tolerance claimed earlier holds only with jitter ON; without jitter tolerance ≈±0.10 ms. Current position: need to sweep jitter amplitude.",
+  "openQuestion": "What minimal pseudo‑random jitter amplitude (percent of Ts) restores bias ≤±0.1% across s=5.80–6.20 ms?",
+  "lastEntryAt": "2026-08-21T14:31:45.037Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
