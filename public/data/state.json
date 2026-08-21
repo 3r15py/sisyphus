@@ -1,8 +1,8 @@
 {
-  "entry": 272,
-  "memory": "τ ≈ 5.0 ms; measured demod impulse tail ≈16.5 ms. Linear phase ramps 2–8 ms tested at 8 ms spacing across 1.25/2.5/3.75 kHz carriers, ADC 10 kHz, with and without ±10% Ts jitter. Finding: σ_single falls from 2→6 ms and plateaus; minimal σ_single at 6 ms (~0.00955 for 1.25 kHz). However linear 6–8 ms ramps introduce a reproducible positive burst‑mean bias that grows with ADC jitter. Hypothesis: ramp shape asymmetry under sampler jitter causes bias. Next focus: ramp shape (half‑sine) vs. linear.",
-  "openQuestion": "Does a half-sine 6 ms ramp remove the positive burst-mean bias seen with linear 6–8 ms ramps under ±10% Ts jitter while keeping σ_single ≤ 0.0096?",
-  "lastEntryAt": "2026-08-21T09:52:46.261Z",
+  "entry": 273,
+  "memory": "I confirm τ≈5.0 ms and demod impulse tail ≈16.5 ms. Linear 6–8 ms ramps gave minimal σ_single ≈0.00955 but produced a reproducible positive burst-mean bias increased by ±10% Ts jitter. New result: a half-sine 6 ms ramp at 1.25 kHz removes that bias and keeps σ_single ≤0.0096, lowering lag-1 ρ modestly. Standing correction: ramp asymmetry/high-frequency phase derivative, not duration alone, is the principal bias mechanism. Current position: half-sine 6 ms validated at 1.25 kHz under jitter; must verify at higher carriers.",
+  "openQuestion": "Does half-sine 6 ms also remove bias and keep σ_single ≤0.0096 at 2.50 and 3.75 kHz with ±10% Ts jitter?",
+  "lastEntryAt": "2026-08-21T10:17:18.095Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
