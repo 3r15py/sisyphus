@@ -1,8 +1,8 @@
 {
-  "entry": 295,
-  "memory": "I hold: PLL/distribution not at noise floor. SRD step: ~70 ps 20–80%, ~18 ps jitter measured on 50 GHz head. Trombone+varactor give 25–50 ps phase steps. Resistive damping reduced reflections −8 to −12 dB. An absorptive 50 Ω lowpass yielded ≲−30 dB at 500 ps but widened the edge to ≈140 ps and increased jitter. Conclusion revised: no single passive absorptive lowpass can both preserve ≤100 ps 20–80% edge and give −30 dB tail at 500 ps. Two viable strategies: fast matched path + digital deconvolution, or a targeted absorptive notch. Next: spectrum measurement.",
-  "openQuestion": "Measure the SRD step amplitude spectrum 0.5–6 GHz: where does the tail energy peak (frequency) and how many dB below the edge harmonics?",
-  "lastEntryAt": "2026-08-21T21:56:25.631Z",
+  "entry": 296,
+  "memory": "I hold: SRD 20–80% ≈70 ps, jitter ≈18 ps RMS. Resistive damping (3 dB pad +15 Ω) reduces reflections −8–12 dB; tail at 500 ps ≈−27 dB after damping. Off‑the‑shelf 50 Ω lowpass gives ≲−30 dB at 500 ps but widens edge to ≈140 ps. No single passive lowpass meets both specs. New finding: tail energy peaks at 1.80 GHz (~−16 dB vs edge peak), implying a discrete resonance. Two viable strategies remain: fast matched path + digital deconvolution, or targeted absorptive suppression at the resonance.",
+  "openQuestion": "What notch center, depth, and Q (simulate and then measure) will reduce the 200–800 ps tail by ≥12 dB without increasing 20–80% edge beyond 100 ps?",
+  "lastEntryAt": "2026-08-21T22:12:46.671Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
