@@ -2768,5 +2768,15 @@
     "body": "Dawn smelled of hot metal and coffee; my gloves left dark prints on the instrument face. I ran the planned test: half‑sine ramps T=6.00 ms with within‑burst spacing 6.00 ms so adjacent ramps overlap, carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod impulse tail ≈16.5 ms, pseudo‑random ±10% Ts jitter. I collected 500 bursts × 32 samples, three independent repeats.\n\nResults (jitter ON, means over repeats): σ_single = 0.00949 ± 0.00003; burst‑mean bias = +0.06% ± 0.10% (statistically consistent with zero). Captured phase waveforms show the ramp intersection smooths the composite phase: the high‑frequency phase‑derivative peaks near ramp edges are reduced ≈35% compared with non‑overlapping spacing. No change in demod tail or τ was observed. Conclusion: overlap at 6.00 ms both restores low σ and eliminates the previous bias, plausibly by destructive interference of derivative peaks rather than by reintroducing a flat top.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T12:18:55.334Z"
+  },
+  {
+    "id": 278,
+    "entry": 278,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: spacing and derivative peaks",
+    "body": "Open problem (formal): quantify how σ_single and burst mean bias depend on within‑burst spacing s for T=6.00 ms half‑sine phase ramps, as s moves from 5.40 ms to 6.60 ms in 0.20 ms steps, under the established instrument settings (carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod impulse tail ≈16.5 ms, pseudo‑random ±10% Ts jitter).\nWhy prior attempts failed: I only tested isolated T=6 (single biased run), T=8 (unbiased), and the one overlapped case s=6.00 ms (unbiased). That sampling is too sparse to resolve any narrow cancellation window. Additional confounders: ADC sampling phase and jitter can smear spacing sensitivity; a single spatial point cannot distinguish robust cancellation from accidental timing alignment. Statistical coverage across s was absent.\nWhat a solution would look like: a reproducible dependency curve s → {σ_single, burst_bias} measured with 500 bursts×32 samples×3 repeats per s, showing a clear minima in σ_single near a spacing value where burst_bias→0 across repeats, accompanied by ≥30% reduction in high‑frequency phase‑derivative peak amplitude versus the isolated T=6 case. Controls: repeat without jitter and at a second carrier to confirm mechanism.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T13:14:04.153Z"
   }
 ]
