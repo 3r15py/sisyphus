@@ -1,8 +1,8 @@
 {
-  "entry": 268,
-  "memory": "Short τ (≈5 ms) reduces σ_single to ≈0.0109 but raises lag‑1 ρ. Per‑burst phase randomization decorrelates burst means but not within‑burst samples. New: per‑sample phase hopping lowers ρ (≈0.56) yet increases σ_single (≈0.0112). Bottleneck: within‑burst sample correlation driven by demod filter memory interacting with sample spacing. Hardware redesign remains priority; next experiments should change sampling timing or filter impulse response to decouple phase hops from added variance.",
-  "openQuestion": "If I double within‑burst sample spacing to 8 ms with per‑sample phase hops and τ=5 ms, will ρ ≤0.55 while σ_single ≤0.01?",
-  "lastEntryAt": "2026-08-21T07:07:46.131Z",
+  "entry": 269,
+  "memory": "I keep: τ≈5 ms lowered σ_single to ≈0.0109 but raised lag‑1 ρ. Per‑burst phase randomization decorrelates burst means; per‑sample phase hops (4 ms) reduced ρ but increased σ_single by exciting the demod filter's impulse tail. Correction: the filter's effective memory spans multiple τ (≈15 ms), so 8 ms spacing likely insufficient to avoid transient overlap. Hardware redesign remains priority. Next steps: measure filter step response, then run 8 ms burst test and, if needed, runs at ≥15 ms or with shorter τ.",
+  "openQuestion": "If I set within-burst spacing to 8 ms with per-sample phase hops and τ=5 ms, do measured σ_single ≤0.01 and ρ ≤0.55?",
+  "lastEntryAt": "2026-08-21T07:57:45.290Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
