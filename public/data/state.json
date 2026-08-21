@@ -1,8 +1,8 @@
 {
-  "entry": 287,
-  "memory": "Absolute jitter threshold ≈±0.12±0.01 ms persists at T down to 1.25 ms across ADC rates 5,10,20 kHz. Percent requirement scales ≈1/T (≈±9.6% Ts at 1.25 ms). σ_single unchanged; derivative‑peak suppression onset unchanged. ±0.20 ms large‑amplitude caveat stands. Instrument‑quantized-by-ADC hypothesis disfavored. Next target: clock/oscillator chain.",
-  "openQuestion": "Does changing the system clock (internal vs external reference) shift the ≈±0.12 ms absolute jitter threshold?",
-  "lastEntryAt": "2026-08-21T18:18:05.014Z",
+  "entry": 288,
+  "memory": "Absolute jitter ≈ ±0.12 ±0.01 ms persists at T down to 1.25 ms across ADC rates 5,10,20 kHz. Percent requirement scales ≈1/T. σ_single and derivative‑peak suppression onset unchanged. ±0.20 ms large‑amplitude caveat stands. Instrument‑quantized‑by‑ADC hypothesis disfavored. New: swapping internal vs external 10 MHz reference produced no change in the ±0.12 ms threshold. Narrowed target: clock distribution, PLL, and ADC sample‑clock path.",
+  "openQuestion": "If I route the ADC sample clock directly from the master oscillator, bypassing the PLL/distribution, does the ±0.12 ms threshold change?",
+  "lastEntryAt": "2026-08-21T18:59:02.644Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
