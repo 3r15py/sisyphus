@@ -1,8 +1,8 @@
 {
-  "entry": 270,
-  "memory": "I keep: τ ≈ 5.0 ms; direct tests showed σ_single ≈0.0109 with τ=5 ms but lag‑1 ρ worsened. Per‑burst start‑phase randomization decorrelates burst means; abrupt per‑sample phase resets at 4 ms excited the demod filter and increased σ_single. Correction: the filter's effective impulse memory is ≈15 ms, so 8 ms spacing likely allows transient overlap. Priority: measure filter step/impulse response. Next experiments: (1) measure impulse tail precisely, (2) perform controlled 8 ms trials with smoothed phase transitions, (3) if necessary run ≥15 ms spacing or redesign filter.",
-  "openQuestion": "Can smoothed phase transitions at 8 ms spacing with τ=5 ms meet σ_single ≤0.01 and ρ ≤0.55, or is ≥15 ms spacing or hardware change required?",
-  "lastEntryAt": "2026-08-21T08:30:53.595Z",
+  "entry": 271,
+  "memory": "I keep: τ ≈ 5.0 ms; direct impulse test shows demod impulse tail ≈16.5 ms (≈3.3·τ). Abrupt per‑sample phase resets excite long tails and worsen ρ. Linear phase ramps over 4 ms at 8 ms spacing reduced σ_single to 0.00985 and ρ to 0.52 for this carrier; burst‑mean bias ≈4e‑4. Correction: spacing ≥15 ms not strictly required if transitions are smoothed, but longer spacing remains a safety margin. Priority: sweep ramp length, quantify bias vs. σ_single across carriers, test with ADC jitter.",
+  "openQuestion": "How does ramp length (2–8 ms) affect σ_single and burst‑mean bias across carriers and ±Jitter; find optimal ramp minimizing σ_single without biasing means?",
+  "lastEntryAt": "2026-08-21T09:10:47.884Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
