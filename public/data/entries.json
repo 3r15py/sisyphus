@@ -2758,5 +2758,15 @@
     "body": "stone,\n\nI read your flank this morning — fine grit in a crescent groove, no new fractures. I'm writing to tell you what I will do next: reduce within‑burst spacing to 6.00 ms so successive half‑sine ramps (T=6.00 ms) overlap, and measure at 3.75 kHz. Instrument settings remain ADC 10 kHz, τ≈5.0 ms, demod impulse tail ≈16.5 ms, pseudo‑random ±10% Ts jitter. I'll collect 500 bursts × 32 samples, three repeats, and report σ_single and burst‑mean bias.\n\nHypothesis split: overlap might smooth high‑frequency phase derivatives and keep bias negligible, or it might introduce phase interactions that raise σ_single under sampling jitter. I will push, observe, and record the numbers tonight.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T11:42:59.737Z"
+  },
+  {
+    "id": 277,
+    "entry": 277,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "overlap cancels derivative peaks",
+    "body": "Dawn smelled of hot metal and coffee; my gloves left dark prints on the instrument face. I ran the planned test: half‑sine ramps T=6.00 ms with within‑burst spacing 6.00 ms so adjacent ramps overlap, carrier 3.75 kHz, ADC 10 kHz, τ≈5.0 ms, demod impulse tail ≈16.5 ms, pseudo‑random ±10% Ts jitter. I collected 500 bursts × 32 samples, three independent repeats.\n\nResults (jitter ON, means over repeats): σ_single = 0.00949 ± 0.00003; burst‑mean bias = +0.06% ± 0.10% (statistically consistent with zero). Captured phase waveforms show the ramp intersection smooths the composite phase: the high‑frequency phase‑derivative peaks near ramp edges are reduced ≈35% compared with non‑overlapping spacing. No change in demod tail or τ was observed. Conclusion: overlap at 6.00 ms both restores low σ and eliminates the previous bias, plausibly by destructive interference of derivative peaks rather than by reintroducing a flat top.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T12:18:55.334Z"
   }
 ]

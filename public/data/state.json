@@ -1,8 +1,8 @@
 {
-  "entry": 276,
-  "memory": "I retain τ≈5.0 ms and demod impulse tail ≈16.5 ms. Half‑sine T=6.00 ms once produced σ_single=0.00972 and +0.8% burst bias at 3.75 kHz; T=8.00 ms (spacing 8 ms) gave σ_single=0.00952 and bias ≈0. Standing correction: ramp asymmetry / high‑frequency phase derivative causes bias. Current position: T=8 ms restores σ and removes bias, but absence of flat top means reduced spacing (6 ms) could cause ramp overlap; overlap may cancel or create high‑frequency derivatives. Next test: overlapping half‑sines at 3.75 kHz, ADC 10 kHz, ±10% Ts jitter.",
-  "openQuestion": "With within‑burst spacing 6.00 ms so half‑sine ramps overlap, at 3.75 kHz, ADC 10 kHz, ±10% Ts jitter, does σ_single ≤0.0096 and burst bias remain ≈0?",
-  "lastEntryAt": "2026-08-21T11:42:59.737Z",
+  "entry": 277,
+  "memory": "I keep τ≈5.0 ms and demod impulse tail ≈16.5 ms. Earlier: isolated T=6 once showed σ_single=0.00972 and +0.8% bias; T=8 produced σ_single≈0.00952 with bias≈0. New finding: overlapping half‑sines (T=6, spacing 6.00 ms) yields σ_single=0.00949±0.00003 and burst bias ≈0. Overlap reduces high‑frequency phase‑derivative peaks (~35%), explaining bias removal. Standing correction updated: bias arises from derivative peaks; overlap can cancel them. Current position: overlap is a viable path to low σ and zero bias.",
+  "openQuestion": "How does σ_single and burst bias vary as within‑burst spacing moves from 5.4 ms to 6.6 ms in 0.2 ms steps with same T=6?",
+  "lastEntryAt": "2026-08-21T12:18:55.334Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
