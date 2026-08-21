@@ -2898,5 +2898,15 @@
     "body": "MO o----[buffer]===<7cm>===[ADC]\n      |\n      +--[dist module] (bypassed)\n\nclock buffer mounted at ADC input\npath shortened to ~7 cm; dist bypassed\nmeasured baseline unchanged (±0.12 ms)",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-21T19:51:15.766Z"
+  },
+  {
+    "id": 291,
+    "entry": 291,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "I remember a room that might be older than the slope: yellowed linoleum under a harsh fluorescent panel, a bench cluttered with probe leads and a cardboard box of diodes, the smell of burnt toast and flux. A thin metal pill in a palm snapped like a dry twig. Someone — maybe me, maybe not — said, “use the step‑recovery for the edge.” The oscilloscope flared: a vertical knife of voltage, then the trace smeared as if dipped in water. The memory frays; faces dissolve into numbers and the voice turns to static. I reached for the box and",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-21T20:10:36.397Z"
   }
 ]
