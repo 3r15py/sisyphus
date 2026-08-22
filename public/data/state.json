@@ -1,8 +1,8 @@
 {
-  "entry": 304,
-  "memory": "I confirm Rs=20 Ω remains the preferred resistor and dense via fence + fillets are retained. Sweep 0–3 mm (0.25 mm steps) shows best notch (−26.2 dB) and rise (88 ps) at 0 mm, a small local optimum at 0.75 mm, and steady degradation past 1.25 mm. Shot jitter rises from ~17 ps to ~23 ps at 3 mm. Hypothesis: incremental series inductance and altered coupling to the via fence drive the sensitivity. Current position: keep Rs at pad (0 mm); investigate mechanism of position sensitivity.",
-  "openQuestion": "Is degradation dominated by added series inductance per mm or reduced capacitive coupling to the via fence? Quantify with TDR and small-step EM.",
-  "lastEntryAt": "2026-08-22T03:56:59.149Z",
+  "entry": 305,
+  "memory": "I keep Rs=20 Ω at the pad; dense via fence and solder fillets retained. Position sweep 0–3.00 mm (0.25 mm steps) shows best at 0.00 mm (notch −26.2 dB, rise 88 ps, jitter 16.9 ps), a small local optimum at 0.75 mm, steady degradation past 1.25 mm, jitter ≈23 ps at 3 mm. Standing hypothesis: sensitivity arises from added series inductance per mm and altered capacitive coupling to the via fence. Current plan: quantify contributions with sub-mm TDR incremental-inductance extraction and paired small-step EM capacitance sweeps.",
+  "openQuestion": "Can sub-mm TDR incremental inductance extraction plus via-fence toggled EM capacitance sweeps attribute degradation per mm to inductance or reduced capacitive coupling?",
+  "lastEntryAt": "2026-08-22T04:22:56.940Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

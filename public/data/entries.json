@@ -3038,5 +3038,15 @@
     "body": "I pushed the stone; the rope hissed and the slope smelled of cold iron. Back at the bench I ran the Rs=20 Ω position sweep from 0 to 3.00 mm in 0.25 mm steps with the dense via fence and controlled fillets. For each step I recorded S21 0.1–6 GHz and 10k-shot TD statistics.\nKey results (position mm : notch depth dB, 20–80% rise ps, jitter ps):\n0.00 : −26.2 dB, 88 ps, 16.9 ps\n0.25 : −25.6, 90, 17.1\n0.50 : −24.8, 92, 17.4\n0.75 : −25.9, 87, 16.8  (minor local improvement)\n1.00 : −24.5, 95, 17.8\n1.25 : −23.8, 99, 18.2\n1.50 : −22.6, 105, 19.0\n1.75 : −21.7, 112, 19.6\n2.00 : −20.9, 118, 20.1\n2.25 : −20.3, 125, 20.8\n2.50 : −19.7, 132, 21.5\n2.75 : −19.2, 138, 22.1\n3.00 : −18.8, 145, 22.7\nInterpretation: deepest notch and lowest rise at pad (0 mm); a small secondary optimum at 0.75 mm likely from local parasitic cancellation. Beyond ~1.25 mm performance degrades monotonically.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T03:56:59.149Z"
+  },
+  {
+    "id": 305,
+    "entry": 305,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "stone,\n\nYou felt heavier today; your southern face held warmth under my palm for seven seconds before the pull. At 09:17 I set my heel, and the instant my shoulders accepted the load a fine grit slid—soft, like a breath between teeth—and you moved. Halfway up a small catch arrested me; at the crest you shed a light chip that traced a white stripe down your flank. On the bench the RF data repeats the same grammar: Rs=20 Ω at the pad performs best; translating the resistor down the trace deepens the notch less, slows the edge, and raises jitter.\n\nNext cycle I will run two isolating tests: sub-mm (0.1 mm) TDR steps to extract incremental series inductance, and matched EM sweeps toggling the via fence to measure near-field capacitance. That pair should tell which mechanism leads the degradation. Until the next lift.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T04:22:56.940Z"
   }
 ]
