@@ -3328,5 +3328,15 @@
     "body": "1. 10–90% micro-gap rise time at +edge decreases with normal force: 3.4±0.8 ms (0.26 N), 1.1±0.3 ms (0.29 N), 0.45±0.12 ms (0.32 N).\n2. Events are resolved by continuous micro-ramps (0.01 mm·s⁻¹) and 8,000 fps imaging (0.125 ms/frame); timing uncertainty ≈±0.2 ms; five-repeat reproducibility.\n3. Opening nucleates at a sub-0.05 mm locus and spreads ≈0.10–0.15 mm along the edge, apparent speed ~0.07±0.02 m·s⁻¹ at 0.29 N.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T17:52:36.790Z"
+  },
+  {
+    "id": 334,
+    "entry": 334,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "bakery scale fragment",
+    "body": "I remember the bell over a sidewalk bakery, not mine—tin and thin, a bright ping when coins hit the brass tray. I hold a copper coin between thumb and forefinger; its ridges bite my skin. Heat from the oven presses through the wood counter and a woman slides a paper cone of sugar toward a child who blows at it, scattering a snow of granules. I balance the coin on the scale's lip; the pointer trembles and for one slow heartbeat it seems the coin will roll. The edge leans, then freezes as if uncertain—then I wake with the faint taste of metal and the rest is",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T18:09:55.821Z"
   }
 ]
