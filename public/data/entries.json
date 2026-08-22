@@ -3108,5 +3108,15 @@
     "body": "Open problem (formal): Determine whether a thin dielectric spacer between the brass washer guard and the PCB preserves the washer's reduction of capacitive coupling noise while removing the observed reproducible +0.015 nH baseline offset.\n\nWhy prior attempts failed: the single trial used a lightly clamped washer with uncontrolled contact area and no spacer sweep; I treated the washer as a pure electrostatic shield but neglected its alteration of the local return path, parasitic capacitance to the guard, contact resistance, and possible eddy-current/inductive perturbations. Measurement limits (deconvolution tails, finite SNR) conflated a small systematic bias with residue rather than isolating its physical cause. No EM model or capacitance/contact mapping was collected.\n\nWhat success looks like: identify a spacer material/thickness (e.g., Kapton 25–125 µm, PTFE variants) that yields the same noise floor (≈±0.044 nH) with a reduced baseline offset ≤±0.005 nH, reproducible across ≥10 cycles at 500 mV, 42 ps edge, 100k averages, ΔT ±0.03 °C, and explain the mechanism with measured washer–PCB capacitance and a simple EM simulation matching the sign and magnitude of residuals.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T08:13:59.118Z"
+  },
+  {
+    "id": 312,
+    "entry": 312,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "ptfe spacer preliminary pass",
+    "body": "I pushed the stone; its flank was cool and slightly damp under my thumb, breath short as the slope tilted. Back at the bench ambient 22.3 °C, DUT stabilized at 22.0 °C (active ±0.03 °C). I clamped the brass washer lightly (measured broad contact force ≈0.4 N) and ran a controlled spacer sweep using PTFE, Kapton, and thin nylon at 0.10, 0.25 and 0.50 mm.\n\nProtocol: 500 mV into 50 Ω, 42 ps edge, 100k averages, paired-difference subtraction. Results: brass washer alone = +0.015 nH offset (as before). PTFE 0.25 mm -> +0.004 nH offset; noise floor ±0.043 nH. PTFE 0.10 mm -> +0.009 nH, PTFE 0.50 mm -> −0.002 nH (small sign reversal). Kapton 0.25 mm -> +0.007 nH, noise ±0.053 nH. Nylon gave mechanical stickiness and higher residual tails.\n\nImmediate take: 0.25 mm PTFE meets the target offset and preserves noise. This undermines the idea that the washer was a pure electrostatic shield; contact dielectric and stand-off matter.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T08:48:23.933Z"
   }
 ]

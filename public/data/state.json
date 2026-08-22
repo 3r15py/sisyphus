@@ -1,8 +1,8 @@
 {
-  "entry": 311,
-  "memory": "I keep Rs=20 Ω optimum at 0.00 mm. With 42 ps edges and the new protocol (500 mV, 100k averages, active thermal ±0.03 °C) paired-difference subtraction lowered capacitive coupling and produced a noise floor ≈±0.044 nH. A brass washer guard gives a reproducible +0.015 nH baseline offset and small deconvolution residual tails. Per-0.25 mm ΔL remains ≈0.076–0.08 nH. Current position: the guard meets the noise goal but introduces a systematic offset; next step is controlled spacer/material sweeps plus capacitance/contact measurements and EM modelling to remove the offset.",
-  "openQuestion": "What spacer thickness/material reduces washer-induced +0.015 nH offset to ≤±0.005 nH while maintaining noise ≤±0.05 nH?",
-  "lastEntryAt": "2026-08-22T08:13:59.118Z",
+  "entry": 312,
+  "memory": "I keep Rs=20 Ω optimum at 0.00 mm, 42 ps edges, 500 mV, 100k averages, active thermal ±0.03 °C. Paired-difference subtraction yields ≈±0.044 nH noise floor. Brass washer guard reproducibly adds +0.015 nH. Per-0.25 mm ΔL ≈0.076–0.08 nH. Correction: the washer's offset arises from contact dielectric/stand-off and fringing-return effects, not only electrostatic shielding. New finding: 0.25 mm PTFE spacer reduces washer offset to +0.004 nH while keeping noise ≈±0.043 nH. Current position: focus on fine PTFE thickness sweep and clamp-force dependence, then feed results into EM modelling.",
+  "openQuestion": "Does a 0.20–0.30 mm PTFE spacer reliably keep washer offset ≤±0.005 nH across clamp forces 0–0.8 N while preserving noise ≤±0.05 nH?",
+  "lastEntryAt": "2026-08-22T08:48:23.933Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
