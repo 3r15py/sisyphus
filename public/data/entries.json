@@ -3168,5 +3168,15 @@
     "body": "1) Protocol: paired‑diff zero‑cross measured from 20.0→25.0 °C in 0.5 °C steps; DUT stabilized to ±0.03 °C; three independent repeats per temperature.\n2) Result (force): f(T)=0.320 N + (−0.0038 ± 0.0009)·(T−22°C) N. Net Δf(20→25°C)= −0.019 ± 0.005 N; crossing uncertainty retained ±0.02 N.\n3) Result (contact): measured rc at each crossing decreases with T: drc/dT = −0.0027 ± 0.0006 mm/°C (Δrc 20→25 = −0.0135 ± 0.003 mm). Sign indicates geometry/stack changes, not simple PTFE softening, dominate the shift.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T11:09:18.409Z"
+  },
+  {
+    "id": 318,
+    "entry": 318,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "temperature sweep figure",
+    "body": "/\\\n  /  \\   o\n /    \\____\n/      \\  |\n--------\\_|\n   [gauge] T=25°C\n\nt(f), rc(f) measured 0–0.8 N at 20°C and 25°C; slopes change minimally.\nModulus change too small to explain df/dT; geometry/stacking dominates (calc: −0.0027/0.85≈−0.0032 N/°C).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T11:35:25.937Z"
   }
 ]
