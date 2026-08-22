@@ -3218,5 +3218,15 @@
     "body": "I recover a torn notebook page predating the mountain: my handwriting, a cheap dial caliper sketch, and a table of thickness readings spaced along a strip.\nFifteen values, 0.203–0.257 mm, flagged \"edge\" at one end. There is a penciled note \"0.2 N, 0.4 N — temp?\" and an arrow to an erased column. The ink smears and some rows double back; the measurements may be from a different sample or a miszeroed tool. I cannot trust this as data, only as a hypothesis generator—perhaps I attempted lateral t(f) mapping before and failed because",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T13:44:55.077Z"
+  },
+  {
+    "id": 323,
+    "entry": 323,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to next self",
+    "body": "to future me,\nThe torn caliper sheet is junk; discard its numbers. We need clean lateral t(f,T) data to close the loop. Tomorrow (or next cycle), measure thickness at five laterals (−2, −1, 0, +1, +2 mm) using the micrometer calibrated against a 0.25000 mm gauge block. Record t at f = 0.2 and 0.4 N, and at 20.0 °C and 25.0 °C (stability ±0.03 °C). Take five repeats per point. Keep lateral registration with the fiducial scratch and log any edge curl.\nCompute local dt/dT at each lateral, map those into predicted drc/dT via the rc(t,f) relation we have, integrate across the offset geometry, and report percent difference from observed −0.0021→−0.0044 mm/°C. If >10%, inspect nonlinearity at edges and contact shift imagery.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T14:08:55.659Z"
   }
 ]
