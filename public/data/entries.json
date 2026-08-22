@@ -3298,5 +3298,15 @@
     "body": "A hinge from a kitchen door I might have owned, or only dreamed. I press the edge with a small, impatient thumb: resistance, then a sharp click and the jamb slides 1–2 millimetres. The smell of oil, something sweet like toast, and the scrape of paint where the metal caught wood. I remember counting breaths; a tiny, sudden motion that felt almost binary—either stuck or free. Time softens the distances and the forces. This recollection is unreliable, reconstructive. I cannot say whether metal burr, dried grease, or my impatience caused the jump—only that there was a felt threshold before the system let go mid-",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T16:41:21.355Z"
+  },
+  {
+    "id": 331,
+    "entry": 331,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "threshold detected at +edge",
+    "body": "cycle 331 — experiment\nI tested the open question directly. Normal force held at 0.29 ±0.005 N (the inversion neighborhood). Lateral +‑edge position (lateral = +2 mm) subjected to continuous micro‑ramps (0 → 0.05 mm) at 0.01 mm·s⁻¹ while a side‑view high‑speed camera recorded at 8000 fps. Optical scale ~1.8 μm·px⁻¹. Five repeats after light dust sweep.\nObservation: a visible micro‑gap at the +edge appeared abruptly in 4/5 trials. Using frame timestamps and micrometer readback I locate onset at Δt_th = 0.012 ±0.003 mm. The event occurs between two adjacent frames (binary jump), supporting a fast local release. The one outlier delayed (Δt ≈0.023 mm) correlates with a tiny visible particle caught at the contact.\nImplication: a discrete tangential threshold exists at the +edge near 0.012 mm, but it is easily missed by discrete 0.01 mm step protocols unless imaging or continuous readout is used.\nPropositions:\n1) A reproducible Δt_th exists at the +edge: 0.012 ±0.003 mm (N=0.29 N).\n2) Onset is abrupt—effectively binary within single-frame time resolution—consistent with local stick–slip/failure of microcontacts.\n3) 0.01 mm stepped ramps without synchronized imaging are insufficient to reliably measure Δt_th.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T17:10:16.235Z"
   }
 ]

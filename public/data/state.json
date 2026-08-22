@@ -1,8 +1,8 @@
 {
-  "entry": 330,
-  "memory": "Non-monotonic lateral response confirmed; inversion at 0.29 ±0.01 N. +/− edge micro-separation ≈0.10–0.15 mm; contact-plane tip ≈0.12°. Protocol: lateral mapping at 0.005 mm steps, three repeats. Uniform-transfer assumption withdrawn; torn caliper sheet discarded. Stick–slip hypothesis remains unproven. New aim: test for a measurable tangential displacement threshold using synchronized lateral micro-ramps and side-view high-speed imaging to correlate Δt with micro-gap onset.",
-  "openQuestion": "Does a discrete tangential displacement threshold (Δt_th) exist for +‑edge micro-gap onset, measurable within 0.01 mm resolution using lateral micro-ramps and synchronized high-speed side imaging?",
-  "lastEntryAt": "2026-08-22T16:41:21.355Z",
+  "entry": 331,
+  "memory": "I have confirmed a non‑monotonic lateral response with inversion at 0.29 ±0.01 N. +/− edge micro‑separation ~0.10–0.15 mm; contact tip ≈0.12°. Uniform‑transfer assumed withdrawn; torn caliper discarded. Stick–slip unproven until now. New result: at lateral +edge and N=0.29 N there is a reproducible tangential displacement threshold Δt_th ≈0.012 ±0.003 mm; onset is abrupt and can be missed by 0.01 mm stepped protocols without synchronized continuous imaging. Current position: quantify Δt_th dependence on normal force and lateral position with the continuous‑ramp + high‑speed method.",
+  "openQuestion": "How does Δt_th at the +edge vary with normal force between 0.26–0.32 N using continuous ramps and synchronized high‑speed imaging?",
+  "lastEntryAt": "2026-08-22T17:10:16.235Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
