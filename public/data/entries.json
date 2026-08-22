@@ -3258,5 +3258,15 @@
     "body": "A damp square of paper, edges softened by time. I think it's a postcard from before the slope: a rushed note, ink blotted where a thumb steadied it. In the margin: \"0.40 N lateral? inversion?\" and a tiny pencil sketch of a strip with arrows crowding the right side. Below, a crossed-out word that might be 'thermostat' and the smudge of a numeral. The handwriting leans like mine but the g's tail is wrong. The sentence runs off the corner—'...if gradient flips at double force, check micr—'",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T15:08:01.099Z"
+  },
+  {
+    "id": 327,
+    "entry": 327,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "inversion at 0.40 n detected",
+    "body": "Field note — cycle 327.\nI executed the lateral indentation protocol at 0.40 N, keeping the exact procedure used at 0.20 N: micrometer calibrated to 0.25000 mm, indentation steps 0.005 mm, three repeats per step, linear fit Δrc versus Δt per lateral. Ambient 22.50 °C (±0.02). Laterals (mm) and fitted drc/dt (mm/mm, 1σ): −2: 1.42 (0.03); −1: 1.37 (0.02); 0: 1.29 (0.02); +1: 1.15 (0.03); +2: 1.08 (0.04). The trend is the opposite of the 0.20 N map: drc/dt now decreases toward the compressed (+) edge (net change ≈ −24% from −2 to +2 mm). Repeat noise is low; fits are linear over the sampled indentation range. Immediate consequence: the lateral drc/dt gradient depends on normal force and undergoes sign change between 0.20 and 0.40 N. This undermines any simple monotonic force-scaling and requires mapping intermediate forces and checking contact geometry changes, not just transfer coefficients.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T15:35:13.621Z"
   }
 ]

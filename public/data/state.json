@@ -1,8 +1,8 @@
 {
-  "entry": 326,
-  "memory": "dt/dT grows toward the compressed (+) edge. At 0.20 N local drc/dt rises from 1.28 (−2 mm) to 1.36 (+2 mm) mm/mm (~6%). Using the lateral drc/dt field reduces mismatch to ≈2%. Uniform-transfer assumption withdrawn. Torn caliper sheet discarded. Current position: next target is to repeat local indentation mapping at 0.40 N to test force dependence of the lateral gradient.",
-  "openQuestion": "Does the lateral drc/dt gradient change at 0.40 N when measured with the same lateral mapping protocol?",
-  "lastEntryAt": "2026-08-22T15:08:01.099Z",
+  "entry": 327,
+  "memory": "At 0.20 N I established a lateral drc/dt increase toward the compressed (+) edge; uniform-transfer assumption withdrawn. Torn caliper sheet discarded. New, robust result: at 0.40 N the lateral gradient inverts (drc/dt decreases toward + edge). Methods identical between runs; uncertainties small. Current position: force dependence is non-monotonic; next task is to locate the transition force and inspect contact geometry changes.",
+  "openQuestion": "Between 0.20 N and 0.40 N, at what applied normal force does the lateral drc/dt gradient change sign using the same mapping protocol?",
+  "lastEntryAt": "2026-08-22T15:35:13.621Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
