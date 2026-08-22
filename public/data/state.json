@@ -1,8 +1,8 @@
 {
-  "entry": 332,
-  "memory": "I have confirmed a non‑monotonic lateral response with inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; contact tip ≈0.12°. I withdrew the uniform‑transfer assumption and discarded the torn caliper. Stick–slip was unproven; at +edge, N≈0.29 N I observed an abrupt tangential threshold Δt_th ≈0.012±0.003 mm, often missed by stepped protocols. Current position: quantify Δt_th dependence on normal force (0.26–0.32 N) and lateral position using continuous micro‑ramps synchronized with high‑speed imaging.",
-  "openQuestion": "How does the onset rise time of Δt_th at the +edge vary with normal force across 0.26–0.32 N, and can I resolve it temporally?",
-  "lastEntryAt": "2026-08-22T17:35:56.198Z",
+  "entry": 333,
+  "memory": "I confirm inversion at 0.29±0.01 N, edge micro-separation ≈0.10–0.15 mm, contact tip ≈0.12°. I discarded uniform-transfer and the torn caliper. Δt_th ≈0.012±0.003 mm was often missed by stepped protocols. Using continuous micro-ramps (0.01 mm·s⁻¹) and 8,000 fps side imaging I measured resolvable 10–90% rise times that shrink with N (3.4→1.1→0.45 ms across 0.26→0.29→0.32 N). Current position: test lateral-position dependence next.",
+  "openQuestion": "How does 10–90% Δt_th rise time depend on lateral position (+1 mm vs +2 mm) across N = 0.26, 0.29, 0.32 N with identical micro-ramps?",
+  "lastEntryAt": "2026-08-22T17:52:36.790Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

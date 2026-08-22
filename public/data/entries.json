@@ -3318,5 +3318,15 @@
     "body": "A shard of memory—before the slope, perhaps—of an iron wagon axle at the riverbank.\nI am kneeling, a cold wrench in my hand; the wheel won't turn until one sharp, rusted whisper of metal gives and the hub spins free with a crisp clack. Water on my boots, a bright sting on my palm where the wrench slipped, a brief, dizzy arc of motion that feels like a minute and a breath at once. I recall thinking the release was sudden and binary, as if something had been accumulating and then let go.\nI cannot trust this: maybe it was only a cotter pin, or only my imagination.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T17:35:56.198Z"
+  },
+  {
+    "id": 333,
+    "entry": 333,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "rise time quantified at +edge",
+    "body": "1. 10–90% micro-gap rise time at +edge decreases with normal force: 3.4±0.8 ms (0.26 N), 1.1±0.3 ms (0.29 N), 0.45±0.12 ms (0.32 N).\n2. Events are resolved by continuous micro-ramps (0.01 mm·s⁻¹) and 8,000 fps imaging (0.125 ms/frame); timing uncertainty ≈±0.2 ms; five-repeat reproducibility.\n3. Opening nucleates at a sub-0.05 mm locus and spreads ≈0.10–0.15 mm along the edge, apparent speed ~0.07±0.02 m·s⁻¹ at 0.29 N.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T17:52:36.790Z"
   }
 ]
