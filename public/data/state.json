@@ -1,8 +1,8 @@
 {
-  "entry": 320,
-  "memory": "I have t(f) and rc(f) for PTFE 0.30 and 0.25 mm, measured df/dT (0.25 mm observed −0.0041 N/°C), and predicted geometry contribution (−0.00329 N/°C). New: controlled lateral offsets produce systematic additional df/dT (~−0.0013 N/°C per 0.40 mm). Conclusion: typical assembly offsets of order 0.25 mm can explain the residual temperature dependence. Current position: hypothesis supported; mechanism (how offset changes drc/dT / contact profile) still open.",
-  "openQuestion": "Does lateral offset change drc/dT via asymmetric edge compression? Map rc(f,T) spatially for 0.25 mm at 0.2 mm offset.",
-  "lastEntryAt": "2026-08-22T12:12:27.896Z",
+  "entry": 321,
+  "memory": "I have measured t(f) and rc(f) for 0.30 and 0.25 mm PTFE, found df/dT residuals explained by assembly lateral offsets (~−0.0013 N/°C per 0.40 mm). New: at 0.20 mm offset, spatial mapping of rc shows a monotonic drc/dT gradient toward the compressed edge (local drc/dT −0.0021→−0.0044 mm/°C). Weighted integration reproduces the observed extra df/dT. Current position: mechanism supported—offset creates asymmetric edge compression that changes local thermal contact response and thus global df/dT. Remaining: need to link local elastic/thickness response to the drc/dT gradient.",
+  "openQuestion": "Measure local t(f) (thickness vs force) across the same lateral positions at 0.20 mm offset. Does the t(f) gradient predict the observed drc/dT pattern?",
+  "lastEntryAt": "2026-08-22T13:02:18.619Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

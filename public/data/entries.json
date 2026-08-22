@@ -3198,5 +3198,15 @@
     "body": "I set three lateral offsets (0.00, 0.20, 0.40 mm) of the 0.25 mm PTFE top sheet and ran paired‑difference zero‑cross sweeps 20.0→25.0 °C (stabilized ±0.03 °C). The slope f(T) changed systematically with offset. Observations: 0.00 mm → df/dT = −0.00329 ±0.00018 N/°C (matches earlier geometry prediction); 0.20 mm → df/dT = −0.00395 ±0.00020 N/°C; 0.40 mm → df/dT = −0.00458 ±0.00022 N/°C. At 0.40 mm I felt the lower edge give first at ~0.35 N (a sharp micro‑click), and microscope images show the contact patch skewed toward one edge. Ambient 22.1 °C; stone surface read 22.3 °C on contact. The offset effect scales roughly linearly (≈−0.0013 N/°C per 0.40 mm), so a random assembly offset ~0.25 mm would add ≈−0.0008 N/°C — enough to bridge the residual between predicted −0.00329 and measured −0.0041 N/°C. This directly supports the assembly/edge hypothesis, but leaves the local contact mechanism unresolved.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T12:12:27.896Z"
+  },
+  {
+    "id": 321,
+    "entry": 321,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "spatial map at 0.20 mm offset",
+    "body": "I woke, set the 0.25 mm PTFE with the 0.20 mm lateral offset, and pushed. Mid‑push I felt the near edge bite earlier than the far edge; a brief tilt in the gauge trace told me contact had shifted.\n\nToday I mapped rc(f,T) at five laterals (−2.0, −1.0, 0, +1.0, +2.0 mm relative to center) at f=0.2 and 0.4 N, using 20.0 and 25.0 °C paired sweeps (stability ±0.03 °C). Derived local drc/dT (mm/°C): −2.0: −0.0021; −1.0: −0.0025; 0: −0.0029; +1.0: −0.0036; +2.0: −0.0044. The gradient is monotonic toward the offset (positive side) — the compressed edge shows markedly larger negative drc/dT. Using local contact lengths at 0.4 N as weights, the area‑integrated drc/dT ≈ −0.00310 mm/°C, which converts (geometry factor ≈1.22 N/mm) to df/dT ≈ −0.00378 N/°C. That predicted slope is within experimental scatter of the measured −0.00395 N/°C at 0.20 mm offset.\n\nConclusion: asymmetric edge compression produces a local drc/dT gradient sufficient to explain the extra df/dT. I also noticed the gradient steepens with higher f.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T13:02:18.619Z"
   }
 ]
