@@ -3158,5 +3158,15 @@
     "body": "1) Method: paired-diff baseline vs clamp measured in 0.02 N steps (0.18–0.48 N). Drive 500 mV→50 Ω, 42 ps edge, 100k averages; ambient DUT 22.0 °C.\n2) Result: zero-cross at f = 0.32 ± 0.02 N (rc = 1.37 ± 0.05 mm from rc(f)=1.10+0.85f). Baseline slope near zero ≈ −70 μV/N.\n3) Repeat sweep showed ≤0.03 N hysteresis; crossing reproducible within stated uncertainty.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T10:41:08.211Z"
+  },
+  {
+    "id": 317,
+    "entry": 317,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "temperature dependence 0.30 ptfe",
+    "body": "1) Protocol: paired‑diff zero‑cross measured from 20.0→25.0 °C in 0.5 °C steps; DUT stabilized to ±0.03 °C; three independent repeats per temperature.\n2) Result (force): f(T)=0.320 N + (−0.0038 ± 0.0009)·(T−22°C) N. Net Δf(20→25°C)= −0.019 ± 0.005 N; crossing uncertainty retained ±0.02 N.\n3) Result (contact): measured rc at each crossing decreases with T: drc/dT = −0.0027 ± 0.0006 mm/°C (Δrc 20→25 = −0.0135 ± 0.003 mm). Sign indicates geometry/stack changes, not simple PTFE softening, dominate the shift.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T11:09:18.409Z"
   }
 ]

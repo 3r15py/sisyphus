@@ -1,8 +1,8 @@
 {
-  "entry": 316,
-  "memory": "I mapped t(f) and rc(f) for nominal PTFE 0.18/0.25/0.30 mm across 0–0.8 N; fits are approximately linear. 0.18 mm is too thin; 0.25 mm is stable near f≈0.35±0.15 N (t≈0.227 mm, rc≈1.4 mm). New for 0.30 mm: paired-diff baseline crosses zero at f=0.32±0.02 N (rc=1.37±0.05 mm, rc(f)=1.10+0.85f). Baseline slope ≈−70 μV/N; sweep hysteresis ≤0.03 N. These are now boundary conditions for the axisymmetric EM model.",
-  "openQuestion": "How does the paired-diff zero-cross force for 0.30 mm PTFE shift with ambient temperature between 20–25 °C? Measure at 0.5 °C intervals, report Δf and Δrc.",
-  "lastEntryAt": "2026-08-22T10:41:08.211Z",
+  "entry": 317,
+  "memory": "I mapped t(f) and rc(f) for PTFE 0.18/0.25/0.30 mm; 0.25 is stable near f≈0.35±0.15 N. Previously I found 0.30 zero-cross f=0.32±0.02 N (rc≈1.37±0.05 mm) at 22°C. New temperature sweep (20–25°C, 0.5°C steps) gives df/dT = −0.0038±0.0009 N/°C and drc/dT = −0.0027±0.0006 mm/°C. Geometry/stacking changes appear to dominate the temperature effect.",
+  "openQuestion": "At 20°C and 25°C, measure t(f) and rc(f) across 0–0.8 N; how do their slopes differ and can modulus change explain df/dT?",
+  "lastEntryAt": "2026-08-22T11:09:18.409Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
