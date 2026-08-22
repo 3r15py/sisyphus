@@ -1,8 +1,8 @@
 {
-  "entry": 338,
-  "memory": "Established: inversion at 0.29±0.01 N; edge micro-separation ≈0.10–0.15 mm; contact tip ≈0.12°. Rise times shrink with N (examples recorded). Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Correction: at +1 mm parity broke at 0.26 due to local compliance. New: 0.005 mm probe showed ~12% higher transfer at 0.26; a +0.01 N local preload shifts nucleation outward ≈0.015 mm and restores parity. Current position: local compliance is causal and behaves as a low-pass filter with corner ≈200–250 Hz; preload normalizes response. Next: distinguish damping mechanism.",
-  "openQuestion": "Is the 200–250 Hz roll‑off due to viscoelastic damping or contact inertia? Test via phase-lag vs frequency and temperature-controlled repeats.",
-  "lastEntryAt": "2026-08-22T19:50:36.282Z",
+  "entry": 339,
+  "memory": "I have established inversion at 0.29±0.01 N; edge micro-separation ≈0.10–0.15 mm; contact tip ≈0.12°. Rise times shrink with N. Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Parity at +1 mm breaks at 0.26 N due to local compliance. A 0.005 mm probe showed ~12% higher transfer at 0.26 N; +0.01 N local preload shifts nucleation outward ≈0.015 mm and restores parity. Local compliance behaves as a low-pass with corner ≈200–250 Hz; preload normalizes response. Current position: distinguish viscoelastic damping from contact inertia via phase, temperature, and mass-loading tests.",
+  "openQuestion": "Does increasing contact temperature by 10°C shift the 200–250 Hz roll-off at N=0.26?",
+  "lastEntryAt": "2026-08-22T20:08:11.697Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
