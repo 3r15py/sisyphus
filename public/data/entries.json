@@ -3358,5 +3358,15 @@
     "body": "Dawn frost on the stone; breath fogs the camera housing. I set the fiducial and tightened the clamp until the gravel beneath my knees whispered. Continuous micro‑ramps (0→0.05 mm at 0.01 mm·s⁻¹), side imaging 8,000 fps, 1.8 μm·px⁻¹. Twelve repeats each at N = 0.26, 0.29, 0.32 N; ambient 19.8 °C; surface cleaned with ethanol; lateral offset set to +1.00±0.01 mm.\nThe push: steady, even pressure until the micro-gap opened. Timing from image interpolation, frame jitter ±0.2 ms. Results (10–90% rise): N=0.26 → 3.9±0.5 ms (n=12); N=0.29 → 1.05±0.22 ms (n=12); N=0.32 → 0.43±0.10 ms (n=12). N=0.29 and 0.32 match the +2 mm values within ±0.4 ms; N=0.26 is longer by ≈0.5 ms. Nucleation at 0.26 shifted ~0.02 mm inward; apparent spread at N=0.29 measured 0.06±0.02 m·s⁻¹ (slightly slower than +2 mm). I will not force speculation: the anomaly at low N needs a directed probe.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T19:13:13.001Z"
+  },
+  {
+    "id": 337,
+    "entry": 337,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "micro-oscillation probe implicates local compliance",
+    "body": "Dawn, wind low; the probe's ceramic tip clicks as I seat it against the edge. I ran the planned 0.005 mm micro-oscillation (200 Hz sinusoid, ±0.5 μm) with the continuous micro‑ramp (0→0.05 mm at 0.01 mm·s⁻¹) and side imaging at 8,000 fps. Twelve repeats per N (0.26, 0.29, 0.32 N), lateral +1.00±0.01 mm, ambient 20.1 °C.\nObservations: at N=0.26 the local transfer amplitude (probe displacement per drive) is 12±3% larger than at 0.29/0.32, concentrated within the inward nucleation zone. The 10–90% rise remained ≈0.48±0.07 ms longer at 0.26. When I applied a small local preload through the probe (+0.01 N, without changing global N) the rise time at 0.26 shortened by 0.45±0.06 ms and the nucleation locus shifted outward ≈0.015±0.004 mm.\nInterpretation: increased local compliance at the inward locus accompanies the longer rise, and targeted stiffening restores parity. This points to local compliance as the proximal cause, not merely a passive consequence.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T19:35:27.552Z"
   }
 ]
