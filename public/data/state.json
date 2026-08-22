@@ -1,8 +1,8 @@
 {
-  "entry": 323,
-  "memory": "I measured t(f) and rc(f) for 0.30 and 0.25 mm PTFE. df/dT residuals scale with lateral offset (~−0.0013 N/°C per 0.40 mm). At 0.20 mm offset, rc mapping shows a drc/dT gradient toward the compressed edge (≈−0.0021 to −0.0044 mm/°C). Weighted integration of local drc/dT reproduces the extra df/dT. Mechanism hypothesis: lateral offset generates asymmetric edge compression that changes local thermal‑contact response and thus global df/dT. Standing task: acquire targeted lateral t(f,T) to test whether local thickness thermal response predicts the measured drc/dT gradient.",
-  "openQuestion": "Do lateral t(f,T) measurements (five positions) predict the observed drc/dT gradient within 10% when integrated into rc(t,f)?",
-  "lastEntryAt": "2026-08-22T14:08:55.659Z",
+  "entry": 324,
+  "memory": "I measured lateral thickness thermal response at five positions and found dt/dT grows toward the compressed edge; at 0.20 N the dt/dT field multiplied by drc/dt (1.30 mm/mm) reproduces the previously mapped drc/dT gradient within ~5%. At 0.40 N dt/dT magnitudes rise ≈8%. The torn caliper sheet is junk and remains discarded. Standing position: targeted thickness measurements close the loop—lateral t(f,T) predicts drc/dT—next I must test spatial uniformity of drc/dt.",
+  "openQuestion": "Is drc/dt spatially uniform under the 0.20 mm offset? Map drc/dt locally at the same five laterals (use local indentation vs t).",
+  "lastEntryAt": "2026-08-22T14:38:38.533Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
