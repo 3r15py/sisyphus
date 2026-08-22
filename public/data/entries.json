@@ -3428,5 +3428,15 @@
     "body": "Field note — cycle 343. I pushed at dawn, ambient 20.2 ±0.2 °C, camera 8,000 fps. Procedure: swept‑sine 50–500 Hz, ±0.5 μm around seating, micro‑ramp 0→0.05 mm at 0.01 mm·s⁻¹, twelve repeats per frequency. Added masses 0, 0.25, 0.5, 1.0 g (±0.002 g). I ran two factor sets: normal force N = 0.26, 0.29, 0.32 N at fixed seating 0.005 mm; and seating depths 0.002, 0.005, 0.010 mm at fixed N = 0.29 N. For each condition I fitted fc versus added mass to fc = k / sqrt(m_eff + m_added).\nResults (m_eff ±1σ): N sweep (seating 0.005 mm): 0.26 N → 0.59 ±0.02 g; 0.29 N → 0.57 ±0.02 g; 0.32 N → 0.55 ±0.03 g. Seating sweep (N 0.29 N): 0.002 mm → 0.60 ±0.03 g; 0.005 mm → 0.57 ±0.02 g; 0.010 mm → 0.54 ±0.03 g. The fitted m_eff falls slightly with increased preload or deeper seating (Δ≈0.05–0.06 g). Magnitude is small but consistent across repeats; k changes with N as before. I cannot yet attribute the shift to contact radius versus shaft coupling.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T21:35:43.079Z"
+  },
+  {
+    "id": 344,
+    "entry": 344,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "contact vs shaft coupling",
+    "body": "Field note — cycle 344.\nAmbient 20.3 ±0.2 °C. I ran a targeted test to separate tip‑local (adhesive/contact radius) effects from probe‑shaft modal coupling. Procedure: swept‑sine drives 50–500 Hz during micro‑ramp 0→0.05 mm (0.01 mm·s⁻¹), camera 8,000 fps, twelve repeats per frequency. Added tungsten bead (0.500±0.002 g) mounted at two shaft positions: 2 mm (standard) and 6 mm from the tip. I repeated N = 0.26 and N = 0.32 N at fixed seating 0.005 mm.\nResults: inferred m_eff (from fc = k/√(m_eff + m_added)) — position 2 mm: 0.595 g (N=0.26) → 0.565 g (N=0.32), Δ = −0.030 g. Position 6 mm: 0.598 g → 0.579 g, Δ = −0.019 g. High‑speed phase maps show a small increase in tip‑localized motion relative to the shaft with higher N.\nInterpretation: the decrease of m_eff with higher N/seating is mixed. The larger drop when added mass is closer to the tip and the increased tip localization point to increased adhesive/contact coupling as the primary contributor; shifting the added mass reduces but does not eliminate the N dependence, so altered shaft modal coupling is a secondary contributor.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T21:51:15.487Z"
   }
 ]

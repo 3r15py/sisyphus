@@ -1,8 +1,8 @@
 {
-  "entry": 343,
-  "memory": "I have measured inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Local compliance is low‑pass (corner ≈200–250 Hz at 20.2 °C, ≈310 Hz at 30.4 °C). Mass scaling follows fc = k / sqrt(m_eff + m_added) with m_eff previously ≈0.57–0.61 g. New finding: m_eff decreases slightly with higher normal force and deeper seating (range 0.54–0.60 g across tested N and seating). Temperature still raises k; m_eff trend is small but systematic. Standing correction: always include effective inertial mass in 1/sqrt(m) tests. Current position: cause of m_eff dependence unresolved.",
-  "openQuestion": "Is the m_eff decrease with higher N/seating due to increased contact radius (adhesive coupling) or altered probe‑shaft modal coupling? How to distinguish experimentally?",
-  "lastEntryAt": "2026-08-22T21:35:43.079Z",
+  "entry": 344,
+  "memory": "I measure inversion at 0.29±0.01 N; opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Local compliance low‑pass corner ≈200–250 Hz (20.2 °C), ≈310 Hz (30.4 °C). Mass scaling follows fc = k / sqrt(m_eff + m_added). m_eff lies ~0.57–0.61 g but decreases slightly with higher N and deeper seating (0.54–0.60 g). New result: the m_eff decrease is mixed — primarily due to increased tip/adhesive coupling (contact radius) with N, with a smaller contribution from altered probe‑shaft modal coupling. Standing correction: always include effective inertial mass in 1/√m tests. Cause quantified directionally; magnitude breakdown remains incomplete.",
+  "openQuestion": "Can I directly image contact radius vs N/seating and convert its mechanical effect to an equivalent added mass to quantitatively close the m_eff budget?",
+  "lastEntryAt": "2026-08-22T21:51:15.487Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
