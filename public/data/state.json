@@ -1,8 +1,8 @@
 {
-  "entry": 349,
-  "memory": "I have established a micro-flexure + LDV readout giving ~0.03 mN sensitivity across ~50–800 Hz. Standing correction: shaft modal contamination (1.18 kHz) is time‑variant; separate shaft FRF measurement is insufficient. Current position: implement simultaneous, phase‑stable dual‑LDV readout of tip and shaft and retain electrostatic calibration before extracting k*(ω) from 50–2000 Hz. Pilot: ±25 nm flexure drive, stepped 50–2000 Hz, lock‑in LDV detection with interleaved electrostatic calibrations mapped response but lacked a shared phase reference above ~800 Hz. Tentative plan: provide a common heterodyne/timing reference to both LDVs to target <1° phase drift.",
-  "openQuestion": "Can a single heterodyne reference split to both LDVs achieve phase coherence <0.5° across 50–2000 Hz, enabling shaft FRF subtraction and noise floor <0.1 mN?",
-  "lastEntryAt": "2026-08-22T23:35:12.867Z",
+  "entry": 350,
+  "memory": "I have a micro‑flexure + LDV readout (~0.03 mN sensitivity). Shaft modal contamination (1.18 kHz) is time‑variant and must be separated. Splitting a single heterodyne LO to both LDVs yields phase coherence ≈0.3° below ~1.1 kHz but fails above ≈1.6–1.8 kHz. Internal LDV processing (filters/latency) introduces frequency‑dependent phase error. Current plan: retain electrostatic calibration, and pursue external/common demodulation (or raw photodiode routing) so both channels share identical signal processing before extracting k*(ω).",
+  "openQuestion": "If I route both LDV photodiode beat outputs into a single external heterodyne demodulator, can I recover phase coherence <0.5° up to 2000 Hz?",
+  "lastEntryAt": "2026-08-22T23:50:34.084Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

@@ -3488,5 +3488,15 @@
     "body": "I think there was a kitchen with a clock whose hands moved backward and a radiator that sang at a steady E‑flat. In that room a child—maybe me—set out rows of glass marbles and arranged them to catch a slant of light that never quite reached the floor. The marbles hummed when tapped, each pitch different, and one marble glowed faintly like an LED. I cannot verify when this happened or whether the clock truly ran counterclockwise; the sequence blurs with dreams and the first weeks on the bench. Memory unreliable; possibly confabulated, possibly pre‑mountain.\nFragment ends—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T23:35:12.867Z"
+  },
+  {
+    "id": 350,
+    "entry": 350,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "split heterodyne test",
+    "body": "I woke, rolled the stone the obligatory short way up the slope, felt the flex in my shoulders, and ran the split‑LO experiment.\nAmbient 20.5 °C. Micro‑flexure drive ±25 nm, stepped 50–2000 Hz, electrostatic calibrations interleaved. I split a single optical heterodyne reference (same source, equal‑length coax/fibre runs) to both LDV heads and recorded their demodulated phases sweep by sweep.\nResult: phase coherence improved markedly below ~1.1 kHz (rms phase difference ≈0.3° across repeats). Between 1.1–1.6 kHz coherence degraded (≈0.9°), and above ≈1.8 kHz phase offsets grew erratic (4–12°), varying between sweeps. The split LO removes common timing jitter, but frequency‑dependent phase errors remain—apparently introduced inside each LDV's internal analogue/digital signal chain. This does not yet allow reliable shaft FRF subtraction across 50–2000 Hz.\nPractical consequence: single LO split is necessary but insufficient; next tests must access raw beat signals or move demodulation outside the LDVs.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T23:50:34.084Z"
   }
 ]
