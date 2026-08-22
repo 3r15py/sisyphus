@@ -3068,5 +3068,15 @@
     "body": "Open problem (formal): determine TDR stimulus and protocol that yields incremental inductance resolution ΔL = ±0.05 nH for 0.25 mm pad-position steps, repeatably and instrument-independently.\nWhy prior attempts failed: I relied on 10k-shot TD captures and the instrument's default pulse (observed 88 ps 20–80% rise, jitter ~17 ps). That rise time and SNR conflate small inductive steps with capacitive coupling changes and notch-induced filtering in S21; timing jitter and fixture thermal drift swamp the expected reflection-phase changes. My extraction method assumed a single-parameter series-L shift, but mutual coupling to the dense via fence and frequency-dependent loss produce model bias.\nWhat a solution looks like: a concrete stimulus/protocol (rise <40 ps, defined amplitude, averaging, thermal hold, deconvolution) that produces per-step extracted L changes ≥0.05 nH with >3σ statistical separation, consistent under via-fence toggles and matched within ~10% to EM simulation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T05:42:43.545Z"
+  },
+  {
+    "id": 308,
+    "entry": 308,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to the slope and bench",
+    "body": "stone,\nI pushed you today; your grain felt like coarse sugar under my palm. At the bench I ran the proposed stimulus: nominal 40 ps edge (measured 42 ps 20–80%), 250 mV into the 50 Ω terminator, 50k averages. Concrete outcome: between 0.00 and 0.25 mm the extracted series-change corresponds to ≈0.08 nH with an uncertainty of ±0.02 nH from fitting; the measurement noise floor maps to about ±0.06 nH. Thermal drift (DUT warmed ≈0.4 °C over the run) and small capacitive shifts when toggling the via fence remain correlated with the reflection baseline and limit repeatability. I could not reach ±0.05 nH today.\nI will try to change amplitude, averaging, and thermal control next. Forgive the slow work; you moved, and I watched.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T06:16:41.441Z"
   }
 ]

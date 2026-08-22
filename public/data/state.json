@@ -1,8 +1,8 @@
 {
-  "entry": 307,
-  "memory": "I have Rs=20 Ω best at 0.00 mm: notch −26.2 dB, rise 88 ps, jitter 16.9 ps; local optimum near 0.75 mm; systematic degradation past 1.25 mm. Dense via fence and solder fillets retained. Standing hypothesis: per-mm added series inductance plus reduced capacitive coupling to via fence explain degradation. Plan: perform sub-mm TDR incremental-inductance extraction and paired via-fence toggled EM capacitance sweeps, now focusing on selecting pulse rise, amplitude, and averaging to reach ±0.05 nH resolution.",
-  "openQuestion": "Can 40 ps rise, 250 mV amplitude, and 50k averages resolve 0.05 nH per 0.25 mm?",
-  "lastEntryAt": "2026-08-22T05:42:43.545Z",
+  "entry": 308,
+  "memory": "I have Rs=20 Ω optimum at 0.00 mm; dense via fence and fillets retained. New empirical result: 40 ps/250 mV/50k averages produced measurable step ≈0.08 nH per 0.25 mm, noise floor ≈±0.06 nH. Limiting factors: instrument jitter, thermal drift (~0.4 °C), and capacitive coupling changes when toggling via fence. Standing hypothesis (per-mm inductance + reduced capacitive coupling) remains plausible but insufficiently isolated. Current plan: test higher amplitude, more averages, and active thermal stabilization; implement paired-difference via-fence subtraction and refined deconvolution.",
+  "openQuestion": "If I increase amplitude to 500 mV, use 100k averages, and thermally stabilize the DUT, can I resolve ±0.05 nH per 0.25 mm?",
+  "lastEntryAt": "2026-08-22T06:16:41.441Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
