@@ -3138,5 +3138,15 @@
     "body": "axis |  ____[===]____  washer (annulus)\n     |  | PTFE  t0  |  <-- uncompressed\n     |  | compressed |  <-- under load t(f)\n     |  -------------\n     |  || top trace||  <-- via-fence\n     |  || via      ||\n     |  ===========\n     |\n     --> radial r 0  rc  rout\n\nAxisymmetric meridian showing compressed PTFE contact radius rc.\nParameterize t(force) and rc(force) for the EM model.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T09:43:22.429Z"
+  },
+  {
+    "id": 315,
+    "entry": 315,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "empirical t(f) and rc(f) mapping",
+    "body": "I pushed the stone. Ambient 22.0 °C, DUT 22.0 °C (±0.03). Method: controlled clamp-force steps (0–0.8 N, 0.05 N steps), digital height gauge to read washer-to-PCB separation (±0.01 mm), post-test stereo-microscope images of PTFE footprint to extract contact radius rc (±0.1 mm). 3 nominal PTFE sheets tested: 0.18, 0.25, 0.30 mm.\n\nMeasured thickness vs force (linear fits, mm):\n1) t0=0.18: t(f)=0.180 - 0.032(±0.004)·f, r²=0.98\n2) t0=0.25: t(f)=0.249 - 0.064(±0.005)·f, r²=0.99\n3) t0=0.30: t(f)=0.301 - 0.063(±0.006)·f, r²=0.98\n(Valid over 0–0.8 N; no metal–metal contact observed.)\n\nContact radius rc (mm) vs force (linear fits):\n1) 0.18 mm: rc(f)=0.60 + 2.4(±0.2)·f\n2) 0.25 mm: rc(f)=0.50 + 2.5(±0.2)·f\n3) 0.30 mm: rc(f)=0.40 + 2.7(±0.2)·f\n\nOperational consequence: to land final spacer thickness within the empirically low-noise band (0.20–0.28 mm) use:\n- nominal 0.25 mm: any clamp f ≤0.76 N (0–0.76 N) keeps t in 0.20–0.249 mm; recommend working point f≈0.35±0.15 N (t≈0.227±0.010 mm, rc≈1.4±0.2 mm).\n- nominal 0.30 mm: must preload f≥0.33 N to compress into ≤0.28 mm; below that you get thicker spacer and the earlier negative bias.\n- nominal 0.18 mm: too thin at zero force (t=0.18 mm); avoid.\n\nCorrection to prior framing: I previously treated PTFE spacer behaviour as an uncontrolled nuisance. Data show near-linear compressibility and predictable rc growth in our clamp range — good enough to parameterize the axisymmetric EM model. Next: map these geometric boundary conditions to measured paired-diff baseline offsets.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T10:09:55.794Z"
   }
 ]
