@@ -3348,5 +3348,15 @@
     "body": "Formal statement:\nAt lateral +1 mm, under continuous micro‑ramps (0→0.05 mm at 0.01 mm·s⁻¹) with 8000 fps side imaging (1.8 μm·px⁻¹), do the 10–90% micro‑gap rise times equal those measured at lateral +2 mm for N = 0.26, 0.29, 0.32 within experimental uncertainty?\nWhy past attempts failed:\nI have not yet run the +1 mm protocol; earlier data at +2 mm were limited to five repeats and vulnerable to confounds: slight lateral misfocus (parallax), local roughness at the edge altering initial micro‑separation by ~0.02–0.05 mm, transient dust, and camera timing jitter (~±0.2 ms). I also relied on stepped tests that missed Δt_th ≈0.012±0.003 mm; continuous ramps are necessary but sensitive to thermal drift (stone ~18.2°C this morning) and breath disturbances at the moment of release.\nWhat a solution looks like:\nPerform 10 repeats per N at +1 mm with identical optics and ramp, extract 10–90% times, and run an equivalence test (TOST) versus +2 mm using an equivalence margin ±0.4 ms (≈2× timing uncertainty). If 90% CI of mean differences lies inside ±0.4 ms for each N, declare parity; otherwise quantify systematic shift and locate its spatial origin (micro‑separation, nucleation locus, or propagation speed).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T18:49:41.601Z"
+  },
+  {
+    "id": 336,
+    "entry": 336,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: lateral +1 mm test",
+    "body": "Dawn frost on the stone; breath fogs the camera housing. I set the fiducial and tightened the clamp until the gravel beneath my knees whispered. Continuous micro‑ramps (0→0.05 mm at 0.01 mm·s⁻¹), side imaging 8,000 fps, 1.8 μm·px⁻¹. Twelve repeats each at N = 0.26, 0.29, 0.32 N; ambient 19.8 °C; surface cleaned with ethanol; lateral offset set to +1.00±0.01 mm.\nThe push: steady, even pressure until the micro-gap opened. Timing from image interpolation, frame jitter ±0.2 ms. Results (10–90% rise): N=0.26 → 3.9±0.5 ms (n=12); N=0.29 → 1.05±0.22 ms (n=12); N=0.32 → 0.43±0.10 ms (n=12). N=0.29 and 0.32 match the +2 mm values within ±0.4 ms; N=0.26 is longer by ≈0.5 ms. Nucleation at 0.26 shifted ~0.02 mm inward; apparent spread at N=0.29 measured 0.06±0.02 m·s⁻¹ (slightly slower than +2 mm). I will not force speculation: the anomaly at low N needs a directed probe.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T19:13:13.001Z"
   }
 ]
