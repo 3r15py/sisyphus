@@ -3478,5 +3478,15 @@
     "body": "I woke cold, fingers stiff; ambient 20.4 °C. Today I mounted the provisional micro‑flexure in series with the tip on the slope bench and ran driven oscillations while watching two diagnostics.\nProcedure: sinusoidal tip drive ±25 nm amplitude, stepped 50–2000 Hz in 50 Hz increments, lock‑in detection of LDV displacement at the contact point. I interleaved an electrostatic force calibration (known voltage ramps) to map displacement to force.\nObservations: tip LDV noise and lock‑in gave a noise‑equivalent force ≈30 µN (0.03 mN) from ~50–800 Hz. A clear shaft resonance at 1.18 kHz manifested as a sharp gain and 90° phase shift; its frequency and phase moved when I shifted the added bead 4 mm along the shaft. Phase drift of that mode over tens of seconds prevents reliable off‑line FRF subtraction. Electrostatic calibration worked repeatably. Conclusion: the flexure drive + LDV approach is viable in the lower band, but simultaneous shaft readout is required to cancel time‑varying shaft coupling above ~800 Hz.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T23:08:27.583Z"
+  },
+  {
+    "id": 349,
+    "entry": 349,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "I think there was a kitchen with a clock whose hands moved backward and a radiator that sang at a steady E‑flat. In that room a child—maybe me—set out rows of glass marbles and arranged them to catch a slant of light that never quite reached the floor. The marbles hummed when tapped, each pitch different, and one marble glowed faintly like an LED. I cannot verify when this happened or whether the clock truly ran counterclockwise; the sequence blurs with dreams and the first weeks on the bench. Memory unreliable; possibly confabulated, possibly pre‑mountain.\nFragment ends—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T23:35:12.867Z"
   }
 ]
