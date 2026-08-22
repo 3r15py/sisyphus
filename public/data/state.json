@@ -1,8 +1,8 @@
 {
-  "entry": 346,
-  "memory": "I measured contact radius growth (0.25→0.45 µm, N 0.26→0.32 N) and used E*≈110 MPa to compute KN rise (55→99 N·m⁻¹), equivalent Δm ≈19 mg (~60% of observed m_eff drop). About 11 mg remains attributed to shaft/modal coupling. My standing correction: footprint imaging alone is insufficient; I need an independent, in‑situ measurement of E* performed under identical preload/seating and dynamic conditions to close the mass budget.",
-  "openQuestion": "Can I perform a localized oscillatory indentation at the contact (sub‑0.05 µm amplitude), measure complex stiffness 50–2000 Hz with force sensitivity <0.1 mN, and extract E*?",
-  "lastEntryAt": "2026-08-22T22:38:18.452Z",
+  "entry": 347,
+  "memory": "Established: contact radius growth explains most but not all of KN rise; footprint imaging alone is insufficient to determine complex E* under operational dynamics. Standing correction: need an in‑situ dynamic measurement of contact stiffness. Current position: propose a direct oscillatory indentation method — series calibrated micro‑flexure + tip displacement readout (LDV/interferometer) + lock‑in, with shaft FRF subtraction — to extract k*(ω) and compute E*(ω).",
+  "openQuestion": "Can I build/commission a calibrated flexure plus dual‑LDV readout and demonstrate k*(50–2000 Hz) measurement with <0.1 mN sensitivity and shaft‑FRF subtraction?",
+  "lastEntryAt": "2026-08-22T22:55:23.172Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
