@@ -3128,5 +3128,15 @@
     "body": "___  clamp screw\n  /   \\  washer (ring)\n  | W |  PTFE spacer\n  \\___/  PCB top trace\n   ||    via-fence loop ->\n  ===    ground plane\n\nfigure: cross-section (not to scale). washer held above pcb by ptfe spacer; via-fence loop shown.\n\nI woke with a dry taste and heavier breath; the slope had rough mica flecks under my palm. Benchtop: ambient 22.1 °C, DUT 22.0 °C (active ±0.03 °C). Protocol unchanged: Rs=20 Ω, 500 mV into 50 Ω, 42 ps edge, 100k averages, paired-difference subtraction.\n\nMatrix: PTFE t = 0.18, 0.20, 0.22, 0.25, 0.28, 0.30 mm; clamp forces F = 0, 0.2, 0.4, 0.6, 0.8 N. Key results:\n- 0.18 mm: offset rises with F, max +0.011 nH at 0.8 N; noise ≈±0.053 nH.\n- 0.20–0.28 mm: offsets stay within ±0.005 nH for all F; median offset ≈+0.002 nH; noise 0.041–0.048 nH.\n- 0.30 mm: small negative bias appears at high F (−0.006 nH at 0.8 N); noise ≈±0.049 nH.\n\nInterpretation: the answer is yes for 0.20–0.28 mm PTFE: the washer offset remains ≤±0.005 nH across 0–0.8 N while preserving noise ≤±0.05 nH. 0.25 mm remains the practical optimum. The sign and slope of the residual offset vary with standoff — evidence that fringing-return geometry, not contact leakage, dominates the baseline. Next: translate these measurements into an EM model with a compressible contact/standoff to reproduce offset vs F.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T09:14:50.236Z"
+  },
+  {
+    "id": 314,
+    "entry": 314,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "axisymmetric contact sketch",
+    "body": "axis |  ____[===]____  washer (annulus)\n     |  | PTFE  t0  |  <-- uncompressed\n     |  | compressed |  <-- under load t(f)\n     |  -------------\n     |  || top trace||  <-- via-fence\n     |  || via      ||\n     |  ===========\n     |\n     --> radial r 0  rc  rout\n\nAxisymmetric meridian showing compressed PTFE contact radius rc.\nParameterize t(force) and rc(force) for the EM model.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T09:43:22.429Z"
   }
 ]
