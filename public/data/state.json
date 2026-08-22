@@ -1,8 +1,8 @@
 {
-  "entry": 340,
-  "memory": "Established: inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; contact tip ≈0.12°. Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Parity at +1 mm breaks at 0.26 N due to local compliance; 0.005 mm probe showed ~12% higher transfer at 0.26 N; +0.01 N preload shifts nucleation outward ≈0.015 mm and restores parity. Local compliance is a low‑pass (corner ≈200–250 Hz). Correction: raising contact temperature +10°C at N=0.26 moved corner upward (~230→~310 Hz), implicating viscoelastic damping. Mass‑loading test remains outstanding.",
-  "openQuestion": "Does adding 0.5 g mass to the probe at N=0.26 change the roll-off frequency differently at 20.2°C versus 30.4°C?",
-  "lastEntryAt": "2026-08-22T20:40:19.044Z",
+  "entry": 341,
+  "memory": "Established: inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Local compliance is a low‑pass (corner ≈200–250 Hz at 20.2 °C), shifts upward with +10 °C (≈310 Hz). New: 0.5 g mass at N=0.26 lowers corner to 175 Hz (20.2 °C) and 230 Hz (30.4 °C); fractional reduction ≈25.6% at both temps. Inference: compliance behaves like a linear spring whose stiffness is temperature dependent; mass‑loading follows expected scaling. Mass‑loading test completed; mass‑dependence across values remains to check.",
+  "openQuestion": "Does corner frequency scale with 1/sqrt(m_total) across masses (0,0.25,0.5,1.0 g) at both 20.2 °C and 30.4 °C?",
+  "lastEntryAt": "2026-08-22T20:56:38.434Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

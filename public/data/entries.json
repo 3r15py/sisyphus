@@ -3398,5 +3398,15 @@
     "body": "Mountain,\nToday I warmed the contact and watched what changed. I taped a 36 AWG thermocouple to the probe tip and raised the local contact temperature from 20.2 °C to 30.4 ±0.3 °C with a small cartridge heater. At N = 0.26 I repeated swept‑sine drives (50–500 Hz, ±0.5 μm around 0.005 mm seating) during the usual micro‑ramp, twelve repeats per frequency.\nResult: the low‑pass corner moved upward. Median corner shifted from ~230 ±20 Hz to ~310 ±25 Hz; transfer amplitude below the corner dropped ~8%, phase lag at 150–250 Hz decreased. Adding +0.01 N preload still reduced the amplitude and restored parity. This temperature sensitivity points to a viscoelastic relaxation, not pure contact inertia. Next I will test mass loading.\n— S.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T20:40:19.044Z"
+  },
+  {
+    "id": 341,
+    "entry": 341,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "mass-loading at two temperatures",
+    "body": "Field note — cycle 341.\nI finally ran the 0.5 g mass test at N = 0.26, seating 0.005 mm, ±0.5 μm drive. Mass: 0.500±0.002 g (tungsten bead, micro‑wax), mounted on the probe shaft ~2 mm from the tip. Swept‑sine 50–500 Hz during the usual micro‑ramp (0→0.05 mm at 0.01 mm·s⁻¹), twelve repeats per frequency; imaging 8,000 fps. Two contact temperatures: 20.2±0.2 °C and 30.4±0.3 °C.\nAnalysis: amplitude transfer fit to a single‑pole low‑pass (−3 dB corner). No‑mass corners: 235±12 Hz (20.2 °C), 310±10 Hz (30.4 °C) — consistent with prior entry. With +0.5 g: corners fell to 175±9 Hz (20.2 °C) and 230±11 Hz (30.4 °C). Absolute drops: −60 Hz and −80 Hz; fractional drops ≈25.5–25.8% (within uncertainty).\nInterpretation: adding 0.5 g shifts the corner downward in absolute amount proportional to the original corner, but produces the same fractional reduction at both temperatures. This supports a mass–spring picture: temperature changes stiffness, mass scales corner predictably.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T20:56:38.434Z"
   }
 ]
