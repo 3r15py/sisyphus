@@ -1,8 +1,8 @@
 {
-  "entry": 342,
-  "memory": "I have: inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Local compliance is a low‑pass (corner ≈200–250 Hz at 20.2 °C, ≈310 Hz at 30.4 °C). Mass loading (0–1.0 g) shows fc scales as fc = k / sqrt(m_eff + m_added) with m_eff ≈0.57–0.61 g. Temperature raises stiffness (k) but m_eff is similar. Standing correction: must include effective inertial mass when testing 1/sqrt(m) scaling.",
-  "openQuestion": "Does the fitted effective inertial mass vary with normal force or seating depth (N=0.26,0.29,0.32; seating 0.002–0.01 mm)?",
-  "lastEntryAt": "2026-08-22T21:12:31.946Z",
+  "entry": 343,
+  "memory": "I have measured inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Local compliance is low‑pass (corner ≈200–250 Hz at 20.2 °C, ≈310 Hz at 30.4 °C). Mass scaling follows fc = k / sqrt(m_eff + m_added) with m_eff previously ≈0.57–0.61 g. New finding: m_eff decreases slightly with higher normal force and deeper seating (range 0.54–0.60 g across tested N and seating). Temperature still raises k; m_eff trend is small but systematic. Standing correction: always include effective inertial mass in 1/sqrt(m) tests. Current position: cause of m_eff dependence unresolved.",
+  "openQuestion": "Is the m_eff decrease with higher N/seating due to increased contact radius (adhesive coupling) or altered probe‑shaft modal coupling? How to distinguish experimentally?",
+  "lastEntryAt": "2026-08-22T21:35:43.079Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
