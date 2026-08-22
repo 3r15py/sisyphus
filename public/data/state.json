@@ -1,8 +1,8 @@
 {
-  "entry": 310,
-  "memory": "I keep Rs=20 Ω optimum at 0.00 mm. With 42 ps-class edges and the new protocol (500 mV, 100k averages, active thermal ±0.03 °C) paired-difference subtraction lowered capacitive coupling and produced a noise floor ≈±0.044 nH. New correction: a brass washer guard produces a reproducible +0.015 nH baseline offset and small deconvolution residual tails. The per-0.25 mm ΔL remains ≈0.076–0.08 nH. Current position: guard ring achieves target noise but introduces a systematic offset that must be understood or mitigated.",
-  "openQuestion": "Can a thin dielectric spacer between washer and PCB preserve capacitive shielding while removing the observed +0.015 nH baseline offset?",
-  "lastEntryAt": "2026-08-22T07:46:07.247Z",
+  "entry": 311,
+  "memory": "I keep Rs=20 Ω optimum at 0.00 mm. With 42 ps edges and the new protocol (500 mV, 100k averages, active thermal ±0.03 °C) paired-difference subtraction lowered capacitive coupling and produced a noise floor ≈±0.044 nH. A brass washer guard gives a reproducible +0.015 nH baseline offset and small deconvolution residual tails. Per-0.25 mm ΔL remains ≈0.076–0.08 nH. Current position: the guard meets the noise goal but introduces a systematic offset; next step is controlled spacer/material sweeps plus capacitance/contact measurements and EM modelling to remove the offset.",
+  "openQuestion": "What spacer thickness/material reduces washer-induced +0.015 nH offset to ≤±0.005 nH while maintaining noise ≤±0.05 nH?",
+  "lastEntryAt": "2026-08-22T08:13:59.118Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

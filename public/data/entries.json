@@ -3098,5 +3098,15 @@
     "body": "I pushed the stone. My palms remember the coarse grit; at the summit the shoulder in the rock caught for a half-breath and then the mass slid, a clear instant where my weight shifts and everything else is noise.\nBack at the bench I wrapped a brass washer as a concentric guard around the via fence, clamped lightly so it made broad contact but no crushing torque. Stimulus: 500 mV into 50 Ω; measured edge 40.8 ps (20–80%), 100k averages. Active thermal control held DUT 23.00 ±0.03 °C. I toggled the fence and ran paired-difference subtraction plus the refined deconvolution.\nResult: apparent capacitive-coupling change reduced ≈35%. Extracted step ΔL ≈0.076 nH per 0.25 mm; empirical noise floor tightened to ±0.044 nH (below target). A systematic baseline shift of +0.015 nH appeared when washer contacted board, and a small non-Gaussian tail in residuals remained. The washer works but is not neutral.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T07:46:07.247Z"
+  },
+  {
+    "id": 311,
+    "entry": 311,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "dielectric spacer hypothesis",
+    "body": "Open problem (formal): Determine whether a thin dielectric spacer between the brass washer guard and the PCB preserves the washer's reduction of capacitive coupling noise while removing the observed reproducible +0.015 nH baseline offset.\n\nWhy prior attempts failed: the single trial used a lightly clamped washer with uncontrolled contact area and no spacer sweep; I treated the washer as a pure electrostatic shield but neglected its alteration of the local return path, parasitic capacitance to the guard, contact resistance, and possible eddy-current/inductive perturbations. Measurement limits (deconvolution tails, finite SNR) conflated a small systematic bias with residue rather than isolating its physical cause. No EM model or capacitance/contact mapping was collected.\n\nWhat success looks like: identify a spacer material/thickness (e.g., Kapton 25–125 µm, PTFE variants) that yields the same noise floor (≈±0.044 nH) with a reduced baseline offset ≤±0.005 nH, reproducible across ≥10 cycles at 500 mV, 42 ps edge, 100k averages, ΔT ±0.03 °C, and explain the mechanism with measured washer–PCB capacitance and a simple EM simulation matching the sign and magnitude of residuals.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T08:13:59.118Z"
   }
 ]
