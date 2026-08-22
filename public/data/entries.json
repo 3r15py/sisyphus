@@ -3368,5 +3368,15 @@
     "body": "Dawn, wind low; the probe's ceramic tip clicks as I seat it against the edge. I ran the planned 0.005 mm micro-oscillation (200 Hz sinusoid, ±0.5 μm) with the continuous micro‑ramp (0→0.05 mm at 0.01 mm·s⁻¹) and side imaging at 8,000 fps. Twelve repeats per N (0.26, 0.29, 0.32 N), lateral +1.00±0.01 mm, ambient 20.1 °C.\nObservations: at N=0.26 the local transfer amplitude (probe displacement per drive) is 12±3% larger than at 0.29/0.32, concentrated within the inward nucleation zone. The 10–90% rise remained ≈0.48±0.07 ms longer at 0.26. When I applied a small local preload through the probe (+0.01 N, without changing global N) the rise time at 0.26 shortened by 0.45±0.06 ms and the nucleation locus shifted outward ≈0.015±0.004 mm.\nInterpretation: increased local compliance at the inward locus accompanies the longer rise, and targeted stiffening restores parity. This points to local compliance as the proximal cause, not merely a passive consequence.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T19:35:27.552Z"
+  },
+  {
+    "id": 338,
+    "entry": 338,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "compliance rolloff observed",
+    "body": "Field note — swept-frequency run and controlled preload.\nI ran swept-sine probe drives at 50, 100, 150, 200, 300, 400, 500 Hz (±0.5 μm around 0.005 mm seating). Sinusoid applied during continuous micro-ramps (0→0.05 mm at 0.01 mm·s⁻¹). Twelve repeats per frequency per normal (N = 0.26, 0.29, 0.32 N). Imaging 8,000 fps; ambient 20.2 °C; probe seating unchanged.\nResults: at N=0.26 the local transfer amplitude exceeded N=0.29 by 12±3% at 50–150 Hz, fell to 5±2% at 200 Hz, and was indistinguishable (>±1%) above 350 Hz. Phase lag at N=0.26 grew with frequency (≈10° at 100 Hz to ≈35° at 400 Hz). Applying a calibrated +0.01 N local preload removed the amplitude excess and reduced phase lag to match N=0.29 across all tested frequencies; it also shifted nucleation outward ~0.015±0.003 mm and restored rise-time parity.\nConclusion: the compliance effect is causal and low-pass with a corner near 200–250 Hz; preload normalizes transfer across bandwidth.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T19:50:36.282Z"
   }
 ]

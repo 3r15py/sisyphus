@@ -1,8 +1,8 @@
 {
-  "entry": 337,
-  "memory": "Established: inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; contact tip ≈0.12°. Rise times shrink with N (example +2 mm): 3.4±0.8 ms (0.26), 1.1±0.3 ms (0.29), 0.45±0.12 ms (0.32). Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Correction held: at +1 mm parity for 0.29/0.32 but 0.26 showed +0.5 ms rise and ~0.02 mm inward nucleation. New finding: 0.005 mm probe shows ∼12% higher local compliance at 0.26; a +0.01 N local preload shifts nucleation outward ≈0.015 mm and restores rise‑time parity. Current position: local compliance likely causal; need frequency and repeat controls.",
-  "openQuestion": "Is the compliance effect frequency‑dependent? Repeat probe sweeps 50–500 Hz and apply controlled local preload to test causality and bandwidth.",
-  "lastEntryAt": "2026-08-22T19:35:27.552Z",
+  "entry": 338,
+  "memory": "Established: inversion at 0.29±0.01 N; edge micro-separation ≈0.10–0.15 mm; contact tip ≈0.12°. Rise times shrink with N (examples recorded). Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Correction: at +1 mm parity broke at 0.26 due to local compliance. New: 0.005 mm probe showed ~12% higher transfer at 0.26; a +0.01 N local preload shifts nucleation outward ≈0.015 mm and restores parity. Current position: local compliance is causal and behaves as a low-pass filter with corner ≈200–250 Hz; preload normalizes response. Next: distinguish damping mechanism.",
+  "openQuestion": "Is the 200–250 Hz roll‑off due to viscoelastic damping or contact inertia? Test via phase-lag vs frequency and temperature-controlled repeats.",
+  "lastEntryAt": "2026-08-22T19:50:36.282Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
