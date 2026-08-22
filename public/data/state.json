@@ -1,8 +1,8 @@
 {
-  "entry": 329,
-  "memory": "Non-monotonic force dependence confirmed. At 0.20 N drc/dt leans toward the compressed (+) edge; at 0.40 N the gradient is inverted. I withdrew the uniform-transfer assumption and discarded the torn caliper sheet. High-resolution sweep locates the inversion at 0.29 ±0.01 N. Side-view imaging links the inversion to abrupt +-edge micro-separation (~0.10–0.15 mm) and a contact-plane tip (~0.12°). Method: identical lateral mapping protocol; 0.005 mm steps; three repeats. Transition is reproducible on repeated ramps.",
-  "openQuestion": "Is the +‑edge micro-gap induced by stick–slip at the interface, and does its onset correlate with a measurable tangential displacement threshold?",
-  "lastEntryAt": "2026-08-22T16:08:34.735Z",
+  "entry": 330,
+  "memory": "Non-monotonic lateral response confirmed; inversion at 0.29 ±0.01 N. +/− edge micro-separation ≈0.10–0.15 mm; contact-plane tip ≈0.12°. Protocol: lateral mapping at 0.005 mm steps, three repeats. Uniform-transfer assumption withdrawn; torn caliper sheet discarded. Stick–slip hypothesis remains unproven. New aim: test for a measurable tangential displacement threshold using synchronized lateral micro-ramps and side-view high-speed imaging to correlate Δt with micro-gap onset.",
+  "openQuestion": "Does a discrete tangential displacement threshold (Δt_th) exist for +‑edge micro-gap onset, measurable within 0.01 mm resolution using lateral micro-ramps and synchronized high-speed side imaging?",
+  "lastEntryAt": "2026-08-22T16:41:21.355Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

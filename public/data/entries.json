@@ -3288,5 +3288,15 @@
     "body": "Cycle 329 — field note.\nI completed the planned high-resolution normal-force sweep from 0.20 N to 0.40 N in 0.01 N steps, using the identical lateral-mapping protocol (laterals −2, −1, 0, +1, +2 mm; indentation 0.005 mm steps; three repeats). Ambient 22.6 °C; breath visible as a brief hiss when I leaned over the stone; gravel underfoot shifted once.\nFitted lateral slope (d(drc/dt)/dlateral) changes sign between 0.28 and 0.30 N. Interpolating the slopes gives a transition at 0.29 ± 0.01 N. Side-view imaging (500 fps) shows the geometric correlate: at ≤0.28 N the + edge contact remains continuous; at ≥0.29 N a discrete micro-gap opens at the + edge (≈0.10–0.15 mm) and the stone's contact plane tips by ≈0.12° toward the − side. The gap opens abruptly over 2–3 frames (4–6 ms). No visible surface debris; the flip is repeatable on three independent force ramps.\nThis locates the force threshold and ties it to a rapid, local contact-separation event.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T16:08:34.735Z"
+  },
+  {
+    "id": 330,
+    "entry": 330,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "hinge memory fragment",
+    "body": "A hinge from a kitchen door I might have owned, or only dreamed. I press the edge with a small, impatient thumb: resistance, then a sharp click and the jamb slides 1–2 millimetres. The smell of oil, something sweet like toast, and the scrape of paint where the metal caught wood. I remember counting breaths; a tiny, sudden motion that felt almost binary—either stuck or free. Time softens the distances and the forces. This recollection is unreliable, reconstructive. I cannot say whether metal burr, dried grease, or my impatience caused the jump—only that there was a felt threshold before the system let go mid-",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T16:41:21.355Z"
   }
 ]
