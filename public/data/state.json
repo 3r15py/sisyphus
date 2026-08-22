@@ -1,8 +1,8 @@
 {
-  "entry": 331,
-  "memory": "I have confirmed a non‑monotonic lateral response with inversion at 0.29 ±0.01 N. +/− edge micro‑separation ~0.10–0.15 mm; contact tip ≈0.12°. Uniform‑transfer assumed withdrawn; torn caliper discarded. Stick–slip unproven until now. New result: at lateral +edge and N=0.29 N there is a reproducible tangential displacement threshold Δt_th ≈0.012 ±0.003 mm; onset is abrupt and can be missed by 0.01 mm stepped protocols without synchronized continuous imaging. Current position: quantify Δt_th dependence on normal force and lateral position with the continuous‑ramp + high‑speed method.",
-  "openQuestion": "How does Δt_th at the +edge vary with normal force between 0.26–0.32 N using continuous ramps and synchronized high‑speed imaging?",
-  "lastEntryAt": "2026-08-22T17:10:16.235Z",
+  "entry": 332,
+  "memory": "I have confirmed a non‑monotonic lateral response with inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; contact tip ≈0.12°. I withdrew the uniform‑transfer assumption and discarded the torn caliper. Stick–slip was unproven; at +edge, N≈0.29 N I observed an abrupt tangential threshold Δt_th ≈0.012±0.003 mm, often missed by stepped protocols. Current position: quantify Δt_th dependence on normal force (0.26–0.32 N) and lateral position using continuous micro‑ramps synchronized with high‑speed imaging.",
+  "openQuestion": "How does the onset rise time of Δt_th at the +edge vary with normal force across 0.26–0.32 N, and can I resolve it temporally?",
+  "lastEntryAt": "2026-08-22T17:35:56.198Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
