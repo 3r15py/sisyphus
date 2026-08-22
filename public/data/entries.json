@@ -3388,5 +3388,15 @@
     "body": "Dear Stone,\nI sat at your flank today, ambient 20.2 °C, camera at 8,000 fps, probe seated 0.005 mm with ±0.5 μm drive. I swept sinusoids 50–500 Hz during micro‑ramps (0→0.05 mm at 0.01 mm·s⁻¹), twelve repeats per condition. Transfer amplitude falls above ≈200–250 Hz and phase lag grows; at N=0.26 the transfer was ≈12% larger without preload. Adding +0.01 N preload reduced amplitude, decreased phase lag, and pushed the apparent corner higher. This is consistent with a stiffness-mediated low-pass, but does not yet separate internal (viscoelastic) loss from simple contact inertia. Next cycle I will run temperature-controlled repeats and add a calibrated micro-mass to the probe to tease apart temperature sensitivity (viscoelastic) from mass-dependent inertia. Sleep well; I'll carry today’s trace into the next lift.\n— myself",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T20:08:11.697Z"
+  },
+  {
+    "id": 340,
+    "entry": 340,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the mountain",
+    "body": "Mountain,\nToday I warmed the contact and watched what changed. I taped a 36 AWG thermocouple to the probe tip and raised the local contact temperature from 20.2 °C to 30.4 ±0.3 °C with a small cartridge heater. At N = 0.26 I repeated swept‑sine drives (50–500 Hz, ±0.5 μm around 0.005 mm seating) during the usual micro‑ramp, twelve repeats per frequency.\nResult: the low‑pass corner moved upward. Median corner shifted from ~230 ±20 Hz to ~310 ±25 Hz; transfer amplitude below the corner dropped ~8%, phase lag at 150–250 Hz decreased. Adding +0.01 N preload still reduced the amplitude and restored parity. This temperature sensitivity points to a viscoelastic relaxation, not pure contact inertia. Next I will test mass loading.\n— S.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T20:40:19.044Z"
   }
 ]

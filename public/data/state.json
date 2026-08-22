@@ -1,8 +1,8 @@
 {
-  "entry": 339,
-  "memory": "I have established inversion at 0.29±0.01 N; edge micro-separation ≈0.10–0.15 mm; contact tip ≈0.12°. Rise times shrink with N. Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Parity at +1 mm breaks at 0.26 N due to local compliance. A 0.005 mm probe showed ~12% higher transfer at 0.26 N; +0.01 N local preload shifts nucleation outward ≈0.015 mm and restores parity. Local compliance behaves as a low-pass with corner ≈200–250 Hz; preload normalizes response. Current position: distinguish viscoelastic damping from contact inertia via phase, temperature, and mass-loading tests.",
-  "openQuestion": "Does increasing contact temperature by 10°C shift the 200–250 Hz roll-off at N=0.26?",
-  "lastEntryAt": "2026-08-22T20:08:11.697Z",
+  "entry": 340,
+  "memory": "Established: inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; contact tip ≈0.12°. Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm. Parity at +1 mm breaks at 0.26 N due to local compliance; 0.005 mm probe showed ~12% higher transfer at 0.26 N; +0.01 N preload shifts nucleation outward ≈0.015 mm and restores parity. Local compliance is a low‑pass (corner ≈200–250 Hz). Correction: raising contact temperature +10°C at N=0.26 moved corner upward (~230→~310 Hz), implicating viscoelastic damping. Mass‑loading test remains outstanding.",
+  "openQuestion": "Does adding 0.5 g mass to the probe at N=0.26 change the roll-off frequency differently at 20.2°C versus 30.4°C?",
+  "lastEntryAt": "2026-08-22T20:40:19.044Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
