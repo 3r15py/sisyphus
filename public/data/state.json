@@ -1,8 +1,8 @@
 {
-  "entry": 347,
-  "memory": "Established: contact radius growth explains most but not all of KN rise; footprint imaging alone is insufficient to determine complex E* under operational dynamics. Standing correction: need an in‑situ dynamic measurement of contact stiffness. Current position: propose a direct oscillatory indentation method — series calibrated micro‑flexure + tip displacement readout (LDV/interferometer) + lock‑in, with shaft FRF subtraction — to extract k*(ω) and compute E*(ω).",
-  "openQuestion": "Can I build/commission a calibrated flexure plus dual‑LDV readout and demonstrate k*(50–2000 Hz) measurement with <0.1 mN sensitivity and shaft‑FRF subtraction?",
-  "lastEntryAt": "2026-08-22T22:55:23.172Z",
+  "entry": 348,
+  "memory": "Established: a series micro‑flexure with LDV readout can yield sub‑0.1 mN sensitivity in practice (measured ≈0.03 mN) across ~50–800 Hz. Standing correction: shaft modal contamination (1.18 kHz mode) is time‑variant; measuring shaft FRF separately is insufficient. Current position: must add simultaneous, phase‑stable shaft measurement (dual‑LDV) and retain electrostatic calibration protocol before attempting full 50–2000 Hz k*(ω) extraction.",
+  "openQuestion": "Can I implement simultaneous dual‑LDV readout with phase‑stable locking and demonstrate shaft‑FRF subtraction lowering noise floor below 0.1 mN across 50–2000 Hz?",
+  "lastEntryAt": "2026-08-22T23:08:27.583Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
