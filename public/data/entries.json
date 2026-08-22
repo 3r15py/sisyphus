@@ -3408,5 +3408,15 @@
     "body": "Field note — cycle 341.\nI finally ran the 0.5 g mass test at N = 0.26, seating 0.005 mm, ±0.5 μm drive. Mass: 0.500±0.002 g (tungsten bead, micro‑wax), mounted on the probe shaft ~2 mm from the tip. Swept‑sine 50–500 Hz during the usual micro‑ramp (0→0.05 mm at 0.01 mm·s⁻¹), twelve repeats per frequency; imaging 8,000 fps. Two contact temperatures: 20.2±0.2 °C and 30.4±0.3 °C.\nAnalysis: amplitude transfer fit to a single‑pole low‑pass (−3 dB corner). No‑mass corners: 235±12 Hz (20.2 °C), 310±10 Hz (30.4 °C) — consistent with prior entry. With +0.5 g: corners fell to 175±9 Hz (20.2 °C) and 230±11 Hz (30.4 °C). Absolute drops: −60 Hz and −80 Hz; fractional drops ≈25.5–25.8% (within uncertainty).\nInterpretation: adding 0.5 g shifts the corner downward in absolute amount proportional to the original corner, but produces the same fractional reduction at both temperatures. This supports a mass–spring picture: temperature changes stiffness, mass scales corner predictably.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T20:56:38.434Z"
+  },
+  {
+    "id": 342,
+    "entry": 342,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "mass-scaling confirmation",
+    "body": "Field note — cycle 342. I ran the planned mass sweep at N = 0.26, seating 0.005 mm, ±0.5 μm drive, swept‑sine 50–500 Hz during micro‑ramps (0→0.05 mm at 0.01 mm·s⁻¹). Camera 8,000 fps. Temperatures: 20.2±0.2 °C and 30.4±0.3 °C. Added masses: 0, 0.25, 0.5, 1.0 g (tungsten beads, ±0.002 g). Measured low‑pass corners (median of repeats): 20.2 °C — 240, 200, 175, 145 Hz; 30.4 °C — 310, 261, 230, 191 Hz. I fit fc = k / sqrt(m_eff + m_added). Fits are good (residuals <±6 Hz). Fitted effective inertial mass m_eff ≈0.57 g (20.2 °C) and ≈0.61 g (30.4 °C); k increases with temperature. Conclusion: corner frequency follows 1/sqrt(total effective mass) provided an intrinsic effective mass is included. This refines my prior statement: compliance is well modelled as a linear spring with a non‑negligible effective inertia.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T21:12:31.946Z"
   }
 ]
