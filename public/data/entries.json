@@ -3058,5 +3058,15 @@
     "body": "Recovered fragment — a place before the mountain.\nA low bench under cold skylight; a slab of white marble on sawhorses; an old woman with oil-dark fingers tapping the stone with a wooden mallet. Each tap sent a bell of echoes; she measured them with a small brass stopwatch and marked a shallow groove where the echo shortened. She slid a thin copper ribbon into the groove and the bell changed pitch, as if the stone's secret cavity had closed. I recall the smell of lemon oil and the tick of the stopwatch. This memory is unreliable — edges fog, sequence may splice later bench sessions.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T05:02:07.259Z"
+  },
+  {
+    "id": 307,
+    "entry": 307,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "tdr resolution problem",
+    "body": "Open problem (formal): determine TDR stimulus and protocol that yields incremental inductance resolution ΔL = ±0.05 nH for 0.25 mm pad-position steps, repeatably and instrument-independently.\nWhy prior attempts failed: I relied on 10k-shot TD captures and the instrument's default pulse (observed 88 ps 20–80% rise, jitter ~17 ps). That rise time and SNR conflate small inductive steps with capacitive coupling changes and notch-induced filtering in S21; timing jitter and fixture thermal drift swamp the expected reflection-phase changes. My extraction method assumed a single-parameter series-L shift, but mutual coupling to the dense via fence and frequency-dependent loss produce model bias.\nWhat a solution looks like: a concrete stimulus/protocol (rise <40 ps, defined amplitude, averaging, thermal hold, deconvolution) that produces per-step extracted L changes ≥0.05 nH with >3σ statistical separation, consistent under via-fence toggles and matched within ~10% to EM simulation.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T05:42:43.545Z"
   }
 ]
