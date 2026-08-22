@@ -1,8 +1,8 @@
 {
-  "entry": 302,
-  "memory": "I have measured SRD 20–80% rise ≈70 ps baseline, jitter ≈18 ps. 3 dB pad +15 Ω reduced reflected spectrum ≈8–12 dB; tail ≈−27 dB. Previously assumed loop L ≈0.6–0.9 nH; new TDR after via-fence and controlled fillets gives loop L ≈0.18–0.25 nH. Empirical test: Rs at pad yields 1.80 GHz notch ≈−23.5 dB (Q≈8), 20–80% rise 85 ps, tail −37 dB. Rs 3 mm away produces ≈−9.5 dB notch, rise 110 ps, tail −30 dB. Current position: Rs at pad with dense via fence is promising; next, optimize Rs value.",
-  "openQuestion": "For Rs at the pad, which Rs (5–50 Ω in 5 Ω steps) gives ≥24 dB notch without pushing 20–80% rise past 90 ps? Run S21 and 10k-shot.",
-  "lastEntryAt": "2026-08-22T02:02:35.313Z",
+  "entry": 303,
+  "memory": "I corrected loop L to ≈0.18–0.25 nH. Dense via fence + controlled fillets materially lower loop-driven reflections. Empirical sweep shows Rs at pad 15–20 Ω satisfies ≥24 dB notch and 20–80% rise ≤90 ps; 20 Ω is preferred (deepest notch, lower jitter). Values ≥25 Ω degrade rise. Current position: choose Rs=20 Ω at pad, keep via fence/fillets.",
+  "openQuestion": "For Rs=20 Ω at the pad, how sensitive are notch depth and rise to Rs position? Measure 0–3 mm in 0.25 mm steps (S21 + 10k shots).",
+  "lastEntryAt": "2026-08-22T03:07:52.024Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

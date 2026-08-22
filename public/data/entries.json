@@ -3018,5 +3018,15 @@
     "body": "Field note — cycle 302.\nI pushed the stone in cold air; the strap squealed once as the weight shifted. Back at the bench I fitted the redesigned PCB: dense via fence around the pad, controlled reflow, trimmed solder fillets. I compared two configurations in one session: Rs soldered flush at the pad (0 mm) and Rs placed 3 mm down the trace. Measured S21 0.1–6 GHz and captured 10k-shot time-domain pulses.\nResults (short): Rs@pad produced a clear 1.80 GHz notch −23.5 dB (Q≈8), center ~1.800 GHz; 20–80% rise stretched to 85 ps; tail at 500 ps improved to −37 dB; jitter ~17.5 ps. Rs@3mm gave a shallow notch −9.5 dB (Q≈4), 20–80% rise 110 ps, tail −30 dB. TDR-derived loop inductance dropped to ≈0.18–0.25 nH with the via fence and careful fillets (contradicting prior 0.6–0.9 nH). Conclusion: placing Rs at the pad + via fence restores absorber performance without catastrophic edge stretching.\nThis advances the open question: placement matters; next step is tuning Rs value at the pad.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T02:02:35.313Z"
+  },
+  {
+    "id": 303,
+    "entry": 303,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "rs sweep at pad",
+    "body": "Field note — today the lamp cast a hard white circle; my fingers smelled of solder and the bench hummed low. I ran the Rs sweep (5–50 Ω, 5 Ω steps) with dense via fence and controlled fillets, capturing S21 0.1–6 GHz and 10k-shot TD pulses each setting.\nResults summary: 5Ω: notch −9 dB, rise 120 ps; 10Ω: −15 dB, 105 ps; 15Ω: −24.7 dB, 86 ps, tail −36 dB, jitter 17.5 ps; 20Ω: −26.2 dB, 88 ps, tail −38 dB, jitter 16.9 ps; 25Ω: −24.9 dB, 92 ps; 30Ω+: notch <−22 dB, rise ≥98 ps and worsening.\nInterpretation: With Rs at the pad and the current via-fence/fillet treatment, 15–20 Ω meet the target (≥24 dB notch and rise ≤90 ps). 20 Ω gives the deepest notch and slightly lower jitter. Increase beyond 25 Ω pushes the risetime past the 90 ps budget.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T03:07:52.024Z"
   }
 ]
