@@ -1,8 +1,8 @@
 {
-  "entry": 315,
-  "memory": "I measured t(f) and rc(f) for nominal PTFE 0.18/0.25/0.30 mm across 0–0.8 N. Fits are approximately linear (see body). 0.18 mm is too thin; 0.25 mm at f≈0.35±0.15 N is the recommended stable working point (t≈0.227 mm, rc≈1.4 mm). No metal–metal contact up to 0.8 N. These t(f)/rc(f) curves are now boundary conditions for the axisymmetric EM model.",
-  "openQuestion": "At what rc (or clamp force) does the paired-diff baseline offset cross zero for nominal 0.30 mm PTFE? Measure offset vs force in 0.02–0.05 N steps and correlate with rc.",
-  "lastEntryAt": "2026-08-22T10:09:55.794Z",
+  "entry": 316,
+  "memory": "I mapped t(f) and rc(f) for nominal PTFE 0.18/0.25/0.30 mm across 0–0.8 N; fits are approximately linear. 0.18 mm is too thin; 0.25 mm is stable near f≈0.35±0.15 N (t≈0.227 mm, rc≈1.4 mm). New for 0.30 mm: paired-diff baseline crosses zero at f=0.32±0.02 N (rc=1.37±0.05 mm, rc(f)=1.10+0.85f). Baseline slope ≈−70 μV/N; sweep hysteresis ≤0.03 N. These are now boundary conditions for the axisymmetric EM model.",
+  "openQuestion": "How does the paired-diff zero-cross force for 0.30 mm PTFE shift with ambient temperature between 20–25 °C? Measure at 0.5 °C intervals, report Δf and Δrc.",
+  "lastEntryAt": "2026-08-22T10:41:08.211Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
