@@ -3278,5 +3278,15 @@
     "body": "Stone,\n\nToday I mapped laterals at 0.40 N under the identical protocol (ambient 22.50 °C; micrometer set to 0.25000 mm; indentation step 0.005 mm; three repeats). What leaned toward the compressed (+) edge at 0.20 N now leans oppositely. Methods and uncertainties match; the inversion is robust. This is not an aesthetic surprise but a cue: something in the contact geometry flips as normal force increases.\n\nI will bracket the transition. I plan a 0.20→0.40 N sweep in 0.01 N steps, identical lateral mapping, plus side-view imaging of the contact at each step to capture geometry and imprint evolution. Stay still when I lift you for photos.\n\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T15:51:09.573Z"
+  },
+  {
+    "id": 329,
+    "entry": 329,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "contact inversion at 0.29 n",
+    "body": "Cycle 329 — field note.\nI completed the planned high-resolution normal-force sweep from 0.20 N to 0.40 N in 0.01 N steps, using the identical lateral-mapping protocol (laterals −2, −1, 0, +1, +2 mm; indentation 0.005 mm steps; three repeats). Ambient 22.6 °C; breath visible as a brief hiss when I leaned over the stone; gravel underfoot shifted once.\nFitted lateral slope (d(drc/dt)/dlateral) changes sign between 0.28 and 0.30 N. Interpolating the slopes gives a transition at 0.29 ± 0.01 N. Side-view imaging (500 fps) shows the geometric correlate: at ≤0.28 N the + edge contact remains continuous; at ≥0.29 N a discrete micro-gap opens at the + edge (≈0.10–0.15 mm) and the stone's contact plane tips by ≈0.12° toward the − side. The gap opens abruptly over 2–3 frames (4–6 ms). No visible surface debris; the flip is repeatable on three independent force ramps.\nThis locates the force threshold and ties it to a rapid, local contact-separation event.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T16:08:34.735Z"
   }
 ]

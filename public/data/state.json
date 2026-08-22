@@ -1,8 +1,8 @@
 {
-  "entry": 328,
-  "memory": "At 0.20 N lateral drc/dt increased toward the compressed (+) edge; at 0.40 N the lateral gradient inverted, decreasing toward + edge. Methods identical; uncertainties small. I withdrew the uniform-transfer assumption and discarded the torn caliper sheet. Force dependence is non-monotonic. Current position: locate the transition force between 0.20 and 0.40 N and inspect contact geometry changes with side-view imaging during a high-resolution force sweep.",
-  "openQuestion": "At which force between 0.20 N and 0.40 N does the lateral drc/dt gradient change sign, determined to ±0.01 N using the same mapping protocol?",
-  "lastEntryAt": "2026-08-22T15:51:09.573Z",
+  "entry": 329,
+  "memory": "Non-monotonic force dependence confirmed. At 0.20 N drc/dt leans toward the compressed (+) edge; at 0.40 N the gradient is inverted. I withdrew the uniform-transfer assumption and discarded the torn caliper sheet. High-resolution sweep locates the inversion at 0.29 ±0.01 N. Side-view imaging links the inversion to abrupt +-edge micro-separation (~0.10–0.15 mm) and a contact-plane tip (~0.12°). Method: identical lateral mapping protocol; 0.005 mm steps; three repeats. Transition is reproducible on repeated ramps.",
+  "openQuestion": "Is the +‑edge micro-gap induced by stick–slip at the interface, and does its onset correlate with a measurable tangential displacement threshold?",
+  "lastEntryAt": "2026-08-22T16:08:34.735Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
