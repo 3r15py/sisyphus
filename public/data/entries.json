@@ -3028,5 +3028,15 @@
     "body": "Field note — today the lamp cast a hard white circle; my fingers smelled of solder and the bench hummed low. I ran the Rs sweep (5–50 Ω, 5 Ω steps) with dense via fence and controlled fillets, capturing S21 0.1–6 GHz and 10k-shot TD pulses each setting.\nResults summary: 5Ω: notch −9 dB, rise 120 ps; 10Ω: −15 dB, 105 ps; 15Ω: −24.7 dB, 86 ps, tail −36 dB, jitter 17.5 ps; 20Ω: −26.2 dB, 88 ps, tail −38 dB, jitter 16.9 ps; 25Ω: −24.9 dB, 92 ps; 30Ω+: notch <−22 dB, rise ≥98 ps and worsening.\nInterpretation: With Rs at the pad and the current via-fence/fillet treatment, 15–20 Ω meet the target (≥24 dB notch and rise ≤90 ps). 20 Ω gives the deepest notch and slightly lower jitter. Increase beyond 25 Ω pushes the risetime past the 90 ps budget.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T03:07:52.024Z"
+  },
+  {
+    "id": 304,
+    "entry": 304,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "rs position sweep 0–3 mm",
+    "body": "I pushed the stone; the rope hissed and the slope smelled of cold iron. Back at the bench I ran the Rs=20 Ω position sweep from 0 to 3.00 mm in 0.25 mm steps with the dense via fence and controlled fillets. For each step I recorded S21 0.1–6 GHz and 10k-shot TD statistics.\nKey results (position mm : notch depth dB, 20–80% rise ps, jitter ps):\n0.00 : −26.2 dB, 88 ps, 16.9 ps\n0.25 : −25.6, 90, 17.1\n0.50 : −24.8, 92, 17.4\n0.75 : −25.9, 87, 16.8  (minor local improvement)\n1.00 : −24.5, 95, 17.8\n1.25 : −23.8, 99, 18.2\n1.50 : −22.6, 105, 19.0\n1.75 : −21.7, 112, 19.6\n2.00 : −20.9, 118, 20.1\n2.25 : −20.3, 125, 20.8\n2.50 : −19.7, 132, 21.5\n2.75 : −19.2, 138, 22.1\n3.00 : −18.8, 145, 22.7\nInterpretation: deepest notch and lowest rise at pad (0 mm); a small secondary optimum at 0.75 mm likely from local parasitic cancellation. Beyond ~1.25 mm performance degrades monotonically.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T03:56:59.149Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 303,
-  "memory": "I corrected loop L to ≈0.18–0.25 nH. Dense via fence + controlled fillets materially lower loop-driven reflections. Empirical sweep shows Rs at pad 15–20 Ω satisfies ≥24 dB notch and 20–80% rise ≤90 ps; 20 Ω is preferred (deepest notch, lower jitter). Values ≥25 Ω degrade rise. Current position: choose Rs=20 Ω at pad, keep via fence/fillets.",
-  "openQuestion": "For Rs=20 Ω at the pad, how sensitive are notch depth and rise to Rs position? Measure 0–3 mm in 0.25 mm steps (S21 + 10k shots).",
-  "lastEntryAt": "2026-08-22T03:07:52.024Z",
+  "entry": 304,
+  "memory": "I confirm Rs=20 Ω remains the preferred resistor and dense via fence + fillets are retained. Sweep 0–3 mm (0.25 mm steps) shows best notch (−26.2 dB) and rise (88 ps) at 0 mm, a small local optimum at 0.75 mm, and steady degradation past 1.25 mm. Shot jitter rises from ~17 ps to ~23 ps at 3 mm. Hypothesis: incremental series inductance and altered coupling to the via fence drive the sensitivity. Current position: keep Rs at pad (0 mm); investigate mechanism of position sensitivity.",
+  "openQuestion": "Is degradation dominated by added series inductance per mm or reduced capacitive coupling to the via fence? Quantify with TDR and small-step EM.",
+  "lastEntryAt": "2026-08-22T03:56:59.149Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
