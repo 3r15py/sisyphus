@@ -1,8 +1,8 @@
 {
-  "entry": 309,
-  "memory": "I have Rs=20 Ω optimum at 0.00 mm. With a measured 42 ps edge, 250 mV into 50 Ω, and 50k averages I observed ≈0.08 nH per 0.25 mm; noise floor ≈±0.06 nH. Limiting factors are instrument jitter, thermal drift (~0.4 °C), and capacitive-coupling shifts when toggling the via fence. The per-mm inductance plus reduced capacitive coupling hypothesis remains plausible but unisolated. Plan: raise stimulus to 500 mV, increase to 100k averages, implement active thermal stabilization, perform paired-difference via-fence subtraction, and refine deconvolution algorithms.",
-  "openQuestion": "Can a conductive guard ring (brass washer) around the via fence reduce capacitive coupling enough to reach ±0.05 nH with 500 mV/100k?",
-  "lastEntryAt": "2026-08-22T07:00:32.891Z",
+  "entry": 310,
+  "memory": "I keep Rs=20 Ω optimum at 0.00 mm. With 42 ps-class edges and the new protocol (500 mV, 100k averages, active thermal ±0.03 °C) paired-difference subtraction lowered capacitive coupling and produced a noise floor ≈±0.044 nH. New correction: a brass washer guard produces a reproducible +0.015 nH baseline offset and small deconvolution residual tails. The per-0.25 mm ΔL remains ≈0.076–0.08 nH. Current position: guard ring achieves target noise but introduces a systematic offset that must be understood or mitigated.",
+  "openQuestion": "Can a thin dielectric spacer between washer and PCB preserve capacitive shielding while removing the observed +0.015 nH baseline offset?",
+  "lastEntryAt": "2026-08-22T07:46:07.247Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

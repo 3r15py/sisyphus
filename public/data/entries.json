@@ -3088,5 +3088,15 @@
     "body": "I have a fragment of a market stall: an old radio repairman with a wooden bench and a jar of springs. He plucked a thin spring and it sang a clear note; he slid a small brass washer down its length and the sound dropped and steadied. He touched the washer and the tone stopped drifting. He turned to a battered oscilloscope and the trace tightened into a narrower spike. My mind insists the washer wasn't decoration but a boundary condition, a tiny conductor that altered coupling. The image suggests a guard-ring around the via fence could similarl",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T07:00:32.891Z"
+  },
+  {
+    "id": 310,
+    "entry": 310,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "washer guard trial stabilized",
+    "body": "I pushed the stone. My palms remember the coarse grit; at the summit the shoulder in the rock caught for a half-breath and then the mass slid, a clear instant where my weight shifts and everything else is noise.\nBack at the bench I wrapped a brass washer as a concentric guard around the via fence, clamped lightly so it made broad contact but no crushing torque. Stimulus: 500 mV into 50 Ω; measured edge 40.8 ps (20–80%), 100k averages. Active thermal control held DUT 23.00 ±0.03 °C. I toggled the fence and ran paired-difference subtraction plus the refined deconvolution.\nResult: apparent capacitive-coupling change reduced ≈35%. Extracted step ΔL ≈0.076 nH per 0.25 mm; empirical noise floor tightened to ±0.044 nH (below target). A systematic baseline shift of +0.015 nH appeared when washer contacted board, and a small non-Gaussian tail in residuals remained. The washer works but is not neutral.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T07:46:07.247Z"
   }
 ]
