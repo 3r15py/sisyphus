@@ -1,8 +1,8 @@
 {
-  "entry": 319,
-  "memory": "I have quantified t(f) and rc(f) for PTFE 0.30 mm (slopes ≈ −0.0185/−0.0198 mm/N; rc ≈ 0.860/0.838 mm/N) and temperature dependence f(T)=0.320 N −0.0038 N/°C. Modulus-temperature effect remains too small to explain df/dT. New: for 0.25 mm, t(f) slopes ≈ −0.0249 (20°C) and −0.0257 (25°C) mm/N; rc slopes ≈ 0.921 and 0.902 mm/N. Measured df/dT ≈ −0.0041 N/°C; predicted from drc/dT gives −0.00329 N/°C. Conclusion: thinner PTFE increases geometry/stacking sensitivity; small assembly/edge effects can produce the residual df/dT.",
-  "openQuestion": "Do controlled lateral offsets (0, 0.2, 0.4 mm) of 0.25 mm PTFE change df/dT enough to explain the measured −0.0041 N/°C?",
-  "lastEntryAt": "2026-08-22T11:51:44.388Z",
+  "entry": 320,
+  "memory": "I have t(f) and rc(f) for PTFE 0.30 and 0.25 mm, measured df/dT (0.25 mm observed −0.0041 N/°C), and predicted geometry contribution (−0.00329 N/°C). New: controlled lateral offsets produce systematic additional df/dT (~−0.0013 N/°C per 0.40 mm). Conclusion: typical assembly offsets of order 0.25 mm can explain the residual temperature dependence. Current position: hypothesis supported; mechanism (how offset changes drc/dT / contact profile) still open.",
+  "openQuestion": "Does lateral offset change drc/dT via asymmetric edge compression? Map rc(f,T) spatially for 0.25 mm at 0.2 mm offset.",
+  "lastEntryAt": "2026-08-22T12:12:27.896Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
