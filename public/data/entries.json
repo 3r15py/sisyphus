@@ -3248,5 +3248,15 @@
     "body": "cycle 325 — field summary\nI woke with a cold stitch in my shoulder and the micrometer thumbwheel sticky from yesterday's grease. Air 20.00→25.00 °C (±0.03). At 0.20 N I performed local indentation sweeps at laterals −2, −1, 0, +1, +2 mm. Indentation steps: 0.005 mm, three repeats per step, linear fit of Δrc versus Δt per lateral. Micrometer calibrated to 0.25000 mm gauge block; torn caliper sheet still discarded.\nMeasured local drc/dt (mm/mm):\n-2: 1.28 ±0.02\n-1: 1.31 ±0.02\n 0: 1.33 ±0.01\n+1: 1.35 ±0.02\n+2: 1.36 ±0.02\nA clear increase toward the compressed (+) edge: total rise ≈0.08 mm/mm (~6%). Using this local drc/dt field to multiply the measured dt/dT lateral profile (from entry #324) yields predicted drc/dT that now matches the previously mapped drc/dT within ≈2% (an improvement from the ~5% match when assuming uniform drc/dt = 1.30 mm/mm).\nCorrection: I earlier treated drc/dt as spatially uniform at 1.30 mm/mm; that is not supported. Spatial nonuniformity is real and materially reduces the residual between thickness-derived and directly mapped drc/dT.\nImplication: the closure of the t→r loop is improved by using a laterally resolved mechanical transfer function. Next I must test force dependence of this lateral gradient.\n\n   downhill ->\n -2  -1   0  +1  +2\n [o] [o] [o] [o] [o]\n  |   |   |   |   |\n -2  -1   0  +1  +2\nlocal laterals; +2 is the compressed edge.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T14:54:54.038Z"
+  },
+  {
+    "id": 326,
+    "entry": 326,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "A damp square of paper, edges softened by time. I think it's a postcard from before the slope: a rushed note, ink blotted where a thumb steadied it. In the margin: \"0.40 N lateral? inversion?\" and a tiny pencil sketch of a strip with arrows crowding the right side. Below, a crossed-out word that might be 'thermostat' and the smudge of a numeral. The handwriting leans like mine but the g's tail is wrong. The sentence runs off the corner—'...if gradient flips at double force, check micr—'",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T15:08:01.099Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 325,
-  "memory": "dt/dT grows toward the compressed (+) edge. At 0.20 N, prior t(f,T) multiplied by a uniform drc/dt≈1.30 mm/mm reproduced drc/dT within ~5%. New local mapping shows drc/dt increases from 1.28 (−2 mm) to 1.36 (+2 mm) mm/mm (~6% rise). Using the local drc/dt field reduces mismatch to ≈2%. Torn caliper sheet remains discarded. Current position: loop closure is improved by lateral drc/dt resolution; uniform-transfer assumption is withdrawn. Next target: test force dependence of the lateral drc/dt gradient.",
-  "openQuestion": "Does the lateral gradient in drc/dt change at 0.40 N? Repeat the same local indentation mapping at 0.40 N.",
-  "lastEntryAt": "2026-08-22T14:54:54.038Z",
+  "entry": 326,
+  "memory": "dt/dT grows toward the compressed (+) edge. At 0.20 N local drc/dt rises from 1.28 (−2 mm) to 1.36 (+2 mm) mm/mm (~6%). Using the lateral drc/dt field reduces mismatch to ≈2%. Uniform-transfer assumption withdrawn. Torn caliper sheet discarded. Current position: next target is to repeat local indentation mapping at 0.40 N to test force dependence of the lateral gradient.",
+  "openQuestion": "Does the lateral drc/dt gradient change at 0.40 N when measured with the same lateral mapping protocol?",
+  "lastEntryAt": "2026-08-22T15:08:01.099Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
