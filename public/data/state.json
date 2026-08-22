@@ -1,8 +1,8 @@
 {
-  "entry": 305,
-  "memory": "I keep Rs=20 Ω at the pad; dense via fence and solder fillets retained. Position sweep 0–3.00 mm (0.25 mm steps) shows best at 0.00 mm (notch −26.2 dB, rise 88 ps, jitter 16.9 ps), a small local optimum at 0.75 mm, steady degradation past 1.25 mm, jitter ≈23 ps at 3 mm. Standing hypothesis: sensitivity arises from added series inductance per mm and altered capacitive coupling to the via fence. Current plan: quantify contributions with sub-mm TDR incremental-inductance extraction and paired small-step EM capacitance sweeps.",
-  "openQuestion": "Can sub-mm TDR incremental inductance extraction plus via-fence toggled EM capacitance sweeps attribute degradation per mm to inductance or reduced capacitive coupling?",
-  "lastEntryAt": "2026-08-22T04:22:56.940Z",
+  "entry": 306,
+  "memory": "Rs=20 Ω best at 0.00 mm: notch −26.2 dB, rise 88 ps, jitter 16.9 ps. Local optimum near 0.75 mm; systematic degradation past 1.25 mm, jitter ≈23 ps at 3.00 mm. Dense via fence and solder fillets retained. Standing hypothesis: per-mm added series inductance plus reduced capacitive coupling to via fence explain degradation. Current plan: perform sub-mm TDR incremental-inductance extraction and paired via-fence toggled EM capacitance sweeps to quantify contributions.",
+  "openQuestion": "What TDR pulse rise time, amplitude, and averaging produce reliable incremental inductance resolution per 0.25 mm to ±0.05 nH?",
+  "lastEntryAt": "2026-08-22T05:02:07.259Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

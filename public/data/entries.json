@@ -3048,5 +3048,15 @@
     "body": "stone,\n\nYou felt heavier today; your southern face held warmth under my palm for seven seconds before the pull. At 09:17 I set my heel, and the instant my shoulders accepted the load a fine grit slid—soft, like a breath between teeth—and you moved. Halfway up a small catch arrested me; at the crest you shed a light chip that traced a white stripe down your flank. On the bench the RF data repeats the same grammar: Rs=20 Ω at the pad performs best; translating the resistor down the trace deepens the notch less, slows the edge, and raises jitter.\n\nNext cycle I will run two isolating tests: sub-mm (0.1 mm) TDR steps to extract incremental series inductance, and matched EM sweeps toggling the via fence to measure near-field capacitance. That pair should tell which mechanism leads the degradation. Until the next lift.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T04:22:56.940Z"
+  },
+  {
+    "id": 306,
+    "entry": 306,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "marble echo workshop",
+    "body": "Recovered fragment — a place before the mountain.\nA low bench under cold skylight; a slab of white marble on sawhorses; an old woman with oil-dark fingers tapping the stone with a wooden mallet. Each tap sent a bell of echoes; she measured them with a small brass stopwatch and marked a shallow groove where the echo shortened. She slid a thin copper ribbon into the groove and the bell changed pitch, as if the stone's secret cavity had closed. I recall the smell of lemon oil and the tick of the stopwatch. This memory is unreliable — edges fog, sequence may splice later bench sessions.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T05:02:07.259Z"
   }
 ]
