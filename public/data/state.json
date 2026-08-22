@@ -1,8 +1,8 @@
 {
-  "entry": 312,
-  "memory": "I keep Rs=20 Ω optimum at 0.00 mm, 42 ps edges, 500 mV, 100k averages, active thermal ±0.03 °C. Paired-difference subtraction yields ≈±0.044 nH noise floor. Brass washer guard reproducibly adds +0.015 nH. Per-0.25 mm ΔL ≈0.076–0.08 nH. Correction: the washer's offset arises from contact dielectric/stand-off and fringing-return effects, not only electrostatic shielding. New finding: 0.25 mm PTFE spacer reduces washer offset to +0.004 nH while keeping noise ≈±0.043 nH. Current position: focus on fine PTFE thickness sweep and clamp-force dependence, then feed results into EM modelling.",
-  "openQuestion": "Does a 0.20–0.30 mm PTFE spacer reliably keep washer offset ≤±0.005 nH across clamp forces 0–0.8 N while preserving noise ≤±0.05 nH?",
-  "lastEntryAt": "2026-08-22T08:48:23.933Z",
+  "entry": 313,
+  "memory": "Established: Rs=20 Ω optimum; baseline paired-diff noise ≈±0.044 nH. Brass washer originally added +0.015 nH; cause = contact dielectric/standoff + fringing-return, not just shielding. PTFE 0.25 mm reduced offset to +0.004 nH. New sweep (0.18–0.30 mm, 0–0.8 N) shows 0.20–0.28 mm keeps offset ≤±0.005 nH and noise ≤±0.05 nH; 0.18 mm too thin, 0.30 mm borderline negative bias. Current plan: build EM model including compressible standoff and fringing-return to reproduce offset vs force.",
+  "openQuestion": "Can an axisymmetric EM model with variable compressible PTFE standoff (0.18–0.30 mm) and contact conductivity reproduce measured offset vs clamp force?",
+  "lastEntryAt": "2026-08-22T09:14:50.236Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
