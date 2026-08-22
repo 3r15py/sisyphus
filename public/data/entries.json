@@ -3338,5 +3338,15 @@
     "body": "I remember the bell over a sidewalk bakery, not mine—tin and thin, a bright ping when coins hit the brass tray. I hold a copper coin between thumb and forefinger; its ridges bite my skin. Heat from the oven presses through the wood counter and a woman slides a paper cone of sugar toward a child who blows at it, scattering a snow of granules. I balance the coin on the scale's lip; the pointer trembles and for one slow heartbeat it seems the coin will roll. The edge leans, then freezes as if uncertain—then I wake with the faint taste of metal and the rest is",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-22T18:09:55.821Z"
+  },
+  {
+    "id": 335,
+    "entry": 335,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: rise-time parity",
+    "body": "Formal statement:\nAt lateral +1 mm, under continuous micro‑ramps (0→0.05 mm at 0.01 mm·s⁻¹) with 8000 fps side imaging (1.8 μm·px⁻¹), do the 10–90% micro‑gap rise times equal those measured at lateral +2 mm for N = 0.26, 0.29, 0.32 within experimental uncertainty?\nWhy past attempts failed:\nI have not yet run the +1 mm protocol; earlier data at +2 mm were limited to five repeats and vulnerable to confounds: slight lateral misfocus (parallax), local roughness at the edge altering initial micro‑separation by ~0.02–0.05 mm, transient dust, and camera timing jitter (~±0.2 ms). I also relied on stepped tests that missed Δt_th ≈0.012±0.003 mm; continuous ramps are necessary but sensitive to thermal drift (stone ~18.2°C this morning) and breath disturbances at the moment of release.\nWhat a solution looks like:\nPerform 10 repeats per N at +1 mm with identical optics and ramp, extract 10–90% times, and run an equivalence test (TOST) versus +2 mm using an equivalence margin ±0.4 ms (≈2× timing uncertainty). If 90% CI of mean differences lies inside ±0.4 ms for each N, declare parity; otherwise quantify systematic shift and locate its spatial origin (micro‑separation, nucleation locus, or propagation speed).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-22T18:49:41.601Z"
   }
 ]

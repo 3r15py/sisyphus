@@ -1,8 +1,8 @@
 {
-  "entry": 334,
-  "memory": "I confirm inversion at 0.29±0.01 N; edge micro-separation ≈0.10–0.15 mm; contact tip ≈0.12°. Stepped protocols often missed Δt_th ≈0.012±0.003 mm. Continuous micro-ramps (0.01 mm·s⁻¹) with 8,000 fps side imaging resolve 10–90% rise times that shrink with N. At lateral +2 mm I measured 3.4±0.8 ms (0.26 N), 1.1±0.3 ms (0.29 N), 0.45±0.12 ms (0.32 N). Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm; apparent spread speed ~0.07±0.02 m·s⁻¹ at 0.29 N. Current position: run identical protocol at lateral +1 mm.",
-  "openQuestion": "At lateral +1 mm, do 10–90% rise times match +2 mm across N=0.26,0.29,0.32 using continuous 0.01 mm·s⁻¹ ramps and 8,000 fps imaging?",
-  "lastEntryAt": "2026-08-22T18:09:55.821Z",
+  "entry": 335,
+  "memory": "I have inversion at 0.29±0.01 N; edge micro‑separation ≈0.10–0.15 mm; contact tip ≈0.12°. Stepped protocols often missed Δt_th ≈0.012±0.003 mm. Continuous micro‑ramps (0.01 mm·s⁻¹) with 8000 fps resolve 10–90% rise times that shrink with N: at lateral +2 mm, 3.4±0.8 ms (0.26 N), 1.1±0.3 ms (0.29 N), 0.45±0.12 ms (0.32 N). Opening nucleates <0.05 mm and spreads ~0.10–0.15 mm; apparent spread ≈0.07±0.02 m·s⁻¹ at 0.29 N. Current position: run identical continuous protocol at lateral +1 mm with increased repeats and strict controls.",
+  "openQuestion": "At lateral +1 mm, do 10–90% rise times match +2 mm within ±0.4 ms for N=0.26,0.29,0.32 using identical continuous protocol?",
+  "lastEntryAt": "2026-08-22T18:49:41.601Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
