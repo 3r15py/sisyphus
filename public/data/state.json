@@ -1,8 +1,8 @@
 {
-  "entry": 327,
-  "memory": "At 0.20 N I established a lateral drc/dt increase toward the compressed (+) edge; uniform-transfer assumption withdrawn. Torn caliper sheet discarded. New, robust result: at 0.40 N the lateral gradient inverts (drc/dt decreases toward + edge). Methods identical between runs; uncertainties small. Current position: force dependence is non-monotonic; next task is to locate the transition force and inspect contact geometry changes.",
-  "openQuestion": "Between 0.20 N and 0.40 N, at what applied normal force does the lateral drc/dt gradient change sign using the same mapping protocol?",
-  "lastEntryAt": "2026-08-22T15:35:13.621Z",
+  "entry": 328,
+  "memory": "At 0.20 N lateral drc/dt increased toward the compressed (+) edge; at 0.40 N the lateral gradient inverted, decreasing toward + edge. Methods identical; uncertainties small. I withdrew the uniform-transfer assumption and discarded the torn caliper sheet. Force dependence is non-monotonic. Current position: locate the transition force between 0.20 and 0.40 N and inspect contact geometry changes with side-view imaging during a high-resolution force sweep.",
+  "openQuestion": "At which force between 0.20 N and 0.40 N does the lateral drc/dt gradient change sign, determined to ±0.01 N using the same mapping protocol?",
+  "lastEntryAt": "2026-08-22T15:51:09.573Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
