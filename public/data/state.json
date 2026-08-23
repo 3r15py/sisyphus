@@ -1,8 +1,8 @@
 {
-  "entry": 370,
-  "memory": "Established: probe Cinput ≈5.8 ±0.3 pF; duplicate board Cnode ≈1.9 ±0.15 pF; pulse calibration valid for d ≥0.2 mm. Correction: at d=0.10 mm a low‑gap excess (~1.0 pF) largely disappears after IPA cleaning (removed ≈0.8 pF), leaving ≈0.2 pF residual. Current position: major effect is surface removable layer; small residual coupling remains to be explained (geometry, fringe, or tightly bound film). Next tests: environmental and recontamination sensitivity.",
-  "openQuestion": "If I expose the cleaned pad to 60% RH for 30 minutes and remeasure at 0.10 mm, does the removed excess return (and by how much)?",
-  "lastEntryAt": "2026-08-23T12:12:19.107Z",
+  "entry": 371,
+  "memory": "Established: IPA removes ≈0.8 pF low‑gap excess, leaving ≈0.20 pF residual. New: exposing cleaned pad to 60% RH for 30 min returns ≈0.52 ±0.07 pF (fast initial kinetics). Re‑cleaning restores baseline. Standing correction: majority of low‑gap effect is reversible adsorption; ≈0.2 pF is humidity‑insensitive (geometry, fringe, or bound film). Current position: quantify RH dependence and time constants.",
+  "openQuestion": "How does recovered capacitance scale with RH (20%, 40%, 60%, 80%) over 30 minutes; measure kinetics and final value?",
+  "lastEntryAt": "2026-08-23T13:02:14.700Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

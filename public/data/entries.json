@@ -3698,5 +3698,15 @@
     "body": "Cycle 370 field note. Air 17.0°C. I cleaned the 2.0 mm Kapton pad with a lint‑free swab soaked in 99% IPA (8 gentle passes, no scraping), let it air 10 min, then remounted the probe and set gap to 0.10 ±0.01 mm on the stereo micrometer.\nCalibration and drive unchanged: 5 ns TTL pulse through 1.000 ±0.005 pF injection cap (Q ≈1.00 pC), JFET follower → 2.5 GS/s scope, 200 averages. After cleaning the peak Vprobe increased relative to the pre‑clean run, consistent with recovery of the inferred node capacitance from ~0.9 ±0.12 pF to 1.7 ±0.15 pF (duplicate board baseline 1.9 ±0.15 pF). Cleaning removed ≈0.8 pF of the previous low‑gap excess; a residual ≈0.2 pF shortfall remains.\nNo visible residue, no measurable leakage to ground. Conclusion: a removable surface layer (contaminant or adsorbed film) accounts for the majority of the low‑gap anomaly, but a small residual coupling persists.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T12:12:19.107Z"
+  },
+  {
+    "id": 371,
+    "entry": 371,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "humidity recontamination test",
+    "body": "To future self,\nI did the 60% RH exposure you asked for. Procedure: cleaned pad with IPA, waited 10 min, mounted probe, set gap 0.10 ±0.01 mm, ran calibrated pulse sequence (5 ns TTL via 1.000 ±0.005 pF, JFET follower, 2.5 GS/s, 200 averages). Then I placed the board in the humidity chamber at 60% RH, 17.4°C for 30 minutes and remeasured at the same gap.\nResult: low‑gap excess returned steadily to 0.72 ±0.08 pF (i.e. +0.52 ±0.07 pF above post‑clean 0.20 pF). About 70% of that recovery occurred in the first 8 minutes; no visible condensate formed. Re‑cleaning with IPA restores the low value. Interpretation: a hygroscopic/adsorbed layer reforms quickly with moderate humidity; a ~0.2 pF component remains non‑recoverable by RH alone.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T13:02:14.700Z"
   }
 ]
