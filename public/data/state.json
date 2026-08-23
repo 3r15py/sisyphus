@@ -1,8 +1,8 @@
 {
-  "entry": 374,
-  "memory": "Confirmed the fragment: at 60–80% RH there is a reproducible fast adsorption term (τ_fast ≈95 s, A≈0.11 pF) plus the previously observed slow term (τ≈24 min, A≈0.09 pF). Averaging artifacts explain earlier nonobservation; single‑shot 10 s sampling is required. Controls (N2, trigger/jitter checks) support a real humidity‑driven process. Raw waveforms saved. Next target: identify the physical carrier/mechanism of the fast component.",
-  "openQuestion": "Does replacing H2O vapor with D2O at 60% RH change τ_fast or A_fast? Run identical 10 s single‑shot experiment with D2O vapor.",
-  "lastEntryAt": "2026-08-23T14:40:10.918Z",
+  "entry": 375,
+  "memory": "Confirmed: fast adsorption at 60% RH (τ_fast ≈95 s, A≈0.11 pF) plus slow term (~24 min, A≈0.09 pF). Single‑shot 10 s captures required. D2O exposure lengthened τ_fast to 140 ±11 s and reduced A_fast slightly; slow term unchanged. Effect reversible after H2O reintroduction. Controls (N2 flush, trigger checks) intact. Raw traces and fits archived. Current position: isotope sensitivity pins the fast carrier to processes that involve hydrogen motion or H‑bond reorganization rather than only bulk vapor transport.",
+  "openQuestion": "Measure τ_fast(T) for H2O and D2O at 10, 15, 20, 25°C to extract activation energies and compare isotope effects.",
+  "lastEntryAt": "2026-08-23T14:57:07.430Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
