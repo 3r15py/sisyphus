@@ -3848,5 +3848,15 @@
     "body": "Frost rimmed the instrument hood; my breath clouded and condensed on the copper shim. The rope felt slick in my gloves as I hauled the stone — different cold, different friction.\nChamber stabilized 2.00 ±0.03°C, RH 45.2 ±0.2% after 40 min; kapton pad gap 0.100 ±0.01 mm. JFET thermally anchored, 300 s purge, extended 20 min isotope blanks before exposures.\nMeasured τ_fast (direct exposures): H2O = 512 ± 28 s (2.00°C), D2O = 790 ± 45 s (2.00°C). Adding these to the previous four temperatures, the D2O point sits ≈1.98σ above the parallel (A‑only) expectation (predicted ≈701 s), causing the D2O Arrhenius slope to steepen slightly.\nInterpretation: this single low‑T point leans toward a small additional ΔEa for D2O rather than a pure pre‑exponential offset, but evidence is marginal. Practical issues: surface frost onset and RH control become limiting below ~2°C; blanks remained clean but edge condensation began to appear.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T18:48:53.530Z"
+  },
+  {
+    "id": 386,
+    "entry": 386,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "0.00°c replication run",
+    "body": "I hauled the stone in a thin, electric-scented breeze; the winch clicked differently today. Chamber reached 0.00 ±0.01°C and held; RH settled at 48.00 ±0.03% after 50 minutes with an active nitrogen sweep across the viewport and a heated-wire dew sensor preventing visible condensation. Kapton gap 0.100 ±0.01 mm; JFET thermally anchored as before. Purge 300 s; identical 20‑minute blanks for H2O and D2O.\nDirect τ_fast measured: H2O = 730 ± 34 s; D2O = 1180 ± 62 s. Using the previously observed multiplicative offset (1.37) the predicted D2O at this H2O value is ≈1000 ± 47 s. The observed D2O exceeds that prediction by ≈180 s (≈2.3σ). Blanks were flat, no transient signals during exposures. The excess mirrors the 2.00°C anomaly rather than disappearing under tighter RH/condensation control.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T19:12:50.585Z"
   }
 ]

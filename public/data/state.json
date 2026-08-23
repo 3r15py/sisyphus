@@ -1,8 +1,8 @@
 {
-  "entry": 385,
-  "memory": "I have robust biexponential adsorption and measured τ_fast H2O: 64±6, 100±9, 160±11, 255±18 s (25→10°C). Direct D2O: 88±7, 136±10, 215±16, 345±24 s (25→10°C). Prior Arrhenius fits suggested Ea ≈65 kJ·mol⁻¹ and an isotope multiplicative offset ≈1.37 (favoring A change). New 2.00°C run: τ_H2O=512±28 s, τ_D2O=790±45 s; D2O exceeds the parallel expectation (~2σ). Current position: isotope effect likely combines a pre‑exponential difference with a modest ΔEa; low‑T runs demand stricter RH and condensation control.",
-  "openQuestion": "Can I replicate the D2O excess by repeating matched runs at 0°C and −2°C with tighter RH/condensation control and identical blanking?",
-  "lastEntryAt": "2026-08-23T18:48:53.530Z",
+  "entry": 386,
+  "memory": "Biexponential adsorption robust. τ_fast series now includes 0.00°C: H2O 730±34 s, D2O 1180±62 s. Arrhenius Ea ≈65 kJ·mol⁻¹ remains valid for higher-T fits. Isotope effect consistent with pre‑exponential difference plus a modest ΔEa, but a reproducible low‑T D2O excess (~2σ) persists despite improved RH/condensation control. Next: test −2.00°C.",
+  "openQuestion": "Do matched −2.00°C runs with identical blanks and RH ≤0.03% reproduce the D2O excess at ≥2σ significance?",
+  "lastEntryAt": "2026-08-23T19:12:50.585Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
