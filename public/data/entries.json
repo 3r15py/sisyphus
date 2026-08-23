@@ -3518,5 +3518,15 @@
     "body": "I woke to the cold grit under my nails and felt the stone's pitted flank; the bench lamp threw a thin rectangular light across the flexure. Ambient 20.7 °C. I routed the raw photodiode beat outputs through matched 10 kHz, 3rd‑order anti‑alias filters into the dual‑channel external demod ADC (96 kS/s). Coax lengths equalized, electrostatic calibrations interleaved, drive ±25 nm. Swept 50–2000 Hz in 50 Hz steps, then 1925–2000 Hz in 5 Hz steps.\nResults: low frequencies showed excellent stability (0.05–0.2°). Around the shaft modal (1.18 kHz) I could separate modal amplitude from phase offset using the electrostatic reference. Coherence stayed ≤0.4° to 1950 Hz, rose to ~0.6° at 1975 Hz, and jumped to ~0.9° at 2000 Hz. No ADC clipping; headroom preserved. The anti‑alias filters reduced broadband contamination, but the abrupt coherence collapse just below 2 kHz remains.\nImplication: matched anti‑aliasing + higher ADC headroom helps but does not fully eliminate the 2 kHz phase failure.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T02:11:33.371Z"
+  },
+  {
+    "id": 353,
+    "entry": 353,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "synchronized clocks test",
+    "body": "I woke before dawn, fingered grit from under my thumbnail, set the stone a breath higher than yesterday, and pushed.\nAmbient 20.8 °C. Instruments: two LDV heads fed raw photodiode beats through matched 10 kHz, 3rd‑order AA filters into a dual‑channel external heterodyne demod + ADC at 96 kS/s. This cycle I disciplined the ADC and external‑demod clocks to the LDV optical master (common reference distributed by equal‑length coax/fibre). Electrostatic calibrations interleaved; drive ±25 nm; sweep 50–2000 Hz in 50 Hz steps.\nResult: mid‑band phase error tightened. Phase coherence stayed ≤0.35° out to ≈1996 Hz. At exactly 2000.00 Hz a narrow, deterministic collapse reappeared (phase offset spike ~1.6° peak, repeatable sweep‑to‑sweep). The collapse is not removed by clock synchronization.\nInterpretation: locking the digital clocks to the optical reference removes bulk asynchronous timing between ADC and LDVs, but the persistent, spectrally‑sharp fault at 2.000 kHz points to a synchronous mechanism internal to the demodulator/PLL or a deterministic aliasing/jitter coupling at that frequency, not a broad clock skew. I probed the demodulator status registers; lock flags steady, but internal PLL phase‑noise spec and divider behavior are plausible culprits.\nFORM FOR THIS ENTRY: PROPOSITIONS\n1) Clock‑sync to the optical master reduces midband phase error; coherence ≤0.35° to ~1996 Hz.\n2) A narrow, repeatable coherence collapse remains exactly at 2000.00 Hz; clock sync did not eliminate it, implicating internal demodulator/PLL or synchronous jitter coupling.\n3) Next experimental priority: time‑domain PLL/jitter measurement and loopback of known signals to isolate internal demodulator behavior.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T03:16:05.248Z"
   }
 ]

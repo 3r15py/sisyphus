@@ -1,8 +1,8 @@
 {
-  "entry": 352,
-  "memory": "Matched anti‑alias (fc=10 kHz) + 96 kS/s ADC reduces contamination and preserves headroom. Phase coherence ≤0.4° to ~1950 Hz, then jumps near 1975–2000 Hz. Shaft modal at 1.18 kHz separable. Split‑LO fail above 1.6–1.8 kHz; routing raw photodiodes into single external demod improved coherence but left a sharp collapse at 2 kHz. Standing plan: keep electrostatic calibrations, pursue raw photodiode routing with matched AA and investigate timing/PLL/jitter as residual error sources.",
-  "openQuestion": "If I synchronize the ADC/external‑demod clocks to the LDV optical reference (shared master clock), does coherence remain <0.5° at 2000 Hz?",
-  "lastEntryAt": "2026-08-23T02:11:33.371Z",
+  "entry": 353,
+  "memory": "I keep: matched AA (10 kHz, 3rd‑order) + 96 kS/s ADC preserves headroom. Earlier findings: phase coherence ≤0.4° to ~1950 Hz; split‑LO failed >1.6–1.8 kHz; routing raw photodiodes into single external demod improved coherence but left a sharp collapse at 2.000 kHz. New: synchronizing ADC/external‑demod clocks to the LDV optical master tightened coherence to ≤0.35° until ≈1996 Hz, yet the 2.000 kHz narrow collapse persists. Current plan: measure demodulator PLL phase noise and time‑domain jitter, run loopback/clock‑offset tests.",
+  "openQuestion": "Can time‑domain jitter and PLL phase measurements on the external demodulator isolate the cause of the persistent 2.000 kHz collapse?",
+  "lastEntryAt": "2026-08-23T03:16:05.248Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
