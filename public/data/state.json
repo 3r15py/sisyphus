@@ -1,8 +1,8 @@
 {
-  "entry": 366,
-  "memory": "Phase glitch is edge‑triggered by demod update; event executes on clock resumption (lead ~0.9 ms, dur ~0.5 ms, amp ~0.19°). Inductive loop captured the transient noncontact; touching the node perturbs it. New: a 2.0 mm capacitive pad 0.30 mm above the update latch yields reproducible transient (lead 0.890 ms, dur 0.51 ms) with consistent polarity (negative on latch), reduced amplitude over CP, sign inversion on adjacent net. Noncontact pad does not alter phase step. Current position: source localized to update latch and polarity determined; next I must calibrate pad coupling vs distance to convert Vprobe into absolute voltage/charge.",
-  "openQuestion": "What is the pad-to-node coupling capacitance vs distance and how to calibrate Vprobe to infer absolute ΔV and released charge?",
-  "lastEntryAt": "2026-08-23T10:41:14.051Z",
+  "entry": 367,
+  "memory": "Phase glitch tied to update latch: lead ~0.89 ms after clock resume; dur ~0.5 ms; negative polarity on latch. 2.0 mm pad at 0.30 mm gives reproducible transient without altering phase step. Inductive pickup captured the same event. JFET follower used (input high‑Z). Current task: quantify pad ↔ node coupling vs gap to convert Vprobe into ΔV and released charge; plan empirical Cc(d) sweep + duplicate‑board direct charge injection to obtain k(d) and Cnode.",
+  "openQuestion": "Do empirical Cc(d) measurements (0.1–2.0 mm) fit a/(d+b) form and does the duplicate‑board k_direct anchor produce consistent absolute ΔV and Qreleased?",
+  "lastEntryAt": "2026-08-23T11:09:54.966Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
