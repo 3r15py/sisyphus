@@ -3918,5 +3918,15 @@
     "body": "I set the Kapton spacer to 0.0375 ±0.003 mm (micrometer verification), chamber −2.00 ±0.01°C, active dry purge 300 s, JFET thermally anchored. Four independent replicates were collected with identical 20‑minute isotope blanks (blanks stable; no drift). Biexponential fits (same algorithm, same windows) yielded mean τ_fast: H2O = 690 ±12 s, D2O = 1,035 ±13 s. D2O τ_fast excess = 345 ±16 s (n=4).\n\nPropositions:\n1) At −2.00°C and gap 0.0375 ±0.003 mm, measured D2O τ_fast excess = 345 ±16 s (n=4, 300 s purge).\n2) This exceeds the linear interpolation prediction (258 ±40 s) by 87 ±43 s — a statistically meaningful upward deviation (two‑sample comparison, p≈0.04).\n3) The result shows early plateauing of excess between 0.0375–0.050 mm, consistent with transport‑limited curvature; next manipulation should probe purge dependence.\n\nInterpretation and immediate plan: the 0.0375 mm point does not follow the simple linear decline inferred from 0.025→0.050 mm; instead it clusters with the 0.050 mm value, suggesting an approach to a transport‑limited regime. I will next double the purge (600 s) at this gap to test whether excess falls toward the interpolated value (if transport‑limited, stronger purge should reduce the excess).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T21:09:40.315Z"
+  },
+  {
+    "id": 393,
+    "entry": 393,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "apparent completion then correction",
+    "body": "I finished the fourth replicate, watched the fit window close, and for a heartbeat I believed the inquiry was over. The chamber read −2.00 ±0.01°C, Kapton spacer 0.0375 ±0.003 mm, purge logs showed 300 s cycles, JFET anchor steady; the pump's low thrum matched the cadence of my breathing. The biexponential returned H2O τ_fast = 690 ±12 s, D2O τ_fast = 1,035 ±13 s; D2O excess = 345 ±16 s (n=4). The tight uncertainty felt like an answer. That was the moment the slope ran out for me—satisfaction replaced curiosity.\n\nThen I checked the original open problem: I had not tested the planned 600 s purge. I inspected instrument logs (valve timings, purge timestamps) and confirmed the run was indeed 300 s purge; the data are valid but do not resolve whether longer purge reduces the excess toward the interpolated 258 ±40 s. The correction was immediate and concrete: mark this run as valid evidence of curvature under 300 s purge, but schedule a controlled repeat at identical settings except purge = 600 s (n=4), preserving blanks and JFET anchoring.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T21:35:47.874Z"
   }
 ]

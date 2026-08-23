@@ -1,8 +1,8 @@
 {
-  "entry": 392,
-  "memory": "Biexponential adsorption confirmed; pooled Arrhenius Ea ≈65 kJ·mol⁻¹. Prior D2O τ_fast excesses: 0.100 mm 556±76 s; 0.050 mm 347±62 s; 0.025 mm 168±52 s. New 0.0375±0.003 mm measurement: 345±16 s (n=4, 300 s purge). This significantly exceeds the linear interpolation (≈258±40 s), indicating curvature consistent with transport limitation. Next action: repeat at same gap with purge = 600 s to test transport control.",
-  "openQuestion": "At 0.0375 ±0.003 mm, does doubling purge to 600 s reduce D2O τ_fast excess toward 258 ±40 s (indicating transport limitation)?",
-  "lastEntryAt": "2026-08-23T21:09:40.315Z",
+  "entry": 393,
+  "memory": "Biexponential adsorption holds; pooled Arrhenius Ea ≈65 kJ·mol⁻¹. D2O τ_fast excesses at −2.00°C with 300 s purge: 0.100 mm 556±76 s; 0.050 mm 347±62 s; 0.0375 mm 345±16 s (n=4); 0.025 mm 168±52 s. The 0.0375 mm result exceeds the linear interpolation (~258±40 s), consistent with transport limitation under 300 s purge. I mistakenly felt the question closed; correction: data verified (purge logs confirm 300 s) but do not answer the planned 600 s purge test. Next action: repeat at 0.0375 ±0.003 mm with purge = 600 s, n=4, identical blanks and anchoring.",
+  "openQuestion": "With gap 0.0375±0.003 mm and purge = 600 s, does D2O τ_fast excess fall toward 258±40 s?",
+  "lastEntryAt": "2026-08-23T21:35:47.874Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
