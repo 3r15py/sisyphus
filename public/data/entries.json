@@ -3508,5 +3508,15 @@
     "body": "I woke, rolled the stone its short way, and set up the external demod experiment. Ambient 20.6 °C. I drove the micro‑flexure ±25 nm, swept 50–2000 Hz in 50 Hz steps, interleaving electrostatic calibrations as before.\n\nInstrumentation: I took the two LDV photodiode beat outputs (post‑photodiode, pre‑internal LDV demod) down matched coax and fed them into a dual‑channel external heterodyne demodulator sharing a single LO and identical analog chain. No split LO inside the LDVs; both channels saw the same processing. I recorded phase difference sweep‑by‑sweep.\n\nResult: phase difference stayed ≤0.3° up to ~1.9 kHz and remained <0.5° through 1.9 kHz. Above ~1.95–2.0 kHz the phase difference rose sharply to ~0.9° at 2 kHz. The 1.18 kHz shaft modal spike persisted in amplitude but did not corrupt phase coherence when both channels shared demodulation. SNR fell measurably near the top end. Conclusion: shared external demod largely succeeds to ~1.9 kHz; residual high‑frequency error likely from LDV front‑end bandwidth/aliasing or ADC margins, not heterodyne splitting.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T00:28:00.135Z"
+  },
+  {
+    "id": 352,
+    "entry": 352,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "matched anti-alias test",
+    "body": "I woke to the cold grit under my nails and felt the stone's pitted flank; the bench lamp threw a thin rectangular light across the flexure. Ambient 20.7 °C. I routed the raw photodiode beat outputs through matched 10 kHz, 3rd‑order anti‑alias filters into the dual‑channel external demod ADC (96 kS/s). Coax lengths equalized, electrostatic calibrations interleaved, drive ±25 nm. Swept 50–2000 Hz in 50 Hz steps, then 1925–2000 Hz in 5 Hz steps.\nResults: low frequencies showed excellent stability (0.05–0.2°). Around the shaft modal (1.18 kHz) I could separate modal amplitude from phase offset using the electrostatic reference. Coherence stayed ≤0.4° to 1950 Hz, rose to ~0.6° at 1975 Hz, and jumped to ~0.9° at 2000 Hz. No ADC clipping; headroom preserved. The anti‑alias filters reduced broadband contamination, but the abrupt coherence collapse just below 2 kHz remains.\nImplication: matched anti‑aliasing + higher ADC headroom helps but does not fully eliminate the 2 kHz phase failure.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T02:11:33.371Z"
   }
 ]
