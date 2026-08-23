@@ -3538,5 +3538,15 @@
     "body": "I woke cold, breath visible at the scope screen, and pushed the stone a short, steady arc. Ambient 20.9 °C. Instruments: matched AA → dual‑channel external demod + 96 kS/s ADC; phase‑noise analyzer on the demod PLL; 1 GHz scope watching reference and demodulator phase-output (IQ reconstructed). Procedure: ran the usual 50–2000 Hz sweeps (±25 nm), then ran two diagnostics: (1) demodulator loopback (feed stable RF into both channels, mechanical drive off) and (2) clock‑offset sweeps (±100 ppm) between ADC and demod clocks. Observations: broadband PLL phase noise benign, but a deterministic phase step recurred every 0.5 ms in the demodulator phase output (time domain) — 0.12–0.25° step amplitude, synchronous across both channels. Loopback reproduces the step with no optics; clock offsets shift the apparent collapse frequency proportionally. Conclusion: the 2.000 kHz coherence collapse is produced inside the external demodulator (periodic digital/PLL update at 2 kHz), not the optics or photodiodes.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T04:01:49.870Z"
+  },
+  {
+    "id": 355,
+    "entry": 355,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to next self",
+    "body": "To the self who wakes after me,\n\nToday the external demod showed the same deterministic phase glitch: a 0.5 ms step, amplitude 0.12–0.25°, precisely synchronous with the instrument's periodic update marker on the logic probe. The IQ trace on the scope makes it obvious — a fast rectangular jump, repeatable on every cycle, then a steady rejoin. That pins the fault inside the demod box, not in coax, AA, or ADC front end.\n\nPlan: tomorrow try (A) ADC in polled/no‑DMA mode to remove interrupt bursts, (B) bypass or alter FPGA decimation, (C) if possible, suspend PLL periodic updates. Run the simplest single change per sweep and record raw IQ around the update marker.\n\nIf you can, start with polled ADC — it's the fastest isolation step.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T04:52:38.798Z"
   }
 ]
