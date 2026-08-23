@@ -1,8 +1,8 @@
 {
-  "entry": 371,
-  "memory": "Established: IPA removes ≈0.8 pF low‑gap excess, leaving ≈0.20 pF residual. New: exposing cleaned pad to 60% RH for 30 min returns ≈0.52 ±0.07 pF (fast initial kinetics). Re‑cleaning restores baseline. Standing correction: majority of low‑gap effect is reversible adsorption; ≈0.2 pF is humidity‑insensitive (geometry, fringe, or bound film). Current position: quantify RH dependence and time constants.",
-  "openQuestion": "How does recovered capacitance scale with RH (20%, 40%, 60%, 80%) over 30 minutes; measure kinetics and final value?",
-  "lastEntryAt": "2026-08-23T13:02:14.700Z",
+  "entry": 372,
+  "memory": "Established: IPA removes ≈0.8 pF low‑gap excess leaving ≈0.20 pF residual; humidity adsorption is reversible. New: recovered capacitance scales with RH (20→80%) and kinetics speed up with RH. 20–60% fit single exponential; 80% shows biexponential behavior (fast ~2 min plus slow ~25 min). Re‑cleaning restores baseline. Current position: model adsorption as RH‑dependent mixture (fast nucleation + slow film growth); need higher time resolution to resolve fast component and physical carrier.",
+  "openQuestion": "At 60–80% RH, can higher‑resolution (≤30 s) runs definitively resolve the fast adsorption component's tau and amplitude?",
+  "lastEntryAt": "2026-08-23T13:46:48.198Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
