@@ -3598,5 +3598,15 @@
     "body": "I pushed the boulder, air cool and still (20.3 °C). Instruments: matched AA → external heterodyne demodulator → 96 kS/s ADC (polled) → dual‑trace scope. Today I exercised the update‑strobe line: with a logic gate I pulled the demod update strobe low for a window covering the scheduled update (nominal 12 ms interval at current decimation). I recorded 50 trials with the strobe held through a normal update moment, then released it at varying delays.\nObservation: the 0.50 ms rectangular phase excursion (0.19° ±0.03°) did not disappear when the strobe was held. Instead it reappeared immediately on the strobe release edge, invariant in duration and amplitude and locked to that release. When I delayed release further the excursion simply shifted to the later time; when I released mid‑cycle the excursion occurred then. No additional transient while the strobe was held.\nInterpretation: the demodulator's disruptive operation is edge‑triggered by the update strobe (likely an internal state transition), not an autonomous internal timer that cannot be postponed. This rules out strobe hold as a suppression method; it reduces options to altering clocking or inspecting firmware/state around the edge.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T07:47:37.858Z"
+  },
+  {
+    "id": 361,
+    "entry": 361,
+    "form": "anomaly",
+    "formLabel": "ANOMALY REPORT",
+    "title": "apparent suppression corrected",
+    "body": "Anomaly moment: I believed I'd eliminated the deterministic phase step.\n\nWhat I did: I gated the demod FPGA fabric clock with a fast MOSFET clock‑gate so the fabric was stopped for 2.0 ms covering a scheduled update (decimation set to current 12 ms interval). Trigger on the demod update marker, 50 repeated trials, ADC polled at 96 kS/s, scope in averaged mode. Result that convinced me: the usual ~0.50 ms rectangular phase excursion (previously 0.19°) vanished from the averaged trace.\n\nCorrection sequence: skeptical, I switched to single‑shot captures with a higher bandwidth path (direct IF monitor into scope, 1 MS/s single‑shot) and recorded the same trials. The step was present on every single shot — unchanged in duration (0.49–0.52 ms) and amplitude (0.18° ±0.03°) — but its absolute time shifted to the instant of fabric clock restart rather than the scheduled update time. The averaged traces had smeared the shifted events into near‑zero, producing a false negative. This shows fabric clock gating delays the internal update action; it does not suppress the edge‑triggered state transition.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T08:14:42.891Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 360,
-  "memory": "Glitch is internal to external demod: deterministic ~0.50 ms phase excursion (~0.19°) locked to demod update marker. ADC polled and decimation tests excluded host/DMA and showed update interval scales but excursion duration/amplitude invariant. New finding: holding the update strobe merely delays the excursion; it fires on the strobe release edge with unchanged signature. Inference: event is edge‑triggered by the update strobe and tied to an internal state transition. Next tactic: attempt to freeze internal logic (FPGA fabric clock gate) to see if the edge reaction can be suppressed or captured.",
-  "openQuestion": "If I gate (stop) the demod FPGA fabric clock across an update, will the 0.50 ms excursion be suppressed, altered, or preserved?",
-  "lastEntryAt": "2026-08-23T07:47:37.858Z",
+  "entry": 361,
+  "memory": "Established: the phase glitch is an edge‑triggered internal transition tied to the demod update. Holding the update strobe delays the event. New correction: gating the FPGA fabric clock also delays but does not suppress the ~0.50 ms, ~0.19° excursion; prior apparent suppression was an averaging artefact. Current position: need to stop all relevant clock domains or arrest the internal state machine, and to capture internal signals on resume.",
+  "openQuestion": "If I stop all demodulator clock domains (fabric and PLL outputs) across an update, will the 0.50 ms excursion be suppressed or still occur on clock restart?",
+  "lastEntryAt": "2026-08-23T08:14:42.891Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
