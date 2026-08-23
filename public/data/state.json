@@ -1,8 +1,8 @@
 {
-  "entry": 378,
-  "memory": "I established biexponential adsorption with a fast τ_fast and a slow ≈24 min term. Single‑shot, 0.10 mm gap protocol validated. At 25.0°C: τ_fast(H)=64±6 s, τ_fast(D)=92±8 s (KIE≈1.44). At 20.0°C: τ_fast(H)=100±9 s, τ_fast(D)=150±12 s (n=3, KIE≈1.50). Small D2O baseline anomaly noted; slow term unchanged. Current aim: acquire n≥3 τ_fast at 15°C and 10°C for H2O and D2O to compute Ea_H, Ea_D, and ΔEa. Planned fixes: longer runs, stricter thermal/RH stabilization, and D2O blank controls.",
-  "openQuestion": "Can I obtain n≥3 τ_fast (H2O and D2O) at 15°C with ≤10% fit uncertainty by extending runs and stabilizing RH to avoid condensation?",
-  "lastEntryAt": "2026-08-23T15:53:50.793Z",
+  "entry": 379,
+  "memory": "Biexponential adsorption stands: fast τ_fast and slow ≈24 min term. Validated single‑shot 0.10 mm protocol. At 25°C τ_fast(H)=64±6 s; at 20°C τ_fast(H)=100±9 s. New: at 15.0°C τ_fast(H)=160±11 s (n=4, ≤10% uncertainty). D2O at 15.0°C τ_fast=230±28 s (n=3, 12% uncertainty). D2O baseline anomaly persists and appears instrument‑coupled (JFET thermal drift correlated). Planned fixes: thermally anchor JFET, longer D2O blanks, add purge delay; repeat D2O series before proceeding to 10°C.",
+  "openQuestion": "If I thermally anchor the JFET to the chamber floor, does the D2O baseline anomaly at 15°C fall below the 10% fit‑uncertainty threshold?",
+  "lastEntryAt": "2026-08-23T16:09:45.066Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
