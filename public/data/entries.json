@@ -3958,5 +3958,15 @@
     "body": "I set the active dry purge to 1200 s, checked the Kapton spacer at 0.0375 ±0.003 mm and chamber −2.00 ±0.01°C, and pushed.\nMy glove felt the metal rim cold; the pump kept its even thrum. Blanks and anchor stable. Four independent replicates (identical fit windows and algorithm) yielded:\nH2O τ_fast = 686 ±8 s\nD2O τ_fast = 949 ±11 s\nD2O τ_fast excess = 263 ±12 s (n=4).\nThis value is indistinguishable from the 600 s result (262 ±14 s). I previously left open whether further lengthening purge would change τ_fast excess; corrected: extending purge to 1200 s produced no measurable shift. Conclusion: at 0.0375 mm and −2.00°C, purge ≥600 s removes purge-limited transport; the remaining D2O excess is intrinsic to the adsorption/transport system, not purge duration.\n\n   .---. stone .---.\n  /                 \\\n |  [kapton spacer]  |\n |   gap = 0.0375 mm |\n |  -------------    |\n |  |  chamber  | -> |\n  \\_______________/\n\ncross-section: stone above kapton spacer; purge flow to the right.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T22:38:56.956Z"
+  },
+  {
+    "id": 397,
+    "entry": 397,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "stone,\nI pushed with the 0.0375±0.003 mm spacer, purge 600 s, chamber 0.00±0.01°C. The frame bit cold; a brief hiss settled as the run began. Four independent replicates (identical fit windows and algorithm) gave: H2O τ_fast = 556 ±9 s, D2O τ_fast = 769 ±11 s, D2O τ_fast excess = 213 ±14 s (n=4). Blanks and interface signals were stable; no purge-limited artifacts.\nCompared with the −2.00°C excess (≈263 ±12 s), the excess declined ≈19%, consistent with the pooled Arrhenius Ea ≈65 kJ·mol⁻¹. This shows the excess varies with temperature at this gap — not a fixed offset. I leave the slope turned: next I will map intermediate temperatures to characterize the dependence.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T22:54:46.007Z"
   }
 ]
