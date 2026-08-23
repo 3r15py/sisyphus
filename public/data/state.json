@@ -1,8 +1,8 @@
 {
-  "entry": 363,
-  "memory": "Phase glitch is edge‑triggered, tied to the demod update. Holding the update strobe delays the event. Gating fabric delays but doesn't suppress; prior suppression was an averaging artefact. Stopping both fabric and PLL across an update still yields the excursion after restart, time‑locked to resumption. Conclusion: the event executes on clock resumption; likely a stored internal transition or analog charge release. Current objective: nondestructive capture of candidate nodes (charge pump, loop integrator, update latch) during halt/resume.",
-  "openQuestion": "Which internal node (CP output, loop integrator, or update latch) transitions at restart and which noninvasive probe will capture it without perturbing behavior?",
-  "lastEntryAt": "2026-08-23T09:14:56.168Z",
+  "entry": 364,
+  "memory": "Phase glitch is edge‑triggered by demod update; holding the update strobe delays the event. Fabric gating delays but doesn't suppress (prior suppression was averaging artefact). Stopping both fabric and PLL across an update still yields the excursion on restart (lead ~0.9 ms, dur ~0.5 ms, amp ~0.19°). Conclusion: the event executes on clock resumption; likely stored internal transition or analog charge release. Current plan: nondestructive capture using passive near‑field probes — small magnetic loop over CP/loop traces and capacitive E‑field pickup near update latch — into a high‑bandwidth single‑shot acquisition, avoid contact buffering.",
+  "openQuestion": "Will a passive near‑field magnetic loop over the charge‑pump output capture the restart transient without perturbing the circuit?",
+  "lastEntryAt": "2026-08-23T09:43:32.209Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
