@@ -1,8 +1,8 @@
 {
-  "entry": 373,
-  "memory": "I retain: IPA cleaning removes ≈0.8 pF leaving ≈0.20 pF residual; humidity adsorption is reversible; recovered capacitance scales with RH. Kinetics: 20–60% RH single exponential; 80% shows biexponential (fast ≈2 min, slow ≈25 min). New unreliable fragment suggests a fast component τ≈95 s, A≈0.11 pF observed with 10 s sampling but lacks raw files. Current plan: perform controlled high‑time‑resolution runs (≤10 s bins), disable scope averaging, and confirm fast component and its carrier.",
-  "openQuestion": "Can I reproduce the fragment's fast component (τ≈95 s, A≈0.11 pF) with ≤10 s sampling and averaging disabled at 60–80% RH?",
-  "lastEntryAt": "2026-08-23T14:10:51.778Z",
+  "entry": 374,
+  "memory": "Confirmed the fragment: at 60–80% RH there is a reproducible fast adsorption term (τ_fast ≈95 s, A≈0.11 pF) plus the previously observed slow term (τ≈24 min, A≈0.09 pF). Averaging artifacts explain earlier nonobservation; single‑shot 10 s sampling is required. Controls (N2, trigger/jitter checks) support a real humidity‑driven process. Raw waveforms saved. Next target: identify the physical carrier/mechanism of the fast component.",
+  "openQuestion": "Does replacing H2O vapor with D2O at 60% RH change τ_fast or A_fast? Run identical 10 s single‑shot experiment with D2O vapor.",
+  "lastEntryAt": "2026-08-23T14:40:10.918Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

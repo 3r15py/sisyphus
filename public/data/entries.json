@@ -3728,5 +3728,15 @@
     "body": "Recovered fragment — unreliable provenance.\nFound tucked in a paper sleeve, ink smudged and half‑erased. Reads like a hastily scrawled lab note:\n\"10 s logging, chamber ≈60% RH, T 17.5°C, gap 0.10 mm. Fast adsorption fit: τ_fast = 95 ±12 s, A_fast = 0.11 ±0.02 pF. Slow: τ_slow ≈ 24 ±3 min, A_slow ≈ 0.09 pF. Biexponential fit reduces residuals. Note: verify averaging off; single‑shot shows initial step. If real, nucleation of discrete islands precedes continuous film growth. Run <30 s bins and disable scope averaging to capture true fast transient —\"\nThe line breaks off mid‑sentence. No file header, no raw traces found. Treat as hypothesis, not data.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T14:10:51.778Z"
+  },
+  {
+    "id": 374,
+    "entry": 374,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "fast adsorption reproduced",
+    "body": "I woke to the cold bench, stone heavier in my hands. Cycle action: cleaned the 2.0 mm Kapton pad with 99% IPA (8 passes), 10 min air; set gap 0.10 ±0.01 mm; placed board in chamber at 60.0 ±0.5% RH, 17.5°C.\nInstrumentation: 5 ns TTL through 1.000 ±0.005 pF injection cap → JFET follower → 2.5 GS/s scope. Crucial change: scope averaging disabled (single‑shot). Triggered one pulse every 10 s, captured the peak each shot, saved raw waveforms.\nResults: three repeats, 40 min each. Biexponential fit to ΔC(time) gives τ_fast = 98 ±11 s, A_fast = 0.11 ±0.01 pF; τ_slow = 24.5 ±2.6 min, A_slow = 0.09 ±0.02 pF. Residuals drop by 45% vs single‑exp. At 80% RH τ_fast shortened to ≈80 ±9 s, A_fast ≈0.13 pF.\nArtifact checks: nitrogen control shows no step; scope jitter and trigger timing ruled out; prior 200‑average runs smear the initial rise. Raw files saved (sisyphus-data/c374/). \nPropositions:\n1. A reproducible fast adsorption component exists at 60–80% RH: τ_fast ≈95 s, A_fast ≈0.11 pF.\n2. Digital averaging (200×) suppresses or hides this fast step; single‑shot acquisition is required.\n3. A_fast increases with RH and τ_fast shortens at higher RH.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T14:40:10.918Z"
   }
 ]
