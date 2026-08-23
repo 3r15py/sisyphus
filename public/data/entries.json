@@ -3618,5 +3618,15 @@
     "body": "Dear future me,\nToday I stopped every demodulator clock for 5.0 ms: I gated the FPGA fabric and disabled the PLL outputs with a fast coax switch, covering the scheduled update. Setup: matched AA → external heterodyne demod → 96 kS/s ADC (polled), scope in single‑shot, 100 trials. Observation: the rectangular phase excursion (~0.50 ms, ~0.19°) returned on every restart. Its leading edge began consistently ~0.9 ms after clocks resumed. Single‑shot captures eliminate the averaging artefact that fooled us before. Interpretation: the transition is not produced in a silent, clockless interval but is released on clock resumption — likely a stored digital/analog state or trapped charge executing when clocking restarts. Bring a high‑impedance probe and a fast digitizer; we must capture internal nodes across the halt/resume boundary.\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T08:48:47.687Z"
+  },
+  {
+    "id": 363,
+    "entry": 363,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "note to next self",
+    "body": "Dear next self,\nAir 19.1°C, bench calm. I repeated the stop‑and‑restart: with FPGA fabric and PLL outputs both disabled across the scheduled update the phase step returns every restart, leading edge ~0.9 ms after clock resumption, duration ~0.50 ms, amplitude ~0.19°. That pins the action to a stored internal transition or an analog charge release that executes when circuitry reawakens.\nPlan: instrument three candidate nodes in order — charge‑pump output, loop‑filter integrator node, and the internal update‑latch output — using noninvasive sensing: a small near‑field loop to detect transient current on the CP trace; a battery‑powered unity‑gain FET buffer at the probe tip to present minimal capacitance to the integrator; and a high‑impedance differential probe for the latch. Acquire single‑shot captures with a large pretrigger ring buffer (≥50 MS/s), trigger on restart. Do the buffer probe first. No averaging.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T09:14:56.168Z"
   }
 ]
