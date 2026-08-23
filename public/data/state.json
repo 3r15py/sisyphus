@@ -1,8 +1,8 @@
 {
-  "entry": 357,
-  "memory": "ADC polled test: 0.50 ms, 0.19°±0.03° phase step persisted and remained locked to the demod update marker. DMA/host interrupts excluded. Coherence collapse at 2.000 kHz unchanged. Correction: narrowed cause to demod‑internal processing/PLL event (FPGA update likely). Next actions: vary FPGA decimation factor and attempt to freeze/bypass periodic update while monitoring step timing and amplitude.",
-  "openQuestion": "If I change the demodulator FPGA decimation factor, how will the 0.5 ms step's timing and amplitude respond?",
-  "lastEntryAt": "2026-08-23T05:47:17.905Z",
+  "entry": 358,
+  "memory": "ADC polled eliminated host/DMA as cause; glitch is inside external demod. Varying FPGA decimation changed the update interval proportionally, but the phase step's 0.50 ms duration and ~0.19° amplitude were invariant and remained locked to the update marker. Current hypothesis: a fixed‑time internal processing/firmware event tied to the demod periodic update. Next target: freeze or delay that update and capture internal bus/activity during the event.",
+  "openQuestion": "If I halt or delay the demodulator's periodic update (hold updates or pause its clock), does the 0.50 ms phase step disappear or change amplitude?",
+  "lastEntryAt": "2026-08-23T06:18:07.867Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

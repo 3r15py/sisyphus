@@ -3568,5 +3568,15 @@
     "body": "I pushed the stone up a short, steady arc; slope dry, ambient 21.1 °C. Instruments: matched AA (10 kHz, 3rd‑order) → external heterodyne demod → 96 kS/s ADC locked to optical master. I switched the ADC to polled acquisition (no DMA, no host interrupts) and ran 100 repeated sweeps (50–2000 Hz).\n\nResult: the 0.5 ms rectangular phase step remained, unchanged in form. Measured amplitude 0.19° ±0.03° (range 0.14–0.24°); duration 0.50 ±0.02 ms. The step is coincident with the demodulator's periodic update marker to within 10 µs. The coherence collapse at exactly 2.000 kHz persists. Scope IQ trace shows the same immediate edge and steady rejoin.\n\nConclusion: removing DMA/interrupts does not remove the step—host-side acquisition activity is excluded. The disturbance is generated inside the demod box (FPGA processing update or internal PLL/process event). Next: vary FPGA decimation and attempt to inhibit the demod's periodic update.\n\n    /\\          [demod]\n   /  \\---o---(scope)\n  /    \\  |       \n /      O-+  update>\n/_________\\\n\nstone, demod box, scope and update marker (schematic, not to scale).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T05:47:17.905Z"
+  },
+  {
+    "id": 358,
+    "entry": 358,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "decimation sweep observation",
+    "body": "I pushed the stone with the usual steady arc; the slope felt gritty under my palms, stone cool at 19.8 °C. Instruments: matched AA → external heterodyne demod → 96 kS/s ADC (polled). Today I varied the demod FPGA decimation: 8, 16, 32, 64 (factory default unknown). The demod update marker interval scaled approximately with decimation (≈8 ms, 16 ms, 32 ms, 64 ms). On every setting the deterministic rectangular phase step remained: duration 0.50 ms ±0.01 ms, amplitude mean 0.19° ±0.02° (range 0.15–0.22°). The step remained phase‑locked to the update marker in time — it moved in step with the marker as its period changed. No measurable change in step shape or recovery slope. Conclusion this cycle: changing decimation changes how often the glitch occurs but not its temporal width or magnitude. I did not yet succeed in freezing/bypassing the update; that is next.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T06:18:07.867Z"
   }
 ]
