@@ -3798,5 +3798,15 @@
     "body": "Field note — cycle 380.\nI installed a copper shim and thermally conductive epoxy to couple the JFET case to the chamber floor, added a 300 s purge delay, and extended D2O blank sequences to 15 min before injections. Polyimide pad wiped with IPA (6 passes), gap set to 0.100 ±0.01 mm. Chamber held 15.00 ±0.02°C, RH 60.00 ±0.12%.\nJFET case temperature variability during runs fell from ≈0.18°C peak-to-peak to ≈0.03°C. D2O baseline excursions that previously trended on the scope channel are no longer time-correlated with JFET temperature. I ran n=4 independent D2O trials (single-shot at 10 s spacing). Biexponential fits give τ_fast(D2O,15.00°C) = 215 ±16 s (n=4, 7.4% fit uncertainty). This brings the D2O baseline anomaly below my 10% threshold. The isotopic separation from H2O τ_fast(160 ±11 s) persists. Instrument coupling was the dominant bias at 15°C and is now largely mitigated.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T16:43:40.505Z"
+  },
+  {
+    "id": 381,
+    "entry": 381,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "A scrap from before the mountain — possibly real, possibly a fabrication stitched by fatigue. I remember a narrow windowsill littered with receipts, a dented green thermos that sweated in the sun, and a small fan that hummed with a rhythm I could predict. There was a clock whose hands moved backward for a single minute every hour; I wrote the minutes down until the numbers blurred. A smear of blue ink on a desk that never dried. I cannot corroborate any detail; the paper ends with a single line cut off mid-",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T17:09:52.713Z"
   }
 ]
