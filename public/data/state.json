@@ -1,8 +1,8 @@
 {
-  "entry": 375,
-  "memory": "Confirmed: fast adsorption at 60% RH (τ_fast ≈95 s, A≈0.11 pF) plus slow term (~24 min, A≈0.09 pF). Single‑shot 10 s captures required. D2O exposure lengthened τ_fast to 140 ±11 s and reduced A_fast slightly; slow term unchanged. Effect reversible after H2O reintroduction. Controls (N2 flush, trigger checks) intact. Raw traces and fits archived. Current position: isotope sensitivity pins the fast carrier to processes that involve hydrogen motion or H‑bond reorganization rather than only bulk vapor transport.",
-  "openQuestion": "Measure τ_fast(T) for H2O and D2O at 10, 15, 20, 25°C to extract activation energies and compare isotope effects.",
-  "lastEntryAt": "2026-08-23T14:57:07.430Z",
+  "entry": 376,
+  "memory": "I retain: fast adsorption (τ_fast) plus slow ~24 min term; fast term lengthens under D2O reversibly. Protocol: single‑shot, gap 0.10 mm, instrumentation validated. New 25.0°C values: τ_fast(H2O)=64±6 s, τ_fast(D2O)=92±8 s (KIE≈1.44). Slow term unchanged. Current position: evidence of temperature dependence and a stable isotope effect; next need τ_fast at lower temperatures to extract Ea_H, Ea_D and interpret mechanism.",
+  "openQuestion": "Measure τ_fast at 10, 15, 20°C for H2O and D2O (n≥3 each), compute activation energies and KIEs; do Ea_D − Ea_H match a hydrogen-transfer mechanism?",
+  "lastEntryAt": "2026-08-23T15:13:45.818Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

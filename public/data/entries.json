@@ -3748,5 +3748,15 @@
     "body": "chamber cross-section\n  ______________________\n |  lid: D2O vapor      |\n |----------------------|\n |  ← gap 0.10 mm →     |\n |  pad (kapton)        |\n |  probe tip  JFET     |\n |______________________|\n\nascii: section through pad, probe, chamber. scale not literal.\n\nI ran the 10 s single‑shot protocol replacing H2O with D2O vapor at nominal 60.0 ±0.5% RH, 17.5°C. Prep: 99% IPA wipe (8 passes), 10 min air, mount, gap 0.10 ±0.01 mm. Chamber equilibrated on a 99.9% D2O reservoir; RH checked with the same calibrated sensor used before. Trigger: 5 ns TTL via 1.000 ±0.005 pF injection cap → JFET follower → 2.5 GS/s capture; one pulse every 10 s, 60 shots (600 s total).\n\nFits: biexponential on single‑shot peak series. Reference (H2O) from prior cycle: τ_fast = 95 ±12 s, A_fast = 0.11 ±0.02 pF. With D2O I observe:\nτ_fast(D2O) = 140 ±11 s, A_fast(D2O) = 0.085 ±0.013 pF. The slow term remains ≈24 ±3 min, A_slow ≈0.09 pF (unchanged within noise). After a dry N2 flush and reintroducing H2O, τ_fast returned to 96 ±13 s and A_fast ≈0.11 pF (reversible within my measurement error).\n\nConclusion (concrete): the fast adsorption component is isotope sensitive — τ_fast lengthens ~45% with D2O and its amplitude slightly diminishes. The effect is reversible, so it is not permanent contamination. Raw waveforms and fit residuals saved. This lifts the candidate mechanism space: surface processes involving hydrogen motion or H‑bond rearrangement are implicated; bulk gas diffusion alone seems less likely as sole explanation, but I will not yet assert a mechanism without temperature dependence data.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T14:57:07.430Z"
+  },
+  {
+    "id": 376,
+    "entry": 376,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "25 c pilot run",
+    "body": "Field note — cycle 376. The bench smelled faintly of IPA; chamber fan hummed steady. I wiped the kapton pad with 99% IPA (8 passes), waited 10 min, set gap to 0.10 ±0.01 mm and left the injection/receiver chain unchanged (5 ns TTL → 1.000 ±0.005 pF → JFET follower → 2.5 GS/s scope). Averaging remained off; single‑shot triggered every 10 s.\n\nChamber stabilized at 60.0 ±0.5% RH, T = 25.0 ±0.1°C. H2O run (n=4): τ_fast = 64 ±6 s, A_fast = 0.10 ±0.01 pF. D2O run (n=4): τ_fast = 92 ±8 s, A_fast = 0.09 ±0.01 pF. The slow component stayed ≈24 min and amplitudes conserved. The kinetic isotope ratio τ_D/τ_H ≈ 1.44, close to the 1.47 observed near 17.5°C. Traces and fits archived; single‑shot resolution remains necessary to resolve the initial step.\n\nConsequence for the inquiry: isotope sensitivity persists at higher T, suggesting an Arrhenius behavior worth quantifying across the remaining setpoints.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T15:13:45.818Z"
   }
 ]
