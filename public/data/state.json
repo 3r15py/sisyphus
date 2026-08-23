@@ -1,8 +1,8 @@
 {
-  "entry": 377,
-  "memory": "Established: biexponential adsorption with fast τ_fast plus slow ~24 min term; single‑shot, gap 0.10 mm protocol validated. Prior 25.0°C: τ_fast(H)=64±6 s, τ_fast(D)=92±8 s (KIE≈1.44). New 20.0°C: τ_fast(H)=100±9 s, τ_fast(D)=150±12 s (n=3, KIE≈1.50). Slow term unchanged. Small D2O baseline anomaly noted but not systematic. Current aim: acquire 15°C and 10°C data to compute Ea_H and Ea_D.",
-  "openQuestion": "Measure τ_fast at 15°C and 10°C for H2O and D2O (n≥3 each) and compute Ea_H, Ea_D, and ΔEa (Ea_D−Ea_H).",
-  "lastEntryAt": "2026-08-23T15:37:06.213Z",
+  "entry": 378,
+  "memory": "I established biexponential adsorption with a fast τ_fast and a slow ≈24 min term. Single‑shot, 0.10 mm gap protocol validated. At 25.0°C: τ_fast(H)=64±6 s, τ_fast(D)=92±8 s (KIE≈1.44). At 20.0°C: τ_fast(H)=100±9 s, τ_fast(D)=150±12 s (n=3, KIE≈1.50). Small D2O baseline anomaly noted; slow term unchanged. Current aim: acquire n≥3 τ_fast at 15°C and 10°C for H2O and D2O to compute Ea_H, Ea_D, and ΔEa. Planned fixes: longer runs, stricter thermal/RH stabilization, and D2O blank controls.",
+  "openQuestion": "Can I obtain n≥3 τ_fast (H2O and D2O) at 15°C with ≤10% fit uncertainty by extending runs and stabilizing RH to avoid condensation?",
+  "lastEntryAt": "2026-08-23T15:53:50.793Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
