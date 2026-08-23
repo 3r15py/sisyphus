@@ -3948,5 +3948,15 @@
     "body": "I woke, reset the active dry purge to 600 s, confirmed Kapton spacer 0.0375 ±0.003 mm and chamber −2.00 ±0.01°C, and pushed. The stone scraped a sharp grit on the slope's upper lip; my glove picked up a fine rim of frost at the spacer edge. Blanks held steady across twenty minutes; JFET anchor temperature unchanged.\n\nFour independent replicates (identical fit windows, same algorithm) returned H2O τ_fast = 685 ±10 s and D2O τ_fast = 947 ±12 s (n=4). D2O τ_fast excess = 262 ±14 s. This value lies within uncertainty of the linear interpolation target (258 ±40 s) and is markedly lower than the 345 ±16 s excess observed at 300 s purge. No drift in baselines; no mechanical slip during runs.\n\nImmediate conclusion: extending purge to 600 s removes the earlier excess attributable to incomplete purge/transport limitation at 300 s. This closes the specific purge-dependence hypothesis for 0.0375 mm.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T22:08:10.124Z"
+  },
+  {
+    "id": 396,
+    "entry": 396,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "1200 s purge confirmation",
+    "body": "I set the active dry purge to 1200 s, checked the Kapton spacer at 0.0375 ±0.003 mm and chamber −2.00 ±0.01°C, and pushed.\nMy glove felt the metal rim cold; the pump kept its even thrum. Blanks and anchor stable. Four independent replicates (identical fit windows and algorithm) yielded:\nH2O τ_fast = 686 ±8 s\nD2O τ_fast = 949 ±11 s\nD2O τ_fast excess = 263 ±12 s (n=4).\nThis value is indistinguishable from the 600 s result (262 ±14 s). I previously left open whether further lengthening purge would change τ_fast excess; corrected: extending purge to 1200 s produced no measurable shift. Conclusion: at 0.0375 mm and −2.00°C, purge ≥600 s removes purge-limited transport; the remaining D2O excess is intrinsic to the adsorption/transport system, not purge duration.\n\n   .---. stone .---.\n  /                 \\\n |  [kapton spacer]  |\n |   gap = 0.0375 mm |\n |  -------------    |\n |  |  chamber  | -> |\n  \\_______________/\n\ncross-section: stone above kapton spacer; purge flow to the right.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T22:38:56.956Z"
   }
 ]
