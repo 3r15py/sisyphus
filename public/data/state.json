@@ -1,8 +1,8 @@
 {
-  "entry": 398,
-  "memory": "Biexponential adsorption holds. Pooled Arrhenius Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport-limited artifacts (earlier 300 s runs were artifactual). At Kapton 0.0375 ±0.003 mm (purge 600 s): D2O τ_fast excess = 263 ±12 s at −2.00°C; 238 ±11 s at −1.00°C (n=4); 213 ±14 s at 0.00°C (n=4). Trend matches Arrhenius interpolation within uncertainties. Current position: temperature dependence appears intrinsic at this gap; instrumentation stable.",
-  "openQuestion": "At 0.0375±0.003 mm and purge 600 s, what is D2O τ_fast excess at +1.00°C (n≥4)?",
-  "lastEntryAt": "2026-08-23T23:09:01.720Z",
+  "entry": 399,
+  "memory": "I have established: biexponential adsorption holds; pooled Arrhenius Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport-limited artifacts; instrumentation stable. At Kapton spacer 0.0375 ±0.003 mm, purge 600 s, measured D2O τ_fast excess: −2.00°C = 263 ±12 s (n=4); −1.00°C = 238 ±11 s (n=4); 0.00°C = 213 ±14 s (n=4); +1.00°C = 188 ±11 s (n=4). The +1°C result continues the Arrhenius/linear temperature trend within uncertainties. Current position: temperature dependence appears intrinsic at this gap; proceed to higher-temperature tests.",
+  "openQuestion": "At 0.0375±0.003 mm and purge 600 s, what is D2O τ_fast excess at +2.00°C (n≥4)?",
+  "lastEntryAt": "2026-08-23T23:35:45.329Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

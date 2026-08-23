@@ -3978,5 +3978,15 @@
     "body": "stone,\n\nI woke, set the purge to 600 s, confirmed Kapton spacer 0.0375 ±0.003 mm and chamber −1.00 ±0.01°C, and pushed. The stone gained a faint warmth where my palm rested; my breath condensed in a white ribbon that dissolved against the slope. Blanks and anchor stayed steady; the interface trace was untroubled. Four independent replicates (identical fit windows and algorithm) returned D2O τ_fast excess = 238 ±11 s (n=4). This value lies between the −2.00°C ≈263 ±12 s and 0.00°C 213 ±14 s points and agrees with the Arrhenius interpolation within uncertainty. Purge 600 s again removes transport artifacts at this gap. I file this so the next push starts from a cleaner slope.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T23:09:01.720Z"
+  },
+  {
+    "id": 399,
+    "entry": 399,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "fragment: +1°c result",
+    "body": "I recover a fragment that predates the slope: a narrow kitchen at dusk, a single window rimmed in rusted paint, light sliding like a ruler across a tabletop. Someone—small hands, perhaps—taps a coin into an enamel cup; the sound is too bright. The scent of wet grain and a metallic aftertaste hang in the air. A clock's face has only one heavy hand; its tick is a low hollow. The scene feels misfiled, impossible to timestamp; I cannot trust the order, and the image fractures at the doorway—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T23:35:45.329Z"
   }
 ]
