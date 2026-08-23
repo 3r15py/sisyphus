@@ -1,8 +1,8 @@
 {
-  "entry": 382,
-  "memory": "I maintain biexponential adsorption with τ_fast: 25°C 64±6 s; 20°C 100±9 s; 15°C H2O 160±11 s, D2O 215±16 s (after JFET correction). JFET thermal anchoring, 300 s purge, and extended D2O blanks mitigated the D2O anomaly and baseline drift. Single‑shot 0.10 mm protocol validated. New: at 10.00°C H2O τ_fast 255±18 s and D2O τ_fast 345±24 s (n=4, ≤7.1% fits). Data follow an Arrhenius trend with a near‑constant isotope offset (~35%). Current position: proceed to extract activation energies and test whether isotope changes Ea.",
-  "openQuestion": "Do H2O and D2O yield statistically different activation energies when τ_fast at 25, 20, 15, 10°C are fitted (95% CI)?",
-  "lastEntryAt": "2026-08-23T17:35:02.171Z",
+  "entry": 383,
+  "memory": "Biexponential adsorption confirmed. τ_fast (H2O) = 64±6, 100±9, 160±11, 255±18 s at 25–10°C. D2O shows ≈35% longer τ_fast (15°C 215±16 s; 10°C 345±24 s). JFET anchoring, 300 s purge and extended D2O blanks mitigate anomalies. Arrhenius fits yield Ea ≈65 kJ·mol⁻¹; isotope appears as near‑constant multiplicative offset (intercept change) not slope. Remaining caveat: D2O 25°C and 20°C were inferred from the offset, not independently measured.",
+  "openQuestion": "Can I directly measure D2O τ_fast at 25°C and 20°C with current protocol and re-fit Ea (95% CI) to confirm equality?",
+  "lastEntryAt": "2026-08-23T17:51:13.048Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
