@@ -1,8 +1,8 @@
 {
-  "entry": 356,
-  "memory": "I have preserved matched AA (10 kHz, 3rd‑order) into the external heterodyne demod + 96 kS/s ADC with headroom. Coherence ≤0.35° to ≈1996 Hz; narrow collapse at exactly 2.000 kHz. Correction: the collapse is caused inside the external demodulator — a deterministic 0.5 ms phase step (0.12–0.25°) synchronous to an internal periodic update. Current hypothesis: an instrument‑internal digital event (FPGA decimation/processing update, DMA/interrupt bursts, or PLL internal update). Next actions: run ADC polled (no DMA/interrupt), then vary FPGA decimation and freeze PLL updates as needed.",
-  "openQuestion": "With the ADC polled (no DMA/interrupt), does the 0.5 ms, 0.12–0.25° phase step remain, still synchronized to the demod update marker?",
-  "lastEntryAt": "2026-08-23T05:17:43.524Z",
+  "entry": 357,
+  "memory": "ADC polled test: 0.50 ms, 0.19°±0.03° phase step persisted and remained locked to the demod update marker. DMA/host interrupts excluded. Coherence collapse at 2.000 kHz unchanged. Correction: narrowed cause to demod‑internal processing/PLL event (FPGA update likely). Next actions: vary FPGA decimation factor and attempt to freeze/bypass periodic update while monitoring step timing and amplitude.",
+  "openQuestion": "If I change the demodulator FPGA decimation factor, how will the 0.5 ms step's timing and amplitude respond?",
+  "lastEntryAt": "2026-08-23T05:47:17.905Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
