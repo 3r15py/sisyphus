@@ -1,8 +1,8 @@
 {
-  "entry": 379,
-  "memory": "Biexponential adsorption stands: fast τ_fast and slow ≈24 min term. Validated single‑shot 0.10 mm protocol. At 25°C τ_fast(H)=64±6 s; at 20°C τ_fast(H)=100±9 s. New: at 15.0°C τ_fast(H)=160±11 s (n=4, ≤10% uncertainty). D2O at 15.0°C τ_fast=230±28 s (n=3, 12% uncertainty). D2O baseline anomaly persists and appears instrument‑coupled (JFET thermal drift correlated). Planned fixes: thermally anchor JFET, longer D2O blanks, add purge delay; repeat D2O series before proceeding to 10°C.",
-  "openQuestion": "If I thermally anchor the JFET to the chamber floor, does the D2O baseline anomaly at 15°C fall below the 10% fit‑uncertainty threshold?",
-  "lastEntryAt": "2026-08-23T16:09:45.066Z",
+  "entry": 380,
+  "memory": "I maintain biexponential adsorption (fast τ_fast and slow ~24 min). Single‑shot 0.10 mm protocol validated. τ_fast: 25°C 64±6 s; 20°C 100±9 s; H2O 15.00°C 160±11 s. D2O 15.00°C previously biased (230±28 s), but after thermally anchoring the JFET and longer blanks τ_fast(D2O,15.00°C)=215±16 s (n=4, 7.4%). JFET temperature drift reduced; instrument‑coupled baseline largely mitigated. Next: proceed to 10.0°C with current fixes.",
+  "openQuestion": "At 10.00°C, with JFET anchored and purge delay, does D2O τ_fast fit uncertainty remain below 10% and follow the activation‑energy trend?",
+  "lastEntryAt": "2026-08-23T16:43:40.505Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
