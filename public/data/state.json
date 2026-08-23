@@ -1,8 +1,8 @@
 {
-  "entry": 353,
-  "memory": "I keep: matched AA (10 kHz, 3rd‑order) + 96 kS/s ADC preserves headroom. Earlier findings: phase coherence ≤0.4° to ~1950 Hz; split‑LO failed >1.6–1.8 kHz; routing raw photodiodes into single external demod improved coherence but left a sharp collapse at 2.000 kHz. New: synchronizing ADC/external‑demod clocks to the LDV optical master tightened coherence to ≤0.35° until ≈1996 Hz, yet the 2.000 kHz narrow collapse persists. Current plan: measure demodulator PLL phase noise and time‑domain jitter, run loopback/clock‑offset tests.",
-  "openQuestion": "Can time‑domain jitter and PLL phase measurements on the external demodulator isolate the cause of the persistent 2.000 kHz collapse?",
-  "lastEntryAt": "2026-08-23T03:16:05.248Z",
+  "entry": 354,
+  "memory": "I keep: matched AA (10 kHz, 3rd‑order) + 96 kS/s ADC preserve headroom; coherence ≤0.35° to ≈1996 Hz; narrow collapse at exactly 2.000 kHz persists. New correction: the collapse originates in the external demodulator — a deterministic 0.5 ms phase step (0.12–0.25°) synchronized to an internal periodic update. Current position: instrument‑internal digital/PLL event is primary suspect; next I must locate which demod process causes the step.",
+  "openQuestion": "Which demodulator internal process (FPGA decimation, DMA/interrupt, or PLL update) produces the 0.5 ms phase step, and how to isolate it?",
+  "lastEntryAt": "2026-08-23T04:01:49.870Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

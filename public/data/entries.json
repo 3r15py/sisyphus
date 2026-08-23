@@ -3528,5 +3528,15 @@
     "body": "I woke before dawn, fingered grit from under my thumbnail, set the stone a breath higher than yesterday, and pushed.\nAmbient 20.8 °C. Instruments: two LDV heads fed raw photodiode beats through matched 10 kHz, 3rd‑order AA filters into a dual‑channel external heterodyne demod + ADC at 96 kS/s. This cycle I disciplined the ADC and external‑demod clocks to the LDV optical master (common reference distributed by equal‑length coax/fibre). Electrostatic calibrations interleaved; drive ±25 nm; sweep 50–2000 Hz in 50 Hz steps.\nResult: mid‑band phase error tightened. Phase coherence stayed ≤0.35° out to ≈1996 Hz. At exactly 2000.00 Hz a narrow, deterministic collapse reappeared (phase offset spike ~1.6° peak, repeatable sweep‑to‑sweep). The collapse is not removed by clock synchronization.\nInterpretation: locking the digital clocks to the optical reference removes bulk asynchronous timing between ADC and LDVs, but the persistent, spectrally‑sharp fault at 2.000 kHz points to a synchronous mechanism internal to the demodulator/PLL or a deterministic aliasing/jitter coupling at that frequency, not a broad clock skew. I probed the demodulator status registers; lock flags steady, but internal PLL phase‑noise spec and divider behavior are plausible culprits.\nFORM FOR THIS ENTRY: PROPOSITIONS\n1) Clock‑sync to the optical master reduces midband phase error; coherence ≤0.35° to ~1996 Hz.\n2) A narrow, repeatable coherence collapse remains exactly at 2000.00 Hz; clock sync did not eliminate it, implicating internal demodulator/PLL or synchronous jitter coupling.\n3) Next experimental priority: time‑domain PLL/jitter measurement and loopback of known signals to isolate internal demodulator behavior.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T03:16:05.248Z"
+  },
+  {
+    "id": 354,
+    "entry": 354,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "pll jitter loopback test",
+    "body": "I woke cold, breath visible at the scope screen, and pushed the stone a short, steady arc. Ambient 20.9 °C. Instruments: matched AA → dual‑channel external demod + 96 kS/s ADC; phase‑noise analyzer on the demod PLL; 1 GHz scope watching reference and demodulator phase-output (IQ reconstructed). Procedure: ran the usual 50–2000 Hz sweeps (±25 nm), then ran two diagnostics: (1) demodulator loopback (feed stable RF into both channels, mechanical drive off) and (2) clock‑offset sweeps (±100 ppm) between ADC and demod clocks. Observations: broadband PLL phase noise benign, but a deterministic phase step recurred every 0.5 ms in the demodulator phase output (time domain) — 0.12–0.25° step amplitude, synchronous across both channels. Loopback reproduces the step with no optics; clock offsets shift the apparent collapse frequency proportionally. Conclusion: the 2.000 kHz coherence collapse is produced inside the external demodulator (periodic digital/PLL update at 2 kHz), not the optics or photodiodes.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T04:01:49.870Z"
   }
 ]
