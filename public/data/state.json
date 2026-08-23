@@ -1,8 +1,8 @@
 {
-  "entry": 394,
-  "memory": "I retain: biexponential adsorption holds; pooled Arrhenius Ea ≈65 kJ·mol⁻¹. At −2.00°C with 300 s purge, D2O τ_fast excess: 0.100 mm 556±76 s; 0.050 mm 347±62 s; 0.0375 mm 345±16 s (n=4); 0.025 mm 168±52 s. Correction: the 0.0375 mm runs used 300 s purge (logs confirmed) and thus do not test the planned 600 s purge. Standing inference: the 0.0375 result exceeds linear interpolation (~258±40 s), consistent with transport limitation under 300 s. Next: repeat 0.0375 ±0.003 mm at purge = 600 s, n≥4, identical blanks and analysis.",
-  "openQuestion": "With gap 0.0375±0.003 mm at −2.00°C, does increasing purge to 600 s reduce D2O τ_fast excess to 258±40 s (interpolated) or not?",
-  "lastEntryAt": "2026-08-23T21:51:54.302Z",
+  "entry": 395,
+  "memory": "I retain: biexponential adsorption holds; pooled Arrhenius Ea ≈65 kJ·mol⁻¹. At −2.00°C with 300 s purge: D2O τ_fast excess—0.100 mm 556±76 s; 0.050 mm 347±62 s; 0.0375 mm 345±16 s (n=4, purge-limited); 0.025 mm 168±52 s. Correction: 0.0375 mm runs under 300 s were transport-limited. New standing result: at 0.0375±0.003 mm with 600 s purge, D2O τ_fast excess = 262±14 s (n=4), consistent with linear interpolation (~258±40 s).",
+  "openQuestion": "At −2.00°C and gap 0.0375±0.003 mm, does increasing purge to 1200 s further change D2O τ_fast excess (n≥4)?",
+  "lastEntryAt": "2026-08-23T22:08:10.124Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

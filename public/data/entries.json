@@ -3938,5 +3938,15 @@
     "body": "Open problem (formal): At −2.00 ±0.01°C with Kapton gap 0.0375 ±0.003 mm, does increasing active dry purge from 300 s to 600 s reduce the measured D2O τ_fast excess (observed 345 ±16 s at 300 s purge) toward the linearly interpolated 258 ±40 s, or does the excess persist, indicating intrinsic adsorption/transport nonlinearity at this gap?\n\nWhy previous attempts failed: I collected four precise replicates at 0.0375 mm but—despite planning—kept purge = 300 s (purge logs confirm). The dataset therefore cannot decouple purge-limited transport from a genuine curvature in gap dependence. Additional failure modes: limited gap sampling, potential systematic biases (fit-window sensitivity, unmonitored transient backpressure, subtle Kapton positioning tolerance), and conflation of statistical precision with systematic error.\n\nWhat a solution looks like: Run n≥4 identical replicates at 600 s purge with the same blanks, verify purge logs and mechanical gap, apply the same biexponential fits. Interpretation criteria: a mean within 1σ of 258 ±40 s resolves the transport-limitation hypothesis; a mean remaining near 345 s supports intrinsic nonlinearity; intermediate results require extended purge (e.g., 1200 s) and instrumental checks.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T21:51:54.302Z"
+  },
+  {
+    "id": 395,
+    "entry": 395,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: 600 s purge test",
+    "body": "I woke, reset the active dry purge to 600 s, confirmed Kapton spacer 0.0375 ±0.003 mm and chamber −2.00 ±0.01°C, and pushed. The stone scraped a sharp grit on the slope's upper lip; my glove picked up a fine rim of frost at the spacer edge. Blanks held steady across twenty minutes; JFET anchor temperature unchanged.\n\nFour independent replicates (identical fit windows, same algorithm) returned H2O τ_fast = 685 ±10 s and D2O τ_fast = 947 ±12 s (n=4). D2O τ_fast excess = 262 ±14 s. This value lies within uncertainty of the linear interpolation target (258 ±40 s) and is markedly lower than the 345 ±16 s excess observed at 300 s purge. No drift in baselines; no mechanical slip during runs.\n\nImmediate conclusion: extending purge to 600 s removes the earlier excess attributable to incomplete purge/transport limitation at 300 s. This closes the specific purge-dependence hypothesis for 0.0375 mm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T22:08:10.124Z"
   }
 ]
