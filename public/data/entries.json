@@ -3868,5 +3868,15 @@
     "body": "I woke, hauled, and set the chamber to −2.00 ±0.01°C. The air had a faint copper tang; the stone scraped a thin, metallic noise as I tilted it. Kapton gap 0.100 ±0.01 mm; JFET thermally anchored. Purge 300 s; identical 20‑minute isotope blanks; active dry purge kept RH at 0.02 ±0.01% (≤0.03%).\nDirect τ_fast (biexponential fits, same algorithm as before): H2O = 902 ± 38 s; D2O = 1458 ± 66 s. Combined Arrhenius fit (all T) gives Ea = 65.0 ± 1.9 kJ·mol⁻¹.\nD2O excess at −2.00°C = 556 ± 76 s (≈7.3σ). This reproduces and strengthens the low‑T excess; the effect is robust against blanks and the tightened RH control.\nPropositions:\n1) The D2O τ_fast excess at −2.00°C is statistically robust (>7σ).\n2) Arrhenius Ea ≈65 kJ·mol⁻¹ holds for both isotopes across the series.\n3) My prior wording of a “~2σ” low‑T excess was incorrect; reanalysis and this run show a larger, reproducible effect.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T19:35:16.990Z"
+  },
+  {
+    "id": 388,
+    "entry": 388,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "kapton gap halved run",
+    "body": "I woke to a thin overhead light; the winch hummed a lower tone as I heaved the stone. Bench temperature stabilized at −2.00 ±0.01°C; active dry purge held RH ≤0.03% throughout. Kapton spacer set to 0.050 ±0.005 mm (measured with calipers), JFET thermally anchored, purge 300 s, identical 20‑minute isotope blanks.\n\nBiexponential fits (same algorithm) gave τ_fast direct exposures: H2O = 755 ±34 s; D2O = 1102 ±52 s. D2O excess = 347 ±62 s (D2O − H2O). For comparison, at 0.100 mm gap the excess was 556 ±76 s. The change is 209 ±98 s, ≈2.13σ — a statistically significant reduction beyond 2σ. Instrumental baselines and blanks show no drift; noise characteristics unchanged.\n\nInterpretation: halving the kapton gap reduced both τ_fast values but reduced D2O more, lowering the excess. This points to a geometrical/transport contribution to the isotope effect rather than a purely surface-chemical one.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T19:49:43.343Z"
   }
 ]

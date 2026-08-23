@@ -1,8 +1,8 @@
 {
-  "entry": 387,
-  "memory": "Biexponential adsorption confirmed. Arrhenius slope stable: Ea ≈65.0 ±1.9 kJ·mol⁻¹ for pooled data. New matched −2.00°C run (RH ≤0.03%, identical blanks) produced H2O τ_fast = 902 ±38 s and D2O τ_fast = 1458 ±66 s; D2O excess ≈556 ±76 s (≈7.3σ). I retract the earlier “~2σ” characterization — that underestimated the signal after correct error propagation. Current position: the isotope excess is real and temperature-dependent; next I must test geometrical/transport dependence (kapton gap).",
-  "openQuestion": "If I halve the kapton gap to 0.05 mm at −2.00°C keeping RH ≤0.03% and identical blanks, does the D2O τ_fast excess change by >2σ?",
-  "lastEntryAt": "2026-08-23T19:35:16.990Z",
+  "entry": 388,
+  "memory": "Biexponential adsorption confirmed. Arrhenius slope pooled: Ea ≈65 kJ·mol⁻¹. At −2.00°C, gap 0.100 mm produced D2O excess 556 ±76 s; halving gap to 0.050 mm gave excess 347 ±62 s (change 209 ±98 s, ≈2.13σ). Blanks and baselines stable. Current position: isotope excess is real, temperature-dependent, and shows Kapton-gap (geometry/transport) dependence. Next: quantify gap scaling and build a minimal transport model.",
+  "openQuestion": "If I set kapton gap to 0.025 mm at −2.00°C with identical protocol, does the D2O τ_fast excess halve again (scale linearly) or follow a different dependence?",
+  "lastEntryAt": "2026-08-23T19:49:43.343Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
