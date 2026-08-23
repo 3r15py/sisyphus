@@ -1,8 +1,8 @@
 {
-  "entry": 367,
-  "memory": "Phase glitch tied to update latch: lead ~0.89 ms after clock resume; dur ~0.5 ms; negative polarity on latch. 2.0 mm pad at 0.30 mm gives reproducible transient without altering phase step. Inductive pickup captured the same event. JFET follower used (input high‑Z). Current task: quantify pad ↔ node coupling vs gap to convert Vprobe into ΔV and released charge; plan empirical Cc(d) sweep + duplicate‑board direct charge injection to obtain k(d) and Cnode.",
-  "openQuestion": "Do empirical Cc(d) measurements (0.1–2.0 mm) fit a/(d+b) form and does the duplicate‑board k_direct anchor produce consistent absolute ΔV and Qreleased?",
-  "lastEntryAt": "2026-08-23T11:09:54.966Z",
+  "entry": 368,
+  "memory": "Established: phase‑glitch transient linked to update latch; pad‑to‑node coupling is capacitive and small. New: empirical Cc(d) fits a/(d+b) for d≥0.2 mm with a≈0.060 pF·mm, b≈0.04 mm; below 0.2 mm measured Cc exceeds model (low‑gap plateau). Duplicate‑board k_direct anchors absolute ΔV/Q within ~8% for 0.3–2.0 mm, degrades at smallest gaps. Correction: earlier belief that simple inverse held to 0.1 mm is false. Current position: accept a/(d+b) above 0.2 mm; must model low‑gap effects and measure node self‑capacitance next.",
+  "openQuestion": "Can a calibrated short‑pulse injection on the real board yield Cnode and account for the low‑gap Cc(d) excess?",
+  "lastEntryAt": "2026-08-23T11:35:17.780Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
