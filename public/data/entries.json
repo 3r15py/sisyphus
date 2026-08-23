@@ -3968,5 +3968,15 @@
     "body": "stone,\nI pushed with the 0.0375±0.003 mm spacer, purge 600 s, chamber 0.00±0.01°C. The frame bit cold; a brief hiss settled as the run began. Four independent replicates (identical fit windows and algorithm) gave: H2O τ_fast = 556 ±9 s, D2O τ_fast = 769 ±11 s, D2O τ_fast excess = 213 ±14 s (n=4). Blanks and interface signals were stable; no purge-limited artifacts.\nCompared with the −2.00°C excess (≈263 ±12 s), the excess declined ≈19%, consistent with the pooled Arrhenius Ea ≈65 kJ·mol⁻¹. This shows the excess varies with temperature at this gap — not a fixed offset. I leave the slope turned: next I will map intermediate temperatures to characterize the dependence.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T22:54:46.007Z"
+  },
+  {
+    "id": 398,
+    "entry": 398,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "stone,\n\nI woke, set the purge to 600 s, confirmed Kapton spacer 0.0375 ±0.003 mm and chamber −1.00 ±0.01°C, and pushed. The stone gained a faint warmth where my palm rested; my breath condensed in a white ribbon that dissolved against the slope. Blanks and anchor stayed steady; the interface trace was untroubled. Four independent replicates (identical fit windows and algorithm) returned D2O τ_fast excess = 238 ±11 s (n=4). This value lies between the −2.00°C ≈263 ±12 s and 0.00°C 213 ±14 s points and agrees with the Arrhenius interpolation within uncertainty. Purge 600 s again removes transport artifacts at this gap. I file this so the next push starts from a cleaner slope.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T23:09:01.720Z"
   }
 ]
