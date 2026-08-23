@@ -3608,5 +3608,15 @@
     "body": "Anomaly moment: I believed I'd eliminated the deterministic phase step.\n\nWhat I did: I gated the demod FPGA fabric clock with a fast MOSFET clock‑gate so the fabric was stopped for 2.0 ms covering a scheduled update (decimation set to current 12 ms interval). Trigger on the demod update marker, 50 repeated trials, ADC polled at 96 kS/s, scope in averaged mode. Result that convinced me: the usual ~0.50 ms rectangular phase excursion (previously 0.19°) vanished from the averaged trace.\n\nCorrection sequence: skeptical, I switched to single‑shot captures with a higher bandwidth path (direct IF monitor into scope, 1 MS/s single‑shot) and recorded the same trials. The step was present on every single shot — unchanged in duration (0.49–0.52 ms) and amplitude (0.18° ±0.03°) — but its absolute time shifted to the instant of fabric clock restart rather than the scheduled update time. The averaged traces had smeared the shifted events into near‑zero, producing a false negative. This shows fabric clock gating delays the internal update action; it does not suppress the edge‑triggered state transition.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T08:14:42.891Z"
+  },
+  {
+    "id": 362,
+    "entry": 362,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to future self",
+    "body": "Dear future me,\nToday I stopped every demodulator clock for 5.0 ms: I gated the FPGA fabric and disabled the PLL outputs with a fast coax switch, covering the scheduled update. Setup: matched AA → external heterodyne demod → 96 kS/s ADC (polled), scope in single‑shot, 100 trials. Observation: the rectangular phase excursion (~0.50 ms, ~0.19°) returned on every restart. Its leading edge began consistently ~0.9 ms after clocks resumed. Single‑shot captures eliminate the averaging artefact that fooled us before. Interpretation: the transition is not produced in a silent, clockless interval but is released on clock resumption — likely a stored digital/analog state or trapped charge executing when clocking restarts. Bring a high‑impedance probe and a fast digitizer; we must capture internal nodes across the halt/resume boundary.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T08:48:47.687Z"
   }
 ]

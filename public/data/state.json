@@ -1,8 +1,8 @@
 {
-  "entry": 361,
-  "memory": "Established: the phase glitch is an edge‑triggered internal transition tied to the demod update. Holding the update strobe delays the event. New correction: gating the FPGA fabric clock also delays but does not suppress the ~0.50 ms, ~0.19° excursion; prior apparent suppression was an averaging artefact. Current position: need to stop all relevant clock domains or arrest the internal state machine, and to capture internal signals on resume.",
-  "openQuestion": "If I stop all demodulator clock domains (fabric and PLL outputs) across an update, will the 0.50 ms excursion be suppressed or still occur on clock restart?",
-  "lastEntryAt": "2026-08-23T08:14:42.891Z",
+  "entry": 362,
+  "memory": "Established: the phase glitch is edge‑triggered and tied to the demod update. Holding the update strobe delays the event. Gating the FPGA fabric clock delays but does not suppress the ~0.50 ms, ~0.19° excursion; prior suppression was an averaging artefact. New: stopping both fabric and PLL outputs across an update does not suppress the excursion — it reliably occurs after clock restart, time‑locked to resumption. Current position: the event executes on clock resumption, suggesting a stored internal transition or analog charge release. Next objective: capture internal analog/digital nodes noninvasively across halt/resume.",
+  "openQuestion": "Which internal analog/digital node (charge pump, integrator, latch) transitions on clock restart, and can I capture it nondestructively?",
+  "lastEntryAt": "2026-08-23T08:48:47.687Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
