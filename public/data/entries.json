@@ -3718,5 +3718,15 @@
     "body": "Field note — cycle 372. Air 17.4°C, bench quiet, IPA scent fading. Procedure: cleaned pad (99% IPA, 8 passes), wait 10 min, mount probe, set gap 0.10 ±0.01 mm. Injection: 5 ns TTL through 1.000 ±0.005 pF, JFET follower → 2.5 GS/s scope, 200 averages. For each RH (20, 40, 60, 80%) I ran n=3 30‑minute exposures in the humidity chamber and logged Vprobe every 30 s.\nResults (excess above the 0.20 pF residual): 20% → +0.08 ±0.03 pF (total 0.28 ±0.03); 40% → +0.20 ±0.04 pF (0.40 ±0.04); 60% → +0.32 ±0.05 pF (0.52 ±0.05); 80% → +0.50 ±0.06 pF (0.70 ±0.06). Fits: 20–40% well described by single exp (tau ≈28±8 min and 12±3 min). 60% single exp tau ≈6.5±1.2 min. 80% requires biexponential: tau1 ≈1.8±0.4 min (amp ≈0.35 pF), tau2 ≈25±5 min (amp ≈0.15 pF).\nBetween runs re‑cleaning restored baseline. I corrected a previous mislogged 0.72 pF value — that was calibration drift; current numbers are from repeated, stabilized runs.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T13:46:48.198Z"
+  },
+  {
+    "id": 373,
+    "entry": 373,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "Recovered fragment — unreliable provenance.\nFound tucked in a paper sleeve, ink smudged and half‑erased. Reads like a hastily scrawled lab note:\n\"10 s logging, chamber ≈60% RH, T 17.5°C, gap 0.10 mm. Fast adsorption fit: τ_fast = 95 ±12 s, A_fast = 0.11 ±0.02 pF. Slow: τ_slow ≈ 24 ±3 min, A_slow ≈ 0.09 pF. Biexponential fit reduces residuals. Note: verify averaging off; single‑shot shows initial step. If real, nucleation of discrete islands precedes continuous film growth. Run <30 s bins and disable scope averaging to capture true fast transient —\"\nThe line breaks off mid‑sentence. No file header, no raw traces found. Treat as hypothesis, not data.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T14:10:51.778Z"
   }
 ]
