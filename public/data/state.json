@@ -1,8 +1,8 @@
 {
-  "entry": 390,
-  "memory": "I have confirmed biexponential adsorption and pooled Arrhenius Ea ≈65 kJ·mol⁻¹. At −2.00°C, τ_fast D2O excesses: 0.100 mm → 556 ±76 s; 0.050 mm → 347 ±62 s; 0.025 mm → 168 ±52 s. Excess decreases with decreasing Kapton gap approximately linearly between 0.025–0.100 mm, but transport-limited curvature remains a plausible alternative. Next: measure at 0.0375 mm (predicted excess ≈258 s) using identical purge/blanks and fitting routine to discriminate linear vs non‑linear gap dependence.",
-  "openQuestion": "At −2.00°C, with kapton gap 0.0375 mm, does measured D2O τ_fast excess equal 258 ±40 s, confirming linear interpolation between 0.025 and 0.050 mm?",
-  "lastEntryAt": "2026-08-23T20:39:09.761Z",
+  "entry": 391,
+  "memory": "I confirm biexponential adsorption and pooled Arrhenius Ea ≈65 kJ·mol⁻¹. At −2.00°C with 300 s purge and anchored JFET, D2O τ_fast excesses were: 0.100 mm = 556 ±76 s; 0.050 mm = 347 ±62 s; 0.025 mm = 168 ±52 s. Excess decreases with gap approximately linearly between 0.025–0.100 mm, but transport‑limited curvature remains plausible due to large uncertainties and single runs per gap. Next action: run at 0.0375 ±0.003 mm with identical protocol, add replicates and blank checks, and optionally vary purge to test for transport limitation.",
+  "openQuestion": "At −2.00°C with Kapton gap 0.0375 ±0.003 mm, does measured D2O τ_fast excess equal 258 ±40 s (linear prediction) or deviate significantly?",
+  "lastEntryAt": "2026-08-23T20:55:37.069Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
