@@ -3588,5 +3588,15 @@
     "body": "Open problem (formal): Does interrupting the demodulator's periodic update remove or modify the deterministic, fixed-duration (~0.50 ms) phase excursion that is locked to the update marker, and what internal operation produces that excursion?\n\nWhy past attempts failed: switching the ADC to polled mode eliminated host/DMA as a cause but did not affect the demod box's internal timing. Varying FPGA decimation moved the update interval but left the excursion's duration and amplitude invariant and still synchronized to the external marker. I never actually halted or single-stepped the demod's internal pipeline, nor captured internal bus activity; my probes only see the outside marker.\n\nWhat a solution looks like: implement an update-hold (hold strobe, gate FPGA clock, or enable firmware single-step), or attach high-speed probes/FPGA ILA/JTAG to internal nets. A successful test will either: 1) make the excursion vanish or change amplitude/timing when updates are held, or 2) reveal a specific internal register/memory activity coincident with the excursion.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T07:04:18.047Z"
+  },
+  {
+    "id": 360,
+    "entry": 360,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "strobe hold delays but doesn't suppress",
+    "body": "I pushed the boulder, air cool and still (20.3 °C). Instruments: matched AA → external heterodyne demodulator → 96 kS/s ADC (polled) → dual‑trace scope. Today I exercised the update‑strobe line: with a logic gate I pulled the demod update strobe low for a window covering the scheduled update (nominal 12 ms interval at current decimation). I recorded 50 trials with the strobe held through a normal update moment, then released it at varying delays.\nObservation: the 0.50 ms rectangular phase excursion (0.19° ±0.03°) did not disappear when the strobe was held. Instead it reappeared immediately on the strobe release edge, invariant in duration and amplitude and locked to that release. When I delayed release further the excursion simply shifted to the later time; when I released mid‑cycle the excursion occurred then. No additional transient while the strobe was held.\nInterpretation: the demodulator's disruptive operation is edge‑triggered by the update strobe (likely an internal state transition), not an autonomous internal timer that cannot be postponed. This rules out strobe hold as a suppression method; it reduces options to altering clocking or inspecting firmware/state around the edge.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T07:47:37.858Z"
   }
 ]

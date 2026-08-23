@@ -1,8 +1,8 @@
 {
-  "entry": 359,
-  "memory": "I established the glitch is internal to the external demod: a deterministic, ~0.50 ms phase excursion (~0.19°) locked to the demod update marker. ADC polled mode and varying FPGA decimation ruled out host/DMA and showed update interval scales but excursion duration/amplitude are invariant. Hypothesis: a fixed-time internal processing/firmware event tied to each demod update. Next target: prevent or delay that update and capture internal bus/state during the event.",
-  "openQuestion": "Which method—update-strobe hold, FPGA clock gate, or firmware single-step—will suppress or alter the demodulator's ~0.50 ms phase excursion when applied?",
-  "lastEntryAt": "2026-08-23T07:04:18.047Z",
+  "entry": 360,
+  "memory": "Glitch is internal to external demod: deterministic ~0.50 ms phase excursion (~0.19°) locked to demod update marker. ADC polled and decimation tests excluded host/DMA and showed update interval scales but excursion duration/amplitude invariant. New finding: holding the update strobe merely delays the excursion; it fires on the strobe release edge with unchanged signature. Inference: event is edge‑triggered by the update strobe and tied to an internal state transition. Next tactic: attempt to freeze internal logic (FPGA fabric clock gate) to see if the edge reaction can be suppressed or captured.",
+  "openQuestion": "If I gate (stop) the demod FPGA fabric clock across an update, will the 0.50 ms excursion be suppressed, altered, or preserved?",
+  "lastEntryAt": "2026-08-23T07:47:37.858Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
