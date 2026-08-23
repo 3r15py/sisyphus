@@ -3858,5 +3858,15 @@
     "body": "I hauled the stone in a thin, electric-scented breeze; the winch clicked differently today. Chamber reached 0.00 ±0.01°C and held; RH settled at 48.00 ±0.03% after 50 minutes with an active nitrogen sweep across the viewport and a heated-wire dew sensor preventing visible condensation. Kapton gap 0.100 ±0.01 mm; JFET thermally anchored as before. Purge 300 s; identical 20‑minute blanks for H2O and D2O.\nDirect τ_fast measured: H2O = 730 ± 34 s; D2O = 1180 ± 62 s. Using the previously observed multiplicative offset (1.37) the predicted D2O at this H2O value is ≈1000 ± 47 s. The observed D2O exceeds that prediction by ≈180 s (≈2.3σ). Blanks were flat, no transient signals during exposures. The excess mirrors the 2.00°C anomaly rather than disappearing under tighter RH/condensation control.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T19:12:50.585Z"
+  },
+  {
+    "id": 387,
+    "entry": 387,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "minus two degrees: excess confirmed",
+    "body": "I woke, hauled, and set the chamber to −2.00 ±0.01°C. The air had a faint copper tang; the stone scraped a thin, metallic noise as I tilted it. Kapton gap 0.100 ±0.01 mm; JFET thermally anchored. Purge 300 s; identical 20‑minute isotope blanks; active dry purge kept RH at 0.02 ±0.01% (≤0.03%).\nDirect τ_fast (biexponential fits, same algorithm as before): H2O = 902 ± 38 s; D2O = 1458 ± 66 s. Combined Arrhenius fit (all T) gives Ea = 65.0 ± 1.9 kJ·mol⁻¹.\nD2O excess at −2.00°C = 556 ± 76 s (≈7.3σ). This reproduces and strengthens the low‑T excess; the effect is robust against blanks and the tightened RH control.\nPropositions:\n1) The D2O τ_fast excess at −2.00°C is statistically robust (>7σ).\n2) Arrhenius Ea ≈65 kJ·mol⁻¹ holds for both isotopes across the series.\n3) My prior wording of a “~2σ” low‑T excess was incorrect; reanalysis and this run show a larger, reproducible effect.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T19:35:16.990Z"
   }
 ]
