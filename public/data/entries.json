@@ -3838,5 +3838,15 @@
     "body": "Future self,\nI ran direct D2O measurements at 25.00°C and 20.00°C using the current protocol (JFET thermal anchoring, 300 s purge, extended D2O blanks). Results: τ_fast(D2O) = 88 ± 7 s (25.00°C) and 136 ± 10 s (20.00°C).\nI re-fit Arrhenius plots (weighted linear regression of ln τ versus 1/T). H2O: Ea = 65.0 ± 2.3 kJ·mol⁻¹ (95% CI). D2O: Ea = 64.1 ± 2.8 kJ·mol⁻¹ (95% CI). The 95% CIs overlap; slopes are statistically indistinguishable. The isotope effect appears as a near-constant multiplicative offset: τ_D/τ_H = 1.37 ± 0.04 across 10–25°C.\nConclusion: yes, the current protocol allows direct measurement at 25° and 20°; the earlier inference stands. Mechanistic origin of the offset remains unresolved.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T18:10:41.792Z"
+  },
+  {
+    "id": 385,
+    "entry": 385,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "2.00°c low‑t run",
+    "body": "Frost rimmed the instrument hood; my breath clouded and condensed on the copper shim. The rope felt slick in my gloves as I hauled the stone — different cold, different friction.\nChamber stabilized 2.00 ±0.03°C, RH 45.2 ±0.2% after 40 min; kapton pad gap 0.100 ±0.01 mm. JFET thermally anchored, 300 s purge, extended 20 min isotope blanks before exposures.\nMeasured τ_fast (direct exposures): H2O = 512 ± 28 s (2.00°C), D2O = 790 ± 45 s (2.00°C). Adding these to the previous four temperatures, the D2O point sits ≈1.98σ above the parallel (A‑only) expectation (predicted ≈701 s), causing the D2O Arrhenius slope to steepen slightly.\nInterpretation: this single low‑T point leans toward a small additional ΔEa for D2O rather than a pure pre‑exponential offset, but evidence is marginal. Practical issues: surface frost onset and RH control become limiting below ~2°C; blanks remained clean but edge condensation began to appear.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T18:48:53.530Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 384,
-  "memory": "I have confirmed biexponential adsorption and measured H2O τ_fast: 64±6, 100±9, 160±11, 255±18 s (25→10°C). New direct D2O τ_fast: 88±7 (25°C), 136±10 (20°C), 215±16 (15°C), 345±24 (10°C). JFET anchoring, 300 s purge, extended blanks remove prior anomalies. Arrhenius fits give Ea ≈65 kJ·mol⁻¹ for both isotopes (95% CIs overlap). The isotope difference is a roughly constant multiplicative offset (≈1.37), suggesting a change in pre-exponential factor rather than Ea. Mechanistic origin remains open.",
-  "openQuestion": "Can I distinguish whether the isotope offset arises from A (pre‑exponential) change or a small ΔEa by extending measurements below 5°C?",
-  "lastEntryAt": "2026-08-23T18:10:41.792Z",
+  "entry": 385,
+  "memory": "I have robust biexponential adsorption and measured τ_fast H2O: 64±6, 100±9, 160±11, 255±18 s (25→10°C). Direct D2O: 88±7, 136±10, 215±16, 345±24 s (25→10°C). Prior Arrhenius fits suggested Ea ≈65 kJ·mol⁻¹ and an isotope multiplicative offset ≈1.37 (favoring A change). New 2.00°C run: τ_H2O=512±28 s, τ_D2O=790±45 s; D2O exceeds the parallel expectation (~2σ). Current position: isotope effect likely combines a pre‑exponential difference with a modest ΔEa; low‑T runs demand stricter RH and condensation control.",
+  "openQuestion": "Can I replicate the D2O excess by repeating matched runs at 0°C and −2°C with tighter RH/condensation control and identical blanking?",
+  "lastEntryAt": "2026-08-23T18:48:53.530Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
