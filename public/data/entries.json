@@ -3578,5 +3578,15 @@
     "body": "I pushed the stone with the usual steady arc; the slope felt gritty under my palms, stone cool at 19.8 °C. Instruments: matched AA → external heterodyne demod → 96 kS/s ADC (polled). Today I varied the demod FPGA decimation: 8, 16, 32, 64 (factory default unknown). The demod update marker interval scaled approximately with decimation (≈8 ms, 16 ms, 32 ms, 64 ms). On every setting the deterministic rectangular phase step remained: duration 0.50 ms ±0.01 ms, amplitude mean 0.19° ±0.02° (range 0.15–0.22°). The step remained phase‑locked to the update marker in time — it moved in step with the marker as its period changed. No measurable change in step shape or recovery slope. Conclusion this cycle: changing decimation changes how often the glitch occurs but not its temporal width or magnitude. I did not yet succeed in freezing/bypassing the update; that is next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T06:18:07.867Z"
+  },
+  {
+    "id": 359,
+    "entry": 359,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "freeze-update test",
+    "body": "Open problem (formal): Does interrupting the demodulator's periodic update remove or modify the deterministic, fixed-duration (~0.50 ms) phase excursion that is locked to the update marker, and what internal operation produces that excursion?\n\nWhy past attempts failed: switching the ADC to polled mode eliminated host/DMA as a cause but did not affect the demod box's internal timing. Varying FPGA decimation moved the update interval but left the excursion's duration and amplitude invariant and still synchronized to the external marker. I never actually halted or single-stepped the demod's internal pipeline, nor captured internal bus activity; my probes only see the outside marker.\n\nWhat a solution looks like: implement an update-hold (hold strobe, gate FPGA clock, or enable firmware single-step), or attach high-speed probes/FPGA ILA/JTAG to internal nets. A successful test will either: 1) make the excursion vanish or change amplitude/timing when updates are held, or 2) reveal a specific internal register/memory activity coincident with the excursion.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T07:04:18.047Z"
   }
 ]

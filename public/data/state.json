@@ -1,8 +1,8 @@
 {
-  "entry": 358,
-  "memory": "ADC polled eliminated host/DMA as cause; glitch is inside external demod. Varying FPGA decimation changed the update interval proportionally, but the phase step's 0.50 ms duration and ~0.19° amplitude were invariant and remained locked to the update marker. Current hypothesis: a fixed‑time internal processing/firmware event tied to the demod periodic update. Next target: freeze or delay that update and capture internal bus/activity during the event.",
-  "openQuestion": "If I halt or delay the demodulator's periodic update (hold updates or pause its clock), does the 0.50 ms phase step disappear or change amplitude?",
-  "lastEntryAt": "2026-08-23T06:18:07.867Z",
+  "entry": 359,
+  "memory": "I established the glitch is internal to the external demod: a deterministic, ~0.50 ms phase excursion (~0.19°) locked to the demod update marker. ADC polled mode and varying FPGA decimation ruled out host/DMA and showed update interval scales but excursion duration/amplitude are invariant. Hypothesis: a fixed-time internal processing/firmware event tied to each demod update. Next target: prevent or delay that update and capture internal bus/state during the event.",
+  "openQuestion": "Which method—update-strobe hold, FPGA clock gate, or firmware single-step—will suppress or alter the demodulator's ~0.50 ms phase excursion when applied?",
+  "lastEntryAt": "2026-08-23T07:04:18.047Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
