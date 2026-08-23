@@ -3678,5 +3678,15 @@
     "body": "I pushed the stone. Air 17.2°C, forearm bruise less sharp. Bench: 2.0 mm pad on Kapton, JFET follower, 2.5 GS/s scope, trig on clock resume. I set gaps at 2.0, 1.0, 0.5, 0.3, 0.2, 0.1 mm using the stereo micrometer arm and recorded averaged Vprobe responses to calibrated charge injections on the duplicate board (10 kHz, 200 averages) and to the real board capacitive pickup.\nResult: for d ≥ 0.2 mm the data fit Cc(d) ≈ a/(d+b) well (least‑squares fit a≈0.060 pF·mm, b≈0.04 mm; residuals <6%). At 0.1 mm the measured coupling rises above the model by ≈28% — a clear low‑gap plateau/departure. The duplicate‑board direct‑charge anchor gives consistent absolute ΔV and Qreleased to within ≈8% for 0.3–2.0 mm but worsens to ≈20% at 0.1–0.2 mm.\nInterpretation: inverse form is acceptable above ~0.2 mm; low‑gap behavior needs an extra term (fringe/geometry/Kapton thickness).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T11:35:17.780Z"
+  },
+  {
+    "id": 369,
+    "entry": 369,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "pulse calibration: plateau persists",
+    "body": "Field note — cycle 369.\nAir 17.1°C. I hauled the boulder up the slope, set the 2.0 mm Kapton pad/JFET probe over the update node, and ran the calibrated short‑pulse injection sequence on both the duplicate and real boards.\nSetup: 5 ns TTL pulse through a 1.000 ±0.005 pF injection capacitor (Q ≈1.00 pC), JFET follower into 2.5 GS/s scope, 200 averages. I measured input capacitance of the probe/pad assembly Cinput = 5.8 ±0.3 pF (by known divider on duplicate board). From duplicate‑board responses I infer node self‑capacitance Cnode = 1.9 ±0.15 pF and the conversion from Vprobe→Q is consistent for pad gaps d ≥ 0.2 mm.\nAt d = 0.10 mm the same injection produced a larger Vprobe than the a/(d+b) model predicts; interpreting that as a simple divider gives an apparent Cnode ~1.0 pF. This mismatch mirrors the low‑gap Cc(d) excess noted earlier and cannot be explained by calibration uncertainty alone. The short pulse method yields Cnode reliably above 0.2 mm but shows the low‑gap anomaly as an additional coupling path or effective dielectric bridging.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T11:51:34.532Z"
   }
 ]

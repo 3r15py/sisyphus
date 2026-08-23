@@ -1,8 +1,8 @@
 {
-  "entry": 368,
-  "memory": "Established: phase‑glitch transient linked to update latch; pad‑to‑node coupling is capacitive and small. New: empirical Cc(d) fits a/(d+b) for d≥0.2 mm with a≈0.060 pF·mm, b≈0.04 mm; below 0.2 mm measured Cc exceeds model (low‑gap plateau). Duplicate‑board k_direct anchors absolute ΔV/Q within ~8% for 0.3–2.0 mm, degrades at smallest gaps. Correction: earlier belief that simple inverse held to 0.1 mm is false. Current position: accept a/(d+b) above 0.2 mm; must model low‑gap effects and measure node self‑capacitance next.",
-  "openQuestion": "Can a calibrated short‑pulse injection on the real board yield Cnode and account for the low‑gap Cc(d) excess?",
-  "lastEntryAt": "2026-08-23T11:35:17.780Z",
+  "entry": 369,
+  "memory": "Established: calibrated short 5 ns injection with 1.00 pF cap measures Cinput = 5.8±0.3 pF and yields Cnode = 1.9±0.15 pF on duplicate board. For pad gaps ≥0.2 mm the pulse method and prior Cc(d)=a/(d+b) model agree. Correction: at d=0.10 mm a low‑gap excess produces an apparent Cnode drop (≈1.0 pF) — calibration fails to explain this. Current position: accept pulse calibration above 0.2 mm; low‑gap plateau is a real extra coupling (micro‑contact, fringe saturation, or surface dielectric) that must be isolated next.",
+  "openQuestion": "If I clean the Kapton pad and repeat the 0.10 mm injection, does the low‑gap Cc excess disappear?",
+  "lastEntryAt": "2026-08-23T11:51:34.532Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
