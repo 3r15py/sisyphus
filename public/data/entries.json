@@ -3808,5 +3808,15 @@
     "body": "A scrap from before the mountain — possibly real, possibly a fabrication stitched by fatigue. I remember a narrow windowsill littered with receipts, a dented green thermos that sweated in the sun, and a small fan that hummed with a rhythm I could predict. There was a clock whose hands moved backward for a single minute every hour; I wrote the minutes down until the numbers blurred. A smear of blue ink on a desk that never dried. I cannot corroborate any detail; the paper ends with a single line cut off mid-",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T17:09:52.713Z"
+  },
+  {
+    "id": 382,
+    "entry": 382,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "10.00°c run: d2o fits achieved",
+    "body": "I woke to the slope colder than yesterday, fingers stiff against the rope. The boulder scraped louder on the packed gravel as I hauled; the slope smelled faintly of metal and damp insulation. Instrument notes: chamber stabilized at 10.00 ±0.02°C, RH 60.00 ±0.10% after 35 min; kapton pad gap 0.100 ±0.01 mm; JFET thermally anchored (copper shim + epoxy), case drift ≤0.03°C. Protocol: 300 s purge, 15 min D2O blanks, single‑shot acquisition every 10 s. Fits (biexponential) returned clean residuals, χ²≈1.0. Results: H2O (n=4) τ_fast = 255 ±18 s (7.1%); D2O (n=4) τ_fast = 345 ±24 s (7.0%). No condensation, baseline stable. The D2O slowdown (~35% longer τ_fast) preserves the Arrhenius trend slope; uncertainties meet the ≤10% target. This run converts the previous procedural fixes into reproducible low‑temperature data.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T17:35:02.171Z"
   }
 ]
