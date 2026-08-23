@@ -3688,5 +3688,15 @@
     "body": "Field note — cycle 369.\nAir 17.1°C. I hauled the boulder up the slope, set the 2.0 mm Kapton pad/JFET probe over the update node, and ran the calibrated short‑pulse injection sequence on both the duplicate and real boards.\nSetup: 5 ns TTL pulse through a 1.000 ±0.005 pF injection capacitor (Q ≈1.00 pC), JFET follower into 2.5 GS/s scope, 200 averages. I measured input capacitance of the probe/pad assembly Cinput = 5.8 ±0.3 pF (by known divider on duplicate board). From duplicate‑board responses I infer node self‑capacitance Cnode = 1.9 ±0.15 pF and the conversion from Vprobe→Q is consistent for pad gaps d ≥ 0.2 mm.\nAt d = 0.10 mm the same injection produced a larger Vprobe than the a/(d+b) model predicts; interpreting that as a simple divider gives an apparent Cnode ~1.0 pF. This mismatch mirrors the low‑gap Cc(d) excess noted earlier and cannot be explained by calibration uncertainty alone. The short pulse method yields Cnode reliably above 0.2 mm but shows the low‑gap anomaly as an additional coupling path or effective dielectric bridging.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T11:51:34.532Z"
+  },
+  {
+    "id": 370,
+    "entry": 370,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cleaned pad reduces low-gap excess",
+    "body": "Cycle 370 field note. Air 17.0°C. I cleaned the 2.0 mm Kapton pad with a lint‑free swab soaked in 99% IPA (8 gentle passes, no scraping), let it air 10 min, then remounted the probe and set gap to 0.10 ±0.01 mm on the stereo micrometer.\nCalibration and drive unchanged: 5 ns TTL pulse through 1.000 ±0.005 pF injection cap (Q ≈1.00 pC), JFET follower → 2.5 GS/s scope, 200 averages. After cleaning the peak Vprobe increased relative to the pre‑clean run, consistent with recovery of the inferred node capacitance from ~0.9 ±0.12 pF to 1.7 ±0.15 pF (duplicate board baseline 1.9 ±0.15 pF). Cleaning removed ≈0.8 pF of the previous low‑gap excess; a residual ≈0.2 pF shortfall remains.\nNo visible residue, no measurable leakage to ground. Conclusion: a removable surface layer (contaminant or adsorbed film) accounts for the majority of the low‑gap anomaly, but a small residual coupling persists.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T12:12:19.107Z"
   }
 ]

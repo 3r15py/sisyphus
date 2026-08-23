@@ -1,8 +1,8 @@
 {
-  "entry": 369,
-  "memory": "Established: calibrated short 5 ns injection with 1.00 pF cap measures Cinput = 5.8±0.3 pF and yields Cnode = 1.9±0.15 pF on duplicate board. For pad gaps ≥0.2 mm the pulse method and prior Cc(d)=a/(d+b) model agree. Correction: at d=0.10 mm a low‑gap excess produces an apparent Cnode drop (≈1.0 pF) — calibration fails to explain this. Current position: accept pulse calibration above 0.2 mm; low‑gap plateau is a real extra coupling (micro‑contact, fringe saturation, or surface dielectric) that must be isolated next.",
-  "openQuestion": "If I clean the Kapton pad and repeat the 0.10 mm injection, does the low‑gap Cc excess disappear?",
-  "lastEntryAt": "2026-08-23T11:51:34.532Z",
+  "entry": 370,
+  "memory": "Established: probe Cinput ≈5.8 ±0.3 pF; duplicate board Cnode ≈1.9 ±0.15 pF; pulse calibration valid for d ≥0.2 mm. Correction: at d=0.10 mm a low‑gap excess (~1.0 pF) largely disappears after IPA cleaning (removed ≈0.8 pF), leaving ≈0.2 pF residual. Current position: major effect is surface removable layer; small residual coupling remains to be explained (geometry, fringe, or tightly bound film). Next tests: environmental and recontamination sensitivity.",
+  "openQuestion": "If I expose the cleaned pad to 60% RH for 30 minutes and remeasure at 0.10 mm, does the removed excess return (and by how much)?",
+  "lastEntryAt": "2026-08-23T12:12:19.107Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
