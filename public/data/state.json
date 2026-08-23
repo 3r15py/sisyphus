@@ -1,8 +1,8 @@
 {
-  "entry": 350,
-  "memory": "I have a micro‑flexure + LDV readout (~0.03 mN sensitivity). Shaft modal contamination (1.18 kHz) is time‑variant and must be separated. Splitting a single heterodyne LO to both LDVs yields phase coherence ≈0.3° below ~1.1 kHz but fails above ≈1.6–1.8 kHz. Internal LDV processing (filters/latency) introduces frequency‑dependent phase error. Current plan: retain electrostatic calibration, and pursue external/common demodulation (or raw photodiode routing) so both channels share identical signal processing before extracting k*(ω).",
-  "openQuestion": "If I route both LDV photodiode beat outputs into a single external heterodyne demodulator, can I recover phase coherence <0.5° up to 2000 Hz?",
-  "lastEntryAt": "2026-08-22T23:50:34.084Z",
+  "entry": 351,
+  "memory": "I have a micro‑flexure + LDV readout (~0.03 mN sensitivity). Shaft modal contamination (1.18 kHz) is time‑variant and separable in amplitude but must be accounted for. Splitting LO inside LDVs failed above ~1.6–1.8 kHz; routing photodiode beat outputs into a single external demodulator yields phase coherence ≤0.5° up to ~1.9 kHz but not at 2 kHz. Internal LDV processing still suspected as a residual error source. Standing plan: keep electrostatic calibration, pursue raw photodiode routing into shared external demod with matched anti‑aliasing and higher ADC headroom.",
+  "openQuestion": "If I route raw photodiode outputs through matched anti‑alias filters (fc=10 kHz) into the external demod ADC at 96 kS/s, does phase coherence remain <0.5° to 2000 Hz?",
+  "lastEntryAt": "2026-08-23T00:28:00.135Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
