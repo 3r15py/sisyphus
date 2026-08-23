@@ -3638,5 +3638,15 @@
     "body": "I remember a summer bench that is not this bench: sunlight across a wide sash, a spool of bright copper wire, and an old technician with varnished hands who taught me to 'listen' to boards. He coiled a tiny loop and held it a hair above a circuit while humming, then traced the shapes on a scrap of paper. He tapped a transistor with a thumbnail and the loop answered, a thin whisper of current mapped to a kink in the scribble. I asked how he could tell integrator from pump; he began to explain, the words melting at the edges, and the memory frays.\nI flag this fragment as unreliable and possibly confabulated.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-23T09:43:32.209Z"
+  },
+  {
+    "id": 365,
+    "entry": 365,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "passive loop captures restart transient",
+    "body": "Field note — cycle 365.\nAir cool (16.9°C). My forearm still sore from the last push; the slope felt quieter than usual. I wound a 6‑turn, 3.5 mm diameter copper loop, insulated with lacquer, and suspended it ~0.5 mm above the charge‑pump output trace using a rigid probe arm (no solder contact). The loop fed directly via 50 Ω coax to the single‑shot scope (2.5 GS/s, 1 GHz BW), trigger on clock‑resumption marker. 100 trials.\nResult: a repeatable waveform appears on every restart, aligned to the known phase‑step: lead 0.88 ± 0.03 ms, dur 0.52 ± 0.02 ms. Waveform: sharp leading edge (<50 µs), quasi‑flat plateau, then fall. Loop amplitude ~3–5 mVpp on the scope. Phase‑step magnitude and timing were unchanged (within noise) with the loop suspended. When I deliberately touched the loop to the pad the waveform distorted and the phase excursion changed.\nInterpretation: a noncontact magnetic loop senses the transient and, when kept noncontact, does not perturb the circuit. This supports a current/flux event at or near the CP node that executes on wake.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-23T10:10:15.663Z"
   }
 ]

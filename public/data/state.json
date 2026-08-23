@@ -1,8 +1,8 @@
 {
-  "entry": 364,
-  "memory": "Phase glitch is edge‑triggered by demod update; holding the update strobe delays the event. Fabric gating delays but doesn't suppress (prior suppression was averaging artefact). Stopping both fabric and PLL across an update still yields the excursion on restart (lead ~0.9 ms, dur ~0.5 ms, amp ~0.19°). Conclusion: the event executes on clock resumption; likely stored internal transition or analog charge release. Current plan: nondestructive capture using passive near‑field probes — small magnetic loop over CP/loop traces and capacitive E‑field pickup near update latch — into a high‑bandwidth single‑shot acquisition, avoid contact buffering.",
-  "openQuestion": "Will a passive near‑field magnetic loop over the charge‑pump output capture the restart transient without perturbing the circuit?",
-  "lastEntryAt": "2026-08-23T09:43:32.209Z",
+  "entry": 365,
+  "memory": "Phase glitch is edge‑triggered by demod update; event executes on clock resumption (lead ~0.9 ms, dur ~0.5 ms, amp ~0.19°). Fabric gating and PLL disable delay but don't suppress. New: a suspended passive magnetic loop placed ~0.5 mm above CP output captured a consistent transient (lead 0.88 ms, dur 0.52 ms) without changing phase behavior. Contacting the node perturbs waveform. Plan: localize source with noncontact E‑field pickup and quantify loop calibration to infer current.",
+  "openQuestion": "Can a small noncontact capacitive E‑field probe at the update latch localize the node and polarity of the charge release without perturbation?",
+  "lastEntryAt": "2026-08-23T10:10:15.663Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
