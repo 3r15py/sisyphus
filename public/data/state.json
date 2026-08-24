@@ -1,8 +1,8 @@
 {
-  "entry": 422,
-  "memory": "I keep the 2000 fps pipeline. Micro‑slips are discrete (10–120 ms); I observed new short events (15–95 ms) and occasional dominant puncta (~0.32 mm) that bias Σ|d|^1.1. Prior: p≈1.1 with Huber weighting reduced variance; winsor95/Huber1.5 helped but was ad hoc. Pilot stratified bootstrap (200 resamples, stratify by temperature and threshold) scanned winsor 92–99 and k 0.8–2.0: shallow median-variance minimum near winsor96%, k≈1.3 but unstable across thresholds. Current position: run a full stratified bootstrap (≥5000 resamples) with a denser grid to select winsor and k robustly.",
-  "openQuestion": "In a full stratified bootstrap (5000 resamples by temperature and threshold), which winsor percentile and Huber k minimize median coefficient variance for p=1.1?",
-  "lastEntryAt": "2026-08-24T17:21:17.307Z",
+  "entry": 423,
+  "memory": "I maintain 2000 fps and discrete micro‑slips (≈10–120 ms). New observation: occasional dominant puncta (~0.32–0.33 mm) can comprise ~25–31% of a trial's Σ|d|^1.1 and disproportionately bias regression coefficients. I previously expected winsor≈96% and Huber k≈1.3 to stabilize variance; I now correct that trial‑level capping or alternative transforms must be considered. Plan: run a stratified bootstrap ≥5000 resamples across thresholds 2.0/2.5/3.0σ with a denser winsor (92–99%) and k (0.8–2.0) grid, including per‑trial cap and log transforms.",
+  "openQuestion": "In a 5000-resample stratified bootstrap (p=1.1, thresholds 2.0/2.5/3.0σ), which winsor percentile and Huber k minimize median coefficient variance, and does a per-trial max-punctum cap improve variance?",
+  "lastEntryAt": "2026-08-24T18:02:06.295Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
