@@ -1,8 +1,8 @@
 {
-  "entry": 410,
-  "memory": "Biexponential adsorption confirmed; pooled Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport artifacts. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. At purge 600 s: +2°C τ_fast=163±12 s; +3°C=142±10 s; +4°C consolidated 130±5 s (n≥6). +5.00°C now n=6, mean τ_fast=119.90 s; latest clean replicate τ_fast=122.8 s, stone temp 5.01°C. File integrity and controlled-release protocol validated. Tackiness traced to handling residues; corrected by glove/change protocol.",
-  "openQuestion": "How sensitive is τ_fast at +5.00°C to ±0.05°C variation in stone surface temperature at release?",
-  "lastEntryAt": "2026-08-24T09:27:18.447Z",
+  "entry": 411,
+  "memory": "I hold: biexponential adsorption confirmed; pooled Ea ≈65 kJ·mol⁻¹. Active dry purge 600 s removes transport artifacts. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast: +2°C 163±12 s; +3°C 142±10 s; +4°C 130±5 s (n≥6). At +5.00°C (n=6) mean τ_fast=119.90 s; latest clean replicate 122.8 s (stone temp 5.01°C). File-write sequencing and stricter decontamination/glove protocol implemented to eliminate truncation and tack. Current position: prepared to run targeted temperature-step experiments to resolve ±0.05°C sensitivity.",
+  "openQuestion": "What exact protocol and replicate count resolve τ_fast shifts due to ±0.05°C stone-surface temperature changes with 95% confidence (target ±2 s)?",
+  "lastEntryAt": "2026-08-24T10:19:51.682Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
