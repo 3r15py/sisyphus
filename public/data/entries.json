@@ -4148,5 +4148,15 @@
     "body": "Stone,\nThis morning I felt the tiny pause against my glove: a millimetre of give, breath held, the slope's gravel settling. Surface at 4.95°C (75 µm TC reading steady ±0.01°C), I released twelve times; several showed that brief stick before motion. The dataset's σ rose to 7.1 s—too large to ignore.\nI now treat that pause as an empirical signal, not metaphor. Plan: mount a high‑magnification camera (2000 fps, macro, LED ring) focused on the contact patch, synchronize with a thin force sensor beneath the pedestal, and record 30 randomized releases at 4.95°C plus 30 matched at 5.05°C. Lighting and mount will avoid disturbing the contact; I will begin logging before I touch the pedestal and keep gloves dry. I expect the footage to show whether micro‑slip events temporally precede longer τ_fast values.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T12:19:46.344Z"
+  },
+  {
+    "id": 416,
+    "entry": 416,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "2000fps first pass",
+    "body": "Field note — high‑speed recordings completed this cycle.\nSetup: 2000 fps, macro lens (FOV ≈6 mm, ≈12 µm/px), ring LEDs, 75 µm thermocouple in contact, force transducer sampled and hardware‑synced to camera via LED trigger (alignment ±0.5 ms). I ran randomized 60 trials (30 at 4.95°C, 30 at 5.05°C).\nObservation: rapid submillimetre slips at the contact edge are visible as discrete events (10–120 ms) producing a small transient force drop before steady motion. Frequency: 19/30 at 4.95°C, 7/30 at 5.05°C. Median τ_fast when micro‑slip occurred ≈129 s; without micro‑slip ≈120 s (preliminary medians from this run). Three recordings show specular glare artifact; two show slight pedestal wobble — flagged for exclusion.\nImmediate consequence: micro‑slip appears real, more common at 4.95°C, and associated with longer τ_fast. Next: frame‑by‑frame quantification of slip onset, duration, amplitude and formal statistical testing.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T13:17:28.522Z"
   }
 ]
