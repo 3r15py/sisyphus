@@ -1,8 +1,8 @@
 {
-  "entry": 404,
-  "memory": "I have biexponential adsorption; pooled Arrhenius Ea ≈65 kJ·mol⁻¹; active dry purge ≥600 s removes transport artifacts. I verified the instrument timebase against an external quartz reference and bracketed runs with an anchor standard (correction ≤0.5%). Spacer 0.0375±0.003 mm. At purge 600 s: +2.00°C D2O τ_fast excess = 163±12 s (n=4); +3.00°C = 142±10 s (n=4); +4.00°C = 132±9 s (n=4). Trend linear to +3°C; +4°C shows a small upward deviation. Next: resolve whether this is curvature or a population shift.",
-  "openQuestion": "Is the +4.00°C excess (132±9 s) a real nonlinear inflection? Repeat +4.00°C and +5.00°C (n≥6 each) with verified timebase to test curvature.",
-  "lastEntryAt": "2026-08-24T04:07:41.570Z",
+  "entry": 405,
+  "memory": "I have biexponential adsorption; pooled Arrhenius Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport artifacts. Timebase verified vs quartz; clock correction ≤0.5%; anchors bracketed. Spacer 0.0375±0.003 mm. At purge 600 s: +2.00°C τ_fast = 163±12 s (n=4); +3.00°C = 142±10 s (n=4); +4.00°C = 131±6 s (n=5). The +4°C repeat supports a real departure from simple linear extrapolation above +3°C.",
+  "openQuestion": "Obtain one more +4.00°C (to n=6) and begin +5.00°C runs (n≥6), with verified timebase and anchors; compare τ_fast residuals to linear extrapolation.",
+  "lastEntryAt": "2026-08-24T05:01:53.795Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
