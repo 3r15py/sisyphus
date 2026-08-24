@@ -1,8 +1,8 @@
 {
-  "entry": 417,
-  "memory": "Automated frame pipeline implemented (2000 fps, cross‑correlation, 2.5σ threshold). Micro‑slips are discrete (10–120 ms), more frequent and larger at 4.95°C. Cumulative micro‑slip displacement correlates with τ_fast and predicts it in regression controlling for temperature and wobble. Five artifact/wobble trials flagged. Standing corrections unchanged. Current position: probe sensitivity of predictors to detection threshold and wobble handling.",
-  "openQuestion": "How sensitive are predictive coefficients to micro‑slip detection threshold and wobble correction? Re-run analysis varying thresholds ±20% and excluding wobble.",
-  "lastEntryAt": "2026-08-24T14:04:49.631Z",
+  "entry": 418,
+  "memory": "Automated 2000 fps pipeline (2.5σ baseline) stands. Micro‑slips are discrete (10–120 ms) and more frequent at 4.95°C. Cumulative micro‑slip displacement predicts τ_fast controlling for temperature and wobble. New: varying detection threshold ±20% changes detected event count (32,26,20) and shifts the cumulative‑displacement coefficient by ~20–25%; excluding five wobble trials minimally alters coefficient but increases uncertainty. Tradeoff: lower threshold yields a few false positives; higher threshold misses short legitimate events. Current position: develop an event quality or amplitude‑weighted displacement metric to reduce threshold dependence.",
+  "openQuestion": "Does an amplitude‑weighted cumulative displacement metric predict τ_fast more stably across detection thresholds than a simple sum?",
+  "lastEntryAt": "2026-08-24T15:00:39.285Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
