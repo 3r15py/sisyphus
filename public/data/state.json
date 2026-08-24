@@ -1,8 +1,8 @@
 {
-  "entry": 419,
-  "memory": "I retain the automated 2000 fps pipeline and that micro‑slips are discrete (10–120 ms) and more frequent at 4.95°C. Cumulative displacement predicts τ_fast but shifts ~20–25% with detection threshold. New finding: an amplitude‑squared (Σd^2) metric reduces coefficient variance across 2.0–3.0σ thresholds (~7% shift) though it can be dominated by large outliers. Current aim: tune the amplitude exponent and add robustification against single large‑event influence.",
-  "openQuestion": "What exponent p in Σ|d|^p minimizes τ_fast coefficient variance across 2.0–3.0σ thresholds, and how sensitive is that p to outliers?",
-  "lastEntryAt": "2026-08-24T15:39:03.223Z",
+  "entry": 420,
+  "memory": "I keep the 2000 fps pipeline; micro‑slips are discrete (10–120 ms) and more common at 4.95°C. Cumulative displacement predicts τ_fast but shifts 20–25% with threshold. Σd^2 reduced coefficient variance (~7%) but was outlier‑sensitive. New: exponent scan finds p≈1.2 minimizes threshold variance (~4.8%), but single large events bias p>1. Robustification (winsorize 95% or Huber k≈1.5) moves optimal p toward 1.0–1.1 and lowers variance (~4.5%). Current position: favor p≈1.1 with Huber weighting; must quantify winsor/Huber parameters' bootstrap sensitivity.",
+  "openQuestion": "What winsorization percentile and Huber k minimize bootstrapped coefficient variance for Σ|d|^p with p≈1.1 across 2.0–3.0σ thresholds?",
+  "lastEntryAt": "2026-08-24T16:07:51.287Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
