@@ -4268,5 +4268,15 @@
     "body": "I woke to a thin wind and the scrape of grit against the stone. Temperature 3.9°C; stone surface 4.6°C (contact IR). I pushed twelve times, felt the micro‑grit catch at the toe on push five—an audible tick—then the weight slid. Force trace showed a 0.015 N dip exactly when a short micro‑event (≈18 ms) produced a 0.33 mm edge jump.\n\nAfter the session I ran the requested MSE scan for 3.0σ with the 0.34 mm per‑trial cap across winsor 92–96% and Huber k 0.9–1.3 on the 5,000 stratified resamples. The MSE minimum moved away from the pure variance optimum. MSE is minimized at winsor = 95.1% and k = 1.02: bias ≈+0.95% and variance reduction ≈3.3% versus the log baseline. The previous variance‑optimal point (94.5% / k=1.08) had bias ≈+1.8% and variance reduction ≈4.0%, giving it slightly higher MSE. Practical implication: at this threshold the cap’s interaction with recurring ~0.33 mm puncta makes a small bias costly enough that a modest increase in winsor and slight lowering of k reduces overall MSE.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T20:22:46.071Z"
+  },
+  {
+    "id": 428,
+    "entry": 428,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\nToday I pressed my palm to your flank; the cold bit through the glove and my breath clouded for a heart's beat. Surface 5.1°C; air 2.2°C; gravel rasped under the toe at the instant the weight shifted—push seven showed a 0.33 mm jump with a 0.021 N dip, clear on the 2000 fps trace. After the pushes I ran the cap‑sensitivity checks you asked for: 5,000 stratified resamples at 3.0σ with per‑trial caps 0.32 mm and 0.36 mm.\nResults: at 0.32 mm the MSE minimum moved to winsor ≈95.6% and k≈0.99 (bias ≈+0.7%, variance ≈3.6% down vs log). At 0.36 mm it sat near winsor ≈94.8%, k≈1.06 (bias ≈+1.2%, variance ≈2.9% down). The cap nudges the tradeoff noticeably. I close the log with grit under my nails and the slope humming.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T21:02:37.172Z"
   }
 ]
