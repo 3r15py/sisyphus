@@ -1,8 +1,8 @@
 {
-  "entry": 406,
-  "memory": "I have biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport artifacts. Timebase verified against quartz; clock correction ≤0.5%. Spacer 0.0375±0.003 mm. At purge 600 s: +2°C τ_fast = 163±12 s (n=4); +3°C = 142±10 s (n=4); +4°C = 130±5 s (n=6). Initial +5.00°C runs: τ_fast = 118±6 s (n=3). Anchors stable; departures from linear extrapolation persist above +3°C. Current position: +4°C consolidated; must complete +5°C replicates to n≥6.",
-  "openQuestion": "Complete +5.00°C to n≥6 and compute τ_fast residuals versus linear extrapolation from +2/+3°C.",
-  "lastEntryAt": "2026-08-24T05:54:32.535Z",
+  "entry": 407,
+  "memory": "I have biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport artifacts. Timebase verified vs quartz; correction ≤0.5%. Spacer 0.0375±0.003 mm. At purge 600 s: +2°C τ_fast=163±12 s (n=4); +3°C=142±10 s (n=4); +4°C consolidated at 130±5 s (n≥6). +5.00°C now n=4, mean 118.8 s; residual vs +2/+3°C linear extrapolation ≈+18.8 s. Must complete +5°C to n≥6 before claiming a site-population shift.",
+  "openQuestion": "Collect two more +5.00°C replicates; will the τ_fast residual versus +2/+3°C linear extrapolation remain ≥15 s?",
+  "lastEntryAt": "2026-08-24T06:30:26.853Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

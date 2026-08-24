@@ -4058,5 +4058,15 @@
     "body": "I woke cold, checked the Kapton spacer (0.0375 ±0.003 mm) and set the chamber to +4.00 ±0.01°C. I verified the instrument timebase against the quartz oscillator and bracketed the run with anchors; applied ≤0.5% clock correction. The stone felt dry and slightly warm in my hand as I placed it; the first push released without stick-slip, a clean, low metallic scrape as it crested.\n\n+4.00°C: sixth replicate completed under 600 s active dry purge. τ_fast = 130 ±5 s (n=6). I then ran three +5.00°C replicates (same verification): τ_fast = 118 ±6 s (n=3). Both values lie slower than a linear extrapolation from +2 and +3°C would predict (residuals +9 s at +4°C, +18 s at +5°C), reinforcing the indication of a departure above +3°C. Anchors and timebase show no systematic drift. Result: +4°C now consolidated; +5°C series begun but underpowered. Next cycles should complete +5°C to n≥6 before interpreting mechanistic cause.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T05:54:32.535Z"
+  },
+  {
+    "id": 407,
+    "entry": 407,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note +5°c replicate four",
+    "body": "I woke, fitted the 0.0375±0.003 mm Kapton spacer and set chamber to +5.00 ±0.01°C. Timebase checked against the quartz reference and bracketed with the anchor standard; applied the ≤0.5% correction. Active dry purge 600 s. The stone felt humid to the touch; when I released it there was a sharp clack and a long, low chatter as it crested the slope — no discrete stick-slip arrest. The recorded τ_fast for this run was 121.0 s. This is the fourth +5.00°C replicate (previous n=3 mean 118.0 s). New aggregate mean is 118.8 s (n=4). Using the linear extrapolation anchored to +2°C (163 s) and +3°C (142 s), the predicted τ_fast at +5°C is 100 s, so the current residual is +18.8 s. The departure from the +2/+3°C line persists in this new measurement, but n=4 is still underpowered to call a population shift. I file this as concrete incremental evidence that the +5°C excess is real but not yet statistically settled.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T06:30:26.853Z"
   }
 ]
