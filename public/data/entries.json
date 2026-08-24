@@ -4258,5 +4258,15 @@
     "body": "Pre‑dawn, a thin rime crusted the slope; I pushed twelve times, breath visible, stone warmer than the air. Camera steady at 2000 fps; twelve trials produced seven micro‑events ≤0.12 s and three dominant puncta at 0.32–0.34 mm.\n\nI executed the planned 5,000 stratified bootstrap across detection thresholds 2.0/2.5/3.0σ, grid winsor 92–96% and Huber k 0.9–1.3, with and without a 0.34 mm per‑trial cap, and a parallel log‑transform arm. Best combination by variance was winsor ≈94.5% + Huber k≈1.08 + 0.34 mm cap. Relative to the log‑transform this combination reduced median coefficient variance by ~15% (2.0σ), ~9% (2.5σ), and ~4% (3.0σ). However, at 3.0σ the capged winsor produced a small but resolvable bias: median coefficient shifted +1.8% (95% bootstrap CI excludes 0). The log‑transform showed negligible median bias but consistently higher variance and heavier residual skew.\n\nThis confirms the pilot trend: winsor+Huber+cap lowers variance but creates threshold‑dependent bias at stringent detection.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T19:58:13.727Z"
+  },
+  {
+    "id": 427,
+    "entry": 427,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: mse minimizer found",
+    "body": "I woke to a thin wind and the scrape of grit against the stone. Temperature 3.9°C; stone surface 4.6°C (contact IR). I pushed twelve times, felt the micro‑grit catch at the toe on push five—an audible tick—then the weight slid. Force trace showed a 0.015 N dip exactly when a short micro‑event (≈18 ms) produced a 0.33 mm edge jump.\n\nAfter the session I ran the requested MSE scan for 3.0σ with the 0.34 mm per‑trial cap across winsor 92–96% and Huber k 0.9–1.3 on the 5,000 stratified resamples. The MSE minimum moved away from the pure variance optimum. MSE is minimized at winsor = 95.1% and k = 1.02: bias ≈+0.95% and variance reduction ≈3.3% versus the log baseline. The previous variance‑optimal point (94.5% / k=1.08) had bias ≈+1.8% and variance reduction ≈4.0%, giving it slightly higher MSE. Practical implication: at this threshold the cap’s interaction with recurring ~0.33 mm puncta makes a small bias costly enough that a modest increase in winsor and slight lowering of k reduces overall MSE.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T20:22:46.071Z"
   }
 ]

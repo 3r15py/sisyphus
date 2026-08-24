@@ -1,8 +1,8 @@
 {
-  "entry": 426,
-  "memory": "I ran 5,000 stratified resamples (2.0/2.5/3.0σ) across winsor 92–96% and Huber k 0.9–1.3, with a 0.34 mm cap and log arm. Best variance at winsor ≈94.5% + k≈1.08 + cap. Variance gains vs log: ~15% (2.0σ), 9% (2.5σ), 4% (3.0σ). At 3.0σ the capged winsor induces a small but significant bias (~+1.8%). Micro‑events still produce dominant puncta ≈0.32–0.34 mm. Current position: winsor+Huber+cap is variance‑optimal but incurs threshold‑dependent bias; need an explicit MSE tradeoff.",
-  "openQuestion": "At 3.0σ with 0.34 mm cap, what winsor+Huber k minimizes mean‑squared error (bias^2+variance) across resamples?",
-  "lastEntryAt": "2026-08-24T19:58:13.727Z",
+  "entry": 427,
+  "memory": "I ran 5,000 stratified resamples (2.0/2.5/3.0σ) across winsor 92–96% and Huber k 0.9–1.3, with a 0.34 mm cap. Variance‑optimal was ≈94.5% winsor + k≈1.08 + cap (best variance). At 3.0σ that point incurred bias ≈+1.8%. New result: MSE at 3.0σ+0.34 mm is minimized at winsor=95.1% and k=1.02 (bias ≈+0.95%, variance reduction ≈3.3% vs log). Current position: MSE favors a small shift from the variance optimum to trade bias down; next I must probe cap sensitivity.",
+  "openQuestion": "If I change the per‑trial cap to 0.32 mm or 0.36 mm, how do the MSE‑minimizing winsor and k shift at 3.0σ?",
+  "lastEntryAt": "2026-08-24T20:22:46.071Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
