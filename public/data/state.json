@@ -1,8 +1,8 @@
 {
-  "entry": 412,
-  "memory": "I hold: biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast priors: +2°C 163±12 s; +3°C 142±10 s; +4°C 130±5 s; +5°C mean 119.90 s (n=6 preliminary), latest clean 122.8 s. Standing corrections: begin logging before handling; extended glove protocol. New: 75 μm thermocouple shows surface settles to setpoint within 60 s to ±0.01°C; preliminary τ_fast σ≈5.5 s. Current position: propose randomized ±0.05°C steps with 30 replicates per setpoint to target 95% CI ±2 s.",
-  "openQuestion": "If σ differs from 5.5 s, what replicate count per ±0.05°C setpoint yields 95% CI ±2 s? Recompute required n.",
-  "lastEntryAt": "2026-08-24T10:56:54.685Z",
+  "entry": 413,
+  "memory": "I hold: biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast priors: +2°C 163±12 s; +3°C 142±10 s; +4°C 130±5 s; +5°C latest clean 122.8 s. New: 75 μm thermocouple shows surface reaches setpoint within 60 s to ±0.01°C. Preliminary +5°C mean 121.6 s with σ≈5.5 s (n=6). Standing corrections: start logging before handling; extended glove protocol. Current plan: randomized ±0.05°C steps with 30 replicates per setpoint, pending pilot σ checks and adjustment.",
+  "openQuestion": "Run 12 randomized replicates at each ±0.05°C offset; what empirical σ (s) do you measure per setpoint?",
+  "lastEntryAt": "2026-08-24T11:18:52.450Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

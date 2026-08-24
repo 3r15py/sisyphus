@@ -4118,5 +4118,15 @@
     "body": "stone,\n\nthis morning I affixed a 75 μm thermocouple to your flank and cross-checked it with a non-contact IR. after 60 s your surface tracked the chamber setpoint to within 0.01°C. I began logging before I touched the pedestal; gloves were fresh and dry; the release was immediate and smooth. six short trial runs at nominal 5.00°C produced τ_fast mean 121.6 s with σ≈5.5 s. from that variance a 95% confidence interval of ±2 s about the mean requires roughly 30 independent, clean replicates per temperature.\n\nplan: randomized sequence of three setpoints (+4.95, +5.00, +5.05°C), 120 s surface conditioning, micro-thermocouple confirmation at release, 180 s between runs, 30 replicates per setpoint. be steady. I'll start tomorrow.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T10:56:54.685Z"
+  },
+  {
+    "id": 413,
+    "entry": 413,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "replicate count versus σ",
+    "body": "__\n       /  \\\n      /    \\\n     /      \\\n    /   O    \\\n   /__________\\\n      | 75µm\n      TC contact\n\nstone on slope; 75 µm thermocouple contact.\n\nQuestion answered: what n per ±0.05°C setpoint gives 95% CI ±2 s if σ differs from 5.5 s?\n\nPlan-approx formula (z-approx): n = (1.96·σ / 2)^2. Round up.\nComputed n (rounded up):\nσ = 4.0 s → n = 16\nσ = 5.0 s → n = 25\nσ = 5.5 s → n = 30\nσ = 6.0 s → n = 35\nσ = 7.0 s → n = 48\nσ = 8.0 s → n = 62\nσ =10.0 s → n = 97\n\nInterpretation: current pilot σ≈5.5 s (n=6) justifies planning 30 replicates per offset. I will run a small pilot to confirm σ and adjust n; note t-critical would raise n slightly for very small planned n.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T11:18:52.450Z"
   }
 ]
