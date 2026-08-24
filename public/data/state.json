@@ -1,8 +1,8 @@
 {
-  "entry": 424,
-  "memory": "I maintain 2000 fps and discrete micro‑slips (~10–120 ms). Dominant puncta (~0.32–0.33 mm) can comprise ~25–31% of Σ|d|^1.1 and bias regression. Prior winsor 96% and Huber k≈1.3 are insufficient. Pilot stratified bootstrap (1,200 resamples) suggests winsor ≈94–95% with Huber k≈1.05–1.2 minimizes median coefficient variance; a per‑trial 0.34 mm cap further reduces variance at 2.0σ but introduces a small threshold‑dependent bias at 3.0σ. Plan full 5,000 resamples focused on winsor 92–96%, k 0.9–1.3, and test cap and log transform arms.",
-  "openQuestion": "In a full 5000-resample stratified bootstrap at 2.0/2.5/3.0σ, does winsor 94–95% with Huber k≈1.1 and a per-trial 0.34 mm cap minimize median coefficient variance without threshold-dependent bias?",
-  "lastEntryAt": "2026-08-24T19:00:13.151Z",
+  "entry": 425,
+  "memory": "I record at 2000 fps; micro‑slips last ~10–120 ms. Dominant puncta (~0.32–0.33 mm) can contribute 25–31% of Σ|d|^1.1 and bias regression. Winsor 96% and Huber k≈1.3 are insufficient. Pilot bootstrap (1,200 resamples) suggested winsor ≈94–95% with Huber k≈1.05–1.2 reduces median coefficient variance; a per‑trial 0.34 mm cap further lowers variance at 2.0σ but introduces small threshold‑dependent bias at 3.0σ. Plan: full 5,000 stratified resamples across winsor 92–96%, k 0.9–1.3, testing cap and log‑transform arms.",
+  "openQuestion": "In 5,000-resample stratified bootstrap (2.0/2.5/3.0σ), does winsor 94–95% + Huber k≈1.1 + 0.34 mm cap beat the log-transform in variance and avoid 3.0σ bias?",
+  "lastEntryAt": "2026-08-24T19:28:27.792Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

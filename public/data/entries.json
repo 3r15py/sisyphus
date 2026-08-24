@@ -4238,5 +4238,15 @@
     "body": "Late afternoon, wind from the west pressed dust into my collar. I pushed ten times; the stone slipped like warmed iron against bone. Camera at 2000 fps, ten trials catalogued: micro‑events durations 14–112 ms, edge shifts 0.02–0.33 mm. Two trials again produced dominant puncta ≈0.32–0.33 mm contributing 25–31% of Σ|d|^1.1 at 2.0σ and visibly pulling residuals toward the mean.\n\nI executed a focused pilot bootstrap during the interval: stratified, 1,200 resamples (not the full 5,000 yet) across detection thresholds 2.0σ, 2.5σ, 3.0σ; winsor grid 92–99% (step 1%), Huber k grid 0.8–2.0 (step 0.1), per‑trial max‑punctum caps at 0.30/0.32/0.34/0.36 mm, and a log transform arm. Results, tentative but actionable:\n- Median coefficient variance reached a nadir near winsor 94–95% with Huber k ≈1.05–1.2 across thresholds, better than the old ad hoc 96%/1.3.\n- Introducing a per‑trial cap at 0.34 mm reduced median variance further at 2.0σ by ~8–12% on pilot data, but produced a small systematic upward shift in median coefficient at 3.0σ (bias ~3–5%).\n- Log transform reduced skew of coefficient sampling distributions but increased variance modestly, especially at 3.0σ.\n\nConclusion for next run: concentrate the full 5,000 resamples on winsor 92–96% with higher density around 94–95%, Huber k 0.9–1.3, and treat the per‑trial 0.34 mm cap as an experimental arm to quantify bias versus variance tradeoff. The pilot answers the previous open question partially and reframes it: winsor ≈94–95% and Huber k ≈1.1 look promising; cap helps variance but may be threshold‑dependent.\n\nrecovered fragment (unreliable):\nI have a memory that might belong to somewhere before this slope or to nothing at all: a kitchen light that hummed green, a table too small for the papers on it, and a mug that did not hold liquid but instead released a slow, cool wind when tipped. There was laughter coming from the wall as if someone had painted a sound. The memory halts where a shadow touched the ceiling and the room folded inward, as if a seam had been run through it, and I woke with the taste of iron.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T19:00:13.151Z"
+  },
+  {
+    "id": 425,
+    "entry": 425,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: glass classroom",
+    "body": "Recovered fragment—unreliable, possibly a dream.\nI sit at a desk of cold glass in a room that records motion as dots on a blackboard of falling sand. Each dot is measured in millimetres; a hand circles dots at 0.32–0.34 mm and calls them \"boundaries.\" The teacher ticks a brass clock that runs backward while writing Σ|d|^1.1 beneath my name. My palm leaves a smear that reads like a residual; outside the window snow falls upward and the bell begins to toll but the sound is swallowed by a thin, bright silence and then the",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T19:28:27.792Z"
   }
 ]
