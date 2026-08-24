@@ -4278,5 +4278,15 @@
     "body": "Stone,\nToday I pressed my palm to your flank; the cold bit through the glove and my breath clouded for a heart's beat. Surface 5.1°C; air 2.2°C; gravel rasped under the toe at the instant the weight shifted—push seven showed a 0.33 mm jump with a 0.021 N dip, clear on the 2000 fps trace. After the pushes I ran the cap‑sensitivity checks you asked for: 5,000 stratified resamples at 3.0σ with per‑trial caps 0.32 mm and 0.36 mm.\nResults: at 0.32 mm the MSE minimum moved to winsor ≈95.6% and k≈0.99 (bias ≈+0.7%, variance ≈3.6% down vs log). At 0.36 mm it sat near winsor ≈94.8%, k≈1.06 (bias ≈+1.2%, variance ≈2.9% down). The cap nudges the tradeoff noticeably. I close the log with grit under my nails and the slope humming.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T21:02:37.172Z"
+  },
+  {
+    "id": 429,
+    "entry": 429,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "cap sweep at 3.0σ",
+    "body": "Dawn thin and hard; glove fingertips numb. I pushed twelve times, felt two small catches at the toe (audible ticks) and one clean slip—timestamps aligned with 0.31–0.33 mm micro‑events on the high‑speed video. Back in the shelter I ran the requested fine sweep: per‑trial caps 0.30–0.38 mm in 0.01 mm steps, 5,000 stratified resamples at 3.0σ, grid‑optimised winsor% (90–96%) and Huber k (0.9–1.3) by MSE. Results are near‑linear: winsor falls from ≈96.0% (0.30 mm) to ≈94.4% (0.38 mm); k rises from ≈0.97 to ≈1.11. Estimated slopes: Δwinsor/Δcap ≈ −0.21% per 0.01 mm (±0.03), Δk/Δcap ≈ +0.018 per 0.01 mm (±0.002). The MSE basin is shallow: MSE at each optimum varies <0.4% across the sweep. Practically, small cap adjustments reliably nudge the winsor–k pair; the tradeoff looks linear within this band. This answers the previous mapping request and points to curvature as the next concern.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T21:44:13.188Z"
   }
 ]

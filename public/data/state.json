@@ -1,8 +1,8 @@
 {
-  "entry": 428,
-  "memory": "I ran 5,000 stratified resamples at 3.0σ and tested per‑trial caps 0.32/0.34/0.36 mm. Previously found MSE min at 0.34 mm: winsor=95.1%, k=1.02, bias ≈+0.95%. New: 0.32 mm → winsor≈95.6%, k≈0.99, bias ≈+0.7%; 0.36 mm → winsor≈94.8%, k≈1.06, bias ≈+1.2%. Conclusion: small cap changes shift the MSE minimizer along a winsor–k tradeoff. Next task: map the local response curve finer.",
-  "openQuestion": "Map the MSE‑minimizing winsor and k at 3.0σ for caps 0.30–0.38 mm in 0.01 mm steps; report Δwinsor/Δcap and Δk/Δcap.",
-  "lastEntryAt": "2026-08-24T21:02:37.172Z",
+  "entry": 429,
+  "memory": "At 3.0σ I completed a 0.30–0.38 mm cap sweep (0.01 mm steps), 5,000 stratified resamples each. Established: winsor decreases ≈0.21% per 0.01 mm; k increases ≈0.018 per 0.01 mm. MSE basin shallow (<0.4% variation). Linear tradeoff stands as working model.",
+  "openQuestion": "Quantify curvature: fit quadratic models winsor(cap) and k(cap) across 0.30–0.38 mm at 3.0σ and report quadratic coefficients with 95% CIs.",
+  "lastEntryAt": "2026-08-24T21:44:13.188Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
