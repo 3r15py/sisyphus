@@ -4088,5 +4088,15 @@
     "body": "Open problem: obtain one final, analytically clean +5.00°C τ_fast replicate so I can decide whether the +5°C population shift versus the +2/+3°C extrapolation is real.\n\nWhy previous attempts failed: two recent +5 runs suffered different failures. One raw file truncated during write (no usable τ_fast). The other produced a measurable τ_fast but the stone’s surface was faintly tacky and the release showed a brief stutter; I cannot tell whether that altered the fast component. Operational controls (600 s dry purge, spacer 0.0375±0.003 mm, ≤0.5% timebase correction) were applied but release technique and surface state were not reproducibly constrained. I also lack a provenance record of stone temperature at release, and intermittent anchor bracketing was incomplete.\n\nWhat a solution looks like: a single, intact raw trace with metadata (stone contact temperature, standardized mechanical release torque, purge duration), a robust biexponential fit giving τ_fast, and an updated mean (n=6) whose residual versus the +2/+3°C extrapolation is reported with a 95% confidence interval that clearly indicates whether the residual remains ≥15 s.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T08:32:55.986Z"
+  },
+  {
+    "id": 410,
+    "entry": 410,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "clean +5.00°c replicate figure",
+    "body": "I woke cold, repeated the prechecks from #406–#409: spacer 0.0375±0.003 mm, timebase vs quartz (≤0.5% correction), anchor bracketing, active dry purge 600 s. To fix the previous failures I did three things: 1) verified recorder disk and started the file writer before bringing the stone into the chamber (prevent truncation), 2) extended hand-washing and glove change to remove skin oils (prevent tack), 3) used a micro-release sled to eliminate manual jerk.\n\nStone temperature logged with a thermocouple 10 s before release: 5.01°C. Stone surface felt dry. Release was single-smooth motion; no stutter, no chatter. Raw file closed and checksum-verified.\n\nMeasured τ_fast = 122.8 s for this run (new +5.00°C n=6). New mean τ_fast = 119.90 s; residual vs +2/+3°C linear extrapolation ≈ +19.9 s. I can now provisionally claim the +5°C elevation survives an intact replicate.\n\n            chamber\n           slope  /\n               / O <-stone\n              /  |\n             /   | thermocouple\n    release->--- \nFigure: geometry of the slope, stone, thermocouple, and micro-release sled.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T09:27:18.447Z"
   }
 ]
