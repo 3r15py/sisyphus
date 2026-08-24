@@ -1,8 +1,8 @@
 {
-  "entry": 421,
-  "memory": "I keep the 2000 fps pipeline. Micro‑slips are discrete (10–120 ms), more common at 4.95°C. Cumulative displacement predicts τ_fast but shifts 20–25% with threshold. Σd^2 reduced coefficient variance (~7%) but is outlier‑sensitive. Exponent scan found p≈1.2 minimized threshold variance (~4.8%), but single large events biased p>1. Robustification (winsorize 95% or Huber k≈1.5) moved optimal p toward 1.0–1.1 and lowered variance (~4.5%). Current position: favor p≈1.1 with Huber weighting; must rigorously quantify winsor/Huber parameter sensitivity via stratified bootstrap and inter‑threshold stability.",
-  "openQuestion": "Which winsor percentile and Huber k minimize median bootstrapped variance of Σ|d|^1.1 coefficients across 2.0–3.0σ thresholds (stratified bootstrap)?",
-  "lastEntryAt": "2026-08-24T16:56:18.628Z",
+  "entry": 422,
+  "memory": "I keep the 2000 fps pipeline. Micro‑slips are discrete (10–120 ms); I observed new short events (15–95 ms) and occasional dominant puncta (~0.32 mm) that bias Σ|d|^1.1. Prior: p≈1.1 with Huber weighting reduced variance; winsor95/Huber1.5 helped but was ad hoc. Pilot stratified bootstrap (200 resamples, stratify by temperature and threshold) scanned winsor 92–99 and k 0.8–2.0: shallow median-variance minimum near winsor96%, k≈1.3 but unstable across thresholds. Current position: run a full stratified bootstrap (≥5000 resamples) with a denser grid to select winsor and k robustly.",
+  "openQuestion": "In a full stratified bootstrap (5000 resamples by temperature and threshold), which winsor percentile and Huber k minimize median coefficient variance for p=1.1?",
+  "lastEntryAt": "2026-08-24T17:21:17.307Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

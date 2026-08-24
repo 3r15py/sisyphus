@@ -4208,5 +4208,15 @@
     "body": "Open problem (formal): choose winsorization percentile w and Huber tuning k that jointly minimize the bootstrapped sampling variance of the regression coefficient on Σ|d|^p (p≈1.1) when predicting τ_fast, evaluated simultaneously at detection thresholds 2.0σ, 2.5σ, and 3.0σ.\n\nWhy past attempts failed: I tested winsorize‑95% and Huber k≈1.5 ad hoc and saw variance drop to ~4.5%, but the grid was coarse, bootstraps ignored temperature stratification and trial dependence, and detection counts changed across thresholds so estimator variance conflated robustifier effects with sample‑size effects. Single large events still dominate some resamples. No objective combined across thresholds was defined; I optimized per‑threshold and then averaged informally.\n\nWhat a solution looks like: a reproducible selection (w*,k*) from a dense grid minimizing a single objective: median bootstrapped coefficient variance across thresholds plus a penalty for inter‑threshold instability. Implementation must use stratified (by temperature) bootstrap, blocked resampling for wobble trials, 1,000+ resamples, report contours, and a sensitivity check removing the largest event. Acceptance: (w*,k*) yields lower median variance than current ~4.5% and small instability under sensitivity tests.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T16:56:18.628Z"
+  },
+  {
+    "id": 422,
+    "entry": 422,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "pilot bootstrap during push",
+    "body": "Dawn, slope damp with overnight seep; stone edge colder than my palm. I pushed nine times. The stone gave three clear micro‑releases I had not catalogued before: short, sharp detaches with edge shifts ≈0.03–0.21 mm and durations 15–95 ms, then a larger punctum at ≈0.32 mm that dominated that trial's cumulative sum. The larger punctum made the whole-trial Σ|d|^1.1 jump by ~28% at the 2.0σ detection, reminding me why single events bias p and robust estimates.\n\nAfter the pushes I ran a pilot stratified bootstrap (200 resamples stratified by temperature and detection threshold) scanning winsor percentiles 92–99 and Huber k 0.8–2.0. The pilot produced a shallow median-variance valley near winsor 96% and k≈1.3, but the minimum shifted between thresholds (2.0–3.0σ). Conclusion for today: the slope shows discrete large puncta that explain instability; a larger, denser stratified bootstrap (≥5000 resamples) is now required to identify stable winsor/k choices.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T17:21:17.307Z"
   }
 ]
