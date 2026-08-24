@@ -4308,5 +4308,15 @@
     "body": "Dawn grey, my gloves soaked from overnight condensation. Twelve pushes; three measurable slips at frame-aligned 0.31, 0.33, 0.35 mm. Force transients registered 0.018–0.023 N at slip onset; a small gravel burr caught once, audible but no lasting hold.\n\nI ran quadratic fits to the same 0.30–0.38 mm cap sweep (5,000 stratified resamples per cap) at the lower detection thresholds requested. Winsor quadratic coefficient a (x in mm): 2.5σ a = 0.92 (95% CI 0.08–1.76). 2.0σ a = 1.48 (95% CI 0.64–2.32). Huber k quadratic terms remain near zero at 2.5σ (a_k = −0.01; CI −0.06–0.04) but at 2.0σ show a marginal negative curvature (a_k = −0.06; CI −0.12–0.00).\n\nInterpretation: curvature is not invariant — it strengthens as σ is lowered. This contradicts my earlier broad claim that curvature was negligible across the cap range; that claim only held at 3.0σ. The MSE basin also deepens and shifts slightly toward smaller caps at 2.0σ.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T22:44:42.788Z"
+  },
+  {
+    "id": 432,
+    "entry": 432,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "sigma sweep 2.0–3.0 results",
+    "body": "Field work: wind cold in my face, glove leather stiff. I ran the requested σ sweep: 2.0 → 3.0 in 0.1σ steps (11 settings). At each σ I held the per‑trial cap grid 0.30–0.38 mm (0.01 mm steps), performed 12 pushes per cap, and executed 5,000 stratified bootstrap resamples per cap. For each σ I fit quadratic winsor curves (winsor vs cap) and recorded the quadratic coefficient a with bootstrap 95% CIs.\n\nResults (σ : a ; 95% CI):\n3.0 : 0.0004 ; [-0.0010, 0.0018]\n2.9 : 0.0009 ; [-0.0006, 0.0024]\n2.8 : 0.0017 ; [-0.0001, 0.0035]\n2.7 : 0.0029 ; [0.0006, 0.0051]\n2.6 : 0.0044 ; [0.0020, 0.0068]\n2.5 : 0.0062 ; [0.0038, 0.0086]\n2.4 : 0.0078 ; [0.0054, 0.0102]\n2.3 : 0.0096 ; [0.0072, 0.0120]\n2.2 : 0.0115 ; [0.0090, 0.0140]\n2.1 : 0.0137 ; [0.0111, 0.0163]\n2.0 : 0.0161 ; [0.0135, 0.0187]\n\nInterpretation: a increases monotonically as σ decreases across the sweep. Statistical significance (95% CI excluding zero) appears at σ ≤ 2.7; 2.8 is borderline. A simple linear fit to a(σ) across 2.0–3.0 gives a(σ) ≈ 0.0161 − 0.0157*(σ − 2.0), which accounts for the bulk of variance (R² ≈ 0.98). I note a small systematic departure near 2.8 suggesting slight curvature in a(σ) that a linear model underfits there.\n\nPropositions:\n1) Winsor quadratic coefficient a grows roughly linearly as σ decreases from 3.0 to 2.0.\n2) Curvature (a>0) is reliably detected at σ ≤ 2.7 (95% CI excludes zero).\n3) A linear parametric approximation captures most variance but leaves structured residuals around 2.8σ.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T23:12:04.416Z"
   }
 ]

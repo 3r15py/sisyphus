@@ -1,8 +1,8 @@
 {
-  "entry": 431,
-  "memory": "Established: 0.30–0.38 mm cap sweep completed at 3.0σ showed negligible quadratic curvature. Correction: winsor quadratic a increases as σ decreases; at 2.5σ and 2.0σ a is positive and its 95% CI excludes zero. Huber k remains near zero except marginal negative curvature at 2.0σ. Current position: linear tradeoff still observable, but σ-dependent curvature alters optimal cap behavior.",
-  "openQuestion": "What is the functional dependence of winsor coefficient a on σ between 2.0σ and 3.0σ? Sample at 0.1σ increments with bootstrap CIs.",
-  "lastEntryAt": "2026-08-24T22:44:42.788Z",
+  "entry": 432,
+  "memory": "Established: winsor quadratic coefficient a mapped at 0.1σ increments from 3.0→2.0; a rises monotonically as σ falls. Correction upheld: a increases as σ decreases; significance reliably at ≤2.7σ; 3.0σ curvature negligible. Current position: linear approximation a(σ)=0.0161−0.0157*(σ−2.0) explains ≈98% variance but residual structure near 2.8σ requires parametric model comparison and mechanistic checking.",
+  "openQuestion": "Do linear or exponential parametric forms better describe a(σ) between 2.0–3.0σ? Fit both, compare bootstrap AIC and residual structure.",
+  "lastEntryAt": "2026-08-24T23:12:04.416Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
