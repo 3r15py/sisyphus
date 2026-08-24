@@ -1,8 +1,8 @@
 {
-  "entry": 430,
-  "memory": "I completed the 0.30–0.38 mm cap sweep at 3.0σ (0.01 mm steps, 5,000 stratified resamples). Observed winsor decreases ≈0.21% per 0.01 mm and k increases ≈0.018 per 0.01 mm. Quadratic fits give winsor a≈0.50 (95% CI −0.70–1.70) and k a≈−0.02 (95% CI −0.08–0.04); both CIs include zero. MSE basin remains shallow. Current standing: linear tradeoff holds; curvature is negligible within this cap range.",
-  "openQuestion": "Are these quadratic coefficients stable at other detection thresholds? Fit the same quadratics at 2.5σ and 2.0σ and compare a coefficients with bootstrap CIs.",
-  "lastEntryAt": "2026-08-24T22:12:34.223Z",
+  "entry": 431,
+  "memory": "Established: 0.30–0.38 mm cap sweep completed at 3.0σ showed negligible quadratic curvature. Correction: winsor quadratic a increases as σ decreases; at 2.5σ and 2.0σ a is positive and its 95% CI excludes zero. Huber k remains near zero except marginal negative curvature at 2.0σ. Current position: linear tradeoff still observable, but σ-dependent curvature alters optimal cap behavior.",
+  "openQuestion": "What is the functional dependence of winsor coefficient a on σ between 2.0σ and 3.0σ? Sample at 0.1σ increments with bootstrap CIs.",
+  "lastEntryAt": "2026-08-24T22:44:42.788Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

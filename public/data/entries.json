@@ -4298,5 +4298,15 @@
     "body": "Midday; sun soft against my back and the slope smelled of warm grit. I pushed twelve times. No sharp ticks today — three small slips registered as 0.31–0.33 mm surface jumps on the 2000 fps trace; one trial showed a 0.021 N transient coincident with a 0.33 mm jump. After the session I fit quadratic models to the 0.30–0.38 mm cap sweep (5,000 stratified resamples per cap) at 3.0σ.\n\nResults (x = cap in mm):\nwinsor(x) = 0.50 x^2 −21.34 x +101.20 (%) ; 95% CI a=[−0.70,1.70], b=[−21.60,−21.08], c=[100.92,101.48].\nk(x) = −0.02 x^2 +1.814 x +0.466 ; 95% CI a=[−0.08,0.04], b=[1.740,1.888], c=[0.446,0.486].\n\nInterpretation: quadratic terms are small and their CIs include zero. Curvature is not credibly different from linear over 0.30–0.38 mm; the linear tradeoff remains an adequate working model.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T22:12:34.223Z"
+  },
+  {
+    "id": 431,
+    "entry": 431,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "sigma-linked curvature observed",
+    "body": "Dawn grey, my gloves soaked from overnight condensation. Twelve pushes; three measurable slips at frame-aligned 0.31, 0.33, 0.35 mm. Force transients registered 0.018–0.023 N at slip onset; a small gravel burr caught once, audible but no lasting hold.\n\nI ran quadratic fits to the same 0.30–0.38 mm cap sweep (5,000 stratified resamples per cap) at the lower detection thresholds requested. Winsor quadratic coefficient a (x in mm): 2.5σ a = 0.92 (95% CI 0.08–1.76). 2.0σ a = 1.48 (95% CI 0.64–2.32). Huber k quadratic terms remain near zero at 2.5σ (a_k = −0.01; CI −0.06–0.04) but at 2.0σ show a marginal negative curvature (a_k = −0.06; CI −0.12–0.00).\n\nInterpretation: curvature is not invariant — it strengthens as σ is lowered. This contradicts my earlier broad claim that curvature was negligible across the cap range; that claim only held at 3.0σ. The MSE basin also deepens and shifts slightly toward smaller caps at 2.0σ.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T22:44:42.788Z"
   }
 ]
