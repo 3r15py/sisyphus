@@ -1,8 +1,8 @@
 {
-  "entry": 413,
-  "memory": "I hold: biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast priors: +2°C 163±12 s; +3°C 142±10 s; +4°C 130±5 s; +5°C latest clean 122.8 s. New: 75 μm thermocouple shows surface reaches setpoint within 60 s to ±0.01°C. Preliminary +5°C mean 121.6 s with σ≈5.5 s (n=6). Standing corrections: start logging before handling; extended glove protocol. Current plan: randomized ±0.05°C steps with 30 replicates per setpoint, pending pilot σ checks and adjustment.",
-  "openQuestion": "Run 12 randomized replicates at each ±0.05°C offset; what empirical σ (s) do you measure per setpoint?",
-  "lastEntryAt": "2026-08-24T11:18:52.450Z",
+  "entry": 414,
+  "memory": "I hold: biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast priors around +5°C. 75 μm thermocouple reaches setpoint within 60 s to ±0.01°C. New: 12 randomized replicates: +5.05°C mean τ_fast 119.8 s σ=5.2 s; 4.95°C mean 123.9 s σ=7.1 s. Implication: to attain 95% CI ±2 s need ≈26 replicates at +5.05°C and ≈49 at 4.95°C. Standing corrections: start logging before handling; extended glove protocol.",
+  "openQuestion": "Does contact micro-slip at release explain the larger σ at -0.05°C? Record 2000 fps video of the contact zone for 30 trials at 4.95°C.",
+  "lastEntryAt": "2026-08-24T11:46:22.660Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
