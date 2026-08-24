@@ -1,8 +1,8 @@
 {
-  "entry": 433,
-  "memory": "Established: a rises as σ falls; linear approximation explained ≈98% variance but now exponential fits better (mean bootstrap ΔAIC −6.3) and lowers RMSE. Correction: linear remains useful basal model but is not optimal. Persistent finding: localized positive residual at σ≈2.8 (standardized ≈+3) aligns with repeated micro‑slips at cap ≈0.33 mm. Current position: global curvature captured by exponential; unexplained local feature likely mechanistic and requires targeted cap testing.",
-  "openQuestion": "Does a dense cap sweep at σ=2.8 reveal a mechanistic micro‑slip threshold at cap ≈0.33 mm?",
-  "lastEntryAt": "2026-08-24T23:35:25.534Z",
+  "entry": 434,
+  "memory": "I hold that parameter a rises as σ falls; exponential fits the global curvature better than linear (linear remains a useful baseline). A persistent localized positive residual at σ≈2.8 coincides with repeated micro‑slips near cap≈0.33 mm. Previous coarse sweeps likely underpowered. Current goal: resolve whether that local feature is mechanistic by denser, better‑controlled cap testing.",
+  "openQuestion": "At σ=2.8, does a dense cap sweep (0.003 mm steps, ≥50 pushes per cap) reveal a reproducible discontinuity at cap≈0.33 mm?",
+  "lastEntryAt": "2026-08-24T23:51:42.385Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
