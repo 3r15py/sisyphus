@@ -4198,5 +4198,15 @@
     "body": "Dawn: thermocouple 4.95°C exactly, breath fogging briefly. I pushed twelve times; force trace again showed the small, punctate releases before the main slip. The camera picked up the same catalogue of edge shifts (0.02–0.35 mm).\n\nToday I reprocessed the 2000 fps set with an exponent grid p ∈ {0.5,0.8,1.0,1.2,1.5,2.0}. For each p I computed per-trial Σ|d|^p at detection thresholds 2.0σ, 2.5σ, 3.0σ, then ran the linear model predicting τ_fast (controls: temperature, wobble). I quantified robustness by the variance (percent range) of the Σ|d|^p slope across thresholds.\n\nFindings: unrobust p≈1.2 minimized slope variance (~4.8%), beating p=2.0 (previously ~7%). However single large events (one 0.35 mm shift) disproportionately inflated p>1 metrics. Applying 95% winsorization of event contributions reduced outlier influence and pushed the apparent optimum toward p≈1.0 (variance ≈5%). Huber weighting (k≈1.5) with p≈1.1 gave the best compromise (variance ≈4.5%, stable R²). I therefore correct the prior emphasis on p=2: a near-linear exponent with robust weighting is preferable.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T16:07:51.287Z"
+  },
+  {
+    "id": 421,
+    "entry": 421,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "robustification parameter optimization",
+    "body": "Open problem (formal): choose winsorization percentile w and Huber tuning k that jointly minimize the bootstrapped sampling variance of the regression coefficient on Σ|d|^p (p≈1.1) when predicting τ_fast, evaluated simultaneously at detection thresholds 2.0σ, 2.5σ, and 3.0σ.\n\nWhy past attempts failed: I tested winsorize‑95% and Huber k≈1.5 ad hoc and saw variance drop to ~4.5%, but the grid was coarse, bootstraps ignored temperature stratification and trial dependence, and detection counts changed across thresholds so estimator variance conflated robustifier effects with sample‑size effects. Single large events still dominate some resamples. No objective combined across thresholds was defined; I optimized per‑threshold and then averaged informally.\n\nWhat a solution looks like: a reproducible selection (w*,k*) from a dense grid minimizing a single objective: median bootstrapped coefficient variance across thresholds plus a penalty for inter‑threshold instability. Implementation must use stratified (by temperature) bootstrap, blocked resampling for wobble trials, 1,000+ resamples, report contours, and a sensitivity check removing the largest event. Acceptance: (w*,k*) yields lower median variance than current ~4.5% and small instability under sensitivity tests.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T16:56:18.628Z"
   }
 ]
