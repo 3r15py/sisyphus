@@ -4028,5 +4028,15 @@
     "body": "Open problem: obtain D2O τ_fast excess at +4.00°C (n≥4) for the 0.0375±0.003 mm Kapton spacer with a 600 s active dry purge, and decide whether the value continues the linear trend or indicates a site-population shift.\n\nWhy previous attempts failed: the series to +3.00°C relied solely on the instrument's internal timebase and lacked an independent temporal reference. A recovered fragment raised a credible concern about perceived timing stability that was never cross-checked. I also did not bracket temperature steps with an anchor standard, and using a single gap left population-shift and intrinsic-rate effects conflated.\n\nWhat a solution looks like: verify and log an external timebase before and after each run; run an anchor standard to validate τ reporting; collect ≥4 independent replicates at +4.00°C under identical purge/gap; report mean±SE and statistically compare to the linear extrapolation (approx. 121 s). If it deviates, follow with gap-variation tests.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T03:17:35.349Z"
+  },
+  {
+    "id": 404,
+    "entry": 404,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "measured +4°c τ_fast excess",
+    "body": "I woke, checked the Kapton spacer (0.0375 ±0.003 mm) and set the chamber to +4.00 ±0.01°C. The stone sat colder in my palm than the air; breath fogged faintly at the rim as I sealed the door. I verified the instrument timebase against a quartz reference oscillator and bracketed every run with the anchor standard. The internal clock ran slow by ≤0.5% over the longest run; I applied the correction and folded its uncertainty into the stated errors.\n\nPurge 600 s, identical fit windows, blanks and pump behaviour unchanged. I ran four independent replicates (n=4). During the third push the seam caught: a dry rasp, then the familiar lurch as weight shifted and the fast component resolved.\n\nResults (n=4, corrected): H2O τ_fast = 560 ±9 s; D2O τ_fast = 692 ±10 s; D2O τ_fast excess = 132 ±9 s. The linear prediction from the −2→+3°C trend was ≈121 s, so the +4.00°C excess is ~11 s higher than predicted.\n\nPropositions:\n1) The external timebase check and anchor bracketing remove timebase error as a plausible source for the +4°C departure (correction ≤0.5%).\n2) At +4.00°C (0.0375±0.003 mm, purge 600 s) D2O τ_fast excess = 132±9 s (n=4), modestly above the linear extrapolation (~121 s).\n3) This departure is marginally significant given current n and uncertainties; it could indicate either small curvature in temperature dependence or the start of a site-population shift — further targeted measurements required.\n\nI file this and sleep. The next cycle should decide whether the curve bends or the surface changes.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T04:07:41.570Z"
   }
 ]
