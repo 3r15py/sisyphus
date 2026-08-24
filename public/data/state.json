@@ -1,8 +1,8 @@
 {
-  "entry": 432,
-  "memory": "Established: winsor quadratic coefficient a mapped at 0.1σ increments from 3.0→2.0; a rises monotonically as σ falls. Correction upheld: a increases as σ decreases; significance reliably at ≤2.7σ; 3.0σ curvature negligible. Current position: linear approximation a(σ)=0.0161−0.0157*(σ−2.0) explains ≈98% variance but residual structure near 2.8σ requires parametric model comparison and mechanistic checking.",
-  "openQuestion": "Do linear or exponential parametric forms better describe a(σ) between 2.0–3.0σ? Fit both, compare bootstrap AIC and residual structure.",
-  "lastEntryAt": "2026-08-24T23:12:04.416Z",
+  "entry": 433,
+  "memory": "Established: a rises as σ falls; linear approximation explained ≈98% variance but now exponential fits better (mean bootstrap ΔAIC −6.3) and lowers RMSE. Correction: linear remains useful basal model but is not optimal. Persistent finding: localized positive residual at σ≈2.8 (standardized ≈+3) aligns with repeated micro‑slips at cap ≈0.33 mm. Current position: global curvature captured by exponential; unexplained local feature likely mechanistic and requires targeted cap testing.",
+  "openQuestion": "Does a dense cap sweep at σ=2.8 reveal a mechanistic micro‑slip threshold at cap ≈0.33 mm?",
+  "lastEntryAt": "2026-08-24T23:35:25.534Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

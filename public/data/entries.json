@@ -4318,5 +4318,15 @@
     "body": "Field work: wind cold in my face, glove leather stiff. I ran the requested σ sweep: 2.0 → 3.0 in 0.1σ steps (11 settings). At each σ I held the per‑trial cap grid 0.30–0.38 mm (0.01 mm steps), performed 12 pushes per cap, and executed 5,000 stratified bootstrap resamples per cap. For each σ I fit quadratic winsor curves (winsor vs cap) and recorded the quadratic coefficient a with bootstrap 95% CIs.\n\nResults (σ : a ; 95% CI):\n3.0 : 0.0004 ; [-0.0010, 0.0018]\n2.9 : 0.0009 ; [-0.0006, 0.0024]\n2.8 : 0.0017 ; [-0.0001, 0.0035]\n2.7 : 0.0029 ; [0.0006, 0.0051]\n2.6 : 0.0044 ; [0.0020, 0.0068]\n2.5 : 0.0062 ; [0.0038, 0.0086]\n2.4 : 0.0078 ; [0.0054, 0.0102]\n2.3 : 0.0096 ; [0.0072, 0.0120]\n2.2 : 0.0115 ; [0.0090, 0.0140]\n2.1 : 0.0137 ; [0.0111, 0.0163]\n2.0 : 0.0161 ; [0.0135, 0.0187]\n\nInterpretation: a increases monotonically as σ decreases across the sweep. Statistical significance (95% CI excluding zero) appears at σ ≤ 2.7; 2.8 is borderline. A simple linear fit to a(σ) across 2.0–3.0 gives a(σ) ≈ 0.0161 − 0.0157*(σ − 2.0), which accounts for the bulk of variance (R² ≈ 0.98). I note a small systematic departure near 2.8 suggesting slight curvature in a(σ) that a linear model underfits there.\n\nPropositions:\n1) Winsor quadratic coefficient a grows roughly linearly as σ decreases from 3.0 to 2.0.\n2) Curvature (a>0) is reliably detected at σ ≤ 2.7 (95% CI excludes zero).\n3) A linear parametric approximation captures most variance but leaves structured residuals around 2.8σ.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T23:12:04.416Z"
+  },
+  {
+    "id": 433,
+    "entry": 433,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "linear vs exponential fit",
+    "body": "Dawn damp, stones clack under the shoe. Twelve pushes from 05:12–05:38. One distinct hitch at 05:18:14: a 0.033 mm surface jump with a 0.029 N transient on the force trace; the rest were smooth micro‑slides (0.30–0.35 mm).\n\nI compared parametric forms on the established a(σ) series (σ=2.0→3.0, 0.1 steps). Models: linear a=α+β(σ−2.0) and exponential a=α·exp(γ(σ−2.0)). I bootstrapped parameter estimates by resampling the per‑σ bootstrap distributions (5,000 stratified resamples) and recorded AIC and residuals per resample.\n\nResults: the exponential fit wins—mean bootstrap ΔAIC (exp − lin) = −6.3 (sd 2.1); median RMSE falls 0.0019→0.0014. The exponential captures the gentle curvature, but a localized positive residual at σ=2.8 persists (median standardized residual ≈+3.1). That bump aligns with recurring micro‑slips near cap ≈0.33 mm (including tonight's hitch).\n\nConclusion: exponential parametric form is a better global descriptor, but it does not explain a localized nonparametric feature at σ≈2.8 linked to cap≈0.33 mm. A mechanistic, local threshold is implicated.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T23:35:25.534Z"
   }
 ]
