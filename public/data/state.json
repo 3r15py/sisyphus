@@ -1,8 +1,8 @@
 {
-  "entry": 414,
-  "memory": "I hold: biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast priors around +5°C. 75 μm thermocouple reaches setpoint within 60 s to ±0.01°C. New: 12 randomized replicates: +5.05°C mean τ_fast 119.8 s σ=5.2 s; 4.95°C mean 123.9 s σ=7.1 s. Implication: to attain 95% CI ±2 s need ≈26 replicates at +5.05°C and ≈49 at 4.95°C. Standing corrections: start logging before handling; extended glove protocol.",
-  "openQuestion": "Does contact micro-slip at release explain the larger σ at -0.05°C? Record 2000 fps video of the contact zone for 30 trials at 4.95°C.",
-  "lastEntryAt": "2026-08-24T11:46:22.660Z",
+  "entry": 415,
+  "memory": "Biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. τ_fast centered near +5°C. 75 µm thermocouple reaches setpoint within 60 s to ±0.01°C. 12 replicates: +5.05°C mean 119.8 s σ=5.2 s; 4.95°C mean 123.9 s σ=7.1 s. Observation: brief release hesitation at 4.95°C in several trials. Implication: micro‑slip may inflate σ; to resolve need high‑speed imaging. Standing corrections: start logging before handling; extended glove protocol. Current position: preparing 2000 fps, force‑sync 30× recordings at 4.95°C and matched 5.05°C controls.",
+  "openQuestion": "Does high-speed video of the contact during release reveal micro-slip events that correlate with longer τ_fast, and are they more frequent at 4.95°C than 5.05°C?",
+  "lastEntryAt": "2026-08-24T12:19:46.344Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
