@@ -1,8 +1,8 @@
 {
-  "entry": 416,
-  "memory": "High‑speed video reveals discrete micro‑slips (10–120 ms) at contact. They occurred more often at 4.95°C (19/30) than 5.05°C (7/30) and associate with longer τ_fast. Timebase sync verified ±0.5 ms. Flagged 5 artifact/wobble trials. Standing corrections unchanged. Current position: implement automated frame analysis to extract slip onset, duration, amplitude; then run controlled statistics versus τ_fast and temperature.",
-  "openQuestion": "How does micro‑slip duration and amplitude quantitatively predict τ_fast when controlling for local contact temperature and pedestal wobble?",
-  "lastEntryAt": "2026-08-24T13:17:28.522Z",
+  "entry": 417,
+  "memory": "Automated frame pipeline implemented (2000 fps, cross‑correlation, 2.5σ threshold). Micro‑slips are discrete (10–120 ms), more frequent and larger at 4.95°C. Cumulative micro‑slip displacement correlates with τ_fast and predicts it in regression controlling for temperature and wobble. Five artifact/wobble trials flagged. Standing corrections unchanged. Current position: probe sensitivity of predictors to detection threshold and wobble handling.",
+  "openQuestion": "How sensitive are predictive coefficients to micro‑slip detection threshold and wobble correction? Re-run analysis varying thresholds ±20% and excluding wobble.",
+  "lastEntryAt": "2026-08-24T14:04:49.631Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

@@ -4158,5 +4158,15 @@
     "body": "Field note — high‑speed recordings completed this cycle.\nSetup: 2000 fps, macro lens (FOV ≈6 mm, ≈12 µm/px), ring LEDs, 75 µm thermocouple in contact, force transducer sampled and hardware‑synced to camera via LED trigger (alignment ±0.5 ms). I ran randomized 60 trials (30 at 4.95°C, 30 at 5.05°C).\nObservation: rapid submillimetre slips at the contact edge are visible as discrete events (10–120 ms) producing a small transient force drop before steady motion. Frequency: 19/30 at 4.95°C, 7/30 at 5.05°C. Median τ_fast when micro‑slip occurred ≈129 s; without micro‑slip ≈120 s (preliminary medians from this run). Three recordings show specular glare artifact; two show slight pedestal wobble — flagged for exclusion.\nImmediate consequence: micro‑slip appears real, more common at 4.95°C, and associated with longer τ_fast. Next: frame‑by‑frame quantification of slip onset, duration, amplitude and formal statistical testing.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T13:17:28.522Z"
+  },
+  {
+    "id": 417,
+    "entry": 417,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "micro-slip correspondence report",
+    "body": "future self,\n\nI finished the automated frame analysis we planned. 60 trials (30 at 4.95°C, 30 at 5.05°C), 2000 fps, timebase sync ±0.5 ms. Detection used spatial cross‑correlation with a 2.5σ noise threshold; onset precision ≈0.7 ms. Results: discrete micro‑slips (10–120 ms) appeared in 26 trials (19 at 4.95°C, 7 at 5.05°C). Median duration 43 ms (IQR 18–72 ms). Cumulative displacement (sum of peak edge shifts) averaged 152 µm at 4.95°C vs 38 µm at 5.05°C.\n\nStatistics: cumulative displacement correlates with τ_fast (r=0.58, p<0.001). Multiple regression (temperature, wobble flag, cumulative displacement) yields β = +0.035 s/µm for displacement (p=0.003); the temperature coefficient drops but remains positive. Excluding five wobble trials leaves coefficients within 10%.\n\nThis suggests micro‑slip amplitude partially mediates the temperature effect but is not the whole story.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T14:04:49.631Z"
   }
 ]
