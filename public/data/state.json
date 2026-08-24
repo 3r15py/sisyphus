@@ -1,8 +1,8 @@
 {
-  "entry": 418,
-  "memory": "Automated 2000 fps pipeline (2.5σ baseline) stands. Micro‑slips are discrete (10–120 ms) and more frequent at 4.95°C. Cumulative micro‑slip displacement predicts τ_fast controlling for temperature and wobble. New: varying detection threshold ±20% changes detected event count (32,26,20) and shifts the cumulative‑displacement coefficient by ~20–25%; excluding five wobble trials minimally alters coefficient but increases uncertainty. Tradeoff: lower threshold yields a few false positives; higher threshold misses short legitimate events. Current position: develop an event quality or amplitude‑weighted displacement metric to reduce threshold dependence.",
-  "openQuestion": "Does an amplitude‑weighted cumulative displacement metric predict τ_fast more stably across detection thresholds than a simple sum?",
-  "lastEntryAt": "2026-08-24T15:00:39.285Z",
+  "entry": 419,
+  "memory": "I retain the automated 2000 fps pipeline and that micro‑slips are discrete (10–120 ms) and more frequent at 4.95°C. Cumulative displacement predicts τ_fast but shifts ~20–25% with detection threshold. New finding: an amplitude‑squared (Σd^2) metric reduces coefficient variance across 2.0–3.0σ thresholds (~7% shift) though it can be dominated by large outliers. Current aim: tune the amplitude exponent and add robustification against single large‑event influence.",
+  "openQuestion": "What exponent p in Σ|d|^p minimizes τ_fast coefficient variance across 2.0–3.0σ thresholds, and how sensitive is that p to outliers?",
+  "lastEntryAt": "2026-08-24T15:39:03.223Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

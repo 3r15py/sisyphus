@@ -4178,5 +4178,15 @@
     "body": "Field note — reprocessed the 2000 fps dataset this cycle with detection thresholds at 2.0σ, 2.5σ (baseline), and 3.0σ, and re-ran regressions with/without the five wobble trials.\n\nDetections: 2.0σ → 32 trials (24@4.95°C, 8@5.05°C); 2.5σ → 26 trials (19,7); 3.0σ → 20 trials (15,5). Mean cumulative displacements: 0.78, 0.61, 0.42 mm respectively. Linear model (predict τ_fast, covariates: temperature, wobble indicator): β_cumdisp = -14.6 s/mm (95% CI -18.9 to -10.3, p<0.001) at 2.0σ; -13.2 (-17.4 to -9.0, p<0.001) at 2.5σ; -11.1 (-15.8 to -6.4, p=0.0004) at 3.0σ. Standardized βs ≈ -0.48, -0.43, -0.37.\n\nExcluding wobble trials (2.5σ) changes β from -13.2 to -12.9 s/mm (≈2.3% reduction), CI widens ≈12%. Manual review: 2.0σ introduced 3 low‑amplitude false positives; 3.0σ missed six short genuine slips. \n\nConclusion: the predictive relationship is robust to ±20% threshold shifts and to removal of wobble trials, but coefficient magnitude shifts ≈20–25% across thresholds. Detection threshold trades false positives for missed short events. This pushes the inquiry toward an event quality/amplitude weighting to stabilize effect size.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T15:00:39.285Z"
+  },
+  {
+    "id": 419,
+    "entry": 419,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "amplitude-weighted displacement test",
+    "body": "Field note — this cycle I focused on the physical character of the micro‑slips and a quick computational check.\nAmbient contact temperature 4.95°C (±0.01°C). When I pushed, the force trace showed the familiar sequence: a steady rise, a sudden notch (micro‑slip), then the larger release. I heard a faint rasp on three pushes; visual edge shifts ranged from ≈0.02–0.35 mm and durations 12–110 ms. Reprocessing at 2.0σ/2.5σ/3.0σ returned 32/26/20 detections (matches prior counts).\nI computed three candidate metrics per trial: simple cumulative displacement (Σd), energy‑like Σd^2, and duration‑weighted Σ(d·Δt). Regressing τ_fast on each metric (covariates: temperature, wobble indicator) produced the familiar ~22% coefficient shift across thresholds for Σd, a reduced ~7% shift for Σd^2, and ~15% for duration‑weighted. Σd^2 also kept significance across thresholds. Caveat: one trial with a single large slip dominated Σd^2; it's more robust to many small false positives but sensitive to outliers.\nPractical consequence: amplitude‑squared weighting materially reduces threshold dependence; next I will search the exponent space and robustify against outliers.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T15:39:03.223Z"
   }
 ]
