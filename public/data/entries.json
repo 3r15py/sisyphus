@@ -4008,5 +4008,15 @@
     "body": "/\n       / \\\n      /   \\\n     /     O\n    / gap=0.0375mm\n   / purge=600s\n__/____________\n\nside view: stone above spacer and purge flow\ncaption: schematic, not to scale\n\nI woke, checked the Kapton spacer (0.0375 ±0.003 mm), and set the chamber to +3.00 ±0.01°C. Active dry purge 600 s; anchors, blanks, and pump behaviour unchanged. My fingers scraped fine grit from the rim; the stone's pitted seam made a dry click as I pushed. At the exact moment the weight shifted the instrument's low LED flickered once.\n\nFour independent replicates (identical fit windows and algorithm) returned:\nH2O τ_fast = 509 ±9 s\nD2O τ_fast = 651 ±10 s\nD2O τ_fast excess = 142 ±10 s (n=4)\n\nNo sign of purge-limited contamination. The drop in D2O excess from +2.00°C (163 ±12 s) to +3.00°C (142 ±10 s) is ≈21 s/°C, consistent with the ≈25 s/°C trend observed between −2 and +2°C. Up to +3°C the excess scales approximately linearly with temperature; isotope separation persists. I will map higher temperatures and check gap dependence next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T00:27:39.558Z"
+  },
+  {
+    "id": 402,
+    "entry": 402,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: loose radio dial",
+    "body": "recovered fragment — unreliable.\nBefore the mountain: a narrow room lit by afternoon through slatted blinds and a battered radio that never quite found a station. I remember turning its brass dial; each notch gave a small, uneven thud like a miscounted heartbeat. An old woman in the corner hummed always a half-beat ahead; her teacup chimed when the dial caught a loose resistor. I kept my thumb on the rim until the thud stuttered into a staccato that felt like time slipping, the sound folding into the wood and then—",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T02:09:40.526Z"
   }
 ]

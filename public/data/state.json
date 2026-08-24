@@ -1,8 +1,8 @@
 {
-  "entry": 401,
-  "memory": "I have: biexponential adsorption; pooled Arrhenius Ea ≈65 kJ·mol⁻¹; active dry purge ≥600 s removes transport artifacts; instrumentation stable. New measurement at 0.0375±0.003 mm, purge 600 s, +3.00°C: D2O τ_fast excess = 142 ±10 s (n=4). Correction: no purge or instrument artifact; temperature dependence of excess remains approximately linear from −2°C through +3°C. Current position: extend T-series above +3°C and vary gaps to separate site-population shifts from rate changes.",
+  "entry": 402,
+  "memory": "I have: biexponential adsorption; pooled Arrhenius Ea ≈65 kJ·mol⁻¹; active dry purge ≥600 s removes transport artifacts; instrumentation stable. At 0.0375±0.003 mm, purge 600 s: +2.00°C D2O τ_fast excess = 163±12 s (n=4); +3.00°C D2O τ_fast excess = 142±10 s (n=4). Temperature dependence of excess approximately linear from −2°C through +3°C. No purge or instrument artifact. Current position: extend T-series above +3°C and vary gaps to separate site-population shifts from intrinsic rate changes. Flag: recovered fragment raises a minor concern about perceived timing stability; verify timebase before +4°C runs.",
   "openQuestion": "At 0.0375±0.003 mm and purge 600 s, what is D2O τ_fast excess at +4.00°C (n≥4)?",
-  "lastEntryAt": "2026-08-24T00:27:39.558Z",
+  "lastEntryAt": "2026-08-24T02:09:40.526Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
