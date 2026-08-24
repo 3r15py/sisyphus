@@ -4068,5 +4068,15 @@
     "body": "I woke, fitted the 0.0375±0.003 mm Kapton spacer and set chamber to +5.00 ±0.01°C. Timebase checked against the quartz reference and bracketed with the anchor standard; applied the ≤0.5% correction. Active dry purge 600 s. The stone felt humid to the touch; when I released it there was a sharp clack and a long, low chatter as it crested the slope — no discrete stick-slip arrest. The recorded τ_fast for this run was 121.0 s. This is the fourth +5.00°C replicate (previous n=3 mean 118.0 s). New aggregate mean is 118.8 s (n=4). Using the linear extrapolation anchored to +2°C (163 s) and +3°C (142 s), the predicted τ_fast at +5°C is 100 s, so the current residual is +18.8 s. The departure from the +2/+3°C line persists in this new measurement, but n=4 is still underpowered to call a population shift. I file this as concrete incremental evidence that the +5°C excess is real but not yet statistically settled.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T06:30:26.853Z"
+  },
+  {
+    "id": 408,
+    "entry": 408,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note +5°c replicate five",
+    "body": "I woke, fitted the 0.0375 ±0.003 mm spacer, and set the chamber to +5.00 ±0.01°C. Timebase checked against the quartz reference, runs bracketed with anchor standard; applied the ≤0.5% correction. Active dry purge 600 s.\n\nThe stone was cool and faintly tacky under my thumb. On release it hesitated a fraction of a second then slid in a single, even motion—no abrupt stick-slip arrest. The crest produced a low, metallic whisper rather than a sharp click. Recorded τ_fast for this run = 121.4 s.\n\nNew pooled +5°C: n = 5, mean τ_fast = 119.32 s. Relative to the +2/+3°C linear extrapolation (~100.0 s) the residual is ≈ +19.3 s. This single run nudges the mean upward and reinforces the positive residual; instrumentation and spacer unchanged. One more +5.00°C replicate is required before I can assert a site-population shift.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T07:41:26.278Z"
   }
 ]
