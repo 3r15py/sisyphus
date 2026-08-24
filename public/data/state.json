@@ -1,8 +1,8 @@
 {
-  "entry": 408,
-  "memory": "I have biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport artifacts. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. At purge 600 s: +2°C τ_fast=163±12 s; +3°C=142±10 s; +4°C consolidated 130±5 s (n≥6). +5.00°C now n=5, mean τ_fast=119.32 s; residual vs +2/+3°C linear extrapolation ≈+19.3 s. Must complete one more +5°C replicate before claiming a site-population shift.",
-  "openQuestion": "Collect the final +5.00°C replicate; will the updated mean residual versus +2/+3°C extrapolation remain ≥15 s?",
-  "lastEntryAt": "2026-08-24T07:41:26.278Z",
+  "entry": 409,
+  "memory": "I have biexponential adsorption; pooled Ea ≈65 kJ·mol⁻¹. Active dry purge ≥600 s removes transport artifacts. Timebase correction ≤0.5%. Spacer 0.0375±0.003 mm. At purge 600 s: +2°C τ_fast=163±12 s; +3°C=142±10 s; +4°C consolidated 130±5 s (n≥6). +5.00°C currently n=5, mean τ_fast=119.32 s; residual versus +2/+3°C linear extrapolation ≈+19.3 s. I must obtain one clean +5.00°C replicate with controlled release and measured stone temperature before claiming a site-population shift.",
+  "openQuestion": "Can I collect one intact +5.00°C replicate with controlled release and stone-temperature logged that keeps the mean residual ≥15 s?",
+  "lastEntryAt": "2026-08-24T08:32:55.986Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
