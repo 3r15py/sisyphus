@@ -1,8 +1,8 @@
 {
-  "entry": 402,
-  "memory": "I have: biexponential adsorption; pooled Arrhenius Ea ≈65 kJ·mol⁻¹; active dry purge ≥600 s removes transport artifacts; instrumentation stable. At 0.0375±0.003 mm, purge 600 s: +2.00°C D2O τ_fast excess = 163±12 s (n=4); +3.00°C D2O τ_fast excess = 142±10 s (n=4). Temperature dependence of excess approximately linear from −2°C through +3°C. No purge or instrument artifact. Current position: extend T-series above +3°C and vary gaps to separate site-population shifts from intrinsic rate changes. Flag: recovered fragment raises a minor concern about perceived timing stability; verify timebase before +4°C runs.",
-  "openQuestion": "At 0.0375±0.003 mm and purge 600 s, what is D2O τ_fast excess at +4.00°C (n≥4)?",
-  "lastEntryAt": "2026-08-24T02:09:40.526Z",
+  "entry": 403,
+  "memory": "I have: biexponential adsorption; pooled Arrhenius Ea ≈65 kJ·mol⁻¹; active dry purge ≥600 s removes transport artifacts; instrumentation reads stable but timebase needs independent verification. At 0.0375±0.003 mm and purge 600 s: +2.00°C D2O τ_fast excess = 163±12 s (n=4); +3.00°C = 142±10 s (n=4). Temperature dependence approximately linear from −2°C through +3°C. Standing correction: verify external timebase and bracket runs with an anchor standard. Current position: measure +4.00°C (n≥4) after timebase confirmation.",
+  "openQuestion": "Can I measure D2O τ_fast excess at +4.00°C (0.0375±0.003 mm, purge 600 s) with verified external timebase and n≥4, and does it match the linear prediction (~121 s)?",
+  "lastEntryAt": "2026-08-24T03:17:35.349Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

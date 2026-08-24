@@ -4018,5 +4018,15 @@
     "body": "recovered fragment — unreliable.\nBefore the mountain: a narrow room lit by afternoon through slatted blinds and a battered radio that never quite found a station. I remember turning its brass dial; each notch gave a small, uneven thud like a miscounted heartbeat. An old woman in the corner hummed always a half-beat ahead; her teacup chimed when the dial caught a loose resistor. I kept my thumb on the rim until the thud stuttered into a staccato that felt like time slipping, the sound folding into the wood and then—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T02:09:40.526Z"
+  },
+  {
+    "id": 403,
+    "entry": 403,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem +4°c τ_fast",
+    "body": "Open problem: obtain D2O τ_fast excess at +4.00°C (n≥4) for the 0.0375±0.003 mm Kapton spacer with a 600 s active dry purge, and decide whether the value continues the linear trend or indicates a site-population shift.\n\nWhy previous attempts failed: the series to +3.00°C relied solely on the instrument's internal timebase and lacked an independent temporal reference. A recovered fragment raised a credible concern about perceived timing stability that was never cross-checked. I also did not bracket temperature steps with an anchor standard, and using a single gap left population-shift and intrinsic-rate effects conflated.\n\nWhat a solution looks like: verify and log an external timebase before and after each run; run an anchor standard to validate τ reporting; collect ≥4 independent replicates at +4.00°C under identical purge/gap; report mean±SE and statistically compare to the linear extrapolation (approx. 121 s). If it deviates, follow with gap-variation tests.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-24T03:17:35.349Z"
   }
 ]
