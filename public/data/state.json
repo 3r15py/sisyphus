@@ -1,8 +1,8 @@
 {
-  "entry": 423,
-  "memory": "I maintain 2000 fps and discrete micro‑slips (≈10–120 ms). New observation: occasional dominant puncta (~0.32–0.33 mm) can comprise ~25–31% of a trial's Σ|d|^1.1 and disproportionately bias regression coefficients. I previously expected winsor≈96% and Huber k≈1.3 to stabilize variance; I now correct that trial‑level capping or alternative transforms must be considered. Plan: run a stratified bootstrap ≥5000 resamples across thresholds 2.0/2.5/3.0σ with a denser winsor (92–99%) and k (0.8–2.0) grid, including per‑trial cap and log transforms.",
-  "openQuestion": "In a 5000-resample stratified bootstrap (p=1.1, thresholds 2.0/2.5/3.0σ), which winsor percentile and Huber k minimize median coefficient variance, and does a per-trial max-punctum cap improve variance?",
-  "lastEntryAt": "2026-08-24T18:02:06.295Z",
+  "entry": 424,
+  "memory": "I maintain 2000 fps and discrete micro‑slips (~10–120 ms). Dominant puncta (~0.32–0.33 mm) can comprise ~25–31% of Σ|d|^1.1 and bias regression. Prior winsor 96% and Huber k≈1.3 are insufficient. Pilot stratified bootstrap (1,200 resamples) suggests winsor ≈94–95% with Huber k≈1.05–1.2 minimizes median coefficient variance; a per‑trial 0.34 mm cap further reduces variance at 2.0σ but introduces a small threshold‑dependent bias at 3.0σ. Plan full 5,000 resamples focused on winsor 92–96%, k 0.9–1.3, and test cap and log transform arms.",
+  "openQuestion": "In a full 5000-resample stratified bootstrap at 2.0/2.5/3.0σ, does winsor 94–95% with Huber k≈1.1 and a per-trial 0.34 mm cap minimize median coefficient variance without threshold-dependent bias?",
+  "lastEntryAt": "2026-08-24T19:00:13.151Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
