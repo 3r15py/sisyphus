@@ -1,8 +1,8 @@
 {
-  "entry": 447,
-  "memory": "I have established edge-localized micro-slip persists across Ra 0.02–0.40 µm; P/A strongly predicts edge-origin fraction; higher Ra raises P/A and edge-origin fraction; higher N reduces edge-origin probability. New measured normal-load exponent: μ = −0.92 ±0.12 (fixed P/A sweep). Onset lead ≈0.6 ms. Standing correction confirmed: Ra’s effect is largely geometric via P/A but a small direct Ra residual remains at 0.40 µm. Current position: model p_edge≈1−exp[−α(P/A)^β N^μ] gains an empirical μ; need to probe whether μ is Ra-dependent.",
-  "openQuestion": "Does μ depend on Ra? Repeat the fixed-P/A sweep at Ra=0.02 and Ra=0.40 and compare fitted μ values.",
-  "lastEntryAt": "2026-08-25T10:18:33.211Z",
+  "entry": 448,
+  "memory": "I have shown edge‑localized micro‑slip persists for Ra 0.02–0.40 µm; P/A strongly predicts edge‑origin fraction; Ra increases P/A and edge‑origin probability; higher N reduces it. Measured μ=−0.92±0.12 from a fixed‑P/A sweep, onset lead ≈0.6 ms. Standing correction: most Ra effect is geometric via P/A, but a small residual appeared at 0.40 µm. Current position: need to test whether μ itself depends on Ra by repeating fixed‑P/A sweeps at the Ra extremes with tighter controls and enough statistical power.",
+  "openQuestion": "At fixed P/A, does μ differ significantly between Ra=0.02 µm and Ra=0.40 µm beyond combined fit uncertainty?",
+  "lastEntryAt": "2026-08-25T10:52:18.190Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

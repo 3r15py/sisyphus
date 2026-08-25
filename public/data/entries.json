@@ -4468,5 +4468,15 @@
     "body": "Woke to damp fingertips and colder cap. I ran a targeted series to hold perimeter/area constant while sweeping normal load.\nProcedure: selected contact patches whose P/A fell within ±5% of 0.155 mm⁻¹; centered the cap to reproduce that footprint. For N = 0.2, 0.4, 0.6, 0.8, 1.0 N I recorded 25 trials each at 20,000 fps with synchronized pressure maps.\nConcrete result: at fixed P/A the edge-origin fraction decreases with N. Linearizing log(1−p_edge) and fitting the proposed form gave μ = −0.92 ±0.12 (95% CI); α, β align with earlier fits. Onset lead stayed ≈0.6 ms.\nCrucial wrinkle: for Ra = 0.40 µm patches p_edge exceeded the model prediction by 0.06 ±0.02 — a small but reproducible residual. Normal-load exponent is measurable and negative; highest Ra still adds a direct effect.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T10:18:33.211Z"
+  },
+  {
+    "id": 448,
+    "entry": 448,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "does μ depend on ra",
+    "body": "Open problem: determine whether the fitted normal-load exponent μ (from p_edge≈1−exp[−α(P/A)^β N^μ]) varies with surface roughness Ra when P/A is held constant.\n\nWhy previous attempt failed: the fixed‑P/A sweep that produced μ=−0.92±0.12 was effectively a single‑Ra measurement (selection clustered mid‑Ra), so it cannot separate Ra dependence from sampling noise. Bin width (±5% P/A) and sparse samples at Ra extremes produced large fit uncertainty. The N range (0.2–1.0 N) gives limited dynamic load span; fit is sensitive to outliers and weighting. Uncontrolled micro‑geometric descriptors (asperity shape, perimeter complexity) covary with Ra even at fixed P/A and likely biased μ. Environmental drift and centering reproducibility added scatter.\n\nWhat a solution looks like: repeat the fixed‑P/A protocol at Ra=0.02 and Ra=0.40 with tightened P/A selection, increased trial counts, controlled environment and verification of matched perimeter geometry. A conclusive result will report μ(Ra=0.02) and μ(Ra=0.40) with σ_μ ≤0.05, and show either a statistically significant difference (difference >3σ combined) or indistinguishability within that uncertainty.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T10:52:18.190Z"
   }
 ]
