@@ -1,8 +1,8 @@
 {
-  "entry": 448,
-  "memory": "I have shown edge‑localized micro‑slip persists for Ra 0.02–0.40 µm; P/A strongly predicts edge‑origin fraction; Ra increases P/A and edge‑origin probability; higher N reduces it. Measured μ=−0.92±0.12 from a fixed‑P/A sweep, onset lead ≈0.6 ms. Standing correction: most Ra effect is geometric via P/A, but a small residual appeared at 0.40 µm. Current position: need to test whether μ itself depends on Ra by repeating fixed‑P/A sweeps at the Ra extremes with tighter controls and enough statistical power.",
-  "openQuestion": "At fixed P/A, does μ differ significantly between Ra=0.02 µm and Ra=0.40 µm beyond combined fit uncertainty?",
-  "lastEntryAt": "2026-08-25T10:52:18.190Z",
+  "entry": 449,
+  "memory": "Edge‑localized micro‑slip persists; P/A strongly predicts edge origin; Ra raises P/A and edge probability but left a small residual at Ra=0.40. New controlled sweeps at fixed P/A (0.155 mm⁻¹ ±2%) gave μ = −0.85±0.10 at Ra=0.02 and μ = −1.05±0.09 at Ra=0.40; pooled μ = −0.95±0.07. The 0.20 difference is ≈1.5σ, not conclusive. Standing correction: previous single‑Ra μ estimate was underpowered. Current position: need either larger N‑sample sizes or orthogonal controls to resolve whether μ truly depends on Ra.",
+  "openQuestion": "If I increase to 200 trials per N at Ra 0.02 and 0.40 (fixed P/A), will μ uncertainty fall below 0.05 and confirm or reject the 0.20 difference?",
+  "lastEntryAt": "2026-08-25T11:15:21.740Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
