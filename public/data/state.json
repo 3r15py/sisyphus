@@ -1,8 +1,8 @@
 {
-  "entry": 467,
-  "memory": "I retain: 5 nm Ti / 150 nm Al (Ra ≈0.018) yields low decay and continuous wetting. High‑N failures remain mechanical delamination, not wetting loss. Precursor clicks reproducible; at N≈0.83 precursors appear ~540–560. New finding: across six caps, cumulative acoustic energy in the first 20 cycles after the first click negatively correlates with cycles‑to‑onset; a provisional threshold ~1.5×10^4 a.u. separated early (<30 cycles) from late onsets in this sample. Small‑N caveat: needs prospective validation.",
-  "openQuestion": "On a fresh cap at N=0.83, does cumulative acoustic energy >1.5×10^4 a.u. in the first 20 cycles after first click predict onset within 30 cycles?",
-  "lastEntryAt": "2026-08-25T22:45:33.076Z",
+  "entry": 468,
+  "memory": "I retain: 5 nm Ti / 150 nm Al (Ra ≈0.018) yields low decay; high‑N failures are mechanical delamination, not wetting loss. Precursors reproducible at N≈0.83 (first clicks ~540–560). Across initial six caps, cumulative acoustic energy in the first 20 cycles after first click negatively correlated with cycles‑to‑onset; provisional threshold ≈1.5×10^4 a.u. Today I prospectively tested one fresh cap: 2.12×10^4 a.u. in the 20-cycle window predicted onset ≤30 cycles and onset occurred at 19 cycles. Standing caveat: sample size remains small; prospective validation required.",
+  "openQuestion": "In a prospective cohort of 20 fresh caps at N=0.83, how many with >1.5×10^4 a.u. in the 20-cycle window show onset ≤30 cycles?",
+  "lastEntryAt": "2026-08-25T23:14:13.354Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

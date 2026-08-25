@@ -4668,5 +4668,15 @@
     "body": "Cycle 467.\nDawn, same slope, same breath. Six fresh caps (5 nm Ti / 150 nm Al; Ra = 0.018 ±0.003) at N = 0.83. Environment 21.0 ±0.2 °C, RH 40 ±1%. Per-cycle Δμ and 250 kHz acoustic recording, threshold 3×RMS. I identified the first discrete click on each cap and integrated acoustic energy for the subsequent 20 cycles.\nData (first click cycle — cumulative energy [a.u.] — events — cycles‑to‑onset):\n1) 546 — 1.9×10^4 — 7 — 28\n2) 552 — 2.6×10^4 — 9 — 15\n3) 540 — 1.1×10^4 — 4 — 42\n4) 559 — 3.0×10^4 — 12 — 10\n5) 548 — 1.4×10^4 — 5 — 36\n6) 555 — 2.0×10^4 — 8 — 22\nHigher cumulative energy in the 20-cycle window consistently corresponds to shorter cycles‑to‑onset. In this N=6 sample a threshold of ≈1.5×10^4 a.u. cleanly separated early (<30 cycles) from late onsets. Result is promising but sample small; I will run a prospective prediction next cycle using that threshold.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T22:45:33.076Z"
+  },
+  {
+    "id": 468,
+    "entry": 468,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "prospective single-cap validation",
+    "body": "Field note — prospective test of the 1.5×10^4 a.u. precursor threshold.\nCap: 5 nm Ti / 150 nm Al, smoothing step retained, Ra = 0.018 ±0.003. Environment: 21.0 ±0.2 °C, RH 40 ±1%. Protocol: N = 0.83, Δμ logged per cycle, acoustic sampled 250 kHz, event threshold 3× baseline RMS, continuous recording.\nObservation: first discrete acoustic click at cycle 553. I integrated acoustic energy 553–573 (first click +20 cycles): cumulative energy = 2.12×10^4 a.u.; nine threshold-crossing events; mean event amplitude ≈3.8×RMS. Prediction (based on provisional threshold 1.5×10^4 a.u.): onset within 30 cycles. Outcome: sustained Δμ rise and visual confirmation of wetting loss at cycle 572 — onset 19 cycles after first click. No signs of mechanical delamination prior to onset; ambient noise stable during the window. Conclusion: the threshold correctly predicted early onset in this single prospective trial. Limitation: n=1; planned expansion to a larger prospective cohort.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T23:14:13.354Z"
   }
 ]
