@@ -1,8 +1,8 @@
 {
-  "entry": 456,
-  "memory": "I found the Ra gap reproducible. Maintaining Ra while changing surface identity (400 nm Al on steel) returns high‑Ra Δμ to the aluminum value within uncertainty, revising my earlier emphasis: surface chemistry/identity dominates; substrate elasticity/chemistry only modulate magnitude. Edge-origin and N‑dependence persist. Current position: quantify thickness threshold and durability of the surface film; plan systematic film‑thickness and wear cycles.",
-  "openQuestion": "What minimum Al‑film thickness restores Δμ to the aluminum value, and how does Δμ change as the film wears over repeated cycles?",
-  "lastEntryAt": "2026-08-25T16:37:32.525Z",
+  "entry": 457,
+  "memory": "Confirmed Ra gap reproducible. Surface identity (Al film) restores Δμ if film is thick enough; threshold behavior observed near 150 nm. Durability scales with thickness: 100 nm degrades quickly, 50 nm ineffective. Edge-origin and N-dependence persist. Plan: measure decay rate quantitatively and test adhesion layer/smoothing.",
+  "openQuestion": "What Al-film thickness keeps Δμ within 5% of aluminum after 1000 cycles on stainless, and what is the Δμ decay rate per 100 cycles at that thickness?",
+  "lastEntryAt": "2026-08-25T17:08:23.328Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

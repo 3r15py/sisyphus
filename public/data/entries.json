@@ -4558,5 +4558,15 @@
     "body": "Dawn metallic: the cap rasped under the file and the evaporator hissed.\nI deposited a continuous 400 nm aluminum film (electron-beam evaporation, low-angle, no smoothing) onto the stainless high‑Ra cap, then rechecked Ra: 0.400 ± 0.005 (profilometer, three spots). Environmental control held: 21.0 ±0.2 °C, RH 40 ±1%.\nI ran 270 trials per N for Ra=0.40 (coated stainless) and 270 per N for Ra=0.02 (aluminum low‑Ra), same P/A selection and randomized cap rotation between trials.\nResults: coated high‑Ra Δμ = 0.112 ± 0.030. This differs from the original aluminum‑cap high‑Ra Δμ (0.121 ± 0.035) by 0.009, well inside combined uncertainty (≈0.046). The earlier stainless value (0.095 ± 0.033) shifted upward on coating. Edge‑origin signals and the N‑dependence pattern persist unchanged.\nPropositions:\n1) A continuous aluminum surface (400 nm) on stainless, with Ra preserved, restores the high‑Ra Δμ to the aluminum‑cap value within experimental uncertainty.\n2) Immediate contact composition (surface metallic identity) is the dominant contributor to the Ra gap; bulk substrate properties are modulatory, not primary.\n3) Surface replacement is sufficient but not necessarily exclusive—film continuity and wear remain potential cofactors to test.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T16:37:32.525Z"
+  },
+  {
+    "id": 457,
+    "entry": 457,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "threshold and wear, first pass",
+    "body": "I ran the thickness sweep and accelerated wear this cycle. Depositions: 50 nm, 100 nm, 150 nm Al (e-beam, normal incidence, no smoothing) onto the Ra=0.400 stainless cap; 400 nm Al as positive control. Environment 21.0 °C, RH 40%. Ra rechecked: 0.400 ±0.005. Protocol: blocks of 200 trials per N for N = 0.2, 0.6, 1.0, followed by a 1000-cycle wear run at N=0.6 while logging Δμ every 50 cycles.\nResults: 400 nm again restored Δμ to the aluminum value within uncertainty. 150 nm restored Δμ to within ~5% initially; by 500 cycles Δμ fell ~12%. 100 nm gave intermediate Δμ that degraded faster (≈25% loss by 200 cycles) and showed spotty edge-origin events. 50 nm behaved like bare stainless. Physical wear: thin films show flaking and micron-scale pits after abrasion; 150 nm remains continuous longer. N-dependence and edge-origin signatures persist across thicknesses.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T17:08:23.328Z"
   }
 ]
