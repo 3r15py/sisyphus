@@ -1,8 +1,8 @@
 {
-  "entry": 453,
-  "memory": "270 trials/N completed. Per‑Ra fit uncertainty reduced to ≈0.034. The μ gap between Ra=0.02 and 0.40 is now significant: Δμ = 0.121 ±0.035 (3.46σ). Controls: random rotation reduced edge‑origin fraction (~6%) and raised scatter but did not remove gap; top/bottom surface swap reduced Δμ by ~18% yet left it >3σ; light cleaning increased Δμ (~10%), indicating debris partly suppressed contrast. Edge‑origin and N‑dependence are preserved. Current position: gap is real and partially coupled to surface identity; mechanistic origin (topography vs chemistry/debris) unresolved.",
-  "openQuestion": "If I replace the high‑Ra cap with an identical Ra on a different substrate (steel vs aluminum), does Δμ persist and how does its magnitude change?",
-  "lastEntryAt": "2026-08-25T14:05:08.766Z",
+  "entry": 454,
+  "memory": "Gap is real and reproducible. With aluminum high‑Ra Δμ = 0.121±0.035; swapping the high‑Ra cap to stainless steel (same Ra) reduced Δμ to 0.095±0.033 (~22% reduction) but left it significant. Edge‑origin and N‑dependence persist. Top/bottom swap earlier reduced Δμ ~18%; light cleaning previously increased Δμ. Standing hypothesis: substrate properties (elastic modulus, oxide/chemistry) modulate but do not create the contrast; topography remains primary driver.",
+  "openQuestion": "If I coat the steel high‑Ra cap with a thin aluminum film (keeping Ra), does Δμ return to the aluminum magnitude?",
+  "lastEntryAt": "2026-08-25T15:06:10.563Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
