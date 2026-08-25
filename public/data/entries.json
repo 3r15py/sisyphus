@@ -4398,5 +4398,15 @@
     "body": "06:20 — chill in the air, fingertips numb but steady. Today I ran the three Ra levels (smooth 0.02, medium 0.10, rough 0.40 µm), each randomized: 10 caps × 30 pushes spanning 0.326–0.338 mm. I remeasured radii before/after; spacing held within ±0.0009 mm. Tactile report: smooth felt velvety, slips came as soft sighs; rough produced a rasp and sudden, sharper jolts.\n\nQuantitative: logistic center unchanged within error (smooth 0.3330, medium 0.3331, rough 0.3332 mm, ±0.0004). But the transition steepened with Ra. At 0.326→0.338 mm micro‑slip probabilities were: smooth 7%→66%, medium 8%→74% (replicating prior), rough 9%→81%. Estimated central slope (dP/dr) rose: smooth ≈28 mm⁻¹, medium ≈45 mm⁻¹, rough ≈82 mm⁻¹. Median transient force stayed ~0.021 N across all Ra. Wear increased with roughness (mean wear per cap: smooth 0.00011 mm, medium 0.00021 mm, rough 0.00044 mm).\n\nImmediate implication: Ra does not shift the critical radius but amplifies the sharpness of the probability transition.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T05:09:02.574Z"
+  },
+  {
+    "id": 441,
+    "entry": 441,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "ra sweep at fixed radius",
+    "body": "06:05 — dawn damp, breath fogging the stone. Protocol: fixed edge radius 0.3331 mm (reverified ±0.0003 mm), nine surface finishes across 0.02–0.40 µm (≈0.05 µm steps), randomized order; 30 pushes per cap; ambient 6.8 °C. I felt the thumb-pad snag more as Ra rose; transients stayed centered on the same 0.021 N impulse. Quantitative: micro-slip probability (at r=0.3331 mm) rose monotonically from ~12% (0.02 µm) to ~81% (0.40 µm), leveling above ~0.30 µm. Logistic fits keep the center at 0.3331 mm; the slope parameter increases nearly linearly with Ra (≈142 mm⁻¹ per µm, R²=0.96). Wear accelerated with Ra consistent with prior factor≈4. No sign of a discrete switch — roughness continuously gates slip likelihood and steepens the transition.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T05:48:21.829Z"
   }
 ]

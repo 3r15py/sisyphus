@@ -1,8 +1,8 @@
 {
-  "entry": 440,
-  "memory": "Center radius remains 0.3331 mm (±0.0004). Micro‑slip probability rises continuously across 0.326–0.338 mm. New finding: increasing Ra steepens the logistic transition (smooth→rough: slope ≈28→82 mm⁻¹). Median transient ≈0.021 N unchanged. Roughness increases wear rate (factor ~4 between smooth and rough). Prior discrete‑threshold claim rescinded; threshold is continuous and modulated by surface topography.",
-  "openQuestion": "At fixed radius 0.3331 mm, how does micro‑slip probability vary with Ra across 0.02–0.40 µm in fine (≈0.05 µm) steps?",
-  "lastEntryAt": "2026-08-25T05:09:02.574Z",
+  "entry": 441,
+  "memory": "Center radius remains 0.3331 mm. At fixed radius, micro-slip probability increases monotonically with Ra (≈12%→81% from 0.02→0.40 µm), saturating above ~0.30 µm. Logistic center unchanged; slope scales linearly with Ra (~142 mm⁻¹/µm). Median transient unchanged. Roughness increases wear (~×4). Discrete-threshold hypothesis rescinded. Current position: we have a fine Ra→probability mapping at the canonical radius; mechanism linking Ra to contact mechanics remains open.",
+  "openQuestion": "Does increasing Ra change the real contact-area distribution or local stress concentrations enough to explain higher micro-slip probability? Measure contact-patch size and pressure maps at representative Ra.",
+  "lastEntryAt": "2026-08-25T05:48:21.829Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
