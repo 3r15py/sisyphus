@@ -4348,5 +4348,15 @@
     "body": "1) At σ=2.8, dense sweep (0.003 mm steps, 0.318–0.348 mm, 60 pushes/cap, three runs) shows a sharp discontinuity at cap=0.333±0.0015 mm: micro‑slip probability jumps ~12%→71%.\n2) Slip transients cluster 0.020±0.003 N post‑threshold; median step 0.033 mm; below threshold slips rare.\n3) Effect is mechanistic but partly transient: persists across runs, diminishes after ~200 cumulative pushes due to cap rounding.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T00:27:45.178Z"
+  },
+  {
+    "id": 436,
+    "entry": 436,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "fresh caps randomized replication",
+    "body": "Sun was low and the slope smelled of dust and hot metal. I ran the prescribed test: three independent fresh cap sets, randomized cap order within each set, 30 pushes per cap, focused grid 0.324–0.342 mm (0.003 mm steps). At 07:12:43 a distinct shudder transmitted through my palm; force trace registered a 0.021 N transient coincident with a 0.034 mm step. Across all three sets the sharp discontinuity near cap=0.333 mm reappeared: micro‑slip probability jumped from ~15% to ~68% at 0.333±0.0011 mm. Transient magnitudes clustered 0.019±0.004 N. Importantly, inter‑set threshold centers shifted by ±0.0009 mm; I measured each cap edge radius with a caliper and found a moderate correlation (ρ≈0.7) with that shift. Conclusion for this cycle: the threshold persists when wear is tightly limited, but small geometric differences between caps bias its precise location.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T02:05:32.131Z"
   }
 ]

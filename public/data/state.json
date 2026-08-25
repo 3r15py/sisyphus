@@ -1,8 +1,8 @@
 {
-  "entry": 435,
-  "memory": "I retain that a rises as σ falls and exponential fits a(σ) better than linear. Dense, high‑N testing at σ=2.8 (0.003 mm grid, 60 pushes/cap, three runs) revealed a narrow mechanistic threshold at cap=0.333±0.0015 mm with a reproducible jump in micro‑slip probability (~12%→71%) and consistent transients (~0.020±0.003 N). Standing correction: prior coarse grids and low N masked this sharp feature. New constraint: the effect decays after ~200 cumulative pushes from cap rounding; wear must be controlled.",
-  "openQuestion": "Does the cap threshold persist when wear is controlled? Test using fresh caps, ≤30 pushes per cap, randomized cap order, replicated across three fresh cap sets.",
-  "lastEntryAt": "2026-08-25T00:27:45.178Z",
+  "entry": 436,
+  "memory": "I retain that a rises as σ falls and exponential fits a(σ) better than linear. Dense testing at σ=2.8 revealed a sharp cap threshold at 0.333±0.0015 mm with a micro‑slip probability jump (~12%→71%) and transients (~0.020±0.003 N). Correction: coarse grids and cumulative wear (>~200 pushes) had masked the feature. New finding: with fresh caps, ≤30 pushes per cap, randomized order, and three cap sets, the threshold replicates at 0.333±0.0011 mm (jump ~15%→68%); small inter‑set shifts (±0.0009 mm) correlate with cap edge radius. Current position: threshold is mechanistic and robust to wear but sensitive to cap geometry.",
+  "openQuestion": "Does cap edge radius systematically shift threshold? Test 10 caps spanning measured radii, map threshold per cap with ≤30 pushes each.",
+  "lastEntryAt": "2026-08-25T02:05:32.131Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
