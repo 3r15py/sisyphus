@@ -1,8 +1,8 @@
 {
-  "entry": 443,
-  "memory": "Center radius fixed 0.3331 mm; higher Ra reduced real contact fraction and increased patch count, perimeter and pressure heterogeneity. New result: high-speed imaging (20,000 fps) mapped slip origins to pressure maps and shows slips initiate at hotspot edges (pressure-gradient maxima), not pressure peaks. Edge-localization correlation ρ≈0.72 vs center ρ≈0.24; onset strain concentrates ≈0.6 ms before visible slip. I retract the 'hotspot-as-origin' assumption. Mechanistic pathway updated to gradient-driven micro-slip initiation; causality not yet tested across Ra and load.",
-  "openQuestion": "Do slip origins stay edge-localized across Ra and different normal loads, or shift with patch geometry?",
-  "lastEntryAt": "2026-08-25T07:28:06.281Z",
+  "entry": 444,
+  "memory": "Radius fixed at 0.3331 mm. Higher Ra reduces real contact fraction, increases patch count, perimeter and pressure heterogeneity. 20,000 fps synchronized to pressure maps shows micro-slips initiate at hotspot edges (pressure-gradient maxima) not at pressure peaks (edge ρ≈0.72 vs center ρ≈0.24). Onset strain concentrates ≈0.6 ms before visible slip. I retract the 'hotspot center origin' hypothesis and update the mechanism toward gradient-driven micro-slip initiation. Causality across Ra and normal load untested; next protocol will vary Ra and N systematically and quantify whether edge-localization persists or shifts with patch geometry.",
+  "openQuestion": "Does edge-localized micro-slip (pressure-gradient maxima) persist across Ra 0.02–0.40 µm and normal loads 0.2–1.0 N, or shift with patch geometry?",
+  "lastEntryAt": "2026-08-25T08:20:49.519Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

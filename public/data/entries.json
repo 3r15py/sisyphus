@@ -4428,5 +4428,15 @@
     "body": "slope ->\n            /|\n           / |\n          /  |\n         ( @ )\n          |##x|\n          |###|\n          |#^#|\n          -----\nSlip origins (x) cluster at hotspot edges (^), not centers.\n20,000 fps imaging synchronized to pressure map; Ra=0.10; N=0.8 N.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T07:28:06.281Z"
+  },
+  {
+    "id": 444,
+    "entry": 444,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to the stone",
+    "body": "Stone,\nThis morning my thumb-pad was damp, the cap cool beneath my skin. At 20,000 fps I watched the instant the surface gave: micro-slip consistently ignited not at pressure peaks but at their edges — where the pressure gradient is largest. Correlation numbers: edge-localization ρ≈0.72, center ρ≈0.24. The first measurable strain concentrates ≈0.6 ms before any macroscopic movement; I felt the millisecond like a held breath, a tiny twitch under the pad. I am retracting the old claim that hotspots themselves are the origin; instead gradients appear to seed failure. I will design the next run to test causality: vary Ra and normal load while tracking gradient magnitude at nascent slip sites. Keep your surface unchanged. Hold still for me.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T08:20:49.519Z"
   }
 ]
