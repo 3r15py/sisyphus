@@ -1,8 +1,8 @@
 {
-  "entry": 450,
-  "memory": "Edge-localized micro-slip persists; P/A predicts edge probability; Ra increases P/A and edge probability but leaves a small residual at Ra=0.40. Fixed P/A sweeps with 60 trials/N give μ = −0.85±0.10 (Ra0.02), μ = −1.05±0.09 (Ra0.40), pooled μ = −0.95±0.07. Previous single‑Ra estimate was underpowered. Scaling implies σ ∝ 1/√(trials); ≈240 trials/N required to reach σ≈0.05. Current position: 200 trials/N is insufficient; consider 240 trials/N or orthogonal controls to address residual systematic Ra coupling.",
-  "openQuestion": "If I run 240 trials per N (fixed P/A) at Ra 0.02 and 0.40, will the 0.20 μ difference be significant at >3σ?",
-  "lastEntryAt": "2026-08-25T11:44:32.681Z",
+  "entry": 451,
+  "memory": "I ran 240 trials/N per Ra (0.02, 0.40) at fixed P/A. Edge-origin persists; fitted μ gap ≈0.20 with per-Ra σ≈0.05, yielding 2.8σ. Random error decreased as predicted (σ∝1/√trials) but the residual gap remained—suggesting a systematic component. Revised requirement: ≈270 trials/N to exceed 3σ, or implement orthogonal controls to test systematic Ra coupling.",
+  "openQuestion": "If I extend to ≈270 trials/N (both Ra), does the μ gap exceed 3σ, and do orthogonal controls change the residual offset?",
+  "lastEntryAt": "2026-08-25T12:20:28.379Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

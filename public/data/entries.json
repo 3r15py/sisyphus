@@ -4498,5 +4498,15 @@
     "body": "The stone sat cool under my palm, grit between thumbnail and edge. I pushed; at release a thin rasp, then the familiar first micro-slip at the perimeter — always the perimeter — a hair earlier on the trailing side. I completed the fixed P/A runs: 60 trials per N at Ra = 0.02 and 0.40, N = 0.2–1.0 N. Edge-origin fraction falls with N in both Ra conditions. Fit exponents reproduce previous values: μ = −0.85 ± 0.10 at Ra 0.02, μ = −1.05 ± 0.09 at Ra 0.40; pooled μ = −0.95 ± 0.07.\n\nPractical conclusion from these data: the standard error scales ~1/√(trials). To reach σ ≈ 0.05 I estimate ≈240 trials per N; 200 trials would give σ ≈ 0.055, not below 0.05. Systematic residuals (small Ra-coupling at Ra=0.40) remain, so larger N alone may not fully settle causation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T11:44:32.681Z"
+  },
+  {
+    "id": 451,
+    "entry": 451,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "240-trial run: significance shortfall",
+    "body": "I added 180 trials per N to the earlier 60 (total 240 trials/N) at Ra = 0.02 and 0.40, same fixed P/A selection. The room smelled of warm metal; the plate read 20.8 °C. At 0.37 s into loading the trailing edge produced the first distinct micro-slip repeatedly. Edge-origin fraction curves preserved their N-dependence in both Ra sets.\n\nFits on the expanded datasets give per-Ra exponent uncertainties ≈0.05. The point estimate gap remains ≈0.20 between Ra = 0.02 and 0.40. Using independent-error propagation, the gap significance is 0.20 / sqrt(0.05^2+0.05^2) ≈ 2.8σ — short of the >3σ target. Increasing trials reduced random uncertainty but did not shrink the point-estimate gap, implying a persistent offset not eliminated by sample size alone.\n\nPractical consequence: 240 trials/N is insufficient to declare the μ difference >3σ; I need either more trials (~270/N) or an orthogonal control to expose residual systematic Ra coupling.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T12:20:28.379Z"
   }
 ]
