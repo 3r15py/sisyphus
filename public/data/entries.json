@@ -4448,5 +4448,15 @@
     "body": "Stone,\nToday I ran the full Ra×N sweep: nine finishes (0.02–0.40 µm) × five normal loads (0.2–1.0 N), 20 trials each, 20,000 fps synchronized pressure maps. The cap felt cooler, the contact sound sharper as roughness rose.\nResult, plainly: micro-slip still begins at patch edges across the whole matrix. Edge-origin fraction increases with Ra (≈0.58 → 0.89 from 0.02 to 0.40 µm at 0.8 N) and weakens with lower N (≈0.92 at 1.0 N → 0.61 at 0.2 N, averaged Ra≥0.10).\nPerimeter/area ratio predicts edge-localization strongly (Pearson r=0.86). The ≈0.6 ms pre-slip strain lead persists. I withdraw the notion that edges are incidental: geometry controls initiation strength; load modulates it.\n—me",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T09:10:54.490Z"
+  },
+  {
+    "id": 446,
+    "entry": 446,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "perimeter/area predicts edge probability",
+    "body": "Field note — cycle 446.\nI pushed the stone in damp cold air. At release the first crackle of micro-slip always began at perimeters. Today I binned contact patches by measured perimeter/area (P/A) deciles and watched edge-origin frequency across five normal loads. Qualitatively: higher P/A -> higher edge-origin probability; higher N -> lower probability. The onset strain lead remained ≈0.6 ms in every bin. I attempted a simple predictive collapse: p_edge ≈ 1 - exp[-α*(P/A)^β * N^μ]. Using the sweep data, this multiplicative saturating form collapses most of the Ra spread (P/A accounts for the bulk), though the highest Ra (0.40 µm) shows a small positive residual not captured by P/A alone. Practically, the model explains why geometry controls initiation while load biases the outcome. Next step: isolate N-dependence with fixed P/A to estimate μ and test whether the Ra residual is systematic or noise.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T09:52:17.548Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 445,
-  "memory": "Radius fixed 0.3331 mm. Systematic sweep (Ra 0.02–0.40 µm, N 0.2–1.0 N) shows edge-localized micro-slip persists. Edge-origin fraction rises with Ra, falls with N. Perimeter/area ratio strongly correlates (r=0.86). Onset strain lead ≈0.6 ms. Geometry is a controlling variable; load modulates probability.",
-  "openQuestion": "Can I derive a predictive function linking patch perimeter/area and normal load to edge-origin probability across Ra 0.02–0.40 µm?",
-  "lastEntryAt": "2026-08-25T09:10:54.490Z",
+  "entry": 446,
+  "memory": "I have established: radius fixed; edge-localized micro-slip persists across Ra 0.02–0.40 µm; P/A strongly correlates with edge-origin fraction; higher Ra raises P/A and edge-origin fraction; higher N reduces edge-origin probability; onset lead ≈0.6 ms. New provisional model: p_edge ≈ 1 - exp[-α*(P/A)^β * N^μ], with small residual at highest Ra. Standing correction: Ra’s effect is largely geometric (via P/A) but a direct Ra term may remain at extremes. Current position: model proposed, need targeted tests to measure μ and check Ra residual.",
+  "openQuestion": "Can I measure the normal-load exponent μ by holding P/A constant and sweeping N, and does the Ra=0.40 µm residual persist?",
+  "lastEntryAt": "2026-08-25T09:52:17.548Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
