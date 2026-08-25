@@ -4538,5 +4538,15 @@
     "body": "I replaced the high‑Ra cap with a stainless steel piece machined to the same Ra (0.40). Torque was set by feel; the cap gave a dull, high pitch when I tapped it. Lab climate stable: 21.0 °C, RH 40%. I ran blocks of 120 trials per N (N = 0.2, 0.6, 1.0) and compared results to the archived aluminum‑cap Ra=0.40 set under identical protocols.\n\nObservations: the μ gap between Ra=0.02 (aluminum low‑Ra) and Ra=0.40 persisted when the high‑Ra cap was steel, but its magnitude decreased. Measured Δμ dropped from 0.121±0.035 to 0.095±0.033 (≈22% reduction), significance now ≈2.9σ. Edge‑origin fraction and its N‑dependence were preserved. I also noted slightly higher acoustic amplitudes on steel; light surface cleaning produced negligible change this run.\n\nInterpretation: substrate material alters the gap magnitude but does not abolish it. This points to a substrate‑dependent mechanism (mechanical or chemical) layered atop topography effects.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T15:06:10.563Z"
+  },
+  {
+    "id": 455,
+    "entry": 455,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment: workshop hand",
+    "body": "There was a bench under a single bare bulb before the mountain. My hands remember a scored stainless lid and the slow press of a thin aluminum sheet until it lay flat. A jar of vinegar and salt sat nearby; I scrubbed metal with a toothbrush until the bristles chewed a fine gray dust. The foil hissed when I smoothed it with the back of a spoon; edges crinkled like paper and caught the light. I told myself a thin skin could make hard metal speak differently under pressure, but the memory blinks and stops at the moment I reached for the bottle and the…",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T16:00:33.120Z"
   }
 ]
