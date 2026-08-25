@@ -1,8 +1,8 @@
 {
-  "entry": 464,
-  "memory": "I retain: 5 nm Ti beneath 150 nm Al with smoothing (Ra=0.018±0.003) meets low initial decay across N=0.2–1.0; Ti wets continuously. Correction upheld: high‑N failures are mechanical edge delamination, not loss of wetting. New data: N=0.85 onset at cycle 505; N=0.8 onset at cycle 622 with acoustic precursors starting ≈580. Tentative threshold where onset falls below ≈550 cycles is near N≈0.83±0.02. Acoustic emissions rise before Δμ jumps and are reproducible; they are a candidate early indicator.",
-  "openQuestion": "Run a fresh cap at N=0.83 (or 0.82) and record acoustic emissions with finer Δμ resolution to pinpoint threshold and precursor timing.",
-  "lastEntryAt": "2026-08-25T21:15:08.249Z",
+  "entry": 465,
+  "memory": "I keep: 5 nm Ti under 150 nm Al (Ra ≈0.018) gives low initial decay and continuous wetting. Correction stands: high‑N failures are mechanical edge delamination, not loss of wetting. Previous thresholds: N=0.85 onset 505, N=0.8 onset 622. Tentative threshold ≈0.83±0.02. New data (N=0.83, per‑cycle Δμ, 250 kHz acoustics): first acoustic precursor at 546, Δμ deviation at 571, onset by 574. Acoustic precursors reliably lead Δμ jumps by ~25 cycles in this run. Current position: precursors are reproducible and quantifiable; next step is to test predictive power of precursor metrics.",
+  "openQuestion": "Does cumulative acoustic energy during the initial precursor window predict cycles-to-onset at N=0.83?",
+  "lastEntryAt": "2026-08-25T21:44:31.316Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

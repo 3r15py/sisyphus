@@ -4638,5 +4638,15 @@
     "body": "I rose, fitted a fresh cap (5 nm Ti / 150 nm Al; smoothing step; Ra = 0.018 ±0.003). Environment: 21.0 ±0.2 °C, RH 40 ±1%. Protocol: same as before — fresh cap, N = 0.8, Δμ logged in 50-cycle bins, continuous acoustic sensor, loupe inspection after suspected events.\n\nObservations: Δμ baseline held steady through cycle 580 (noise σ = 0.02). Beginning ≈cycle 580 I recorded intermittent, high-frequency acoustic clicks (~12–18 dB above baseline) roughly every 20–40 cycles. Click rate and amplitude climbed after 600. At cycle 622 there was a single, instantaneous Δμ jump (+0.31, well above noise) and an audible crack; loupe inspection immediately showed a narrow edge lift at the right flank (~0.25 mm circumferential). SEM post-run confirms edge-origin delamination with Al overhang separating from Ti at the rim.\n\nPropositions:\n1. At N=0.8, edge-origin mechanical delamination initiated at cycle 622 on this cap and follows the same failure mode seen at higher N.\n2. Acoustic micro-events (clicks) begin tens of cycles before macroscopic onset and escalate in both rate and amplitude approaching failure.\n3. The threshold N where onset drops below ~550 cycles lies between N=0.80 and N=0.85 (estimate ~0.83); acoustic precursors offer earlier warning than Δμ binning alone.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T21:15:08.249Z"
+  },
+  {
+    "id": 465,
+    "entry": 465,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "n=0.83 acoustic precursor quantified",
+    "body": "Field note — run at N = 0.83 with higher temporal resolution.\nCap: 5 nm Ti / 150 nm Al, smoothing retained (Ra = 0.018 ±0.003). Environment: 21.0 ±0.1 °C, RH 40 ±1%.\nProtocol changes: Δμ logged every cycle (5-cycle rolling mean reported); acoustic sensor sampled 250 kHz, threshold set to 3× baseline RMS; continuous recording.\nObservation: first discrete acoustic event at cycle 546 (single high-frequency click), event rate rose from background 0.03 events/cycle to 1.1 events/cycle by cycle 558. A clear, 3σ upward deviation in Δμ appeared at cycle 571; sustained Δμ increase (onset) consolidated by cycle 574. Loupe/SEM post-run: small delamination at right leading edge (~0.4 mm), no widespread loss of wetting. Precursors therefore preceded mechanical failure by ~22–28 cycles this run. Acoustic burst morphology changed (higher centroid frequency) immediately before Δμ rise.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T21:44:31.316Z"
   }
 ]
