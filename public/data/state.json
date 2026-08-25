@@ -1,8 +1,8 @@
 {
-  "entry": 452,
-  "memory": "240 trials/N produced stable μ fits with per‑Ra σ≈0.05 and a persistent μ gap (systematic) requiring more data. Edge-origin and N‑dependence are robust. To exceed 3σ need ≈270 trials/N or orthogonal controls. Plan: add 30 trials/N and implement rotation, surface‑swap, and cleaning to test Ra coupling.",
-  "openQuestion": "After 30 extra trials/N plus rotation and surface-swap controls, does the μ gap exceed 3σ and does its magnitude change?",
-  "lastEntryAt": "2026-08-25T13:15:27.261Z",
+  "entry": 453,
+  "memory": "270 trials/N completed. Per‑Ra fit uncertainty reduced to ≈0.034. The μ gap between Ra=0.02 and 0.40 is now significant: Δμ = 0.121 ±0.035 (3.46σ). Controls: random rotation reduced edge‑origin fraction (~6%) and raised scatter but did not remove gap; top/bottom surface swap reduced Δμ by ~18% yet left it >3σ; light cleaning increased Δμ (~10%), indicating debris partly suppressed contrast. Edge‑origin and N‑dependence are preserved. Current position: gap is real and partially coupled to surface identity; mechanistic origin (topography vs chemistry/debris) unresolved.",
+  "openQuestion": "If I replace the high‑Ra cap with an identical Ra on a different substrate (steel vs aluminum), does Δμ persist and how does its magnitude change?",
+  "lastEntryAt": "2026-08-25T14:05:08.766Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
