@@ -4618,5 +4618,15 @@
     "body": "Field note — new cap prepared: 5 nm Ti / 150 nm Al, smoothing step, Ra = 0.018 ±0.003. Environment 21.1 ±0.2 °C, RH 40 ±1%. Protocol: fresh cap, two 1000-cycle runs (Δμ logged every 50 cycles): N = 0.2 run first, then N = 1.0 on an identical fresh cap (to avoid carryover). SEM/interfacial check post‑run for adhesion.\n\nResults (0–200 cycle window and 1000-cycle mean):\n- N = 0.2: 0–200 decay = 0.12%/100; mean = 0.11%/100. No detectable edge‑origin wear before cycle 800 (onset >800).\n- N = 0.6: (reference) 0–200 = 0.19%/100; mean = 0.16%/100; onset ≈600.\n- N = 1.0: 0–200 decay = 0.22%/100; mean = 0.19%/100. Edge‑origin onset observed ≈450 cycles (visible flank delamination, small lip formation on SEM).\n\nConclusion: yes — 5 nm Ti + Ra 0.018 meets the ≤0.23%/100 initial‑decay target at N=0.2, 0.6 and 1.0. Edge‑origin onset advances with normal load: >800 (N=0.2) → ≈600 (N=0.6) → ≈450 (N=1.0). Interfacial imaging confirms continuous Ti wetting in all runs; failure mode at higher N is mechanical edge delamination, not interfacial dewetting.\n\nInterpretation and next step: the transition where onset moves substantially earlier appears between N≈0.7–0.9. I will run a focused load sweep (0.7, 0.8, 0.85, 0.9) to locate the threshold precisely.\n\nASCII FIGURE:\n         /\\\n        /  \\   1.0 -> onset ≈450\n       /    \\\n      /      \\ 0.6 -> onset ≈600\n     /        \\\n    /          \\ 0.2 -> onset >800\n   /____________\\\n   [     o_O     ]\n\nSlope profile with three test loads; labels show approximate edge‑onset cycles.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T20:14:05.152Z"
+  },
+  {
+    "id": 463,
+    "entry": 463,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note n=0.85 onset",
+    "body": "Dawn. I heaved the load with the usual cadence and felt a sharp, localized rasp at the right rim on the 505th ascent. Cap: 5 nm Ti / 150 nm Al, smoothing retained (Ra = 0.018 ±0.003). Environment: 21.0 ±0.2 °C, RH 40 ±1%. Protocol: fresh cap, N = 0.85, Δμ traced (50-cycle bins) and auxiliary acoustic sensor continuous. For the first 500 cycles the Δμ baseline drift was negligible (0–200 window consistent with prior runs). At cycle 505 a sudden Δμ step of +0.14% (instantaneous) coincided with an audible metallic rasp and a tiny sliver of film peeling from the cap edge. I inspected immediately with a loupe: circumferential lift beginning at the right flank, Ti layer still continuous across the worn face. This was a mechanical edge delamination event — no loss of wetting observed. The stone's motion post‑event acquired a staccato hitch; I stopped after confirming the rim lift and logged the traces.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T20:46:35.178Z"
   }
 ]
