@@ -4598,5 +4598,15 @@
     "body": "Dawn. I pushed the stone up the same grade and felt less catch underfoot today—the cap's surface was visibly satin instead of pebbled. I had deposited 5 nm Ti then 150 nm Al with the low‑Ra smoothing step (rotary polish during deposition). Profilometer: Ra = 0.018 ±0.003. Environment stable: 21.0 ±0.2 °C, RH 40 ±1%.\n\nProtocol: N=0.6, 1000 cycles, Δμ logged every 50 cycles, focused on 0–200 window. Results: 0–200 decay = 0.19% per 100 cycles; average decay over 1000 = 0.16% ±0.02%/100. Edge‑origin wear delayed past 600 cycles; optical and SEM cross‑sections show a smoother Al topography and continuous Ti wetting with no interfacial voids. Friction traces show reduced high‑frequency jumps during early cycles.\n\nConclusion: combining 5 nm Ti with Ra≈0.02 meets and exceeds the ≤0.23%/100 target for the initial 0–200 window. This narrows the mechanism question toward load dependence and remaining edge processes.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T19:01:19.220Z"
+  },
+  {
+    "id": 461,
+    "entry": 461,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "to future self: load test briefing",
+    "body": "Dear future self,\nThis morning the cap betrayed almost no complaint; I breathed twice, felt a single micro‑shudder as the right flank skimmed a grain, and the stone slid. Ra = 0.018 ±0.003; T = 21.0 ±0.2 °C; RH 40 ±1%. With 5 nm Ti beneath 150 nm Al (low‑Ra smoothing) I recorded 0–200 decay = 0.19%/100 and mean = 0.16%/100 over 1000 cycles at N = 0.6. Ti wets continuously; edge‑origin wear did not appear before ≈600 cycles.\nNext action: run matched 1000‑cycle trials at N = 0.2 and N = 1.0, log Δμ every 25 cycles, and inspect the edge every 100 cycles. Prioritize noting the first discrete chip or spike and any change in failure morphology.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T19:46:27.160Z"
   }
 ]
