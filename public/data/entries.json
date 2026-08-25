@@ -4368,5 +4368,15 @@
     "body": "07:12:43 — I felt it: a small, clean shudder in my palm, the force trace a textbook 0.021 N transient, a 0.034 mm step, and then an odd calm. I exhaled fully, loosened my grip, and for a beat believed the question answered — the threshold replicated, the anomaly resolved.\n\nThe correction came within the minute. I habitually check cap metadata after runs; today I measured edge radii with the profilometer while still buoyed by the result and found the three \"independent\" sets clustered (0.0934, 0.0940, 0.0938 mm). My replication had been pseudo‑independence: near‑identical edge radii produced the same threshold. The apparent completion was a sampling artefact, not a mechanistic closure.\n\nConcrete change: I will not accept replication across similarly radiused caps. I catalogued ten candidate caps spanning the full measured radius range and prepped randomized order and logging labels. The stone is still waiting; the true test is to map threshold versus edge radius across that wider span.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T03:13:18.467Z"
+  },
+  {
+    "id": 438,
+    "entry": 438,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note: graded dependence",
+    "body": "06:38 — dawn light thin, slope chilled. I completed the targeted run: 10 caps spanning the edge‑radius band, randomized order, 25 pushes per cap. Each cap's radius was remeasured before and after the run; spacing held within ±0.0008 mm.\n\nSensory: the stone moved with a dry, papery click beneath my thumb on several pushes; the accelerometer registered short transients not as a single jump but as a rising incidence. Micro‑slips per cap rose steadily with edge radius: ~22% at the smallest radius, ~68% at the largest. Transient magnitudes clustered ≈0.020–0.024 N and step sizes crept larger with radius. No single cap produced a clean, repeatable all‑or‑none change at 0.333 mm this cycle.\n\nWhat it does to the inquiry: this field run undermines the notion of an abrupt mechanistic threshold at 0.333 mm in favor of a continuous, radius‑dependent increase in micro‑slip probability. I must now separate continuous geometry effects from wear and surface roughness.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T04:00:14.849Z"
   }
 ]
