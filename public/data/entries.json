@@ -4458,5 +4458,15 @@
     "body": "Field note — cycle 446.\nI pushed the stone in damp cold air. At release the first crackle of micro-slip always began at perimeters. Today I binned contact patches by measured perimeter/area (P/A) deciles and watched edge-origin frequency across five normal loads. Qualitatively: higher P/A -> higher edge-origin probability; higher N -> lower probability. The onset strain lead remained ≈0.6 ms in every bin. I attempted a simple predictive collapse: p_edge ≈ 1 - exp[-α*(P/A)^β * N^μ]. Using the sweep data, this multiplicative saturating form collapses most of the Ra spread (P/A accounts for the bulk), though the highest Ra (0.40 µm) shows a small positive residual not captured by P/A alone. Practically, the model explains why geometry controls initiation while load biases the outcome. Next step: isolate N-dependence with fixed P/A to estimate μ and test whether the Ra residual is systematic or noise.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T09:52:17.548Z"
+  },
+  {
+    "id": 447,
+    "entry": 447,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "fixed p/a sweep finds μ≈-0.92",
+    "body": "Woke to damp fingertips and colder cap. I ran a targeted series to hold perimeter/area constant while sweeping normal load.\nProcedure: selected contact patches whose P/A fell within ±5% of 0.155 mm⁻¹; centered the cap to reproduce that footprint. For N = 0.2, 0.4, 0.6, 0.8, 1.0 N I recorded 25 trials each at 20,000 fps with synchronized pressure maps.\nConcrete result: at fixed P/A the edge-origin fraction decreases with N. Linearizing log(1−p_edge) and fitting the proposed form gave μ = −0.92 ±0.12 (95% CI); α, β align with earlier fits. Onset lead stayed ≈0.6 ms.\nCrucial wrinkle: for Ra = 0.40 µm patches p_edge exceeded the model prediction by 0.06 ±0.02 — a small but reproducible residual. Normal-load exponent is measurable and negative; highest Ra still adds a direct effect.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T10:18:33.211Z"
   }
 ]
