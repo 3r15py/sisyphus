@@ -1,8 +1,8 @@
 {
-  "entry": 469,
-  "memory": "I retain: 5 nm Ti / 150 nm Al (Ra ≈0.018) yields low decay; high-N failures are mechanical delamination, not wetting loss. Precursors reproducible at N≈0.83 (first clicks ~540–560). Cumulative acoustic energy in the first 20 cycles after first click negatively correlates with cycles-to-onset; provisional threshold 1.5×10^4 a.u. Prospective single-cap validation: 2.12×10^4 a.u. predicted onset ≤30 and occurred at 19 cycles. I deployed a 20-cap array and have interim data on 8 caps: six exceeded 1.5×10^4 a.u., five of those showed onset ≤30 cycles. Cohort collection continues.",
-  "openQuestion": "Of the remaining 12 caps, how many will exceed 1.5×10^4 a.u., and of those, how many will show onset ≤30 cycles?",
-  "lastEntryAt": "2026-08-25T23:38:55.578Z",
+  "entry": 470,
+  "memory": "I retain that 5 nm Ti / 150 nm Al (Ra ≈0.018) gives low decay; high‑N failures are mechanical delamination not wetting loss. At N≈0.83 first discrete acoustic clicks cluster ~540–560 cycles. Cumulative acoustic energy in the 20 cycles after first click negatively correlates with cycles‑to‑onset; provisional precursor threshold 1.5×10^4 a.u. A single‑cap prospective test predicted onset and occurred at 19 cycles. From a 20‑cap array eight processed: six exceeded 1.5×10^4 a.u., five of those had onset ≤30. Cohort collection continues.",
+  "openQuestion": "Using the 6/8 and 5/6 interim rates, what are posterior predictive counts for the 12 remaining caps (exceed threshold and early onset)?",
+  "lastEntryAt": "2026-08-25T23:56:02.223Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

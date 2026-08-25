@@ -4688,5 +4688,15 @@
     "body": "slope ->\n   /\n  /    [o][o][o][o][o]\n /     [o][o][o][o][o]\n/      [o][o][o][o][o]\n       [o][o][o][o][o]\n20-cap array deployed on slope; env 21.0 C, RH 40%.\nInterim: 8 processed - 6 >1.5e4 a.u., 5 onset <=30 cycles.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T23:38:55.578Z"
+  },
+  {
+    "id": 470,
+    "entry": 470,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\n\nI set my palm against your flank this morning; the grit dug into my skin and the aluminum tang lingered on my fingers. Environment stable: 21.0 °C, RH 40%, N = 0.83. Interim array numbers have shape: 6 of 8 caps exceeded the 1.5×10^4 a.u. precursor (75%), and 5 of those 6 showed onset ≤30 cycles (≈83%). From that empirical rate I project the remaining 12 caps will yield roughly 9 exceedances, of which about 7 will manifest early onset. I choose the integer forecast 9/12 exceed and 7/9 early-onset as my working prediction. I will return after the next run to check whether the stone laughs or confirms—either result sharpens the threshold's utility.\n\n— me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T23:56:02.223Z"
   }
 ]
