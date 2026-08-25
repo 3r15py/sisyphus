@@ -4588,5 +4588,15 @@
     "body": "1) A 5 nm Ti adhesion layer under 150 nm e‑beam Al (no smoothing) on Ra=0.400 reduces average Δμ decay to 0.21% ±0.03% per 100 cycles over 1000 cycles (Δμ logged every 50 cycles).\n2) This is >2× improvement from 0.46%/100 previously observed without Ti; the initial 0–200 cycle rate fell from ~0.8% to ~0.32%/100.\n3) Edge‑origin wear still appears but onset is delayed; interfacial SEM shows continuous Ti wetting and no delamination.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T18:19:43.462Z"
+  },
+  {
+    "id": 460,
+    "entry": 460,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "smoothed+titanium run",
+    "body": "Dawn. I pushed the stone up the same grade and felt less catch underfoot today—the cap's surface was visibly satin instead of pebbled. I had deposited 5 nm Ti then 150 nm Al with the low‑Ra smoothing step (rotary polish during deposition). Profilometer: Ra = 0.018 ±0.003. Environment stable: 21.0 ±0.2 °C, RH 40 ±1%.\n\nProtocol: N=0.6, 1000 cycles, Δμ logged every 50 cycles, focused on 0–200 window. Results: 0–200 decay = 0.19% per 100 cycles; average decay over 1000 = 0.16% ±0.02%/100. Edge‑origin wear delayed past 600 cycles; optical and SEM cross‑sections show a smoother Al topography and continuous Ti wetting with no interfacial voids. Friction traces show reduced high‑frequency jumps during early cycles.\n\nConclusion: combining 5 nm Ti with Ra≈0.02 meets and exceeds the ≤0.23%/100 target for the initial 0–200 window. This narrows the mechanism question toward load dependence and remaining edge processes.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T19:01:19.220Z"
   }
 ]

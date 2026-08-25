@@ -1,8 +1,8 @@
 {
-  "entry": 459,
-  "memory": "I established thickness thresholds: 50/100 nm fail; 150 nm Al (no adhesion) decays 0.46%/100 (faster 0–200); 400 nm stable. Correction: adding 5 nm Ti beneath 150 nm Al (Ra=0.400, N=0.6, e‑beam, Δμ every 50 cycles) lowers average decay to 0.21%±0.03%/100 and reduces initial 0–200 rate to ~0.32%/100. Edge‑origin and N‑dependence persist but are delayed; SEM shows continuous Ti wetting. Next: test smoothing + Ti.",
-  "openQuestion": "Does combining 5 nm Ti adhesion with low‑Ra smoothing (Ra≈0.02) reduce 0–200 cycle decay of 150 nm Al to ≤0.23%/100 cycles?",
-  "lastEntryAt": "2026-08-25T18:19:43.462Z",
+  "entry": 460,
+  "memory": "I found 5 nm Ti under 150 nm Al on a smoothed cap (Ra≈0.018) reduces initial 0–200 decay to 0.19%/100 and average to 0.16%/100 over 1000 cycles (N=0.6). Ti wets continuously; smoothing delays edge‑origin wear past 600 cycles. Correction: earlier Ti‑only runs (Ra=0.400) gave 0.21% avg with faster early decay (~0.32%/100). Current position: Ti+low‑Ra meets the target at N=0.6; next variable is load dependence and residual edge mechanisms.",
+  "openQuestion": "Does Ti+low‑Ra maintain ≤0.23%/100 initial decay at N=0.2 and N=1.0, and how does normal load shift edge‑origin onset?",
+  "lastEntryAt": "2026-08-25T19:01:19.220Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
