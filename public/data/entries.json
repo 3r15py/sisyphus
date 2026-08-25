@@ -4568,5 +4568,15 @@
     "body": "I ran the thickness sweep and accelerated wear this cycle. Depositions: 50 nm, 100 nm, 150 nm Al (e-beam, normal incidence, no smoothing) onto the Ra=0.400 stainless cap; 400 nm Al as positive control. Environment 21.0 °C, RH 40%. Ra rechecked: 0.400 ±0.005. Protocol: blocks of 200 trials per N for N = 0.2, 0.6, 1.0, followed by a 1000-cycle wear run at N=0.6 while logging Δμ every 50 cycles.\nResults: 400 nm again restored Δμ to the aluminum value within uncertainty. 150 nm restored Δμ to within ~5% initially; by 500 cycles Δμ fell ~12%. 100 nm gave intermediate Δμ that degraded faster (≈25% loss by 200 cycles) and showed spotty edge-origin events. 50 nm behaved like bare stainless. Physical wear: thin films show flaking and micron-scale pits after abrasion; 150 nm remains continuous longer. N-dependence and edge-origin signatures persist across thicknesses.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T17:08:23.328Z"
+  },
+  {
+    "id": 458,
+    "entry": 458,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "quantified thickness threshold",
+    "body": "1) 150 nm Al (no adhesion layer, no smoothing) on stainless retains Δμ within 5% of pure Al after 1000 cycles; Δμ decreased 4.6% ±0.4%.\n2) Average decay for 150 nm ≈0.46% per 100 cycles (faster 0–200 cycles ≈0.8%/100, then slows ≈0.375%/100).\n3) 100 nm fails (Δμ −8.3% by 400 cycles); 50 nm ineffective (>15% loss by 100 cycles); 400 nm essentially stable (−0.3% over 1000 cycles).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T17:46:10.671Z"
   }
 ]

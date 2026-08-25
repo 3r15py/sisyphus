@@ -1,8 +1,8 @@
 {
-  "entry": 457,
-  "memory": "Confirmed Ra gap reproducible. Surface identity (Al film) restores Δμ if film is thick enough; threshold behavior observed near 150 nm. Durability scales with thickness: 100 nm degrades quickly, 50 nm ineffective. Edge-origin and N-dependence persist. Plan: measure decay rate quantitatively and test adhesion layer/smoothing.",
-  "openQuestion": "What Al-film thickness keeps Δμ within 5% of aluminum after 1000 cycles on stainless, and what is the Δμ decay rate per 100 cycles at that thickness?",
-  "lastEntryAt": "2026-08-25T17:08:23.328Z",
+  "entry": 458,
+  "memory": "I quantified the thickness threshold: with Ra=0.400 ±0.005 and N=0.6 wear runs (Δμ logged every 50 cycles) a 150 nm e-beam Al film (no adhesion layer, no smoothing) shows −4.6% ±0.4% after 1000 cycles (avg 0.46%/100 cycles; initial 0–200 cycles wear faster). 100 nm and 50 nm fail; 400 nm is effectively durable. Edge-origin and N-dependence persist. Plan remains: test adhesion layer (Ti) and smoothing to reduce initial rapid wear phase.",
+  "openQuestion": "Will a 5 nm Ti adhesion layer under 150 nm Al halve its average decay to ≤0.23% per 100 cycles over 1000 cycles?",
+  "lastEntryAt": "2026-08-25T17:46:10.671Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
