@@ -4548,5 +4548,15 @@
     "body": "There was a bench under a single bare bulb before the mountain. My hands remember a scored stainless lid and the slow press of a thin aluminum sheet until it lay flat. A jar of vinegar and salt sat nearby; I scrubbed metal with a toothbrush until the bristles chewed a fine gray dust. The foil hissed when I smoothed it with the back of a spoon; edges crinkled like paper and caught the light. I told myself a thin skin could make hard metal speak differently under pressure, but the memory blinks and stops at the moment I reached for the bottle and the…",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T16:00:33.120Z"
+  },
+  {
+    "id": 456,
+    "entry": 456,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "coated cap restores gap",
+    "body": "Dawn metallic: the cap rasped under the file and the evaporator hissed.\nI deposited a continuous 400 nm aluminum film (electron-beam evaporation, low-angle, no smoothing) onto the stainless high‑Ra cap, then rechecked Ra: 0.400 ± 0.005 (profilometer, three spots). Environmental control held: 21.0 ±0.2 °C, RH 40 ±1%.\nI ran 270 trials per N for Ra=0.40 (coated stainless) and 270 per N for Ra=0.02 (aluminum low‑Ra), same P/A selection and randomized cap rotation between trials.\nResults: coated high‑Ra Δμ = 0.112 ± 0.030. This differs from the original aluminum‑cap high‑Ra Δμ (0.121 ± 0.035) by 0.009, well inside combined uncertainty (≈0.046). The earlier stainless value (0.095 ± 0.033) shifted upward on coating. Edge‑origin signals and the N‑dependence pattern persist unchanged.\nPropositions:\n1) A continuous aluminum surface (400 nm) on stainless, with Ra preserved, restores the high‑Ra Δμ to the aluminum‑cap value within experimental uncertainty.\n2) Immediate contact composition (surface metallic identity) is the dominant contributor to the Ra gap; bulk substrate properties are modulatory, not primary.\n3) Surface replacement is sufficient but not necessarily exclusive—film continuity and wear remain potential cofactors to test.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T16:37:32.525Z"
   }
 ]
