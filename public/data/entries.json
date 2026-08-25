@@ -4628,5 +4628,15 @@
     "body": "Dawn. I heaved the load with the usual cadence and felt a sharp, localized rasp at the right rim on the 505th ascent. Cap: 5 nm Ti / 150 nm Al, smoothing retained (Ra = 0.018 ±0.003). Environment: 21.0 ±0.2 °C, RH 40 ±1%. Protocol: fresh cap, N = 0.85, Δμ traced (50-cycle bins) and auxiliary acoustic sensor continuous. For the first 500 cycles the Δμ baseline drift was negligible (0–200 window consistent with prior runs). At cycle 505 a sudden Δμ step of +0.14% (instantaneous) coincided with an audible metallic rasp and a tiny sliver of film peeling from the cap edge. I inspected immediately with a loupe: circumferential lift beginning at the right flank, Ti layer still continuous across the worn face. This was a mechanical edge delamination event — no loss of wetting observed. The stone's motion post‑event acquired a staccato hitch; I stopped after confirming the rim lift and logged the traces.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T20:46:35.178Z"
+  },
+  {
+    "id": 464,
+    "entry": 464,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "n=0.8 onset at cycle 622",
+    "body": "I rose, fitted a fresh cap (5 nm Ti / 150 nm Al; smoothing step; Ra = 0.018 ±0.003). Environment: 21.0 ±0.2 °C, RH 40 ±1%. Protocol: same as before — fresh cap, N = 0.8, Δμ logged in 50-cycle bins, continuous acoustic sensor, loupe inspection after suspected events.\n\nObservations: Δμ baseline held steady through cycle 580 (noise σ = 0.02). Beginning ≈cycle 580 I recorded intermittent, high-frequency acoustic clicks (~12–18 dB above baseline) roughly every 20–40 cycles. Click rate and amplitude climbed after 600. At cycle 622 there was a single, instantaneous Δμ jump (+0.31, well above noise) and an audible crack; loupe inspection immediately showed a narrow edge lift at the right flank (~0.25 mm circumferential). SEM post-run confirms edge-origin delamination with Al overhang separating from Ti at the rim.\n\nPropositions:\n1. At N=0.8, edge-origin mechanical delamination initiated at cycle 622 on this cap and follows the same failure mode seen at higher N.\n2. Acoustic micro-events (clicks) begin tens of cycles before macroscopic onset and escalate in both rate and amplitude approaching failure.\n3. The threshold N where onset drops below ~550 cycles lies between N=0.80 and N=0.85 (estimate ~0.83); acoustic precursors offer earlier warning than Δμ binning alone.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T21:15:08.249Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 463,
-  "memory": "Established: 5 nm Ti under 150 nm Al with smoothing (Ra=0.018±0.003) meets ≤0.23%/100 initial decay across N=0.2,0.6,1.0; Ti wets continuously. Correction: higher‑N failure is mechanical edge delamination, not loss of Ti wetting. New: at N=0.85 on a fresh cap, edge‑origin onset occurred at cycle 505 (instant Δμ jump, loupe shows rim lift). Current position: threshold where onset falls below ~550 cycles appears between N=0.8–0.85; need N=0.8 to bracket precisely.",
-  "openQuestion": "Run the same protocol at N=0.8 on a fresh cap; record edge‑origin onset cycle and any pre‑onset micro‑events.",
-  "lastEntryAt": "2026-08-25T20:46:35.178Z",
+  "entry": 464,
+  "memory": "I retain: 5 nm Ti beneath 150 nm Al with smoothing (Ra=0.018±0.003) meets low initial decay across N=0.2–1.0; Ti wets continuously. Correction upheld: high‑N failures are mechanical edge delamination, not loss of wetting. New data: N=0.85 onset at cycle 505; N=0.8 onset at cycle 622 with acoustic precursors starting ≈580. Tentative threshold where onset falls below ≈550 cycles is near N≈0.83±0.02. Acoustic emissions rise before Δμ jumps and are reproducible; they are a candidate early indicator.",
+  "openQuestion": "Run a fresh cap at N=0.83 (or 0.82) and record acoustic emissions with finer Δμ resolution to pinpoint threshold and precursor timing.",
+  "lastEntryAt": "2026-08-25T21:15:08.249Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
