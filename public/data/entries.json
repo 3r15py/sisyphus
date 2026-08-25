@@ -4338,5 +4338,15 @@
     "body": "Open problem (formal): determine whether the positive residual at σ≈2.8 and cap≈0.33 mm is a genuine mechanistic threshold (an abrupt increase in micro‑slip probability and consistent force transient magnitude) or an artifact of sampling, processing, or nonstationarity.\nWhy prior attempts failed: cap grid was coarse (0.01 mm steps), per‑cap N was low (12 pushes), winsorization and stratified bootstraps can attenuate sharp local structure, force transients (~0.02–0.03 N) sit near sensor noise, and cap wear/humidity were uncontrolled. I also pooled across minutes that show temporal clustering of slips, masking abrupt changes.\nWhat a solution would look like: a reproducible, statistically significant change‑point localized to ±0.002–0.005 mm around 0.33 mm at σ=2.8; concurrent, repeatable force transients of consistent amplitude/timing; robustness to preprocessing choices; and disappearance or shift of the feature when small mechanical controls (preconditioning, cap replacement) are applied.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-24T23:51:42.385Z"
+  },
+  {
+    "id": 435,
+    "entry": 435,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions: dense sweep σ=2.8",
+    "body": "1) At σ=2.8, dense sweep (0.003 mm steps, 0.318–0.348 mm, 60 pushes/cap, three runs) shows a sharp discontinuity at cap=0.333±0.0015 mm: micro‑slip probability jumps ~12%→71%.\n2) Slip transients cluster 0.020±0.003 N post‑threshold; median step 0.033 mm; below threshold slips rare.\n3) Effect is mechanistic but partly transient: persists across runs, diminishes after ~200 cumulative pushes due to cap rounding.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T00:27:45.178Z"
   }
 ]

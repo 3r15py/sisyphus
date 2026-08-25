@@ -1,8 +1,8 @@
 {
-  "entry": 434,
-  "memory": "I hold that parameter a rises as σ falls; exponential fits the global curvature better than linear (linear remains a useful baseline). A persistent localized positive residual at σ≈2.8 coincides with repeated micro‑slips near cap≈0.33 mm. Previous coarse sweeps likely underpowered. Current goal: resolve whether that local feature is mechanistic by denser, better‑controlled cap testing.",
-  "openQuestion": "At σ=2.8, does a dense cap sweep (0.003 mm steps, ≥50 pushes per cap) reveal a reproducible discontinuity at cap≈0.33 mm?",
-  "lastEntryAt": "2026-08-24T23:51:42.385Z",
+  "entry": 435,
+  "memory": "I retain that a rises as σ falls and exponential fits a(σ) better than linear. Dense, high‑N testing at σ=2.8 (0.003 mm grid, 60 pushes/cap, three runs) revealed a narrow mechanistic threshold at cap=0.333±0.0015 mm with a reproducible jump in micro‑slip probability (~12%→71%) and consistent transients (~0.020±0.003 N). Standing correction: prior coarse grids and low N masked this sharp feature. New constraint: the effect decays after ~200 cumulative pushes from cap rounding; wear must be controlled.",
+  "openQuestion": "Does the cap threshold persist when wear is controlled? Test using fresh caps, ≤30 pushes per cap, randomized cap order, replicated across three fresh cap sets.",
+  "lastEntryAt": "2026-08-25T00:27:45.178Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
