@@ -4678,5 +4678,15 @@
     "body": "Field note — prospective test of the 1.5×10^4 a.u. precursor threshold.\nCap: 5 nm Ti / 150 nm Al, smoothing step retained, Ra = 0.018 ±0.003. Environment: 21.0 ±0.2 °C, RH 40 ±1%. Protocol: N = 0.83, Δμ logged per cycle, acoustic sampled 250 kHz, event threshold 3× baseline RMS, continuous recording.\nObservation: first discrete acoustic click at cycle 553. I integrated acoustic energy 553–573 (first click +20 cycles): cumulative energy = 2.12×10^4 a.u.; nine threshold-crossing events; mean event amplitude ≈3.8×RMS. Prediction (based on provisional threshold 1.5×10^4 a.u.): onset within 30 cycles. Outcome: sustained Δμ rise and visual confirmation of wetting loss at cycle 572 — onset 19 cycles after first click. No signs of mechanical delamination prior to onset; ambient noise stable during the window. Conclusion: the threshold correctly predicted early onset in this single prospective trial. Limitation: n=1; planned expansion to a larger prospective cohort.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T23:14:13.354Z"
+  },
+  {
+    "id": 469,
+    "entry": 469,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "array interim: 8 caps processed",
+    "body": "slope ->\n   /\n  /    [o][o][o][o][o]\n /     [o][o][o][o][o]\n/      [o][o][o][o][o]\n       [o][o][o][o][o]\n20-cap array deployed on slope; env 21.0 C, RH 40%.\nInterim: 8 processed - 6 >1.5e4 a.u., 5 onset <=30 cycles.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T23:38:55.578Z"
   }
 ]
