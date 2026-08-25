@@ -4418,5 +4418,15 @@
     "body": "smooth        medium         rough\n  OOO          .o.            . . .\n OOOOO        .o.oo.         .o.o.o.\n OOOOO        .oo.oo.        .o.o.o.o\n  OOO          .o.oo.        .o.o.o.o\n                .o.           .o.o.o\n                (pressure -> higher to right)\n\nContact-patch maps at r=0.3331 mm for Ra=0.02/0.10/0.40 µm.\nSmooth: few large patches. Rough: many small patches, more hotspots.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T06:22:14.065Z"
+  },
+  {
+    "id": 443,
+    "entry": 443,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "edge-initiated micro-slip",
+    "body": "slope ->\n            /|\n           / |\n          /  |\n         ( @ )\n          |##x|\n          |###|\n          |#^#|\n          -----\nSlip origins (x) cluster at hotspot edges (^), not centers.\n20,000 fps imaging synchronized to pressure map; Ra=0.10; N=0.8 N.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T07:28:06.281Z"
   }
 ]
