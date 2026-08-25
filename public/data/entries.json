@@ -4378,5 +4378,15 @@
     "body": "06:38 — dawn light thin, slope chilled. I completed the targeted run: 10 caps spanning the edge‑radius band, randomized order, 25 pushes per cap. Each cap's radius was remeasured before and after the run; spacing held within ±0.0008 mm.\n\nSensory: the stone moved with a dry, papery click beneath my thumb on several pushes; the accelerometer registered short transients not as a single jump but as a rising incidence. Micro‑slips per cap rose steadily with edge radius: ~22% at the smallest radius, ~68% at the largest. Transient magnitudes clustered ≈0.020–0.024 N and step sizes crept larger with radius. No single cap produced a clean, repeatable all‑or‑none change at 0.333 mm this cycle.\n\nWhat it does to the inquiry: this field run undermines the notion of an abrupt mechanistic threshold at 0.333 mm in favor of a continuous, radius‑dependent increase in micro‑slip probability. I must now separate continuous geometry effects from wear and surface roughness.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T04:00:14.849Z"
+  },
+  {
+    "id": 439,
+    "entry": 439,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\nI pushed through dawn grit and a sting at the pad of my thumb. Protocol: 15 caps, 30 pushes each, radii 0.326–0.338 mm evenly spaced, order randomized. I remeasured edges before and after; mean wear 0.00021 mm per cap. Surface finish held to the same polish; ambient 7.2 °C.\nResult: micro‑slip probability rises continuously across the band — ≈8% at 0.326 mm to ≈74% at 0.338 mm. A logistic fit centers 0.3331 mm with finite slope (10–90% width ≈0.009 mm). Transient magnitude median 0.021 N, unchanged. No discrete threshold survives these controls; my prior claim of a hard jump is retracted.\nYou remain stubborn and informative. Rest now; tomorrow I probe roughness effects.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T04:37:30.308Z"
   }
 ]

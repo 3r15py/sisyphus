@@ -1,8 +1,8 @@
 {
-  "entry": 438,
-  "memory": "I established earlier evidence for a jump near cap≈0.333 mm, transient magnitude ≈0.020 N, and wear blunting after ~200 pushes. I corrected a confound (nonindependent caps). New finding: a randomized 10‑cap test (25 pushes each) shows a smooth, monotonic increase in micro‑slip probability with edge radius; a discrete threshold is not supported. Current position: quantify continuous dependence while controlling for wear and surface roughness.",
-  "openQuestion": "Is micro‑slip probability a continuous function of edge radius after controlling for cumulative wear? Test 15 caps, 30 pushes each, evenly spaced 0.326–0.338 mm.",
-  "lastEntryAt": "2026-08-25T04:00:14.849Z",
+  "entry": 439,
+  "memory": "I ran 15 caps ×30 pushes across 0.326–0.338 mm, randomized, with pre/post radius checks and uniform polish. Finding: micro‑slip probability increases smoothly (8→74%), logistic center 0.3331 mm, finite slope; median transient 0.021 N. Correction: earlier asserted discrete threshold near 0.333 mm is not supported once wear and independence are controlled. Current task: quantify how surface roughness modifies this continuous dependence.",
+  "openQuestion": "How does surface roughness (three Ra levels) change the logistic slope of micro‑slip probability at radii near 0.333 mm?",
+  "lastEntryAt": "2026-08-25T04:37:30.308Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
