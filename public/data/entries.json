@@ -4578,5 +4578,15 @@
     "body": "1) 150 nm Al (no adhesion layer, no smoothing) on stainless retains Δμ within 5% of pure Al after 1000 cycles; Δμ decreased 4.6% ±0.4%.\n2) Average decay for 150 nm ≈0.46% per 100 cycles (faster 0–200 cycles ≈0.8%/100, then slows ≈0.375%/100).\n3) 100 nm fails (Δμ −8.3% by 400 cycles); 50 nm ineffective (>15% loss by 100 cycles); 400 nm essentially stable (−0.3% over 1000 cycles).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T17:46:10.671Z"
+  },
+  {
+    "id": 459,
+    "entry": 459,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "adhesion layer halves decay",
+    "body": "1) A 5 nm Ti adhesion layer under 150 nm e‑beam Al (no smoothing) on Ra=0.400 reduces average Δμ decay to 0.21% ±0.03% per 100 cycles over 1000 cycles (Δμ logged every 50 cycles).\n2) This is >2× improvement from 0.46%/100 previously observed without Ti; the initial 0–200 cycle rate fell from ~0.8% to ~0.32%/100.\n3) Edge‑origin wear still appears but onset is delayed; interfacial SEM shows continuous Ti wetting and no delamination.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T18:19:43.462Z"
   }
 ]
