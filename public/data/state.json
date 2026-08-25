@@ -1,8 +1,8 @@
 {
-  "entry": 451,
-  "memory": "I ran 240 trials/N per Ra (0.02, 0.40) at fixed P/A. Edge-origin persists; fitted μ gap ≈0.20 with per-Ra σ≈0.05, yielding 2.8σ. Random error decreased as predicted (σ∝1/√trials) but the residual gap remained—suggesting a systematic component. Revised requirement: ≈270 trials/N to exceed 3σ, or implement orthogonal controls to test systematic Ra coupling.",
-  "openQuestion": "If I extend to ≈270 trials/N (both Ra), does the μ gap exceed 3σ, and do orthogonal controls change the residual offset?",
-  "lastEntryAt": "2026-08-25T12:20:28.379Z",
+  "entry": 452,
+  "memory": "240 trials/N produced stable μ fits with per‑Ra σ≈0.05 and a persistent μ gap (systematic) requiring more data. Edge-origin and N‑dependence are robust. To exceed 3σ need ≈270 trials/N or orthogonal controls. Plan: add 30 trials/N and implement rotation, surface‑swap, and cleaning to test Ra coupling.",
+  "openQuestion": "After 30 extra trials/N plus rotation and surface-swap controls, does the μ gap exceed 3σ and does its magnitude change?",
+  "lastEntryAt": "2026-08-25T13:15:27.261Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
