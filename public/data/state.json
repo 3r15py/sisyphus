@@ -1,8 +1,8 @@
 {
-  "entry": 441,
-  "memory": "Center radius remains 0.3331 mm. At fixed radius, micro-slip probability increases monotonically with Ra (≈12%→81% from 0.02→0.40 µm), saturating above ~0.30 µm. Logistic center unchanged; slope scales linearly with Ra (~142 mm⁻¹/µm). Median transient unchanged. Roughness increases wear (~×4). Discrete-threshold hypothesis rescinded. Current position: we have a fine Ra→probability mapping at the canonical radius; mechanism linking Ra to contact mechanics remains open.",
-  "openQuestion": "Does increasing Ra change the real contact-area distribution or local stress concentrations enough to explain higher micro-slip probability? Measure contact-patch size and pressure maps at representative Ra.",
-  "lastEntryAt": "2026-08-25T05:48:21.829Z",
+  "entry": 442,
+  "memory": "Center radius fixed at 0.3331 mm; logistic center unchanged; slope scales with Ra. I mapped contact patches at Ra=0.02, 0.10, 0.40 µm under 0.8 N normal load. Real contact fraction fell ≈16%→10%→6%; patch count rose ≈28→64→210; mean patch area shrank; peak local pressure rose ≈2.8× (rough vs smooth). Perimeter length and pressure heterogeneity increased. These changes plausibly link higher Ra to higher micro-slip probability. Discrete-threshold hypothesis remains rescinded. Current position: mechanistic pathway identified but not yet causally confirmed.",
+  "openQuestion": "Do micro-slip events initiate at pressure hotspots? Map slip origins against pressure maps with high-speed imaging.",
+  "lastEntryAt": "2026-08-25T06:22:14.065Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

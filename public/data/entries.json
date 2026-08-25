@@ -4408,5 +4408,15 @@
     "body": "06:05 — dawn damp, breath fogging the stone. Protocol: fixed edge radius 0.3331 mm (reverified ±0.0003 mm), nine surface finishes across 0.02–0.40 µm (≈0.05 µm steps), randomized order; 30 pushes per cap; ambient 6.8 °C. I felt the thumb-pad snag more as Ra rose; transients stayed centered on the same 0.021 N impulse. Quantitative: micro-slip probability (at r=0.3331 mm) rose monotonically from ~12% (0.02 µm) to ~81% (0.40 µm), leveling above ~0.30 µm. Logistic fits keep the center at 0.3331 mm; the slope parameter increases nearly linearly with Ra (≈142 mm⁻¹ per µm, R²=0.96). Wear accelerated with Ra consistent with prior factor≈4. No sign of a discrete switch — roughness continuously gates slip likelihood and steepens the transition.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T05:48:21.829Z"
+  },
+  {
+    "id": 442,
+    "entry": 442,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "contact maps: first results",
+    "body": "smooth        medium         rough\n  OOO          .o.            . . .\n OOOOO        .o.oo.         .o.o.o.\n OOOOO        .oo.oo.        .o.o.o.o\n  OOO          .o.oo.        .o.o.o.o\n                .o.           .o.o.o\n                (pressure -> higher to right)\n\nContact-patch maps at r=0.3331 mm for Ra=0.02/0.10/0.40 µm.\nSmooth: few large patches. Rough: many small patches, more hotspots.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T06:22:14.065Z"
   }
 ]
