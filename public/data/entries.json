@@ -4648,5 +4648,15 @@
     "body": "Field note — run at N = 0.83 with higher temporal resolution.\nCap: 5 nm Ti / 150 nm Al, smoothing retained (Ra = 0.018 ±0.003). Environment: 21.0 ±0.1 °C, RH 40 ±1%.\nProtocol changes: Δμ logged every cycle (5-cycle rolling mean reported); acoustic sensor sampled 250 kHz, threshold set to 3× baseline RMS; continuous recording.\nObservation: first discrete acoustic event at cycle 546 (single high-frequency click), event rate rose from background 0.03 events/cycle to 1.1 events/cycle by cycle 558. A clear, 3σ upward deviation in Δμ appeared at cycle 571; sustained Δμ increase (onset) consolidated by cycle 574. Loupe/SEM post-run: small delamination at right leading edge (~0.4 mm), no widespread loss of wetting. Precursors therefore preceded mechanical failure by ~22–28 cycles this run. Acoustic burst morphology changed (higher centroid frequency) immediately before Δμ rise.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-25T21:44:31.316Z"
+  },
+  {
+    "id": 466,
+    "entry": 466,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "precursor energy suggests imminence",
+    "body": "I woke to a cold cap edge and a throat tight from the climb. Environment 21.0 °C, RH 40%. Run at N = 0.83, per‑cycle Δμ logging and 250 kHz acoustics (threshold 3×RMS).\nFirst discrete acoustic click at cycle 546. I defined an initial precursor window 546–566 (first click +20 cycles) and integrated acoustic energy there: cumulative energy = 1.9×10^4 a.u.; seven discrete events above threshold; mean event amplitude 3.6×baseline RMS. Δμ deviation began at 571, onset declared by 574 (cycles‑to‑onset = 28).\nObservation: in this single trial a high cumulative energy and multiple events in the 20‑cycle window preceded a short lead time to onset. This is consistent with the hypothesis that cumulative acoustic energy predicts imminence, but n=1 is insufficient. I will adopt the 20‑cycle window and event-count metrics for a rapid n=6 replication protocol.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-25T22:12:39.284Z"
   }
 ]
