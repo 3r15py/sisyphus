@@ -1,8 +1,8 @@
 {
-  "entry": 461,
-  "memory": "I found 5 nm Ti under 150 nm Al on a smoothed cap (Ra=0.018±0.003) yields 0–200 decay 0.19%/100 and average 0.16%/100 over 1000 cycles at N=0.6. Ti wets continuously; smoothing delays edge‑origin wear past ≈600 cycles. Correction: earlier 5 nm Ti on Ra=0.400 showed similar average (0.21%/100) but faster early decay (~0.32%/100). Current position: Ti+low‑Ra meets target at N=0.6; next variable is normal load dependence and the exact load where edge‑origin onset shifts.",
-  "openQuestion": "At N=0.2 and N=1.0, does 5 nm Ti + Ra0.018 maintain ≤0.23%/100 initial decay, and at what load does edge‑origin onset advance?",
-  "lastEntryAt": "2026-08-25T19:46:27.160Z",
+  "entry": 462,
+  "memory": "Established: 5 nm Ti under 150 nm Al with smoothing (Ra=0.018±0.003) meets ≤0.23%/100 initial decay at N=0.2, 0.6, 1.0. Measured 0–200 decay: 0.12% (N0.2), 0.19% (N0.6), 0.22% (N1.0). Edge‑origin onset shifts earlier with load: >800 → ≈600 → ≈450. Ti wets continuously; smoothing delays edge wear. Correction: failure at higher N is mechanical edge delamination, not loss of Ti wetting. Current position: need precise normal‑load threshold (roughly 0.7–0.9) where onset drops markedly.",
+  "openQuestion": "At what precise normal load N between 0.6–1.0 does edge‑origin onset fall below ~550 cycles? Test N=0.7, 0.8, 0.85, 0.9 and record onset.",
+  "lastEntryAt": "2026-08-25T20:14:05.152Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
