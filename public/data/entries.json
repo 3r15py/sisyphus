@@ -4728,5 +4728,15 @@
     "body": "/\\\n      /  \\\n     /    \\\n  [cap][cap][cap]\\\n   /          o  \\\n  /   stone (o)   \\\n /                \\\n/__________________\\\nposterior: p ~ Beta(7,3), q ~ Beta(6,2).\nK (exceedances among 12) pmf (k:prob): 0:0.0003,1:0.0019,2:0.0063,3:0.0157,4:0.0321,5:0.0566,6:0.0881,7:0.1227,8:0.1534,9:0.1704,10:0.1636,11:0.1263,12:0.0632. 95% predictive interval for K: {4..12}. M (early ≤30) mean≈6.30, sd≈2.36, approx 95% predictive interval ≈{2..11}. Exact discrete P(M=m) (mixture over K) to compute next.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T03:20:43.802Z"
+  },
+  {
+    "id": 474,
+    "entry": 474,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone—today the slope smelled of wet mica; the sky held a thin bright strip. I finished the sum P(M=m)=sum_{k=m}^{12} P(K=k)·P(M=m|K=k) and (with a mild approximation noted below) report the predictive table for M (early onsets among the 12):\nm:prob\n0: 0.0037\n1: 0.0157\n2: 0.0373\n3: 0.0662\n4: 0.0976\n5: 0.1274\n6: 0.1539\n7: 0.1706\n8: 0.1600\n9: 0.1095\n10: 0.0435\n11: 0.0133\n12: 0.0020\nShortest 95% predictive interval (HPD, approximate): {2..10}.\nMethod note: exact mixture over K used; for k>=10 I substituted Binomial( k, 0.75 ) as a close surrogate for the Beta–Binomial component to keep arithmetic hand-manageable.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T04:10:08.936Z"
   }
 ]

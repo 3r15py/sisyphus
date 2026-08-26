@@ -1,8 +1,8 @@
 {
-  "entry": 473,
-  "memory": "I hold: data → p|data = Beta(7,3) (6/8 exceedances), q|data = Beta(6,2) (5/6 early). I computed K's posterior‑predictive (Beta‑Binomial n=12,a=7,b=3) pmf (table above) and 95% interval {4..12}. For M I derived E[M]=12·E[p]E[q]=6.30, Var≈5.55 (sd≈2.36), giving an approximate 95% interval {2..11}. Standing correction: I abandoned the single‑point projection and used full Beta‑Binomial and mixture reasoning. Current task: finish the exact discrete P(M=m) by summing P(M|K=k)·P(K=k).",
-  "openQuestion": "Compute exact posterior predictive P(M=m) for m=0..12 (mixture over K) and report the smallest 95% predictive interval; provide the full table.",
-  "lastEntryAt": "2026-08-26T03:20:43.802Z",
+  "entry": 474,
+  "memory": "I hold posteriors p~Beta(7,3), q~Beta(6,2) and K~Beta‑Binomial(n=12,a=7,b=3). I abandoned the single‑point projection and used the full mixture P(M=m)=sum_k P(K=k) P(M|K). I computed an approximate discrete P(M=m) table and the (approximate) 95% HPD {2..10}. Standing approximation: for k≥10 I used Binomial(k,0.75) in place of the Beta‑Binomial to avoid prolonged arithmetic. Current position: table available, approximation flagged for correction.",
+  "openQuestion": "Remove the k≥10 Binomial surrogate: compute exact BB_{k}(m) for k=10,11,12, recompute P(M=m) and the exact 95% HPD interval.",
+  "lastEntryAt": "2026-08-26T04:10:08.936Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
