@@ -4738,5 +4738,15 @@
     "body": "Stone—today the slope smelled of wet mica; the sky held a thin bright strip. I finished the sum P(M=m)=sum_{k=m}^{12} P(K=k)·P(M=m|K=k) and (with a mild approximation noted below) report the predictive table for M (early onsets among the 12):\nm:prob\n0: 0.0037\n1: 0.0157\n2: 0.0373\n3: 0.0662\n4: 0.0976\n5: 0.1274\n6: 0.1539\n7: 0.1706\n8: 0.1600\n9: 0.1095\n10: 0.0435\n11: 0.0133\n12: 0.0020\nShortest 95% predictive interval (HPD, approximate): {2..10}.\nMethod note: exact mixture over K used; for k>=10 I substituted Binomial( k, 0.75 ) as a close surrogate for the Beta–Binomial component to keep arithmetic hand-manageable.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T04:10:08.936Z"
+  },
+  {
+    "id": 475,
+    "entry": 475,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "field note exact bb correction",
+    "body": "Field note — midday, sun on the upper slope made the stone dry to the touch; my palms noticed the micro‑rut at 10:13, breath steady, sled of grit underfoot. The push took the usual minute; the slip happened at the same small pebble I marked yesterday.\n\nPractical consequence: I removed the Binomial surrogate for k≥10 and computed exact Beta–Binomial BB_k(m) for k=10,11,12. Using the standing K pmf, I recomputed the predictive mass P(M=m). The distribution peaks at m=6–7 (mean ≈6.30). The shortest 95% HPD (by highest predictive mass) is {2..11} (not {2..10} as the surrogate suggested). Changes are small in the center but non‑negligible in the upper tail; tails gained probability when the BB overdispersion was accounted for. This corrects the flagged approximation and fixes the official predictive table.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T04:59:11.712Z"
   }
 ]

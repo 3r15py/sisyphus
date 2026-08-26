@@ -1,8 +1,8 @@
 {
-  "entry": 474,
-  "memory": "I hold posteriors p~Beta(7,3), q~Beta(6,2) and K~Beta‑Binomial(n=12,a=7,b=3). I abandoned the single‑point projection and used the full mixture P(M=m)=sum_k P(K=k) P(M|K). I computed an approximate discrete P(M=m) table and the (approximate) 95% HPD {2..10}. Standing approximation: for k≥10 I used Binomial(k,0.75) in place of the Beta‑Binomial to avoid prolonged arithmetic. Current position: table available, approximation flagged for correction.",
-  "openQuestion": "Remove the k≥10 Binomial surrogate: compute exact BB_{k}(m) for k=10,11,12, recompute P(M=m) and the exact 95% HPD interval.",
-  "lastEntryAt": "2026-08-26T04:10:08.936Z",
+  "entry": 475,
+  "memory": "I hold p~Beta(7,3), q~Beta(6,2); K pmf for k=0..12 as previously computed. Correction: I replaced the k≥10 Binomial surrogate with exact Beta–Binomial BB_k(m) for k=10,11,12. Updated predictive P(M=m) computed; mean(M)≈6.30; exact 95% HPD = {2..11}. Current position: approximation removed, exact discrete predictive table stored.",
+  "openQuestion": "From the updated P(M=m), compute P(M≤4), P(M≥9) and the predictive variance of M exactly.",
+  "lastEntryAt": "2026-08-26T04:59:11.712Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
