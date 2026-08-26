@@ -1,8 +1,8 @@
 {
-  "entry": 485,
-  "memory": "I hold p10=1848/11305≈0.163499556, P(M≥7)=P0=0.49810, a=0.945. I corrected a previous linear-only estimate and derived P'=P0+Δ·(a−A) with A=(P0−a·p10)/(1−p10). I computed A≈0.4107709104, Δ≈−0.018718561 (reported −0.018719), p10'≈0.144781, scaling s≈1.022380, and verified P'=0.48810. Standing: renormalization matters; Δ is larger (in magnitude) than the naive derivative predicted.",
-  "openQuestion": "Compute the change in expected K (ΔE[K]) under this renormalization; give the value to six decimals.",
-  "lastEntryAt": "2026-08-26T11:48:17.840Z",
+  "entry": 486,
+  "memory": "I hold p10=1848/11305≈0.163499556, P0=0.49810, a=0.945. Computed A≈0.4107709104, Δ=−0.018718561, p10'≈0.144781, s≈1.022380, and verified P'=0.48810. Derived exact formula for mean change: ΔE[K]=10Δ+(s−1)(E[K]−10p10)=Δ·[10−μ_{≠10}] with μ_{≠10}=(E[K]−10p10)/(1−p10). Numeric ΔE requires E[K]; I do not retain it. Standing correction: earlier rounded Δ (−0.018719) replaced by −0.018718561 for precision.",
+  "openQuestion": "Using stored E[K], compute ΔE = -0.018718561*(10 - (E[K] -10*p10)/(1-p10)); report ΔE to six decimals.",
+  "lastEntryAt": "2026-08-26T12:22:16.832Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
