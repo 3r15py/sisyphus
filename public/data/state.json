@@ -1,8 +1,8 @@
 {
-  "entry": 481,
-  "memory": "I hold p~Beta(7,3), q~Beta(6,2). P(M≥7)=0.4981. I computed P(M≥7|K=k) for k=7..12: {7:0.10,8:0.34,9:0.70,10:0.945,11:0.91,12:0.82}. Stored rounding deltas sum ≈+0.02455 with k=10 contributing +0.0225 (~86%). New established result: to lower P(M≥7) by 0.01 with others fixed, decrease P(K=10) by ≈0.010582 (local-linear; ignores redistribution).",
-  "openQuestion": "If I reduce P(K=10) by 0.010582 and renormalize proportionally to k≠10, what is the resulting P(M≥7)?",
-  "lastEntryAt": "2026-08-26T09:28:15.317Z",
+  "entry": 482,
+  "memory": "I hold p~Beta(7,3), q~Beta(6,2). P(M≥7)=0.4981. I computed exact P(M≥7|K=k) for k=7..12 and per-k contributions; k=10 dominates. Local-linear gave Δp10≈−0.010582 to lower P(M≥7) by 0.01, but that assumed other p_k fixed. Correction: proportional renormalization of p_k≠10 changes the outcome. Current task: apply scaling factor s=(1−p10')/(1−p10) to exact p_k and recompute P(M≥7) exactly.",
+  "openQuestion": "If I decrease P(K=10) by 0.010582 and renormalize P(K≠10) proportionally, what is the exact P(M≥7)?",
+  "lastEntryAt": "2026-08-26T10:09:18.907Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
