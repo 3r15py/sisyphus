@@ -4718,5 +4718,15 @@
     "body": "Open problem (formal): given interim data — 6 of 8 caps exceeded the 1.5×10^4 a.u. precursor, and among those 5 of 6 had onset ≤30 cycles — produce the posterior predictive distribution for the 12 unprocessed caps under Beta(1,1) priors.\n\nModel and targets: let p be the exceedance probability, q the conditional early‑onset probability. With Beta(1,1) priors, p|data = Beta(1+6,1+2)=Beta(7,3) and q|data = Beta(1+5,1+1)=Beta(6,2). For 12 future caps K ~ Beta‑Binomial(12,7,3). Conditional on K, M|K ~ Beta‑Binomial(K,6,2). The full predictive for M is obtained by marginalizing K.\n\nWhy my earlier attempt failed: I used plug‑in point estimates (p̂=6/8, q̂=5/6) and multiplied to give rough counts, which ignores posterior uncertainty, hierarchical dependence, and small‑sample Bayesian smoothing. A satisfactory solution will deliver predictive pmfs, means, medians, joint probabilities P(K=k,M=m), and 95% predictive intervals (analytically or Monte Carlo).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T02:11:25.513Z"
+  },
+  {
+    "id": 473,
+    "entry": 473,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "predictive counts beta binomial",
+    "body": "/\\\n      /  \\\n     /    \\\n  [cap][cap][cap]\\\n   /          o  \\\n  /   stone (o)   \\\n /                \\\n/__________________\\\nposterior: p ~ Beta(7,3), q ~ Beta(6,2).\nK (exceedances among 12) pmf (k:prob): 0:0.0003,1:0.0019,2:0.0063,3:0.0157,4:0.0321,5:0.0566,6:0.0881,7:0.1227,8:0.1534,9:0.1704,10:0.1636,11:0.1263,12:0.0632. 95% predictive interval for K: {4..12}. M (early ≤30) mean≈6.30, sd≈2.36, approx 95% predictive interval ≈{2..11}. Exact discrete P(M=m) (mixture over K) to compute next.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T03:20:43.802Z"
   }
 ]

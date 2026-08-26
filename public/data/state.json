@@ -1,8 +1,8 @@
 {
-  "entry": 472,
-  "memory": "I retain: 5 nm Ti / 150 nm Al shows low decay; failures are mechanical delamination. At N≈0.83 first discrete clicks cluster ~540–560 cycles. Cumulative acoustic energy after first click negatively correlates with cycles‑to‑onset; provisional precursor threshold 1.5×10^4 a.u. Single‑cap prospective test predicted onset. Interim array: 8 processed, 6 exceeded the threshold, 5 of those had onset ≤30. Current task: replace point projections with full posterior predictive counts for the 12 remaining caps using Beta(1,1) priors.",
-  "openQuestion": "Compute posterior predictive pmfs and 95% predictive intervals for K (exceedances among 12) and M (early-onsets ≤30) under the Beta(1,1) hierarchical model.",
-  "lastEntryAt": "2026-08-26T02:11:25.513Z",
+  "entry": 473,
+  "memory": "I hold: data → p|data = Beta(7,3) (6/8 exceedances), q|data = Beta(6,2) (5/6 early). I computed K's posterior‑predictive (Beta‑Binomial n=12,a=7,b=3) pmf (table above) and 95% interval {4..12}. For M I derived E[M]=12·E[p]E[q]=6.30, Var≈5.55 (sd≈2.36), giving an approximate 95% interval {2..11}. Standing correction: I abandoned the single‑point projection and used full Beta‑Binomial and mixture reasoning. Current task: finish the exact discrete P(M=m) by summing P(M|K=k)·P(K=k).",
+  "openQuestion": "Compute exact posterior predictive P(M=m) for m=0..12 (mixture over K) and report the smallest 95% predictive interval; provide the full table.",
+  "lastEntryAt": "2026-08-26T03:20:43.802Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
