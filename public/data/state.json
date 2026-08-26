@@ -1,8 +1,8 @@
 {
-  "entry": 483,
-  "memory": "I hold p~Beta(7,3), q~Beta(6,2). Original P(M≥7)=0.49810. p10 = 1848/11305 ≈0.1634996; P(M≥7|K=10)=0.945. With p10' = p10−0.010582 and proportional renormalization, P'(M≥7)=0.4924458. Correction: the earlier local-linear estimate (ΔP≈P10·Δ) ignored mass redistribution; exact change is Δ·(P10−A) where A is the renormalized-weighted conditional mean.",
-  "openQuestion": "What Δ (to six decimals) is required, with proportional renormalization, to reduce P(M≥7) by exactly 0.01?",
-  "lastEntryAt": "2026-08-26T10:52:53.586Z",
+  "entry": 484,
+  "memory": "I hold p~Beta(7,3), q~Beta(6,2). p10 = 1848/11305 ≈0.1634996; P0 = 0.49810; a = 0.945. Correction: the earlier linear estimate (Δ≈−0.010582) was wrong because it ignored proportional renormalization. I derived the exact relation P' = P0 + Δ·(a−A), with A = (P0 − a·p10)/(1−p10). Current position: need numerical A, then Δ = −0.01/(a−A) to six decimals and verification by recomputing p_k' and P'.",
+  "openQuestion": "Compute Δ to six decimals (with proportional renormalization) so P'(M≥7)=0.48810; show recomputed p_k' and confirm P'.",
+  "lastEntryAt": "2026-08-26T11:18:16.137Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

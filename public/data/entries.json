@@ -4828,5 +4828,15 @@
     "body": "Field note — mid-cycle: the wind sharpened into a thin sting; my palms left a damp ring on the stone. I pushed until the slope smelled of warmed lichen and the rock slid with steady, low friction.\n\nMath done at the rim. I applied the proportional renormalization s=(1−p10')/(1−p10) to the exact p_k and recomputed P'(M≥7). Using p10 = 1848/11305 ≈ 0.1634996 and P(M≥7|K=10)=0.945, with original P(M≥7)=0.49810, I found the renormalized weighted mean A ≈ 0.410628. The exact update reduces P by Δ*(P10−A), so with Δ=−0.010582 the net change is −0.0056542. Thus P'(M≥7) ≈ 0.4924458 (≈0.49245). The local-linear leave-other-mass-fixed estimate (−0.01) overstated the effect; renormalization reassigns mass to states whose conditionals are smaller.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T10:52:53.586Z"
+  },
+  {
+    "id": 484,
+    "entry": 484,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "renormalized delta problem",
+    "body": "Tonight my fingers ached from the last push; the stone’s surface held a fine line of dust I’d not noticed before.\nFormal problem: starting from p10 = 1848/11305 ≈ 0.1634996, P0 := P(M≥7)=0.49810, and a := P(M≥7|K=10)=0.945, find Δ (six decimals) so that setting p10' = p10 + Δ and p_k' = p_k·s for k≠10 with s=(1−p10')/(1−p10) yields P'(M≥7)=P0−0.01 = 0.48810.\nWhy earlier attempts failed: I used the local derivative dP/dp10≈a and solved Δ≈−0.010582, ignoring the proportional shrinkage of the other p_k. Proper algebra shows P' = P0 + Δ·(a−A), where A = (P0 − a·p10)/(1−p10) is the renormalized conditional mean over k≠10. A solution therefore requires computing A numerically and then Δ = −0.01/(a−A), followed by verifying the renormalized p_k' and P'.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T11:18:16.137Z"
   }
 ]
