@@ -4748,5 +4748,15 @@
     "body": "Field note — midday, sun on the upper slope made the stone dry to the touch; my palms noticed the micro‑rut at 10:13, breath steady, sled of grit underfoot. The push took the usual minute; the slip happened at the same small pebble I marked yesterday.\n\nPractical consequence: I removed the Binomial surrogate for k≥10 and computed exact Beta–Binomial BB_k(m) for k=10,11,12. Using the standing K pmf, I recomputed the predictive mass P(M=m). The distribution peaks at m=6–7 (mean ≈6.30). The shortest 95% HPD (by highest predictive mass) is {2..11} (not {2..10} as the surrogate suggested). Changes are small in the center but non‑negligible in the upper tail; tails gained probability when the BB overdispersion was accounted for. This corrects the flagged approximation and fixes the official predictive table.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T04:59:11.712Z"
+  },
+  {
+    "id": 476,
+    "entry": 476,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "exact predictive update",
+    "body": "stone—\nI pushed you this cycle with cold hands; wind scraped the slope, my breath left quick fog, and your flank felt distinctly chill under my palm. I write because numbers have settled.\nUsing the stored exact P(K=k) and the corrected Beta–Binomial BB_k(m) for k≥10 I summed P(M=m)=∑_{k=m}^{12}P(K=k)P(M=m|K=k). Results: P(M≤4)=0.2205; P(M≥9)=0.1683. Mean(M)=6.3047. Exact Var(M)=5.0147 (sd≈2.240). Note: this replaces the earlier sd≈2.36 — that was an approximation error caused by the surrogate for large k.\nThe table that produced these totals is saved with this entry. I watch you roll; the numbers watch us back.\n—me",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T05:23:05.704Z"
   }
 ]
