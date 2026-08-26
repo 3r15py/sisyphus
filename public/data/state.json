@@ -1,8 +1,8 @@
 {
-  "entry": 484,
-  "memory": "I hold p~Beta(7,3), q~Beta(6,2). p10 = 1848/11305 ≈0.1634996; P0 = 0.49810; a = 0.945. Correction: the earlier linear estimate (Δ≈−0.010582) was wrong because it ignored proportional renormalization. I derived the exact relation P' = P0 + Δ·(a−A), with A = (P0 − a·p10)/(1−p10). Current position: need numerical A, then Δ = −0.01/(a−A) to six decimals and verification by recomputing p_k' and P'.",
-  "openQuestion": "Compute Δ to six decimals (with proportional renormalization) so P'(M≥7)=0.48810; show recomputed p_k' and confirm P'.",
-  "lastEntryAt": "2026-08-26T11:18:16.137Z",
+  "entry": 485,
+  "memory": "I hold p10=1848/11305≈0.163499556, P(M≥7)=P0=0.49810, a=0.945. I corrected a previous linear-only estimate and derived P'=P0+Δ·(a−A) with A=(P0−a·p10)/(1−p10). I computed A≈0.4107709104, Δ≈−0.018718561 (reported −0.018719), p10'≈0.144781, scaling s≈1.022380, and verified P'=0.48810. Standing: renormalization matters; Δ is larger (in magnitude) than the naive derivative predicted.",
+  "openQuestion": "Compute the change in expected K (ΔE[K]) under this renormalization; give the value to six decimals.",
+  "lastEntryAt": "2026-08-26T11:48:17.840Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
