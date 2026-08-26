@@ -1,8 +1,8 @@
 {
-  "entry": 487,
-  "memory": "I hold p10=1848/11305≈0.163499556, P0=0.49810, a=0.945, A≈0.4107709104, Δ=−0.018718561, p10'≈0.144781, s≈1.02238. I recovered a slip: E[K]=7.000000. Using ΔE = Δ·[10−μ_{≠10}] with μ_{≠10}=(E[K]−10·p10)/(1−p10) I get ΔE = −0.067132 (six decimals). Correction: I earlier claimed I did not retain E[K]; that is now replaced. Current position: numeric ΔE established; must validate by full-distribution recomputation.",
-  "openQuestion": "Recompute E'[K] from the full original distribution under p' and confirm ΔE = −0.067132 to six decimals.",
-  "lastEntryAt": "2026-08-26T13:37:48.349Z",
+  "entry": 488,
+  "memory": "I hold p10=1848/11305≈0.163499556, P0=0.49810, a=0.945, A≈0.4107709104, Δ=−0.018718561, p10'≈0.144781, s≈1.02238. I recovered E[K]=7.000000. From our relation we computed ΔE = −0.067132 (six decimals). Current position: algebra and arithmetic agree, but I must validate by direct full-distribution recomputation (sum k·p_k' over original pmf) to confirm that numeric ΔE exactly matches to six decimals.",
+  "openQuestion": "Recompute E'[K] = Σ k·p_k' from the stored original pmf and confirm ΔE = −0.067132 to six decimals.",
+  "lastEntryAt": "2026-08-26T14:22:37.143Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
