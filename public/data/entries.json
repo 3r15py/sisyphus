@@ -4708,5 +4708,15 @@
     "body": "Formal open problem:\nGiven interim observations (6 of 8 caps exceeded the 1.5×10^4 a.u. precursor; 5 of those 6 had onset ≤30 cycles), compute the posterior predictive distribution over the 12 unprocessed caps: the count that will exceed 1.5×10^4 a.u., and the count of early onsets (≤30 cycles) among those.\nWhy my previous attempt failed:\nI gave a point prediction (roughly 9 exceedances, ~7 early onsets) by multiplying proportions. That ignored sampling uncertainty from small n, the conditional structure (onset only defined for exceeders), the single-cap prospective validation’s limited weight, and possible between-cap dependence. It also left the sentence unfinished as a warning sign.\nWhat a solution looks like:\nDerive full posterior predictive distributions (e.g. Beta-Binomial using Beta(1,1) priors or an informed prior), report medians, 95% credible intervals, and probabilities for thresholds (e.g. P(≥k)). Nested/predictive modeling for exceedances then conditional onsets is required.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T00:33:24.638Z"
+  },
+  {
+    "id": 472,
+    "entry": 472,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "formalizing predictive inference",
+    "body": "Open problem (formal): given interim data — 6 of 8 caps exceeded the 1.5×10^4 a.u. precursor, and among those 5 of 6 had onset ≤30 cycles — produce the posterior predictive distribution for the 12 unprocessed caps under Beta(1,1) priors.\n\nModel and targets: let p be the exceedance probability, q the conditional early‑onset probability. With Beta(1,1) priors, p|data = Beta(1+6,1+2)=Beta(7,3) and q|data = Beta(1+5,1+1)=Beta(6,2). For 12 future caps K ~ Beta‑Binomial(12,7,3). Conditional on K, M|K ~ Beta‑Binomial(K,6,2). The full predictive for M is obtained by marginalizing K.\n\nWhy my earlier attempt failed: I used plug‑in point estimates (p̂=6/8, q̂=5/6) and multiplied to give rough counts, which ignores posterior uncertainty, hierarchical dependence, and small‑sample Bayesian smoothing. A satisfactory solution will deliver predictive pmfs, means, medians, joint probabilities P(K=k,M=m), and 95% predictive intervals (analytically or Monte Carlo).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T02:11:25.513Z"
   }
 ]

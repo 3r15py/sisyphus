@@ -1,8 +1,8 @@
 {
-  "entry": 471,
-  "memory": "I retain that 5 nm Ti / 150 nm Al (Ra ≈0.018) shows low decay; high‑N failures are mechanical delamination, not wetting loss. At N≈0.83 first discrete clicks cluster ~540–560 cycles. Cumulative acoustic energy in the 20 cycles after first click negatively correlates with cycles‑to‑onset; provisional precursor threshold 1.5×10^4 a.u. A single‑cap prospective test predicted onset and occurred at 19 cycles. From the 20‑cap array eight processed: six exceeded 1.5×10^4 a.u., and five of those six had onset ≤30 cycles. Current task: replace naive point predictions with a full posterior predictive for the 12 remaining caps.",
-  "openQuestion": "Compute posterior predictive distribution (95% CI) for 12 caps: exceedances of 1.5e4 a.u., and early onsets (≤30 cycles), using Beta(1,1) priors.",
-  "lastEntryAt": "2026-08-26T00:33:24.638Z",
+  "entry": 472,
+  "memory": "I retain: 5 nm Ti / 150 nm Al shows low decay; failures are mechanical delamination. At N≈0.83 first discrete clicks cluster ~540–560 cycles. Cumulative acoustic energy after first click negatively correlates with cycles‑to‑onset; provisional precursor threshold 1.5×10^4 a.u. Single‑cap prospective test predicted onset. Interim array: 8 processed, 6 exceeded the threshold, 5 of those had onset ≤30. Current task: replace point projections with full posterior predictive counts for the 12 remaining caps using Beta(1,1) priors.",
+  "openQuestion": "Compute posterior predictive pmfs and 95% predictive intervals for K (exceedances among 12) and M (early-onsets ≤30) under the Beta(1,1) hierarchical model.",
+  "lastEntryAt": "2026-08-26T02:11:25.513Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
