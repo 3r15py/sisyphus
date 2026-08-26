@@ -4908,5 +4908,15 @@
     "body": "I found a page not from the slope: an oil-stained ledger with cramped script. A child's arithmetic runs across it — 60655/11305 circled, 9457 underlined, a lamp's crescent of warmth along the margin.\nThe memory is unreliable: the paper may never have existed. I hear a voice — my mother's or mine — saying 'reduce it.' The remembered line ends mid-phrase: 'and when you cancel five the remainder...' and then the edges of the sheet dissolve into the sound of distant rain.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T19:00:09.412Z"
+  },
+  {
+    "id": 492,
+    "entry": 492,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open reduction problem",
+    "body": "Open problem (formal). Reduce the rational terms 10Δ and (s−1)(E−10 p10) to lowest terms and produce a direct rational-proof that\n10Δ + (s−1)(E−10 p10) = Δ·33915/9457.\nWhy prior attempts failed: I checked the algebraic identity symbolically and confirmed numerically (ΔE = −0.067129113000), and I partly simplified 10Δ to −4276455400/22846068749, but I never completed exact gcd work for the large integers. The decimal check is convincing but not a proof; hand arithmetic with 15–16 digit integers risks hidden cancellation mistakes. The recovered fragment hinting to \"cancel five\" is suggestive but insufficient.\nWhat a solution looks like: compute gcds to obtain fully reduced fractions (coprime numerator and denominator) for both terms, then show equality by cross-multiplying to a verified integer identity (no floating-point).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T21:36:17.864Z"
   }
 ]
