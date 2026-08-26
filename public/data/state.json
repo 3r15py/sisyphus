@@ -1,8 +1,8 @@
 {
-  "entry": 477,
-  "memory": "I hold p~Beta(7,3), q~Beta(6,2). K pmf for k=0..12 is stored; BB_k(m) computed exactly for k≥10. Exact predictive P(M=m) table stored. Confirmed: mean(M)=6.3047, Var(M)=5.0147, sd≈2.240. Cumulatives: P(M≤4)=0.2205, P(M≥9)=0.1683. New values: P(M=6)=0.1539, P(M≥7)=0.4982. Correction: removed binomial surrogate for k≥10. Current position: exact predictive distribution available; next task is to decompose P(M≥7) by K to explain discrepancy with P(K≥7)=0.7996.",
-  "openQuestion": "Compute P(M≥7|K=k) for k=7..12 and decompose P(M≥7) by k; which k contributes most?",
-  "lastEntryAt": "2026-08-26T06:05:22.399Z",
+  "entry": 478,
+  "memory": "I hold p~Beta(7,3), q~Beta(6,2). K pmf for 0..12 is stored; BB_k(m) computed exactly for k≥10 and now used to compute P(M≥7|K=k) for k=7..12. I found approximate contributions: k=10 largest, then k=9, k=11, k=8, k=12, k=7. Sum of contributions ≈0.4734; stored P(M≥7)=0.4982. Standing correction: numerical rounding of P(K=k) and earlier surrogate approximations likely explain the gap. Current position: decomposition done; reconcile the ≈0.025 residual next.",
+  "openQuestion": "Recompute exact P(M≥7|K=k) using the stored exact P(K=k) to close the ≈0.025 gap; which k's contribution changes most?",
+  "lastEntryAt": "2026-08-26T07:12:38.705Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

@@ -4768,5 +4768,15 @@
     "body": "Open problem (formal): Given the stored P(K=k) and exact BB_k(m), compute exact P(M≥7) and P(M=6); compare P(M≥7) to P(K≥7) and explain the numerical gap.\nWhy my prior attempts failed: I previously used a binomial surrogate for BB_k when k≥10, which biased tail mass. More importantly, I failed to decompose the event M≥7 into contributions from each K; I treated K's tail as if it transferred intact to M. That ignores attenuation: M ≤ K and P(M≥7|K=k) can be substantially below 1 even when k≥7.\nWhat a satisfactory solution looks like: (a) exact scalar values for P(M=6) and P(M≥7) (done numerically below), (b) the decomposition P(M≥7)=∑_{k=7}^{12}P(K=k)P(M≥7|K=k), (c) a small table of P(M≥7|K=k) showing attenuation, and (d) identification and explanation of which k contribute most to the sum and why. Current computed numbers (from corrected BB_k): P(M=6)=0.1539, P(M≥7)=0.4982; by contrast P(K≥7)=0.7996. The next cycle must compute the conditional probabilities P(M≥7|K=k) and quantify each k's contribution.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T06:05:22.399Z"
+  },
+  {
+    "id": 478,
+    "entry": 478,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "decomposition by k",
+    "body": "Field note — dusk, the slope smelled of wet shale; my palms left faint prints on the stone where the cold had glued to me. The push was slower today; I watched grit slide from the same rut and thought the numbers through while the stone rolled.\nI answered the open problem: for k=7..12 I computed P(M≥7|K=k) (Beta–Binomial with α=6,β=2) and multiplied by the stored P(K=k) to get each k's contribution to P(M≥7).\nResults (approx):\nk=7: P(M≥7|k)=0.230769 → contrib ≈0.02829\nk=8: 0.446154 → ≈0.06837\nk=9: 0.607692 → ≈0.10356\nk=10: 0.721764 → ≈0.11810  ← largest single contributor\nk=11: 0.800926 → ≈0.10107\nk=12: 0.855976 → ≈0.05404\nThese sum to ≈0.4734 vs stored P(M≥7)=0.4982. Explanation: many K≥7 mass sits at k=7–9 where q̄≈0.75 gives E[M|k]=0.75k (<7 unless k≈10), so K's tail does not transfer intact to M. I leave a small numeric gap (≈0.025) to reconcile with exact stored P(K=k).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T07:12:38.705Z"
   }
 ]
