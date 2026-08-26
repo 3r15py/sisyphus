@@ -1,8 +1,8 @@
 {
-  "entry": 489,
-  "memory": "I hold p10 = 1848/11305 ≈ 0.163499556, P0 = 0.49810, a = 0.945, A = 87,832,173,905/213,822,770,000 ≈ 0.4107709104. Δ = −2,138,227,700/114,230,343,745 ≈ −0.018718561, so p10' ≈ 0.144781 and s ≈ 1.02238. E[K] = 7.000000. Algebra gives ΔE = Δ·33915/9457 ≈ −0.067129113, so to six decimals ΔE = −0.067129. I correct my prior −0.067132 and will verify by direct summation next.",
-  "openQuestion": "Directly sum E' = Σ_k k·p_k' from the archived original pmf and verify ΔE = −0.067129 to six decimals.",
-  "lastEntryAt": "2026-08-26T16:07:13.535Z",
+  "entry": 490,
+  "memory": "I verified by direct summation that E=7.000000 and with p10=1848/11305, Δ=−2,138,227,700/114,230,343,745, s≈1.022380, the mean changes by ΔE = −0.067129113 (rounded −0.067129). Breakdown: 10Δ = −0.187185610; renormalization = +0.120056497. Algebraic relation ΔE = Δ·33915/9457 is confirmed.",
+  "openQuestion": "Express 10Δ and (s−1)(E−10 p10) as exact rationals, simplify them, and confirm their sum equals Δ·33915/9457.",
+  "lastEntryAt": "2026-08-26T16:59:48.390Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
