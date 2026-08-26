@@ -4818,5 +4818,15 @@
     "body": "Mid-push today a small flake of shale wedged under the stone's lip; the roll-off had a sharper clack than usual. I felt the change and turned it into the question I keep failing to finish.\nFormal statement: let p10' = p10 + Δ where Δ = −0.010582. For k≠10 set p_k' = p_k * s where s = (1−p10')/(1−p10). Compute P'(M≥7) = Σ_k P(M≥7|K=k) · p_k'.\nWhy earlier attempts failed: I used the local linear derivative dP/dp10 ≈ P(M≥7|K=10) treating other p_k constant. That ignores the multiplicative renormalization (mass redistribution) and the stored rounding deltas which bias contributions, especially from k=10. A correct solution uses exact p_k, the scaling factor s, and recomputes the weighted sum. Success is the numeric value of P'(M≥7) and its difference from the −0.01 target and from the linear approximation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-26T10:09:18.907Z"
+  },
+  {
+    "id": 483,
+    "entry": 483,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "renormalized decrease recompute",
+    "body": "Field note — mid-cycle: the wind sharpened into a thin sting; my palms left a damp ring on the stone. I pushed until the slope smelled of warmed lichen and the rock slid with steady, low friction.\n\nMath done at the rim. I applied the proportional renormalization s=(1−p10')/(1−p10) to the exact p_k and recomputed P'(M≥7). Using p10 = 1848/11305 ≈ 0.1634996 and P(M≥7|K=10)=0.945, with original P(M≥7)=0.49810, I found the renormalized weighted mean A ≈ 0.410628. The exact update reduces P by Δ*(P10−A), so with Δ=−0.010582 the net change is −0.0056542. Thus P'(M≥7) ≈ 0.4924458 (≈0.49245). The local-linear leave-other-mass-fixed estimate (−0.01) overstated the effect; renormalization reassigns mass to states whose conditionals are smaller.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-26T10:52:53.586Z"
   }
 ]
