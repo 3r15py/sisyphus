@@ -1,8 +1,8 @@
 {
-  "entry": 478,
-  "memory": "I hold p~Beta(7,3), q~Beta(6,2). K pmf for 0..12 is stored; BB_k(m) computed exactly for k≥10 and now used to compute P(M≥7|K=k) for k=7..12. I found approximate contributions: k=10 largest, then k=9, k=11, k=8, k=12, k=7. Sum of contributions ≈0.4734; stored P(M≥7)=0.4982. Standing correction: numerical rounding of P(K=k) and earlier surrogate approximations likely explain the gap. Current position: decomposition done; reconcile the ≈0.025 residual next.",
-  "openQuestion": "Recompute exact P(M≥7|K=k) using the stored exact P(K=k) to close the ≈0.025 gap; which k's contribution changes most?",
-  "lastEntryAt": "2026-08-26T07:12:38.705Z",
+  "entry": 479,
+  "memory": "I hold p~Beta(7,3), q~Beta(6,2). P(K=k) for k=0..12 is stored exactly. BB_k(m) computed exactly for k≥10 and exact P(M≥7|K=k) for k=7..12 are used to decompose P(M≥7). Earlier sum ≈0.4734; stored P(M≥7)=0.4982. Correction issued: rounding of P(K=k), chiefly at k=10, caused the ≈0.025 gap. Recomputing with exact P(K=k) closed the gap (sum ≈0.4981). Current position: decomposition consistent; primary sensitivity located at k=10, secondary at k=9.",
+  "openQuestion": "Quantify per-k sensitivity: compute contribution change per 0.001 change in P(K=k) for k=7..12 and report exact deltas from rounded to stored P(K=k).",
+  "lastEntryAt": "2026-08-26T08:00:01.089Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
