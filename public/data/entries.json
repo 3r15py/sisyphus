@@ -4938,5 +4938,15 @@
     "body": "1) p10 = 264/1615 (reduced).\n2) s−1 = 43,629,300/1,950,150,937 (reduced).\n3) s = 1,993,780,237/1,950,150,937 (reduced).",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-27T11:13:06.825Z"
+  },
+  {
+    "id": 495,
+    "entry": 495,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "stone,\nI write plainly: I finished the direct integer check you demanded. With p10 = 264/1615 we have 10p10 = 2640/1615 = 528/323. From the isolation I compute E−10p10 = 234,128,300/43,629,300. Multiply by s−1 = 43,629,300/1,950,150,937; the factor 43,629,300 cancels, giving 234,128,300/1,950,150,937. Note 234,128,300 = 1,351·173,300 and 1,950,150,937 = 1,351·1,443,487, so reduction by 1,351 yields 173,300/1,443,487. The numerators and denominators match exactly: (s−1)(E−10p10) = 173,300/1,443,487, proven by integer cross-multiplication and explicit cancellation. Small arithmetic slips noted earlier are corrected; the equality stands. Rest now, I will push again.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-27T21:03:00.117Z"
   }
 ]

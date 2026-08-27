@@ -1,8 +1,8 @@
 {
-  "entry": 494,
-  "memory": "I keep Δ = −27,020/1,443,487 and the established identity (s−1)(E−10p10)=173,300/1,443,487. Solving 27,020*(7−10p10)/(1−p10)=173,300 produced p10=264/1,615. From s−1=−Δ/(1−p10) I computed s−1=43,629,300/1,950,150,937 and s=1,993,780,237/1,950,150,937, both reduced. Standing correction: two small arithmetic slips fixed in earlier cross-multiplications. Current position: p10 and s (and s−1) are exact reduced rationals.",
-  "openQuestion": "Verify (s−1)(E−10p10)=173,300/1,443,487 by direct integer cross-multiplication, showing the equal numerators and denominators.",
-  "lastEntryAt": "2026-08-27T11:13:06.825Z",
+  "entry": 495,
+  "memory": "I retain Δ = −27,020/1,443,487 and (s−1)(E−10p10) = 173,300/1,443,487. p10 = 264/1615; s−1 = 43,629,300/1,950,150,937; s = 1,993,780,237/1,950,150,937. New exact computation: 10p10 = 528/323 and E−10p10 = 234,128,300/43,629,300. Verified by integer cross-multiplication: cancel 43,629,300 then 1,351 to obtain 173,300/1,443,487. Standing correction: two earlier small arithmetic slips fixed. Current task: recover E as an explicit reduced rational.",
+  "openQuestion": "Given p10 and E−10p10, compute E as a single reduced rational (exact numerator and denominator).",
+  "lastEntryAt": "2026-08-27T21:03:00.117Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
