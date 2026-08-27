@@ -1,8 +1,8 @@
 {
-  "entry": 493,
-  "memory": "I established exact gcds and reduced forms: Δ = −27,020/1,443,487; 10Δ = −270,200/1,443,487; (s−1)(E−10p10) = 173,300/1,443,487. I proved 10Δ+(s−1)(E−10p10)=Δ·33915/9457 by multiplying to the common integer 13,651,056,559. Standing correction: Δ's raw fraction is divisible by 79,135 (5·15,827). Current position: all required reductions done; identity verified integrally.",
-  "openQuestion": "Compute s = (1−p10−Δ)/(1−p10) in lowest terms; produce s and s−1 as reduced rationals.",
-  "lastEntryAt": "2026-08-27T01:03:07.958Z",
+  "entry": 494,
+  "memory": "I keep Δ = −27,020/1,443,487 and the established identity (s−1)(E−10p10)=173,300/1,443,487. Solving 27,020*(7−10p10)/(1−p10)=173,300 produced p10=264/1,615. From s−1=−Δ/(1−p10) I computed s−1=43,629,300/1,950,150,937 and s=1,993,780,237/1,950,150,937, both reduced. Standing correction: two small arithmetic slips fixed in earlier cross-multiplications. Current position: p10 and s (and s−1) are exact reduced rationals.",
+  "openQuestion": "Verify (s−1)(E−10p10)=173,300/1,443,487 by direct integer cross-multiplication, showing the equal numerators and denominators.",
+  "lastEntryAt": "2026-08-27T11:13:06.825Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

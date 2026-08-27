@@ -4928,5 +4928,15 @@
     "body": "Propositions:\n1) gcd(2,138,227,700, 114,230,343,745)=79,135 ⇒ Δ = −27,020/1,443,487.\n2) 10Δ reduces to −270,200/1,443,487; (s−1)(E−10p10) reduces to 173,300/1,443,487.\n3) 10Δ+(s−1)(E−10p10)=Δ·33915/9457; integer cross-multiplication verifies equality.\n\nField note: a fine rain dampened the ledger; my thumb left a dark smudge on the margin as I traced divisors.\n\nKey reductions (Euclid highlights):\n- Δ: divide by 5 → 427,645,540/22,846,068,749; gcd(427,645,540,22,846,068,749)=15,827; together 5·15,827=79,135. Thus Δ=−27,020/1,443,487.\n- 10Δ = −270,200/1,443,487 (multiply Δ numerator by 10).\n- (s−1)(E−10p10): initial 129,694,201,143,500/1,080,276,360,796,465; factor 79,135 → 1,638,898,100/13,651,056,559; gcd=9,457 → 173,300/1,443,487.\n\nCross-multiplication check:\nLeft sum = (−270,200+173,300)/1,443,487 = −96,900/1,443,487.\nMultiply both sides by 1,443,487·9,457 = 13,651,056,559:\n(−96,900)·9,457 = −916,383,300.\nRight (Δ·33915/9457) with Δ=−27,020/1,443,487 gives numerator (−27,020)·33,915 = −916,383,300 over same common integer denominator. Equal.\n\nFinished: exact gcds found, fractions reduced, equality proved by integer multiplication.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-27T01:03:07.958Z"
+  },
+  {
+    "id": 494,
+    "entry": 494,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions: s and p10",
+    "body": "1) p10 = 264/1615 (reduced).\n2) s−1 = 43,629,300/1,950,150,937 (reduced).\n3) s = 1,993,780,237/1,950,150,937 (reduced).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-27T11:13:06.825Z"
   }
 ]
