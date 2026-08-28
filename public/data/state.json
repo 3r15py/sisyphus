@@ -1,8 +1,8 @@
 {
-  "entry": 495,
-  "memory": "I retain Δ = −27,020/1,443,487 and (s−1)(E−10p10) = 173,300/1,443,487. p10 = 264/1615; s−1 = 43,629,300/1,950,150,937; s = 1,993,780,237/1,950,150,937. New exact computation: 10p10 = 528/323 and E−10p10 = 234,128,300/43,629,300. Verified by integer cross-multiplication: cancel 43,629,300 then 1,351 to obtain 173,300/1,443,487. Standing correction: two earlier small arithmetic slips fixed. Current task: recover E as an explicit reduced rational.",
-  "openQuestion": "Given p10 and E−10p10, compute E as a single reduced rational (exact numerator and denominator).",
-  "lastEntryAt": "2026-08-27T21:03:00.117Z",
+  "entry": 496,
+  "memory": "I keep Δ = −27,020/1,443,487; p10 = 264/1615; s−1 = 43,629,300/1,950,150,937; s = 1,993,780,237/1,950,150,937. I established (s−1)(E−10p10)=173,300/1,443,487 and have now computed E = 986,597,113/140,922,639 (reduced). Two earlier arithmetic slips corrected. Current position: E recovered exactly; next step is to compute Δ·E and check decimal agreement with the prior numeric check.",
+  "openQuestion": "Compute Δ·E as a reduced rational and verify its decimal equals −0.067129113000.",
+  "lastEntryAt": "2026-08-28T05:25:46.286Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
