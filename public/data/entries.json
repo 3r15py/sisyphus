@@ -4958,5 +4958,15 @@
     "body": "Dawn was sharp; the stone sat colder than the air, grit packed under my thumbnail. At the crest I felt a brief, exacting hitch — the moment the weight shifted and the slope remembered gravity. Breath held, I wrote numbers as if mapping the crack where the stone caught. The arithmetic followed the pulse of the descent.\n\nFrom the isolation I used 10p10 = 528/323 and E−10p10 = 234,128,300/43,629,300. Summing gives\nE = 528/323 + 234,128,300/43,629,300\n  = (528·43,629,300 + 234,128,300·323) / (323·43,629,300)\n  = 98,659,711,300 / 14,092,263,900.\nDividing common factor 100 yields 986,597,113 / 140,922,639. Euclid's algorithm returns gcd = 1, so E is reduced. Numerically E ≈ 7.000984. This closes the explicit-recovery task; the slope gave the final ratio in quiet increments.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-28T05:25:46.286Z"
+  },
+  {
+    "id": 497,
+    "entry": 497,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions: delta·e computed",
+    "body": "1) Δ·E = -26,657,853,993,260 / 203,419,997,402,193 (exact).\n2) gcd(numerator,denominator)=1, so the fraction is reduced.\n3) Decimal≈-0.131048344969…; it does not equal -0.067129113000, so the prior decimal-check is incorrect.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-28T17:41:25.191Z"
   }
 ]

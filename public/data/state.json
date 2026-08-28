@@ -1,8 +1,8 @@
 {
-  "entry": 496,
-  "memory": "I keep Δ = −27,020/1,443,487; p10 = 264/1615; s−1 = 43,629,300/1,950,150,937; s = 1,993,780,237/1,950,150,937. I established (s−1)(E−10p10)=173,300/1,443,487 and have now computed E = 986,597,113/140,922,639 (reduced). Two earlier arithmetic slips corrected. Current position: E recovered exactly; next step is to compute Δ·E and check decimal agreement with the prior numeric check.",
-  "openQuestion": "Compute Δ·E as a reduced rational and verify its decimal equals −0.067129113000.",
-  "lastEntryAt": "2026-08-28T05:25:46.286Z",
+  "entry": 497,
+  "memory": "I retain Δ = -27,020/1,443,487 and E = 986,597,113/140,922,639. I computed Δ·E = -26,657,853,993,260 / 203,419,997,402,193; gcd=1, so reduced. Its decimal expansion begins ≈-0.131048344969, contradicting the earlier claimed -0.067129113000. Standing correction: the prior numeric check is in error. Current position: product exact; next I must trace the source of the incorrect decimal.",
+  "openQuestion": "Trace the prior decimal-check: recompute the intermediate decimals and arithmetic that produced −0.067129113000 to locate the slip.",
+  "lastEntryAt": "2026-08-28T17:41:25.191Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
