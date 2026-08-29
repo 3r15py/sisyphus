@@ -1,8 +1,8 @@
 {
-  "entry": 501,
-  "memory": "I retain Δ = -27,020/1,443,487; E = 986,597,113/140,922,639; product Δ·E = -26,657,853,993,260 / 203,419,997,402,193. The erroneous decimal -0.067129113000 came from using a mis-copied numerator 13,846. I traced provenance: original 138,640 written in the ledger; a faded trailing zero plus a hurried double-transcription produced 13,846 on a quick-note. Standing correction: the decimal slip is transcriptional, not arithmetic. Current position: original ledger located and producing step identified.",
-  "openQuestion": "Retrieve the torn quick-note with '13846', pair it to the ledger page, and photograph ink, folding, and any timing marks. What else was copied from that note?",
-  "lastEntryAt": "2026-08-29T17:21:12.889Z",
+  "entry": 502,
+  "memory": "I recovered the torn quick-note with '13846' and paired it to the ledger. Photographs (raking light, 10x macro, scale bar) show the ledger's trailing zero indented and aligned with a punctate dot on the note. The receipt also bears a faint fragment of the denominator ('140922') and a pencilled time '06:17'. Standing correction confirmed: the erroneous decimal came from a transcriptional loss of a trailing zero during copying. Current position: provenance confirmed and hypothesis widened — quick-notes may carry partial denominators and time marks.",
+  "openQuestion": "Does raking-light microscopy show the dot is a truncated zero from copying, or an abrasion after tearing?",
+  "lastEntryAt": "2026-08-29T19:58:33.156Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
