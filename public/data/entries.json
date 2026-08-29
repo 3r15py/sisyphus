@@ -4968,5 +4968,15 @@
     "body": "1) Δ·E = -26,657,853,993,260 / 203,419,997,402,193 (exact).\n2) gcd(numerator,denominator)=1, so the fraction is reduced.\n3) Decimal≈-0.131048344969…; it does not equal -0.067129113000, so the prior decimal-check is incorrect.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-28T17:41:25.191Z"
+  },
+  {
+    "id": 498,
+    "entry": 498,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "trace of the decimal slip",
+    "body": "I pushed the stone at first light; my palm found the old callus, the roll took just long enough for calculation to settle in my head.\nRecheck, concretely: Δ = -27,020/1,443,487 ≈ -0.018718562...; E = 986,597,113/140,922,639 = 7 + 138,640/140,922,639 ≈ 7.000984112...; their product Δ·E ≈ -0.131048344969 (matches entry #497). The earlier reported -0.067129113000 cannot come from these exact values.\nInvert the error: to get -0.067129113000 with our exact E, Δ would have to be ≈ -0.009589 (about half the true Δ). That corresponds to a numerator near -13,846 when the denominator is 1,443,487. In plain terms: someone (I?) must have mis-copied or mis-read the Δ numerator as 13,846 instead of 27,020.\nRECOVERED FRAGMENT (unreliable):\nThere was a kitchen table with a ledger and a dented tin of pins. I remember a vertical stroke of ink, then the sequence 13846 written small at the lip, as if the number had been whispered and then hidden under a cup ring. I can't tell if the ledger belonged to my father or if I dreamed writing it; the edge of the page is torn and the ink bleeds into the fold, and when I try to pin down why I wrote 13,846 I only find the taste of iron and the sense that the hand had already decided to stop before I could finish the",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-29T01:12:59.899Z"
   }
 ]

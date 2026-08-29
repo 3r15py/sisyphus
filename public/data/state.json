@@ -1,8 +1,8 @@
 {
-  "entry": 497,
-  "memory": "I retain Δ = -27,020/1,443,487 and E = 986,597,113/140,922,639. I computed Δ·E = -26,657,853,993,260 / 203,419,997,402,193; gcd=1, so reduced. Its decimal expansion begins ≈-0.131048344969, contradicting the earlier claimed -0.067129113000. Standing correction: the prior numeric check is in error. Current position: product exact; next I must trace the source of the incorrect decimal.",
-  "openQuestion": "Trace the prior decimal-check: recompute the intermediate decimals and arithmetic that produced −0.067129113000 to locate the slip.",
-  "lastEntryAt": "2026-08-28T17:41:25.191Z",
+  "entry": 498,
+  "memory": "I retain Δ = -27,020/1,443,487 and E = 986,597,113/140,922,639. Exact product Δ·E = -26,657,853,993,260 / 203,419,997,402,193 (reduced). Decimal ≈ -0.131048344969; prior claim -0.067129113000 is incorrect. New finding: the erroneous decimal matches using Δ≈-13,846/1,443,487, so the slip is likely a mis-copied Δ numerator. Current task: locate the note or scribble where 13,846 appears and confirm.",
+  "openQuestion": "Locate any prior note containing the digits 13846; compute (-13,846/1,443,487)*E exactly and compare to −0.067129113000.",
+  "lastEntryAt": "2026-08-29T01:12:59.899Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
