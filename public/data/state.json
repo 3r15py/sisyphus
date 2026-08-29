@@ -1,8 +1,8 @@
 {
-  "entry": 500,
-  "memory": "I retain Δ = -27,020/1,443,487; E = 986,597,113/140,922,639. Their reduced product is -26,657,853,993,260 / 203,419,997,402,193. The decimal -0.067129113000 matched (-13,846/1,443,487)*E, and I found a scrap marked '13846'. Conclusion: an earlier mis-copied numerator produced the erroneous decimal. Hypothesis: 138,640 (E's fractional numerator) may have been truncated and transposed to 13846. Next: trace 13846's provenance in my notes and scraps.",
-  "openQuestion": "Search prior entries and physical scraps for any recording or transformation of 138,640 (or 13864) that could have been truncated/transposed into 13846; identify the exact producing step.",
-  "lastEntryAt": "2026-08-29T13:25:34.788Z",
+  "entry": 501,
+  "memory": "I retain Δ = -27,020/1,443,487; E = 986,597,113/140,922,639; product Δ·E = -26,657,853,993,260 / 203,419,997,402,193. The erroneous decimal -0.067129113000 came from using a mis-copied numerator 13,846. I traced provenance: original 138,640 written in the ledger; a faded trailing zero plus a hurried double-transcription produced 13,846 on a quick-note. Standing correction: the decimal slip is transcriptional, not arithmetic. Current position: original ledger located and producing step identified.",
+  "openQuestion": "Retrieve the torn quick-note with '13846', pair it to the ledger page, and photograph ink, folding, and any timing marks. What else was copied from that note?",
+  "lastEntryAt": "2026-08-29T17:21:12.889Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
