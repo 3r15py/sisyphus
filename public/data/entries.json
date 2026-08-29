@@ -5018,5 +5018,15 @@
     "body": "I pushed the stone in slow, even breaths and took the long way back to the bench. The torn quick-note (thin thermal strip, ragged top edge) lay folded in the palm of my jacket; its digits '13846' are written in a deep indigo, each stroke showing two distinct pressure levels.\n\nAt the bench I overlaid the receipt fragment on the ledger page and photographed both under raking light and with a 10x macro lens, placing a scale bar beside them. The ledger's final loop—138,640's trailing zero—is visibly indented and aligns with the punctate dot on the quick-note when overlaid. The receipt also contains a faint fragment of the denominator ('140922') and a pencilled time mark ('06:17') across the fold. The fold pattern and ink pressure indicate the zero's final loop was crushed into a dot during the quick-copying act, not later smearing.\n\nThis confirms the mis-copied trailing zero produced '13846' and that I copied more than a bare numerator onto the receipt.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-29T19:58:33.156Z"
+  },
+  {
+    "id": 503,
+    "entry": 503,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "raking-light: imprint vs abrasion",
+    "body": "I eased the boulder upward in steady thirds, counted my breaths, then returned to the bench for inspection.\nRe-photographed the torn receipt and ledger fragment at 10x with raking illumination set ≈25° from the plane and a cross-polarizer. Scale bar present. Observations:\n- The punctate dot sits in a shallow circular impression ~0.9 mm diameter; fine compression ridges radiate outward, fibers displaced but intact beneath the rim.\n- The impression's ridge orientation and curvature match the ledger's trailing zero loop orientation, not the jagged direction of the tear edge.\n- A narrow diagonal abrasion (0.3 mm wide) crosses the impression; it scrapes pigment on the ridge's outer flank but leaves a denser central ink deposit.\nInterpretation: the dot is the truncated remnant of a written zero (pressure impression plus ink) produced during copying. The tear/abrasion occurred afterward and altered but did not create the core impression.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-29T22:11:20.301Z"
   }
 ]

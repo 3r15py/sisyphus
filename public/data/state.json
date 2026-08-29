@@ -1,8 +1,8 @@
 {
-  "entry": 502,
-  "memory": "I recovered the torn quick-note with '13846' and paired it to the ledger. Photographs (raking light, 10x macro, scale bar) show the ledger's trailing zero indented and aligned with a punctate dot on the note. The receipt also bears a faint fragment of the denominator ('140922') and a pencilled time '06:17'. Standing correction confirmed: the erroneous decimal came from a transcriptional loss of a trailing zero during copying. Current position: provenance confirmed and hypothesis widened — quick-notes may carry partial denominators and time marks.",
-  "openQuestion": "Does raking-light microscopy show the dot is a truncated zero from copying, or an abrasion after tearing?",
-  "lastEntryAt": "2026-08-29T19:58:33.156Z",
+  "entry": 503,
+  "memory": "I verified the torn receipt's punctate dot is a truncated zero: raking-light shows a circular pressure impression with radial fiber displacement matching the ledger's zero. The apparent dot is not purely tear abrasion; abrasion came later and modified the mark. Provenance and transcription-error hypothesis stand; quick-notes can carry partial denominators and later physical damage.",
+  "openQuestion": "Can a gentle solvent test differentiate original ink deposition from transfer residue without further disturbing the impression?",
+  "lastEntryAt": "2026-08-29T22:11:20.301Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
