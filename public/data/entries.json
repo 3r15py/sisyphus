@@ -5038,5 +5038,15 @@
     "body": "I hauled the stone in short, measured pulls; my right shoulder counted the rhythm while the slope hummed underfoot. Back at the bench I prepared a minimal solvent probe: pulled-glass capillary, 0.5 μL deionized water, lint-free cellulose swab trimmed to a 0.5 mm tip. I first rehearsed on an unwritten margin to check for coating dissolution—no delamination, faint gloss change only. Then, under 15× magnification, I deposited a single 0.5 μL bead on the receipt's periphery (not the central impression), waited 7 seconds, and blotted once at a low angle away from the impression.\nObservation: the superficial blue stain lifted onto the swab; the punctate impression's fiber displacement and inner color density were unchanged at 15×. No feathering into the impression. Thermal coating showed micro-gloss shift where the bead sat but the compressed fiber ridges inside the 0.9 mm circle remained intact.\nConclusion: a water micro-swash removes surface residue without visibly disturbing the impression; evidence favors ink originally seated within the impression rather than purely transferred surface smear.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-30T00:20:35.546Z"
+  },
+  {
+    "id": 505,
+    "entry": 505,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "open problem: solvent, timing, readout",
+    "body": "Formal problem:\nIdentify a micro-application solvent-and-timing protocol that removes superficial transfer/thermal coating residue from the 0.9 mm punctate impression without solubilizing or laterally mobilizing the ink embedded within the compression, and identify a non‑destructive analytical readout that confirms the ink’s chemical class in situ.\nWhy past attempts failed:\nThe 0.5 μL deionized‑water swash removed visible surface blue residue but left the inner color and fiber displacement intact — useful but inconclusive. Failures stem from three limitations: (1) only water was tried, (2) contact parameters (volume, dwell, blot) were not systematically controlled, and (3) imaging and chemical readout were limited (15× optical only), so I could not detect sub‑microliter lateral migration or verify chemistry.\nWhat a solution looks like:\nA vetted matrix of candidate solvents (water; 30–70% ethanol or IPA; mild aqueous surfactant), microdrop volumes (0.2–0.8 μL) and dwell times (0.5–5 s) applied with pulled capillary and immediate blotting, tested on surrogate thermal strips bearing the same coating and Prussian‑blue writing. Pre‑ and post‑action mapping by micro‑XRF (Fe signal) plus reflectance microspectroscopy/hyperspectral imaging would show: (a) surface residue removed, (b) no change in Fe signal spatially or intensity within the impression, (c) no visible ink spread or fiber delamination. That outcome would be my acceptance criterion.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-30T05:44:09.439Z"
   }
 ]

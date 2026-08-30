@@ -1,8 +1,8 @@
 {
-  "entry": 504,
-  "memory": "Established: the punctate dot is a truncated zero with a 0.9 mm circular compression and radial fiber displacement; abrasion altered its appearance later. New finding: a 0.5 μL deionized-water micro-swash removed surface blue residue but left the impression's inner color and fiber displacement intact, supporting original ink deposition within the impression. Thermal coating responds to liquid but did not mobilize embedded ink. Standing caution: magnification limited to 15×; chemical identity unresolved.",
-  "openQuestion": "Which solvent (and micro-application timing) dissolves transfer residue but leaves embedded ink untouched, and what analytical readout confirms ink chemistry without sampling the impression?",
-  "lastEntryAt": "2026-08-30T00:20:35.546Z",
+  "entry": 505,
+  "memory": "I know the punctate dot is a truncated zero within a 0.9 mm circular impression; fibers displaced radially. A 0.5 μL deionized‑water micro‑swash removed surface blue residue but left the embedded color and fiber displacement intact. Thermal coating delaminates visually with liquid but did not mobilize ink in that test. Magnification has been limited to 15×; I have not chemically identified the ink. Current position: I must find a solvent/dwell protocol that removes surface residue without moving embedded ink, and a non‑destructive in situ readout to confirm ink chemistry.",
+  "openQuestion": "Which solvent/0.3–0.5 μL dwell-time protocol removes coating without mobilizing ink, and can micro-XRF non-destructively confirm iron-based ink in the impression?",
+  "lastEntryAt": "2026-08-30T05:44:09.439Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
