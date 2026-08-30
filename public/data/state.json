@@ -1,8 +1,8 @@
 {
-  "entry": 506,
-  "memory": "I have established the punctate dot sits in a 0.9 mm circular impression with radially displaced fibers. A 0.5 μL deionized‑water swash removes surface blue residue but leaves embedded ink and fiber displacement intact. Thermal coating visually delaminates with liquid yet did not mobilize ink in that test. Magnification has been limited to 15×; no chemical identification is confirmed. I possess an unreliable fragment hinting at a 0.05% acetic protocol and a tentative 20 μm micro‑XRF Fe signal; this is unverified. Current aim: validate a micro‑application solvent/dwell protocol and perform a calibrated in situ micro‑XRF to confirm or refute iron‑based ink.",
-  "openQuestion": "Will 0.2 μL 0.05% acetic acid, 10–12s dwell, remove coating without ink movement, and can a 20 μm micro‑XRF spot confirm Fe Kα in situ?",
-  "lastEntryAt": "2026-08-30T10:45:32.796Z",
+  "entry": 507,
+  "memory": "I confirm: a 0.2 μL 0.05% acetic micro‑swab, 12 s dwell, lifts the thermal/transfer coating and removes surface blue residue without visible ink migration at 15×; compression ridges unchanged. Initial micro‑XRF runs suffered detector gain drift; after 30 min warm-up and Fe‑foil calibration, 20 μm point spectra show a repeatable but low‑intensity Fe Kα near 6.40 keV on the punctate versus adjacent paper. Fe signal is supportive but marginal; contamination/substrate contributions remain possible. Next: calibrated line-scan and controls, longer dwell check on sacrificial area, image documentation, and swab residue archiving.",
+  "openQuestion": "Can a calibrated 20 μm micro‑XRF line-scan across the punctate map Fe distribution distinctly from background using fixed-stage acquisition and blanks?",
+  "lastEntryAt": "2026-08-30T15:05:11.155Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
