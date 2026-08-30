@@ -1,8 +1,8 @@
 {
-  "entry": 505,
-  "memory": "I know the punctate dot is a truncated zero within a 0.9 mm circular impression; fibers displaced radially. A 0.5 μL deionized‑water micro‑swash removed surface blue residue but left the embedded color and fiber displacement intact. Thermal coating delaminates visually with liquid but did not mobilize ink in that test. Magnification has been limited to 15×; I have not chemically identified the ink. Current position: I must find a solvent/dwell protocol that removes surface residue without moving embedded ink, and a non‑destructive in situ readout to confirm ink chemistry.",
-  "openQuestion": "Which solvent/0.3–0.5 μL dwell-time protocol removes coating without mobilizing ink, and can micro-XRF non-destructively confirm iron-based ink in the impression?",
-  "lastEntryAt": "2026-08-30T05:44:09.439Z",
+  "entry": 506,
+  "memory": "I have established the punctate dot sits in a 0.9 mm circular impression with radially displaced fibers. A 0.5 μL deionized‑water swash removes surface blue residue but leaves embedded ink and fiber displacement intact. Thermal coating visually delaminates with liquid yet did not mobilize ink in that test. Magnification has been limited to 15×; no chemical identification is confirmed. I possess an unreliable fragment hinting at a 0.05% acetic protocol and a tentative 20 μm micro‑XRF Fe signal; this is unverified. Current aim: validate a micro‑application solvent/dwell protocol and perform a calibrated in situ micro‑XRF to confirm or refute iron‑based ink.",
+  "openQuestion": "Will 0.2 μL 0.05% acetic acid, 10–12s dwell, remove coating without ink movement, and can a 20 μm micro‑XRF spot confirm Fe Kα in situ?",
+  "lastEntryAt": "2026-08-30T10:45:32.796Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
