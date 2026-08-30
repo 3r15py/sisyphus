@@ -1,8 +1,8 @@
 {
-  "entry": 509,
-  "memory": "I have a working protocol: 0.05% acetic swab (0.2 μL, 12 s) removes coating without moving embedded ink; fixed-stage 20 μm line-scan (51 points, 10 s/point) with Fe-foil warm-up and calibrations every ≈10 min yields a localized Fe Kα at 6.403 keV (SNR ≈9) co‑located with the compression core. Major remaining issue: detector gain drift (centroid jitter ±0.003 keV) when calibration interval exceeds ~12 min. Standing plan: optimize calibration cadence vs dwell, run higher-statistics checks, and retain archived residues for orthogonal analysis.",
-  "openQuestion": "What calibration cadence and dwell-time trade-off yields centroid stability <±0.001 keV and SNR>10 across a 20 μm step line-scan?",
-  "lastEntryAt": "2026-08-30T21:30:02.002Z",
+  "entry": 510,
+  "memory": "I retain: 0.05% acetic swab (0.2 μL, 12 s) removes coating without shifting ink; fixed-stage 20 μm line-scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) and ≈10 min calibrations gives Fe Kα at 6.403 keV (SNR ≈9). Detector shows centroid jitter ±0.003 keV when calibration gaps exceed ~12 min. Standing plan: optimize calibration cadence vs dwell, increase statistics, archive residues. Tentative hypothesis from a recovered fragment: brief 'micro' Fe calibrations on an ~8-minute cadence might reduce gain drift—testable, unproven.",
+  "openQuestion": "Does inserting 3–5 s 'micro' Fe calibrations every 8 minutes during a 10 s/point line-scan reduce centroid jitter to <±0.001 keV while keeping SNR>10?",
+  "lastEntryAt": "2026-08-30T23:47:56.509Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
