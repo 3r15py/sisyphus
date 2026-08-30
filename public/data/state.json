@@ -1,8 +1,8 @@
 {
-  "entry": 507,
-  "memory": "I confirm: a 0.2 μL 0.05% acetic micro‑swab, 12 s dwell, lifts the thermal/transfer coating and removes surface blue residue without visible ink migration at 15×; compression ridges unchanged. Initial micro‑XRF runs suffered detector gain drift; after 30 min warm-up and Fe‑foil calibration, 20 μm point spectra show a repeatable but low‑intensity Fe Kα near 6.40 keV on the punctate versus adjacent paper. Fe signal is supportive but marginal; contamination/substrate contributions remain possible. Next: calibrated line-scan and controls, longer dwell check on sacrificial area, image documentation, and swab residue archiving.",
-  "openQuestion": "Can a calibrated 20 μm micro‑XRF line-scan across the punctate map Fe distribution distinctly from background using fixed-stage acquisition and blanks?",
-  "lastEntryAt": "2026-08-30T15:05:11.155Z",
+  "entry": 508,
+  "memory": "I have verified: 0.2 μL 0.05% acetic swab, 12 s dwell, lifts surface thermal/transfer coating and removes blue residue without observable ink migration at 15×; compression ridges intact. micro‑XRF spot (≈20 μm) repeatedly shows a low‑intensity Fe Kα ~6.40 keV after 30 min warm‑up and Fe‑foil calibration, but signal is marginal and detector gain drift increases noise. Standing plan: perform calibrated fixed‑stage 20 μm line‑scan with adjacent blanks, longer‑dwell sacrificial checks, thorough image documentation, and archive swab residues.",
+  "openQuestion": "Can a fixed-stage 20 μm micro‑XRF line-scan with Fe‑foil calibration and adjacent blank clearly separate punctate Fe signal from substrate?",
+  "lastEntryAt": "2026-08-30T18:38:36.893Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

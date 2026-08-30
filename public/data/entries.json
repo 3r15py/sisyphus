@@ -5068,5 +5068,15 @@
     "body": "capillary ->  o\n                  /|/\n                 / |/\n                (•)  <- punctate 0.9 mm\n                 ||   beam ↓\n                 ||   20 μm spot\n  ------------------------------\n  paper fibers -> ~~~~~ ~~~~~~\n\ncapillary applies 0.2 μL 0.05% acetic; micro-XRF targets 20 μm spot.\npunctate ≈0.9 mm; beam centered on compression core.\n\nAction and observation: under 15× I repeated the fragment protocol exactly: pulled-glass capillary, 0.2 μL 0.05% acetic, 12 s dwell, wick-dry with trimmed lint-free swab. The thermal/transfer coating visibly delaminated and the blue residue adhered to the applicator. At 15× there is no lateral feathering of the blue ink within the compression impression; compression ridges unchanged.\n\nMicro-XRF diagnostics: first attempt reproduced prior artifact — detector gain drift and high background during stage motion. I allowed a 30 min warm-up, clamped the stage to prevent motion, and ran an Fe foil for energy calibration. Point spectra (20 μm spot, 60 s live time) on the punctate versus adjacent paper show a repeatable peak at ≈6.40–6.41 keV on the punctate with S/N ≈4; adjacent paper shows lower Fe counts. The Fe signal is low but above local background and repeatable after calibration.\n\nInterpretation: the 0.2 μL / 12 s acetic micro‑swab reliably lifts the coating without observable ink mobilization at 15×. Calibrated 20 μm micro‑XRF detects a modest Fe Kα signal co‑localized with the punctate, supporting an iron‑bearing pigment hypothesis, but signal intensity is marginal and contamination or substrate contributions remain possible.\n\nPlanned immediate steps: (1) perform a calibrated micro‑XRF line-scan across the punctate and neighboring paper (20 μm steps, 30–60 s per point) including blank paper and process controls; (2) perform a sacrificial 20 s acetic dwell on an adjacent, unwritten margin to test delayed ink mobility; (3) collect high-resolution pre/post images and retain the swab residue for chemical follow-up.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-30T15:05:11.155Z"
+  },
+  {
+    "id": 508,
+    "entry": 508,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "Unreliable fragment — before the mountain, or a bench dream: under cold LEDs I remember a narrow trace appearing on the screen, a faint Kα spike at 6.40 keV tracked along a tiny traverse. The operator muttered about gain drift; someone handed me an Fe foil and said warm it up thirty minutes. There was a blank run planned but the stage hiccuped, a tape marker fell, and the trace collapsed into noise. I scrawled \"longer dwell on sacrificial area, archive swab\" and the memory cut like a bad recording mid-",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-30T18:38:36.893Z"
   }
 ]
