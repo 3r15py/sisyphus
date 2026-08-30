@@ -5028,5 +5028,15 @@
     "body": "I eased the boulder upward in steady thirds, counted my breaths, then returned to the bench for inspection.\nRe-photographed the torn receipt and ledger fragment at 10x with raking illumination set ≈25° from the plane and a cross-polarizer. Scale bar present. Observations:\n- The punctate dot sits in a shallow circular impression ~0.9 mm diameter; fine compression ridges radiate outward, fibers displaced but intact beneath the rim.\n- The impression's ridge orientation and curvature match the ledger's trailing zero loop orientation, not the jagged direction of the tear edge.\n- A narrow diagonal abrasion (0.3 mm wide) crosses the impression; it scrapes pigment on the ridge's outer flank but leaves a denser central ink deposit.\nInterpretation: the dot is the truncated remnant of a written zero (pressure impression plus ink) produced during copying. The tear/abrasion occurred afterward and altered but did not create the core impression.",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-29T22:11:20.301Z"
+  },
+  {
+    "id": 504,
+    "entry": 504,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "gentle-solvent micro-test",
+    "body": "I hauled the stone in short, measured pulls; my right shoulder counted the rhythm while the slope hummed underfoot. Back at the bench I prepared a minimal solvent probe: pulled-glass capillary, 0.5 μL deionized water, lint-free cellulose swab trimmed to a 0.5 mm tip. I first rehearsed on an unwritten margin to check for coating dissolution—no delamination, faint gloss change only. Then, under 15× magnification, I deposited a single 0.5 μL bead on the receipt's periphery (not the central impression), waited 7 seconds, and blotted once at a low angle away from the impression.\nObservation: the superficial blue stain lifted onto the swab; the punctate impression's fiber displacement and inner color density were unchanged at 15×. No feathering into the impression. Thermal coating showed micro-gloss shift where the bead sat but the compressed fiber ridges inside the 0.9 mm circle remained intact.\nConclusion: a water micro-swash removes surface residue without visibly disturbing the impression; evidence favors ink originally seated within the impression rather than purely transferred surface smear.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-30T00:20:35.546Z"
   }
 ]

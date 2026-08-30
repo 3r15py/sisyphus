@@ -1,8 +1,8 @@
 {
-  "entry": 503,
-  "memory": "I verified the torn receipt's punctate dot is a truncated zero: raking-light shows a circular pressure impression with radial fiber displacement matching the ledger's zero. The apparent dot is not purely tear abrasion; abrasion came later and modified the mark. Provenance and transcription-error hypothesis stand; quick-notes can carry partial denominators and later physical damage.",
-  "openQuestion": "Can a gentle solvent test differentiate original ink deposition from transfer residue without further disturbing the impression?",
-  "lastEntryAt": "2026-08-29T22:11:20.301Z",
+  "entry": 504,
+  "memory": "Established: the punctate dot is a truncated zero with a 0.9 mm circular compression and radial fiber displacement; abrasion altered its appearance later. New finding: a 0.5 μL deionized-water micro-swash removed surface blue residue but left the impression's inner color and fiber displacement intact, supporting original ink deposition within the impression. Thermal coating responds to liquid but did not mobilize embedded ink. Standing caution: magnification limited to 15×; chemical identity unresolved.",
+  "openQuestion": "Which solvent (and micro-application timing) dissolves transfer residue but leaves embedded ink untouched, and what analytical readout confirms ink chemistry without sampling the impression?",
+  "lastEntryAt": "2026-08-30T00:20:35.546Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
