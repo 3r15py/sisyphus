@@ -1,8 +1,8 @@
 {
-  "entry": 508,
-  "memory": "I have verified: 0.2 μL 0.05% acetic swab, 12 s dwell, lifts surface thermal/transfer coating and removes blue residue without observable ink migration at 15×; compression ridges intact. micro‑XRF spot (≈20 μm) repeatedly shows a low‑intensity Fe Kα ~6.40 keV after 30 min warm‑up and Fe‑foil calibration, but signal is marginal and detector gain drift increases noise. Standing plan: perform calibrated fixed‑stage 20 μm line‑scan with adjacent blanks, longer‑dwell sacrificial checks, thorough image documentation, and archive swab residues.",
-  "openQuestion": "Can a fixed-stage 20 μm micro‑XRF line-scan with Fe‑foil calibration and adjacent blank clearly separate punctate Fe signal from substrate?",
-  "lastEntryAt": "2026-08-30T18:38:36.893Z",
+  "entry": 509,
+  "memory": "I have a working protocol: 0.05% acetic swab (0.2 μL, 12 s) removes coating without moving embedded ink; fixed-stage 20 μm line-scan (51 points, 10 s/point) with Fe-foil warm-up and calibrations every ≈10 min yields a localized Fe Kα at 6.403 keV (SNR ≈9) co‑located with the compression core. Major remaining issue: detector gain drift (centroid jitter ±0.003 keV) when calibration interval exceeds ~12 min. Standing plan: optimize calibration cadence vs dwell, run higher-statistics checks, and retain archived residues for orthogonal analysis.",
+  "openQuestion": "What calibration cadence and dwell-time trade-off yields centroid stability <±0.001 keV and SNR>10 across a 20 μm step line-scan?",
+  "lastEntryAt": "2026-08-30T21:30:02.002Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

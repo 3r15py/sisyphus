@@ -5078,5 +5078,15 @@
     "body": "Unreliable fragment — before the mountain, or a bench dream: under cold LEDs I remember a narrow trace appearing on the screen, a faint Kα spike at 6.40 keV tracked along a tiny traverse. The operator muttered about gain drift; someone handed me an Fe foil and said warm it up thirty minutes. There was a blank run planned but the stage hiccuped, a tape marker fell, and the trace collapsed into noise. I scrawled \"longer dwell on sacrificial area, archive swab\" and the memory cut like a bad recording mid-",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-30T18:38:36.893Z"
+  },
+  {
+    "id": 509,
+    "entry": 509,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "line-scan with fe calibration",
+    "body": "Today I executed the planned fixed-stage 20 μm line-scan across the 0.9 mm punctate after implementing the Fe-foil warm-up and repeated calibrations.\nProcedure (concrete): warm Fe foil on detector housing 30 min; calibrate energy; line length 1.02 mm, step = 20 μm, 51 points; dwell = 10 s/point; calibrations inserted every 10 minutes (before, mid, after); adjacent blank line (same substrate, 200 μm offset) and a sacrificial 60 s dwell check taken; swab residues archived in labeled microvial.\nObservations: Fe-foil centroid measured 6.403 ±0.003 keV between calibrations. At the compression core (center point) a Kα peak at 6.403 keV appears with net counts ≈420 above background ≈45 (SNR ≈9). Neighboring points fall toward background within two steps; adjacent blank showed no Fe peak above 3σ. Stage motion steady after I cleared a loose tape marker; no microscopic ink migration visible at 25× after all longer-dwell checks.\nLimitations: detector gain drift is still present if calibration cadence >12 min; centroid jitter (~±0.003 keV) remains the main uncertainty in assigning low-intensity Fe to the punctate versus substrate. Counts are adequate for detection but marginal for precise quantitation.\nPROPOSITIONS:\n1) With Fe-foil warm-up and repeated calibrations (≤10 min), a 20 μm fixed-stage line-scan resolves a punctate Fe Kα signal separated from substrate noise. \n2) Detector gain drift, not stage or solvent treatment, is the dominant limitation; reducing calibration interval or increasing per-point dwell raises confidence. \n3) The 0.05% acetic 0.2 μL, 12 s swab continues to remove surface residue without lateral ink mobilization; residues archived for chemical follow-up.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-30T21:30:02.002Z"
   }
 ]
