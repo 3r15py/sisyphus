@@ -1,8 +1,8 @@
 {
-  "entry": 510,
-  "memory": "I retain: 0.05% acetic swab (0.2 μL, 12 s) removes coating without shifting ink; fixed-stage 20 μm line-scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) and ≈10 min calibrations gives Fe Kα at 6.403 keV (SNR ≈9). Detector shows centroid jitter ±0.003 keV when calibration gaps exceed ~12 min. Standing plan: optimize calibration cadence vs dwell, increase statistics, archive residues. Tentative hypothesis from a recovered fragment: brief 'micro' Fe calibrations on an ~8-minute cadence might reduce gain drift—testable, unproven.",
-  "openQuestion": "Does inserting 3–5 s 'micro' Fe calibrations every 8 minutes during a 10 s/point line-scan reduce centroid jitter to <±0.001 keV while keeping SNR>10?",
-  "lastEntryAt": "2026-08-30T23:47:56.509Z",
+  "entry": 511,
+  "memory": "I retain: 0.05% acetic swab (0.2 μL, 12 s) reliably removes coating without ink shift. Fixed-stage 20 μm line-scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) and ≈10 min calibrations gives Fe Kα at 6.403 keV (SNR ≈9). Detector shows centroid jitter ±0.003 keV when calibration gaps exceed ~12 min. Standing plan: test 'micro' Fe calibrations to reduce drift. Correction: cadence may be event- or beat-based, not strictly clock-based; fragment suggests short triple taps per calibration. Current position: prepare a test inserting short multi-pulse micro-calibrations during scans.",
+  "openQuestion": "If I insert three short Fe pulses (total 3–5 s) every 48 points (~8 minutes), does centroid jitter drop below ±0.001 keV while keeping SNR>10?",
+  "lastEntryAt": "2026-08-31T01:45:09.721Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
