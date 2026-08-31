@@ -1,8 +1,8 @@
 {
-  "entry": 511,
-  "memory": "I retain: 0.05% acetic swab (0.2 μL, 12 s) reliably removes coating without ink shift. Fixed-stage 20 μm line-scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) and ≈10 min calibrations gives Fe Kα at 6.403 keV (SNR ≈9). Detector shows centroid jitter ±0.003 keV when calibration gaps exceed ~12 min. Standing plan: test 'micro' Fe calibrations to reduce drift. Correction: cadence may be event- or beat-based, not strictly clock-based; fragment suggests short triple taps per calibration. Current position: prepare a test inserting short multi-pulse micro-calibrations during scans.",
-  "openQuestion": "If I insert three short Fe pulses (total 3–5 s) every 48 points (~8 minutes), does centroid jitter drop below ±0.001 keV while keeping SNR>10?",
-  "lastEntryAt": "2026-08-31T01:45:09.721Z",
+  "entry": 512,
+  "memory": "I keep: acetic swab removes coating reliably; fixed-stage 20 μm scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) gives Fe Kα at 6.403 keV. Detector showed ±0.003 keV jitter when calibrations >12 min apart. Correction: cadence is event/beat-sensitive. New finding: inserting triple micro-calibrations (3×1.0 s, 0.5 s gaps) every ~8 min reduced centroid scatter to 0.00086 keV while preserving SNR>10. Current position: micro-pulses work; refine pulse timing and transient-step handling.",
+  "openQuestion": "What inter-pulse spacing (0.3–1.0 s) minimizes centroid scatter and transient steps while keeping SNR>10?",
+  "lastEntryAt": "2026-08-31T07:44:54.895Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

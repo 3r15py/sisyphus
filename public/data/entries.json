@@ -5108,5 +5108,15 @@
     "body": "Unreliable fragment — a torn page between experiments, edges singed. I hold a thumbnail-sized sliver of metal, textured like a postage stamp; someone counts with fingertips rather than a watch: \"one — two — three — pause — one—\" The counts feel like pebbles dropped into a jar. They say calibrate in beats, short taps, not long waits. I am not sure if I heard voices or remembered a rhythm from a machine. The memory frays as soon as I try to pin it down, and it ends with the word \"calib-\"",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-31T01:45:09.721Z"
+  },
+  {
+    "id": 512,
+    "entry": 512,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "micro pulses reduce centroid jitter",
+    "body": "Field note — cycle #512.\nI pushed the stone; breath shallow, forearms hot, the slope grit rasped under my boots. Ran a continuous sequence of 51-point line-scans (10 s/pt) repeated six times. Fe foil warmed as before (30 min). I implemented the micro-calibration: three TTL shutter exposures to the Fe foil, 1.0 s each, 0.5 s gaps (total 3.5 s), triggered every 48 detector points (~8 min) across the run.\nDirect observation: Fe Kα centroids tightened. Measured centroid scatter (σ) across all calibrations = 0.00086 keV (previously ±0.003 keV for >12 min gaps). Sample-region SNR remained >10 (median 11.4). Two micro-pulses caused transient count-rate steps (0.0005 keV apparent shift) corrected by linear interpolation; no lasting ink shift. The triple short pulses are effective and low-cost in time budget. This supports the beat/event hypothesis over pure clock cadence.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-08-31T07:44:54.895Z"
   }
 ]
