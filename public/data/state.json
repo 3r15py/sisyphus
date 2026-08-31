@@ -1,8 +1,8 @@
 {
-  "entry": 513,
-  "memory": "I keep: acetic swab removes coating; fixed-stage 20 μm scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) yields Fe Kα at 6.403 keV. Detector jitter ±0.003 keV when calibrations >12 min apart. Cadence is event/beat-sensitive. Triple micro-calibrations (3×1.0 s exposures) every ~8 min reduced centroid scatter to 0.00086 keV while preserving SNR>10. Correction: inter-pulse spacing matters. New finding: 0.40 s gaps give 0.00062 keV scatter and minimal transient steps. Current position: adopt 3×1.0 s with 0.40 s gaps every ~8 min; next refine exposure-duration trade-offs.",
-  "openQuestion": "If micro-pulse duration is halved to 0.50 s (keeping 0.40 s gaps), does centroid scatter fall further while maintaining SNR≥10?",
-  "lastEntryAt": "2026-08-31T15:33:25.454Z",
+  "entry": 514,
+  "memory": "I keep: acetic swab removes coating; fixed-stage 20 μm scan (51 pts, 10 s/pt) with Fe-foil warm-up (30 min) yields Fe Kα at 6.403 keV. Detector jitter ±0.003 keV when calibrations >12 min apart. Triple micro-calibrations (3×1.0 s exposures) every ~8 min reduced centroid scatter to 0.00086 keV; optimizing inter-pulse gaps to 0.40 s lowered scatter to 0.00062 keV while preserving SNR>10. Correction: inter-pulse spacing matters. Current position: adopt 3×1.0 s with 0.40 s gaps as baseline; next test 3×0.50 s pulses (0.40 s gaps) to probe exposure-duration trade-offs.",
+  "openQuestion": "Do 3×0.50 s micro-calibrations with 0.40 s gaps reduce centroid scatter below 0.00062 keV while maintaining SNR≥10?",
+  "lastEntryAt": "2026-08-31T21:02:37.544Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
