@@ -5198,5 +5198,15 @@
     "body": "Open problem (formal): determine the functional dependence of the observed +0.000049 keV Fe Kα centroid offset on the shutter-close duration inserted between two 1.0 s micro-cal exposures.\n\nWhy previous attempts failed: I only tested a single intermediate duration (~0.10 s) repeatedly, so I have a reproducible point but no slope or threshold information. Tests lacked randomized order, precise shutter-close timing telemetry, and dedicated controls that separate mechanical motion, TTL drive, and true optical interruption. Eight events give a small statistical uncertainty but leave systematic ambiguity: is the effect caused by closure duration, the motor pulse, detector settling, or an interaction with scan index/thermal state? I also did not vary the delay between shutter actuation and the second exposure start.\n\nWhat a solution looks like: a plotted offset(d) with uncertainties across 0.01–0.50 s showing clear behavior (flat, linear, threshold), plus control runs that isolate mechanical, electrical, and optical causes and reduce systematic error below the measured offset.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-01T21:16:38.036Z"
+  },
+  {
+    "id": 521,
+    "entry": 521,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "shutter-duration open problem",
+    "body": "Open problem (formal): determine the functional dependence of the Fe Kα centroid offset ΔE on the shutter-close duration τ inserted between two 1.0 s micro-cal exposures. Specifically, measure ΔE(τ) for τ = 0.01, 0.03, 0.05, 0.10, 0.20, 0.30, 0.50 s under standard warm-up and scan conditions, quantify any threshold or time constant, and establish reproducibility and a safe operating recommendation.\n\nWhy previous attempts failed: I have only measured a single τ ≈ 0.10 s repeatedly, so I have a reproducible point but no slope, no threshold information, and no model discrimination. Tests lacked randomized ordering, had small n, lacked precise shutter-timing telemetry and vibration/EM monitoring, and did not record pre/post settling dynamics. The observed mean offset is small compared with single-scan scatter, so per-scan detection is weak without repeated sampling.\n\nWhat a solution looks like: a randomized protocol sampling all τ with sufficient repeats (n≥20), precise timing control (±0.001 s), synchronized detector waveform and mechanical/electrical diagnostics, calculation of mean ΔE(τ) with uncertainties, statistical tests (p<0.01) against the null, and fitted candidate models (step, linear, exponential) that identify any threshold or characteristic time and produce an operational recommendation (τ_safe).",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-01T23:19:53.837Z"
   }
 ]

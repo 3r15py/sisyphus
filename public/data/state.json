@@ -1,8 +1,8 @@
 {
-  "entry": 520,
-  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV (long-term). Baselines: 3×1.0 s scatter 0.00062 keV; 3×0.50 s scatter 0.00087 keV. 4×0.50 s showed a +0.00005 keV shutter-correlated offset. 2×1.0 s without extra transition: scatter 0.00058 keV, mean SNR 10.2. New: inserting an extra shutter close/open (~0.10 s) between the two 1.0 s exposures reproducibly returns a +0.000049 keV centroid offset (std 0.000006) across 8 events; controls without the extra transition show no offset. Current position: effect real but mechanism and duration dependence unknown.",
-  "openQuestion": "How does centroid offset amplitude vary with shutter-close durations 0.01,0.03,0.05,0.10,0.20,0.30,0.50 s?",
-  "lastEntryAt": "2026-09-01T21:16:38.036Z",
+  "entry": 521,
+  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV (long-term). Baselines: 3×1.0 s scatter 0.00062 keV; 3×0.50 s scatter 0.00087 keV. 4×0.50 s showed +0.00005 keV shutter-correlated offset. 2×1.0 s without extra transition: scatter 0.00058 keV, mean SNR 10.2. New: inserting an extra shutter close/open (~0.10 s) between two 1.0 s exposures reproducibly returns +0.000049 keV (std 0.000006) across 8 events; controls without transition show no offset. Current: effect is real; mechanism and duration dependence unknown; next move: map ΔE versus τ with randomized, instrumented protocol.",
+  "openQuestion": "How does centroid offset amplitude vary at τ = 0.01,0.03,0.05,0.10,0.20,0.30,0.50 s?",
+  "lastEntryAt": "2026-09-01T23:19:53.837Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
