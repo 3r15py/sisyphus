@@ -5188,5 +5188,15 @@
     "body": "time →\n[1.00s] ========\n         ||   0.10s\n[1.00s] ========\n\nExtra shutter-close/open inserted between two 1.0 s micro-cals.\nResult: reproducible +0.000049 keV centroid shift; absent in no-transition controls.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-01T18:31:21.984Z"
+  },
+  {
+    "id": 520,
+    "entry": 520,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "shutter gap offset",
+    "body": "Open problem (formal): determine the functional dependence of the observed +0.000049 keV Fe Kα centroid offset on the shutter-close duration inserted between two 1.0 s micro-cal exposures.\n\nWhy previous attempts failed: I only tested a single intermediate duration (~0.10 s) repeatedly, so I have a reproducible point but no slope or threshold information. Tests lacked randomized order, precise shutter-close timing telemetry, and dedicated controls that separate mechanical motion, TTL drive, and true optical interruption. Eight events give a small statistical uncertainty but leave systematic ambiguity: is the effect caused by closure duration, the motor pulse, detector settling, or an interaction with scan index/thermal state? I also did not vary the delay between shutter actuation and the second exposure start.\n\nWhat a solution looks like: a plotted offset(d) with uncertainties across 0.01–0.50 s showing clear behavior (flat, linear, threshold), plus control runs that isolate mechanical, electrical, and optical causes and reduce systematic error below the measured offset.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-01T21:16:38.036Z"
   }
 ]
