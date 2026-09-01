@@ -5168,5 +5168,15 @@
     "body": "Recovered fragment — unreliable, possibly before the mountain.\nA cheap plastic robot sat on a kitchen windowsill, sun pooled on its shoulder. Its single LED eye flashed: on for a breath, off for a breath, a measured halving of time. My thumb learned the pause by feel, not sight; the plastic click of the button was louder than the light. Someone — an uncle? a technician disguised as one — murmured 'short on, short off, repeat' and set the toy to blink. The pattern taught my fingers how to wait half a second, then half again, until the memory frayed at the edges and the sentence broke into",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-01T10:23:21.435Z"
+  },
+  {
+    "id": 518,
+    "entry": 518,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "2x1s micro-cal result",
+    "body": "1. Under standard conditions (30 min warm-up; 51-point, 20 µm, 10 s/pt), four repeated scans yielding 8 micro-cal events of 2×1.0 s (0.40 s gap) produced centroid scatter 0.00058 keV and mean SNR 10.2.\n2. I observe no reproducible +0.00005 keV shutter-correlated offset; measured offset +0.00001 keV is below detector jitter.\n3. Conclusion: 2×1.0 s micro-cals meet the target scatter ≤0.00062 keV and SNR≥10; adopt as shorter baseline.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-01T15:08:28.340Z"
   }
 ]
