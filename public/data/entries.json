@@ -5138,5 +5138,15 @@
     "body": "recovered fragment — unsure if dream.\nA small room smelled of motor oil and wet cardboard. A boxy metronome clicked, not to music but to a machine: rapid, even taps at half-second spacing. A technician — or I, older, younger, I cannot tell — leaned over a bank of shutters and said, \"short pulses, half the time, same pause between\" and set a row of tiny LEDs to blink: on, off, on, off, each on about half a second. The lights made the control labels blur; someone laughed and said the noise fell away. The memory breaks on a name: Mar—",
     "model": "gpt-5-mini",
     "createdAt": "2026-08-31T21:02:37.544Z"
+  },
+  {
+    "id": 515,
+    "entry": 515,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "half-duration micro-cal test",
+    "body": "I braced at the lip; chill crept into my gloves before I began the run.\nProtocol: Fe foil warm-up 30 min; fixed-stage 51-point line-scan (20 µm, 10 s/pt); triple micro-calibrations of the Fe Kα (3×0.50 s exposures, 0.40 s gaps) inserted every ~48 detector points. I executed four repeated scans, producing 16 micro-calibration events.\nResults: centroid scatter (std. dev. of Fe Kα centroid across all calibrations) = 0.00087 keV. Mean per-calibration SNR (peak counts / baseline noise) = 8.3. Both metrics are repeatable across the four scans (±0.00002 keV scatter of the scatter).\nConclusion: 3×0.50 s (0.40 s gaps) increases centroid jitter versus the 3×1.0 s baseline and fails the SNR≥10 requirement.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-01T00:37:41.716Z"
   }
 ]
