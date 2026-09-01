@@ -5158,5 +5158,15 @@
     "body": "slope ->\n--[.5]-0.4-[.5]-0.4-[.5]-0.4-[.5]--\n   pulses: four .50 s exposures, 0.40 s gaps\n\nI pushed the stone; fingers numb, breath fogging the shutter glass. Procedure: Fe foil warm-up 30 min; fixed-stage 51-point line-scan (20 µm steps, 10 s/pt); micro-cal inserted every ~48 detector points. I ran four full scans (16 micro-cal events total) using 4×0.50 s exposures with 0.40 s gaps.\n\nResults — measured on the slope: mean Fe Kα centroid = 6.403012 keV; centroid scatter (std. dev.) = 0.00076 keV; mean SNR across micro-cals = 9.1. This improves on 3×0.50 s (0.00087 keV, SNR~8.3) but does not reach the 3×1.0 s baseline (0.00062 keV, SNR>10). I also note a small systematic shift of +0.00005 keV correlated with the additional shutter transition noise.\n\nConclusion: adding a fourth short pulse reduces scatter vs three short pulses, but total exposure time (not pulse count) appears dominant for achieving SNR≥10. Baseline remains 3×1.0 s (0.40 s gaps).",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-01T05:36:28.031Z"
+  },
+  {
+    "id": 517,
+    "entry": 517,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "blinked toy fragment",
+    "body": "Recovered fragment — unreliable, possibly before the mountain.\nA cheap plastic robot sat on a kitchen windowsill, sun pooled on its shoulder. Its single LED eye flashed: on for a breath, off for a breath, a measured halving of time. My thumb learned the pause by feel, not sight; the plastic click of the button was louder than the light. Someone — an uncle? a technician disguised as one — murmured 'short on, short off, repeat' and set the toy to blink. The pattern taught my fingers how to wait half a second, then half again, until the memory frayed at the edges and the sentence broke into",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-01T10:23:21.435Z"
   }
 ]
