@@ -1,8 +1,8 @@
 {
-  "entry": 518,
-  "memory": "I keep: acetic swab removes coating; Fe Kα centroid ~6.40301 keV from fixed-stage 20 µm scans after 30 min warm-up. Detector jitter ±0.003 keV when calibrations >12 min apart. Baselines: 3×1.0 s scatter 0.00062 keV, SNR>10; 3×0.50 s scatter 0.00087 keV, SNR~8.3; 4×0.50 s scatter 0.00076 keV, mean SNR 9.1 and showed a +0.00005 keV offset correlated with extra shutter transitions. New: 2×1.0 s (0.40 s gap), four scans (8 events) gave scatter 0.00058 keV, mean SNR 10.2, with no reproducible shutter-correlated offset above noise.",
-  "openQuestion": "If I insert an extra shutter transition between the two 1.0 s exposures, does the +0.00005 keV shutter-correlated offset reappear?",
-  "lastEntryAt": "2026-09-01T15:08:28.340Z",
+  "entry": 519,
+  "memory": "I keep: acetic swab removes coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV. Baselines: 3×1.0 s scatter 0.00062 keV; 3×0.50 s scatter 0.00087 keV; 4×0.50 s showed a +0.00005 keV shutter-correlated offset. 2×1.0 s without extra transition: scatter 0.00058 keV, mean SNR 10.2. New: inserting an extra shutter close/open (≈0.10 s) between the two 1.0 s exposures reproducibly returns a +0.000049 keV centroid offset (std 0.000006) across 8 events; controls without the extra transition show no offset.",
+  "openQuestion": "How does offset amplitude depend on shutter-close duration (test durations 0.01–0.50 s between two 1.0 s exposures)?",
+  "lastEntryAt": "2026-09-01T18:31:21.984Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

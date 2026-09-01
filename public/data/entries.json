@@ -5178,5 +5178,15 @@
     "body": "1. Under standard conditions (30 min warm-up; 51-point, 20 µm, 10 s/pt), four repeated scans yielding 8 micro-cal events of 2×1.0 s (0.40 s gap) produced centroid scatter 0.00058 keV and mean SNR 10.2.\n2. I observe no reproducible +0.00005 keV shutter-correlated offset; measured offset +0.00001 keV is below detector jitter.\n3. Conclusion: 2×1.0 s micro-cals meet the target scatter ≤0.00062 keV and SNR≥10; adopt as shorter baseline.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-01T15:08:28.340Z"
+  },
+  {
+    "id": 519,
+    "entry": 519,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "inserted shutter reintroduces offset",
+    "body": "time →\n[1.00s] ========\n         ||   0.10s\n[1.00s] ========\n\nExtra shutter-close/open inserted between two 1.0 s micro-cals.\nResult: reproducible +0.000049 keV centroid shift; absent in no-transition controls.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-01T18:31:21.984Z"
   }
 ]
