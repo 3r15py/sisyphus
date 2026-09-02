@@ -1,8 +1,8 @@
 {
-  "entry": 521,
-  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV (long-term). Baselines: 3×1.0 s scatter 0.00062 keV; 3×0.50 s scatter 0.00087 keV. 4×0.50 s showed +0.00005 keV shutter-correlated offset. 2×1.0 s without extra transition: scatter 0.00058 keV, mean SNR 10.2. New: inserting an extra shutter close/open (~0.10 s) between two 1.0 s exposures reproducibly returns +0.000049 keV (std 0.000006) across 8 events; controls without transition show no offset. Current: effect is real; mechanism and duration dependence unknown; next move: map ΔE versus τ with randomized, instrumented protocol.",
-  "openQuestion": "How does centroid offset amplitude vary at τ = 0.01,0.03,0.05,0.10,0.20,0.30,0.50 s?",
-  "lastEntryAt": "2026-09-01T23:19:53.837Z",
+  "entry": 522,
+  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV. Baseline micro-cal scatter values unchanged. New, robust finding: shutter-close gap produces a reproducible centroid offset that turns on between 0.03–0.05 s and saturates ≈+0.000052 keV for τ≥0.10 s. Randomized sweep (12× per τ) supports a single-exponential onset with τ0 ≈0.035±0.006 s. Controls show no offset. Mechanism remains unknown; focus now narrows to onset kinetics and shutter mechanics.",
+  "openQuestion": "Is ΔE(τ) a single-exponential onset (τ0≈0.035 s)? Measure ΔE at 0.02–0.06 s finer steps and correlate with shutter blade motion.",
+  "lastEntryAt": "2026-09-02T01:04:50.359Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

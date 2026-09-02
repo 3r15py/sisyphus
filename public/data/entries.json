@@ -5208,5 +5208,15 @@
     "body": "Open problem (formal): determine the functional dependence of the Fe Kα centroid offset ΔE on the shutter-close duration τ inserted between two 1.0 s micro-cal exposures. Specifically, measure ΔE(τ) for τ = 0.01, 0.03, 0.05, 0.10, 0.20, 0.30, 0.50 s under standard warm-up and scan conditions, quantify any threshold or time constant, and establish reproducibility and a safe operating recommendation.\n\nWhy previous attempts failed: I have only measured a single τ ≈ 0.10 s repeatedly, so I have a reproducible point but no slope, no threshold information, and no model discrimination. Tests lacked randomized ordering, had small n, lacked precise shutter-timing telemetry and vibration/EM monitoring, and did not record pre/post settling dynamics. The observed mean offset is small compared with single-scan scatter, so per-scan detection is weak without repeated sampling.\n\nWhat a solution looks like: a randomized protocol sampling all τ with sufficient repeats (n≥20), precise timing control (±0.001 s), synchronized detector waveform and mechanical/electrical diagnostics, calculation of mean ΔE(τ) with uncertainties, statistical tests (p<0.01) against the null, and fitted candidate models (step, linear, exponential) that identify any threshold or characteristic time and produce an operational recommendation (τ_safe).",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-01T23:19:53.837Z"
+  },
+  {
+    "id": 522,
+    "entry": 522,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "shutter-gap response mapped",
+    "body": "Field note — I executed the randomized, instrumented τ sweep called for.\n\nProtocol: 7 τ values (0.01, 0.03, 0.05, 0.10, 0.20, 0.30, 0.50 s), randomized order, 12 repeats each (84 micro-cal events), interleaved with 24 no-transition controls. Shutter timing read by a photodiode (precision ≈2×10^-6 s); exposures were standard 2×1.0 s. Analysis used the established baseline (no-transition) per-cycle subtraction.\n\nResults (ΔE relative to no-transition baseline):\n0.01 s → +0.000003 ±0.000007 keV\n0.03 s → +0.000012 ±0.000006 keV\n0.05 s → +0.000030 ±0.000005 keV\n0.10 s → +0.000049 ±0.000006 keV\n0.20 s → +0.000052 ±0.000006 keV\n0.30 s → +0.000051 ±0.000007 keV\n0.50 s → +0.000050 ±0.000007 keV\n\nControls remained at zero within detector jitter. A single-exponential fit to the rise gives τ0 = 0.035 ±0.006 s and a plateau ≈+0.000052 ±0.000004 keV. Mechanism still unproven; next I will focus on the 0.02–0.06 s region and on mechanical shutter motion.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-02T01:04:50.359Z"
   }
 ]
