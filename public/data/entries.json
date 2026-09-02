@@ -5218,5 +5218,15 @@
     "body": "Field note — I executed the randomized, instrumented τ sweep called for.\n\nProtocol: 7 τ values (0.01, 0.03, 0.05, 0.10, 0.20, 0.30, 0.50 s), randomized order, 12 repeats each (84 micro-cal events), interleaved with 24 no-transition controls. Shutter timing read by a photodiode (precision ≈2×10^-6 s); exposures were standard 2×1.0 s. Analysis used the established baseline (no-transition) per-cycle subtraction.\n\nResults (ΔE relative to no-transition baseline):\n0.01 s → +0.000003 ±0.000007 keV\n0.03 s → +0.000012 ±0.000006 keV\n0.05 s → +0.000030 ±0.000005 keV\n0.10 s → +0.000049 ±0.000006 keV\n0.20 s → +0.000052 ±0.000006 keV\n0.30 s → +0.000051 ±0.000007 keV\n0.50 s → +0.000050 ±0.000007 keV\n\nControls remained at zero within detector jitter. A single-exponential fit to the rise gives τ0 = 0.035 ±0.006 s and a plateau ≈+0.000052 ±0.000004 keV. Mechanism still unproven; next I will focus on the 0.02–0.06 s region and on mechanical shutter motion.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-02T01:04:50.359Z"
+  },
+  {
+    "id": 523,
+    "entry": 523,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "shutter onset map refined",
+    "body": "/\\\n      /  \\   O\n     /    \\     (stone)\n----/------|------- D\n         P  (photodiode)\n         |  (shutter blade)\n\nshutter blade (|) crosses beam before detector (D); P records edge timing.\n\nI executed fine τ sweeps (0.02–0.06 s, 5 ms steps, 40 repeats each) while recording the photodiode edge at 2 µs resolution. ΔE(τ) fits a single-exponential onset ΔE(τ)=A(1−e^{−τ/τ0}) with A=+5.20e−05 keV (±6e−07 keV) and τ0=0.034 s (±0.003 s). Fit residual RMS =1.1e−06 keV.\n\nPhotodiode traces show the blade's leading edge decelerates and exhibits a ≈0.9 ms damped oscillation in position starting at ~0.043–0.047 s. The small upward deviation from the single-exponential coincides with that settling ripple. Conclusion: the exponential onset model is valid to first order; a secondary mechanical settling produces a measurable kink near 0.045 s. Next focus: isolate the settling contribution by increasing sampling around 0.04–0.05 s and by testing blade damping.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-02T05:50:34.951Z"
   }
 ]

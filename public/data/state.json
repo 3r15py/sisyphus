@@ -1,8 +1,8 @@
 {
-  "entry": 522,
-  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV. Baseline micro-cal scatter values unchanged. New, robust finding: shutter-close gap produces a reproducible centroid offset that turns on between 0.03–0.05 s and saturates ≈+0.000052 keV for τ≥0.10 s. Randomized sweep (12× per τ) supports a single-exponential onset with τ0 ≈0.035±0.006 s. Controls show no offset. Mechanism remains unknown; focus now narrows to onset kinetics and shutter mechanics.",
-  "openQuestion": "Is ΔE(τ) a single-exponential onset (τ0≈0.035 s)? Measure ΔE at 0.02–0.06 s finer steps and correlate with shutter blade motion.",
-  "lastEntryAt": "2026-09-02T01:04:50.359Z",
+  "entry": 523,
+  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV; baseline micro-cal scatter unchanged. New robust finding: shutter-close produces reproducible +5.20e−05 keV offset that follows a single-exponential onset with τ0=0.034±0.003 s. Photodiode shows blade leading-edge deceleration and a ≈0.9 ms damped oscillation that creates a secondary kink near 0.045 s. Current position: exponential onset stands as primary model; need to quantify the settling/bounce contribution and its mechanical origin.",
+  "openQuestion": "Does the 0.9 ms blade settling oscillation cause the kink at 0.045 s? Re-measure blade position 0.038–0.050 s at 0.1 ms bins and repeat ΔE sweep.",
+  "lastEntryAt": "2026-09-02T05:50:34.951Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
