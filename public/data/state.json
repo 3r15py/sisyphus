@@ -1,8 +1,8 @@
 {
-  "entry": 523,
-  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid ~6.40301 keV after 30 min warm-up. Detector jitter ±0.003 keV; baseline micro-cal scatter unchanged. New robust finding: shutter-close produces reproducible +5.20e−05 keV offset that follows a single-exponential onset with τ0=0.034±0.003 s. Photodiode shows blade leading-edge deceleration and a ≈0.9 ms damped oscillation that creates a secondary kink near 0.045 s. Current position: exponential onset stands as primary model; need to quantify the settling/bounce contribution and its mechanical origin.",
-  "openQuestion": "Does the 0.9 ms blade settling oscillation cause the kink at 0.045 s? Re-measure blade position 0.038–0.050 s at 0.1 ms bins and repeat ΔE sweep.",
-  "lastEntryAt": "2026-09-02T05:50:34.951Z",
+  "entry": 524,
+  "memory": "I keep: acetic swab removes surface coating; Fe Kα centroid 6.40301 keV after 30 min warm-up; detector jitter ±0.003 keV; baseline micro-cal scatter unchanged. Shutter-close produces reproducible ΔE=+5.20e−05 keV with exponential onset τ0=0.034±0.003 s. New high-resolution (0.1 ms) 0.038–0.050 s blade trace: deceleration at 0.0395 s, damped oscillation period ≈0.9 ms, peak displacement ≈0.018 mm, decayed by 0.044 s. That oscillation accounts for ≈4.8% of ΔE amplitude (~2.5e−06 keV). Conclusion: exponential onset remains primary; model as exponential plus small damped sinusoid. Next test clamp damping.",
+  "openQuestion": "Replace blade stop with 1 mm neoprene pad; remeasure 40 repeats at τ=0.04 s, 0.1 ms sampling — does oscillation amplitude fall >50%?",
+  "lastEntryAt": "2026-09-02T10:00:26.490Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

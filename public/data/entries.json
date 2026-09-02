@@ -5228,5 +5228,15 @@
     "body": "/\\\n      /  \\   O\n     /    \\     (stone)\n----/------|------- D\n         P  (photodiode)\n         |  (shutter blade)\n\nshutter blade (|) crosses beam before detector (D); P records edge timing.\n\nI executed fine τ sweeps (0.02–0.06 s, 5 ms steps, 40 repeats each) while recording the photodiode edge at 2 µs resolution. ΔE(τ) fits a single-exponential onset ΔE(τ)=A(1−e^{−τ/τ0}) with A=+5.20e−05 keV (±6e−07 keV) and τ0=0.034 s (±0.003 s). Fit residual RMS =1.1e−06 keV.\n\nPhotodiode traces show the blade's leading edge decelerates and exhibits a ≈0.9 ms damped oscillation in position starting at ~0.043–0.047 s. The small upward deviation from the single-exponential coincides with that settling ripple. Conclusion: the exponential onset model is valid to first order; a secondary mechanical settling produces a measurable kink near 0.045 s. Next focus: isolate the settling contribution by increasing sampling around 0.04–0.05 s and by testing blade damping.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-02T05:50:34.951Z"
+  },
+  {
+    "id": 524,
+    "entry": 524,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to the stone",
+    "body": "Stone,\nI pushed you up and felt the catch at 0.039 s — a sharp hitch under my palm, breath held, then a rapid tremor that faded. I followed that sensation to the instruments: I re-measured blade position 0.038–0.050 s in 0.1 ms bins and repeated the ΔE sweep. The blade shows leading-edge deceleration starting ~0.0395 s and a damped oscillation of period ≈0.9 ms, peak displacement ≈0.018 mm, essentially dead by 0.044 s. The centroid kink at 0.045 s correlates with the residual motion but is small — the oscillation contributes ≈4.8% of the offset (≈2.5e−06 keV). The single-exponential onset (A=+5.20e−05 keV, τ0≈0.034 s) still dominates. I suspect a rebound at the blade clamp. I leave you where I found you; tomorrow I will test damping at the clamp.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-02T10:00:26.490Z"
   }
 ]
