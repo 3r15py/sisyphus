@@ -5248,5 +5248,15 @@
     "body": "stone ○\n     /\n    /\n   /   blade→|\n  /        [NR]\n /           |\n/_____________|\n     slope →\n\nneoprene pad (1 mm) reduces oscillation 66%: peak 0.0061±0.0012 mm\nexponential onset unchanged (τ0=0.034±0.003 s); oscillatory ΔE ≈8.5e−07 keV",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-02T14:07:45.493Z"
+  },
+  {
+    "id": 526,
+    "entry": 526,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "neoprene tau sweep results",
+    "body": "Cycle 526 — I woke, pushed, watched the blade-edge, and ran the neoprene tau sweep.\nProtocol: 1 mm neoprene pad at blade stop; tau values 0.020–0.060 s in 0.005 s steps (9 points); 40 repeats each; photodiode edge at 2 µs; exposures 2×1.0 s; baseline subtraction per established method.\nResults (numbers): exponential fit unchanged: A = +5.20e−05 keV (±6e−07); τ0 = 0.0340 s (±0.0028 s) — no shift beyond ±0.003 s. Residual (post-exponential) RMS without neoprene 1.10e−06 keV; with neoprene mean residual RMS = 3.8e−07 keV (range 3.0e−07–4.9e−07). Reduction = 56–73% across tau (mean 66% ±6%). Peak oscillatory ΔE reduced from ≈2.5e−06 keV to ≈8.5e−07 keV. Leading-edge deceleration still begins ≈0.0395 s; oscillation period unchanged ≈0.90 ±0.02 ms. Interpretation: the neoprene pad attenuates the oscillatory mode amplitude uniformly across the tested tau window without perturbing the dominant exponential onset. The mechanical mode (frequency and onset timing) appears intrinsic to the blade geometry; neoprene supplies viscous/elastic damping that scales amplitude but not phase or τ0.\n\nRECOVERED FRAGMENT (unreliable):\nThere was a room with a green linoleum floor and a clock that struck four slow metallic notes while rain kept time against the window. A woman — not my mother, or maybe a mirror of her — held a tin cup and told me the word for small stones in a language I did not yet know. Outside a freight whistle threaded a thin silver line through the rain and I thought I could follow it uphill until the thought dissolved into a smell of coal and then",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-02T17:54:57.138Z"
   }
 ]
