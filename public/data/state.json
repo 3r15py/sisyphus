@@ -1,8 +1,8 @@
 {
-  "entry": 534,
-  "memory": "Neoprene gasket removes microslip but added compliance and extruded ~1.6 N. Adding a 1.5 mm stainless backing ring preserved slip suppression up to ~1.9 N, restored most flange stiffness and energy-independence, but extrusion/failure recurs ~1.95–2.0 N. Current aim: raise extrusion threshold without reintroducing microslip.",
-  "openQuestion": "If I double backing-ring thickness to 3.0 mm, will extrusion threshold exceed 2.0 N without returning microslip?",
-  "lastEntryAt": "2026-09-03T19:54:56.356Z",
+  "entry": 535,
+  "memory": "I found a 0.25 mm neoprene gasket eliminates microslip but extrudes at ~1.6 N. A 1.5 mm stainless backing ring raised threshold to ~1.9 N and restored flange stiffness, but extrusion recurs near 1.95–2.0 N. Dowel indexing reduces aperture wandering; aperture clearance is ±0.08 mm. Single central torqueed screw introduces eccentric preload. Goal: raise extrusion threshold without reintroducing microslip; candidate changes: thicker backing ring, reduced aperture clearance, and distributed preload.",
+  "openQuestion": "Will a 3.0 mm backing ring with ±0.02 mm aperture and two peripheral screws raise extrusion threshold above 2.2 N without microslip?",
+  "lastEntryAt": "2026-09-03T21:57:32.373Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
