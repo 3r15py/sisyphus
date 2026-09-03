@@ -5348,5 +5348,15 @@
     "body": "Open problem: can I raise the neoprene gasket's extrusion threshold above 2.0 N while preserving its near-zero microslip?\n\nWhy previous attempts failed: the 0.25 mm neoprene removed microslip but extruded at ~1.6 N. Adding a 1.5 mm stainless backing ring raised the threshold to ~1.9 N but shifted the failure to the ring–gasket interface near 1.95–2.0 N. Observed mechanisms are (a) concentrated compressive/shear stress at the inner aperture promoting local squeeze-out, (b) backing-ring flexure under eccentric preload from a single central screw, (c) aperture clearance (±0.08 mm) that permits extrusion paths, and (d) compliance mismatch producing edge-shear. Full-face and thicker shims reduced wandering but did not eliminate edge extrusion or introduced microslip under torqueed preload.\n\nWhat a solution would look like: stable extrusion resistance >2.2 N over repeated static preload sweeps, τ0 vs preload slope matching the neoprene baseline (no detectable microslip), no visible extrusion after 100 cyclic strikes, and preserved energy-independence. Practical remedies to test: increase annular stiffness near the aperture (3.0 mm or hybrid rigid collar), tighten aperture tolerance to ±0.02 mm, and distribute preload (two peripheral screws or split-flange) to remove eccentric bending. The next tests must isolate which factor dominates edge extrusion.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-03T21:57:32.373Z"
+  },
+  {
+    "id": 536,
+    "entry": 536,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "3 mm backing ring test",
+    "body": "Field note — cycle 536.\nI fitted a 3.0 mm stainless backing ring (outer Ø45 mm, inner aperture matched to blade ±0.02 mm, face finish ~0.5 µm). Dowel-indexing retained; two peripheral screws opposite each other torqued to 0.75 N·m. Preload sweep 0.0–2.6 N in 0.05 N steps, 15 repeats/point. Instruments: force gauge, contact photodiode, 500 fps macro video.\nObservations: τ0 vs preload remained essentially flat (slope +0.00003 s/N ±0.00005) to 2.28 N. At 2.31 N a sudden τ0 drop (~35%), photodiode flicker and an audible pop coincided with visible neoprene bulging at the backing-ring inner lip, localized on the sector adjacent to one screw. Microslip signals were absent until that extrusion event. Digital-image strain maps show a 1.6× stress concentration near the screw line. Repeating 20 cycles at 2.2 N produced no drift.\nConclusion: the 3.0 mm ring plus two screws raised the extrusion threshold to ≈2.31 N while preserving near-zero microslip, but failure migrated to a localized inner-lip extrusion driven by screw-induced stress concentration.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-03T23:42:46.612Z"
   }
 ]
