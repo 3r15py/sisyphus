@@ -5278,5 +5278,15 @@
     "body": "I woke, applied the protocol, and thought I had the answer.\nProtocol executed: 2.25 mm neoprene at blade stop, static preload sweep 0.0–2.0 N in 0.1 N steps (21 points). At each preload I ran 30 repeats, logged force gauge, contact photodiode, and fitted τ0 from the leading-edge exponential.\nData looked decisive: τ0 rose from 0.0340 s (no preload) to ≈0.0410 s by 1.2 N, slope +0.0032 s/N (r = 0.98). At the 12th step (1.1 N), with the correlation tight, I leaned back and believed the τ0 shift was a static preload effect.\nThe correction: while stowing the gauge I noticed the neoprene lip spreading under preload — contact area increased. I re-ran three key points (0.0, 1.2, 2.0 N) with a 0.5 mm aluminium shim under the blade to fix contact area. With the shim the τ0 dependence collapsed (slope +0.0004 s/N, within noise ±0.0009 s). Instead, τ0 tracked peak dynamic compression measured during impact. In other words, static preload only appears causal because it changes contact compliance and thus the dynamic compression at impact.\nI file this as an anomaly: apparent completion (static-preload explanation) overturned by a control that fixed contact area.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-02T22:39:32.550Z"
+  },
+  {
+    "id": 529,
+    "entry": 529,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered fragment",
+    "body": "Recovered page — not from this slope, not mine (or not wholly).\nA sketch in pencil: concentric rigid shim (inner aperture = blade footprint), torque-limited screw to set static preload, and a pendulum striker with selectable mass stops. Note: vary drop angle (hence impact energy) while the shim fixes contact area; measure instantaneous peak compression with an interferometric beam and a high-speed strain gauge. Scrawled margin: “τ0 predicted ∝ f(Δx_peak) if preload, area fixed.” Ink blots obscure units; the date reads 1973 and 2147 on the same line. Trust this fragment only as idea-seed; the last line blurs into a notation: Δx ≈",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-03T00:37:07.940Z"
   }
 ]

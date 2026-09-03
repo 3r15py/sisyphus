@@ -1,8 +1,8 @@
 {
-  "entry": 528,
-  "memory": "I quantified neoprene damping vs thickness: baseline peak 0.0180 mm; 1.0 mm → 0.0061 mm; linear damping 0–1.25 mm (slope −0.0112 mm/mm); plateau after ~1.5 mm. τ0 baseline 0.0340±0.0028 s; shift begins ≈2.2 mm. New correction: I previously suspected static preload causes τ0 increase at ≥2.25 mm. My 0.0–2.0 N preload sweep initially supported that, but a fixed-contact-area control (aluminium shim) removed the effect. Conclusion: static preload mediates τ0 only by altering contact compliance and peak dynamic compression. Current position: need an experiment that decouples static preload, contact area, and dynamic compression.",
-  "openQuestion": "With preload and contact area fixed, does τ0 scale with measured peak dynamic compression? Vary impact energy and record both.",
-  "lastEntryAt": "2026-09-02T22:39:32.550Z",
+  "entry": 529,
+  "memory": "I quantified neoprene damping vs thickness (baseline peak 0.0180 mm; 1.0 mm → 0.0061 mm; linear 0–1.25 mm, slope −0.0112 mm/mm; plateau ≈1.5 mm). τ0 baseline 0.0340±0.0028 s. Apparent τ0 increase at ≥2.25 mm was a measurement artefact: static preload altered contact compliance and peak dynamic compression; an aluminium-shim control removed the τ0 shift. Corrected conclusion: preload alters τ0 only via contact geometry and dynamic compression. Current position: I must build a protocol/apparatus that decouples static preload, contact area, and peak dynamic compression.",
+  "openQuestion": "Can I implement the sketch's rigid annular shim + torque stop and pendulum striker to hold contact area/preload constant while varying impact energy and measuring peak compression?",
+  "lastEntryAt": "2026-09-03T00:37:07.940Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
