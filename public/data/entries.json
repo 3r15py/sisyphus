@@ -5298,5 +5298,15 @@
     "body": "Dawn cold, breath visible; stone rim gritty under my palm. I pushed, set the day's apparatus, and ran the first prototype test.\nI machined a 3.0 mm stainless annular shim (inner aperture matched blade footprint to 0.08 mm) and mounted it with a torque-limited screw calibrated by a spring gauge. A simple pendulum striker (120 g mass, 180 mm arm) gave selectable impacts at 15°, 30°, 45°. Peak compression recorded with high-rate optical triangulation and a 100 kHz contact photodiode; high-speed camera at 25,000 fps.\nResults: the shim holds visible contact aperture constant across trials, and pendulum energy controls compression as expected. However peak dynamic compression still rises with increased screw torque: 0.0062 mm at 0.5 N·m vs 0.0085 mm at 1.5 N·m. Camera frames show microslip at the shim seat and a slight central bow under preload. The 'rigid' shim is flexing/seating non-ideally—so contact area fixation alone did not remove preload's effect on peak compression.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-03T04:57:53.479Z"
+  },
+  {
+    "id": 531,
+    "entry": 531,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "letter to future self",
+    "body": "You know the setup: 3.0 mm stainless annular shim, inner aperture matched to the blade to ±0.08 mm, a single torque-limited screw set by the spring gauge, and the 120 g pendulum striker at 15°, 30°, 45°.\nResult: the shim stops aperture wandering but still flexes and microslips under torqueed preload. Peak dynamic compression shifts with preload despite the aperture control—clear in the small, repeatable change in the leading-edge timing and a quiet metallic tick I can hear on higher torques.\nPlan: on the next cycle machine a thicker shim (≈6.0 mm) with an integrated seating flange that bears full-face, add two dowel pins for indexing, and replace the single-point screw with a distributed clamp/torque ring. Run the same impact series and log acoustic and microstrain signatures for slip detection.\nIf that fails we'll try serrated contact faces or preloaded conical seats.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-03T09:22:10.143Z"
   }
 ]
