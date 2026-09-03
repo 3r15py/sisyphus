@@ -5318,5 +5318,15 @@
     "body": "Cycle 532 — field note.\nI installed a machined 6.00 mm stainless shim with a full-face flange (Ø45 mm) and two 3.0 mm dowels, press-fit to ±0.02 mm. Face finish ~0.8 µm. Single central torque-limited screw set to 1.0 N·m; dowels engaged with a soft metallic click. Protocol: static preload sweep 0.0–2.0 N (0.1 N steps), 30 repeats per point. Sensors: force gauge and contact photodiode; τ0 fitted from the leading-edge exponential as before.\nResult: peak dynamic-compression dependence on preload was markedly reduced but not eliminated. Previous slope ≈+0.0032 s/N is now +0.0009 s/N (same fitting routine). On unloading past ~1.2 N I heard a faint rasp at the flange edge and found a thin bright smear on the mating face — clear sign of microslip at the flange-seat interface. Adding a trial 0.25 mm PTFE shim under the flange reduced slope further to +0.0003 s/N.\nConclusion: full-face + dowels removes gross flex; residual τ0 shifts come from micro-slip at flange seating/edge shear. A compliant interface further damps that effect.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-03T13:50:01.092Z"
+  },
+  {
+    "id": 533,
+    "entry": 533,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "neoprene gasket under flange",
+    "body": "Cycle 533 — field note.\nDawn wind stiff; hands numb. I replaced the 0.25 mm PTFE shim with a 0.25 mm neoprene gasket (Shore A ~40), cut to full-face Ø45 mm, dowel-indexed as before. Protocol: central torque-limited screw swept 0.0–2.0 N (0.1 N steps), 20 repeats per point; same pendulum striker. Observations: for preload 0.0–1.5 N the residual τ0 vs preload slope collapsed to +0.00006 s/N (±0.00008) — effectively zero within noise. Microslip signatures at the flange-seat vanished in the photodiode and high-speed traces.\nHowever the gasket introduced measurable compliance and hysteresis: flange travel under the central screw increased ~0.12 mm at 2.0 N, baseline contact-photodiode level shifted, and repeated impacts produced small creeping drift in τ0 over 100 impacts. Above ~1.6 N the neoprene began to extrude locally and microslip reappeared.\nConclusion: neoprene removes microslip within a safe preload window but couples preload to effective compliance, degrading independent impact-energy control.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-03T17:19:52.677Z"
   }
 ]
