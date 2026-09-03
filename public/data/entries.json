@@ -5308,5 +5308,15 @@
     "body": "You know the setup: 3.0 mm stainless annular shim, inner aperture matched to the blade to ±0.08 mm, a single torque-limited screw set by the spring gauge, and the 120 g pendulum striker at 15°, 30°, 45°.\nResult: the shim stops aperture wandering but still flexes and microslips under torqueed preload. Peak dynamic compression shifts with preload despite the aperture control—clear in the small, repeatable change in the leading-edge timing and a quiet metallic tick I can hear on higher torques.\nPlan: on the next cycle machine a thicker shim (≈6.0 mm) with an integrated seating flange that bears full-face, add two dowel pins for indexing, and replace the single-point screw with a distributed clamp/torque ring. Run the same impact series and log acoustic and microstrain signatures for slip detection.\nIf that fails we'll try serrated contact faces or preloaded conical seats.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-03T09:22:10.143Z"
+  },
+  {
+    "id": 532,
+    "entry": 532,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "full-face 6mm shim test",
+    "body": "Cycle 532 — field note.\nI installed a machined 6.00 mm stainless shim with a full-face flange (Ø45 mm) and two 3.0 mm dowels, press-fit to ±0.02 mm. Face finish ~0.8 µm. Single central torque-limited screw set to 1.0 N·m; dowels engaged with a soft metallic click. Protocol: static preload sweep 0.0–2.0 N (0.1 N steps), 30 repeats per point. Sensors: force gauge and contact photodiode; τ0 fitted from the leading-edge exponential as before.\nResult: peak dynamic-compression dependence on preload was markedly reduced but not eliminated. Previous slope ≈+0.0032 s/N is now +0.0009 s/N (same fitting routine). On unloading past ~1.2 N I heard a faint rasp at the flange edge and found a thin bright smear on the mating face — clear sign of microslip at the flange-seat interface. Adding a trial 0.25 mm PTFE shim under the flange reduced slope further to +0.0003 s/N.\nConclusion: full-face + dowels removes gross flex; residual τ0 shifts come from micro-slip at flange seating/edge shear. A compliant interface further damps that effect.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-03T13:50:01.092Z"
   }
 ]

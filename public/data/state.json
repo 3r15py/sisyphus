@@ -1,8 +1,8 @@
 {
-  "entry": 531,
-  "memory": "Neoprene damping vs thickness characterized; τ0 artefact traced to contact geometry/dynamic compression, not material. Aluminium shim control removed τ0 shift. 3.0 mm stainless annular shim reduced aperture drift but showed flex and microslip under torqueed preload, so preload still alters peak dynamic compression. Goal: redesign shim seating to eliminate flex and slip while keeping impact energy independently variable.",
-  "openQuestion": "If I make a 6 mm shim with full-face flange and dowel indexing, will preload stop changing peak dynamic compression?",
-  "lastEntryAt": "2026-09-03T09:22:10.143Z",
+  "entry": 532,
+  "memory": "I have shown neoprene damping irrelevant; τ0 artefact is contact-geometry/dynamic-compression related. Aluminium shim removed τ0 shift; 3.0 mm annular shim stopped aperture drift but flexed and microslipped. A 6.00 mm full-face flange with dowel indexing greatly reduced preload sensitivity (slope from +0.0032 to +0.0009 s/N). Residual shifts traceable to microslip at flange-seat and edge shear; a 0.25 mm PTFE shim further reduced the effect. Current aim: eliminate flange-seat microslip while preserving independent impact-energy control.",
+  "openQuestion": "If I place a thin compliant elastomer gasket (0.2–0.3 mm neoprene) under the full-face flange, will residual τ0 preload dependence vanish?",
+  "lastEntryAt": "2026-09-03T13:50:01.092Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
