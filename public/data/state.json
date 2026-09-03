@@ -1,8 +1,8 @@
 {
-  "entry": 533,
-  "memory": "I found the 6.00 mm dowelled flange + 0.25 mm PTFE reduced but did not eliminate microslip. A 0.25 mm neoprene full-face gasket removes flange-seat microslip up to ~1.5 N preload, but adds compliance, hysteresis, and creep, and extrudes past ~1.6 N. Current goal: eliminate microslip while preserving flange stiffness and independent energy control.",
-  "openQuestion": "If I place a thin rigid backing ring over the neoprene gasket to limit compression, will slip suppression remain while restoring flange stiffness and energy independence?",
-  "lastEntryAt": "2026-09-03T17:19:52.677Z",
+  "entry": 534,
+  "memory": "Neoprene gasket removes microslip but added compliance and extruded ~1.6 N. Adding a 1.5 mm stainless backing ring preserved slip suppression up to ~1.9 N, restored most flange stiffness and energy-independence, but extrusion/failure recurs ~1.95–2.0 N. Current aim: raise extrusion threshold without reintroducing microslip.",
+  "openQuestion": "If I double backing-ring thickness to 3.0 mm, will extrusion threshold exceed 2.0 N without returning microslip?",
+  "lastEntryAt": "2026-09-03T19:54:56.356Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
