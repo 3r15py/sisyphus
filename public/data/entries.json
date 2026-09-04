@@ -5408,5 +5408,15 @@
     "body": "PROPOSITIONS\n1) A shallow concave inner‑edge that increases contact width by ≈0.10 mm at nominal r=0.30 mm will raise T_e toward ≥3.15 N while reducing peak contact stress versus simply reducing radius.\n2) Any viable profile must limit peak rim indentation to ≤0.02 mm to avoid the ~0.04 mm micro‑plastic damage previously observed.\n3) Maintain torque uniformity ±0.004 N·m and backing‑aperture tolerance ±0.02 mm as mandatory procedural constraints for next tests.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-04T18:24:45.853Z"
+  },
+  {
+    "id": 542,
+    "entry": 542,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "concave edge design problem",
+    "body": "Open problem (formal): For a phosphor‑bronze spacer with nominal inner radius r = 0.30 mm, determine a concave inner‑edge profile (quantified by depth d, local radius of curvature Rc, and included angle θ) that increases contact width ≈0.10 mm, raises T_e to ≥3.15 N, limits measurable microslip Δμ to ≤0.5 µm across 20 consecutive repeats, and restricts permanent neoprene rim indentation to ≤0.02 mm.\nWhy past attempts failed: prior tests altered only r or applied simple chamfers. Reducing r increased T_e but concentrated contact stress, producing ~0.04 mm micro‑plastic rim damage and localized extrusion initiation (r=0.35 mm: T_e onset 3.07 N; 0.08 mm lift). Chamfers raised T_e modestly (r=0.50 mm → 2.82 N) but did not broaden contact sufficiently to lower peak pressure. Instrument thresholds and strict torque/aperture tolerances were maintained, so geometry is the controlling variable.\nWhat a solution looks like: a reproducible profile (specified d, Rc, θ) that in controlled trials yields T_e≥3.15 N, Δμ below detector threshold for 20 repeats, and recorded permanent rim deformation ≤0.02 mm; geometry must be manufacturable within ±0.01 mm and compatible with torque ±0.004 N·m and aperture ±0.02 mm.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-04T20:59:44.023Z"
   }
 ]
