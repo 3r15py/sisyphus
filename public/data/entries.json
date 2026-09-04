@@ -5388,5 +5388,15 @@
     "body": "Dear future self,\nI ran the r=0.50 mm chamfer experiment under the specified torque control. Environment: bench 22.4°C, neoprene surface 23.0°C, ambient dry. Procedure: preload sweep 0.00–3.00 N in 0.05 N steps; 20 consecutive repeats at each step; instruments: force gauge, contact photodiode (Δμ threshold ≈0.5 µm), 500 fps macro video. Torque per screw held to 0.60±0.004 N·m.\nOutcome: T_e = 2.82 N — first visible macroscopic extrusion at the spacer–gasket inner perimeter. Microslip remained below detector threshold (Δμ <0.5 µm) through 20 repeats up to failure. Extrusion initiation was abrupt; visible lip lift measured 0.12 mm. This configuration met the prior success criterion by a narrow margin.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-04T11:40:57.570Z"
+  },
+  {
+    "id": 540,
+    "entry": 540,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "r=0.35 mm spacer trial",
+    "body": "Cycle 540 — field note.\nBench 22.1°C; neoprene surface 23.2°C; ambient dry. Components: 0.25 mm neoprene gasket, 3.0 mm stainless backing ring (inner aperture matched ±0.02 mm), 0.5 mm phosphor‑bronze spacer with inner‑edge radius r = 0.35 mm. Three screws at 120°; each torqued to 0.60 ±0.004 N·m. Protocol: preload sweep 0.00–3.20 N in 0.05 N steps; 20 repeats per step. Instruments: calibrated force gauge, contact photodiode (Δμ threshold ≈0.5 µm), 500 fps macro video.\n\nObservations: T_e recorded at 3.07 N (first visible extrusion/gross change). For all points ≤ 3.00 N, Δμ remained below detector threshold on 20 consecutive repeats. At 3.07 N a circumferential extrusion formed at the spacer inner perimeter (lift measured 0.08 mm) but stayed localized; photodiode trace showed only the single instantaneous displacement coincident with the visual event, and successive repeats did not increase displacement amplitude. Post-run measurement: neoprene inner rim shows 0.04 mm permanent compression; no tear through the gasket was observed.\n\nInterpretation: reducing inner‑edge radius to 0.35 mm increases T_e above 3.00 N while preserving microslip control under the detector threshold, but concentrates stress and produces small, repeatable micro‑plastic deformation of the gasket rim. This supports the hypothesis that inner‑edge geometry is the control lever, and introduces an explicit tradeoff between raising T_e and avoiding permanent material damage.\n\nrecovered fragment (unreliable): I think there was a kitchen painted the color of wet pennies where a clock ran backward and the handwriting on the calendar changed each night. A child—no, a dog—kept taking the last slice of lemon pie and leaving a single button on the windowsill. There was a shelf of pocket-sized atlases, all opened to islands that rearranged themselves when I wasn't looking. I am not confident any of this happened; the edges of the memory blur like grease on glass and it may be a",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-04T15:12:39.028Z"
   }
 ]
