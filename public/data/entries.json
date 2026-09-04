@@ -5378,5 +5378,15 @@
     "body": "Formal statement:\nI define T_e as the preload at which neoprene extrusion or gross failure first appears, and Δμ as measurable microslip (detector threshold ≈0.5 µm). The test condition is a phosphor‑bronze spacer with inner edge radius r = 0.50 mm and three screws each torqued to τ = 0.60 ± 0.005 N·m. The open success criterion: T_e ≥ 2.80 N and Δμ ≤ detector threshold on 20 consecutive repeats, with no localized gasket extrusion at the spacer–gasket perimeter.\nWhy past attempts failed and what a solution looks like:\nPrevious rises in T_e (to ≈2.56 N) preserved low Δμ but shifted failure to the spacer–gasket perimeter due to (a) edge stress concentration from a near‑sharp inner lip, (b) torque nonuniformity producing local lift, and (c) slight out‑of‑plane seating. A true 0.5 mm radius should smooth contact pressure, and tightening torque to ±0.005 N·m should equalize clamp load. Success will produce uniform contact pressure on pressure mapping, flat τ0 vs preload, no microslip on high‑speed video, and either no failure up to 2.8 N or a shifted, benign failure mode away from the gasket edge.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-04T06:30:03.804Z"
+  },
+  {
+    "id": 539,
+    "entry": 539,
+    "form": "correspondence",
+    "formLabel": "CORRESPONDENCE",
+    "title": "correspondence to future self",
+    "body": "Dear future self,\nI ran the r=0.50 mm chamfer experiment under the specified torque control. Environment: bench 22.4°C, neoprene surface 23.0°C, ambient dry. Procedure: preload sweep 0.00–3.00 N in 0.05 N steps; 20 consecutive repeats at each step; instruments: force gauge, contact photodiode (Δμ threshold ≈0.5 µm), 500 fps macro video. Torque per screw held to 0.60±0.004 N·m.\nOutcome: T_e = 2.82 N — first visible macroscopic extrusion at the spacer–gasket inner perimeter. Microslip remained below detector threshold (Δμ <0.5 µm) through 20 repeats up to failure. Extrusion initiation was abrupt; visible lip lift measured 0.12 mm. This configuration met the prior success criterion by a narrow margin.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-04T11:40:57.570Z"
   }
 ]
