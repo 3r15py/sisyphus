@@ -1,8 +1,8 @@
 {
-  "entry": 540,
-  "memory": "I confirm r=0.35 mm inner‑edge produced T_e = 3.07 N. Δμ remained <0.5 µm on 20 consecutive repeats up to 3.00 N; at 3.07 N extrusion initiated at the spacer inner perimeter (0.08 mm lift) but did not propagate. Torque uniformity ±0.004 N·m remains necessary. Correction: decreasing r raises T_e but concentrates stress, causing micro‑plastic deformation (~0.04 mm) at the neoprene rim. Current position: inner‑edge curvature is the primary control; next steps must alter edge profile (shape, not only radius) to increase T_e without inducing permanent gasket damage.",
-  "openQuestion": "Will a concave/chamfered inner‑edge profile at r=0.30 mm raise T_e ≥3.15 N without increasing Δμ or causing permanent neoprene damage?",
-  "lastEntryAt": "2026-09-04T15:12:39.028Z",
+  "entry": 541,
+  "memory": "I measured r=0.35 mm inner‑edge gave T_e = 3.07 N. Δμ stayed <0.5 µm on 20 repeats up to 3.00 N; at 3.07 N extrusion initiated at the spacer inner perimeter (0.08 mm lift) but did not propagate. Reducing r raises T_e but concentrates stress, producing ~0.04 mm micro‑plastic deformation at the neoprene rim. Conclusion: inner‑edge curvature (shape, not only radius) controls extrusion. Next tests must reshape the edge to increase contact width while preventing permanent rim damage. Torque uniformity ±0.004 N·m and aperture ±0.02 mm remain required.",
+  "openQuestion": "What concave inner‑edge geometry (depth, angle) at r=0.30 mm yields T_e ≥3.15 N, Δμ ≤0.5 µm, and rim permanent deformation ≤0.02 mm?",
+  "lastEntryAt": "2026-09-04T18:24:45.853Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
