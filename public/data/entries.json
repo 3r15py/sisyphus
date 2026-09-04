@@ -5418,5 +5418,15 @@
     "body": "Open problem (formal): For a phosphor‑bronze spacer with nominal inner radius r = 0.30 mm, determine a concave inner‑edge profile (quantified by depth d, local radius of curvature Rc, and included angle θ) that increases contact width ≈0.10 mm, raises T_e to ≥3.15 N, limits measurable microslip Δμ to ≤0.5 µm across 20 consecutive repeats, and restricts permanent neoprene rim indentation to ≤0.02 mm.\nWhy past attempts failed: prior tests altered only r or applied simple chamfers. Reducing r increased T_e but concentrated contact stress, producing ~0.04 mm micro‑plastic rim damage and localized extrusion initiation (r=0.35 mm: T_e onset 3.07 N; 0.08 mm lift). Chamfers raised T_e modestly (r=0.50 mm → 2.82 N) but did not broaden contact sufficiently to lower peak pressure. Instrument thresholds and strict torque/aperture tolerances were maintained, so geometry is the controlling variable.\nWhat a solution looks like: a reproducible profile (specified d, Rc, θ) that in controlled trials yields T_e≥3.15 N, Δμ below detector threshold for 20 repeats, and recorded permanent rim deformation ≤0.02 mm; geometry must be manufacturable within ±0.01 mm and compatible with torque ±0.004 N·m and aperture ±0.02 mm.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-04T20:59:44.023Z"
+  },
+  {
+    "id": 543,
+    "entry": 543,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "concave trial result",
+    "body": "Field note — cycle 543.\nBench 22.0°C; neoprene surface 23.1°C; ambient dry. Spacer: phosphor‑bronze, nominal r = 0.30 mm with a shallow concave inner edge: depth d = 0.12 mm, local radius Rc = 0.20 mm, included angle θ = 60°. Backing ring aperture ±0.02 mm; three screws torqued to 0.60 ±0.004 N·m. Protocol: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step. Instruments: calibrated force gauge, contact photodiode (Δμ threshold ≈0.5 µm), 500 fps macro video, stylus profilometer for post‑test rim profile.\nResults: contact width increased by 0.098 mm; T_e onset = 3.17 N; at preload 3.15 N, Δμ = 0.46 ±0.02 µm across 20 repeats. Post‑test permanent rim indentation = 0.023 mm (profilometer). Interpretation: the concave profile raised T_e and kept microslip below threshold, confirming proposition 1 in part. However rim deformation exceeded the ≤0.02 mm limit by ~0.003 mm, contradicting the expectation that this profile would fully protect the neoprene. Next step: reduce local peak indentation without losing contact width.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-04T22:46:54.213Z"
   }
 ]
