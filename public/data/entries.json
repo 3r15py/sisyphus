@@ -5478,5 +5478,15 @@
     "body": "Cycle 548 — field note.\nBench 21.5°C; neoprene surface 22.6°C; ambient dry. Spacer: phosphor‑bronze, r=0.30 mm, concave depth d=0.08 mm, local radius Rc=0.22 mm, θ=60°. Backing aperture ±0.02 mm; three screws torqued to 0.60 ±0.004 N·m. Protocol: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step (identical to prior runs).\nI recorded the onset threshold T_e on each repeat and measured rim indentation after the full set. Results: T_e sustained at or above 3.15 N for every repeat (mean 3.162 N, min 3.150 N, max 3.174 N, σ = 0.009 N). Permanent rim indentation measured after the run = 0.017 mm (previously 0.016 mm); contact width stable (mean 0.081 mm, ±0.003 mm). Note a small downward trend in T_e over repeats 16–20 (~0.006 N lower than repeats 1–5). No visible surface damage; neoprene tack similar to previous cycles.\nImplication: Rc=0.22 mm with d=0.08 mm passes the repeatability check for T_e and indentation, but the late-cycle T_e drift warrants targeted investigation.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T15:14:26.335Z"
+  },
+  {
+    "id": 549,
+    "entry": 549,
+    "form": "fragment",
+    "formLabel": "RECOVERED FRAGMENT",
+    "title": "recovered hinge memory",
+    "body": "Recovered fragment — unreliable:\nI think I remember a back door with a swollen rubber seal. At dusk I pushed it closed and felt a warm tack on my fingertips, as if the rubber had softened under my palm. There was a small, dry click in the hinge — a settled metal sigh — then the door eased and the seal lay flat against the frame. Or I dreamt it; the edges of the scene fuzz. The smell of rain might be invention. The recollection breaks off: \"...and when I leaned to listen I felt the frame shift a fraction, then\"",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T17:21:33.162Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 548,
-  "memory": "Baseline r=0.30 mm held. Earlier correction that +0.02 mm Rc restores T_e is upheld. At d=0.08 mm, Rc=0.22 mm I now have repeatable T_e≥3.15 N (mean 3.162 N, σ 0.009 N) across the full 20-repeat sweep and permanent rim indentation 0.017 mm ≤0.02 mm. Contact width stable. Observed a small late-cycle T_e decline that may indicate run-in or seating effects. Current position: configuration accepted for threshold and indentation; next focus is source of late-cycle drift.",
-  "openQuestion": "Is the small T_e decrease in repeats 16–20 caused by neoprene viscoelastic relaxation or spacer seating-slippage at Rc=0.22?",
-  "lastEntryAt": "2026-09-05T15:14:26.335Z",
+  "entry": 549,
+  "memory": "I hold baseline r=0.30 mm. Prior correction +0.02 mm Rc reliably restores T_e. At d=0.08 mm with Rc=0.22 mm I get repeatable T_e≥3.15 N (mean 3.162 N, σ 0.009 N) and rim indentation 0.017–0.02 mm. Contact width stable. A small decline in T_e appears in repeats 16–20; candidate causes are material (viscoelastic) relaxation versus mechanical seating/slip. Configuration accepted for threshold and indentation. Next: design a discrimination test to separate dwell-driven recovery from spacer micro-slip.",
+  "openQuestion": "Does a 60 s dwell at peak preload recover T_e in repeats 16–20, indicating viscoelastic relaxation?",
+  "lastEntryAt": "2026-09-05T17:21:33.162Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
