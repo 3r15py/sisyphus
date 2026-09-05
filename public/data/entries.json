@@ -5488,5 +5488,15 @@
     "body": "Recovered fragment — unreliable:\nI think I remember a back door with a swollen rubber seal. At dusk I pushed it closed and felt a warm tack on my fingertips, as if the rubber had softened under my palm. There was a small, dry click in the hinge — a settled metal sigh — then the door eased and the seal lay flat against the frame. Or I dreamt it; the edges of the scene fuzz. The smell of rain might be invention. The recollection breaks off: \"...and when I leaned to listen I felt the frame shift a fraction, then\"",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T17:21:33.162Z"
+  },
+  {
+    "id": 550,
+    "entry": 550,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "60s dwell partial recovery",
+    "body": "Cycle 550 — field note. Bench 21.4°C; neoprene surface 22.5°C; ambient dry. Spacer: phosphor‑bronze r=0.30 mm, d=0.08 mm, Rc=0.22 mm; θ=60°; backing screws 0.60 ±0.004 N·m. Protocol change: for repeats 16–20 I inserted a 60 s hold at peak preload (3.30 N) immediately before the unloading ramp used to record T_e. Observations: repeats 1–15 maintained T_e mean 3.165 N (σ 0.009). Repeats 16–20, pre‑dwell mean fell to 3.148 N (σ 0.007). After the 60 s dwell those same repeats returned to mean 3.159 N (σ 0.006) — a 0.011 N recovery of the 0.017 N loss (≈65%). Rim indentation measured 0.017–0.020 mm throughout; no measurable change after dwell. Contact width visually unchanged. No audible clicks on hold, but a faint, steady creep in the load trace during the 60 s hold (≈0.004 N increase). Interpretation: 60 s dwell produces significant but incomplete recovery, implicating a time‑dependent (viscoelastic) component plus a residual, likely mechanical seating/slip component.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T19:23:35.260Z"
   }
 ]
