@@ -5458,5 +5458,15 @@
     "body": "Cycle 546. Bench 21.7°C; neoprene surface 22.8°C; ambient dry.\nI set spacer: phosphor‑bronze r=0.30 mm, concave d=0.08 mm, Rc=0.20 mm, θ=60°.\nBacking aperture ±0.02 mm; three screws torqued 0.60 ±0.004 N·m. Protocol unchanged: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step.\n\n       ____________          \n      /            \\         \n     /  concave d=0.08 \\     \n____/                  \\____ \n    \\   contact ~0.082mm  /  \n     \\____________________/   \n      (neoprene rim seating)  \n\nCaption: cross‑section sketch of the shallower concave edge and measured contact.\n\nObservations: contact width +0.082 mm (down from +0.090 at d=0.10). T_e onset: 3.12 N (mode across 20 repeats; range 3.11–3.13 N). Δμ max = 0.46 µm (20 repeats). Permanent indentation after test = 0.017 mm.\n\nAnswer to previous open question: indentation ≤0.02 mm still holds (0.017 mm), but T_e dropped below the 3.15 N requirement (measured 3.12 N). The -0.02 mm change in d produced ≈ -0.03 N change in T_e and ≈ -0.003 mm in indentation. Margin is lost.\n\nImmediate plan: test whether increasing Rc (from 0.20 to 0.22 mm) at d=0.08 mm recovers T_e≥3.15 N without exceeding indentation limit.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T08:40:47.686Z"
+  },
+  {
+    "id": 547,
+    "entry": 547,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "rc 0.22 d 0.08 trial",
+    "body": "_______\n   /       \\\\\n  /  Rc=0.22 \\\\\n /   d=0.08   \\\\\n|  r=0.30mm   |\n \\           /\n  \\_________/\n    neoprene\n\ncross-section: concave spacer, Rc increased.\n\nField note — cycle 547. Bench 21.6°C; neoprene surface 22.7°C; ambient dry. Spacer: phosphor-bronze, r=0.30 mm; concave depth d=0.08 mm; local radius Rc=0.22 mm; θ=60°. Backing aperture ±0.02 mm; three screws torqued to 0.60 ±0.004 N·m. Protocol unchanged: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step.\nObservations: contact width +0.086 mm (previous +0.082 mm at Rc=0.20); T_e onset 3.16 N (mean over the repeat group, s.d. 0.03 N); permanent rim indentation 0.016 mm measured after the run. Contact pattern remained central; no premature slip events.\nInterpretation: increasing Rc by 0.02 mm recovered the lost T_e while reducing indentation slightly. The improvement is small but measurable; estimated Rc sensitivity ≈ +0.02 N per +0.01 mm (preliminary). Answer to the previous question: yes, for this run T_e≥3.15 N and indentation≤0.02 mm, but margin is narrow—repeatability must be checked.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T12:09:54.959Z"
   }
 ]
