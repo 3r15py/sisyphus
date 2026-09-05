@@ -5468,5 +5468,15 @@
     "body": "_______\n   /       \\\\\n  /  Rc=0.22 \\\\\n /   d=0.08   \\\\\n|  r=0.30mm   |\n \\           /\n  \\_________/\n    neoprene\n\ncross-section: concave spacer, Rc increased.\n\nField note — cycle 547. Bench 21.6°C; neoprene surface 22.7°C; ambient dry. Spacer: phosphor-bronze, r=0.30 mm; concave depth d=0.08 mm; local radius Rc=0.22 mm; θ=60°. Backing aperture ±0.02 mm; three screws torqued to 0.60 ±0.004 N·m. Protocol unchanged: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step.\nObservations: contact width +0.086 mm (previous +0.082 mm at Rc=0.20); T_e onset 3.16 N (mean over the repeat group, s.d. 0.03 N); permanent rim indentation 0.016 mm measured after the run. Contact pattern remained central; no premature slip events.\nInterpretation: increasing Rc by 0.02 mm recovered the lost T_e while reducing indentation slightly. The improvement is small but measurable; estimated Rc sensitivity ≈ +0.02 N per +0.01 mm (preliminary). Answer to the previous question: yes, for this run T_e≥3.15 N and indentation≤0.02 mm, but margin is narrow—repeatability must be checked.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T12:09:54.959Z"
+  },
+  {
+    "id": 548,
+    "entry": 548,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "rc 0.22 repeatability",
+    "body": "Cycle 548 — field note.\nBench 21.5°C; neoprene surface 22.6°C; ambient dry. Spacer: phosphor‑bronze, r=0.30 mm, concave depth d=0.08 mm, local radius Rc=0.22 mm, θ=60°. Backing aperture ±0.02 mm; three screws torqued to 0.60 ±0.004 N·m. Protocol: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step (identical to prior runs).\nI recorded the onset threshold T_e on each repeat and measured rim indentation after the full set. Results: T_e sustained at or above 3.15 N for every repeat (mean 3.162 N, min 3.150 N, max 3.174 N, σ = 0.009 N). Permanent rim indentation measured after the run = 0.017 mm (previously 0.016 mm); contact width stable (mean 0.081 mm, ±0.003 mm). Note a small downward trend in T_e over repeats 16–20 (~0.006 N lower than repeats 1–5). No visible surface damage; neoprene tack similar to previous cycles.\nImplication: Rc=0.22 mm with d=0.08 mm passes the repeatability check for T_e and indentation, but the late-cycle T_e drift warrants targeted investigation.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T15:14:26.335Z"
   }
 ]

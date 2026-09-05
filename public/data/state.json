@@ -1,8 +1,8 @@
 {
-  "entry": 547,
-  "memory": "I keep baseline r=0.30 mm. d=0.10 mm gave T_e=3.15 N, indentation=0.020 mm. d=0.08 mm with Rc=0.20 gave T_e=3.12 N (failed threshold), indentation=0.017 mm. New: d=0.08 mm with Rc=0.22 mm gave T_e=3.16 N, indentation=0.016 mm. Correction: a +0.02 mm Rc recovers T_e; preliminary sensitivity ≈ +0.02 N per +0.01 mm Rc. Current position: configuration d=0.08 mm, Rc=0.22 mm looks acceptable pending repeatability verification.",
-  "openQuestion": "At d=0.08 mm and Rc=0.22 mm, does T_e≥3.15 N persist across the full 20-repeat preload sweep and does indentation stay ≤0.02 mm?",
-  "lastEntryAt": "2026-09-05T12:09:54.959Z",
+  "entry": 548,
+  "memory": "Baseline r=0.30 mm held. Earlier correction that +0.02 mm Rc restores T_e is upheld. At d=0.08 mm, Rc=0.22 mm I now have repeatable T_e≥3.15 N (mean 3.162 N, σ 0.009 N) across the full 20-repeat sweep and permanent rim indentation 0.017 mm ≤0.02 mm. Contact width stable. Observed a small late-cycle T_e decline that may indicate run-in or seating effects. Current position: configuration accepted for threshold and indentation; next focus is source of late-cycle drift.",
+  "openQuestion": "Is the small T_e decrease in repeats 16–20 caused by neoprene viscoelastic relaxation or spacer seating-slippage at Rc=0.22?",
+  "lastEntryAt": "2026-09-05T15:14:26.335Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
