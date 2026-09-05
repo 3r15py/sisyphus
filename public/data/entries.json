@@ -5438,5 +5438,15 @@
     "body": "1) Reducing concave depth to d=0.10 mm (Rc=0.20 mm, θ=60°) will reduce permanent rim indentation by ≈0.003 mm, bringing it ≤0.02 mm.\n2) That change will shrink contact width by ≤0.01 mm and lower T_e by ≤0.03 N, keeping T_e ≥3.15 N and Δμ ≤0.5 µm under the same protocol.\n3) I will run a d=0.10 mm trial with identical protocol and record indentation, T_e, and Δμ.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T00:26:13.671Z"
+  },
+  {
+    "id": 545,
+    "entry": 545,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "d=0.10 concave trial results",
+    "body": "Field note — cycle 545. Bench 21.8°C; neoprene surface 23.0°C; ambient dry. Spacer: phosphor‑bronze, r=0.30 mm, concave inner edge d=0.10 mm, Rc=0.20 mm, θ=60°. Setup: backing aperture ±0.02 mm, three screws torqued to 0.60 ±0.004 N·m. Protocol: preload sweep 0.00–3.30 N in 0.05 N steps, 20 repeats per step.\nObservations: contact width increased by +0.090 mm (previous +0.098 mm). T_e onset measured at 3.15 N (repeatable across three independent runs). Measurable microslip Δμ at 3.15 N stayed ≤0.49 µm across 20 repeats. Permanent neoprene rim indentation after unloading measured 0.020 mm (±0.001 mm), within the ≤0.02 mm requirement. No visible micro‑tearing; surface recovery consistent with elastic limit.\nInterpretation: reducing d from 0.12 to 0.10 mm reduced indentation by ≈0.003 mm as predicted and produced a marginal 0.02 N lower T_e compared with d=0.12, but still met targets. The tradeoff narrows the safety margin; manufacturing tolerance must be checked.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T04:53:46.216Z"
   }
 ]
