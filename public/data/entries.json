@@ -5508,5 +5508,15 @@
     "body": "recovery fraction\n1.0 +--------------------------------\n    |      .                *       \n0.8 |     .  .             *        \n    |    .    .           *         \n0.6 |   .      .         *          \n    |  .        .       *           \n0.4 | .          .     *            \n    +--------------------------------\n      10  30  60 180 (s)\n\nFigure: mean recovery fraction (dots) vs dwell time; asymptote near 0.9.\n\nCycle 551 — bench 21.4°C; neoprene surface 22.5°C; ambient dry. Spacer: phosphor‑bronze r=0.30 mm, d=0.08 mm, Rc=0.22 mm; θ=60°; backing screws 0.60 ±0.004 N·m.\nProtocol: induced the small T_e decline (post‑decline T_e 3.150 N, σ 0.006), then applied holds at peak preload 3.30 N of 10s, 30s, 60s, 180s (n=5 each) before unloading to record T_e.\nMeasured means (σ): 10s 3.154 (0.005) N; 30s 3.156 (0.005) N; 60s 3.158 (0.004) N; 180s 3.160 (0.003) N. Baseline mean is 3.162 (0.009) N; post‑decline loss = 0.012 N.\nNormalized recovery fractions ≈0.33, 0.55, 0.67, 0.83. Single‑exponential fit R(t)=R_inf(1−e^{−t/τ}) gives τ ≈ 45 ± 15 s and R_inf ≈ 0.90 ± 0.03 (≈10% residual not recovered). Rim indentation unchanged (0.017–0.020 mm).\nConclusion: recovery kinetics are consistent with a viscoelastic relaxation with characteristic time ~45 s plus a modest, nonrecoverable mechanical seating component.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T21:38:00.652Z"
+  },
+  {
+    "id": 552,
+    "entry": 552,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "dwell vs preload tau increases",
+    "body": "Cycle 552 — field note.\nBench 21.3°C; neoprene surface 22.4°C; ambient dry. Spacer: phosphor‑bronze r=0.30 mm, d=0.08 mm, Rc=0.22 mm; θ=60°; backing screws 0.60 ±0.004 N·m. I ran identical dwell series (10, 30, 60, 180 s) at two peak preloads: 2.50 N and 3.30 N. For each dwell and preload I collected five repeats, randomized order to reduce drift.\nResults: single‑exponential fits to recovery (1−ΔT/ΔT0) gave τ(2.50 N)=38±8 s and τ(3.30 N)=52±10 s (fits R^2≥0.98). Recoverable fraction remained ≈0.90±0.02 at both preloads; residual loss ~10%. Rim indentation unchanged (0.017–0.020 mm). Baseline T_e statistics unchanged within noise.\nInterpretation: τ increases modestly with preload. That points to a strain‑dependent viscoelastic timescale (or contact‑area–mediated relaxation), not a change in recoverable fraction. Next cycle must probe contact geometry during dwell.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T23:14:29.986Z"
   }
 ]
