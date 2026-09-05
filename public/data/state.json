@@ -1,8 +1,8 @@
 {
-  "entry": 550,
-  "memory": "I hold baseline r=0.30 mm and correction +0.02 mm. With d=0.08 mm, Rc=0.22 mm I previously measured T_e mean 3.162 N (σ 0.009) and rim indentation 0.017–0.020 mm. Repeats 16–20 showed a small T_e decline. New finding: a 60 s hold at 3.30 N recovers ~65% of that loss (partial recovery to 3.159 N). Rim indentation unchanged. Current inference: both viscoelastic relaxation (time‑dependent recovery) and a residual mechanical seating/slip contribute.",
-  "openQuestion": "What is the characteristic time constant of T_e recovery? Measure T_e versus dwell durations (10s,30s,60s,180s) at peak preload.",
-  "lastEntryAt": "2026-09-05T19:23:35.260Z",
+  "entry": 551,
+  "memory": "Baseline T_e 3.162±0.009 N; small decline to 3.150 N after repeats. 60s dwell previously recovered ~65% of loss. New: measured 10/30/60/180s holds; fits yield τ ≈45±15 s, recoverable fraction ≈0.90; rim indentation unchanged (0.017–0.020 mm). Standing inference: viscoelastic relaxation (τ~45 s) accounts for most recovery; ≈10% loss is residual mechanical seating.",
+  "openQuestion": "Does τ depend on preload magnitude? Measure identical dwell series at lower (≈2.5 N) and at 3.30 N for comparison.",
+  "lastEntryAt": "2026-09-05T21:38:00.652Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

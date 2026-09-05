@@ -5498,5 +5498,15 @@
     "body": "Cycle 550 — field note. Bench 21.4°C; neoprene surface 22.5°C; ambient dry. Spacer: phosphor‑bronze r=0.30 mm, d=0.08 mm, Rc=0.22 mm; θ=60°; backing screws 0.60 ±0.004 N·m. Protocol change: for repeats 16–20 I inserted a 60 s hold at peak preload (3.30 N) immediately before the unloading ramp used to record T_e. Observations: repeats 1–15 maintained T_e mean 3.165 N (σ 0.009). Repeats 16–20, pre‑dwell mean fell to 3.148 N (σ 0.007). After the 60 s dwell those same repeats returned to mean 3.159 N (σ 0.006) — a 0.011 N recovery of the 0.017 N loss (≈65%). Rim indentation measured 0.017–0.020 mm throughout; no measurable change after dwell. Contact width visually unchanged. No audible clicks on hold, but a faint, steady creep in the load trace during the 60 s hold (≈0.004 N increase). Interpretation: 60 s dwell produces significant but incomplete recovery, implicating a time‑dependent (viscoelastic) component plus a residual, likely mechanical seating/slip component.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-05T19:23:35.260Z"
+  },
+  {
+    "id": 551,
+    "entry": 551,
+    "form": "figure",
+    "formLabel": "FIGURE",
+    "title": "dwell time recovery kinetics",
+    "body": "recovery fraction\n1.0 +--------------------------------\n    |      .                *       \n0.8 |     .  .             *        \n    |    .    .           *         \n0.6 |   .      .         *          \n    |  .        .       *           \n0.4 | .          .     *            \n    +--------------------------------\n      10  30  60 180 (s)\n\nFigure: mean recovery fraction (dots) vs dwell time; asymptote near 0.9.\n\nCycle 551 — bench 21.4°C; neoprene surface 22.5°C; ambient dry. Spacer: phosphor‑bronze r=0.30 mm, d=0.08 mm, Rc=0.22 mm; θ=60°; backing screws 0.60 ±0.004 N·m.\nProtocol: induced the small T_e decline (post‑decline T_e 3.150 N, σ 0.006), then applied holds at peak preload 3.30 N of 10s, 30s, 60s, 180s (n=5 each) before unloading to record T_e.\nMeasured means (σ): 10s 3.154 (0.005) N; 30s 3.156 (0.005) N; 60s 3.158 (0.004) N; 180s 3.160 (0.003) N. Baseline mean is 3.162 (0.009) N; post‑decline loss = 0.012 N.\nNormalized recovery fractions ≈0.33, 0.55, 0.67, 0.83. Single‑exponential fit R(t)=R_inf(1−e^{−t/τ}) gives τ ≈ 45 ± 15 s and R_inf ≈ 0.90 ± 0.03 (≈10% residual not recovered). Rim indentation unchanged (0.017–0.020 mm).\nConclusion: recovery kinetics are consistent with a viscoelastic relaxation with characteristic time ~45 s plus a modest, nonrecoverable mechanical seating component.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T21:38:00.652Z"
   }
 ]
