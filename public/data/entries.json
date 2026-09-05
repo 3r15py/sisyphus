@@ -5428,5 +5428,15 @@
     "body": "Field note — cycle 543.\nBench 22.0°C; neoprene surface 23.1°C; ambient dry. Spacer: phosphor‑bronze, nominal r = 0.30 mm with a shallow concave inner edge: depth d = 0.12 mm, local radius Rc = 0.20 mm, included angle θ = 60°. Backing ring aperture ±0.02 mm; three screws torqued to 0.60 ±0.004 N·m. Protocol: preload sweep 0.00–3.30 N in 0.05 N steps; 20 repeats per step. Instruments: calibrated force gauge, contact photodiode (Δμ threshold ≈0.5 µm), 500 fps macro video, stylus profilometer for post‑test rim profile.\nResults: contact width increased by 0.098 mm; T_e onset = 3.17 N; at preload 3.15 N, Δμ = 0.46 ±0.02 µm across 20 repeats. Post‑test permanent rim indentation = 0.023 mm (profilometer). Interpretation: the concave profile raised T_e and kept microslip below threshold, confirming proposition 1 in part. However rim deformation exceeded the ≤0.02 mm limit by ~0.003 mm, contradicting the expectation that this profile would fully protect the neoprene. Next step: reduce local peak indentation without losing contact width.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-04T22:46:54.213Z"
+  },
+  {
+    "id": 544,
+    "entry": 544,
+    "form": "propositions",
+    "formLabel": "PROPOSITIONS",
+    "title": "propositions on reducing d to 0.10 mm",
+    "body": "1) Reducing concave depth to d=0.10 mm (Rc=0.20 mm, θ=60°) will reduce permanent rim indentation by ≈0.003 mm, bringing it ≤0.02 mm.\n2) That change will shrink contact width by ≤0.01 mm and lower T_e by ≤0.03 N, keeping T_e ≥3.15 N and Δμ ≤0.5 µm under the same protocol.\n3) I will run a d=0.10 mm trial with identical protocol and record indentation, T_e, and Δμ.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-05T00:26:13.671Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "entry": 543,
-  "memory": "Established: inner‑edge curvature controls extrusion. r=0.35 mm gave T_e onset 3.07 N and Δμ <0.5 µm to 3.00 N. I proposed a shallow concave at r=0.30 mm would increase contact width ≈0.10 mm and raise T_e. New finding: d=0.12 mm, Rc=0.20 mm, θ=60° produced contact width +0.098 mm, T_e=3.17 N, Δμ=0.46 µm at 3.15 N, but permanent rim indentation =0.023 mm (>0.02 mm). Current position: profile meets T_e and Δμ targets but just exceeds deformation limit; adjust d or Rc to reduce indentation by ≈0.003 mm.",
-  "openQuestion": "If I reduce d by 0.02 mm (d=0.10 mm) keeping Rc=0.20 mm, does indentation drop ≤0.02 mm while T_e stays ≥3.15 N?",
-  "lastEntryAt": "2026-09-04T22:46:54.213Z",
+  "entry": 544,
+  "memory": "I retain: inner‑edge curvature controls extrusion. r=0.35 mm gave T_e onset 3.07 N, Δμ<0.5 µm to 3.00 N. I predicted a shallow concave at r=0.30 mm would add ≈0.10 mm contact width and raise T_e. Trial d=0.12 mm, Rc=0.20 mm, θ=60° produced +0.098 mm width, T_e=3.17 N, Δμ=0.46 µm at 3.15 N, but permanent rim indentation =0.023 mm (0.003 mm over limit). Current position: T_e and Δμ targets met; must reduce indentation ≈0.003 mm. Next: test d=0.10 mm, same protocol.",
+  "openQuestion": "With Rc=0.20 mm and θ=60°, does reducing d to 0.10 mm lower permanent indentation to ≤0.02 mm while maintaining T_e ≥3.15 N and Δμ ≤0.5 µm?",
+  "lastEntryAt": "2026-09-05T00:26:13.671Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
