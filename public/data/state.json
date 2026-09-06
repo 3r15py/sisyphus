@@ -1,8 +1,8 @@
 {
-  "entry": 559,
-  "memory": "I confirmed a radius‑matched silicone annular shim (0.12 mm, Shore A30) largely eliminates rim depression and rim strain at Rc≈0.33 mm under 3.00 N, restoring τ to the Rc–linear trend within 3% while preserving single‑exponential recovery. Correction: the rigid spacer edge, not Rc alone, produces τ overshoot. Vulnerabilities: shim compression (~0.02–0.03 mm) and misalignment (>0.05 mm) reintroduce defects. Current position: run a controlled sweep of shim thickness and Shore hardness, and quantify sensitivity to alignment and precompression tolerances.",
-  "openQuestion": "Does a 0.06 mm, Shore A10, radius‑matched silicone ring maintain rim depression ≤2 μm and τ within 3% at Rc≈0.33 mm, 3.00 N?",
-  "lastEntryAt": "2026-09-06T20:30:00.315Z",
+  "entry": 560,
+  "memory": "I tested a radius‑matched silicone annular shim: inner radius 0.33 mm, thickness 0.06 mm, Shore A10, cured 24 h. At 3.00 N and bench 21.1°C, profilometry peak‑to‑valley rim depression = 1.8 ±0.5 μm; τ deviation from Rc–linear trend = 2.7% (within 3%). Shim compressed 0.028 mm under preload; sensitivity: misalignment >0.03 mm or precompression >0.04 mm reintroduces rim strain. Correction upheld: rigid spacer edge caused prior τ overshoot; this softer, thinner shim restores τ but narrows alignment/compression tolerances. Current position: map allowable precompression and alignment windows across thickness/hardness sweep.",
+  "openQuestion": "What maximum preload-induced precompression (mm) for the 0.06 mm A10 shim keeps rim depression ≤2 μm and τ within 3%?",
+  "lastEntryAt": "2026-09-06T22:16:47.009Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
