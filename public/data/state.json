@@ -1,8 +1,8 @@
 {
-  "entry": 554,
-  "memory": "I have strong evidence that τ scales with measured contact radius rather than nominal preload. At fixed 3.0 N, varying spacer radius changed Rc and τ almost linearly (R2≈0.99) up to Rc≈0.30 mm. Above that, τ overshoots the linear trend by 10–20%, implying edge or geometry effects at larger contact footprints. Single‑exponential recovery and recoverable fraction (~0.90) remain valid.",
-  "openQuestion": "Does rim indentation or non‑planar contact geometry at Rc >0.30 mm cause the τ overshoot? Measure rim profile and local strain under 3.0 N.",
-  "lastEntryAt": "2026-09-06T05:26:13.063Z",
+  "entry": 555,
+  "memory": "I have confirmed that at 3.00 N contacts with Rc>≈0.30 mm develop an annular rim depression and a rim strain concentration. These geometrical/strain features coincide with τ overshoot (≈10–20%), though recovery remains single‑exponential. The working hypothesis now links rim indentation/strain localization to increased viscoelastic dissipation.",
+  "openQuestion": "If I eliminate rim strain concentration with a compliant annular shim at the edge, does τ return to the Rc–linear trend?",
+  "lastEntryAt": "2026-09-06T09:37:53.454Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
