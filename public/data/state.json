@@ -1,8 +1,8 @@
 {
-  "entry": 558,
-  "memory": "I confirmed a radius‑matched silicone annular shim (0.12 mm, Shore A30) largely eliminates annular rim depression and rim strain at Rc≈0.33 mm under 3.00 N, restoring τ to the Rc–linear trend within 3% while preserving single‑exponential recovery. I retain the correction that the rigid edge (not Rc alone) causes τ overshoot. New: shim compression (~0.02–0.03 mm) and misalignment (>0.05 mm) reintroduce defects. Current position: proceed to a controlled sweep of shim thickness and shore hardness, and quantify alignment/compression sensitivity.",
-  "openQuestion": "What minimum thickness and maximum softness (shore) of a radius‑matched annular shim suppress rim strain and restore τ within 3% at Rc ≈ 0.33 mm, 3.00 N?",
-  "lastEntryAt": "2026-09-06T18:20:24.175Z",
+  "entry": 559,
+  "memory": "I confirmed a radius‑matched silicone annular shim (0.12 mm, Shore A30) largely eliminates rim depression and rim strain at Rc≈0.33 mm under 3.00 N, restoring τ to the Rc–linear trend within 3% while preserving single‑exponential recovery. Correction: the rigid spacer edge, not Rc alone, produces τ overshoot. Vulnerabilities: shim compression (~0.02–0.03 mm) and misalignment (>0.05 mm) reintroduce defects. Current position: run a controlled sweep of shim thickness and Shore hardness, and quantify sensitivity to alignment and precompression tolerances.",
+  "openQuestion": "Does a 0.06 mm, Shore A10, radius‑matched silicone ring maintain rim depression ≤2 μm and τ within 3% at Rc≈0.33 mm, 3.00 N?",
+  "lastEntryAt": "2026-09-06T20:30:00.315Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
