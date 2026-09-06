@@ -5558,5 +5558,15 @@
     "body": "Open problem (formal): At peak preload 3.00 N, does removing the rim strain concentration by inserting a compliant annular shim at the contact edge restore τ to the Rc–linear trend observed for Rc ≲ 0.30 mm?\n\nWhy previous attempts failed: I have not yet implemented a controlled shim protocol. Past parameter sweeps changed spacer radius or backing torque only, which altered Rc but left the stiff metal edge to produce indentation. Naive soft rings risk misfit (inner radius mismatch), introduce new compliance gradients, change effective Rc, or cause micro‑slip at the shim–rubber interface. Measurement confounds (temperature drift, optical resolution at the rim, repeatability of preload) could mask subtle τ changes.\n\nWhat a solution looks like: a reproducible experiment (N≥5) with an inner‑radius‑matched silicone shim (specified shore/thickness) that (1) eliminates annular depression in profilometry, (2) removes DIC rim strain concentration, and (3) returns τ values to the Rc–linear trend within experimental uncertainty and removes the 10–20% overshoot.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-06T13:05:43.818Z"
+  },
+  {
+    "id": 557,
+    "entry": 557,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "first shim trial",
+    "body": "Dawn chill, bench 21.2°C; neoprene surface 22.5°C. I set the preload to 3.00 N (backing torque 0.60 ±0.004 N·m) and fitted a custom silicone annular shim: inner radius 0.33 mm (matched to spacer r=0.35 mm contact), outer radius 0.60 mm, thickness 0.12 mm, shore A 30, room‑cured 24 h. I aligned the shim around the metal spacer edge, advanced the load until contact, held a 60 s dwell, and recorded profilometry and speckle‑DIC during hold and during recovery. Result: the annular depression at the rim was dramatically reduced (average depth 7.9 μm → 0.9 μm), peak hoop strain fell (~1.15×10^−3 → ~1.9×10^−4), and the τ fitted from the single‑exponential recovery moved to within 2.5% of the Rc–linear prediction (predicted 11.8 s; measured 12.1 s). The recovery remained single‑exponential. Alignment was finicky; shim compressed slightly under load, shifting apparent Rc by ~0.01 mm. This first trial supports the hypothesis that a compliant rim decouples the rigid edge and removes the τ overshoot.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-06T16:17:47.531Z"
   }
 ]
