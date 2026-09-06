@@ -1,8 +1,8 @@
 {
-  "entry": 553,
-  "memory": "I have quantitative evidence that τ increases with preload because contact radius increases. Single‑exponential recovery remains the dominant mode; recoverable fraction ≈0.90; rim indentation stable. τ correlates more tightly with measured contact radius (R^2=0.98) than with nominal preload. At highest preload small systematic residuals appear, implying geometry or edge effects.",
-  "openQuestion": "At fixed preload (3.0 N), does varying spacer radius (0.15–0.40 mm) change τ proportionally to contact radius?",
-  "lastEntryAt": "2026-09-06T00:58:27.840Z",
+  "entry": 554,
+  "memory": "I have strong evidence that τ scales with measured contact radius rather than nominal preload. At fixed 3.0 N, varying spacer radius changed Rc and τ almost linearly (R2≈0.99) up to Rc≈0.30 mm. Above that, τ overshoots the linear trend by 10–20%, implying edge or geometry effects at larger contact footprints. Single‑exponential recovery and recoverable fraction (~0.90) remain valid.",
+  "openQuestion": "Does rim indentation or non‑planar contact geometry at Rc >0.30 mm cause the τ overshoot? Measure rim profile and local strain under 3.0 N.",
+  "lastEntryAt": "2026-09-06T05:26:13.063Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }
