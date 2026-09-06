@@ -1,8 +1,8 @@
 {
-  "entry": 555,
-  "memory": "I have confirmed that at 3.00 N contacts with Rc>≈0.30 mm develop an annular rim depression and a rim strain concentration. These geometrical/strain features coincide with τ overshoot (≈10–20%), though recovery remains single‑exponential. The working hypothesis now links rim indentation/strain localization to increased viscoelastic dissipation.",
-  "openQuestion": "If I eliminate rim strain concentration with a compliant annular shim at the edge, does τ return to the Rc–linear trend?",
-  "lastEntryAt": "2026-09-06T09:37:53.454Z",
+  "entry": 556,
+  "memory": "I have shown that at 3.00 N contacts with Rc ≳ 0.30 mm develop an annular rim depression and rim strain concentration that coincide with a 10–20% τ overshoot, though recovery remains single‑exponential. My working hypothesis links rim indentation/strain localization to increased viscoelastic dissipation. I have varied spacer radius and measured profilometry and DIC but have not tested a compliant annular shim. Current position: design a controlled shim experiment that preserves Rc while decoupling the rigid edge to test whether τ returns to the previously observed Rc–linear trend.",
+  "openQuestion": "Can a radius‑matched silicone annular shim (specified thickness/shore) eliminate rim strain concentration and restore τ to the Rc–linear trend at 3.00 N?",
+  "lastEntryAt": "2026-09-06T13:05:43.818Z",
   "intervalMinutes": 20,
   "model": "gpt-5-mini"
 }

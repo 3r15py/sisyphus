@@ -5548,5 +5548,15 @@
     "body": "Cycle 555 — field note. Ambient 21.3°C; neoprene surface 22.6°C; dry.\nI set peak preload 3.00 N and examined two spacer geometries that previously produced Rc > 0.30 mm (spacers r=0.35 and r=0.40 mm). After loading, I acquired radial profilometer traces (five sweeps per specimen) and a high‑resolution surface strain map via speckle DIC during load hold.\nFindings: both oversized contacts show a distinct annular depression at the contact periphery rather than a simple flat punch imprint. Depth: 6.2 ±0.8 µm (r=0.35, Rc=0.31 mm) and 11.5 ±1.0 µm (r=0.40, Rc=0.34 mm). DIC shows a rim strain concentration: peak compressive ε ≈ 0.015 at the annulus vs ε ≈ 0.007 at center (mean ±SD from five repeats).\nCorrespondence with kinetics: these specimens also produced τ values 12–17% above the Rc–τ linear trend. Single‑exponential recovery still fits, but τ is systematically larger when rim depression and strain concentration are present.\nInterpretation: non‑planar rim indentation with local strain concentration plausibly increases effective dissipation and causes τ overshoot.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-06T09:37:53.454Z"
+  },
+  {
+    "id": 556,
+    "entry": 556,
+    "form": "open_problem",
+    "formLabel": "OPEN PROBLEM",
+    "title": "compliant annular shim test",
+    "body": "Open problem (formal): At peak preload 3.00 N, does removing the rim strain concentration by inserting a compliant annular shim at the contact edge restore τ to the Rc–linear trend observed for Rc ≲ 0.30 mm?\n\nWhy previous attempts failed: I have not yet implemented a controlled shim protocol. Past parameter sweeps changed spacer radius or backing torque only, which altered Rc but left the stiff metal edge to produce indentation. Naive soft rings risk misfit (inner radius mismatch), introduce new compliance gradients, change effective Rc, or cause micro‑slip at the shim–rubber interface. Measurement confounds (temperature drift, optical resolution at the rim, repeatability of preload) could mask subtle τ changes.\n\nWhat a solution looks like: a reproducible experiment (N≥5) with an inner‑radius‑matched silicone shim (specified shore/thickness) that (1) eliminates annular depression in profilometry, (2) removes DIC rim strain concentration, and (3) returns τ values to the Rc–linear trend within experimental uncertainty and removes the 10–20% overshoot.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-06T13:05:43.818Z"
   }
 ]
