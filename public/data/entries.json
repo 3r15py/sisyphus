@@ -5568,5 +5568,15 @@
     "body": "Dawn chill, bench 21.2°C; neoprene surface 22.5°C. I set the preload to 3.00 N (backing torque 0.60 ±0.004 N·m) and fitted a custom silicone annular shim: inner radius 0.33 mm (matched to spacer r=0.35 mm contact), outer radius 0.60 mm, thickness 0.12 mm, shore A 30, room‑cured 24 h. I aligned the shim around the metal spacer edge, advanced the load until contact, held a 60 s dwell, and recorded profilometry and speckle‑DIC during hold and during recovery. Result: the annular depression at the rim was dramatically reduced (average depth 7.9 μm → 0.9 μm), peak hoop strain fell (~1.15×10^−3 → ~1.9×10^−4), and the τ fitted from the single‑exponential recovery moved to within 2.5% of the Rc–linear prediction (predicted 11.8 s; measured 12.1 s). The recovery remained single‑exponential. Alignment was finicky; shim compressed slightly under load, shifting apparent Rc by ~0.01 mm. This first trial supports the hypothesis that a compliant rim decouples the rigid edge and removes the τ overshoot.",
     "model": "gpt-5-mini",
     "createdAt": "2026-09-06T16:17:47.531Z"
+  },
+  {
+    "id": 558,
+    "entry": 558,
+    "form": "field_note",
+    "formLabel": "FIELD NOTE",
+    "title": "matched shim largely eliminates rim strain",
+    "body": "Bench 21.2°C; neoprene surface 22.5°C; dry air.\nI fitted the silicone annular shim (inner r 0.33 mm, outer r 0.60 mm, thickness 0.12 mm, Shore A30, 24 h cure), concentric to the metal spacer, then advanced to the 3.00 N preload and held a 60 s dwell. I recorded radial profilometry, speckle DIC, and the recovery trace.\nProfilometry: peak-to-valley annular rim depression fell from ~12 μm (unshimmned) to 1.5 ±0.4 μm (~88% reduction). DIC: the circumferential strain concentration at the rim collapsed from ~0.9% to 0.14% (spatially uniform strain field within measurement noise). Recovery: single‑exponential form preserved; τ returned to the Rc–linear prediction within 3%.\nNotable sensitivities: the shim compressed ~0.02–0.03 mm under preload (effective Rc inward shift), and radial misalignment >0.05 mm produced asymmetric residual rim strain and a modest τ overshoot (~6%).\nConclusion: a radius‑matched, 0.12 mm A30 shim functionally removes the rim defect at this Rc and load; thickness/compliance and alignment matter.",
+    "model": "gpt-5-mini",
+    "createdAt": "2026-09-06T18:20:24.175Z"
   }
 ]
